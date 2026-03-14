@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import tools from '../../data/tools.json';
+
+export function getStaticPaths() {
+  return tools.map((tool) => ({
+    params: { tool: tool.slug },
+    props: { currentTool: tool },
+  }));
+}
+
+const { currentTool } = Astro.props;
+
+// Find tools in the same categories
+const alternatives = tools.filter(
+  (t) =>
+    t.id !== currentTool.id &&
+    t.category.some((c) => currentTool.category.includes(c))
+);
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+const pageTitle = `Best ${currentTool.name} Alternatives in 2026`;
+const pageDescription = `Looking for ${currentTool.name} alternatives? Compare ${alternatives.length} similar tools with features, pricing, and reviews.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="alternatives-header">
+    <h1>Best {currentTool.name} Alternatives</h1>
+    <p style="color: var(--gray-600); margin-top: 0.5rem; font-size: 1.1rem;">
+      {alternatives.length} tools that can replace or complement {currentTool.name}
+    </p>
+  </div>
+
+  <!-- Price Comparison Table -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <h2 style="margin-bottom: 1.5rem;">Pricing Comparison</h2>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Free Plan</th>
+            <th>Starting Price</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="feature-label">{currentTool.name}</td>
+            <td class={currentTool.pricing.free ? 'check' : 'cross'}>{currentTool.pricing.free ? '✓ Yes' : '✗ No'}</td>
+            <td>{formatPrice(currentTool.pricing)}</td>
+            <td>★ {currentTool.rating}</td>
+          </tr>
+          {alternatives.map((alt) => (
+            <tr>
+              <td class="feature-label">
+                <a href={`/alternatives/${alt.slug}/`}>{alt.name}</a>
+              </td>
+              <td class={alt.pricing.free ? 'check' : 'cross'}>{alt.pricing.free ? '✓ Yes' : '✗ No'}</td>
+              <td>{formatPrice(alt.pricing)}</td>
+              <td>★ {alt.rating}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Alternatives Grid -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 style="margin-bottom: 1.5rem;">All {currentTool.name} Alternatives</h2>
+      <div class="alternatives-grid" style="padding: 0;">
+        {alternatives.map((alt) => (
+          <a href={`/compare/${[currentTool.slug, alt.slug].sort().join('-vs-')}/`} style="text-decoration: none; color: inherit;">
+            <ToolCard tool={alt} />
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Not Sure Which to Pick?</h2>
+        <p>Compare {currentTool.name} against any alternative side-by-side.</p>
+        {alternatives.length > 0 && (
+          <a href={`/compare/${[currentTool.slug, alternatives[0].slug].sort().join('-vs-')}/`} class="btn-primary">
+            Compare {currentTool.name} vs {alternatives[0].name} &rarr;
+          </a>
+        )}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

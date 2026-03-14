@@ -1,0 +1,51 @@
+---
+interface Tool {
+  id: string;
+  name: string;
+  slug: string;
+  category: string[];
+  pricing: Record<string, number | boolean | null>;
+  currency: string;
+  pricingModel: string;
+  description: string;
+  pros: string[];
+  cons: string[];
+  bestFor: string[];
+  features: string[];
+  website: string;
+  affiliateUrl: string;
+  rating: number;
+  yearFounded: number;
+}
+
+interface Props {
+  tool: Tool;
+}
+
+const { tool } = Astro.props;
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) {
+    return pricing.free ? 'Free' : 'Contact sales';
+  }
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+---
+
+<div class="card">
+  <div class="card-header">
+    <div>
+      <div class="card-title">{tool.name}</div>
+    </div>
+  </div>
+  <p class="card-description">{tool.description}</p>
+  <div class="card-meta">
+    <span class="card-rating">★ {tool.rating}</span>
+    <span class="card-price">{formatPrice(tool.pricing)}</span>
+    {tool.category.slice(0, 2).map((cat) => (
+      <span class="card-tag">{cat.replace(/-/g, ' ')}</span>
+    ))}
+  </div>
+</div>

@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ToolCard from '../components/ToolCard.astro';
+import tools from '../data/tools.json';
+import categories from '../data/categories.json';
+import { getCollection } from 'astro:content';
+
+const allPosts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const latestPosts = allPosts.slice(0, 6);
+
+const popularComparisons = [
+  { slugA: 'notion', slugB: 'clickup', nameA: 'Notion', nameB: 'ClickUp' },
+  { slugA: 'chatgpt', slugB: 'claude', nameA: 'ChatGPT', nameB: 'Claude' },
+  { slugA: 'canva', slugB: 'figma', nameA: 'Canva', nameB: 'Figma' },
+  { slugA: 'asana', slugB: 'monday', nameA: 'Asana', nameB: 'Monday.com' },
+  { slugA: 'slack', slugB: 'monday', nameA: 'Slack', nameB: 'Monday.com' },
+];
+---
+
+<BaseLayout
+  title="AIToolPick — Find the Perfect Tool for Your Workflow"
+  description="Compare AI and productivity tools side-by-side. Honest reviews, pricing breakdowns, and feature comparisons to help you pick the right tool."
+>
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Find the <span class="highlight">Perfect Tool</span> for Your Workflow</h1>
+    <p>Compare features, pricing, and reviews across 20+ top productivity and AI tools.</p>
+    <div class="hero-search">
+      <input type="text" placeholder="Search tools... (e.g., Notion, ChatGPT)" disabled />
+      <span class="hero-search-icon">&#128269;</span>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Browse by Category</h2>
+      <p class="section-subtitle">Find tools organized by what you need to get done.</p>
+      <div class="category-grid">
+        {categories.map((cat) => {
+          const firstTool = tools.find(t => t.category.includes(cat.id));
+          return (
+            <a href={firstTool ? `/alternatives/${firstTool.slug}/` : '#'} class="category-card">
+              <span class="icon">{cat.icon}</span>
+              <span class="label">{cat.name}</span>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Comparisons -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Popular Comparisons</h2>
+      <p class="section-subtitle">See how the top tools stack up against each other.</p>
+      <div class="comparison-links">
+        {popularComparisons.map((comp) => (
+          <a href={`/compare/${comp.slugA}-vs-${comp.slugB}/`} class="comparison-link">
+            <span>{comp.nameA} vs {comp.nameB}</span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
+  {latestPosts.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Latest Articles</h2>
+        <p class="section-subtitle">Tips, guides, and insights on the best tools.</p>
+        <div class="post-grid">
+          {latestPosts.map((post) => (
+            <a href={`/blog/${post.id}/`} class="post-card" style="text-decoration: none; color: inherit;">
+              <div class="post-card-image"></div>
+              <div class="post-card-body">
+                <p class="post-card-date">
+                  {post.data.pubDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </p>
+                <h3 class="post-card-title">{post.data.title}</h3>
+                <p class="post-card-excerpt">{post.data.description}</p>
+                {post.data.tags && (
+                  <div class="post-card-tags">
+                    {post.data.tags.slice(0, 3).map((tag: string) => (
+                      <span class="card-tag">{tag}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Ready to Find Your Perfect Tool?</h2>
+        <p>Compare features, pricing, and reviews side by side to make the right choice.</p>
+        <a href="/compare/notion-vs-clickup/" class="btn-primary">Start Comparing &rarr;</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

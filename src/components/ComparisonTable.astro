@@ -1,0 +1,132 @@
+---
+interface Tool {
+  id: string;
+  name: string;
+  slug: string;
+  category: string[];
+  pricing: Record<string, number | boolean | null>;
+  currency: string;
+  pricingModel: string;
+  description: string;
+  pros: string[];
+  cons: string[];
+  bestFor: string[];
+  features: string[];
+  website: string;
+  affiliateUrl: string;
+  rating: number;
+  yearFounded: number;
+}
+
+interface Props {
+  toolA: Tool;
+  toolB: Tool;
+}
+
+const { toolA, toolB } = Astro.props;
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) {
+    return pricing.free ? 'Free only' : 'Contact sales';
+  }
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / from $${lowest}/mo` : `From $${lowest}/mo`;
+}
+
+function hasFree(pricing: Record<string, number | boolean | null>): boolean {
+  return pricing.free === true;
+}
+
+const allFeatures = [...new Set([...toolA.features, ...toolB.features])];
+---
+
+<div class="comparison-header">
+  <div class="comparison-tool">
+    <h2>{toolA.name}</h2>
+    <span class="rating">{'★'.repeat(Math.round(toolA.rating))} {toolA.rating}</span>
+  </div>
+  <span class="comparison-vs">VS</span>
+  <div class="comparison-tool">
+    <h2>{toolB.name}</h2>
+    <span class="rating">{'★'.repeat(Math.round(toolB.rating))} {toolB.rating}</span>
+  </div>
+</div>
+
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>{toolA.name}</th>
+      <th>{toolB.name}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="feature-label">Pricing</td>
+      <td>{formatPrice(toolA.pricing)}</td>
+      <td>{formatPrice(toolB.pricing)}</td>
+    </tr>
+    <tr>
+      <td class="feature-label">Free Plan</td>
+      <td class={hasFree(toolA.pricing) ? 'check' : 'cross'}>{hasFree(toolA.pricing) ? '✓ Yes' : '✗ No'}</td>
+      <td class={hasFree(toolB.pricing) ? 'check' : 'cross'}>{hasFree(toolB.pricing) ? '✓ Yes' : '✗ No'}</td>
+    </tr>
+    <tr>
+      <td class="feature-label">Rating</td>
+      <td>{toolA.rating} / 5</td>
+      <td>{toolB.rating} / 5</td>
+    </tr>
+    <tr>
+      <td class="feature-label">Best For</td>
+      <td>{toolA.bestFor.join(', ')}</td>
+      <td>{toolB.bestFor.join(', ')}</td>
+    </tr>
+    <tr>
+      <td class="feature-label">Founded</td>
+      <td>{toolA.yearFounded}</td>
+      <td>{toolB.yearFounded}</td>
+    </tr>
+    {allFeatures.map((feature) => (
+      <tr>
+        <td class="feature-label">{feature.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}</td>
+        <td class={toolA.features.includes(feature) ? 'check' : 'cross'}>
+          {toolA.features.includes(feature) ? '✓' : '✗'}
+        </td>
+        <td class={toolB.features.includes(feature) ? 'check' : 'cross'}>
+          {toolB.features.includes(feature) ? '✓' : '✗'}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+<div class="pros-cons">
+  <div class="pros-list">
+    <h3>✓ {toolA.name} Pros</h3>
+    <ul>
+      {toolA.pros.map((pro) => <li>{pro}</li>)}
+    </ul>
+  </div>
+  <div class="cons-list">
+    <h3>✗ {toolA.name} Cons</h3>
+    <ul>
+      {toolA.cons.map((con) => <li>{con}</li>)}
+    </ul>
+  </div>
+</div>
+
+<div class="pros-cons">
+  <div class="pros-list">
+    <h3>✓ {toolB.name} Pros</h3>
+    <ul>
+      {toolB.pros.map((pro) => <li>{pro}</li>)}
+    </ul>
+  </div>
+  <div class="cons-list">
+    <h3>✗ {toolB.name} Cons</h3>
+    <ul>
+      {toolB.cons.map((con) => <li>{con}</li>)}
+    </ul>
+  </div>
+</div>

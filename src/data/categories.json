@@ -1,0 +1,15 @@
+[
+  { "id": "project-management", "name": "Project Management", "slug": "project-management", "icon": "📋" },
+  { "id": "task-management", "name": "Task Management", "slug": "task-management", "icon": "✅" },
+  { "id": "note-taking", "name": "Note Taking", "slug": "note-taking", "icon": "📝" },
+  { "id": "knowledge-management", "name": "Knowledge Management", "slug": "knowledge-management", "icon": "🧠" },
+  { "id": "design", "name": "Design", "slug": "design", "icon": "🎨" },
+  { "id": "ai", "name": "AI Tools", "slug": "ai", "icon": "🤖" },
+  { "id": "writing", "name": "Writing", "slug": "writing", "icon": "✍️" },
+  { "id": "communication", "name": "Communication", "slug": "communication", "icon": "💬" },
+  { "id": "automation", "name": "Automation", "slug": "automation", "icon": "⚡" },
+  { "id": "budgeting", "name": "Budgeting", "slug": "budgeting", "icon": "💰" },
+  { "id": "database", "name": "Database", "slug": "database", "icon": "🗄️" },
+  { "id": "no-code", "name": "No-Code", "slug": "no-code", "icon": "🔧" },
+  { "id": "whiteboard", "name": "Whiteboard", "slug": "whiteboard", "icon": "🖼️" }
+]
