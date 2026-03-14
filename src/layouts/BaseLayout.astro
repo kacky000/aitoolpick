@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 interface Props {
   title: string;
   description: string;
@@ -61,7 +63,6 @@ const jsonLd = JSON.stringify({
   <script type="application/ld+json" set:html={jsonLd} />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="/src/styles/global.css" />
 </head>
 <body>
   <nav class="nav">
