@@ -50,9 +50,9 @@ const jsonLd = JSON.stringify({
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
 
-  <!-- GA4 (replace G-C4Q09JKCBL with your ID) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C4Q09JKCBL"></script>
-  <script>
+  <!-- GA4 -->
+  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-C4Q09JKCBL"></script>
+  <script is:inline>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
