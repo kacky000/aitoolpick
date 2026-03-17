@@ -2,6 +2,7 @@
 title: "7 Best Notion Alternatives in 2026 (Free & Paid Options)"
 description: "Looking for a Notion alternative? We compare the top 7 tools for notes, project management, and team wikis — with honest pros, cons, and pricing."
 pubDate: "2026-03-17"
+heroImage: "/thumbs/best-notion-alternatives.png"
 tags: ["notion", "alternatives", "productivity", "note-taking"]
 ---
 

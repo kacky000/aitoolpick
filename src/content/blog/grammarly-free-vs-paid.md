@@ -2,6 +2,7 @@
 title: "Grammarly Free vs Paid: What Do You Actually Get?"
 description: "Is Grammarly Premium worth upgrading from the free plan? We break down exactly what features you unlock and whether the $12/month is justified."
 pubDate: "2026-03-17"
+heroImage: "/thumbs/grammarly-free-vs-paid.png"
 tags: ["grammarly", "writing", "review", "comparison"]
 ---
 

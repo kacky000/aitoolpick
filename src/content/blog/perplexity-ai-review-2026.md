@@ -2,6 +2,7 @@
 title: "Perplexity AI Review: Is It Worth It in 2026?"
 description: "An honest Perplexity AI review for 2026. We cover the free plan, Pro features, pricing, and whether it's worth $20/month compared to ChatGPT and Google."
 pubDate: "2026-03-17"
+heroImage: "/thumbs/perplexity-ai-review.png"
 tags: ["perplexity", "ai", "review", "search"]
 ---
 

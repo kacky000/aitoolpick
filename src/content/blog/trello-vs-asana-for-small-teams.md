@@ -2,6 +2,7 @@
 title: "Trello vs Asana for Small Teams: Which Is Better in 2026?"
 description: "Trello vs Asana for small teams — we compare free plans, ease of use, features, and workflow fit to help you choose the right project management tool."
 pubDate: "2026-03-17"
+heroImage: "/thumbs/trello-vs-asana.png"
 tags: ["trello", "asana", "comparison", "small-teams", "project-management"]
 ---
 

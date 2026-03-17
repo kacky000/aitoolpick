@@ -2,6 +2,7 @@
 title: "Notion vs ClickUp: Which Is Better in 2026? (Honest Comparison)"
 description: "Notion vs ClickUp — we compare pricing, features, ease of use, and more to help you decide which all-in-one workspace is right for your team."
 pubDate: "2026-03-12"
+heroImage: "/thumbs/notion-vs-clickup.png"
 tags: ["notion", "clickup", "comparison", "project-management"]
 ---
 

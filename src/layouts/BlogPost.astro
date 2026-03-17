@@ -21,17 +21,17 @@ const articleJsonLd = JSON.stringify({
   author: {
     '@type': 'Organization',
     name: 'AIToolPick',
-    url: 'https://aitoolpick.com',
+    url: 'https://aitoolpick.vercel.app',
   },
   publisher: {
     '@type': 'Organization',
     name: 'AIToolPick',
-    url: 'https://aitoolpick.com',
+    url: 'https://aitoolpick.vercel.app',
   },
-  image: heroImage ? new URL(heroImage, 'https://aitoolpick.com').toString() : undefined,
+  image: heroImage ? new URL(heroImage, 'https://aitoolpick.vercel.app').toString() : undefined,
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': new URL(Astro.url.pathname, 'https://aitoolpick.com').toString(),
+    '@id': new URL(Astro.url.pathname, 'https://aitoolpick.vercel.app').toString(),
   },
 });
 

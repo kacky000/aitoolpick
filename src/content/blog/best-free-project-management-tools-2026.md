@@ -2,6 +2,7 @@
 title: "Best Free Project Management Tools in 2026 (No Credit Card Required)"
 description: "Discover the best free project management tools in 2026. We compare free plans from ClickUp, Asana, Trello, Notion, and more — with honest limits explained."
 pubDate: "2026-03-17"
+heroImage: "/thumbs/best-free-pm-tools.png"
 tags: ["project-management", "free-tools", "productivity", "comparison"]
 ---
 
