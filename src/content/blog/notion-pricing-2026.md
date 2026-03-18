@@ -3,6 +3,7 @@ title: "Notion Pricing 2026: Complete Breakdown & Which Plan You Need"
 description: "Notion pricing explained for 2026 — Free, Plus, Business, and Enterprise plans compared. Find out which plan is right for you and how to save money."
 pubDate: "2026-03-18"
 tags: ["notion", "pricing", "productivity", "comparison"]
+heroImage: "/thumbs/notion-pricing-2026.png"
 ---
 
 Notion has become one of the most popular productivity tools in the world, but understanding its pricing can be confusing. With four plans, AI add-ons, and various discounts, it's hard to know which option gives you the best value. Here's the complete breakdown for 2026.
