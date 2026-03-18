@@ -148,7 +148,7 @@
     "name": "Linear",
     "slug": "linear",
     "category": ["project-management", "issue-tracking"],
-    "pricing": { "free": true, "basic": 8, "business": 12, "enterprise": null },
+    "pricing": { "free": true, "basic": 8, "business": 16, "enterprise": null },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
     "description": "Streamlined issue tracking built for modern software teams.",
