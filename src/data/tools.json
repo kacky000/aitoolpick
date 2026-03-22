@@ -4,7 +4,7 @@
     "name": "Notion",
     "slug": "notion",
     "category": ["project-management", "note-taking", "wiki"],
-    "pricing": { "free": true, "starter": 10, "business": 18, "enterprise": null },
+    "pricing": { "free": true, "plus": 10, "business": 18, "enterprise": null },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
     "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
