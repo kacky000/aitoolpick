@@ -2,6 +2,7 @@
 title: "Figma Pricing 2026: Complete Breakdown of Every Plan"
 description: "Detailed guide to Figma pricing in 2026. Compare Free, Professional, Organization, and Enterprise plans to find the best fit for your design team."
 pubDate: "2026-03-21"
+heroImage: "/thumbs/figma-pricing-2026.png"
 tags: ["figma", "pricing", "design", "comparison"]
 ---
 

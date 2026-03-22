@@ -2,6 +2,7 @@
 title: "8 Best Trello Alternatives in 2026 (Free and Paid Options)"
 description: "Looking for a Trello alternative? We compare the best options in 2026 including Notion, ClickUp, Asana, and more. Find the right tool for your workflow."
 pubDate: "2026-03-20"
+heroImage: "/thumbs/best-trello-alternatives-2026.png"
 tags: ["trello", "alternatives", "project-management", "kanban", "comparison"]
 ---
 

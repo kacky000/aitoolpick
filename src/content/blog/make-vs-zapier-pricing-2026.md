@@ -2,6 +2,7 @@
 title: "Make vs Zapier Pricing 2026: Which Automation Tool Saves You More?"
 description: "A detailed pricing comparison of Make and Zapier in 2026. See which automation platform offers better value for your workflows and budget."
 pubDate: "2026-03-21"
+heroImage: "/thumbs/make-vs-zapier-pricing-2026.png"
 tags: ["make", "zapier", "pricing", "automation", "comparison"]
 ---
 

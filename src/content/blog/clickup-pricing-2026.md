@@ -2,6 +2,7 @@
 title: "ClickUp Pricing 2026: Complete Breakdown (Free vs Paid Plans)"
 description: "A detailed breakdown of ClickUp's pricing plans in 2026. Compare Free, Unlimited, Business, and Enterprise tiers to find the best value for your team."
 pubDate: "2026-03-20"
+heroImage: "/thumbs/clickup-pricing-2026.png"
 tags: ["clickup", "pricing", "project-management", "comparison"]
 ---
 

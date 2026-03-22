@@ -2,6 +2,7 @@
 title: "Slack Pricing 2026: Complete Plan Breakdown and Comparison"
 description: "Full breakdown of Slack's 2026 pricing plans. Compare Free, Pro, Business+, and Enterprise Grid to find the right plan for your team size and budget."
 pubDate: "2026-03-21"
+heroImage: "/thumbs/slack-pricing-2026.png"
 tags: ["slack", "pricing", "team-communication", "comparison"]
 ---
 
