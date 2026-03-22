@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel';
 
 export default defineConfig({
-  site: 'https://aitoolpick.vercel.app',
+  site: 'https://aitoolpick.org',
   integrations: [
     mdx(),
     sitemap({
