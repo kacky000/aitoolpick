@@ -2,7 +2,7 @@
 title: "Obsidian vs Evernote in 2026: The Note-Taking Showdown"
 description: "Compare Obsidian and Evernote for note-taking in 2026. Local-first vs cloud, pricing, features, and which app deserves your notes."
 pubDate: "2026-03-19"
-heroImage: "/thumbs/obsidian-vs-evernote-2026.png"
+heroImage: "/thumbs/obsidian-vs-evernote-2026.jpg"
 tags: ["obsidian", "evernote", "note-taking", "comparison"]
 ---
 

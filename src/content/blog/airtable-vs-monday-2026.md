@@ -2,7 +2,7 @@
 title: "Airtable vs Monday.com: Database Power vs Visual Workflows"
 description: "Compare Airtable and Monday.com for project management and data organization. Features, pricing, and which tool fits your team in 2026."
 pubDate: "2026-03-19"
-heroImage: "/thumbs/airtable-vs-monday-2026.png"
+heroImage: "/thumbs/airtable-vs-monday-2026.jpg"
 tags: ["airtable", "monday", "comparison", "project-management", "database"]
 ---
 

@@ -2,7 +2,7 @@
 title: "10 Best Collaboration Tools for Remote Teams in 2026"
 description: "Discover the best collaboration tools for remote teams in 2026. From communication to project management, find the right tools to keep your distributed team productive."
 pubDate: "2026-03-20"
-heroImage: "/thumbs/best-collaboration-tools-remote-teams-2026.png"
+heroImage: "/thumbs/best-collaboration-tools-remote-teams-2026.jpg"
 tags: ["collaboration", "remote-work", "tools", "communication", "productivity"]
 ---
 

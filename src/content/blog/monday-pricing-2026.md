@@ -3,6 +3,7 @@ title: "Monday.com Pricing 2026: Complete Breakdown by Plan"
 description: "Full breakdown of Monday.com pricing in 2026. Compare Free, Basic ($9), Standard ($12), Pro ($19), and Enterprise plans with real costs."
 pubDate: "2026-03-22"
 tags: ["monday", "pricing", "project-management"]
+heroImage: "/thumbs/monday-pricing-2026.jpg"
 ---
 
 # Monday.com Pricing 2026: Complete Breakdown by Plan

@@ -2,7 +2,7 @@
 title: "ChatGPT vs Perplexity AI: Which AI Tool Should You Use?"
 description: "Compare ChatGPT and Perplexity AI for research, writing, and daily use. Find out which AI assistant fits your needs in 2026."
 pubDate: "2026-03-19"
-heroImage: "/thumbs/chatgpt-vs-perplexity-ai-2026.png"
+heroImage: "/thumbs/chatgpt-vs-perplexity-ai-2026.jpg"
 tags: ["chatgpt", "perplexity", "ai", "comparison"]
 ---
 

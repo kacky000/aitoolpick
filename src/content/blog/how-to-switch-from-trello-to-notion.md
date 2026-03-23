@@ -2,7 +2,7 @@
 title: "How to Switch from Trello to Notion: Complete Migration Guide"
 description: "Step-by-step guide to migrating from Trello to Notion. Learn how to export boards, recreate workflows, and set up Notion databases to replace Trello."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/how-to-switch-from-trello-to-notion.png"
+heroImage: "/thumbs/how-to-switch-from-trello-to-notion.jpg"
 tags: ["trello", "notion", "migration", "project-management"]
 ---
 

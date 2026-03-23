@@ -3,6 +3,7 @@ title: "Obsidian Review 2026: Is It Worth Switching To?"
 description: "Comprehensive Obsidian review for 2026. Explore features, pros and cons, pricing, and whether this local-first note-taking app is right for you."
 pubDate: "2026-03-22"
 tags: ["obsidian", "review", "note-taking"]
+heroImage: "/thumbs/obsidian-review-2026.jpg"
 ---
 
 # Obsidian Review 2026: Is It Worth Switching To?

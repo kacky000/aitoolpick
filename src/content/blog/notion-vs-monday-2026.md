@@ -2,7 +2,7 @@
 title: "Notion vs Monday.com: Which Is Better in 2026?"
 description: "An in-depth comparison of Notion and Monday.com in 2026. We compare features, pricing, ease of use, and ideal use cases to help you choose."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/notion-vs-monday-2026.png"
+heroImage: "/thumbs/notion-vs-monday-2026.jpg"
 tags: ["notion", "monday", "comparison", "project-management"]
 ---
 

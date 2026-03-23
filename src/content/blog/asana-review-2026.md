@@ -2,7 +2,7 @@
 title: "Asana Review 2026: Is It Still Worth It for Team Project Management?"
 description: "An honest Asana review covering features, pricing, pros, cons, and who it's best for in 2026. Find out if Asana is the right project management tool for your team."
 pubDate: "2026-03-20"
-heroImage: "/thumbs/asana-review-2026.png"
+heroImage: "/thumbs/asana-review-2026.jpg"
 tags: ["asana", "project-management", "review", "productivity"]
 ---
 

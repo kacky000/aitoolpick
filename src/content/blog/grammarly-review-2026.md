@@ -2,7 +2,7 @@
 title: "Grammarly Review 2026: Is It Still Worth the Premium?"
 description: "An honest Grammarly review for 2026. We test the free and premium plans to help you decide if this AI writing assistant is worth your money."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/grammarly-review-2026.png"
+heroImage: "/thumbs/grammarly-review-2026.jpg"
 tags: ["grammarly", "review", "writing", "ai", "productivity"]
 ---
 

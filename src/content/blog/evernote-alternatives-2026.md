@@ -2,7 +2,7 @@
 title: "7 Best Evernote Alternatives in 2026 (Free and Paid)"
 description: "Looking for Evernote alternatives? We compare the 7 best note-taking apps in 2026 including Notion, Obsidian, Apple Notes, and more."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/evernote-alternatives-2026.png"
+heroImage: "/thumbs/evernote-alternatives-2026.jpg"
 tags: ["evernote", "note-taking", "alternatives", "productivity"]
 ---
 

@@ -3,7 +3,7 @@ title: "YNAB Review 2026: Is It Worth $99/Year for Budgeting?"
 description: "An honest YNAB review for 2026 — pricing, envelope budgeting, bank sync, and whether it's worth $99/year compared to free alternatives."
 pubDate: "2026-03-18"
 tags: ["ynab", "budgeting", "personal-finance", "review"]
-heroImage: "/thumbs/ynab-review-2026.png"
+heroImage: "/thumbs/ynab-review-2026.jpg"
 ---
 
 YNAB (You Need A Budget) is the most opinionated budgeting app on the market. It doesn't just track your spending — it forces you to plan every dollar before you spend it. That philosophy has earned it a cult following and a mountain of success stories.

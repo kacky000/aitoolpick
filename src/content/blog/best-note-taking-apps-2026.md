@@ -3,7 +3,7 @@ title: "7 Best Note-Taking Apps in 2026 (Free & Paid)"
 description: "Discover the 7 best note-taking apps in 2026 including Notion, Obsidian, Evernote, and more. Compare features, pricing, and find your perfect match."
 pubDate: "2026-03-18"
 tags: ["note-taking", "productivity", "notion", "obsidian", "comparison"]
-heroImage: "/thumbs/best-note-taking-apps-2026.png"
+heroImage: "/thumbs/best-note-taking-apps-2026.jpg"
 ---
 
 The right note-taking app can transform how you think, learn, and work. But with dozens of options available in 2026, finding the best fit for your workflow can be overwhelming. We've tested every major note-taking app extensively — here are the 7 best, with honest assessments of each.

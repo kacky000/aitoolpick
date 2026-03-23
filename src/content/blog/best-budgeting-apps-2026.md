@@ -2,7 +2,7 @@
 title: "Best Budgeting Apps in 2026: YNAB, Notion, Mint Alternatives & More"
 description: "Find the best budgeting app for your needs in 2026. We compare YNAB, Notion templates, Monarch Money, and other top picks for personal finance."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/best-budgeting-apps-2026.png"
+heroImage: "/thumbs/best-budgeting-apps-2026.jpg"
 tags: ["budgeting", "personal-finance", "ynab", "notion", "apps"]
 ---
 

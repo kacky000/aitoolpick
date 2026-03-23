@@ -2,7 +2,7 @@
 title: "Todoist Review 2026: Is It Still the Best Task Manager?"
 description: "An honest review of Todoist in 2026. Features, pricing, pros and cons, and whether it's worth using for personal and team task management."
 pubDate: "2026-03-19"
-heroImage: "/thumbs/todoist-review-2026.png"
+heroImage: "/thumbs/todoist-review-2026.jpg"
 tags: ["todoist", "review", "task-management", "productivity"]
 ---
 

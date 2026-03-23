@@ -2,7 +2,7 @@
 title: "How to Choose the Right AI Tool in 2026 (Decision Framework)"
 description: "Confused by all the AI tools available? Use our simple framework to pick the right AI assistant for writing, coding, research, design, and productivity."
 pubDate: "2026-03-17"
-heroImage: "/thumbs/how-to-choose-ai-tool.png"
+heroImage: "/thumbs/how-to-choose-ai-tool.jpg"
 tags: ["ai", "guide", "productivity", "comparison"]
 ---
 

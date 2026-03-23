@@ -2,7 +2,7 @@
 title: "Best Project Management Tools for Freelancers 2026: ClickUp vs Notion vs Trello vs Asana"
 description: "ClickUp vs Notion vs Trello vs Asana — which PM tool is best for freelancers in 2026? Expert comparison of features, pricing, and pros/cons to find your perfect fit."
 pubDate: "2026-03-14"
-heroImage: "/thumbs/best-pm-tools.png"
+heroImage: "/thumbs/best-pm-tools.jpg"
 tags: ["project-management", "productivity", "tools", "comparison"]
 ---
 

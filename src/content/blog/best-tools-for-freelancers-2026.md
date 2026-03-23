@@ -2,7 +2,7 @@
 title: "Best Productivity Tools for Freelancers in 2026"
 description: "Discover the best tools for freelancers in 2026. From project management to invoicing, these apps help you stay organized and grow your business."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/best-tools-for-freelancers-2026.png"
+heroImage: "/thumbs/best-tools-for-freelancers-2026.jpg"
 tags: ["freelancers", "productivity", "tools", "project-management", "best-of"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Best Free Design Tools in 2026: Create Professional Graphics Without Paying"
 description: "Discover the best free design tools in 2026. From Canva to Figma, these tools let you create professional graphics, presentations, and UI designs for free."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/best-free-design-tools-2026.png"
+heroImage: "/thumbs/best-free-design-tools-2026.jpg"
 tags: ["design-tools", "free-tools", "canva", "figma"]
 ---
 

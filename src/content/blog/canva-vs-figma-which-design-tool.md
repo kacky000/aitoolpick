@@ -3,7 +3,7 @@ title: "Canva vs Figma: Which Design Tool Should You Use in 2026?"
 description: "Canva vs Figma compared — pricing, features, and use cases. Learn which design tool is right for marketers, designers, and teams in 2026."
 pubDate: "2026-03-18"
 tags: ["canva", "figma", "design", "comparison"]
-heroImage: "/thumbs/canva-vs-figma-which-design-tool.png"
+heroImage: "/thumbs/canva-vs-figma-which-design-tool.jpg"
 ---
 
 Canva and Figma are both "design tools," but that's where the similarity ends. They serve completely different audiences, solve different problems, and approach design from opposite philosophies. Choosing between them isn't about which is "better" — it's about which is right for *your* work.

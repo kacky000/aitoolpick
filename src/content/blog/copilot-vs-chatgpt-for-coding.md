@@ -2,7 +2,7 @@
 title: "GitHub Copilot vs ChatGPT for Coding: Which Should Developers Use?"
 description: "Compare GitHub Copilot and ChatGPT for coding tasks. We analyze code completion, debugging, learning, and real-world developer workflows."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/copilot-vs-chatgpt-for-coding.png"
+heroImage: "/thumbs/copilot-vs-chatgpt-for-coding.jpg"
 tags: ["github-copilot", "chatgpt", "ai-coding", "comparison"]
 ---
 

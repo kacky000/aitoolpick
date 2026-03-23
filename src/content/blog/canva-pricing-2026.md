@@ -3,6 +3,7 @@ title: "Canva Pricing 2026: Complete Breakdown of Every Plan"
 description: "A full breakdown of Canva's pricing plans in 2026 — Free, Pro, Teams, and Enterprise. Find out which plan is right for you and whether it's worth the cost."
 pubDate: "2026-03-22"
 tags: ["canva", "design", "pricing", "graphic-design"]
+heroImage: "/thumbs/canva-pricing-2026.jpg"
 ---
 
 Canva has become one of the most popular design tools in the world — and for good reason. But with multiple pricing tiers, it can be hard to know which plan actually fits your needs. This guide breaks down every Canva plan available in 2026, what you get, and who each plan is best for.

@@ -2,7 +2,7 @@
 title: "Todoist vs TickTick: Which Task Manager Wins in 2026?"
 description: "Todoist vs TickTick compared in detail. Features, pricing, integrations, and user experience analyzed to help you pick the best task manager."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/todoist-vs-ticktick-2026.png"
+heroImage: "/thumbs/todoist-vs-ticktick-2026.jpg"
 tags: ["todoist", "ticktick", "task-management", "comparison"]
 ---
 

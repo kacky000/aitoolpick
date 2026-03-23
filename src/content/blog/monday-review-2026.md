@@ -2,7 +2,7 @@
 title: "Monday.com Review 2026: Is It the Best Work OS for Teams?"
 description: "A comprehensive Monday.com review for 2026 covering features, pricing, pros and cons. Find out if Monday.com is the right work management platform for your team."
 pubDate: "2026-03-20"
-heroImage: "/thumbs/monday-review-2026.png"
+heroImage: "/thumbs/monday-review-2026.jpg"
 tags: ["monday", "project-management", "review", "work-management"]
 ---
 

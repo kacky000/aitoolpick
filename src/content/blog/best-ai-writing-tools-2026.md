@@ -2,7 +2,7 @@
 title: "7 Best AI Writing Tools in 2026 (Tested and Compared)"
 description: "Discover the best AI writing tools in 2026 for content creation, copywriting, and editing. We compare ChatGPT, Claude, Grammarly, and more to help you write faster."
 pubDate: "2026-03-20"
-heroImage: "/thumbs/best-ai-writing-tools-2026.png"
+heroImage: "/thumbs/best-ai-writing-tools-2026.jpg"
 tags: ["ai", "writing", "tools", "content-creation", "comparison"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Best AI Chatbots for Work in 2026: ChatGPT, Claude, Perplexity & More"
 description: "Compare the best AI chatbots for productivity in 2026. We review ChatGPT, Claude, Perplexity AI, and more to help you pick the right AI assistant."
 pubDate: "2026-03-21"
-heroImage: "/thumbs/best-ai-chatbots-2026.png"
+heroImage: "/thumbs/best-ai-chatbots-2026.jpg"
 tags: ["ai", "chatbots", "chatgpt", "claude", "perplexity", "productivity"]
 ---
 

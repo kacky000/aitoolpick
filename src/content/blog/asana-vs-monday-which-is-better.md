@@ -2,7 +2,7 @@
 title: "Asana vs Monday.com: Which Project Management Tool Wins in 2026?"
 description: "Asana vs Monday.com — we compare pricing, features, automations, and team workflows to help you pick the right project management platform."
 pubDate: "2026-03-17"
-heroImage: "/thumbs/asana-vs-monday.png"
+heroImage: "/thumbs/asana-vs-monday.jpg"
 tags: ["asana", "monday", "comparison", "project-management"]
 ---
 

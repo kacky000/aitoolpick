@@ -2,7 +2,7 @@
 title: "How to Choose the Right Project Management Tool in 2026"
 description: "A step-by-step guide to choosing the best project management tool for your team. Learn what features matter, common mistakes to avoid, and our top recommendations."
 pubDate: "2026-03-20"
-heroImage: "/thumbs/how-to-choose-project-management-tool.png"
+heroImage: "/thumbs/how-to-choose-project-management-tool.jpg"
 tags: ["project-management", "guide", "how-to", "productivity", "tools"]
 ---
 
