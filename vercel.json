@@ -4,6 +4,17 @@
       "source": "/sitemap.xml",
       "destination": "/sitemap-index.xml",
       "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "aitoolpick.vercel.app"
+        }
+      ],
+      "destination": "https://aitoolpick.org/:path",
+      "permanent": true
     }
   ]
 }
