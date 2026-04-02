@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+// Generate all comparison pairs
+const comparisons = [];
+for (let i = 0; i < tools.length; i++) {
+  for (let j = i + 1; j < tools.length; j++) {
+    const [first, second] = tools[i].id < tools[j].id ? [tools[i], tools[j]] : [tools[j], tools[i]];
+    const sharedCategories = first.category.filter((c: string) => second.category.includes(c));
+    comparisons.push({
+      slug: `${first.slug}-vs-${second.slug}`,
+      nameA: first.name,
+      nameB: second.name,
+      categories: sharedCategories,
+    });
+  }
+}
+
+// Group by category
+const grouped: Record<string, typeof comparisons> = {};
+for (const comp of comparisons) {
+  if (comp.categories.length > 0) {
+    for (const cat of comp.categories) {
+      if (!grouped[cat]) grouped[cat] = [];
+      grouped[cat].push(comp);
+    }
+  } else {
+    if (!grouped['cross-category']) grouped['cross-category'] = [];
+    grouped['cross-category'].push(comp);
+  }
+}
+
+const categoryNames: Record<string, string> = {};
+for (const cat of categories) {
+  categoryNames[cat.id] = cat.name;
+}
+categoryNames['cross-category'] = 'Cross-Category';
+
+const sortedCategories = Object.keys(grouped).sort((a, b) => {
+  if (a === 'cross-category') return 1;
+  if (b === 'cross-category') return -1;
+  return (categoryNames[a] || a).localeCompare(categoryNames[b] || b);
+});
+---
+
+<BaseLayout
+  title="All Tool Comparisons — AIToolPick"
+  description="Browse all head-to-head tool comparisons. Find the best AI, productivity, and project management tools compared side-by-side."
+>
+  <section class="section">
+    <div class="container">
+      <h1>All Tool Comparisons</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2rem;">
+        {comparisons.length} side-by-side comparisons across {tools.length} tools. Pick any pair to see features, pricing, and pros &amp; cons.
+      </p>
+
+      {sortedCategories.map((catId) => (
+        <div style="margin-bottom: 2.5rem;">
+          <h2 style="font-size: 1.3rem; margin-bottom: 1rem; border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem;">
+            {categoryNames[catId] || catId}
+          </h2>
+          <div class="comparison-links">
+            {grouped[catId].map((comp) => (
+              <a href={`/compare/${comp.slug}/`} class="comparison-link">
+                <span>{comp.nameA} vs {comp.nameB}</span>
+                <span class="arrow">&rarr;</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

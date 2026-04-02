@@ -10,12 +10,7 @@ export default defineConfig({
   },
   integrations: [
     mdx(),
-    sitemap({
-      serialize(item) {
-        item.lastmod = new Date().toISOString();
-        return item;
-      },
-    }),
+    sitemap(),
   ],
   adapter: vercel(),
   output: 'static',
