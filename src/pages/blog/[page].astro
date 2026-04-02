@@ -2,18 +2,28 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const allPosts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+export async function getStaticPaths() {
+  const perPage = 12;
+  const allPosts = (await getCollection('blog')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  const totalPages = Math.ceil(allPosts.length / perPage);
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    params: { page: String(i + 2) },
+    props: {
+      posts: allPosts.slice((i + 1) * perPage, (i + 2) * perPage),
+      currentPage: i + 2,
+      totalPages,
+    },
+  }));
+}
 
-const POSTS_PER_PAGE = 12;
-const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
-const posts = allPosts.slice(0, POSTS_PER_PAGE);
+const { posts, currentPage, totalPages } = Astro.props;
 ---
 
 <BaseLayout
-  title="Blog | AIToolPick"
-  description="Tips, guides, and insights on the best AI and productivity tools. Learn how to optimize your workflow."
+  title={`Blog — Page ${currentPage} | AIToolPick`}
+  description="Tips, guides, and insights on the best AI and productivity tools."
 >
   <section class="section">
     <div class="container">
@@ -21,7 +31,7 @@ const posts = allPosts.slice(0, POSTS_PER_PAGE);
       <p class="section-subtitle">Guides, reviews, and insights on the best tools for your workflow.</p>
 
       <div class="post-grid">
-        {posts.map((post) => (
+        {posts.map((post: any) => (
           <a href={`/blog/${post.id}/`} class="post-card" style="text-decoration: none; color: inherit;">
             {post.data.heroImage ? (
               <img class="post-card-image" src={post.data.heroImage} alt={post.data.title} loading="lazy" />
@@ -52,19 +62,22 @@ const posts = allPosts.slice(0, POSTS_PER_PAGE);
         ))}
       </div>
 
-      {totalPages > 1 && (
-        <nav class="pagination" aria-label="Blog pagination">
-          <span class="pagination-current">1</span>
-          {Array.from({ length: Math.min(totalPages - 1, 4) }, (_, i) => i + 2).map((num) => (
-            <a href={`/blog/${num}/`} class="pagination-link">{num}</a>
-          ))}
-          {totalPages > 5 && <span class="pagination-ellipsis">...</span>}
-          {totalPages > 5 && (
-            <a href={`/blog/${totalPages}/`} class="pagination-link">{totalPages}</a>
-          )}
-          <a href="/blog/2/" class="pagination-next">Next &rarr;</a>
-        </nav>
-      )}
+      <nav class="pagination" aria-label="Blog pagination">
+        {currentPage > 1 && (
+          <a href={currentPage === 2 ? '/blog/' : `/blog/${currentPage - 1}/`} class="pagination-prev">&larr; Prev</a>
+        )}
+        <a href="/blog/" class="pagination-link">1</a>
+        {[...Array(totalPages - 1)].map((_, i) => i + 2).filter((num) =>
+          Math.abs(num - currentPage) <= 2 || num === totalPages
+        ).map((num) => (
+          num === currentPage
+            ? <span class="pagination-current">{num}</span>
+            : <a href={`/blog/${num}/`} class="pagination-link">{num}</a>
+        ))}
+        {currentPage < totalPages && (
+          <a href={`/blog/${currentPage + 1}/`} class="pagination-next">Next &rarr;</a>
+        )}
+      </nav>
     </div>
   </section>
 </BaseLayout>
@@ -104,8 +117,7 @@ const posts = allPosts.slice(0, POSTS_PER_PAGE);
   .pagination-link:hover {
     background: var(--gray-100);
   }
-  .pagination-next {
-    margin-left: 0.5rem;
+  .pagination-prev, .pagination-next {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     border: 1px solid var(--primary);
@@ -113,7 +125,7 @@ const posts = allPosts.slice(0, POSTS_PER_PAGE);
     text-decoration: none;
     font-weight: 500;
   }
-  .pagination-next:hover {
+  .pagination-prev:hover, .pagination-next:hover {
     background: var(--primary);
     color: #fff;
   }

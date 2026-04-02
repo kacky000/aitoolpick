@@ -2,7 +2,6 @@
 title: "Best Perplexity AI Alternatives in 2026: 5 AI Search Tools"
 description: "Discover the best Perplexity AI alternatives for AI-powered search in 2026. Compare features, pricing, and use cases for 5 top tools."
 pubDate: "2026-04-02"
-heroImage: "/thumbs/best-perplexity-alternatives-2026.jpg"
 tags: ["perplexity", "ai", "alternatives", "search"]
 ---
 

@@ -2,7 +2,6 @@
 title: "Linear vs Monday.com in 2026: Dev Teams vs Business Teams"
 description: "Compare Linear and Monday.com for project management in 2026. See which tool fits dev teams, business teams, or cross-functional organizations."
 pubDate: "2026-04-02"
-heroImage: "/thumbs/linear-vs-monday-2026.jpg"
 tags: ["linear", "monday", "project-management", "comparison"]
 ---
 
