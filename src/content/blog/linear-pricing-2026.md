@@ -2,6 +2,7 @@
 title: "Linear Pricing 2026: Complete Breakdown and Value Analysis"
 description: "Linear pricing explained for 2026. Compare Free, Basic, Business, and Enterprise plans to find the right fit for your engineering team."
 pubDate: "2026-03-29"
+heroImage: "/thumbs/linear-pricing-2026.jpg"
 tags: ["linear", "pricing", "project-management"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Linear vs ClickUp 2026: Which Project Management Tool Wins?"
 description: "Comparing Linear and ClickUp in 2026. See the key differences in features, pricing, and usability to pick the right tool for your team."
 pubDate: "2026-03-31"
+heroImage: "/thumbs/linear-vs-clickup-2026.jpg"
 tags: ["linear", "clickup", "comparison", "project-management"]
 ---
 

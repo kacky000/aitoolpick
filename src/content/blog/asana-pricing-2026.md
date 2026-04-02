@@ -2,6 +2,7 @@
 title: "Asana Pricing 2026: Which Plan Is Right for Your Team?"
 description: "Complete Asana pricing breakdown for 2026. Compare Free, Starter ($10.99), Advanced ($24.99), and Enterprise plans with feature analysis and team size recommendations."
 pubDate: "2026-03-25"
+heroImage: "/thumbs/asana-pricing-2026.jpg"
 tags: ["asana", "pricing", "project-management"]
 ---
 

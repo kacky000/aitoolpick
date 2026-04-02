@@ -2,6 +2,7 @@
 title: "7 Best Free Note-Taking Apps in 2026"
 description: "The 7 best free note-taking apps in 2026 — from Notion to Obsidian to Apple Notes. Find the right app for how you think."
 pubDate: "2026-03-27"
+heroImage: "/thumbs/best-free-note-taking-apps-2026.jpg"
 tags: ["note-taking", "productivity", "notion", "obsidian", "free-tools"]
 ---
 

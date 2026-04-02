@@ -2,6 +2,7 @@
 title: "How to Switch from Asana to ClickUp: Step-by-Step Migration Guide"
 description: "Migrate from Asana to ClickUp without losing data. This step-by-step guide covers importing tasks, mapping features, and getting your team onboarded."
 pubDate: "2026-03-26"
+heroImage: "/thumbs/how-to-switch-from-asana-to-clickup.jpg"
 tags: ["asana", "clickup", "migration", "how-to"]
 ---
 

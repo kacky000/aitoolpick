@@ -2,6 +2,7 @@
 title: "ClickUp vs Trello: Which Project Management Tool Wins in 2026?"
 description: "ClickUp vs Trello compared: features, pricing, and best use cases in 2026. Find out which tool is right for your team."
 pubDate: "2026-03-27"
+heroImage: "/thumbs/clickup-vs-trello-2026.jpg"
 tags: ["project-management", "clickup", "trello", "productivity", "comparison"]
 ---
 

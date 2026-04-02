@@ -2,6 +2,7 @@
 title: "7 Best Linear Alternatives in 2026"
 description: "Exploring Linear alternatives? Here are 7 issue trackers and project management tools worth considering in 2026."
 pubDate: "2026-04-01"
+heroImage: "/thumbs/best-linear-alternatives-2026.jpg"
 tags: ["linear", "alternatives", "issue-tracking", "project-management"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Perplexity AI Pricing 2026: Free vs Pro — Complete Breakdown"
 description: "Full breakdown of Perplexity AI pricing in 2026. Compare Free vs Pro plans, features, limits, and whether the $20/mo upgrade is worth it."
 pubDate: "2026-04-02"
+heroImage: "/thumbs/perplexity-pricing-2026.jpg"
 tags: ["perplexity", "pricing", "ai"]
 ---
 

@@ -2,6 +2,7 @@
 title: "ChatGPT Pricing 2026: Complete Plan Breakdown (Free vs Plus vs Pro)"
 description: "Every ChatGPT plan explained for 2026 — Free, Go, Plus, Pro, Team, and Enterprise. Compare features, pricing, and find which plan is right for you."
 pubDate: "2026-03-25"
+heroImage: "/thumbs/chatgpt-pricing-2026.jpg"
 tags: ["chatgpt", "ai", "pricing"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Airtable Review 2026: Is It Still the Best No-Code Database?"
 description: "A comprehensive Airtable review for 2026 — pricing, features, Interface Designer, Automations, pros and cons, and the best alternatives to consider."
 pubDate: "2026-03-25"
+heroImage: "/thumbs/airtable-review-2026.jpg"
 tags: ["airtable", "no-code", "review", "database"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Slack Review 2026: Still the Best Team Chat?"
 description: "A detailed Slack review for 2026 covering features, pricing, pros and cons, and whether it's still worth using."
 pubDate: "2026-04-01"
+heroImage: "/thumbs/slack-review-2026.jpg"
 tags: ["slack", "communication", "review", "team-chat"]
 ---
 

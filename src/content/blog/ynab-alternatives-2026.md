@@ -2,6 +2,7 @@
 title: "5 Best YNAB Alternatives in 2026 (Free & Paid)"
 description: "YNAB costs $99/year. These 5 YNAB alternatives offer similar budgeting power for less — including free options that actually work."
 pubDate: "2026-03-27"
+heroImage: "/thumbs/ynab-alternatives-2026.jpg"
 tags: ["budgeting", "personal-finance", "ynab", "money", "apps"]
 ---
 

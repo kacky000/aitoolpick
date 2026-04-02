@@ -2,6 +2,7 @@
 title: "Slack vs Discord for Teams: Which Should You Use in 2026?"
 description: "Slack vs Discord for business teams in 2026: compare pricing, features, and professionalism to decide which messaging tool fits your workflow."
 pubDate: "2026-03-27"
+heroImage: "/thumbs/slack-vs-discord-for-teams-2026.jpg"
 tags: ["slack", "discord", "team communication", "collaboration", "comparison"]
 ---
 

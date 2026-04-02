@@ -2,6 +2,7 @@
 title: "10 Best AI Tools for Students in 2026 (Free & Affordable)"
 description: "Discover the best AI tools for students — from writing assistants to research tools. Most are free or have student discounts in 2026."
 pubDate: "2026-03-26"
+heroImage: "/thumbs/best-ai-tools-for-students-2026.jpg"
 tags: ["ai", "students", "tools", "education"]
 ---
 

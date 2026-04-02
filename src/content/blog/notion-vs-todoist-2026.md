@@ -2,6 +2,7 @@
 title: "Notion vs Todoist: Best Task Manager in 2026?"
 description: "Notion vs Todoist compared for 2026. All-in-one workspace vs focused task manager — which one fits your productivity style?"
 pubDate: "2026-03-27"
+heroImage: "/thumbs/notion-vs-todoist-2026.jpg"
 tags: ["notion", "todoist", "task-management", "productivity", "comparison"]
 ---
 

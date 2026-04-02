@@ -2,6 +2,7 @@
 title: "Todoist vs ClickUp in 2026: Simple Tasks or Full Project Management?"
 description: "Compare Todoist and ClickUp for task management in 2026. Find out which tool fits your workflow — simple to-dos or full project management."
 pubDate: "2026-04-02"
+heroImage: "/thumbs/todoist-vs-clickup-2026.jpg"
 tags: ["todoist", "clickup", "task-management", "comparison"]
 ---
 

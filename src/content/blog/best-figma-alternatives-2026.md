@@ -2,6 +2,7 @@
 title: "8 Best Figma Alternatives in 2026 for Designers"
 description: "Explore the 8 best Figma alternatives in 2026 for UI/UX design, prototyping, and collaboration. Includes free and paid options like Canva, Sketch, Penpot, and more."
 pubDate: "2026-03-25"
+heroImage: "/thumbs/best-figma-alternatives-2026.jpg"
 tags: ["figma", "design", "alternatives"]
 ---
 

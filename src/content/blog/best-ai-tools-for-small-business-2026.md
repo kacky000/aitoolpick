@@ -2,6 +2,7 @@
 title: "10 Best AI Tools for Small Business in 2026"
 description: "Discover the 10 best AI tools for small businesses in 2026, from writing assistants to automation platforms."
 pubDate: "2026-04-01"
+heroImage: "/thumbs/best-ai-tools-for-small-business-2026.jpg"
 tags: ["ai", "small-business", "tools", "productivity", "automation"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Miro Pricing 2026: Plans, Costs, and How to Save"
 description: "Complete breakdown of Miro pricing in 2026. Free, Starter, Business, and Enterprise plans compared. Tips to optimize your Miro costs."
 pubDate: "2026-03-31"
+heroImage: "/thumbs/miro-pricing-2026.jpg"
 tags: ["miro", "pricing", "whiteboard", "collaboration"]
 ---
 

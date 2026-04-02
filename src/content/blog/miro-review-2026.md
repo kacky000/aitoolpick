@@ -2,6 +2,7 @@
 title: "Miro Review 2026: Best Online Whiteboard for Teams?"
 description: "Full Miro review for 2026 covering features, pricing, pros, cons, and alternatives. Is Miro still the best collaborative whiteboard tool?"
 pubDate: "2026-03-31"
+heroImage: "/thumbs/miro-review-2026.jpg"
 tags: ["miro", "review", "whiteboard", "collaboration"]
 ---
 

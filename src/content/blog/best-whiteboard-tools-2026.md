@@ -2,6 +2,7 @@
 title: "Best Whiteboard Tools for Teams in 2026"
 description: "Compare the best online whiteboard tools for teams in 2026. Miro, FigJam, Lucidspark, and more — find the right visual collaboration platform."
 pubDate: "2026-03-31"
+heroImage: "/thumbs/best-whiteboard-tools-2026.jpg"
 tags: ["whiteboard", "collaboration", "best-tools", "remote-work"]
 ---
 

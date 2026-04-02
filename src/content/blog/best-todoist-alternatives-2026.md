@@ -2,6 +2,7 @@
 title: "8 Best Todoist Alternatives in 2026 for Every Workflow"
 description: "Explore 8 powerful Todoist alternatives for task management in 2026. From free options to premium tools, find the perfect fit for your workflow."
 pubDate: "2026-03-29"
+heroImage: "/thumbs/best-todoist-alternatives-2026.jpg"
 tags: ["todoist", "alternatives", "task-management"]
 ---
 

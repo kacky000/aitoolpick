@@ -2,6 +2,7 @@
 title: "Zapier Pricing 2026: Complete Breakdown"
 description: "Everything you need to know about Zapier pricing in 2026, including all plans, task limits, and hidden costs."
 pubDate: "2026-04-01"
+heroImage: "/thumbs/zapier-pricing-2026.jpg"
 tags: ["zapier", "automation", "pricing", "no-code"]
 ---
 

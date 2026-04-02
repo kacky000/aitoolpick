@@ -2,6 +2,7 @@
 title: "Notion vs Trello in 2026: Which Project Tool Is Right for You?"
 description: "Notion vs Trello — compare features, pricing, and use cases. Find out which project management tool fits your workflow better in 2026."
 pubDate: "2026-03-26"
+heroImage: "/thumbs/notion-vs-trello-2026.jpg"
 tags: ["notion", "trello", "comparison", "project-management"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Claude AI Review 2026: Is Anthropic's AI Worth It?"
 description: "An in-depth review of Claude AI in 2026 — covering Free, Pro, Max, and Team plans, strengths, weaknesses, and how it compares to ChatGPT and Gemini."
 pubDate: "2026-03-25"
+heroImage: "/thumbs/claude-review-2026.jpg"
 tags: ["claude", "ai", "review"]
 ---
 

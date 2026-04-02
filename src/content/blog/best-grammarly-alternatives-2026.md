@@ -2,6 +2,7 @@
 title: "7 Best Grammarly Alternatives in 2026 (Free & Premium)"
 description: "Discover 7 top Grammarly alternatives for grammar checking, writing improvement, and AI-powered editing in 2026. Free and paid options compared."
 pubDate: "2026-03-29"
+heroImage: "/thumbs/best-grammarly-alternatives-2026.jpg"
 tags: ["grammarly", "alternatives", "writing", "ai"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Notion vs Coda: Which Workspace Is Better in 2026?"
 description: "Notion vs Coda compared side-by-side. Features, pricing, pros, cons, and which all-in-one workspace wins in 2026."
 pubDate: "2026-04-01"
+heroImage: "/thumbs/notion-vs-coda-2026.jpg"
 tags: ["notion", "coda", "comparison", "productivity", "workspace"]
 ---
 

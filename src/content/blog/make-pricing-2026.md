@@ -2,6 +2,7 @@
 title: "Make Pricing 2026: Complete Breakdown of Plans and Costs"
 description: "Everything you need to know about Make.com pricing in 2026. Plans, credits, hidden costs, and how to choose the right plan for your automation needs."
 pubDate: "2026-03-31"
+heroImage: "/thumbs/make-pricing-2026.jpg"
 tags: ["make", "pricing", "automation"]
 ---
 

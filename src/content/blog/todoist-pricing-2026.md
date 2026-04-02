@@ -2,6 +2,7 @@
 title: "Todoist Pricing 2026: Complete Plan Breakdown & What You Get"
 description: "Todoist pricing explained — compare Free, Pro ($4/mo), and Business ($6/mo) plans. Find out which Todoist plan is worth it in 2026."
 pubDate: "2026-03-26"
+heroImage: "/thumbs/todoist-pricing-2026.jpg"
 tags: ["todoist", "pricing", "task-management"]
 ---
 

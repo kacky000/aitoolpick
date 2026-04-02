@@ -2,6 +2,7 @@
 title: "Canva Review 2026: Is It Still the Best Design Tool?"
 description: "Canva review 2026: pricing, pros, cons, and whether it's still worth it for designers, marketers, and creators."
 pubDate: "2026-03-27"
+heroImage: "/thumbs/canva-review-2026.jpg"
 tags: ["canva", "design", "graphic-design", "review", "productivity"]
 ---
 

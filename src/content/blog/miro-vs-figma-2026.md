@@ -2,6 +2,7 @@
 title: "Miro vs Figma: Which Collaboration Tool Is Right for You?"
 description: "Miro vs Figma compared in 2026: pricing, features, and use cases to help you choose the right collaboration tool for your team."
 pubDate: "2026-03-27"
+heroImage: "/thumbs/miro-vs-figma-2026.jpg"
 tags: ["miro", "figma", "collaboration", "design tools", "comparison"]
 ---
 

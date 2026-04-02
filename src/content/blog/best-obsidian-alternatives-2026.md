@@ -2,6 +2,7 @@
 title: "7 Best Obsidian Alternatives in 2026"
 description: "Looking for Obsidian alternatives? Compare 7 note-taking apps including Notion, Logseq, and more in 2026."
 pubDate: "2026-04-01"
+heroImage: "/thumbs/best-obsidian-alternatives-2026.jpg"
 tags: ["obsidian", "alternatives", "note-taking", "knowledge-management"]
 ---
 

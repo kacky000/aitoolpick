@@ -2,6 +2,7 @@
 title: "Trello Pricing 2026: Free vs Standard vs Premium Compared"
 description: "A complete breakdown of Trello's pricing plans in 2026 — Free, Standard, Premium, and Enterprise. Compare features, Power-Ups, views, and find the best value."
 pubDate: "2026-03-25"
+heroImage: "/thumbs/trello-pricing-2026.jpg"
 tags: ["trello", "pricing", "project-management"]
 ---
 

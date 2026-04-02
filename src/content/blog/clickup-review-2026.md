@@ -2,6 +2,7 @@
 title: "ClickUp Review 2026: Is It Worth It?"
 description: "An honest ClickUp review covering features, pricing, pros, cons, and who it's best for in 2026."
 pubDate: "2026-04-01"
+heroImage: "/thumbs/clickup-review-2026.jpg"
 tags: ["clickup", "project-management", "review", "productivity"]
 ---
 

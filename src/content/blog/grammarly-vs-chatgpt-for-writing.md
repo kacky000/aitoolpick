@@ -2,6 +2,7 @@
 title: "Grammarly vs ChatGPT for Writing: Which AI Tool Is Better in 2026?"
 description: "Grammarly vs ChatGPT — compare these AI writing tools for grammar checking, content creation, and everyday writing tasks in 2026."
 pubDate: "2026-03-26"
+heroImage: "/thumbs/grammarly-vs-chatgpt-for-writing.jpg"
 tags: ["grammarly", "chatgpt", "ai", "writing", "comparison"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Perplexity AI vs Claude: Which AI Assistant Should You Use in 2026?"
 description: "Perplexity AI vs Claude compared on search, writing, coding, and pricing. Find the right AI assistant for your needs in 2026."
 pubDate: "2026-03-29"
+heroImage: "/thumbs/perplexity-vs-claude-2026.jpg"
 tags: ["perplexity", "claude", "ai", "comparison"]
 ---
 

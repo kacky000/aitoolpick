@@ -2,6 +2,7 @@
 title: "Monday.com vs Trello: Which Project Tool Is Right for You?"
 description: "Monday.com vs Trello compared on features, pricing, and team size. Find out which project management tool fits your team best in 2026."
 pubDate: "2026-03-29"
+heroImage: "/thumbs/monday-vs-trello-2026.jpg"
 tags: ["monday", "trello", "project-management", "comparison"]
 ---
 
