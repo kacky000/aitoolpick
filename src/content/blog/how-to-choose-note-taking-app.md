@@ -2,6 +2,7 @@
 title: "How to Choose the Right Note-Taking App in 2026"
 description: "A practical framework for choosing the best note-taking app in 2026 — comparing Notion, Obsidian, Evernote, and Apple Notes by what matters most."
 pubDate: "2026-04-03"
+heroImage: "/thumbs/how-to-choose-note-taking-app.jpg"
 tags: ["note-taking", "guide", "productivity"]
 ---
 

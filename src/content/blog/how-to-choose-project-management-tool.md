@@ -2,6 +2,7 @@
 title: "How to Choose the Right Project Management Tool in 2026"
 description: "A practical guide to choosing the best project management tool for your team. Compare features, pricing, and use cases for Notion, Asana, ClickUp, Monday, and more."
 pubDate: "2026-03-31"
+heroImage: "/thumbs/how-to-choose-project-management-tool.jpg"
 tags: ["project-management", "guide", "how-to", "comparison"]
 ---
 

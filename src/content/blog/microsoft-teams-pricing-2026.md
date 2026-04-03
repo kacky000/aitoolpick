@@ -2,6 +2,7 @@
 title: "Microsoft Teams Pricing 2026: Free vs Paid Plans Compared"
 description: "Compare Microsoft Teams pricing in 2026 — Free, Essentials, Business Basic, and Business Standard plans with features, limits, and recommendations."
 pubDate: "2026-04-03"
+heroImage: "/thumbs/microsoft-teams-pricing-2026.jpg"
 tags: ["microsoft-teams", "pricing", "communication"]
 ---
 

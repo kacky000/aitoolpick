@@ -2,6 +2,7 @@
 title: "Airtable Pricing 2026: Is It Worth the Cost?"
 description: "Full breakdown of Airtable pricing in 2026 — Free, Team, Business, and Enterprise plans compared with record limits, features, and value analysis."
 pubDate: "2026-04-03"
+heroImage: "/thumbs/airtable-pricing-2026.jpg"
 tags: ["airtable", "pricing", "database"]
 ---
 

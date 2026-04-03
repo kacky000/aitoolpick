@@ -2,6 +2,7 @@
 title: "Linear Review 2026: Is It the Best Issue Tracker for Dev Teams?"
 description: "An in-depth review of Linear in 2026 covering features, pricing, pros, cons, and who it's best for. Find out if Linear is worth it for your engineering team."
 pubDate: "2026-03-31"
+heroImage: "/thumbs/linear-review-2026.jpg"
 tags: ["linear", "review", "project-management", "issue-tracking"]
 ---
 
