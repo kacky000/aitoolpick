@@ -3,6 +3,7 @@ interface Tool {
   id: string;
   name: string;
   slug: string;
+  icon?: string;
   category: string[];
   pricing: Record<string, number | boolean | null>;
   currency: string;
@@ -43,11 +44,13 @@ const allFeatures = [...new Set([...toolA.features, ...toolB.features])];
 
 <div class="comparison-header">
   <div class="comparison-tool">
+    {toolA.icon && <img src={toolA.icon} alt={`${toolA.name} icon`} class="tool-icon" width="48" height="48" loading="lazy" />}
     <h2>{toolA.name}</h2>
     <span class="rating">{'★'.repeat(Math.round(toolA.rating))} {toolA.rating}</span>
   </div>
   <span class="comparison-vs">VS</span>
   <div class="comparison-tool">
+    {toolB.icon && <img src={toolB.icon} alt={`${toolB.name} icon`} class="tool-icon" width="48" height="48" loading="lazy" />}
     <h2>{toolB.name}</h2>
     <span class="rating">{'★'.repeat(Math.round(toolB.rating))} {toolB.rating}</span>
   </div>
@@ -57,8 +60,8 @@ const allFeatures = [...new Set([...toolA.features, ...toolB.features])];
   <thead>
     <tr>
       <th>Feature</th>
-      <th>{toolA.name}</th>
-      <th>{toolB.name}</th>
+      <th>{toolA.icon && <img src={toolA.icon} alt="" class="th-icon" width="20" height="20" />} {toolA.name}</th>
+      <th>{toolB.icon && <img src={toolB.icon} alt="" class="th-icon" width="20" height="20" />} {toolB.name}</th>
     </tr>
   </thead>
   <tbody>

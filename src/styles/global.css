@@ -524,6 +524,19 @@ h4 { font-size: 1.25rem; }
   text-align: center;
 }
 
+.comparison-tool .tool-icon {
+  display: block;
+  margin: 0 auto 0.75rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.th-icon {
+  vertical-align: middle;
+  margin-right: 0.25rem;
+  border-radius: 4px;
+}
+
 .comparison-tool h2 {
   font-size: 1.75rem;
   margin-bottom: 0.25rem;

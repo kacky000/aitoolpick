@@ -32,6 +32,7 @@ const pageDescription = `Looking for ${currentTool.name} alternatives? Compare $
 
 <BaseLayout title={pageTitle} description={pageDescription}>
   <div class="alternatives-header">
+    {currentTool.icon && <img src={currentTool.icon} alt={`${currentTool.name} icon`} width="48" height="48" style="border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 0.75rem;" />}
     <h1>Best {currentTool.name} Alternatives</h1>
     <p style="color: var(--gray-600); margin-top: 0.5rem; font-size: 1.1rem;">
       {alternatives.length} tools that can replace or complement {currentTool.name}
@@ -53,7 +54,7 @@ const pageDescription = `Looking for ${currentTool.name} alternatives? Compare $
         </thead>
         <tbody>
           <tr>
-            <td class="feature-label">{currentTool.name}</td>
+            <td class="feature-label">{currentTool.icon && <img src={currentTool.icon} alt="" width="20" height="20" class="th-icon" />} {currentTool.name}</td>
             <td class={currentTool.pricing.free ? 'check' : 'cross'}>{currentTool.pricing.free ? '✓ Yes' : '✗ No'}</td>
             <td>{formatPrice(currentTool.pricing)}</td>
             <td>★ {currentTool.rating}</td>
@@ -61,6 +62,7 @@ const pageDescription = `Looking for ${currentTool.name} alternatives? Compare $
           {alternatives.map((alt) => (
             <tr>
               <td class="feature-label">
+                {alt.icon && <img src={alt.icon} alt="" width="20" height="20" class="th-icon" />}
                 <a href={`/alternatives/${alt.slug}/`}>{alt.name}</a>
               </td>
               <td class={alt.pricing.free ? 'check' : 'cross'}>{alt.pricing.free ? '✓ Yes' : '✗ No'}</td>
