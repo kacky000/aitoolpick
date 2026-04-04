@@ -3,6 +3,7 @@ title: "Notion Free vs Paid: What Do You Actually Get in 2026?"
 description: "Notion free plan vs Plus, Business, and Enterprise. We break down exactly what you get at each tier and whether upgrading is worth it."
 pubDate: "2026-04-04"
 tags: ["notion", "pricing", "free-vs-paid", "productivity"]
+heroImage: "/thumbs/notion-free-vs-paid-2026.jpg"
 ---
 
 Notion's free plan is one of the most generous in productivity software. But at some point, you'll see that "Upgrade" button and wonder: is the paid plan actually worth $10/month?

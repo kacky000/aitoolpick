@@ -3,6 +3,7 @@ title: "How to Switch from Evernote to Obsidian: Complete Migration Guide"
 description: "Step-by-step guide to migrating from Evernote to Obsidian in 2026. Export notes, convert formats, preserve tags, and set up your new vault."
 pubDate: "2026-04-04"
 tags: ["evernote", "obsidian", "migration", "note-taking"]
+heroImage: "/thumbs/how-to-switch-from-evernote-to-obsidian.jpg"
 ---
 
 Evernote's declining free tier and rising prices have pushed many long-time users to look elsewhere. [Obsidian](/tools/obsidian) — with its free personal plan, local-first storage, and powerful linking — has become the top destination for Evernote refugees.

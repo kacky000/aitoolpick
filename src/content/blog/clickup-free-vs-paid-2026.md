@@ -3,6 +3,7 @@ title: "ClickUp Free vs Paid: What Do You Actually Get in 2026?"
 description: "ClickUp free plan vs Unlimited and Business. We break down feature limits, storage caps, and whether upgrading is worth it for your team."
 pubDate: "2026-04-04"
 tags: ["clickup", "pricing", "free-vs-paid", "project-management"]
+heroImage: "/thumbs/clickup-free-vs-paid-2026.jpg"
 ---
 
 ClickUp's free plan is one of the most feature-rich in project management. But there's a catch: the free tier comes with storage limits, restricted automations, and a few missing features that might push you to upgrade. Is the Unlimited plan at $7/month worth it?
