@@ -28,9 +28,10 @@ const popularComparisons = [
     <h1>Find the <span class="highlight">Perfect Tool</span> for Your Workflow</h1>
     <p>Compare features, pricing, and reviews across 20+ top productivity and AI tools.</p>
     <div class="hero-search">
-      <input type="text" placeholder="Search tools... (e.g., Notion, ChatGPT)" disabled />
+      <input type="text" placeholder="Search tools... (e.g., Notion, ChatGPT)" id="hero-search-input" />
       <span class="hero-search-icon">&#128269;</span>
     </div>
+    <div id="search-results" class="search-results" style="display:none;"></div>
   </section>
 
   <!-- Categories -->
@@ -113,8 +114,96 @@ const popularComparisons = [
       <div class="cta-section">
         <h2>Ready to Find Your Perfect Tool?</h2>
         <p>Compare features, pricing, and reviews side by side to make the right choice.</p>
-        <a href="/compare/notion-vs-clickup/" class="btn-primary">Start Comparing &rarr;</a>
+        <a href="/compare/" class="btn-primary">Start Comparing &rarr;</a>
       </div>
     </div>
   </section>
+
+  <script define:vars={{ tools }}>
+    const searchInput = document.getElementById('hero-search-input');
+    const searchResults = document.getElementById('search-results');
+    const toolData = tools;
+
+    searchInput.addEventListener('input', (e) => {
+      const q = e.target.value.trim().toLowerCase();
+      if (q.length < 2) {
+        searchResults.style.display = 'none';
+        return;
+      }
+      const matches = toolData.filter(t =>
+        t.name.toLowerCase().includes(q) ||
+        t.description.toLowerCase().includes(q) ||
+        t.category.some(c => c.toLowerCase().includes(q))
+      ).slice(0, 6);
+
+      if (matches.length === 0) {
+        searchResults.innerHTML = '<div class="search-empty">No tools found</div>';
+      } else {
+        searchResults.innerHTML = matches.map(t =>
+          `<a href="/alternatives/${t.slug}/" class="search-item">
+            <img src="${t.icon}" alt="${t.name}" width="24" height="24" />
+            <div>
+              <strong>${t.name}</strong>
+              <span>${t.description}</span>
+            </div>
+          </a>`
+        ).join('');
+      }
+      searchResults.style.display = 'block';
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!searchResults.contains(e.target) && e.target !== searchInput) {
+        searchResults.style.display = 'none';
+      }
+    });
+  </script>
+
+  <style>
+    .search-results {
+      max-width: 500px;
+      margin: 0.5rem auto 0;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      text-align: left;
+    }
+    .search-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      color: var(--dark);
+      text-decoration: none;
+      border-bottom: 1px solid var(--gray-100);
+      transition: background 0.15s;
+    }
+    .search-item:hover {
+      background: var(--gray-50);
+    }
+    .search-item img {
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+    .search-item strong {
+      display: block;
+      font-size: 0.95rem;
+    }
+    .search-item span {
+      font-size: 0.8rem;
+      color: var(--gray-500);
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 350px;
+    }
+    .search-empty {
+      padding: 1rem;
+      color: var(--gray-500);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
 </BaseLayout>

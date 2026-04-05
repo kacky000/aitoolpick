@@ -64,7 +64,7 @@ Canva's AI features have transformed it from a template tool into a full creativ
 
 **Price**: Included in Notion Plus ($10/month and up)
 
-Notion AI integrates directly into your workspace. It can summarize meeting notes, generate project templates, draft SOPs, and answer questions based on your existing notes. For freelancers who live in Notion for project management, adding AI supercharges the whole system.
+Notion AI integrates directly into your workspace. It can summarize meeting notes, generate project templates, draft SOPs, and answer questions based on your existing notes. For freelancers who live in Notion for project management, adding AI makes the whole system significantly more efficient.
 
 **Best for**: Project managers, consultants, coaches, developers
 **Key use cases**: Meeting summaries, SOP creation, project planning, client wikis
@@ -108,7 +108,7 @@ Jasper is purpose-built for marketing content. It has templates for every type o
 
 **Price**: Free / $12/month (Hobbyist) / $24/month (Creator)
 
-Descript turns video editing into document editing. You edit the transcript, and the video edits itself. AI features include automatic filler word removal, voice cloning for re-recording mistakes, and AI-generated clips for social media. For freelancers in video production or podcasting, Descript is a game-changer.
+Descript turns video editing into document editing. You edit the transcript, and the video edits itself. AI features include automatic filler word removal, voice cloning for re-recording mistakes, and AI-generated clips for social media. For freelancers in video production or podcasting, Descript saves hours of editing time per project.
 
 **Best for**: Video editors, podcast producers, course creators, YouTubers
 **Key use cases**: Interview editing, podcast production, course videos, social media clips

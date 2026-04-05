@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import tools from '../data/tools.json';
 
 interface Props {
   title: string;
@@ -10,6 +11,49 @@ interface Props {
 }
 
 const { title, description, pubDate, heroImage, tags = [] } = Astro.props;
+
+// Build a relevant CTA link based on article tags
+function getRelatedLink(articleTags: string[]) {
+  const lowerTags = articleTags.map(t => t.toLowerCase());
+
+  // Map tags to tool slugs for comparison pages
+  const tagToSlug: Record<string, string> = {};
+  for (const tool of tools) {
+    tagToSlug[tool.name.toLowerCase()] = tool.slug;
+    tagToSlug[tool.slug] = tool.slug;
+  }
+
+  // Find tool slugs mentioned in tags
+  const matchedSlugs = lowerTags
+    .map(t => tagToSlug[t])
+    .filter(Boolean);
+
+  if (matchedSlugs.length >= 2) {
+    return { href: `/compare/${matchedSlugs[0]}-vs-${matchedSlugs[1]}/`, text: `Compare ${matchedSlugs[0]} vs ${matchedSlugs[1]}` };
+  }
+  if (matchedSlugs.length === 1) {
+    return { href: `/alternatives/${matchedSlugs[0]}/`, text: `See ${matchedSlugs[0]} alternatives` };
+  }
+
+  // Category-based fallback
+  const categoryLinks: Record<string, { href: string; text: string }> = {
+    'ai': { href: '/compare/chatgpt-vs-claude/', text: 'Compare AI tools' },
+    'project-management': { href: '/compare/notion-vs-clickup/', text: 'Compare project management tools' },
+    'design': { href: '/compare/canva-vs-figma/', text: 'Compare design tools' },
+    'communication': { href: '/compare/slack-vs-monday/', text: 'Compare communication tools' },
+    'note-taking': { href: '/alternatives/notion/', text: 'Explore note-taking tools' },
+    'automation': { href: '/compare/', text: 'Compare automation tools' },
+    'budgeting': { href: '/compare/', text: 'Compare budgeting tools' },
+  };
+
+  for (const tag of lowerTags) {
+    if (categoryLinks[tag]) return categoryLinks[tag];
+  }
+
+  return { href: '/compare/', text: 'Compare tools side by side' };
+}
+
+const ctaLink = getRelatedLink(tags);
 
 const articleJsonLd = JSON.stringify({
   '@context': 'https://schema.org',
@@ -68,7 +112,7 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
     <div class="cta-section" style="margin-top: 3rem;">
       <h2>Find the Best Tool for You</h2>
       <p>Compare features, pricing, and reviews to find the perfect tool for your workflow.</p>
-      <a href="/compare/notion-vs-clickup/" class="btn-primary">Find the best tool for you &rarr;</a>
+      <a href={ctaLink.href} class="btn-primary">{ctaLink.text} &rarr;</a>
     </div>
   </article>
 </BaseLayout>

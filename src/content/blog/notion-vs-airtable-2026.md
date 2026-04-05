@@ -43,7 +43,7 @@ For a deep dive into Notion's pricing, see our [Notion Pricing 2026 guide](/blog
 
 ## Airtable: The Spreadsheet Replacement
 
-Airtable takes the spreadsheet concept and supercharges it with relational database features, rich field types, and powerful automations. Think of it as a database that anyone can use without knowing SQL.
+Airtable takes the spreadsheet concept and extends it with relational database features, rich field types, and powerful automations. Think of it as a database that anyone can use without knowing SQL.
 
 ### Airtable's Database Strengths
 - **True relational databases**: Link tables with many-to-many relationships

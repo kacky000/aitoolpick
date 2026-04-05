@@ -112,7 +112,7 @@ Pro is OpenAI's premium tier, aimed at researchers, developers, and professional
 
 **Best for:** AI researchers, data scientists, enterprise consultants, and anyone whose livelihood depends on having the most powerful AI capabilities available without any usage restrictions.
 
-**Is it worth $200/month?** For most people, no. But if you're hitting Plus limits regularly or you need guaranteed availability for client work, the unlimited access can be a game-changer. Calculate how many hours per month ChatGPT saves you — if it's more than 2-3 hours, Pro likely pays for itself.
+**Is it worth $200/month?** For most people, no. But if you're hitting Plus limits regularly or you need guaranteed availability for client work, the unlimited access pays for itself quickly. Calculate how many hours per month ChatGPT saves you — if it's more than 2-3 hours, Pro likely pays for itself.
 
 ---
 
