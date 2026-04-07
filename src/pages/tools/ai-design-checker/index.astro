@@ -1,0 +1,509 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'AI Design Checker',
+  description: 'Check if your website looks AI-generated. 30-point checklist across 6 categories with actionable fixes.',
+  url: 'https://aitoolpick.org/tools/ai-design-checker/',
+  applicationCategory: 'DesignApplication',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+});
+---
+
+<BaseLayout
+  title="AI Design Checker — Does Your Website Look AI-Generated?"
+  description="Free tool to check if your website looks AI-generated. 30-point diagnostic across colors, typography, layout, copy, images, and UX. Get a score and actionable fixes."
+>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="checker-hero">
+    <p class="checker-tag">Free Tool</p>
+    <h1>Does Your Website Look AI-Generated?</h1>
+    <p class="checker-sub">Most AI-built sites share the same tells — gradient backgrounds, Inter font, 3-column card layouts, emoji icons. Users notice. Google notices. This 30-point checker helps you find and fix the patterns that scream "AI made this."</p>
+    <div class="lang-switch">
+      <a href="/tools/ai-design-checker/" class="lang-active">English</a>
+      <a href="/tools/ai-design-checker/ja/">日本語</a>
+    </div>
+  </section>
+
+  <section class="checker-app" id="checker">
+    <div class="checker-progress">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div class="checker-categories" id="categories">
+
+      <!-- Category 1: Colors -->
+      <div class="cat" data-cat="colors">
+        <h2>Colors</h2>
+        <p class="cat-desc">AI defaults to purple-blue gradients, shadows on everything, and alternating section backgrounds.</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">No purple-to-blue gradient backgrounds</span><span class="check-tip">The #1 AI design tell. Use a solid color base with one accent color instead.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">No gradient buttons</span><span class="check-tip">Flat color buttons with subtle hover effects look more intentional.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">3 colors max (main + grayscale + accent)</span><span class="check-tip">Fewer colors = more professional. When in doubt: white bg + black text + one accent.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">Not every element has box-shadow</span><span class="check-tip">Use borders to separate elements instead. Shadows should be rare and subtle.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">No alternating section background colors</span><span class="check-tip">Only change backgrounds when there's a real content shift — not every other section.</span></label>
+        </div>
+      </div>
+
+      <!-- Category 2: Typography -->
+      <div class="cat" data-cat="typography">
+        <h2>Typography</h2>
+        <p class="cat-desc">AI picks the same 3 fonts and makes everything uniform. Humans create rhythm and contrast.</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">Not using Inter, Roboto, or Open Sans</span><span class="check-tip">Try DM Sans, Plus Jakarta Sans, Sora, or Geist. For Japanese: Noto Sans JP or BIZ UDGothic.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">Headings and body use different font styles</span><span class="check-tip">Don't rely on weight alone. Different families, letter-spacing, or line-height create character.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">Clear size hierarchy with contrast</span><span class="check-tip">Hero titles should be dramatically larger than body text. Not 16→24→32 increments.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">Different line-height for headings vs body</span><span class="check-tip">Headings: 1.1–1.3. Body: 1.6–1.8. Same line-height everywhere = AI default.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">Letter-spacing is intentional, not default</span><span class="check-tip">Tight letter-spacing on large headings (-0.02em) looks polished. Default spacing is generic.</span></label>
+        </div>
+      </div>
+
+      <!-- Category 3: Layout -->
+      <div class="cat" data-cat="layout">
+        <h2>Layout</h2>
+        <p class="cat-desc">AI loves 3-column card grids and center-aligned everything. Humans break the pattern.</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">No 3+ sections of identical 3-column card grids</span><span class="check-tip">Mix 1-column, 2-column, list layouts. Same grid repeated = template energy.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">Sections have different visual structures</span><span class="check-tip">Not every section should be heading → description → 3 cards. Vary the rhythm.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">Not everything is center-aligned</span><span class="check-tip">Left-align by default. Center only for hero sections or short headings.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">Spacing varies between sections</span><span class="check-tip">Important sections get more breathing room. Same padding everywhere = mechanical.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">Hero section isn't the standard template</span><span class="check-tip">Fullscreen hero + big text + 2 CTA buttons = SaaS template default. Match it to your content.</span></label>
+        </div>
+      </div>
+
+      <!-- Category 4: Copy -->
+      <div class="cat" data-cat="copy">
+        <h2>Copy & Microcopy</h2>
+        <p class="cat-desc">AI copy is vague, buzzwordy, and says nothing specific. Human copy has opinions and details.</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">No "Unlock / Empower / Elevate / Seamless"</span><span class="check-tip">Replace with concrete verbs: calculate, compare, find, build, track.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">No "[X] を、もっと [Y] に" pattern</span><span class="check-tip">This is the #1 AI copywriting pattern in Japanese. Write what the product actually does.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">CTAs are specific, not generic</span><span class="check-tip">"Learn more" → "Calculate your budget" / "Compare 3 tools". Tell them what happens when they click.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">Headings use concrete words, not abstract ones</span><span class="check-tip">"Features" → "What you can track". "Solutions" → "How it saves you 3 hours/week".</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">Subtitle is 1 sentence max, not a paragraph</span><span class="check-tip">AI writes 3-sentence subtitles. Humans keep it short. If it needs 3 sentences, it's body text.</span></label>
+        </div>
+      </div>
+
+      <!-- Category 5: Images -->
+      <div class="cat" data-cat="images">
+        <h2>Images & Icons</h2>
+        <p class="cat-desc">AI uses emoji as icons, stock photos that don't match, and recycled images everywhere.</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">No emoji used as section icons</span><span class="check-tip">Use SVG icon libraries (Lucide, Heroicons, Phosphor) or no icons at all.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">Images match the content they illustrate</span><span class="check-tip">AI picks images by keyword, not meaning. A Tokyo Tower photo on an Osaka page breaks trust.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">No same image reused across multiple pages</span><span class="check-tip">If you don't have a unique image, a text-only layout is better than a wrong image.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">No AI-generated illustrations (6 fingers, melted text)</span><span class="check-tip">AI illustrations are immediately recognizable. Use SVG illustrations or real photos instead.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">No gradient placeholder where an image should be</span><span class="check-tip">If there's no image, design the layout without one. Don't fake it with a gradient box.</span></label>
+        </div>
+      </div>
+
+      <!-- Category 6: UX -->
+      <div class="cat" data-cat="ux">
+        <h2>UX & Interaction</h2>
+        <p class="cat-desc">AI overloads pages with animations and identical components. Good UX is about restraint.</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">First view clearly shows what the page is about</span><span class="check-tip">Users decide in 3 seconds. If they have to scroll to understand the page, fix it.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">Long content is folded (tabs, accordion, "show more")</span><span class="check-tip">Don't dump 50+ items on one page. Show 6-9 initially, let users expand if they want.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">Animations don't block content visibility</span><span class="check-tip">Scroll-reveal animations (opacity: 0 → 1) can break with View Transitions. Test thoroughly or skip them.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">Touch targets are 44px+ on mobile</span><span class="check-tip">Small buttons and links frustrate mobile users. Minimum 44×44px tap areas.</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">Max 2 CTAs per section</span><span class="check-tip">3+ buttons = choice paralysis. Primary action + secondary at most.</span></label>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Results -->
+    <div class="results" id="results">
+      <div class="score-card" id="score-card">
+        <div class="score-circle" id="score-circle">
+          <span class="score-number" id="score-number">0</span>
+          <span class="score-label">/100</span>
+        </div>
+        <h2 id="score-title">Check the items above</h2>
+        <p id="score-desc">Tick each item that your site passes. Your score updates in real time.</p>
+      </div>
+      <div class="cat-scores" id="cat-scores"></div>
+      <div class="result-tips" id="result-tips"></div>
+      <div class="share-box">
+        <p>Share your score:</p>
+        <button class="btn-share" id="btn-twitter">Post on X</button>
+        <button class="btn-share" id="btn-copy">Copy result</button>
+      </div>
+    </div>
+
+    <!-- Bonus: related -->
+    <div class="related-box">
+      <h3>Also check your writing</h3>
+      <p>Design is only half the battle. AI-generated text has its own tells — dead phrases, flat emotions, mechanical transitions.</p>
+      <a href="/blog/ai-generated-website-checklist/" class="btn-related">Read: How to Make Your Website Not Look AI-Generated →</a>
+    </div>
+  </section>
+
+  <style>
+    .checker-hero {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 2rem;
+      text-align: center;
+    }
+    .checker-tag {
+      display: inline-block;
+      background: #e8f4f8;
+      color: #0078D4;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      letter-spacing: 0.05em;
+    }
+    .checker-hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      line-height: 1.15;
+      margin: 0 0 1rem;
+      color: #1a1a2e;
+      letter-spacing: -0.02em;
+    }
+    .checker-sub {
+      color: #555;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+    .lang-switch {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+    }
+    .lang-switch a {
+      padding: 6px 16px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      text-decoration: none;
+      border: 1px solid #ddd;
+      color: #555;
+      transition: all 0.15s;
+    }
+    .lang-switch .lang-active {
+      background: #1a1a2e;
+      color: #fff;
+      border-color: #1a1a2e;
+    }
+
+    .checker-app {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    .checker-progress {
+      height: 6px;
+      background: #eee;
+      border-radius: 3px;
+      margin-bottom: 2.5rem;
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: #0078D4;
+      border-radius: 3px;
+      transition: width 0.3s ease;
+    }
+
+    .cat {
+      margin-bottom: 2.5rem;
+    }
+    .cat h2 {
+      font-size: 1.3rem;
+      margin: 0 0 0.3rem;
+      color: #1a1a2e;
+    }
+    .cat-desc {
+      color: #777;
+      font-size: 0.9rem;
+      margin: 0 0 1rem;
+    }
+
+    .checks {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .check-item {
+      display: block;
+      padding: 12px 16px;
+      border: 1px solid #eee;
+      border-bottom: none;
+      cursor: pointer;
+      transition: background 0.15s;
+      position: relative;
+    }
+    .check-item:first-child { border-radius: 8px 8px 0 0; }
+    .check-item:last-child { border-bottom: 1px solid #eee; border-radius: 0 0 8px 8px; }
+    .check-item:hover { background: #fafafa; }
+    .check-item:has(input:checked) { background: #f0f9f4; border-color: #c3e6cb; }
+    .check-item:has(input:checked) + .check-item { border-top-color: #c3e6cb; }
+
+    .check-item input[type="checkbox"] {
+      margin-right: 10px;
+      accent-color: #28a745;
+      transform: scale(1.15);
+      vertical-align: middle;
+    }
+    .check-text {
+      font-size: 0.95rem;
+      color: #333;
+      vertical-align: middle;
+    }
+    .check-tip {
+      display: block;
+      margin: 6px 0 0 28px;
+      font-size: 0.82rem;
+      color: #888;
+      line-height: 1.5;
+    }
+
+    /* Results */
+    .results {
+      margin: 2rem 0;
+      padding: 2rem;
+      background: #fafafa;
+      border-radius: 12px;
+      border: 1px solid #eee;
+    }
+    .score-card {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .score-circle {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 2px;
+      margin-bottom: 0.8rem;
+    }
+    .score-number {
+      font-size: 4rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1;
+    }
+    .score-label {
+      font-size: 1.5rem;
+      color: #999;
+      font-weight: 400;
+    }
+    .score-card h2 {
+      font-size: 1.2rem;
+      margin: 0 0 0.4rem;
+    }
+    .score-card p {
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    .cat-scores {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 600px) {
+      .cat-scores { grid-template-columns: repeat(2, 1fr); }
+    }
+    .cat-score-item {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    .cat-score-item .cs-label {
+      font-size: 0.75rem;
+      color: #888;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .cat-score-item .cs-val {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .result-tips {
+      margin-bottom: 1.5rem;
+    }
+    .result-tips h3 {
+      font-size: 1rem;
+      margin: 0 0 0.8rem;
+      color: #1a1a2e;
+    }
+    .result-tips ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .result-tips li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .result-tips li:last-child { border-bottom: none; }
+
+    .share-box {
+      text-align: center;
+      padding-top: 1rem;
+      border-top: 1px solid #eee;
+    }
+    .share-box p {
+      font-size: 0.85rem;
+      color: #888;
+      margin: 0 0 0.8rem;
+    }
+    .btn-share {
+      padding: 8px 20px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.85rem;
+      margin: 0 4px;
+      transition: all 0.15s;
+    }
+    .btn-share:hover {
+      background: #1a1a2e;
+      color: #fff;
+      border-color: #1a1a2e;
+    }
+
+    .related-box {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: #f0f4ff;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .related-box h3 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+      color: #1a1a2e;
+    }
+    .related-box p {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 0 0 1rem;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-related {
+      display: inline-block;
+      padding: 10px 24px;
+      background: #1a1a2e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      transition: opacity 0.15s;
+    }
+    .btn-related:hover { opacity: 0.85; }
+  </style>
+
+  <script is:inline>
+    (function() {
+      const cats = {
+        colors: { label: 'Colors', checked: 0, total: 5 },
+        typography: { label: 'Typography', checked: 0, total: 5 },
+        layout: { label: 'Layout', checked: 0, total: 5 },
+        copy: { label: 'Copy', checked: 0, total: 5 },
+        images: { label: 'Images', checked: 0, total: 5 },
+        ux: { label: 'UX', checked: 0, total: 5 },
+      };
+      const totalItems = 30;
+
+      const titles = {
+        0: ['Your site screams AI', 'Major redesign needed. But the good news: every item above tells you exactly what to fix.'],
+        30: ['Definitely AI-looking', 'Several common AI patterns detected. Focus on the unchecked items — small changes make a big difference.'],
+        50: ['Getting there', 'Some AI patterns remain. You\'re past the worst, but the details will set you apart.'],
+        70: ['Looking human', 'Most AI tells are gone. Polish the remaining items and you\'ll be in great shape.'],
+        90: ['Excellent', 'Your site doesn\'t look AI-generated. Keep it up.'],
+        100: ['Perfect score', 'No detectable AI design patterns. Your site looks like a human designer built it.'],
+      };
+
+      function update() {
+        let total = 0;
+        Object.keys(cats).forEach(k => { cats[k].checked = 0; });
+
+        document.querySelectorAll('#categories input[type="checkbox"]').forEach(cb => {
+          if (cb.checked) {
+            total++;
+            const cat = cb.dataset.cat;
+            if (cats[cat]) cats[cat].checked++;
+          }
+        });
+
+        const score = Math.round((total / totalItems) * 100);
+        document.getElementById('score-number').textContent = score;
+        document.getElementById('progress-bar').style.width = score + '%';
+
+        // Title
+        let titleKey = 0;
+        for (const t of [100, 90, 70, 50, 30, 0]) {
+          if (score >= t) { titleKey = t; break; }
+        }
+        document.getElementById('score-title').textContent = titles[titleKey][0];
+        document.getElementById('score-desc').textContent = titles[titleKey][1];
+
+        // Color coding
+        const num = document.getElementById('score-number');
+        num.style.color = score >= 70 ? '#28a745' : score >= 40 ? '#e67e22' : '#e74c3c';
+
+        // Category scores
+        const catEl = document.getElementById('cat-scores');
+        catEl.innerHTML = Object.keys(cats).map(k => {
+          const c = cats[k];
+          const pct = Math.round((c.checked / c.total) * 100);
+          const color = pct >= 80 ? '#28a745' : pct >= 40 ? '#e67e22' : '#e74c3c';
+          return '<div class="cat-score-item"><span class="cs-label">' + c.label + '</span><span class="cs-val" style="color:' + color + '">' + c.checked + '/' + c.total + '</span></div>';
+        }).join('');
+
+        // Tips — show unchecked items from worst category
+        const tipsEl = document.getElementById('result-tips');
+        const worst = Object.entries(cats).sort((a, b) => (a[1].checked / a[1].total) - (b[1].checked / b[1].total))[0];
+        if (worst[1].checked < worst[1].total) {
+          const unchecked = [];
+          document.querySelectorAll('[data-cat="' + worst[0] + '"] input[type="checkbox"]').forEach(cb => {
+            if (!cb.checked) {
+              const text = cb.closest('.check-item').querySelector('.check-text').textContent;
+              unchecked.push(text);
+            }
+          });
+          tipsEl.innerHTML = '<h3>Priority fixes (' + worst[1].label + ')</h3><ul>' + unchecked.map(t => '<li>' + t + '</li>').join('') + '</ul>';
+        } else {
+          tipsEl.innerHTML = '';
+        }
+      }
+
+      document.querySelectorAll('#categories input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', update);
+      });
+
+      // Share
+      document.getElementById('btn-twitter').addEventListener('click', function() {
+        const score = document.getElementById('score-number').textContent;
+        const text = 'My website scored ' + score + '/100 on the AI Design Checker — how human does YOUR site look? 🔍';
+        window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent('https://aitoolpick.org/tools/ai-design-checker/'), '_blank');
+      });
+      document.getElementById('btn-copy').addEventListener('click', function() {
+        const score = document.getElementById('score-number').textContent;
+        const text = 'AI Design Score: ' + score + '/100 — https://aitoolpick.org/tools/ai-design-checker/';
+        navigator.clipboard.writeText(text).then(() => { this.textContent = 'Copied!'; setTimeout(() => { this.textContent = 'Copy result'; }, 2000); });
+      });
+
+      update();
+    })();
+  </script>
+</BaseLayout>

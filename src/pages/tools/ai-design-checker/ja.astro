@@ -1,0 +1,492 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'AIデザインチェッカー',
+  description: 'あなたのサイトはAIっぽく見えていませんか？6カテゴリ30項目で診断。',
+  url: 'https://aitoolpick.org/tools/ai-design-checker/ja/',
+  applicationCategory: 'DesignApplication',
+  inLanguage: 'ja',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+});
+---
+
+<BaseLayout
+  title="AIデザインチェッカー — あなたのサイト、AIっぽく見えてませんか？"
+  description="無料ツール。AIが作ったサイトに共通するデザインパターン30項目をチェック。配色・フォント・レイアウト・コピー・画像・UXの6カテゴリで診断し、具体的な改善方法を提示します。"
+>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="checker-hero">
+    <p class="checker-tag">無料ツール</p>
+    <h1>あなたのサイト、<br />AIっぽく見えてませんか？</h1>
+    <p class="checker-sub">グラデーション背景、Interフォント、3カラムカード、絵文字アイコン。AIが作ったサイトには共通のパターンがある。ユーザーは気づく。Googleも気づく。30項目でチェックして、「AIが作った感」を消そう。</p>
+    <div class="lang-switch">
+      <a href="/tools/ai-design-checker/">English</a>
+      <a href="/tools/ai-design-checker/ja/" class="lang-active">日本語</a>
+    </div>
+  </section>
+
+  <section class="checker-app" id="checker">
+    <div class="checker-progress">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div class="checker-categories" id="categories">
+
+      <!-- 配色 -->
+      <div class="cat" data-cat="colors">
+        <h2>配色</h2>
+        <p class="cat-desc">AIは紫→青グラデーション、全要素に影、背景色の交互切り替えをやりがち。</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">紫→青のグラデーション背景を使っていない</span><span class="check-tip">AI生成サイト最多のパターン。単色ベース＋アクセント1色に。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">グラデーションのボタンがない</span><span class="check-tip">フラットカラーのボタン＋hoverで変化が今のトレンド。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">使用色が3色以内（メイン＋グレー＋アクセント）</span><span class="check-tip">色が少ない＝プロっぽい。迷ったら白背景＋黒文字＋アクセント1色。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">全要素にbox-shadowをつけていない</span><span class="check-tip">影は控えめに。borderで区切るほうが自然。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="colors" /><span class="check-text">セクション背景色を交互に変えていない</span><span class="check-tip">本当に区切りたい場所だけ背景色を変える。毎セクション交互はテンプレ感。</span></label>
+        </div>
+      </div>
+
+      <!-- フォント -->
+      <div class="cat" data-cat="typography">
+        <h2>フォント</h2>
+        <p class="cat-desc">AIは同じ3つのフォントを選び、全て均一にする。人間はリズムとコントラストを作る。</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">Inter / Roboto / Open Sans を使っていない</span><span class="check-tip">日本語: Noto Sans JP, BIZ UDGothic。英語: DM Sans, Plus Jakarta Sans, Sora等。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">見出しと本文でフォントスタイルが違う</span><span class="check-tip">太さだけでなく、フォントファミリーやletter-spacingで差をつける。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">文字サイズにメリハリがある</span><span class="check-tip">ヒーローの見出しはドカンと大きく。16→24→32の均等刻みはAIっぽい。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">見出しと本文でline-heightが異なる</span><span class="check-tip">見出し: 1.1〜1.3、本文: 1.6〜1.8。全部1.5はAIのデフォルト。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="typography" /><span class="check-text">letter-spacingを意図的に設定している</span><span class="check-tip">大きい見出しはletter-spacing: -0.02emで引き締める。デフォルト任せは野暮ったい。</span></label>
+        </div>
+      </div>
+
+      <!-- レイアウト -->
+      <div class="cat" data-cat="layout">
+        <h2>レイアウト</h2>
+        <p class="cat-desc">AIは3カラムカードとセンター揃えが大好き。人間はパターンを壊す。</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">3カラム等間隔カードが3セクション以上続いていない</span><span class="check-tip">1カラム、2カラム、リスト表示を混ぜる。同じグリッドの繰り返し＝テンプレ感。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">セクションごとにビジュアル構造が違う</span><span class="check-tip">毎回「見出し→説明→カード3枚」はNG。リズムを変える。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">全要素がセンター揃えになっていない</span><span class="check-tip">基本は左揃え。センターはヒーローか短い見出しだけ。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">セクション間の余白に強弱がある</span><span class="check-tip">重要なセクションは広く、関連が深いセクション同士は近く。全部同じpaddingは機械的。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="layout" /><span class="check-text">ヒーローがSaaSテンプレートそのままじゃない</span><span class="check-tip">全画面＋大文字＋CTAボタン2つ＝SaaSテンプレの定型。コンテンツに合わせる。</span></label>
+        </div>
+      </div>
+
+      <!-- コピー -->
+      <div class="cat" data-cat="copy">
+        <h2>コピー・マイクロコピー</h2>
+        <p class="cat-desc">AIのコピーは曖昧で、バズワードだらけで、何も具体的じゃない。</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">「シームレス」「エンパワー」「次世代」等の空虚ワードがない</span><span class="check-tip">具体的な動詞に置き換える: 計算する、比較する、探す、作る。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">「〜を、もっと〜に」パターンがない</span><span class="check-tip">日本語AI生成コピーの最頻出パターン。実際に何ができるかを書く。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">CTAが具体的（「詳しくはこちら」ではない）</span><span class="check-tip">「費用を計算する」「3つのツールを比較する」等、クリック後に何が起きるか伝える。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">見出しが具体的な言葉で書かれている</span><span class="check-tip">「機能」→「追跡できること」。「ソリューション」→「週3時間節約する方法」。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="copy" /><span class="check-text">サブタイトルが1文以内</span><span class="check-tip">AIは3文のサブタイトルを書く。人間は短くする。3文必要なら本文に。</span></label>
+        </div>
+      </div>
+
+      <!-- 画像 -->
+      <div class="cat" data-cat="images">
+        <h2>画像・アイコン</h2>
+        <p class="cat-desc">AIは絵文字をアイコンにし、関係ないストック写真を使い、画像を使い回す。</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">絵文字をセクションアイコンに使っていない</span><span class="check-tip">SVGアイコンライブラリ（Lucide, Heroicons, Phosphor）を使う。またはアイコンなし。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">画像と内容が一致している</span><span class="check-tip">AIはキーワードで画像を選ぶが意味は見ない。大阪の記事に東京タワーの写真はNG。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">同じ画像を複数ページで使い回していない</span><span class="check-tip">ユニークな画像がなければ、画像なしレイアウトのほうがマシ。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">AI生成イラストを使っていない（指6本、文字溶け）</span><span class="check-tip">AI画像は一目でバレる。SVGイラストか実写を使う。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="images" /><span class="check-text">画像の代わりにグラデーションプレースホルダーがない</span><span class="check-tip">画像がないなら、画像なしのレイアウトにする。グラデで誤魔化さない。</span></label>
+        </div>
+      </div>
+
+      <!-- UX -->
+      <div class="cat" data-cat="ux">
+        <h2>UX・インタラクション</h2>
+        <p class="cat-desc">AIはアニメーションを盛りすぎ、同じコンポーネントを並べすぎる。良いUXは引き算。</p>
+        <div class="checks">
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">ファーストビューでページの目的がわかる</span><span class="check-tip">ユーザーは3秒で判断する。スクロールしないとわからないページは改善が必要。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">長いコンテンツを折りたたんでいる</span><span class="check-tip">50件以上を一気に表示しない。「もっと見る」「タブ」「アコーディオン」で整理。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">アニメーションがコンテンツ表示を邪魔していない</span><span class="check-tip">スクロールアニメ（opacity: 0→1）はView Transitionsと衝突しやすい。テスト必須。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">モバイルのタップ領域が44px以上ある</span><span class="check-tip">小さいボタンはモバイルユーザーのストレス。最低44×44px。</span></label>
+          <label class="check-item"><input type="checkbox" data-cat="ux" /><span class="check-text">1セクションにCTAが2つ以下</span><span class="check-tip">ボタン3つ以上＝選択肢過多。メインアクション＋サブの2つまで。</span></label>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 結果 -->
+    <div class="results" id="results">
+      <div class="score-card" id="score-card">
+        <div class="score-circle" id="score-circle">
+          <span class="score-number" id="score-number">0</span>
+          <span class="score-label">/100</span>
+        </div>
+        <h2 id="score-title">上の項目をチェックしてください</h2>
+        <p id="score-desc">あなたのサイトが該当する項目にチェックを入れると、リアルタイムでスコアが更新されます。</p>
+      </div>
+      <div class="cat-scores" id="cat-scores"></div>
+      <div class="result-tips" id="result-tips"></div>
+      <div class="share-box">
+        <p>スコアをシェア:</p>
+        <button class="btn-share" id="btn-twitter">Xでポスト</button>
+        <button class="btn-share" id="btn-copy">結果をコピー</button>
+      </div>
+    </div>
+
+    <div class="related-box">
+      <h3>文章のAIっぽさもチェック</h3>
+      <p>デザインは半分。AI生成テキストにも独特の癖がある — 定型フレーズ、感情の平坦さ、機械的な接続詞。</p>
+      <a href="/blog/ai-design-checklist-ja/" class="btn-related">記事を読む: AIっぽくないサイトの作り方 →</a>
+    </div>
+  </section>
+
+  <style>
+    .checker-hero {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 2rem;
+      text-align: center;
+    }
+    .checker-tag {
+      display: inline-block;
+      background: #e8f4f8;
+      color: #0078D4;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      letter-spacing: 0.05em;
+    }
+    .checker-hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      line-height: 1.2;
+      margin: 0 0 1rem;
+      color: #1a1a2e;
+      letter-spacing: -0.02em;
+    }
+    .checker-sub {
+      color: #555;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+    .lang-switch {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+    }
+    .lang-switch a {
+      padding: 6px 16px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      text-decoration: none;
+      border: 1px solid #ddd;
+      color: #555;
+      transition: all 0.15s;
+    }
+    .lang-switch .lang-active {
+      background: #1a1a2e;
+      color: #fff;
+      border-color: #1a1a2e;
+    }
+    .checker-app {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+    .checker-progress {
+      height: 6px;
+      background: #eee;
+      border-radius: 3px;
+      margin-bottom: 2.5rem;
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: #0078D4;
+      border-radius: 3px;
+      transition: width 0.3s ease;
+    }
+    .cat {
+      margin-bottom: 2.5rem;
+    }
+    .cat h2 {
+      font-size: 1.3rem;
+      margin: 0 0 0.3rem;
+      color: #1a1a2e;
+    }
+    .cat-desc {
+      color: #777;
+      font-size: 0.9rem;
+      margin: 0 0 1rem;
+    }
+    .checks {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .check-item {
+      display: block;
+      padding: 12px 16px;
+      border: 1px solid #eee;
+      border-bottom: none;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .check-item:first-child { border-radius: 8px 8px 0 0; }
+    .check-item:last-child { border-bottom: 1px solid #eee; border-radius: 0 0 8px 8px; }
+    .check-item:hover { background: #fafafa; }
+    .check-item:has(input:checked) { background: #f0f9f4; border-color: #c3e6cb; }
+    .check-item:has(input:checked) + .check-item { border-top-color: #c3e6cb; }
+    .check-item input[type="checkbox"] {
+      margin-right: 10px;
+      accent-color: #28a745;
+      transform: scale(1.15);
+      vertical-align: middle;
+    }
+    .check-text {
+      font-size: 0.95rem;
+      color: #333;
+      vertical-align: middle;
+    }
+    .check-tip {
+      display: block;
+      margin: 6px 0 0 28px;
+      font-size: 0.82rem;
+      color: #888;
+      line-height: 1.5;
+    }
+    .results {
+      margin: 2rem 0;
+      padding: 2rem;
+      background: #fafafa;
+      border-radius: 12px;
+      border: 1px solid #eee;
+    }
+    .score-card {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .score-circle {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 2px;
+      margin-bottom: 0.8rem;
+    }
+    .score-number {
+      font-size: 4rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1;
+    }
+    .score-label {
+      font-size: 1.5rem;
+      color: #999;
+      font-weight: 400;
+    }
+    .score-card h2 {
+      font-size: 1.2rem;
+      margin: 0 0 0.4rem;
+    }
+    .score-card p {
+      color: #777;
+      font-size: 0.9rem;
+    }
+    .cat-scores {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 600px) {
+      .cat-scores { grid-template-columns: repeat(2, 1fr); }
+    }
+    .cat-score-item {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    .cat-score-item .cs-label {
+      font-size: 0.75rem;
+      color: #888;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .cat-score-item .cs-val {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+    .result-tips {
+      margin-bottom: 1.5rem;
+    }
+    .result-tips h3 {
+      font-size: 1rem;
+      margin: 0 0 0.8rem;
+      color: #1a1a2e;
+    }
+    .result-tips ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .result-tips li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .result-tips li:last-child { border-bottom: none; }
+    .share-box {
+      text-align: center;
+      padding-top: 1rem;
+      border-top: 1px solid #eee;
+    }
+    .share-box p {
+      font-size: 0.85rem;
+      color: #888;
+      margin: 0 0 0.8rem;
+    }
+    .btn-share {
+      padding: 8px 20px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.85rem;
+      margin: 0 4px;
+      transition: all 0.15s;
+    }
+    .btn-share:hover {
+      background: #1a1a2e;
+      color: #fff;
+      border-color: #1a1a2e;
+    }
+    .related-box {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: #f0f4ff;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .related-box h3 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem;
+      color: #1a1a2e;
+    }
+    .related-box p {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 0 0 1rem;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-related {
+      display: inline-block;
+      padding: 10px 24px;
+      background: #1a1a2e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      transition: opacity 0.15s;
+    }
+    .btn-related:hover { opacity: 0.85; }
+  </style>
+
+  <script is:inline>
+    (function() {
+      const cats = {
+        colors: { label: '配色', checked: 0, total: 5 },
+        typography: { label: 'フォント', checked: 0, total: 5 },
+        layout: { label: 'レイアウト', checked: 0, total: 5 },
+        copy: { label: 'コピー', checked: 0, total: 5 },
+        images: { label: '画像', checked: 0, total: 5 },
+        ux: { label: 'UX', checked: 0, total: 5 },
+      };
+      const totalItems = 30;
+
+      const titles = {
+        0: ['AIっぽさ全開です', '大幅な改善が必要です。でも大丈夫 — 上のチェック項目がそのまま改善リストになります。'],
+        30: ['かなりAIっぽいです', 'よくあるAIパターンがいくつか検出されました。未チェックの項目から優先的に直しましょう。'],
+        50: ['もう少し', 'AIパターンが残っています。最悪のパターンは脱したので、細部を詰めればかなり良くなります。'],
+        70: ['人間っぽくなってきた', 'AIの典型パターンはほぼ消えています。残りの項目を仕上げれば完璧。'],
+        90: ['素晴らしい', 'AI生成には見えません。このクオリティを維持してください。'],
+        100: ['パーフェクト', 'AI由来のデザインパターンは検出されませんでした。人間のデザイナーが作ったように見えます。'],
+      };
+
+      function update() {
+        let total = 0;
+        Object.keys(cats).forEach(k => { cats[k].checked = 0; });
+
+        document.querySelectorAll('#categories input[type="checkbox"]').forEach(cb => {
+          if (cb.checked) {
+            total++;
+            const cat = cb.dataset.cat;
+            if (cats[cat]) cats[cat].checked++;
+          }
+        });
+
+        const score = Math.round((total / totalItems) * 100);
+        document.getElementById('score-number').textContent = score;
+        document.getElementById('progress-bar').style.width = score + '%';
+
+        let titleKey = 0;
+        for (const t of [100, 90, 70, 50, 30, 0]) {
+          if (score >= t) { titleKey = t; break; }
+        }
+        document.getElementById('score-title').textContent = titles[titleKey][0];
+        document.getElementById('score-desc').textContent = titles[titleKey][1];
+
+        const num = document.getElementById('score-number');
+        num.style.color = score >= 70 ? '#28a745' : score >= 40 ? '#e67e22' : '#e74c3c';
+
+        const catEl = document.getElementById('cat-scores');
+        catEl.innerHTML = Object.keys(cats).map(k => {
+          const c = cats[k];
+          const pct = Math.round((c.checked / c.total) * 100);
+          const color = pct >= 80 ? '#28a745' : pct >= 40 ? '#e67e22' : '#e74c3c';
+          return '<div class="cat-score-item"><span class="cs-label">' + c.label + '</span><span class="cs-val" style="color:' + color + '">' + c.checked + '/' + c.total + '</span></div>';
+        }).join('');
+
+        const tipsEl = document.getElementById('result-tips');
+        const worst = Object.entries(cats).sort((a, b) => (a[1].checked / a[1].total) - (b[1].checked / b[1].total))[0];
+        if (worst[1].checked < worst[1].total) {
+          const unchecked = [];
+          document.querySelectorAll('[data-cat="' + worst[0] + '"] input[type="checkbox"]').forEach(cb => {
+            if (!cb.checked) {
+              const text = cb.closest('.check-item').querySelector('.check-text').textContent;
+              unchecked.push(text);
+            }
+          });
+          tipsEl.innerHTML = '<h3>優先的に直すべき項目（' + worst[1].label + '）</h3><ul>' + unchecked.map(t => '<li>' + t + '</li>').join('') + '</ul>';
+        } else {
+          tipsEl.innerHTML = '';
+        }
+      }
+
+      document.querySelectorAll('#categories input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', update);
+      });
+
+      document.getElementById('btn-twitter').addEventListener('click', function() {
+        const score = document.getElementById('score-number').textContent;
+        const text = '私のサイトのAIデザインスコア: ' + score + '/100 — あなたのサイトはどう？';
+        window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent('https://aitoolpick.org/tools/ai-design-checker/ja/'), '_blank');
+      });
+      document.getElementById('btn-copy').addEventListener('click', function() {
+        const score = document.getElementById('score-number').textContent;
+        const text = 'AIデザインスコア: ' + score + '/100 — https://aitoolpick.org/tools/ai-design-checker/ja/';
+        navigator.clipboard.writeText(text).then(() => { this.textContent = 'コピーしました！'; setTimeout(() => { this.textContent = '結果をコピー'; }, 2000); });
+      });
+
+      update();
+    })();
+  </script>
+</BaseLayout>
