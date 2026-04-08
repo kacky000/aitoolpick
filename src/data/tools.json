@@ -927,7 +927,7 @@
     "pricing": {
       "free": true,
       "starter": 8,
-      "business": 16,
+      "business": 20,
       "enterprise": null
     },
     "currency": "USD",
