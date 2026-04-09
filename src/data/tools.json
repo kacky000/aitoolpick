@@ -397,7 +397,7 @@
     ],
     "pricing": {
       "free": true,
-      "basic": 8,
+      "basic": 10,
       "business": 16,
       "enterprise": null
     },
