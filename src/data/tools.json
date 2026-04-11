@@ -111,6 +111,7 @@
       "free": true,
       "unlimited": 7,
       "business": 12,
+      "businessPlus": 19,
       "enterprise": null
     },
     "currency": "USD",
@@ -878,8 +879,8 @@
     ],
     "pricing": {
       "free": true,
-      "professional": 29.99,
-      "team": 103.5,
+      "professional": 19.99,
+      "team": 69,
       "enterprise": null
     },
     "currency": "USD",
