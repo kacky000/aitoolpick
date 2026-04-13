@@ -256,8 +256,8 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 4,
-      "business": 6
+      "pro": 5,
+      "business": 8
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
@@ -544,7 +544,7 @@
       "free": true,
       "professional": 15,
       "organization": 45,
-      "enterprise": 75
+      "enterprise": 90
     },
     "currency": "USD",
     "pricingModel": "per-editor-monthly",
