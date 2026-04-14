@@ -11,7 +11,7 @@
     "pricing": {
       "free": true,
       "plus": 10,
-      "business": 18,
+      "business": 20,
       "enterprise": null
     },
     "currency": "USD",
@@ -1077,12 +1077,12 @@
     "pricing": {
       "free": true,
       "advanced": 19.99,
-      "business": 30,
-      "enterprise": null
+      "business": 20,
+      "enterprise": 30
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
-    "description": "Google's AI assistant with deep Google Workspace integration, Gemini 1.5 Pro model, and real-time Google Search.",
+    "description": "Google's AI assistant with deep Google Workspace integration, Gemini 3 model, and real-time Google Search.",
     "pros": [
       "Native Google Workspace integration",
       "Google Search-powered web browsing",
