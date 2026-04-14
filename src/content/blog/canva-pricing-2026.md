@@ -1,6 +1,6 @@
 ---
-title: "Canva Pricing 2026: Complete Breakdown of Free, Pro & Teams"
-description: "Full breakdown of Canva pricing in 2026. Compare Free, Pro ($15/mo), and Teams ($20/mo) plans with features, storage, and brand tools."
+title: "Canva Pricing 2026: AI Features, Free vs Pro vs Teams Cost Breakdown"
+description: "Canva pricing 2026 with AI features breakdown: Free, Pro ($15/mo), Teams ($20/mo). Includes Magic Design, Text to Image, Background Remover—and which plan is worth it."
 pubDate: "2026-04-11"
 tags: ["canva", "pricing", "design"]
 ---
