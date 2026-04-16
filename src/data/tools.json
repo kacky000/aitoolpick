@@ -1063,5 +1063,56 @@
     "rating": 4.3,
     "yearFounded": 2017,
     "icon": "/icons/microsoft-teams.png"
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "slug": "jira",
+    "category": [
+      "project-management",
+      "issue-tracking",
+      "agile"
+    ],
+    "pricing": {
+      "free": true,
+      "standard": 7.75,
+      "premium": 15.25,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Industry-standard issue and project tracking for software development teams.",
+    "pros": [
+      "Powerful Agile/Scrum support",
+      "Detailed reporting (burndown, velocity)",
+      "Deep dev tool integrations",
+      "Highly customizable workflows"
+    ],
+    "cons": [
+      "Steep learning curve",
+      "Overwhelming for non-technical users",
+      "Complex admin setup",
+      "Can feel bloated"
+    ],
+    "bestFor": [
+      "engineering-teams",
+      "developers",
+      "scrum-teams",
+      "enterprise"
+    ],
+    "features": [
+      "scrum-boards",
+      "kanban",
+      "backlog",
+      "sprints",
+      "roadmaps",
+      "jql",
+      "automation"
+    ],
+    "website": "https://www.atlassian.com/software/jira",
+    "affiliateUrl": "",
+    "rating": 4.3,
+    "yearFounded": 2002,
+    "icon": "/icons/jira.png"
   }
 ]
