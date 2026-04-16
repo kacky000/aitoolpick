@@ -1,6 +1,6 @@
 ---
-title: "Canva Free vs Pro: Is the Upgrade Worth It in 2026?"
-description: "Canva's free plan is surprisingly powerful. We compare every feature in Free vs Pro to help you decide if $15/month is worth the upgrade."
+title: "Canva Free Features 2026: Everything You Get Without Paying (Free vs Pro)"
+description: "Complete list of Canva free features in 2026: templates, AI tools, storage limits, and brand tools—all without paying. Plus when Pro at $15/mo is actually worth it."
 pubDate: "2026-04-06"
 tags: ["canva", "design", "pricing", "free-vs-paid"]
 ---

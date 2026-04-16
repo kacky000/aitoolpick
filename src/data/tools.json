@@ -111,6 +111,7 @@
       "free": true,
       "unlimited": 7,
       "business": 12,
+      "businessPlus": 19,
       "enterprise": null
     },
     "currency": "USD",
@@ -255,8 +256,8 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 4,
-      "business": 6
+      "pro": 5,
+      "business": 8
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
@@ -543,7 +544,7 @@
       "free": true,
       "professional": 15,
       "organization": 45,
-      "enterprise": 75
+      "enterprise": 90
     },
     "currency": "USD",
     "pricingModel": "per-editor-monthly",
@@ -736,7 +737,7 @@
     "pricing": {
       "free": true,
       "pro": 7.25,
-      "business": 12.50,
+      "business": 12.5,
       "enterprise": null
     },
     "currency": "USD",
@@ -878,8 +879,8 @@
     ],
     "pricing": {
       "free": true,
-      "professional": 29.99,
-      "team": 103.5,
+      "professional": 19.99,
+      "team": 69,
       "enterprise": null
     },
     "currency": "USD",
@@ -1063,6 +1064,54 @@
     "rating": 4.3,
     "yearFounded": 2017,
     "icon": "/icons/microsoft-teams.png"
+  },
+  {
+    "id": "gemini",
+    "name": "Google Gemini",
+    "slug": "gemini",
+    "category": [
+      "ai",
+      "writing",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "advanced": 19.99,
+      "business": 20,
+      "enterprise": 30
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Google's AI assistant with deep Google Workspace integration, Gemini 3 model, and real-time Google Search.",
+    "pros": [
+      "Native Google Workspace integration",
+      "Google Search-powered web browsing",
+      "1M token context window",
+      "Android OS integration"
+    ],
+    "cons": [
+      "Less polished than ChatGPT for general tasks",
+      "Fewer third-party integrations",
+      "Gemini Advanced required for full features"
+    ],
+    "bestFor": [
+      "google-workspace-users",
+      "android-users",
+      "research-tasks"
+    ],
+    "features": [
+      "chat",
+      "image-generation",
+      "web-search",
+      "gmail-integration",
+      "docs-integration",
+      "voice-conversation"
+    ],
+    "website": "https://gemini.google.com",
+    "affiliateUrl": "",
+    "rating": 4.3,
+    "yearFounded": 2023,
+    "icon": "/icons/gemini.png"
   },
   {
     "id": "jira",
