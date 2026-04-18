@@ -14,11 +14,13 @@ Here is every number you need to know before committing to Jira in 2026.
 | Plan | Price | Users | Key Features |
 |------|-------|-------|--------------|
 | Free | $0 | Up to 10 | Basic boards, 2 GB storage, community support |
-| Standard | $8.60/user/month | Up to 35,000 | Audit logs, 250 GB storage, role management |
+| Standard | $7.53–$8.60/user/month* | Up to 35,000 | Audit logs, 250 GB storage, role management |
 | Premium | $17/user/month | Up to 35,000 | Advanced roadmaps, Atlassian Intelligence, archiving |
 | Enterprise | Custom | Unlimited | Multiple instances, 99.95% SLA, unlimited storage |
 
 All paid plans are billed annually. Monthly billing is available at a ~20% premium.
+
+*Jira Standard uses tiered pricing — the per-user rate decreases as team size grows. Smaller teams (1-10 users) pay approximately $8.60/user; larger teams (100+ users) pay approximately $7.53/user. Verify current rates at atlassian.com/software/jira/pricing.
 
 ## What Each Plan Actually Gets You
 
