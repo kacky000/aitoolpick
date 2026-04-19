@@ -107,4 +107,4 @@ For most beginners and small businesses, **Zapier is the safer bet**. For power 
 
 ---
 
-*Still deciding on your automation stack? Explore our full [comparison pages](/compare/zapier-vs-make) for detailed feature-by-feature breakdowns, or browse all [AI and productivity tool reviews](/blog/best-free-ai-tools-2026) to find the perfect fit for your workflow.*
+*Still deciding on your automation stack? Explore our full [comparison pages](/compare/zapier-vs-make) for detailed feature-by-feature breakdowns, browse all [AI and productivity tool reviews](/blog/best-free-ai-tools-2026) to find the perfect fit, or check how [Zapier compares to n8n](/blog/zapier-vs-n8n-2026) as an open-source alternative.*

@@ -1163,5 +1163,105 @@
     "rating": 4.3,
     "yearFounded": 2002,
     "icon": "/icons/jira.png"
+  },
+  {
+    "id": "loom",
+    "name": "Loom",
+    "slug": "loom",
+    "category": [
+      "video-messaging",
+      "communication",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "business": 15,
+      "businessPlus": 25
+    },
+    "currency": "USD",
+    "pricingModel": "per-creator-monthly",
+    "description": "Async video messaging tool for sharing quick screen recordings with your team or customers.",
+    "pros": [
+      "Instant async video communication",
+      "Screen + webcam recording",
+      "Auto-transcription and captions",
+      "Slack and Notion integration"
+    ],
+    "cons": [
+      "25-video limit on free plan",
+      "5-minute recording limit on free",
+      "Requires good internet for fast uploads"
+    ],
+    "bestFor": [
+      "remote-teams",
+      "developers",
+      "customer-success",
+      "managers",
+      "educators"
+    ],
+    "features": [
+      "screen-recording",
+      "video-messages",
+      "transcription",
+      "reactions",
+      "video-editing",
+      "analytics"
+    ],
+    "website": "https://loom.com",
+    "affiliateUrl": "",
+    "rating": 4.5,
+    "yearFounded": 2015,
+    "icon": "/icons/loom.png"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "slug": "n8n",
+    "category": [
+      "automation",
+      "integration",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 24,
+      "pro": 60,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Open-source workflow automation platform with self-hosting, JavaScript node support, and AI agent workflows.",
+    "pros": [
+      "Free self-hosting (forever)",
+      "Full JavaScript/Python in every node",
+      "AI agent workflow builder",
+      "No per-task pricing when self-hosted"
+    ],
+    "cons": [
+      "Requires technical setup for self-hosting",
+      "400+ integrations vs Zapier's 7,000+",
+      "Steeper learning curve than Zapier or Make"
+    ],
+    "bestFor": [
+      "developers",
+      "technical-teams",
+      "agencies",
+      "cost-conscious-teams",
+      "ai-builders"
+    ],
+    "features": [
+      "workflows",
+      "self-hosting",
+      "code-nodes",
+      "webhooks",
+      "ai-agents",
+      "api",
+      "docker"
+    ],
+    "website": "https://n8n.io",
+    "affiliateUrl": "",
+    "rating": 4.6,
+    "yearFounded": 2019,
+    "icon": "/icons/n8n.png"
   }
 ]
