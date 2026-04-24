@@ -593,7 +593,9 @@
       "free": true,
       "plus": 20,
       "team": 25,
-      "enterprise": null
+      "enterprise": null,
+      "go": 8,
+      "pro": 100
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
