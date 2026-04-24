@@ -1126,8 +1126,8 @@
     ],
     "pricing": {
       "free": true,
-      "standard": 7.75,
-      "premium": 15.25,
+      "standard": 7.91,
+      "premium": 14.54,
       "enterprise": null
     },
     "currency": "USD",
@@ -1177,8 +1177,8 @@
     ],
     "pricing": {
       "free": true,
-      "business": 15,
-      "businessPlus": 25
+      "business": 12.5,
+      "businessPlus": 18
     },
     "currency": "USD",
     "pricingModel": "per-creator-monthly",
