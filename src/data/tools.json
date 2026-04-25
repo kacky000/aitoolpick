@@ -11,7 +11,7 @@
     "pricing": {
       "free": true,
       "plus": 10,
-      "business": 20,
+      "business": 15,
       "enterprise": null
     },
     "currency": "USD",
@@ -1214,6 +1214,56 @@
     "rating": 4.5,
     "yearFounded": 2015,
     "icon": "/icons/loom.png"
+  },
+  {
+    "id": "logseq",
+    "name": "Logseq",
+    "slug": "logseq",
+    "category": [
+      "note-taking",
+      "knowledge-management",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "sync": 5
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Open-source, local-first knowledge management tool based on outliner and bidirectional links.",
+    "pros": [
+      "100% open-source",
+      "Local-first and privacy-friendly",
+      "Powerful outliner structure",
+      "Bidirectional links like Obsidian",
+      "Free forever for local use"
+    ],
+    "cons": [
+      "Steeper learning curve than Notion",
+      "Mobile app is less polished",
+      "Smaller community than Obsidian"
+    ],
+    "bestFor": [
+      "researchers",
+      "writers",
+      "developers",
+      "privacy-conscious-users",
+      "knowledge-workers"
+    ],
+    "features": [
+      "outlines",
+      "backlinks",
+      "graph-view",
+      "journals",
+      "queries",
+      "plugins",
+      "markdown"
+    ],
+    "website": "https://logseq.com",
+    "affiliateUrl": "",
+    "rating": 4.4,
+    "yearFounded": 2020,
+    "icon": "/icons/logseq.png"
   },
   {
     "id": "n8n",
