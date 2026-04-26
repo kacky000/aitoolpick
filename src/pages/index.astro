@@ -79,9 +79,11 @@ const popularComparisons = [
           {latestPosts.map((post) => (
             <a href={`/blog/${post.id}/`} class="post-card" style="text-decoration: none; color: inherit;">
               {post.data.heroImage ? (
-                <img class="post-card-image" src={post.data.heroImage} alt={post.data.title} />
+                <img class="post-card-image" src={post.data.heroImage} alt={post.data.title} loading="lazy" />
               ) : (
-                <div class="post-card-image"></div>
+                <div class="post-card-image post-card-image--placeholder">
+                  <span>{post.data.title.slice(0, 1)}</span>
+                </div>
               )}
               <div class="post-card-body">
                 <p class="post-card-date">

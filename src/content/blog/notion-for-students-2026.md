@@ -3,8 +3,9 @@ title: "Notion for Students in 2026: Study System Setup Guide"
 description: "How students can use Notion to organize classes, assignments, notes, and research in 2026. Includes practical setup templates and tips for academic use."
 pubDate: "2026-04-25"
 tags: ["notion", "students", "productivity", "note-taking", "study"]
+heroImage: "/thumbs/notion-for-students-2026.jpg"
+lastModified: "2026-04-26"
 ---
-
 Students who figure out Notion early have a significant advantage over those still juggling a mix of paper notes, Google Docs folders, Reminders, and a physical planner. Notion can replace all of those with a single system that keeps everything connected.
 
 Here's how to set it up for academic use.

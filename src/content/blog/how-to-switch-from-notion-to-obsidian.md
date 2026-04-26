@@ -4,8 +4,8 @@ description: "Step-by-step guide to migrate from Notion to Obsidian — export y
 pubDate: "2026-04-05"
 heroImage: "/thumbs/how-to-switch-from-notion-to-obsidian.jpg"
 tags: ["notion", "obsidian", "migration", "note-taking"]
+lastModified: "2026-04-26"
 ---
-
 Notion is powerful but comes with a cost: your data lives in the cloud on someone else's server, load times can crawl, and the monthly bill adds up. Obsidian, on the other hand, stores everything as plain Markdown files on your own machine — fast, offline, and free. If you've been thinking about making the switch, this guide walks you through every step.
 
 Before you start, check out our [Notion vs Obsidian comparison](/blog/notion-vs-obsidian-which-note-app) for a high-level breakdown of the trade-offs between the two apps.
@@ -153,3 +153,18 @@ If you're still weighing the decision, our [Notion review](/blog/notion-review-2
 Browse our full reviews and comparisons of productivity tools at AIToolPick. Whether you stay with Notion, move to Obsidian, or try something else entirely, we cover the full landscape of tools to help you work smarter.
 
 [Compare Notion vs Obsidian →](/blog/notion-vs-obsidian-which-note-app)
+
+## Frequently Asked Questions
+
+### How long does this take?
+
+Most users can complete this process in 15-30 minutes by following the step-by-step guide above.
+
+### Do I need any technical skills?
+
+No advanced technical skills are required. This guide walks you through each step with clear instructions.
+
+### What tools do I need?
+
+See the requirements section above for the complete list of tools and accounts you'll need to get started.
+

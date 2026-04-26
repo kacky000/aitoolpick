@@ -4,7 +4,9 @@ description: "n8n pricing explained for 2026. Self-hosted is free forever, but c
 pubDate: "2026-04-20"
 heroImage: "/thumbs/n8n-pricing-2026.jpg"
 tags: ["n8n", "pricing", "automation", "self-hosting", "workflow"]
+lastModified: "2026-04-26"
 ---
+**N8N** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
 n8n's pricing structure is unusual: the most powerful version is free. Here's what you actually pay for — and when cloud plans make sense over self-hosting.
 
@@ -115,3 +117,18 @@ If you're non-technical or evaluating n8n for the first time, Cloud Starter ($24
 ---
 
 **Related:** [n8n Full Review 2026](/blog/n8n-review-2026) | [Zapier vs n8n: Which to Choose?](/blog/zapier-vs-n8n-2026) | [Make vs n8n in 2026](/blog/make-vs-n8n-2026)
+
+## Frequently Asked Questions
+
+### Is N8N free?
+
+Yes, N8N offers a free plan with limited features. See the pricing breakdown above for what's included in each tier.
+
+### Is N8N worth paying for?
+
+It depends on your needs. The free plan works for basic use, but teams and power users will benefit from paid features. See our plan-by-plan analysis above.
+
+### What is the cheapest N8N plan?
+
+Check the pricing table above for the most current pricing. Plans and pricing may change — we update this page regularly.
+

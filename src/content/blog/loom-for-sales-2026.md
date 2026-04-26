@@ -4,8 +4,8 @@ description: "How to use Loom for sales: prospecting videos, product demos, foll
 pubDate: "2026-04-23"
 heroImage: "/thumbs/loom-for-sales-2026.jpg"
 tags: ["loom", "sales", "video-messaging", "prospecting", "remote-sales"]
+lastModified: "2026-04-26"
 ---
-
 Cold emails get ignored. Generic demos get forgotten. A personalized 90-second Loom video that walks a prospect through their specific problem? That gets replies.
 
 Here's how high-performing sales teams are using Loom in 2026 — with specific use cases, templates, and tactics that work.

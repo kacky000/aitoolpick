@@ -3,8 +3,9 @@ title: "How to Make Your Website Not Look AI-Generated (30-Point Checklist)"
 description: "AI-built websites share the same design patterns — gradients, Inter font, 3-column cards, emoji icons. Here's a 30-point checklist to find and fix every tell."
 pubDate: "2026-04-08"
 tags: ["ai", "design", "web-design", "checklist"]
+heroImage: "/thumbs/ai-generated-website-checklist.jpg"
+lastModified: "2026-04-26"
 ---
-
 I've built several websites with AI tools over the past year. Every single first draft looked the same: purple-blue gradient hero, Inter font, three cards in a row, emoji icons everywhere.
 
 Users can tell. Google can probably tell too — Helpful Content Update penalizes content that feels auto-generated, and that includes design.

@@ -4,10 +4,8 @@ description: "Step-by-step guide to migrating from Trello to Notion. Learn how t
 pubDate: "2026-03-21"
 heroImage: "/thumbs/how-to-switch-from-trello-to-notion.jpg"
 tags: ["trello", "notion", "migration", "project-management"]
+lastModified: "2026-04-26"
 ---
-
-# How to Switch from Trello to Notion: Complete Migration Guide
-
 Switching from Trello to Notion is one of the most common tool migrations in 2026. Notion's flexibility makes it a natural upgrade path, but the migration process isn't always straightforward. This guide walks you through every step.
 
 ## Why People Switch from Trello to Notion

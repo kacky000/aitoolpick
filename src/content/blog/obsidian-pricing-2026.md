@@ -3,7 +3,10 @@ title: "Obsidian Pricing 2026: Free Core + Paid Add-Ons Explained"
 description: "Obsidian is free for personal use, but Sync ($4/mo) and Publish ($8/mo) add-ons cost extra. Here's exactly when they're worth it — and when they're not."
 pubDate: 2026-04-05
 tags: ["obsidian", "pricing", "note-taking"]
+heroImage: "/thumbs/obsidian-pricing-2026.jpg"
+lastModified: "2026-04-26"
 ---
+**Obsidian** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
 Obsidian has one of the most unusual pricing models in the note-taking world: the core app is completely free for personal use, forever. No feature limits, no note caps, no device restrictions on local files. And yet the app generates enough revenue to sustain a small, independent team through optional paid add-ons.
 
@@ -143,3 +146,18 @@ The tradeoff is the learning curve. Obsidian is more powerful and more flexible 
 If you're already sold on the app and want to decide whether Sync is worth it for your workflow, start by using the free iCloud or Dropbox sync method for a month. If the friction bothers you, $4/month for native Sync is an easy call.
 
 Want to see how Obsidian stacks up in real-world use? Read the full [Obsidian Review 2026](/blog/obsidian-review-2026), or compare it to the top competitors in [Best Obsidian Alternatives 2026](/blog/best-obsidian-alternatives-2026).
+
+## Frequently Asked Questions
+
+### Is Obsidian free?
+
+Yes, Obsidian offers a free plan with limited features. See the pricing breakdown above for what's included in each tier.
+
+### Is Obsidian worth paying for?
+
+It depends on your needs. The free plan works for basic use, but teams and power users will benefit from paid features. See our plan-by-plan analysis above.
+
+### What is the cheapest Obsidian plan?
+
+Check the pricing table above for the most current pricing. Plans and pricing may change — we update this page regularly.
+

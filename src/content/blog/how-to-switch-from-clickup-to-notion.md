@@ -1,10 +1,11 @@
 ---
 title: "How to Switch from ClickUp to Notion: Step-by-Step Migration Guide"
-description: "Complete guide to migrating from ClickUp to Notion in 2026. Covers exporting data, rebuilding workflows, and getting your team onboard."
+description: "Complete guide to migrating from ClickUp to Notion in 2026. Covers exporting data, rebuilding workflows, and getting your team onboard. ClickUp is packed..."
 pubDate: "2026-04-13"
 tags: ["clickup", "notion", "migration", "how-to"]
+heroImage: "/thumbs/how-to-switch-from-clickup-to-notion.jpg"
+lastModified: "2026-04-26"
 ---
-
 ClickUp is packed with features — sometimes too many. Teams that find themselves overwhelmed by ClickUp's complexity often look to Notion for a simpler, more flexible workspace. If that's your team, this guide will walk you through a smooth migration.
 
 ## Why Teams Switch from ClickUp to Notion
@@ -155,3 +156,18 @@ Common automations to recreate:
 ## Next Steps
 
 Check our [full Notion review](/blog/notion-review-2026) and [Notion pricing guide](/blog/notion-pricing-2026). For a detailed comparison, see [Notion vs ClickUp](/blog/notion-vs-clickup-which-is-better) to understand the full trade-offs.
+
+## Frequently Asked Questions
+
+### How long does this take?
+
+Most users can complete this process in 15-30 minutes by following the step-by-step guide above.
+
+### Do I need any technical skills?
+
+No advanced technical skills are required. This guide walks you through each step with clear instructions.
+
+### What tools do I need?
+
+See the requirements section above for the complete list of tools and accounts you'll need to get started.
+

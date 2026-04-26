@@ -4,13 +4,47 @@ import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
-  return posts.map((post) => ({
-    params: { id: post.id },
-    props: { post },
-  }));
+  return posts.map((post) => {
+    // Find related posts by tag overlap
+    const postTags = (post.data.tags || []).map(t => t.toLowerCase());
+    const related = posts
+      .filter(p => p.id !== post.id)
+      .map(p => {
+        const pTags = (p.data.tags || []).map(t => t.toLowerCase());
+        const overlap = postTags.filter(t => pTags.includes(t)).length;
+        return { post: p, overlap };
+      })
+      .filter(r => r.overlap > 0)
+      .sort((a, b) => b.overlap - a.overlap)
+      .slice(0, 4)
+      .map(r => ({ id: r.post.id, title: r.post.data.title, description: r.post.data.description }));
+
+    // Extract FAQ items from raw markdown
+    const faqItems: { question: string; answer: string }[] = [];
+    const body = post.body || '';
+    const faqMatch = body.match(/##\s*(?:FAQ|Frequently Asked Questions|Common Questions)[^\n]*/i);
+    if (faqMatch) {
+      const faqStart = body.indexOf(faqMatch[0]);
+      const faqSection = body.slice(faqStart);
+      const qPattern = /###\s*(.+?)(?:\?)?[\s]*\n([\s\S]*?)(?=\n###|\n##(?!#)|$)/g;
+      let match;
+      while ((match = qPattern.exec(faqSection)) !== null) {
+        const question = match[1].trim().replace(/\?$/, '') + '?';
+        const answer = match[2].trim().replace(/\n+/g, ' ').slice(0, 500);
+        if (question && answer) {
+          faqItems.push({ question, answer });
+        }
+      }
+    }
+
+    return {
+      params: { id: post.id },
+      props: { post, relatedPosts: related, faqItems },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, relatedPosts, faqItems } = Astro.props;
 const { Content } = await render(post);
 ---
 
@@ -18,8 +52,11 @@ const { Content } = await render(post);
   title={post.data.title}
   description={post.data.description}
   pubDate={post.data.pubDate}
+  lastModified={post.data.lastModified}
   heroImage={post.data.heroImage}
   tags={post.data.tags}
+  relatedPosts={relatedPosts}
+  faqItems={faqItems}
 >
   <Content />
 </BlogPost>

@@ -3,8 +3,9 @@ title: "ChatGPT for Students in 2026: Study Smarter, Not Harder"
 description: "Discover how students use ChatGPT in 2026 to ace exams, write essays, and manage coursework — with practical tips and warnings you need to know."
 pubDate: "2026-04-26"
 tags: ["chatgpt", "ai", "students", "study-tips", "productivity"]
+heroImage: "/thumbs/chatgpt-for-students-2026.jpg"
+lastModified: "2026-04-26"
 ---
-
 ChatGPT has become the most-used AI tool among college students, but most students are barely scratching the surface of what it can do. This guide covers the real ways to use ChatGPT to study smarter — and where to draw the line.
 
 ## Why Students Are Turning to ChatGPT

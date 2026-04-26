@@ -1,10 +1,11 @@
 ---
 title: "How to Use Canva for Social Media in 2026: Templates, Tips, and Workflows"
-description: "Learn how to use Canva for social media in 2026. Find the best templates, design tips, and batch creation workflows for every platform."
+description: "Learn how to use Canva for social media in 2026. Find the best templates, design tips, and batch creation workflows for every platform. Canva has become the..."
 pubDate: "2026-04-14"
 tags: ["canva", "social-media", "design", "marketing"]
+heroImage: "/thumbs/canva-for-social-media-2026.jpg"
+lastModified: "2026-04-26"
 ---
-
 Canva has become the default design tool for social media managers, content creators, and small business owners who need professional-looking graphics without a design background. In 2026, Canva's AI features make creating social media content faster than ever. Here's how to make the most of it.
 
 ## Why Canva Dominates Social Media Design

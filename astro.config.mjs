@@ -6,7 +6,7 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
   site: 'https://aitoolpick.org',
   image: {
-    service: { entrypoint: 'astro/assets/services/noop' },
+    service: { entrypoint: 'astro/assets/services/sharp' },
   },
   integrations: [
     mdx(),

@@ -1,11 +1,11 @@
 ---
 title: "How to Switch from Evernote to Obsidian: Complete Migration Guide"
-description: "Step-by-step guide to migrating from Evernote to Obsidian in 2026. Export notes, convert formats, preserve tags, and set up your new vault."
+description: "Step-by-step guide to migrating from Evernote to Obsidian in 2026. Export notes, convert formats, preserve tags, and set up your new vault. Evernote's..."
 pubDate: "2026-04-04"
 tags: ["evernote", "obsidian", "migration", "note-taking"]
 heroImage: "/thumbs/how-to-switch-from-evernote-to-obsidian.jpg"
+lastModified: "2026-04-26"
 ---
-
 Evernote's declining free tier and rising prices have pushed many long-time users to look elsewhere. [Obsidian](/tools/obsidian) — with its free personal plan, local-first storage, and powerful linking — has become the top destination for Evernote refugees.
 
 But migrating years of notes isn't trivial. Here's how to do it without losing anything.
@@ -148,3 +148,18 @@ Obsidian is ideal if you want **privacy, control, and customization**. But it's 
 - Explore [best Obsidian alternatives](/blog/best-obsidian-alternatives-2026) if you're still deciding
 - Read our [Evernote review](/blog/evernote-review-2026) for a full assessment
 - Check [best note-taking apps for 2026](/blog/best-note-taking-apps-2026) for more options
+
+## Frequently Asked Questions
+
+### How long does this take?
+
+Most users can complete this process in 15-30 minutes by following the step-by-step guide above.
+
+### Do I need any technical skills?
+
+No advanced technical skills are required. This guide walks you through each step with clear instructions.
+
+### What tools do I need?
+
+See the requirements section above for the complete list of tools and accounts you'll need to get started.
+

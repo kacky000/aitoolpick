@@ -431,6 +431,16 @@ h4 { font-size: 1.25rem; }
   background: linear-gradient(135deg, var(--primary-light), var(--accent-light));
 }
 
+.post-card-image--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary), #6366f1);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 .post-card-body {
   padding: 1.5rem;
 }
@@ -921,4 +931,118 @@ h4 { font-size: 1.25rem; }
   .article-hero {
     height: 250px;
   }
+
+  .related-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* === Breadcrumb === */
+.breadcrumb {
+  max-width: 800px;
+  margin: 0 auto 1rem;
+  padding: 0 1.5rem;
+}
+
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--gray-500);
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: '›';
+  margin-left: 0.25rem;
+  color: var(--gray-400);
+}
+
+.breadcrumb a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* === Article Meta Footer === */
+.article-meta-footer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 1.5rem;
+  background: var(--gray-50);
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+/* === Related Articles === */
+.related-articles {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.related-articles h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.related-card {
+  display: block;
+  padding: 1rem;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.related-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.related-card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+}
+
+.related-card p {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  line-height: 1.4;
+}
+
+/* === CTA Section === */
+.cta-section {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  background: linear-gradient(135deg, var(--primary-light), var(--accent-light));
+  border-radius: var(--radius-lg);
+}
+
+.cta-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-section p {
+  font-size: 0.95rem;
+  color: var(--gray-600);
+  margin-bottom: 1rem;
 }

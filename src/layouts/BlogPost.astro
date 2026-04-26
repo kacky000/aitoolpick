@@ -2,31 +2,43 @@
 import BaseLayout from './BaseLayout.astro';
 import tools from '../data/tools.json';
 
+interface RelatedPost {
+  id: string;
+  title: string;
+  description: string;
+}
+
+interface FaqItem {
+  question: string;
+  answer: string;
+}
+
 interface Props {
   title: string;
   description: string;
   pubDate: Date;
+  lastModified?: Date;
   heroImage?: string;
   tags?: string[];
+  relatedPosts?: RelatedPost[];
+  faqItems?: FaqItem[];
 }
 
-const { title, description, pubDate, heroImage, tags = [] } = Astro.props;
+const { title, description, pubDate, lastModified, heroImage, tags = [], relatedPosts = [], faqItems = [] } = Astro.props;
+
+const siteUrl = 'https://aitoolpick.org';
+const pageUrl = new URL(Astro.url.pathname, siteUrl).toString();
+const modifiedDate = lastModified || pubDate;
 
 // Build a relevant CTA link based on article tags
 function getRelatedLink(articleTags: string[]) {
   const lowerTags = articleTags.map(t => t.toLowerCase());
-
-  // Map tags to tool slugs for comparison pages
   const tagToSlug: Record<string, string> = {};
   for (const tool of tools) {
     tagToSlug[tool.name.toLowerCase()] = tool.slug;
     tagToSlug[tool.slug] = tool.slug;
   }
-
-  // Find tool slugs mentioned in tags
-  const matchedSlugs = lowerTags
-    .map(t => tagToSlug[t])
-    .filter(Boolean);
+  const matchedSlugs = lowerTags.map(t => tagToSlug[t]).filter(Boolean);
 
   if (matchedSlugs.length >= 2) {
     return { href: `/compare/${matchedSlugs[0]}-vs-${matchedSlugs[1]}/`, text: `Compare ${matchedSlugs[0]} vs ${matchedSlugs[1]}` };
@@ -35,7 +47,6 @@ function getRelatedLink(articleTags: string[]) {
     return { href: `/alternatives/${matchedSlugs[0]}/`, text: `See ${matchedSlugs[0]} alternatives` };
   }
 
-  // Category-based fallback
   const categoryLinks: Record<string, { href: string; text: string }> = {
     'ai': { href: '/compare/chatgpt-vs-claude/', text: 'Compare AI tools' },
     'project-management': { href: '/compare/notion-vs-clickup/', text: 'Compare project management tools' },
@@ -44,53 +55,90 @@ function getRelatedLink(articleTags: string[]) {
     'note-taking': { href: '/alternatives/notion/', text: 'Explore note-taking tools' },
     'automation': { href: '/compare/', text: 'Compare automation tools' },
     'budgeting': { href: '/compare/', text: 'Compare budgeting tools' },
+    'productivity': { href: '/compare/', text: 'Compare productivity tools' },
+    'spreadsheet': { href: '/compare/', text: 'Compare spreadsheet tools' },
+    'crm': { href: '/compare/', text: 'Compare CRM tools' },
   };
 
   for (const tag of lowerTags) {
     if (categoryLinks[tag]) return categoryLinks[tag];
   }
-
   return { href: '/compare/', text: 'Compare tools side by side' };
 }
 
 const ctaLink = getRelatedLink(tags);
 
+// --- JSON-LD: Article Schema ---
 const articleJsonLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: title,
   description: description,
   datePublished: pubDate.toISOString(),
-  dateModified: pubDate.toISOString(),
+  dateModified: modifiedDate.toISOString(),
   author: {
     '@type': 'Organization',
     name: 'AIToolPick',
-    url: 'https://aitoolpick.org',
+    url: siteUrl,
   },
   publisher: {
     '@type': 'Organization',
     name: 'AIToolPick',
-    url: 'https://aitoolpick.org',
+    url: siteUrl,
   },
-  image: heroImage ? new URL(heroImage, 'https://aitoolpick.org').toString() : undefined,
-  mainEntityOfPage: {
-    '@type': 'WebPage',
-    '@id': new URL(Astro.url.pathname, 'https://aitoolpick.org').toString(),
-  },
+  image: heroImage ? new URL(heroImage, siteUrl).toString() : undefined,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
 });
 
-const formattedDate = pubDate.toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
+// --- JSON-LD: Breadcrumb Schema ---
+const breadcrumbJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}/blog/` },
+    { '@type': 'ListItem', position: 3, name: title, item: pageUrl },
+  ],
 });
+
+// --- JSON-LD: FAQ Schema (if FAQ items exist) ---
+const faqJsonLd = faqItems.length > 0 ? JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map(item => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+}) : null;
+
+const formattedDate = pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const formattedModified = modifiedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
 <BaseLayout title={`${title} | AIToolPick Blog`} description={description} image={heroImage} type="article">
   <script type="application/ld+json" set:html={articleJsonLd} />
+  <script type="application/ld+json" set:html={breadcrumbJsonLd} />
+  {faqJsonLd && <script type="application/ld+json" set:html={faqJsonLd} />}
+
   <article class="article">
+    <!-- Breadcrumb navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li aria-current="page">{title.length > 60 ? title.slice(0, 57) + '...' : title}</li>
+      </ol>
+    </nav>
+
     <header class="article-header">
-      <p class="article-date">{formattedDate}</p>
+      <p class="article-date">
+        Published {formattedDate}
+        {formattedModified !== formattedDate && <span> · Updated {formattedModified}</span>}
+      </p>
       <h1>{title}</h1>
       {tags.length > 0 && (
         <div class="article-tags">
@@ -109,7 +157,29 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
       <slot />
     </div>
 
-    <div class="cta-section" style="margin-top: 3rem;">
+    <!-- Source & update info -->
+    <div class="article-meta-footer">
+      <p>Last reviewed and updated: {formattedModified}</p>
+      <p>Pricing and feature information may change. Visit the official product website for the latest details.</p>
+    </div>
+
+    <!-- Related Articles -->
+    {relatedPosts.length > 0 && (
+      <section class="related-articles">
+        <h2>Related Articles</h2>
+        <div class="related-grid">
+          {relatedPosts.map((rp) => (
+            <a href={`/blog/${rp.id}/`} class="related-card">
+              <h3>{rp.title}</h3>
+              <p>{rp.description.slice(0, 120)}{rp.description.length > 120 ? '...' : ''}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- CTA -->
+    <div class="cta-section">
       <h2>Find the Best Tool for You</h2>
       <p>Compare features, pricing, and reviews to find the perfect tool for your workflow.</p>
       <a href={ctaLink.href} class="btn-primary">{ctaLink.text} &rarr;</a>

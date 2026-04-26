@@ -3,8 +3,9 @@ title: "Grammarly for Students 2026: Is It Worth It? Free vs Premium Guide"
 description: "Is Grammarly worth it for students in 2026? Honest look at the free plan, Premium discount, plagiarism checker, and whether it actually improves your grades."
 pubDate: "2026-04-23"
 tags: ["grammarly", "students", "writing", "ai", "education"]
+heroImage: "/thumbs/grammarly-for-students-2026.jpg"
+lastModified: "2026-04-26"
 ---
-
 Grammarly is used by millions of students worldwide, but most of them are on the free plan and have never seriously evaluated whether Premium is worth the cost. This guide cuts through the marketing and gives you a straight answer.
 
 ## Does Grammarly Actually Help Students?

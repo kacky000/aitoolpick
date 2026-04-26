@@ -4,8 +4,8 @@ description: "Learn how to use n8n for the first time. This beginner guide cover
 pubDate: "2026-04-23"
 heroImage: "/thumbs/n8n-for-beginners-2026.jpg"
 tags: ["n8n", "automation", "beginners", "workflow", "no-code"]
+lastModified: "2026-04-26"
 ---
-
 n8n is one of the most powerful automation tools available — and one of the most intimidating to start with. Unlike Zapier, which guides you step by step, n8n drops you on a canvas with infinite flexibility and very little hand-holding.
 
 This guide cuts through the complexity. Here's what you actually need to know to build your first useful workflow.
