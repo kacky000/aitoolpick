@@ -11,7 +11,7 @@
     "pricing": {
       "free": true,
       "plus": 10,
-      "business": 15,
+      "business": 20,
       "enterprise": null
     },
     "currency": "USD",
@@ -595,7 +595,8 @@
       "team": 25,
       "enterprise": null,
       "go": 8,
-      "pro": 100
+      "pro": 100,
+      "pro200": 200
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
