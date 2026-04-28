@@ -495,7 +495,8 @@
     "pricing": {
       "free": true,
       "pro": 15,
-      "business": 20
+      "teams": 10,
+      "enterprise": null
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
