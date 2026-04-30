@@ -1,0 +1,489 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import tools from '../../data/tools.json';
+---
+
+<BaseLayout
+  title="Tool Battle — Vote for Your Favorite Productivity Tools | AIToolPick"
+  description="Which tool wins? Vote head-to-head and build your personal productivity tool power rankings. Keeps your scores in your browser."
+>
+  <section class="battle-page">
+    <div class="battle-header">
+      <h1>⚔️ Tool Battle</h1>
+      <p>Which tool would you rather use? Click to vote — your rankings are saved locally.</p>
+    </div>
+
+    <div class="battle-layout">
+      <!-- Battle Arena -->
+      <div class="battle-arena">
+        <div class="battle-counter" id="battle-counter">Battle #1</div>
+
+        <div class="battle-cards" id="battle-cards">
+          <div class="battle-card" id="card-a" role="button" tabindex="0">
+            <div class="card-winner-overlay" id="overlay-a">Winner ✓</div>
+            <img class="card-icon" id="icon-a" src="" alt="" width="64" height="64" />
+            <h2 class="card-name" id="name-a"></h2>
+            <div class="card-meta" id="meta-a"></div>
+            <p class="card-desc" id="desc-a"></p>
+            <div class="card-rating" id="rating-a"></div>
+          </div>
+
+          <div class="battle-vs">VS</div>
+
+          <div class="battle-card" id="card-b" role="button" tabindex="0">
+            <div class="card-winner-overlay" id="overlay-b">Winner ✓</div>
+            <img class="card-icon" id="icon-b" src="" alt="" width="64" height="64" />
+            <h2 class="card-name" id="name-b"></h2>
+            <div class="card-meta" id="meta-b"></div>
+            <p class="card-desc" id="desc-b"></p>
+            <div class="card-rating" id="rating-b"></div>
+          </div>
+        </div>
+
+        <p class="battle-hint">Click a tool to vote for it</p>
+
+        <button class="btn-secondary battle-skip" id="skip-btn">Skip this matchup →</button>
+      </div>
+
+      <!-- Rankings Sidebar -->
+      <div class="rankings-panel">
+        <div class="rankings-header">
+          <h3>📊 Your Rankings</h3>
+          <button class="reset-btn" id="reset-btn" title="Reset rankings">Reset</button>
+        </div>
+        <div id="rankings-list" class="rankings-list">
+          <p class="rankings-empty">Vote to see your rankings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script define:vars={{ tools }}>
+  const STORAGE_KEY = 'tool-battle-scores';
+  const STORAGE_COUNT_KEY = 'tool-battle-count';
+
+  let scores = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  let battleCount = parseInt(localStorage.getItem(STORAGE_COUNT_KEY) || '1', 10);
+  let currentA = null;
+  let currentB = null;
+  let lastPair = null;
+  let isAnimating = false;
+
+  function saveScores() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(scores));
+    localStorage.setItem(STORAGE_COUNT_KEY, String(battleCount));
+  }
+
+  function getScore(id) {
+    return scores[id] ?? 1000;
+  }
+
+  function updateElo(winnerId, loserId) {
+    const winnerScore = getScore(winnerId);
+    const loserScore = getScore(loserId);
+    scores[winnerId] = Math.round(winnerScore + 32);
+    scores[loserId] = Math.max(0, Math.round(loserScore - 16));
+  }
+
+  function getRandomPair() {
+    let attempts = 0;
+    let a, b;
+    do {
+      const idx = Math.floor(Math.random() * tools.length);
+      a = tools[idx];
+      let idxB;
+      do { idxB = Math.floor(Math.random() * tools.length); } while (idxB === idx);
+      b = tools[idxB];
+      attempts++;
+    } while (
+      attempts < 20 &&
+      lastPair &&
+      ((a.id === lastPair[0] && b.id === lastPair[1]) ||
+       (a.id === lastPair[1] && b.id === lastPair[0]))
+    );
+    return [a, b];
+  }
+
+  function starsHtml(rating) {
+    const full = Math.round(rating);
+    return '★'.repeat(full) + '☆'.repeat(5 - full) + ` ${rating}`;
+  }
+
+  function renderCard(suffix, tool) {
+    document.getElementById(`icon-${suffix}`).src = tool.icon || '';
+    document.getElementById(`icon-${suffix}`).alt = tool.name;
+    document.getElementById(`name-${suffix}`).textContent = tool.name;
+    document.getElementById(`meta-${suffix}`).textContent = tool.category.slice(0, 2).join(' · ');
+    document.getElementById(`desc-${suffix}`).textContent = tool.description;
+    document.getElementById(`rating-${suffix}`).textContent = starsHtml(tool.rating);
+    document.getElementById(`overlay-${suffix}`).classList.remove('show');
+  }
+
+  function loadNextPair() {
+    [currentA, currentB] = getRandomPair();
+    lastPair = [currentA.id, currentB.id];
+    renderCard('a', currentA);
+    renderCard('b', currentB);
+    document.getElementById('battle-counter').textContent = `Battle #${battleCount}`;
+    const cards = document.getElementById('battle-cards');
+    cards.classList.remove('fading');
+  }
+
+  function vote(winner, loser, winSuffix) {
+    if (isAnimating) return;
+    isAnimating = true;
+
+    document.getElementById(`overlay-${winSuffix}`).classList.add('show');
+    document.getElementById(`card-${winSuffix}`).classList.add('winner-flash');
+
+    updateElo(winner.id, loser.id);
+    battleCount++;
+    saveScores();
+    renderRankings();
+
+    setTimeout(() => {
+      const cards = document.getElementById('battle-cards');
+      cards.classList.add('fading');
+      setTimeout(() => {
+        document.getElementById(`card-${winSuffix}`).classList.remove('winner-flash');
+        loadNextPair();
+        isAnimating = false;
+      }, 350);
+    }, 600);
+  }
+
+  function renderRankings() {
+    const list = document.getElementById('rankings-list');
+    const voted = tools
+      .filter(t => scores[t.id] !== undefined)
+      .sort((a, b) => getScore(b.id) - getScore(a.id));
+
+    if (voted.length === 0) {
+      list.innerHTML = '<p class="rankings-empty">Vote to see your rankings</p>';
+      return;
+    }
+
+    list.innerHTML = voted.map((t, i) => `
+      <div class="rank-item">
+        <span class="rank-num">${i + 1}</span>
+        <img src="${t.icon}" alt="${t.name}" width="24" height="24" />
+        <span class="rank-name">${t.name}</span>
+        <span class="rank-score">${getScore(t.id)}</span>
+      </div>
+    `).join('');
+  }
+
+  // Event listeners
+  document.getElementById('card-a').addEventListener('click', () => {
+    if (!isAnimating) vote(currentA, currentB, 'a');
+  });
+  document.getElementById('card-b').addEventListener('click', () => {
+    if (!isAnimating) vote(currentB, currentA, 'b');
+  });
+  document.getElementById('card-a').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') vote(currentA, currentB, 'a');
+  });
+  document.getElementById('card-b').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') vote(currentB, currentA, 'b');
+  });
+  document.getElementById('skip-btn').addEventListener('click', () => {
+    if (!isAnimating) {
+      battleCount++;
+      saveScores();
+      loadNextPair();
+    }
+  });
+  document.getElementById('reset-btn').addEventListener('click', () => {
+    if (confirm('Reset all rankings?')) {
+      scores = {};
+      battleCount = 1;
+      saveScores();
+      renderRankings();
+      loadNextPair();
+    }
+  });
+
+  // Init
+  renderRankings();
+  loadNextPair();
+</script>
+
+<style>
+  .battle-page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  .battle-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .battle-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .battle-header p {
+    color: var(--gray-600);
+    font-size: 1.05rem;
+  }
+
+  .battle-layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .battle-arena {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .battle-counter {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--primary);
+    background: var(--primary-light);
+    padding: 0.3rem 1rem;
+    border-radius: 999px;
+    letter-spacing: 0.05em;
+  }
+
+  .battle-cards {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    transition: opacity 0.35s ease;
+  }
+
+  .battle-cards.fading {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+
+  .battle-card {
+    position: relative;
+    background: var(--white);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: 2rem 1.5rem;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+    text-align: center;
+    overflow: hidden;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .battle-card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 8px 30px rgba(16, 185, 129, 0.15);
+    transform: translateY(-3px);
+  }
+
+  .battle-card:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 2px;
+  }
+
+  .battle-card.winner-flash {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.3);
+  }
+
+  .card-winner-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(16, 185, 129, 0.88);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s;
+    border-radius: var(--radius-xl);
+    pointer-events: none;
+  }
+
+  .card-winner-overlay.show {
+    opacity: 1;
+  }
+
+  .card-icon {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+  }
+
+  .card-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .card-meta {
+    font-size: 0.75rem;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .card-desc {
+    font-size: 0.875rem;
+    color: var(--gray-600);
+    line-height: 1.5;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-rating {
+    font-size: 0.85rem;
+    color: var(--warning);
+    font-weight: 600;
+  }
+
+  .battle-vs {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--gray-400);
+    flex-shrink: 0;
+  }
+
+  .battle-hint {
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    margin: 0;
+  }
+
+  .battle-skip {
+    font-size: 0.85rem;
+    padding: 0.5rem 1.25rem;
+  }
+
+  /* Rankings Panel */
+  .rankings-panel {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: 1.25rem;
+    position: sticky;
+    top: 80px;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+  }
+
+  .rankings-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .rankings-header h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .reset-btn {
+    background: none;
+    border: 1px solid var(--gray-300);
+    border-radius: var(--radius);
+    padding: 0.25rem 0.6rem;
+    font-size: 0.75rem;
+    color: var(--gray-600);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  .reset-btn:hover {
+    background: var(--gray-100);
+  }
+
+  .rankings-empty {
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .rank-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--gray-100);
+    font-size: 0.875rem;
+  }
+
+  .rank-item:last-child {
+    border-bottom: none;
+  }
+
+  .rank-num {
+    width: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--gray-500);
+    flex-shrink: 0;
+  }
+
+  .rank-item img {
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  .rank-name {
+    flex: 1;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .rank-score {
+    font-size: 0.75rem;
+    color: var(--primary);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 900px) {
+    .battle-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .rankings-panel {
+      position: static;
+      max-height: 400px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .battle-cards {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+    }
+
+    .battle-vs {
+      text-align: center;
+    }
+  }
+</style>

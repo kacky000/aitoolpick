@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ComparisonTable from '../../components/ComparisonTable.astro';
 import tools from '../../data/tools.json';
+import { getCollection } from 'astro:content';
 
 export function getStaticPaths() {
   const paths = [];
@@ -39,6 +40,114 @@ const relatedComparisons = relatedTools.map((t) => {
     label: `${first.name} vs ${second.name}`,
   };
 });
+
+// Related blog posts
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter((post) => post.data.tags?.includes(toolA.slug) || post.data.tags?.includes(toolB.slug))
+  .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf())
+  .slice(0, 3);
+
+// Verdict logic
+function getMinPaidPrice(pricing: Record<string, number | boolean | null>): number | null {
+  const prices = Object.entries(pricing)
+    .filter(([key, val]) => key !== 'free' && typeof val === 'number' && val !== null)
+    .map(([, v]) => v as number);
+  return prices.length > 0 ? Math.min(...prices) : null;
+}
+
+const priceA = getMinPaidPrice(toolA.pricing);
+const priceB = getMinPaidPrice(toolB.pricing);
+const ratingDiff = Math.abs(toolA.rating - toolB.rating);
+const higherRated = toolA.rating >= toolB.rating ? toolA : toolB;
+const lowerRated = toolA.rating >= toolB.rating ? toolB : toolA;
+const featureCountA = toolA.features.length;
+const featureCountB = toolB.features.length;
+const moreFeatureful = featureCountA >= featureCountB ? toolA : toolB;
+const lessFeatureful = featureCountA >= featureCountB ? toolB : toolA;
+const commonBestFor = toolA.bestFor.filter((b: string) => toolB.bestFor.includes(b));
+const bothFree = toolA.pricing.free && toolB.pricing.free;
+const onlyAFree = toolA.pricing.free && !toolB.pricing.free;
+const onlyBFree = !toolA.pricing.free && toolB.pricing.free;
+
+let priceDiff: number | null = null;
+let cheaperTool: typeof toolA | null = null;
+let pricierTool: typeof toolA | null = null;
+if (priceA !== null && priceB !== null) {
+  priceDiff = Math.abs(priceA - priceB);
+  cheaperTool = priceA <= priceB ? toolA : toolB;
+  pricierTool = priceA <= priceB ? toolB : toolA;
+}
+
+const verdictParagraphs: string[] = [];
+
+// Opening: position each tool
+verdictParagraphs.push(
+  `${toolA.name} is built for ${toolA.bestFor.slice(0, 2).map((b: string) => b.replace(/-/g, ' ')).join(' and ')}, with a focus on ${toolA.features.slice(0, 2).join(' and ')}. ${toolB.name} targets ${toolB.bestFor.slice(0, 2).map((b: string) => b.replace(/-/g, ' ')).join(' and ')} and leads with ${toolB.features.slice(0, 2).join(' and ')}.`
+);
+
+// Pricing
+if (priceDiff !== null && cheaperTool && pricierTool && priceA !== null && priceB !== null) {
+  if (priceDiff >= 5) {
+    verdictParagraphs.push(
+      `On pricing, ${cheaperTool.name} is the clear winner for budget-conscious users — starting at $${Math.min(priceA, priceB)}/mo compared to $${Math.max(priceA, priceB)}/mo for ${pricierTool.name}. That $${priceDiff}/mo difference adds up quickly for growing teams.`
+    );
+  } else if (priceDiff >= 1) {
+    verdictParagraphs.push(
+      `Pricing is close: ${cheaperTool.name} starts at $${Math.min(priceA, priceB)}/mo versus $${Math.max(priceA, priceB)}/mo for ${pricierTool.name} — not a deciding factor on its own.`
+    );
+  } else {
+    verdictParagraphs.push(
+      `Both tools come in at similar price points ($${priceA}/mo for ${toolA.name}, $${priceB}/mo for ${toolB.name}), so pricing won't make the decision for you.`
+    );
+  }
+} else if (priceA === null && priceB === null) {
+  verdictParagraphs.push(`Both tools use custom enterprise pricing — you'll need to contact sales for a quote, which makes direct cost comparison difficult.`);
+} else if (priceA === null) {
+  verdictParagraphs.push(`${toolA.name} uses custom enterprise pricing, while ${toolB.name} starts at $${priceB}/mo — a tangible advantage for teams with a fixed budget.`);
+} else if (priceB === null) {
+  verdictParagraphs.push(`${toolB.name} uses custom enterprise pricing, while ${toolA.name} starts at $${priceA}/mo — a tangible advantage for teams with a fixed budget.`);
+}
+
+// Free plan
+if (bothFree) {
+  verdictParagraphs.push(`Both offer free plans, so you can test each with your real workflow before committing to a subscription.`);
+} else if (onlyAFree) {
+  verdictParagraphs.push(`${toolA.name} has a free plan, which gives it a meaningful edge for individuals and small teams exploring their options. ${toolB.name} requires a paid subscription from day one.`);
+} else if (onlyBFree) {
+  verdictParagraphs.push(`${toolB.name} has a free plan, which gives it a meaningful edge for individuals and small teams exploring their options. ${toolA.name} requires a paid subscription from day one.`);
+} else {
+  verdictParagraphs.push(`Neither tool offers a free plan, so factor the subscription cost into your decision from the start.`);
+}
+
+// Rating
+if (ratingDiff >= 0.3) {
+  verdictParagraphs.push(
+    `${higherRated.name} edges out on user ratings (${higherRated.rating} vs ${lowerRated.rating}). While both are well-regarded, that gap reflects real differences in user satisfaction worth considering.`
+  );
+}
+
+// Feature breadth
+if (featureCountA !== featureCountB) {
+  verdictParagraphs.push(
+    `Feature-wise, ${moreFeatureful.name} offers broader built-in capabilities (${Math.max(featureCountA, featureCountB)} features vs ${Math.min(featureCountA, featureCountB)}), while ${lessFeatureful.name} takes a more focused approach — which can mean a simpler, faster onboarding experience.`
+  );
+}
+
+// Shared audience
+if (commonBestFor.length > 0) {
+  const formatted = commonBestFor.slice(0, 3).map((b: string) => b.replace(/-/g, ' ')).join(', ');
+  verdictParagraphs.push(`Both tools are a solid fit for ${formatted} — in those cases, the decision often comes down to workflow style and how your team prefers to organize work.`);
+}
+
+// Closing
+if (toolA.rating > toolB.rating + 0.2) {
+  verdictParagraphs.push(`Bottom line: ${toolA.name} has a slight overall edge — but if ${toolB.pros[0].toLowerCase()} matters most to you, ${toolB.name} may still be the right call.`);
+} else if (toolB.rating > toolA.rating + 0.2) {
+  verdictParagraphs.push(`Bottom line: ${toolB.name} has a slight overall edge — but if ${toolA.pros[0].toLowerCase()} matters most to you, ${toolA.name} may still be the right call.`);
+} else {
+  verdictParagraphs.push(`This is a genuinely close comparison. If you can, sign up for both free trials (where available) and run a one-week test with your actual team tasks before deciding.`);
+}
 
 const pageTitle = `${toolA.name} vs ${toolB.name}: Which Is Better in 2026?`;
 const pageDescription = `Compare ${toolA.name} and ${toolB.name} side-by-side. See pricing, features, pros & cons to decide which tool is right for you.`;
@@ -93,18 +202,45 @@ const jsonLd = JSON.stringify({
       <ComparisonTable toolA={toolA} toolB={toolB} />
 
       <!-- Verdict -->
-      <div style="margin-top: 3rem; text-align: center;">
+      <div class="verdict-section">
         <h2>The Verdict</h2>
-        <p style="max-width: 700px; margin: 1rem auto; color: var(--gray-600); line-height: 1.8;">
-          <strong>{toolA.name}</strong> is best for {toolA.bestFor.slice(0, 2).join(' and ')} who need {toolA.pros[0].toLowerCase()}.
-          <strong>{toolB.name}</strong> is ideal for {toolB.bestFor.slice(0, 2).join(' and ')} looking for {toolB.pros[0].toLowerCase()}.
-          Both tools offer {toolA.pricing.free && toolB.pricing.free ? 'free plans' : 'competitive pricing'}, so try each to see which fits your workflow.
-        </p>
-        <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <div class="verdict-body">
+          {verdictParagraphs.map((para) => (
+            <p>{para}</p>
+          ))}
+        </div>
+        <div class="verdict-cta">
           <a href={toolA.website} class="btn-primary" target="_blank" rel="noopener noreferrer">Try {toolA.name} &rarr;</a>
           <a href={toolB.website} class="btn-secondary" target="_blank" rel="noopener noreferrer">Try {toolB.name} &rarr;</a>
         </div>
       </div>
+
+      <!-- Related Articles -->
+      {relatedPosts.length > 0 && (
+        <div class="related-articles">
+          <h2 class="section-title">Related Articles</h2>
+          <div class="related-articles-grid">
+            {relatedPosts.map((post) => (
+              <a href={`/blog/${post.id}/`} class="related-article-card">
+                {post.data.heroImage ? (
+                  <img src={post.data.heroImage} alt={post.data.title} loading="lazy" class="related-article-img" />
+                ) : (
+                  <div class="related-article-img related-article-img--placeholder">
+                    <span>{post.data.title.slice(0, 1)}</span>
+                  </div>
+                )}
+                <div class="related-article-body">
+                  <p class="related-article-date">
+                    {new Date(post.data.pubDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                  </p>
+                  <h3 class="related-article-title">{post.data.title}</h3>
+                  <p class="related-article-desc">{post.data.description}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
 
       <!-- Related Comparisons -->
       {relatedComparisons.length > 0 && (
@@ -123,3 +259,114 @@ const jsonLd = JSON.stringify({
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .verdict-section {
+    margin-top: 3rem;
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: 2.5rem;
+  }
+
+  .verdict-section h2 {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+  }
+
+  .verdict-body {
+    max-width: 720px;
+  }
+
+  .verdict-body p {
+    color: var(--gray-700);
+    line-height: 1.8;
+    margin-bottom: 0.85rem;
+    font-size: 0.97rem;
+  }
+
+  .verdict-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  .verdict-cta {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .related-articles {
+    margin-top: 4rem;
+  }
+
+  .related-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .related-article-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .related-article-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .related-article-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    background: var(--gray-100);
+  }
+
+  .related-article-img--placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gray-400);
+    height: 160px;
+  }
+
+  .related-article-body {
+    padding: 1rem 1.25rem 1.25rem;
+    flex: 1;
+  }
+
+  .related-article-date {
+    font-size: 0.78rem;
+    color: var(--gray-500);
+    margin-bottom: 0.4rem;
+  }
+
+  .related-article-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+  }
+
+  .related-article-desc {
+    font-size: 0.83rem;
+    color: var(--gray-600);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

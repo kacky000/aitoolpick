@@ -1,0 +1,473 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import tools from '../../data/tools.json';
+---
+
+<BaseLayout
+  title="Find Your Perfect Tool — AI Tool Finder Quiz | AIToolPick"
+  description="Answer 5 quick questions and discover the best productivity or AI tool for your workflow. Free, instant results — no email required."
+>
+  <section class="quiz-page">
+    <div class="quiz-header">
+      <h1>🔍 Find Your Perfect Tool</h1>
+      <p>Answer 5 quick questions and we'll match you with the best tools for your workflow.</p>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="quiz-progress" id="quiz-progress" style="display:none;">
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+      </div>
+      <span class="progress-label" id="progress-label">1 / 5</span>
+    </div>
+
+    <!-- Quiz container -->
+    <div class="quiz-container" id="quiz-container">
+
+      <!-- Q1 -->
+      <div class="quiz-step active" data-step="0">
+        <h2 class="quiz-question">What's your team size?</h2>
+        <div class="quiz-options">
+          <button class="quiz-option" data-scores='{"notion":3,"obsidian":3,"todoist":3,"logseq":2,"grammarly":2,"chatgpt":2,"claude":2,"perplexity":2,"ynab":2,"trello":2,"loom":1,"canva":1}'>
+            <span class="opt-icon">🧍</span>
+            <span class="opt-label">Just me (Solo)</span>
+          </button>
+          <button class="quiz-option" data-scores='{"notion":2,"clickup":3,"trello":3,"asana":2,"miro":3,"slack":3,"linear":2,"canva":2,"loom":2,"make":1}'>
+            <span class="opt-icon">👥</span>
+            <span class="opt-label">Small team (2–10)</span>
+          </button>
+          <button class="quiz-option" data-scores='{"asana":3,"monday":3,"jira":3,"slack":3,"microsoft-teams":3,"linear":2,"notion":1,"airtable":2}'>
+            <span class="opt-icon">🏢</span>
+            <span class="opt-label">Large team (10+)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="quiz-step" data-step="1">
+        <h2 class="quiz-question">What's your main use case?</h2>
+        <div class="quiz-options">
+          <button class="quiz-option" data-scores='{"asana":3,"clickup":3,"monday":3,"notion":2,"jira":3,"trello":2,"linear":3}'>
+            <span class="opt-icon">📋</span>
+            <span class="opt-label">Project management</span>
+          </button>
+          <button class="quiz-option" data-scores='{"notion":3,"obsidian":3,"evernote":3,"logseq":3,"clickup":1,"chatgpt":1}'>
+            <span class="opt-icon">📝</span>
+            <span class="opt-label">Notes & docs</span>
+          </button>
+          <button class="quiz-option" data-scores='{"airtable":3,"notion":2,"zapier":2,"make":2,"n8n":2}'>
+            <span class="opt-icon">🗄️</span>
+            <span class="opt-label">Data & databases</span>
+          </button>
+          <button class="quiz-option" data-scores='{"slack":3,"microsoft-teams":3,"loom":3,"miro":2}'>
+            <span class="opt-icon">💬</span>
+            <span class="opt-label">Team communication</span>
+          </button>
+          <button class="quiz-option" data-scores='{"figma":3,"canva":3,"miro":3}'>
+            <span class="opt-icon">🎨</span>
+            <span class="opt-label">Design & visuals</span>
+          </button>
+          <button class="quiz-option" data-scores='{"chatgpt":3,"claude":3,"perplexity":3,"grammarly":2,"gemini":2}'>
+            <span class="opt-icon">🤖</span>
+            <span class="opt-label">AI & writing</span>
+          </button>
+          <button class="quiz-option" data-scores='{"zapier":3,"make":3,"n8n":3}'>
+            <span class="opt-icon">⚡</span>
+            <span class="opt-label">Automation</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="quiz-step" data-step="2">
+        <h2 class="quiz-question">What's your budget?</h2>
+        <div class="quiz-options">
+          <button class="quiz-option" data-scores='{"notion":2,"obsidian":3,"logseq":3,"chatgpt":1,"claude":1,"trello":2,"todoist":2,"clickup":2,"linear":2,"jira":2,"slack":1,"miro":1,"loom":1,"n8n":2,"make":1,"zapier":1,"grammarly":1,"canva":1,"figma":1}'>
+            <span class="opt-icon">🆓</span>
+            <span class="opt-label">Free only</span>
+          </button>
+          <button class="quiz-option" data-scores='{"notion":3,"todoist":3,"trello":3,"clickup":3,"slack":2,"miro":2,"logseq":2,"loom":2,"linear":2,"microsoft-teams":3}'>
+            <span class="opt-icon">💵</span>
+            <span class="opt-label">Under $10/user/mo</span>
+          </button>
+          <button class="quiz-option" data-scores='{"asana":2,"monday":2,"canva":2,"figma":2,"chatgpt":2,"claude":2,"grammarly":2,"airtable":1,"loom":2}'>
+            <span class="opt-icon">💳</span>
+            <span class="opt-label">$10–20/user/mo</span>
+          </button>
+          <button class="quiz-option" data-scores='{"asana":1,"monday":1,"figma":2,"airtable":2,"jira":1,"n8n":1}'>
+            <span class="opt-icon">🚀</span>
+            <span class="opt-label">Budget isn't a concern</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="quiz-step" data-step="3">
+        <h2 class="quiz-question">How important is a mobile app?</h2>
+        <div class="quiz-options">
+          <button class="quiz-option" data-scores='{"notion":2,"todoist":3,"slack":3,"microsoft-teams":3,"evernote":2,"trello":2,"chatgpt":2,"claude":2,"grammarly":2,"canva":2,"ynab":3,"asana":2,"monday":2}'>
+            <span class="opt-icon">📱</span>
+            <span class="opt-label">Essential — I'm often on my phone</span>
+          </button>
+          <button class="quiz-option" data-scores='{"clickup":2,"asana":2,"monday":2,"airtable":2,"miro":1,"linear":2,"loom":1}'>
+            <span class="opt-icon">🤷</span>
+            <span class="opt-label">Nice to have</span>
+          </button>
+          <button class="quiz-option" data-scores='{"obsidian":2,"logseq":2,"n8n":2,"figma":1,"airtable":1,"jira":1}'>
+            <span class="opt-icon">🖥️</span>
+            <span class="opt-label">Don't care — desktop only</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="quiz-step" data-step="4">
+        <h2 class="quiz-question">How technical are you?</h2>
+        <div class="quiz-options">
+          <button class="quiz-option" data-scores='{"notion":2,"canva":3,"trello":3,"todoist":2,"evernote":2,"chatgpt":2,"grammarly":2,"ynab":2,"monday":2,"slack":1}'>
+            <span class="opt-icon">😊</span>
+            <span class="opt-label">Non-technical — I like simple tools</span>
+          </button>
+          <button class="quiz-option" data-scores='{"clickup":2,"asana":2,"airtable":2,"slack":2,"zapier":2,"make":1,"miro":2,"loom":2,"notion":2,"linear":1}'>
+            <span class="opt-icon">🛠️</span>
+            <span class="opt-label">Moderate — comfortable with settings</span>
+          </button>
+          <button class="quiz-option" data-scores='{"obsidian":3,"logseq":3,"n8n":3,"linear":3,"jira":3,"figma":2,"make":2,"airtable":2}'>
+            <span class="opt-icon">⚙️</span>
+            <span class="opt-label">Very technical — power user</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="quiz-step" data-step="5" id="quiz-results-step">
+        <div class="results-header">
+          <div class="results-trophy">🏆</div>
+          <h2>Your Top Picks</h2>
+          <p>Based on your answers, here are the best matches for your workflow.</p>
+        </div>
+        <div id="results-grid" class="results-grid"></div>
+        <button class="btn-secondary quiz-restart" id="restart-btn" style="margin-top: 2rem;">
+          ↩ Take Quiz Again
+        </button>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script define:vars={{ tools }}>
+  const totalSteps = 5;
+  let currentStep = 0;
+  const scores = {};
+  tools.forEach(t => { scores[t.id] = 0; });
+
+  const steps = document.querySelectorAll('.quiz-step');
+  const progressBar = document.getElementById('quiz-progress');
+  const progressFill = document.getElementById('progress-fill');
+  const progressLabel = document.getElementById('progress-label');
+
+  function showStep(n) {
+    steps.forEach((s, i) => {
+      s.classList.toggle('active', i === n);
+    });
+    if (n > 0 && n <= totalSteps) {
+      progressBar.style.display = 'flex';
+      const pct = Math.min((n / totalSteps) * 100, 100);
+      progressFill.style.width = pct + '%';
+      progressLabel.textContent = `${Math.min(n, totalSteps)} / ${totalSteps}`;
+    }
+    if (n === totalSteps) {
+      progressBar.style.display = 'none';
+      renderResults();
+    }
+  }
+
+  function renderResults() {
+    const ranked = tools
+      .filter(t => scores[t.id] > 0)
+      .sort((a, b) => scores[b.id] - scores[a.id])
+      .slice(0, 3);
+
+    if (ranked.length === 0) {
+      document.getElementById('results-grid').innerHTML = '<p>No strong matches found. Try <a href="/compare/">browsing comparisons</a>.</p>';
+      return;
+    }
+
+    const medals = ['🥇', '🥈', '🥉'];
+    document.getElementById('results-grid').innerHTML = ranked.map((t, i) => `
+      <div class="result-card">
+        <div class="result-medal">${medals[i] || ''}</div>
+        <img src="${t.icon}" alt="${t.name}" width="56" height="56" class="result-icon" />
+        <h3 class="result-name">${t.name}</h3>
+        <p class="result-desc">${t.description}</p>
+        <ul class="result-pros">
+          ${t.pros.slice(0, 3).map(p => `<li>✓ ${p}</li>`).join('')}
+        </ul>
+        <div class="result-actions">
+          <a href="/alternatives/${t.slug}/" class="btn-secondary result-btn">See Alternatives</a>
+          <a href="${t.website}" class="btn-primary result-btn" target="_blank" rel="noopener noreferrer">Try ${t.name} →</a>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  document.querySelectorAll('.quiz-option').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const rawScores = JSON.parse(this.dataset.scores || '{}');
+      Object.entries(rawScores).forEach(([id, pts]) => {
+        if (scores[id] !== undefined) scores[id] += pts;
+      });
+
+      // Mark selected
+      this.closest('.quiz-step').querySelectorAll('.quiz-option').forEach(b => b.classList.remove('selected'));
+      this.classList.add('selected');
+
+      // Advance after brief delay
+      setTimeout(() => {
+        currentStep++;
+        showStep(currentStep);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 280);
+    });
+  });
+
+  document.getElementById('restart-btn').addEventListener('click', () => {
+    tools.forEach(t => { scores[t.id] = 0; });
+    currentStep = 0;
+    document.querySelectorAll('.quiz-option').forEach(b => b.classList.remove('selected'));
+    progressBar.style.display = 'none';
+    showStep(0);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+<style>
+  .quiz-page {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 5rem;
+  }
+
+  .quiz-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .quiz-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .quiz-header p {
+    color: var(--gray-600);
+    font-size: 1.05rem;
+  }
+
+  /* Progress */
+  .quiz-progress {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .progress-track {
+    flex: 1;
+    height: 8px;
+    background: var(--gray-200);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--primary);
+    border-radius: 999px;
+    transition: width 0.4s ease;
+  }
+
+  .progress-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--gray-500);
+    white-space: nowrap;
+  }
+
+  /* Steps */
+  .quiz-step {
+    display: none;
+  }
+
+  .quiz-step.active {
+    display: block;
+    animation: fadeSlideIn 0.3s ease forwards;
+  }
+
+  @keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .quiz-question {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .quiz-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .quiz-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.25rem 1rem;
+    background: var(--white);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+    font-family: inherit;
+    text-align: center;
+  }
+
+  .quiz-option:hover {
+    border-color: var(--primary);
+    box-shadow: 0 4px 16px rgba(16, 185, 129, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .quiz-option.selected {
+    border-color: var(--primary);
+    background: var(--primary-light);
+  }
+
+  .opt-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+
+  .opt-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--dark);
+    line-height: 1.3;
+  }
+
+  /* Results */
+  .results-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .results-trophy {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .results-header h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 0.4rem;
+  }
+
+  .results-header p {
+    color: var(--gray-600);
+  }
+
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .result-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+    position: relative;
+    box-shadow: var(--shadow-md);
+  }
+
+  .result-medal {
+    position: absolute;
+    top: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .result-icon {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .result-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+  }
+
+  .result-desc {
+    font-size: 0.8rem;
+    color: var(--gray-600);
+    margin: 0 0 0.75rem;
+    line-height: 1.4;
+  }
+
+  .result-pros {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+    text-align: left;
+  }
+
+  .result-pros li {
+    font-size: 0.78rem;
+    color: var(--gray-700);
+    padding: 0.2rem 0;
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  .result-pros li:last-child {
+    border-bottom: none;
+  }
+
+  .result-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .result-btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+  }
+
+  .quiz-restart {
+    display: block;
+    margin: 2rem auto 0;
+  }
+
+  @media (max-width: 500px) {
+    .quiz-options {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .results-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

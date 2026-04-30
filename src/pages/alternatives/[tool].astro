@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ToolCard from '../../components/ToolCard.astro';
 import tools from '../../data/tools.json';
 
 export function getStaticPaths() {
@@ -75,16 +74,56 @@ const pageDescription = `Looking for ${currentTool.name} alternatives? Compare $
     </div>
   </section>
 
-  <!-- Alternatives Grid -->
+  <!-- Rich Alternatives Grid -->
   <section class="section section-alt">
     <div class="container">
       <h2 style="margin-bottom: 1.5rem;">All {currentTool.name} Alternatives</h2>
-      <div class="alternatives-grid" style="padding: 0;">
-        {alternatives.map((alt) => (
-          <a href={`/compare/${[currentTool.slug, alt.slug].sort().join('-vs-')}/`} style="text-decoration: none; color: inherit;">
-            <ToolCard tool={alt} />
-          </a>
-        ))}
+      <div class="rich-alt-grid">
+        {alternatives.map((alt) => {
+          const compareSlug = [currentTool.slug, alt.slug].sort().join('-vs-');
+          return (
+            <div class="rich-alt-card">
+              <div class="rich-alt-header">
+                <div class="rich-alt-identity">
+                  {alt.icon && <img src={alt.icon} alt={`${alt.name} icon`} width="36" height="36" class="rich-alt-icon" />}
+                  <div>
+                    <h3 class="rich-alt-name">{alt.name}</h3>
+                    <span class="rich-alt-rating">{'★'.repeat(Math.round(alt.rating))}{'☆'.repeat(5 - Math.round(alt.rating))} {alt.rating}</span>
+                  </div>
+                </div>
+                <span class="rich-alt-price">{formatPrice(alt.pricing)}</span>
+              </div>
+
+              <p class="rich-alt-desc">{alt.description}</p>
+
+              <div class="rich-alt-pros-cons">
+                <ul class="rich-alt-pros">
+                  {alt.pros.slice(0, 3).map((pro: string) => (
+                    <li>
+                      <span class="check-icon">✓</span> {pro}
+                    </li>
+                  ))}
+                </ul>
+                <ul class="rich-alt-cons">
+                  {alt.cons.slice(0, 2).map((con: string) => (
+                    <li>
+                      <span class="cross-icon">✗</span> {con}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div class="rich-alt-footer">
+                <a href={`/compare/${compareSlug}/`} class="btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">
+                  Compare with {currentTool.name} &rarr;
+                </a>
+                <a href={`/alternatives/${alt.slug}/`} class="rich-alt-more">
+                  See alternatives &rarr;
+                </a>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   </section>
@@ -104,3 +143,136 @@ const pageDescription = `Looking for ${currentTool.name} alternatives? Compare $
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .rich-alt-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .rich-alt-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .rich-alt-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .rich-alt-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .rich-alt-identity {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .rich-alt-icon {
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+
+  .rich-alt-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 0 0 0.15rem;
+  }
+
+  .rich-alt-rating {
+    font-size: 0.78rem;
+    color: var(--warning);
+    letter-spacing: 0.5px;
+  }
+
+  .rich-alt-price {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+    background: var(--primary-light);
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .rich-alt-desc {
+    font-size: 0.88rem;
+    color: var(--gray-600);
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .rich-alt-pros-cons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .rich-alt-pros,
+  .rich-alt-cons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .rich-alt-pros li,
+  .rich-alt-cons li {
+    font-size: 0.84rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.4rem;
+    line-height: 1.4;
+    color: var(--gray-700);
+  }
+
+  .check-icon {
+    color: var(--success);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 0.05rem;
+  }
+
+  .cross-icon {
+    color: var(--danger);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 0.05rem;
+  }
+
+  .rich-alt-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: auto;
+    flex-wrap: wrap;
+  }
+
+  .rich-alt-more {
+    font-size: 0.83rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .rich-alt-more:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
+  }
+</style>
