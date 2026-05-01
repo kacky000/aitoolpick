@@ -119,3 +119,10 @@ It depends on your needs. The free plan works for basic use, but teams and power
 
 Check the pricing table above for the most current pricing. Plans and pricing may change — we update this page regularly.
 
+---
+
+**Related guides:**
+- [Airtable Free Plan Limits 2026: Records, Attachments & Automations](/blog/airtable-free-plan-limits-2026/)
+- [Airtable Free vs Paid: Is Upgrading Worth It?](/blog/airtable-free-vs-paid-2026/)
+- [How to Migrate from Airtable to Monday.com](/blog/airtable-to-monday-migration-2026/)
+
