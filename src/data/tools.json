@@ -7483,7 +7483,9 @@
     "id": "coursera",
     "name": "Coursera",
     "slug": "coursera",
-    "category": ["education"],
+    "category": [
+      "education"
+    ],
     "pricing": {
       "free": true,
       "plus": 59,
@@ -7530,7 +7532,9 @@
     "id": "udemy",
     "name": "Udemy",
     "slug": "udemy",
-    "category": ["education"],
+    "category": [
+      "education"
+    ],
     "pricing": {
       "free": true,
       "course-price": 12.99,
@@ -7577,7 +7581,9 @@
     "id": "skillshare",
     "name": "Skillshare",
     "slug": "skillshare",
-    "category": ["education"],
+    "category": [
+      "education"
+    ],
     "pricing": {
       "free": false,
       "premium": 13.99,
@@ -7624,7 +7630,10 @@
     "id": "thinkific",
     "name": "Thinkific",
     "slug": "thinkific",
-    "category": ["education", "ecommerce"],
+    "category": [
+      "education",
+      "ecommerce"
+    ],
     "pricing": {
       "free": true,
       "basic": 49,
@@ -7671,7 +7680,10 @@
     "id": "podia",
     "name": "Podia",
     "slug": "podia",
-    "category": ["education", "ecommerce"],
+    "category": [
+      "education",
+      "ecommerce"
+    ],
     "pricing": {
       "free": true,
       "starter": 9,
@@ -7718,7 +7730,10 @@
     "id": "kajabi",
     "name": "Kajabi",
     "slug": "kajabi",
-    "category": ["education", "ecommerce"],
+    "category": [
+      "education",
+      "ecommerce"
+    ],
     "pricing": {
       "free": false,
       "kickstarter": 69,
@@ -7767,7 +7782,9 @@
     "id": "epic-systems",
     "name": "Epic Systems",
     "slug": "epic-systems",
-    "category": ["healthcare"],
+    "category": [
+      "healthcare"
+    ],
     "pricing": {
       "free": false,
       "enterprise": null
@@ -7811,7 +7828,9 @@
     "id": "oracle-health",
     "name": "Oracle Health (Cerner)",
     "slug": "oracle-health",
-    "category": ["healthcare"],
+    "category": [
+      "healthcare"
+    ],
     "pricing": {
       "free": false,
       "enterprise": null
@@ -7855,7 +7874,9 @@
     "id": "zocdoc",
     "name": "Zocdoc",
     "slug": "zocdoc",
-    "category": ["healthcare"],
+    "category": [
+      "healthcare"
+    ],
     "pricing": {
       "free": true,
       "provider-listing": 300,
@@ -7900,7 +7921,9 @@
     "id": "doctolib",
     "name": "Doctolib",
     "slug": "doctolib",
-    "category": ["healthcare"],
+    "category": [
+      "healthcare"
+    ],
     "pricing": {
       "free": true,
       "professional": 129,
@@ -7946,7 +7969,9 @@
     "id": "simplepractice",
     "name": "SimplePractice",
     "slug": "simplepractice",
-    "category": ["healthcare"],
+    "category": [
+      "healthcare"
+    ],
     "pricing": {
       "free": false,
       "starter": 29,
@@ -7994,7 +8019,9 @@
     "id": "clio",
     "name": "Clio",
     "slug": "clio",
-    "category": ["legal"],
+    "category": [
+      "legal"
+    ],
     "pricing": {
       "free": false,
       "easistart": 39,
@@ -8043,7 +8070,9 @@
     "id": "lawdepot",
     "name": "LawDepot",
     "slug": "lawdepot",
-    "category": ["legal"],
+    "category": [
+      "legal"
+    ],
     "pricing": {
       "free": false,
       "weekly-trial": 1,
@@ -8088,7 +8117,9 @@
     "id": "rocket-lawyer",
     "name": "Rocket Lawyer",
     "slug": "rocket-lawyer",
-    "category": ["legal"],
+    "category": [
+      "legal"
+    ],
     "pricing": {
       "free": false,
       "premium": 39.99,
@@ -8132,7 +8163,9 @@
     "id": "legalzoom",
     "name": "LegalZoom",
     "slug": "legalzoom",
-    "category": ["legal"],
+    "category": [
+      "legal"
+    ],
     "pricing": {
       "free": false,
       "basic": 0,
@@ -8177,7 +8210,10 @@
     "id": "contractpodai",
     "name": "ContractPodAi",
     "slug": "contractpodai",
-    "category": ["legal", "ai-agents"],
+    "category": [
+      "legal",
+      "ai-agents"
+    ],
     "pricing": {
       "free": false,
       "enterprise": null
@@ -8221,7 +8257,9 @@
     "id": "zillow",
     "name": "Zillow",
     "slug": "zillow",
-    "category": ["real-estate"],
+    "category": [
+      "real-estate"
+    ],
     "pricing": {
       "free": true,
       "premier-agent": null,
@@ -8268,7 +8306,9 @@
     "id": "redfin",
     "name": "Redfin",
     "slug": "redfin",
-    "category": ["real-estate"],
+    "category": [
+      "real-estate"
+    ],
     "pricing": {
       "free": true,
       "listing-fee-percent": 1.5,
@@ -8313,7 +8353,10 @@
     "id": "costar",
     "name": "CoStar",
     "slug": "costar",
-    "category": ["real-estate", "analytics"],
+    "category": [
+      "real-estate",
+      "analytics"
+    ],
     "pricing": {
       "free": false,
       "professional": null,
@@ -8358,7 +8401,10 @@
     "id": "matterport",
     "name": "Matterport",
     "slug": "matterport",
-    "category": ["real-estate", "design"],
+    "category": [
+      "real-estate",
+      "design"
+    ],
     "pricing": {
       "free": true,
       "starter": 11.99,
@@ -8406,7 +8452,9 @@
     "id": "buildium",
     "name": "Buildium",
     "slug": "buildium",
-    "category": ["real-estate"],
+    "category": [
+      "real-estate"
+    ],
     "pricing": {
       "free": false,
       "essential": 58,
@@ -8454,11 +8502,13 @@
     "id": "appfolio",
     "name": "AppFolio",
     "slug": "appfolio",
-    "category": ["real-estate"],
+    "category": [
+      "real-estate"
+    ],
     "pricing": {
       "free": false,
       "core": 1.49,
-      "plus": 3.20,
+      "plus": 3.2,
       "max": null
     },
     "currency": "USD",
@@ -8501,7 +8551,10 @@
     "id": "mint",
     "name": "Mint",
     "slug": "mint",
-    "category": ["personal-finance", "budgeting"],
+    "category": [
+      "personal-finance",
+      "budgeting"
+    ],
     "pricing": {
       "free": true,
       "premium": 4.99,
@@ -8547,7 +8600,9 @@
     "id": "personal-capital",
     "name": "Empower (Personal Capital)",
     "slug": "personal-capital",
-    "category": ["personal-finance"],
+    "category": [
+      "personal-finance"
+    ],
     "pricing": {
       "free": true,
       "wealth-management": 0.89,
@@ -8592,7 +8647,9 @@
     "id": "robinhood",
     "name": "Robinhood",
     "slug": "robinhood",
-    "category": ["personal-finance"],
+    "category": [
+      "personal-finance"
+    ],
     "pricing": {
       "free": true,
       "gold": 5,
@@ -8638,7 +8695,9 @@
     "id": "acorns",
     "name": "Acorns",
     "slug": "acorns",
-    "category": ["personal-finance"],
+    "category": [
+      "personal-finance"
+    ],
     "pricing": {
       "free": false,
       "bronze": 3,
@@ -8685,7 +8744,9 @@
     "id": "wealthfront",
     "name": "Wealthfront",
     "slug": "wealthfront",
-    "category": ["personal-finance"],
+    "category": [
+      "personal-finance"
+    ],
     "pricing": {
       "free": false,
       "advisory-fee": 0.25,
@@ -8731,7 +8792,9 @@
     "id": "crowdstrike",
     "name": "CrowdStrike",
     "slug": "crowdstrike",
-    "category": ["cybersecurity"],
+    "category": [
+      "cybersecurity"
+    ],
     "pricing": {
       "free": false,
       "go": 59.99,
@@ -8777,7 +8840,9 @@
     "id": "palo-alto-networks",
     "name": "Palo Alto Networks",
     "slug": "palo-alto-networks",
-    "category": ["cybersecurity"],
+    "category": [
+      "cybersecurity"
+    ],
     "pricing": {
       "free": false,
       "enterprise": null
@@ -8821,7 +8886,9 @@
     "id": "okta",
     "name": "Okta",
     "slug": "okta",
-    "category": ["cybersecurity"],
+    "category": [
+      "cybersecurity"
+    ],
     "pricing": {
       "free": false,
       "sso": 2,
@@ -8868,7 +8935,9 @@
     "id": "nordvpn",
     "name": "NordVPN",
     "slug": "nordvpn",
-    "category": ["cybersecurity"],
+    "category": [
+      "cybersecurity"
+    ],
     "pricing": {
       "free": false,
       "basic": 3.59,
@@ -8915,7 +8984,10 @@
     "id": "proton",
     "name": "Proton",
     "slug": "proton",
-    "category": ["cybersecurity", "communication"],
+    "category": [
+      "cybersecurity",
+      "communication"
+    ],
     "pricing": {
       "free": true,
       "mail-plus": 3.99,
@@ -8962,10 +9034,13 @@
     "id": "mongodb",
     "name": "MongoDB",
     "slug": "mongodb",
-    "category": ["database", "open-source"],
+    "category": [
+      "database",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
-      "serverless": 0.10,
+      "serverless": 0.1,
       "dedicated": 57,
       "enterprise": null
     },
@@ -9010,7 +9085,10 @@
     "id": "postgresql",
     "name": "PostgreSQL",
     "slug": "postgresql",
-    "category": ["database", "open-source"],
+    "category": [
+      "database",
+      "open-source"
+    ],
     "pricing": {
       "free": true
     },
@@ -9055,7 +9133,9 @@
     "id": "planetscale",
     "name": "PlanetScale",
     "slug": "planetscale",
-    "category": ["database"],
+    "category": [
+      "database"
+    ],
     "pricing": {
       "free": false,
       "scaler": 39,
@@ -9101,7 +9181,9 @@
     "id": "neon",
     "name": "Neon",
     "slug": "neon",
-    "category": ["database"],
+    "category": [
+      "database"
+    ],
     "pricing": {
       "free": true,
       "launch": 19,
@@ -9148,7 +9230,9 @@
     "id": "fauna",
     "name": "Fauna",
     "slug": "fauna",
-    "category": ["database"],
+    "category": [
+      "database"
+    ],
     "pricing": {
       "free": true,
       "pro": 0.01,
@@ -9193,11 +9277,14 @@
     "id": "cockroachdb",
     "name": "CockroachDB",
     "slug": "cockroachdb",
-    "category": ["database", "open-source"],
+    "category": [
+      "database",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "basic": 0,
-      "standard": 0.50,
+      "standard": 0.5,
       "enterprise": null
     },
     "currency": "USD",
@@ -9240,7 +9327,10 @@
     "id": "swagger",
     "name": "Swagger (SmartBear)",
     "slug": "swagger",
-    "category": ["api", "devops"],
+    "category": [
+      "api",
+      "devops"
+    ],
     "pricing": {
       "free": true,
       "team": 75,
@@ -9285,7 +9375,9 @@
     "id": "rapidapi",
     "name": "RapidAPI",
     "slug": "rapidapi",
-    "category": ["api"],
+    "category": [
+      "api"
+    ],
     "pricing": {
       "free": true,
       "pro": 20,
@@ -9331,7 +9423,9 @@
     "id": "apigee",
     "name": "Apigee",
     "slug": "apigee",
-    "category": ["api"],
+    "category": [
+      "api"
+    ],
     "pricing": {
       "free": false,
       "evaluation": 0,
@@ -9377,7 +9471,10 @@
     "id": "kong",
     "name": "Kong",
     "slug": "kong",
-    "category": ["api", "open-source"],
+    "category": [
+      "api",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "plus": 0.05,
@@ -9423,7 +9520,10 @@
     "id": "docker",
     "name": "Docker",
     "slug": "docker",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "pro": 5,
@@ -9471,7 +9571,10 @@
     "id": "kubernetes",
     "name": "Kubernetes",
     "slug": "kubernetes",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true
     },
@@ -9516,7 +9619,10 @@
     "id": "terraform",
     "name": "Terraform",
     "slug": "terraform",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "standard": 0.00014,
@@ -9563,7 +9669,10 @@
     "id": "ansible",
     "name": "Ansible",
     "slug": "ansible",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "automation-platform": null,
@@ -9608,7 +9717,10 @@
     "id": "jenkins",
     "name": "Jenkins",
     "slug": "jenkins",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true
     },
@@ -9651,7 +9763,9 @@
     "id": "circleci",
     "name": "CircleCI",
     "slug": "circleci",
-    "category": ["devops"],
+    "category": [
+      "devops"
+    ],
     "pricing": {
       "free": true,
       "performance": 15,
@@ -9698,7 +9812,10 @@
     "id": "argocd",
     "name": "Argo CD",
     "slug": "argocd",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true
     },
@@ -9743,7 +9860,9 @@
     "id": "adalo",
     "name": "Adalo",
     "slug": "adalo",
-    "category": ["no-code"],
+    "category": [
+      "no-code"
+    ],
     "pricing": {
       "free": true,
       "starter": 45,
@@ -9789,7 +9908,9 @@
     "id": "glide",
     "name": "Glide",
     "slug": "glide",
-    "category": ["no-code"],
+    "category": [
+      "no-code"
+    ],
     "pricing": {
       "free": true,
       "maker": 60,
@@ -9835,7 +9956,9 @@
     "id": "appsheet",
     "name": "AppSheet",
     "slug": "appsheet",
-    "category": ["no-code"],
+    "category": [
+      "no-code"
+    ],
     "pricing": {
       "free": true,
       "starter": 5,
@@ -9881,7 +10004,9 @@
     "id": "outsystems",
     "name": "OutSystems",
     "slug": "outsystems",
-    "category": ["no-code"],
+    "category": [
+      "no-code"
+    ],
     "pricing": {
       "free": true,
       "standard": null,
@@ -9926,7 +10051,9 @@
     "id": "mendix",
     "name": "Mendix",
     "slug": "mendix",
-    "category": ["no-code"],
+    "category": [
+      "no-code"
+    ],
     "pricing": {
       "free": true,
       "basic": 60,
@@ -9972,7 +10099,10 @@
     "id": "box",
     "name": "Box",
     "slug": "box",
-    "category": ["file-sharing", "collaboration"],
+    "category": [
+      "file-sharing",
+      "collaboration"
+    ],
     "pricing": {
       "free": true,
       "personal-pro": 14,
@@ -10021,7 +10151,9 @@
     "id": "wetransfer",
     "name": "WeTransfer",
     "slug": "wetransfer",
-    "category": ["file-sharing"],
+    "category": [
+      "file-sharing"
+    ],
     "pricing": {
       "free": true,
       "pro": 16,
@@ -10067,7 +10199,9 @@
     "id": "pcloud",
     "name": "pCloud",
     "slug": "pcloud",
-    "category": ["file-sharing"],
+    "category": [
+      "file-sharing"
+    ],
     "pricing": {
       "free": true,
       "premium-500gb": 49.99,
@@ -10114,7 +10248,10 @@
     "id": "tresorit",
     "name": "Tresorit",
     "slug": "tresorit",
-    "category": ["file-sharing", "cybersecurity"],
+    "category": [
+      "file-sharing",
+      "cybersecurity"
+    ],
     "pricing": {
       "free": false,
       "personal": 11.99,
@@ -10161,7 +10298,9 @@
     "id": "whereby",
     "name": "Whereby",
     "slug": "whereby",
-    "category": ["video-conferencing"],
+    "category": [
+      "video-conferencing"
+    ],
     "pricing": {
       "free": true,
       "pro": 8.99,
@@ -10207,7 +10346,10 @@
     "id": "riverside",
     "name": "Riverside",
     "slug": "riverside",
-    "category": ["video-conferencing", "audio-music"],
+    "category": [
+      "video-conferencing",
+      "audio-music"
+    ],
     "pricing": {
       "free": true,
       "standard": 15,
@@ -10254,7 +10396,10 @@
     "id": "streamyard",
     "name": "StreamYard",
     "slug": "streamyard",
-    "category": ["video-conferencing", "social-media"],
+    "category": [
+      "video-conferencing",
+      "social-media"
+    ],
     "pricing": {
       "free": true,
       "basic": 20,
@@ -10301,7 +10446,10 @@
     "id": "google-ads",
     "name": "Google Ads",
     "slug": "google-ads",
-    "category": ["advertising", "analytics"],
+    "category": [
+      "advertising",
+      "analytics"
+    ],
     "pricing": {
       "free": false,
       "self-serve": null,
@@ -10348,7 +10496,10 @@
     "id": "meta-ads",
     "name": "Meta Ads (Facebook & Instagram)",
     "slug": "meta-ads",
-    "category": ["advertising", "social-media"],
+    "category": [
+      "advertising",
+      "social-media"
+    ],
     "pricing": {
       "free": false,
       "self-serve": null,
@@ -10395,7 +10546,10 @@
     "id": "tiktok-ads",
     "name": "TikTok Ads",
     "slug": "tiktok-ads",
-    "category": ["advertising", "social-media"],
+    "category": [
+      "advertising",
+      "social-media"
+    ],
     "pricing": {
       "free": false,
       "self-serve": null,
@@ -10441,7 +10595,10 @@
     "id": "linkedin-ads",
     "name": "LinkedIn Ads",
     "slug": "linkedin-ads",
-    "category": ["advertising", "social-media"],
+    "category": [
+      "advertising",
+      "social-media"
+    ],
     "pricing": {
       "free": false,
       "self-serve": null,
@@ -10487,7 +10644,10 @@
     "id": "twitter-ads",
     "name": "X Ads (Twitter)",
     "slug": "twitter-ads",
-    "category": ["advertising", "social-media"],
+    "category": [
+      "advertising",
+      "social-media"
+    ],
     "pricing": {
       "free": false,
       "self-serve": null,
@@ -10533,7 +10693,9 @@
     "id": "savvycal",
     "name": "SavvyCal",
     "slug": "savvycal",
-    "category": ["calendar"],
+    "category": [
+      "calendar"
+    ],
     "pricing": {
       "free": true,
       "individual": 12,
@@ -10579,7 +10741,9 @@
     "id": "acuity-scheduling",
     "name": "Acuity Scheduling",
     "slug": "acuity-scheduling",
-    "category": ["calendar"],
+    "category": [
+      "calendar"
+    ],
     "pricing": {
       "free": false,
       "emerging": 20,
@@ -10626,7 +10790,9 @@
     "id": "doodle",
     "name": "Doodle",
     "slug": "doodle",
-    "category": ["calendar"],
+    "category": [
+      "calendar"
+    ],
     "pricing": {
       "free": true,
       "pro": 6.95,
@@ -10672,7 +10838,10 @@
     "id": "excalidraw",
     "name": "Excalidraw",
     "slug": "excalidraw",
-    "category": ["whiteboard", "open-source"],
+    "category": [
+      "whiteboard",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "plus": 7,
@@ -10718,7 +10887,10 @@
     "id": "lucidchart",
     "name": "Lucidchart",
     "slug": "lucidchart",
-    "category": ["whiteboard", "design"],
+    "category": [
+      "whiteboard",
+      "design"
+    ],
     "pricing": {
       "free": true,
       "individual": 7.95,
@@ -10765,7 +10937,10 @@
     "id": "figjam",
     "name": "FigJam",
     "slug": "figjam",
-    "category": ["whiteboard", "collaboration"],
+    "category": [
+      "whiteboard",
+      "collaboration"
+    ],
     "pricing": {
       "free": true,
       "professional": 5,
@@ -10813,7 +10988,10 @@
     "id": "whimsical",
     "name": "Whimsical",
     "slug": "whimsical",
-    "category": ["whiteboard", "design"],
+    "category": [
+      "whiteboard",
+      "design"
+    ],
     "pricing": {
       "free": true,
       "pro": 10,
@@ -10860,7 +11038,10 @@
     "id": "google-classroom",
     "name": "Google Classroom",
     "slug": "google-classroom",
-    "category": ["education", "collaboration"],
+    "category": [
+      "education",
+      "collaboration"
+    ],
     "pricing": {
       "free": true,
       "education-plus": 5,
@@ -10906,7 +11087,9 @@
     "id": "khan-academy",
     "name": "Khan Academy",
     "slug": "khan-academy",
-    "category": ["education"],
+    "category": [
+      "education"
+    ],
     "pricing": {
       "free": true
     },
@@ -10950,7 +11133,10 @@
     "id": "canva-docs",
     "name": "Canva Docs",
     "slug": "canva-docs",
-    "category": ["documents", "design"],
+    "category": [
+      "documents",
+      "design"
+    ],
     "pricing": {
       "free": true,
       "pro": 12.99,
@@ -10996,7 +11182,10 @@
     "id": "around",
     "name": "Around",
     "slug": "around",
-    "category": ["video-conferencing", "collaboration"],
+    "category": [
+      "video-conferencing",
+      "collaboration"
+    ],
     "pricing": {
       "free": true,
       "pro": 10,
@@ -11041,7 +11230,10 @@
     "id": "datadog",
     "name": "Datadog",
     "slug": "datadog",
-    "category": ["devops", "analytics"],
+    "category": [
+      "devops",
+      "analytics"
+    ],
     "pricing": {
       "free": true,
       "pro": 15,
@@ -11087,11 +11279,14 @@
     "id": "new-relic",
     "name": "New Relic",
     "slug": "new-relic",
-    "category": ["devops", "analytics"],
+    "category": [
+      "devops",
+      "analytics"
+    ],
     "pricing": {
       "free": true,
-      "standard": 0.30,
-      "pro": 0.50,
+      "standard": 0.3,
+      "pro": 0.5,
       "enterprise": null
     },
     "currency": "USD",
@@ -11134,7 +11329,10 @@
     "id": "sentry",
     "name": "Sentry",
     "slug": "sentry",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "team": 26,
@@ -11182,7 +11380,10 @@
     "id": "pulumi",
     "name": "Pulumi",
     "slug": "pulumi",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "team": 50,
@@ -11228,7 +11429,10 @@
     "id": "cloudflare",
     "name": "Cloudflare",
     "slug": "cloudflare",
-    "category": ["cybersecurity", "devops"],
+    "category": [
+      "cybersecurity",
+      "devops"
+    ],
     "pricing": {
       "free": true,
       "pro": 20,
@@ -11275,7 +11479,9 @@
     "id": "lastpass",
     "name": "LastPass",
     "slug": "lastpass",
-    "category": ["cybersecurity"],
+    "category": [
+      "cybersecurity"
+    ],
     "pricing": {
       "free": true,
       "premium": 3,
@@ -11321,7 +11527,10 @@
     "id": "tailscale",
     "name": "Tailscale",
     "slug": "tailscale",
-    "category": ["cybersecurity", "devops"],
+    "category": [
+      "cybersecurity",
+      "devops"
+    ],
     "pricing": {
       "free": true,
       "personal-pro": 5,
@@ -11368,7 +11577,9 @@
     "id": "turso",
     "name": "Turso",
     "slug": "turso",
-    "category": ["database"],
+    "category": [
+      "database"
+    ],
     "pricing": {
       "free": true,
       "scaler": 29,
@@ -11414,7 +11625,9 @@
     "id": "upstash",
     "name": "Upstash",
     "slug": "upstash",
-    "category": ["database"],
+    "category": [
+      "database"
+    ],
     "pricing": {
       "free": true,
       "pay-as-you-go": 0.2,
@@ -11460,7 +11673,9 @@
     "id": "hetzner",
     "name": "Hetzner",
     "slug": "hetzner",
-    "category": ["devops"],
+    "category": [
+      "devops"
+    ],
     "pricing": {
       "free": false,
       "cx22": 3.79,
@@ -11507,7 +11722,9 @@
     "id": "fly-io",
     "name": "Fly.io",
     "slug": "fly-io",
-    "category": ["devops"],
+    "category": [
+      "devops"
+    ],
     "pricing": {
       "free": true,
       "launch": 0,
@@ -11553,7 +11770,10 @@
     "id": "mural",
     "name": "Mural",
     "slug": "mural",
-    "category": ["whiteboard", "collaboration"],
+    "category": [
+      "whiteboard",
+      "collaboration"
+    ],
     "pricing": {
       "free": true,
       "team-plus": 9.99,
@@ -11600,7 +11820,10 @@
     "id": "doppler",
     "name": "Doppler",
     "slug": "doppler",
-    "category": ["devops", "cybersecurity"],
+    "category": [
+      "devops",
+      "cybersecurity"
+    ],
     "pricing": {
       "free": true,
       "team": 6,
@@ -11646,7 +11869,10 @@
     "id": "retable",
     "name": "Retable",
     "slug": "retable",
-    "category": ["spreadsheet", "database"],
+    "category": [
+      "spreadsheet",
+      "database"
+    ],
     "pricing": {
       "free": true,
       "professional": 10,
@@ -11692,7 +11918,10 @@
     "id": "hono",
     "name": "Hono",
     "slug": "hono",
-    "category": ["api", "open-source"],
+    "category": [
+      "api",
+      "open-source"
+    ],
     "pricing": {
       "free": true
     },
@@ -11736,7 +11965,11 @@
     "id": "grafana",
     "name": "Grafana",
     "slug": "grafana",
-    "category": ["devops", "analytics", "open-source"],
+    "category": [
+      "devops",
+      "analytics",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "cloud-pro": 29,
@@ -11784,7 +12017,11 @@
     "id": "harbor",
     "name": "Harbor",
     "slug": "harbor",
-    "category": ["devops", "open-source", "cybersecurity"],
+    "category": [
+      "devops",
+      "open-source",
+      "cybersecurity"
+    ],
     "pricing": {
       "free": true
     },
@@ -11827,7 +12064,10 @@
     "id": "snyk",
     "name": "Snyk",
     "slug": "snyk",
-    "category": ["cybersecurity", "devops"],
+    "category": [
+      "cybersecurity",
+      "devops"
+    ],
     "pricing": {
       "free": true,
       "team": 25,
@@ -11872,7 +12112,10 @@
     "id": "notion-calendar",
     "name": "Notion Calendar",
     "slug": "notion-calendar",
-    "category": ["calendar", "productivity"],
+    "category": [
+      "calendar",
+      "productivity"
+    ],
     "pricing": {
       "free": true,
       "enterprise": null
@@ -11917,7 +12160,10 @@
     "id": "caprover",
     "name": "CapRover",
     "slug": "caprover",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true
     },
@@ -11961,7 +12207,10 @@
     "id": "coolify",
     "name": "Coolify",
     "slug": "coolify",
-    "category": ["devops", "open-source"],
+    "category": [
+      "devops",
+      "open-source"
+    ],
     "pricing": {
       "free": true,
       "pro": 5,
@@ -12007,7 +12256,10 @@
     "id": "plaid",
     "name": "Plaid",
     "slug": "plaid",
-    "category": ["personal-finance", "api"],
+    "category": [
+      "personal-finance",
+      "api"
+    ],
     "pricing": {
       "free": true,
       "production": 0,
@@ -12053,7 +12305,9 @@
     "id": "wise",
     "name": "Wise",
     "slug": "wise",
-    "category": ["personal-finance"],
+    "category": [
+      "personal-finance"
+    ],
     "pricing": {
       "free": true,
       "personal": 0,
@@ -12095,5 +12349,4846 @@
     "rating": 4.6,
     "yearFounded": 2011,
     "icon": "/icons/wise.svg"
+  },
+  {
+    "id": "assemblyai",
+    "name": "AssemblyAI",
+    "slug": "assemblyai",
+    "category": [
+      "ai-transcription",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "nano": 0.12,
+      "best": 0.37,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-hour",
+    "description": "AI-powered speech-to-text API for transcription, summarization, sentiment analysis, and audio intelligence with state-of-the-art accuracy.",
+    "pros": [
+      "Industry-leading transcription accuracy",
+      "Real-time and async transcription support",
+      "Built-in audio intelligence (sentiment, topics, entities)",
+      "Generous free tier with 100 hours included"
+    ],
+    "cons": [
+      "API-only (no consumer-facing UI)",
+      "Per-hour pricing can add up for high volume",
+      "Limited language support compared to competitors"
+    ],
+    "bestFor": [
+      "developers",
+      "podcast-platforms",
+      "meeting-tools",
+      "media-companies"
+    ],
+    "features": [
+      "speech-to-text",
+      "real-time-transcription",
+      "speaker-diarization",
+      "sentiment-analysis",
+      "topic-detection",
+      "content-moderation",
+      "summarization"
+    ],
+    "website": "https://www.assemblyai.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2017,
+    "icon": "/icons/assemblyai.svg"
+  },
+  {
+    "id": "deepgram",
+    "name": "Deepgram",
+    "slug": "deepgram",
+    "category": [
+      "ai-transcription",
+      "ai-voice",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "payAsYouGo": 0.0043,
+      "growth": 0.0036,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-minute",
+    "description": "AI speech platform offering ultra-fast transcription, text-to-speech, and speech understanding APIs built on custom deep learning models.",
+    "pros": [
+      "Extremely fast transcription (up to 40x real-time)",
+      "Competitive accuracy with custom models",
+      "Both STT and TTS in one platform",
+      "Free $200 credit to start"
+    ],
+    "cons": [
+      "Developer-focused with no consumer app",
+      "Custom model training requires enterprise plan",
+      "Newer platform with less ecosystem maturity"
+    ],
+    "bestFor": [
+      "developers",
+      "contact-centers",
+      "voice-ai-apps",
+      "real-time-applications"
+    ],
+    "features": [
+      "speech-to-text",
+      "text-to-speech",
+      "real-time-streaming",
+      "language-detection",
+      "topic-detection",
+      "custom-vocabulary",
+      "smart-formatting"
+    ],
+    "website": "https://deepgram.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2015,
+    "icon": "/icons/deepgram.svg"
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper (OpenAI)",
+    "slug": "whisper",
+    "category": [
+      "ai-transcription",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "api": 0.006,
+      "selfHosted": 0
+    },
+    "currency": "USD",
+    "pricingModel": "per-minute",
+    "description": "Open-source automatic speech recognition model by OpenAI supporting 99 languages with robust transcription and translation capabilities.",
+    "pros": [
+      "Completely free and open-source for self-hosting",
+      "Supports 99 languages out of the box",
+      "Excellent accuracy on diverse audio types",
+      "Can be run locally with no API dependency"
+    ],
+    "cons": [
+      "Self-hosting requires GPU for real-time performance",
+      "No real-time streaming in base model",
+      "No built-in speaker diarization"
+    ],
+    "bestFor": [
+      "developers",
+      "researchers",
+      "privacy-focused-teams",
+      "multilingual-projects"
+    ],
+    "features": [
+      "speech-to-text",
+      "translation",
+      "multilingual-support",
+      "timestamps",
+      "self-hostable",
+      "python-api"
+    ],
+    "website": "https://openai.com/research/whisper",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2022,
+    "icon": "/icons/whisper.svg"
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch",
+    "slug": "sketch",
+    "category": [
+      "design"
+    ],
+    "pricing": {
+      "free": false,
+      "standard": 12,
+      "business": 22,
+      "macOnly": 120
+    },
+    "currency": "USD",
+    "pricingModel": "per-editor-monthly",
+    "description": "Professional vector design tool for macOS focused on UI/UX design with powerful symbols, prototyping, and a collaborative workspace.",
+    "pros": [
+      "Lightweight and fast native macOS performance",
+      "Mature plugin ecosystem with thousands of extensions",
+      "Excellent symbol and library system",
+      "One-time license option for Mac app"
+    ],
+    "cons": [
+      "Mac-only (no Windows or Linux support)",
+      "Collaboration features lag behind Figma",
+      "Market share declining as teams move to Figma"
+    ],
+    "bestFor": [
+      "ui-designers",
+      "mac-users",
+      "design-agencies",
+      "icon-designers"
+    ],
+    "features": [
+      "vector-editing",
+      "symbols",
+      "prototyping",
+      "shared-libraries",
+      "developer-handoff",
+      "plugins",
+      "cloud-workspace"
+    ],
+    "website": "https://www.sketch.com",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2010,
+    "icon": "/icons/sketch.svg"
+  },
+  {
+    "id": "affinity-designer",
+    "name": "Affinity Designer",
+    "slug": "affinity-designer",
+    "category": [
+      "design"
+    ],
+    "pricing": {
+      "free": false,
+      "v2": 69.99,
+      "universal": 169.99
+    },
+    "currency": "USD",
+    "pricingModel": "one-time",
+    "description": "Professional vector graphic design software and Illustrator alternative with no subscription, offering precise vector and raster design in one tool.",
+    "pros": [
+      "One-time purchase with no subscription fees",
+      "Professional-grade vector and raster tools combined",
+      "Excellent performance even on large canvases",
+      "Cross-platform (Mac, Windows, iPad)"
+    ],
+    "cons": [
+      "Smaller plugin ecosystem than Adobe",
+      "Less industry adoption for collaboration",
+      "No AI-powered features yet"
+    ],
+    "bestFor": [
+      "illustrators",
+      "graphic-designers",
+      "budget-conscious-professionals",
+      "print-designers"
+    ],
+    "features": [
+      "vector-editing",
+      "raster-editing",
+      "pen-tool",
+      "artboards",
+      "constraints",
+      "export-personas",
+      "isometric-design"
+    ],
+    "website": "https://affinity.serif.com/designer",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2014,
+    "icon": "/icons/affinity-designer.svg"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "slug": "blender",
+    "category": [
+      "design",
+      "video-editing",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Free and open-source 3D creation suite supporting modeling, animation, rendering, compositing, motion tracking, video editing, and game creation.",
+    "pros": [
+      "Completely free with no limitations whatsoever",
+      "Full professional 3D pipeline in one application",
+      "Active community with extensive tutorials and add-ons",
+      "Regular updates with industry-leading features"
+    ],
+    "cons": [
+      "Steep learning curve for beginners",
+      "UI can feel overwhelming with many panels",
+      "Less studio pipeline integration than Maya/3ds Max"
+    ],
+    "bestFor": [
+      "3d-artists",
+      "indie-game-developers",
+      "animation-studios",
+      "students"
+    ],
+    "features": [
+      "3d-modeling",
+      "sculpting",
+      "animation",
+      "rendering",
+      "compositing",
+      "video-editing",
+      "geometry-nodes"
+    ],
+    "website": "https://www.blender.org",
+    "affiliateUrl": null,
+    "rating": 4.7,
+    "yearFounded": 1994,
+    "icon": "/icons/blender.svg"
+  },
+  {
+    "id": "spline",
+    "name": "Spline",
+    "slug": "spline",
+    "category": [
+      "design"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 9,
+      "team": 18,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Web-based 3D design tool for creating interactive experiences, animations, and 3D content directly embeddable in websites and apps.",
+    "pros": [
+      "Browser-based with no installation required",
+      "Easy to learn compared to traditional 3D tools",
+      "Real-time collaboration like Figma for 3D",
+      "Direct export to web (React, iframe, vanilla JS)"
+    ],
+    "cons": [
+      "Limited to simpler 3D scenes (not production rendering)",
+      "Performance issues with complex models",
+      "Fewer modeling tools than dedicated 3D software"
+    ],
+    "bestFor": [
+      "web-designers",
+      "product-designers",
+      "front-end-developers",
+      "creative-agencies"
+    ],
+    "features": [
+      "3d-modeling",
+      "real-time-collaboration",
+      "animations",
+      "interactions",
+      "web-export",
+      "materials",
+      "physics"
+    ],
+    "website": "https://spline.design",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2020,
+    "icon": "/icons/spline.svg"
+  },
+  {
+    "id": "invision",
+    "name": "InVision",
+    "slug": "invision",
+    "category": [
+      "design",
+      "collaboration"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 7.95,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Digital product design platform offering prototyping, collaboration tools, and design system management for product teams.",
+    "pros": [
+      "Excellent prototyping with hotspots and transitions",
+      "Freehand whiteboarding for brainstorming",
+      "Design system manager (DSM) for consistency",
+      "Good stakeholder review and commenting workflow"
+    ],
+    "cons": [
+      "Company has pivoted and scaled down significantly",
+      "Studio product was discontinued",
+      "Most teams have migrated to Figma"
+    ],
+    "bestFor": [
+      "design-teams",
+      "product-managers",
+      "stakeholder-reviews",
+      "legacy-users"
+    ],
+    "features": [
+      "prototyping",
+      "freehand-whiteboard",
+      "design-systems",
+      "inspect-mode",
+      "commenting",
+      "user-testing"
+    ],
+    "website": "https://www.invisionapp.com",
+    "affiliateUrl": null,
+    "rating": 3.8,
+    "yearFounded": 2011,
+    "icon": "/icons/invision.svg"
+  },
+  {
+    "id": "procreate",
+    "name": "Procreate",
+    "slug": "procreate",
+    "category": [
+      "design"
+    ],
+    "pricing": {
+      "free": false,
+      "ipad": 12.99,
+      "dreams": 19.99
+    },
+    "currency": "USD",
+    "pricingModel": "one-time",
+    "description": "Award-winning digital illustration app for iPad offering natural drawing and painting tools with professional-grade brushes and animation features.",
+    "pros": [
+      "One-time purchase price (no subscription)",
+      "Incredibly responsive and natural brush engine",
+      "Massive brush library with custom brush creation",
+      "Animation assist for frame-by-frame animation"
+    ],
+    "cons": [
+      "iPad-only (no desktop or Android version)",
+      "No vector support (raster only)",
+      "Limited text and layout tools"
+    ],
+    "bestFor": [
+      "digital-artists",
+      "illustrators",
+      "concept-artists",
+      "hobbyists"
+    ],
+    "features": [
+      "digital-painting",
+      "brushes",
+      "layers",
+      "animation-assist",
+      "time-lapse",
+      "color-tools",
+      "apple-pencil-support"
+    ],
+    "website": "https://procreate.com",
+    "affiliateUrl": null,
+    "rating": 4.8,
+    "yearFounded": 2011,
+    "icon": "/icons/procreate.svg"
+  },
+  {
+    "id": "activecampaign",
+    "name": "ActiveCampaign",
+    "slug": "activecampaign",
+    "category": [
+      "email-marketing",
+      "crm",
+      "automation"
+    ],
+    "pricing": {
+      "free": false,
+      "starter": 15,
+      "plus": 49,
+      "pro": 79,
+      "enterprise": 145
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Customer experience automation platform combining email marketing, marketing automation, CRM, and sales automation for businesses of all sizes.",
+    "pros": [
+      "Most powerful automation builder in email marketing",
+      "Combined CRM and email in one platform",
+      "Excellent deliverability rates consistently",
+      "800+ integrations with third-party tools"
+    ],
+    "cons": [
+      "Steeper learning curve than simpler tools",
+      "No free plan available",
+      "Reporting could be more intuitive"
+    ],
+    "bestFor": [
+      "ecommerce-businesses",
+      "saas-companies",
+      "marketing-agencies",
+      "small-businesses"
+    ],
+    "features": [
+      "email-marketing",
+      "marketing-automation",
+      "crm",
+      "sales-automation",
+      "landing-pages",
+      "sms-marketing",
+      "predictive-sending"
+    ],
+    "website": "https://www.activecampaign.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2003,
+    "icon": "/icons/activecampaign.svg"
+  },
+  {
+    "id": "brevo",
+    "name": "Brevo",
+    "slug": "brevo",
+    "category": [
+      "email-marketing",
+      "crm",
+      "communication"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 25,
+      "business": 65,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "All-in-one marketing platform (formerly Sendinblue) offering email, SMS, WhatsApp campaigns, CRM, and transactional messaging with generous free tier.",
+    "pros": [
+      "Generous free plan with 300 emails per day",
+      "Multi-channel: email, SMS, WhatsApp, push in one tool",
+      "Built-in CRM included in all plans",
+      "Transactional email/SMS API for developers"
+    ],
+    "cons": [
+      "Email editor less polished than Mailchimp",
+      "Automation features less advanced than ActiveCampaign",
+      "Customer support can be slow on free plan"
+    ],
+    "bestFor": [
+      "small-businesses",
+      "startups",
+      "ecommerce",
+      "developers-needing-transactional-email"
+    ],
+    "features": [
+      "email-campaigns",
+      "sms-marketing",
+      "whatsapp-campaigns",
+      "marketing-automation",
+      "crm",
+      "transactional-api",
+      "landing-pages"
+    ],
+    "website": "https://www.brevo.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2012,
+    "icon": "/icons/brevo.svg"
+  },
+  {
+    "id": "drip",
+    "name": "Drip",
+    "slug": "drip",
+    "category": [
+      "email-marketing",
+      "ecommerce",
+      "automation"
+    ],
+    "pricing": {
+      "free": false,
+      "2500contacts": 39,
+      "5000contacts": 89,
+      "10000contacts": 154
+    },
+    "currency": "USD",
+    "pricingModel": "contacts-based-monthly",
+    "description": "E-commerce marketing automation platform specializing in personalized email and SMS campaigns driven by customer purchase behavior and browsing data.",
+    "pros": [
+      "Deep e-commerce integrations (Shopify, WooCommerce)",
+      "Visual workflow builder with revenue attribution",
+      "Advanced segmentation based on purchase behavior",
+      "Pre-built automation playbooks for common e-commerce flows"
+    ],
+    "cons": [
+      "Expensive compared to general email tools",
+      "No free plan available",
+      "Primarily focused on e-commerce (limited for other use cases)"
+    ],
+    "bestFor": [
+      "ecommerce-stores",
+      "dtc-brands",
+      "shopify-merchants",
+      "online-retailers"
+    ],
+    "features": [
+      "visual-workflows",
+      "email-campaigns",
+      "sms-marketing",
+      "revenue-attribution",
+      "behavior-tracking",
+      "segmentation",
+      "a-b-testing"
+    ],
+    "website": "https://www.drip.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2013,
+    "icon": "/icons/drip.svg"
+  },
+  {
+    "id": "aws",
+    "name": "Amazon Web Services (AWS)",
+    "slug": "aws",
+    "category": [
+      "devops",
+      "database",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "payAsYouGo": 0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "usage-based",
+    "description": "World's most comprehensive cloud platform offering 200+ services including compute, storage, databases, AI/ML, analytics, and serverless from global data centers.",
+    "pros": [
+      "Most extensive service catalog of any cloud provider",
+      "Global infrastructure with 30+ regions worldwide",
+      "12-month free tier covering many services",
+      "Mature enterprise tooling and compliance certifications"
+    ],
+    "cons": [
+      "Complex pricing that is hard to predict",
+      "Steep learning curve with overwhelming service count",
+      "Console UI feels dated compared to competitors"
+    ],
+    "bestFor": [
+      "enterprises",
+      "startups",
+      "large-scale-applications",
+      "machine-learning-teams"
+    ],
+    "features": [
+      "compute-ec2",
+      "storage-s3",
+      "serverless-lambda",
+      "databases-rds",
+      "machine-learning",
+      "containers-ecs",
+      "cdn-cloudfront"
+    ],
+    "website": "https://aws.amazon.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2006,
+    "icon": "/icons/aws.svg"
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "slug": "azure",
+    "category": [
+      "devops",
+      "database",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "payAsYouGo": 0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "usage-based",
+    "description": "Microsoft's cloud computing platform offering infrastructure, AI services, DevOps tools, and seamless integration with Microsoft 365 and enterprise software.",
+    "pros": [
+      "Best integration with Microsoft ecosystem (365, AD, Teams)",
+      "Strong hybrid cloud support with Azure Arc",
+      "Enterprise-grade compliance and security",
+      "Excellent AI/ML services including OpenAI partnership"
+    ],
+    "cons": [
+      "Portal can be confusing with inconsistent UX",
+      "Documentation quality varies across services",
+      "Pricing complexity rivals AWS"
+    ],
+    "bestFor": [
+      "enterprises",
+      "microsoft-shops",
+      "hybrid-cloud",
+      "ai-ml-teams"
+    ],
+    "features": [
+      "virtual-machines",
+      "azure-functions",
+      "cosmos-db",
+      "azure-devops",
+      "active-directory",
+      "openai-service",
+      "kubernetes-aks"
+    ],
+    "website": "https://azure.microsoft.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2010,
+    "icon": "/icons/azure.svg"
+  },
+  {
+    "id": "gcp",
+    "name": "Google Cloud Platform",
+    "slug": "gcp",
+    "category": [
+      "devops",
+      "database",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "payAsYouGo": 0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "usage-based",
+    "description": "Google's cloud platform excelling in data analytics, machine learning, Kubernetes, and serverless computing with strong open-source commitments.",
+    "pros": [
+      "Best-in-class data and analytics tools (BigQuery)",
+      "Leading Kubernetes offering (GKE) from its creators",
+      "Clean, modern console and developer experience",
+      "$300 free credits for new accounts"
+    ],
+    "cons": [
+      "Smaller service catalog than AWS",
+      "Enterprise support and sales lag behind AWS/Azure",
+      "History of deprecating services concerns users"
+    ],
+    "bestFor": [
+      "data-teams",
+      "kubernetes-users",
+      "ai-ml-teams",
+      "startups"
+    ],
+    "features": [
+      "compute-engine",
+      "bigquery",
+      "kubernetes-gke",
+      "cloud-functions",
+      "vertex-ai",
+      "cloud-storage",
+      "firebase"
+    ],
+    "website": "https://cloud.google.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2008,
+    "icon": "/icons/gcp.svg"
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku",
+    "slug": "heroku",
+    "category": [
+      "devops"
+    ],
+    "pricing": {
+      "free": false,
+      "eco": 5,
+      "basic": 7,
+      "standard": 25,
+      "performance": 250
+    },
+    "currency": "USD",
+    "pricingModel": "per-dyno-monthly",
+    "description": "Platform-as-a-Service for deploying, managing, and scaling applications with git-push deploys, managed databases, and a rich add-on marketplace.",
+    "pros": [
+      "Simplest deployment experience (git push to deploy)",
+      "Extensive add-on marketplace for databases and services",
+      "Great for prototyping and MVPs",
+      "Managed Postgres and Redis included"
+    ],
+    "cons": [
+      "Removed free tier in 2022",
+      "Expensive for production workloads at scale",
+      "Limited infrastructure customization"
+    ],
+    "bestFor": [
+      "startups",
+      "prototyping",
+      "small-teams",
+      "ruby-python-node-developers"
+    ],
+    "features": [
+      "git-deploy",
+      "managed-postgres",
+      "managed-redis",
+      "add-ons",
+      "review-apps",
+      "pipelines",
+      "auto-scaling"
+    ],
+    "website": "https://www.heroku.com",
+    "affiliateUrl": null,
+    "rating": 4.0,
+    "yearFounded": 2007,
+    "icon": "/icons/heroku.svg"
+  },
+  {
+    "id": "deno-deploy",
+    "name": "Deno Deploy",
+    "slug": "deno-deploy",
+    "category": [
+      "devops",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 20,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Globally distributed serverless JavaScript/TypeScript platform by Deno, offering zero-config deployments at the edge with built-in KV storage and queues.",
+    "pros": [
+      "Deploys to 35+ edge locations automatically",
+      "Zero-config with native TypeScript support",
+      "Built-in KV database and message queues",
+      "Generous free tier (100K requests/day)"
+    ],
+    "cons": [
+      "Limited to Deno runtime (not Node.js compatible for all packages)",
+      "Smaller ecosystem than established platforms",
+      "Less suitable for long-running background jobs"
+    ],
+    "bestFor": [
+      "typescript-developers",
+      "edge-computing",
+      "api-builders",
+      "jamstack-sites"
+    ],
+    "features": [
+      "edge-functions",
+      "kv-database",
+      "message-queues",
+      "github-integration",
+      "custom-domains",
+      "automatic-https",
+      "playground"
+    ],
+    "website": "https://deno.com/deploy",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2021,
+    "icon": "/icons/deno-deploy.svg"
+  },
+  {
+    "id": "woocommerce",
+    "name": "WooCommerce",
+    "slug": "woocommerce",
+    "category": [
+      "ecommerce",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "hosting": 0,
+      "extensions": 0
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source e-commerce plugin for WordPress powering 25%+ of all online stores with unlimited customization, extensions, and full data ownership.",
+    "pros": [
+      "Free and open-source with full control over code",
+      "Massive extension marketplace (800+ official plugins)",
+      "Built on WordPress (familiar to millions)",
+      "Complete data ownership and no platform fees"
+    ],
+    "cons": [
+      "Requires WordPress hosting and maintenance",
+      "Performance depends on hosting quality and plugins",
+      "Security responsibility falls on store owner"
+    ],
+    "bestFor": [
+      "wordpress-users",
+      "small-businesses",
+      "developers",
+      "content-driven-stores"
+    ],
+    "features": [
+      "product-management",
+      "payment-gateways",
+      "shipping-options",
+      "tax-calculation",
+      "extensions",
+      "rest-api",
+      "analytics"
+    ],
+    "website": "https://woocommerce.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2011,
+    "icon": "/icons/woocommerce.svg"
+  },
+  {
+    "id": "magento",
+    "name": "Adobe Commerce (Magento)",
+    "slug": "magento",
+    "category": [
+      "ecommerce"
+    ],
+    "pricing": {
+      "free": true,
+      "openSource": 0,
+      "commerce": null,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "license-based",
+    "description": "Enterprise-grade open-source e-commerce platform offering unmatched flexibility for large catalogs, multi-store setups, and B2B commerce.",
+    "pros": [
+      "Extremely powerful for complex e-commerce requirements",
+      "Multi-store, multi-currency, multi-language native support",
+      "Open-source community edition is free",
+      "Handles millions of products and high traffic"
+    ],
+    "cons": [
+      "Resource-intensive requiring significant hosting",
+      "Complex setup needing experienced developers",
+      "Adobe Commerce (paid) is very expensive"
+    ],
+    "bestFor": [
+      "large-retailers",
+      "b2b-commerce",
+      "multi-store-operations",
+      "enterprise-ecommerce"
+    ],
+    "features": [
+      "product-catalog",
+      "multi-store",
+      "b2b-features",
+      "page-builder",
+      "inventory-management",
+      "marketplace",
+      "graphql-api"
+    ],
+    "website": "https://business.adobe.com/products/magento/magento-commerce.html",
+    "affiliateUrl": null,
+    "rating": 4.1,
+    "yearFounded": 2008,
+    "icon": "/icons/magento.svg"
+  },
+  {
+    "id": "prestashop",
+    "name": "PrestaShop",
+    "slug": "prestashop",
+    "category": [
+      "ecommerce",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "hosted": 24,
+      "modules": 0
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source e-commerce platform popular in Europe offering a ready-to-use online store with 600+ features and a thriving module marketplace.",
+    "pros": [
+      "Free open-source with no transaction fees",
+      "Strong European market presence and localization",
+      "600+ built-in features out of the box",
+      "Active module marketplace with thousands of add-ons"
+    ],
+    "cons": [
+      "Performance issues with large catalogs",
+      "Essential modules often cost extra",
+      "Smaller English-speaking community than WooCommerce"
+    ],
+    "bestFor": [
+      "european-businesses",
+      "small-to-medium-retailers",
+      "budget-conscious-stores",
+      "multilingual-stores"
+    ],
+    "features": [
+      "product-management",
+      "multi-language",
+      "multi-currency",
+      "seo-tools",
+      "module-marketplace",
+      "order-management",
+      "analytics-dashboard"
+    ],
+    "website": "https://www.prestashop.com",
+    "affiliateUrl": null,
+    "rating": 4.0,
+    "yearFounded": 2007,
+    "icon": "/icons/prestashop.svg"
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa",
+    "slug": "medusa",
+    "category": [
+      "ecommerce",
+      "open-source",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "cloud": null,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source headless commerce platform for developers offering modular architecture, multi-region support, and full customization via Node.js and TypeScript.",
+    "pros": [
+      "Fully open-source and developer-friendly",
+      "Headless architecture for any frontend framework",
+      "Built-in multi-region and multi-currency support",
+      "Modular design allows replacing any component"
+    ],
+    "cons": [
+      "Requires development resources to set up",
+      "Newer platform with smaller ecosystem",
+      "No visual store builder for non-developers"
+    ],
+    "bestFor": [
+      "developer-teams",
+      "custom-commerce",
+      "headless-commerce",
+      "multi-region-stores"
+    ],
+    "features": [
+      "headless-api",
+      "multi-region",
+      "plugins",
+      "admin-dashboard",
+      "payment-providers",
+      "fulfillment",
+      "tax-engine"
+    ],
+    "website": "https://medusajs.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2021,
+    "icon": "/icons/medusa.svg"
+  },
+  {
+    "id": "saleor",
+    "name": "Saleor",
+    "slug": "saleor",
+    "category": [
+      "ecommerce",
+      "open-source",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "startup": 300,
+      "business": null,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "GraphQL-first headless e-commerce platform built with Python and React, offering enterprise features with open-source flexibility and cloud hosting.",
+    "pros": [
+      "GraphQL API-first architecture for modern frontends",
+      "Enterprise features in free open-source edition",
+      "Strong multi-channel commerce capabilities",
+      "Built-in dashboard with excellent UX"
+    ],
+    "cons": [
+      "Cloud hosting is expensive for startups",
+      "Smaller community than Shopify/WooCommerce",
+      "Self-hosting requires Python/Django expertise"
+    ],
+    "bestFor": [
+      "developer-teams",
+      "enterprise-ecommerce",
+      "multi-channel-retailers",
+      "graphql-enthusiasts"
+    ],
+    "features": [
+      "graphql-api",
+      "multi-channel",
+      "dashboard",
+      "webhooks",
+      "apps-system",
+      "warehouse-management",
+      "promotions-engine"
+    ],
+    "website": "https://saleor.io",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2018,
+    "icon": "/icons/saleor.svg"
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "slug": "telegram",
+    "category": [
+      "communication"
+    ],
+    "pricing": {
+      "free": true,
+      "premium": 4.99
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Cloud-based messaging platform offering unlimited group chats, channels, bots, and file sharing with strong encryption and 900M+ monthly active users.",
+    "pros": [
+      "Unlimited cloud storage for messages and files",
+      "Powerful bot API for automation and services",
+      "Groups up to 200,000 members",
+      "Fast and lightweight across all platforms"
+    ],
+    "cons": [
+      "End-to-end encryption only in Secret Chats (not default)",
+      "Premium features fragmenting the experience",
+      "Moderation challenges in large public groups"
+    ],
+    "bestFor": [
+      "communities",
+      "developers",
+      "crypto-projects",
+      "international-teams"
+    ],
+    "features": [
+      "messaging",
+      "channels",
+      "groups",
+      "bots-api",
+      "file-sharing",
+      "voice-calls",
+      "stories"
+    ],
+    "website": "https://telegram.org",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2013,
+    "icon": "/icons/telegram.svg"
+  },
+  {
+    "id": "whatsapp-business",
+    "name": "WhatsApp Business",
+    "slug": "whatsapp-business",
+    "category": [
+      "communication",
+      "customer-support"
+    ],
+    "pricing": {
+      "free": true,
+      "api": 0,
+      "conversations": 0
+    },
+    "currency": "USD",
+    "pricingModel": "per-conversation",
+    "description": "Business messaging platform by Meta enabling companies to communicate with customers via WhatsApp with catalogs, automated replies, and API integration.",
+    "pros": [
+      "Access to 2B+ WhatsApp users globally",
+      "Free app for small businesses with basic features",
+      "API platform for enterprise-scale messaging",
+      "High open rates (98%) compared to email"
+    ],
+    "cons": [
+      "API pricing per-conversation can be expensive",
+      "24-hour response window for customer-initiated chats",
+      "Strict template approval process for outbound messages"
+    ],
+    "bestFor": [
+      "small-businesses",
+      "ecommerce",
+      "customer-service-teams",
+      "international-businesses"
+    ],
+    "features": [
+      "business-profiles",
+      "product-catalogs",
+      "automated-messages",
+      "quick-replies",
+      "labels",
+      "api-integration",
+      "broadcast-lists"
+    ],
+    "website": "https://business.whatsapp.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2018,
+    "icon": "/icons/whatsapp-business.svg"
+  },
+  {
+    "id": "front",
+    "name": "Front",
+    "slug": "front",
+    "category": [
+      "communication",
+      "customer-support",
+      "collaboration"
+    ],
+    "pricing": {
+      "free": false,
+      "starter": 19,
+      "growth": 59,
+      "scale": 99,
+      "premier": 229
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Customer operations platform combining shared inboxes, email, chat, and SMS into one collaborative workspace with workflow automation and analytics.",
+    "pros": [
+      "Unified inbox combining email, chat, SMS, social",
+      "Excellent team collaboration with internal comments",
+      "Powerful automation rules and SLA management",
+      "Familiar email-like interface (low learning curve)"
+    ],
+    "cons": [
+      "Expensive per-seat pricing especially at scale",
+      "No free plan for small teams to try",
+      "Can be overwhelming with high email volumes"
+    ],
+    "bestFor": [
+      "customer-facing-teams",
+      "operations-teams",
+      "logistics-companies",
+      "professional-services"
+    ],
+    "features": [
+      "shared-inboxes",
+      "workflow-automation",
+      "analytics",
+      "sla-management",
+      "integrations",
+      "internal-comments",
+      "omnichannel"
+    ],
+    "website": "https://front.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2013,
+    "icon": "/icons/front.svg"
+  },
+  {
+    "id": "heap",
+    "name": "Heap",
+    "slug": "heap",
+    "category": [
+      "analytics"
+    ],
+    "pricing": {
+      "free": true,
+      "growth": null,
+      "pro": null,
+      "premier": null
+    },
+    "currency": "USD",
+    "pricingModel": "usage-based",
+    "description": "Digital insights platform with auto-capture technology that retroactively tracks every user interaction without manual event tagging or code changes.",
+    "pros": [
+      "Auto-captures all user interactions without code",
+      "Retroactive analysis (define events after the fact)",
+      "Session replay integrated with analytics",
+      "No engineering resources needed for tracking"
+    ],
+    "cons": [
+      "Pricing not transparent (sales-required for growth+)",
+      "Can generate excessive data requiring cleanup",
+      "UI can feel slower than event-based alternatives"
+    ],
+    "bestFor": [
+      "product-teams",
+      "growth-marketers",
+      "ux-researchers",
+      "saas-companies"
+    ],
+    "features": [
+      "auto-capture",
+      "session-replay",
+      "funnel-analysis",
+      "retention-analysis",
+      "user-segments",
+      "data-science",
+      "integrations"
+    ],
+    "website": "https://www.heap.io",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2013,
+    "icon": "/icons/heap.svg"
+  },
+  {
+    "id": "fullstory",
+    "name": "FullStory",
+    "slug": "fullstory",
+    "category": [
+      "analytics"
+    ],
+    "pricing": {
+      "free": true,
+      "business": null,
+      "advanced": null,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "session-based",
+    "description": "Digital experience intelligence platform combining session replay, heatmaps, product analytics, and error tracking to understand user behavior in detail.",
+    "pros": [
+      "High-fidelity session replay with DOM rendering",
+      "AI-powered insights surface frustration signals",
+      "Combines qualitative and quantitative analytics",
+      "Privacy-first with PII exclusion controls"
+    ],
+    "cons": [
+      "Expensive for high-traffic sites",
+      "Free plan limited to 1,000 sessions/month",
+      "Can slow page performance with full recording"
+    ],
+    "bestFor": [
+      "product-teams",
+      "ux-designers",
+      "enterprise-apps",
+      "conversion-optimization"
+    ],
+    "features": [
+      "session-replay",
+      "heatmaps",
+      "product-analytics",
+      "error-tracking",
+      "frustration-signals",
+      "user-journeys",
+      "data-export"
+    ],
+    "website": "https://www.fullstory.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2014,
+    "icon": "/icons/fullstory.svg"
+  },
+  {
+    "id": "crazy-egg",
+    "name": "Crazy Egg",
+    "slug": "crazy-egg",
+    "category": [
+      "analytics"
+    ],
+    "pricing": {
+      "free": false,
+      "basic": 29,
+      "standard": 49,
+      "plus": 99,
+      "pro": 249,
+      "enterprise": 499
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Website optimization tool offering heatmaps, scroll maps, A/B testing, session recordings, and traffic analysis to improve conversion rates.",
+    "pros": [
+      "Simple and focused on conversion optimization",
+      "Visual heatmaps and scroll maps are intuitive",
+      "Built-in A/B testing without extra tools",
+      "Easy setup with one line of JavaScript"
+    ],
+    "cons": [
+      "No free plan available",
+      "Limited advanced analytics compared to full platforms",
+      "Recording quality lower than FullStory/Hotjar"
+    ],
+    "bestFor": [
+      "marketers",
+      "small-businesses",
+      "landing-page-optimization",
+      "conversion-rate-optimization"
+    ],
+    "features": [
+      "heatmaps",
+      "scroll-maps",
+      "ab-testing",
+      "session-recordings",
+      "traffic-analysis",
+      "confetti-reports",
+      "surveys"
+    ],
+    "website": "https://www.crazyegg.com",
+    "affiliateUrl": null,
+    "rating": 4.1,
+    "yearFounded": 2006,
+    "icon": "/icons/crazy-egg.svg"
+  },
+  {
+    "id": "microsoft-clarity",
+    "name": "Microsoft Clarity",
+    "slug": "microsoft-clarity",
+    "category": [
+      "analytics",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Free behavioral analytics tool by Microsoft offering unlimited session recordings, heatmaps, and AI-powered insights with no traffic limits or sampling.",
+    "pros": [
+      "Completely free with unlimited traffic and recordings",
+      "AI-powered Copilot for asking questions about data",
+      "No data sampling (records every session)",
+      "GDPR-compliant with built-in privacy masking"
+    ],
+    "cons": [
+      "Less advanced analytics than paid alternatives",
+      "No A/B testing or experimentation features",
+      "Limited integration ecosystem"
+    ],
+    "bestFor": [
+      "small-businesses",
+      "startups",
+      "bloggers",
+      "budget-conscious-teams"
+    ],
+    "features": [
+      "session-recordings",
+      "heatmaps",
+      "scroll-maps",
+      "rage-click-detection",
+      "ai-copilot",
+      "google-analytics-integration",
+      "dead-click-detection"
+    ],
+    "website": "https://clarity.microsoft.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2020,
+    "icon": "/icons/microsoft-clarity.svg"
+  },
+  {
+    "id": "brilliant",
+    "name": "Brilliant",
+    "slug": "brilliant",
+    "category": [
+      "education"
+    ],
+    "pricing": {
+      "free": true,
+      "annual": 11.99,
+      "monthly": 24.99
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Interactive learning platform for STEM subjects offering bite-sized lessons in math, science, data, and computer science through problem-solving and visual explanations.",
+    "pros": [
+      "Highly interactive visual learning approach",
+      "Excellent for building mathematical intuition",
+      "Short daily lessons that fit busy schedules",
+      "Covers fundamentals through advanced topics"
+    ],
+    "cons": [
+      "Limited free content (only a few lessons per course)",
+      "Focused on STEM only (no humanities/language)",
+      "Can feel too gamified for serious learners"
+    ],
+    "bestFor": [
+      "stem-learners",
+      "students",
+      "career-changers",
+      "lifelong-learners"
+    ],
+    "features": [
+      "interactive-lessons",
+      "daily-challenges",
+      "visual-explanations",
+      "progress-tracking",
+      "offline-access",
+      "community"
+    ],
+    "website": "https://brilliant.org",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2012,
+    "icon": "/icons/brilliant.svg"
+  },
+  {
+    "id": "edx",
+    "name": "edX",
+    "slug": "edx",
+    "category": [
+      "education"
+    ],
+    "pricing": {
+      "free": true,
+      "verified": 50,
+      "professional": 300,
+      "masters": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-course",
+    "description": "Online learning platform founded by Harvard and MIT offering university-level courses, professional certificates, and degree programs from top institutions worldwide.",
+    "pros": [
+      "Courses from Harvard, MIT, Berkeley and 160+ institutions",
+      "Free audit access to most course content",
+      "Verified certificates and full degree programs available",
+      "High academic quality with rigorous content"
+    ],
+    "cons": [
+      "Certificates are expensive ($50-300+ each)",
+      "Self-paced courses can lack community engagement",
+      "Platform UX feels dated compared to newer competitors"
+    ],
+    "bestFor": [
+      "career-advancers",
+      "university-students",
+      "professionals",
+      "degree-seekers"
+    ],
+    "features": [
+      "university-courses",
+      "certificates",
+      "degree-programs",
+      "discussion-forums",
+      "mobile-app",
+      "enterprise-training"
+    ],
+    "website": "https://www.edx.org",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2012,
+    "icon": "/icons/edx.svg"
+  },
+  {
+    "id": "linkedin-learning",
+    "name": "LinkedIn Learning",
+    "slug": "linkedin-learning",
+    "category": [
+      "education"
+    ],
+    "pricing": {
+      "free": false,
+      "monthly": 29.99,
+      "annual": 19.99,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Professional development platform offering 16,000+ expert-led courses in business, technology, and creative skills with LinkedIn profile integration.",
+    "pros": [
+      "Certificates display directly on LinkedIn profile",
+      "16,000+ courses covering business, tech, and creative",
+      "High production quality with industry experts",
+      "Personalized learning paths and recommendations"
+    ],
+    "cons": [
+      "No free plan (only 1-month trial)",
+      "Content can feel surface-level for advanced topics",
+      "Not recognized as formal education credentials"
+    ],
+    "bestFor": [
+      "professionals",
+      "job-seekers",
+      "corporate-teams",
+      "career-changers"
+    ],
+    "features": [
+      "video-courses",
+      "certificates",
+      "learning-paths",
+      "linkedin-integration",
+      "offline-viewing",
+      "exercises",
+      "recommendations"
+    ],
+    "website": "https://www.linkedin.com/learning",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2015,
+    "icon": "/icons/linkedin-learning.svg"
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "slug": "paypal",
+    "category": [
+      "personal-finance",
+      "ecommerce"
+    ],
+    "pricing": {
+      "free": true,
+      "personal": 0,
+      "business": 0,
+      "transaction": 2.99
+    },
+    "currency": "USD",
+    "pricingModel": "per-transaction",
+    "description": "Global digital payments platform enabling online payments, money transfers, merchant services, and buy-now-pay-later for consumers and businesses worldwide.",
+    "pros": [
+      "Accepted by millions of merchants globally",
+      "Buyer and seller protection programs",
+      "No monthly fees for basic accounts",
+      "Easy integration for online stores"
+    ],
+    "cons": [
+      "Transaction fees (2.99%+ for merchants) are high",
+      "Account freezes and holds frustrate sellers",
+      "Customer support quality has declined"
+    ],
+    "bestFor": [
+      "freelancers",
+      "ecommerce-sellers",
+      "international-payments",
+      "small-businesses"
+    ],
+    "features": [
+      "online-payments",
+      "money-transfers",
+      "invoicing",
+      "checkout-buttons",
+      "buy-now-pay-later",
+      "business-debit-card",
+      "api"
+    ],
+    "website": "https://www.paypal.com",
+    "affiliateUrl": null,
+    "rating": 4.1,
+    "yearFounded": 1998,
+    "icon": "/icons/paypal.svg"
+  },
+  {
+    "id": "venmo",
+    "name": "Venmo",
+    "slug": "venmo",
+    "category": [
+      "personal-finance"
+    ],
+    "pricing": {
+      "free": true,
+      "instantTransfer": 1.75,
+      "creditCard": 3
+    },
+    "currency": "USD",
+    "pricingModel": "per-transaction",
+    "description": "Social payments app for splitting bills, sending money to friends, and making purchases with a social feed, debit card, and crypto trading features.",
+    "pros": [
+      "Free person-to-person payments from bank/debit",
+      "Social feed makes splitting bills easy and fun",
+      "Widely adopted among US millennials and Gen Z",
+      "Venmo debit card for spending balance anywhere"
+    ],
+    "cons": [
+      "US-only (no international support)",
+      "Instant transfers cost 1.75% fee",
+      "Not suitable for business transactions"
+    ],
+    "bestFor": [
+      "friends-splitting-bills",
+      "young-adults",
+      "casual-payments",
+      "us-users"
+    ],
+    "features": [
+      "peer-to-peer-payments",
+      "social-feed",
+      "debit-card",
+      "crypto-trading",
+      "direct-deposit",
+      "business-profiles",
+      "qr-codes"
+    ],
+    "website": "https://venmo.com",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2009,
+    "icon": "/icons/venmo.svg"
+  },
+  {
+    "id": "workday",
+    "name": "Workday",
+    "slug": "workday",
+    "category": [
+      "hr",
+      "accounting"
+    ],
+    "pricing": {
+      "free": false,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-employee-annual",
+    "description": "Enterprise cloud platform for human capital management, financial management, and planning offering unified HR, payroll, finance, and analytics for large organizations.",
+    "pros": [
+      "Unified HR and finance in one cloud platform",
+      "Excellent reporting and analytics capabilities",
+      "Regular feature updates with continuous delivery",
+      "Strong compliance and global payroll support"
+    ],
+    "cons": [
+      "Very expensive (enterprise pricing only)",
+      "Long implementation timelines (6-12+ months)",
+      "Complex configuration requires certified consultants"
+    ],
+    "bestFor": [
+      "large-enterprises",
+      "global-companies",
+      "hr-departments",
+      "finance-teams"
+    ],
+    "features": [
+      "hcm",
+      "payroll",
+      "financial-management",
+      "talent-management",
+      "workforce-planning",
+      "analytics",
+      "learning"
+    ],
+    "website": "https://www.workday.com",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2005,
+    "icon": "/icons/workday.svg"
+  },
+  {
+    "id": "adp",
+    "name": "ADP",
+    "slug": "adp",
+    "category": [
+      "hr",
+      "accounting"
+    ],
+    "pricing": {
+      "free": false,
+      "run": 79,
+      "workforce": null,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly-plus-per-employee",
+    "description": "Global payroll and HR solutions provider serving businesses of all sizes with payroll processing, tax filing, benefits administration, and workforce management.",
+    "pros": [
+      "Industry leader with 70+ years of payroll expertise",
+      "Scalable from 1 employee to 100,000+",
+      "Automatic tax filing and compliance updates",
+      "Comprehensive benefits and retirement administration"
+    ],
+    "cons": [
+      "Pricing requires custom quote (not transparent)",
+      "Interface feels dated compared to modern HR tools",
+      "Customer service quality varies by region"
+    ],
+    "bestFor": [
+      "small-businesses",
+      "mid-market-companies",
+      "enterprises",
+      "multi-state-employers"
+    ],
+    "features": [
+      "payroll-processing",
+      "tax-filing",
+      "benefits-administration",
+      "time-attendance",
+      "hr-management",
+      "talent-management",
+      "compliance"
+    ],
+    "website": "https://www.adp.com",
+    "affiliateUrl": null,
+    "rating": 4.1,
+    "yearFounded": 1949,
+    "icon": "/icons/adp.svg"
+  },
+  {
+    "id": "remote",
+    "name": "Remote.com",
+    "slug": "remote",
+    "category": [
+      "hr"
+    ],
+    "pricing": {
+      "free": true,
+      "contractor": 29,
+      "eor": 599,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-employee-monthly",
+    "description": "Global HR platform for hiring, managing, and paying remote employees and contractors in 170+ countries with built-in compliance and benefits.",
+    "pros": [
+      "Employer of Record in 75+ countries",
+      "Transparent pricing with no hidden fees",
+      "Own legal entities (not third-party partners)",
+      "Free contractor management plan available"
+    ],
+    "cons": [
+      "EOR pricing ($599/employee) is expensive",
+      "Onboarding can take 2-4 weeks in some countries",
+      "Benefits options limited in smaller markets"
+    ],
+    "bestFor": [
+      "distributed-teams",
+      "global-companies",
+      "startups-hiring-globally",
+      "remote-first-companies"
+    ],
+    "features": [
+      "employer-of-record",
+      "contractor-management",
+      "global-payroll",
+      "compliance",
+      "benefits",
+      "equity-management",
+      "onboarding"
+    ],
+    "website": "https://remote.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2019,
+    "icon": "/icons/remote.svg"
+  },
+  {
+    "id": "oyster",
+    "name": "Oyster HR",
+    "slug": "oyster",
+    "category": [
+      "hr"
+    ],
+    "pricing": {
+      "free": true,
+      "contractor": 29,
+      "employee": 599,
+      "scale": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-employee-monthly",
+    "description": "Global employment platform enabling companies to hire, pay, and manage distributed teams across 180+ countries with automated compliance and benefits.",
+    "pros": [
+      "Hire in 180+ countries with local compliance",
+      "Beautiful and intuitive platform interface",
+      "Automated employment agreements and onboarding",
+      "Free plan for managing small contractor teams"
+    ],
+    "cons": [
+      "EOR pricing on par with competitors ($599/mo)",
+      "Limited customization for benefits packages",
+      "Newer platform with less enterprise track record"
+    ],
+    "bestFor": [
+      "remote-first-startups",
+      "global-teams",
+      "hr-managers",
+      "scale-ups"
+    ],
+    "features": [
+      "global-hiring",
+      "payroll",
+      "benefits",
+      "compliance",
+      "time-off-management",
+      "expense-management",
+      "analytics"
+    ],
+    "website": "https://www.oysterhr.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2020,
+    "icon": "/icons/oyster.svg"
+  },
+  {
+    "id": "outreach",
+    "name": "Outreach",
+    "slug": "outreach",
+    "category": [
+      "sales",
+      "automation"
+    ],
+    "pricing": {
+      "free": false,
+      "standard": null,
+      "professional": null,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Sales execution platform combining multi-channel sequences, AI-powered deal intelligence, conversation intelligence, and pipeline management for revenue teams.",
+    "pros": [
+      "Most comprehensive sales engagement platform",
+      "AI-driven insights for deal risk and next steps",
+      "Powerful multi-channel sequence automation",
+      "Deep Salesforce and CRM integrations"
+    ],
+    "cons": [
+      "Pricing not public (expensive enterprise tool)",
+      "Steep learning curve with many features",
+      "Can be overkill for small sales teams"
+    ],
+    "bestFor": [
+      "enterprise-sales-teams",
+      "sdrs",
+      "revenue-operations",
+      "b2b-sales"
+    ],
+    "features": [
+      "sequences",
+      "deal-intelligence",
+      "conversation-intelligence",
+      "pipeline-management",
+      "analytics",
+      "ab-testing",
+      "salesforce-integration"
+    ],
+    "website": "https://www.outreach.io",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2014,
+    "icon": "/icons/outreach.svg"
+  },
+  {
+    "id": "salesloft",
+    "name": "SalesLoft",
+    "slug": "salesloft",
+    "category": [
+      "sales",
+      "automation"
+    ],
+    "pricing": {
+      "free": false,
+      "essentials": null,
+      "advanced": null,
+      "premier": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Revenue orchestration platform providing sales engagement, conversation intelligence, deal management, and forecasting in a unified workflow for revenue teams.",
+    "pros": [
+      "Intuitive UI that reps actually want to use",
+      "Strong cadence/sequence management",
+      "Excellent conversation intelligence with call recording",
+      "Good integration ecosystem (200+ tools)"
+    ],
+    "cons": [
+      "Pricing requires sales contact (not transparent)",
+      "Some advanced features only in premier tier",
+      "Reporting less customizable than some competitors"
+    ],
+    "bestFor": [
+      "sales-teams",
+      "sdrs-and-aes",
+      "mid-market-companies",
+      "revenue-teams"
+    ],
+    "features": [
+      "cadences",
+      "conversation-intelligence",
+      "deal-management",
+      "forecasting",
+      "coaching",
+      "analytics",
+      "crm-sync"
+    ],
+    "website": "https://www.salesloft.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2011,
+    "icon": "/icons/salesloft.svg"
+  },
+  {
+    "id": "zoominfo",
+    "name": "ZoomInfo",
+    "slug": "zoominfo",
+    "category": [
+      "sales",
+      "crm"
+    ],
+    "pricing": {
+      "free": false,
+      "professional": null,
+      "advanced": null,
+      "elite": null
+    },
+    "currency": "USD",
+    "pricingModel": "annual-contract",
+    "description": "B2B intelligence platform providing company and contact data, buying intent signals, and workflow automation for sales, marketing, and recruiting teams.",
+    "pros": [
+      "Largest B2B contact database (100M+ business profiles)",
+      "Real-time buying intent signals from 300K+ sources",
+      "Website visitor identification for target accounts",
+      "Strong data accuracy with AI verification"
+    ],
+    "cons": [
+      "Very expensive (typically $15K-50K+ annually)",
+      "Contact data accuracy varies by region/industry",
+      "Long-term contracts with difficult cancellation"
+    ],
+    "bestFor": [
+      "enterprise-sales",
+      "marketing-teams",
+      "recruiting",
+      "account-based-marketing"
+    ],
+    "features": [
+      "contact-database",
+      "intent-data",
+      "company-insights",
+      "website-visitors",
+      "workflow-automation",
+      "enrichment",
+      "territory-planning"
+    ],
+    "website": "https://www.zoominfo.com",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2000,
+    "icon": "/icons/zoominfo.svg"
+  },
+  {
+    "id": "clearbit",
+    "name": "Clearbit",
+    "slug": "clearbit",
+    "category": [
+      "sales",
+      "analytics"
+    ],
+    "pricing": {
+      "free": true,
+      "growth": null,
+      "business": null,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "usage-based",
+    "description": "B2B data enrichment and intelligence platform (now part of HubSpot) providing real-time company and contact data for lead scoring, routing, and personalization.",
+    "pros": [
+      "Real-time enrichment with 100+ data attributes",
+      "Excellent API for programmatic data access",
+      "Free weekly visitor reports for any website",
+      "Deep HubSpot integration (now owned by HubSpot)"
+    ],
+    "cons": [
+      "Full platform pricing is expensive",
+      "Data coverage weaker outside US/Western markets",
+      "Future roadmap uncertain after HubSpot acquisition"
+    ],
+    "bestFor": [
+      "b2b-marketers",
+      "growth-teams",
+      "sales-operations",
+      "product-led-growth"
+    ],
+    "features": [
+      "data-enrichment",
+      "reveal-visitors",
+      "lead-scoring",
+      "form-shortening",
+      "prospecting",
+      "api",
+      "integrations"
+    ],
+    "website": "https://clearbit.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2014,
+    "icon": "/icons/clearbit.svg"
+  },
+  {
+    "id": "adobe-xd",
+    "name": "Adobe XD",
+    "slug": "adobe-xd",
+    "category": [
+      "design"
+    ],
+    "pricing": {
+      "free": false,
+      "creativeCloud": 54.99
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Adobe's UI/UX design tool for wireframing, prototyping, and collaborating on digital experiences (now in maintenance mode, included in Creative Cloud).",
+    "pros": [
+      "Tight integration with Adobe Creative Cloud suite",
+      "Smooth prototyping with auto-animate transitions",
+      "Repeat grid for efficient design patterns",
+      "Included in Creative Cloud subscription"
+    ],
+    "cons": [
+      "In maintenance mode (Adobe investing in Figma instead)",
+      "No longer receiving major feature updates",
+      "Community and plugin ecosystem declining"
+    ],
+    "bestFor": [
+      "adobe-users",
+      "ui-designers",
+      "teams-already-in-creative-cloud",
+      "rapid-prototyping"
+    ],
+    "features": [
+      "vector-design",
+      "prototyping",
+      "auto-animate",
+      "repeat-grid",
+      "components",
+      "design-specs",
+      "voice-prototyping"
+    ],
+    "website": "https://www.adobe.com/products/xd.html",
+    "affiliateUrl": null,
+    "rating": 4.0,
+    "yearFounded": 2016,
+    "icon": "/icons/adobe-xd.svg"
+  },
+  {
+    "id": "tally",
+    "name": "Tally",
+    "slug": "tally",
+    "category": [
+      "no-code",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 29
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Free form builder that works like a document, offering unlimited forms and responses with conditional logic, payments, and integrations without complex UI.",
+    "pros": [
+      "Unlimited forms and responses on free plan",
+      "Document-style editor (no drag-and-drop complexity)",
+      "Built-in payment collection via Stripe",
+      "Conditional logic and calculations included free"
+    ],
+    "cons": [
+      "Less design customization than Typeform",
+      "Pro plan needed for custom domains and file uploads",
+      "Limited reporting and analytics built-in"
+    ],
+    "bestFor": [
+      "startups",
+      "freelancers",
+      "no-code-builders",
+      "researchers"
+    ],
+    "features": [
+      "form-builder",
+      "conditional-logic",
+      "payments",
+      "file-uploads",
+      "integrations",
+      "custom-domains",
+      "calculations"
+    ],
+    "website": "https://tally.so",
+    "affiliateUrl": null,
+    "rating": 4.7,
+    "yearFounded": 2020,
+    "icon": "/icons/tally.svg"
+  },
+  {
+    "id": "typeform",
+    "name": "Typeform",
+    "slug": "typeform",
+    "category": [
+      "no-code",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "basic": 25,
+      "plus": 50,
+      "business": 83,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Conversational form and survey builder creating one-question-at-a-time experiences with beautiful design, logic branching, and high completion rates.",
+    "pros": [
+      "Beautiful one-question-at-a-time interface",
+      "Higher completion rates than traditional forms",
+      "Advanced logic branching and personalization",
+      "Excellent brand customization options"
+    ],
+    "cons": [
+      "Expensive for the number of responses included",
+      "Free plan limited to 10 responses per month",
+      "Can feel slow for simple data collection"
+    ],
+    "bestFor": [
+      "marketers",
+      "researchers",
+      "agencies",
+      "lead-generation"
+    ],
+    "features": [
+      "conversational-forms",
+      "logic-branching",
+      "integrations",
+      "payments",
+      "video-interactions",
+      "analytics",
+      "custom-branding"
+    ],
+    "website": "https://www.typeform.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2012,
+    "icon": "/icons/typeform.svg"
+  },
+  {
+    "id": "bardeen",
+    "name": "Bardeen",
+    "slug": "bardeen",
+    "category": [
+      "automation",
+      "ai-agents",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "professional": 10,
+      "business": 15,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "AI-powered automation platform that runs in your browser, automating repetitive tasks across web apps with no-code playbooks and AI-generated workflows.",
+    "pros": [
+      "Browser-based automation (no server setup needed)",
+      "AI generates workflows from natural language descriptions",
+      "Pre-built playbooks for common tasks across 100+ apps",
+      "Scrapes and interacts with any website"
+    ],
+    "cons": [
+      "Browser extension required (not server-side)",
+      "Complex automations can be fragile with UI changes",
+      "Free plan limited on automation credits"
+    ],
+    "bestFor": [
+      "sales-reps",
+      "recruiters",
+      "growth-marketers",
+      "individual-contributors"
+    ],
+    "features": [
+      "browser-automation",
+      "ai-workflows",
+      "web-scraping",
+      "playbooks",
+      "integrations",
+      "scheduling",
+      "data-extraction"
+    ],
+    "website": "https://www.bardeen.ai",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2020,
+    "icon": "/icons/bardeen.svg"
+  },
+  {
+    "id": "clay",
+    "name": "Clay",
+    "slug": "clay",
+    "category": [
+      "sales",
+      "automation",
+      "ai-agents"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 149,
+      "explorer": 349,
+      "pro": 800,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Data enrichment and outreach platform combining 75+ data providers with AI-powered research to build targeted prospect lists and personalize outbound at scale.",
+    "pros": [
+      "Aggregates 75+ data sources in one waterfall enrichment",
+      "AI research agent writes personalized outreach copy",
+      "Flexible spreadsheet-like interface for data manipulation",
+      "Integrates with all major CRMs and sequencing tools"
+    ],
+    "cons": [
+      "Expensive for small teams (starter at $149/mo)",
+      "Learning curve for advanced data workflows",
+      "Credit system can be confusing to predict costs"
+    ],
+    "bestFor": [
+      "sales-teams",
+      "growth-teams",
+      "agencies",
+      "outbound-heavy-companies"
+    ],
+    "features": [
+      "data-enrichment",
+      "ai-research",
+      "waterfall-enrichment",
+      "outreach-personalization",
+      "crm-integration",
+      "list-building",
+      "ai-messaging"
+    ],
+    "website": "https://www.clay.com",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2017,
+    "icon": "/icons/clay.svg"
+  },
+  {
+    "id": "dbt",
+    "name": "dbt",
+    "slug": "dbt",
+    "category": [
+      "database",
+      "open-source",
+      "analytics"
+    ],
+    "pricing": {
+      "free": true,
+      "developer": 100,
+      "team": 100,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Data transformation tool enabling analytics engineers to transform raw data in warehouses using SQL with version control, testing, and documentation.",
+    "pros": [
+      "Industry standard for data transformation in warehouses",
+      "SQL-based (accessible to analysts, not just engineers)",
+      "Excellent testing and documentation framework",
+      "dbt Core is fully open-source and free"
+    ],
+    "cons": [
+      "dbt Cloud pricing can be steep for large teams",
+      "Requires a data warehouse (does not store data)",
+      "Learning curve for software engineering practices"
+    ],
+    "bestFor": [
+      "data-teams",
+      "analytics-engineers",
+      "bi-teams",
+      "data-driven-companies"
+    ],
+    "features": [
+      "sql-transformations",
+      "data-testing",
+      "documentation",
+      "version-control",
+      "scheduling",
+      "lineage",
+      "metrics-layer"
+    ],
+    "website": "https://www.getdbt.com",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2016,
+    "icon": "/icons/dbt.svg"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "slug": "snowflake",
+    "category": [
+      "database",
+      "analytics"
+    ],
+    "pricing": {
+      "free": true,
+      "standard": 2,
+      "enterprise": 3,
+      "businessCritical": 4
+    },
+    "currency": "USD",
+    "pricingModel": "per-credit",
+    "description": "Cloud data platform offering a data warehouse, data lake, and data sharing with automatic scaling, zero management, and near-unlimited concurrency.",
+    "pros": [
+      "Separates compute and storage for cost efficiency",
+      "Near-zero maintenance with automatic scaling",
+      "Excellent for sharing data across organizations",
+      "Free $400 trial credit to evaluate"
+    ],
+    "cons": [
+      "Credit-based pricing is hard to predict",
+      "Can get expensive with heavy compute workloads",
+      "Proprietary (vendor lock-in concerns)"
+    ],
+    "bestFor": [
+      "data-teams",
+      "enterprises",
+      "multi-cloud-organizations",
+      "data-sharing"
+    ],
+    "features": [
+      "data-warehouse",
+      "data-lake",
+      "data-sharing",
+      "auto-scaling",
+      "time-travel",
+      "snowpark",
+      "marketplace"
+    ],
+    "website": "https://www.snowflake.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2012,
+    "icon": "/icons/snowflake.svg"
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "slug": "databricks",
+    "category": [
+      "database",
+      "analytics",
+      "ai-agents"
+    ],
+    "pricing": {
+      "free": true,
+      "standard": 0.07,
+      "premium": 0.22,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-dbu",
+    "description": "Unified data intelligence platform combining data lakehouse, AI/ML, real-time analytics, and data governance on a single platform built on Apache Spark.",
+    "pros": [
+      "Unified platform for data engineering, science, and analytics",
+      "Delta Lake provides ACID transactions on data lakes",
+      "Excellent ML/AI capabilities with MLflow integration",
+      "Community Edition is free for learning"
+    ],
+    "cons": [
+      "Complex pricing with DBU credits",
+      "Requires data engineering expertise to configure",
+      "Vendor lock-in once deeply integrated"
+    ],
+    "bestFor": [
+      "data-engineering-teams",
+      "ml-teams",
+      "enterprises",
+      "large-scale-analytics"
+    ],
+    "features": [
+      "data-lakehouse",
+      "sql-analytics",
+      "machine-learning",
+      "real-time-streaming",
+      "data-governance",
+      "notebooks",
+      "delta-lake"
+    ],
+    "website": "https://www.databricks.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2013,
+    "icon": "/icons/databricks.svg"
+  },
+  {
+    "id": "segment",
+    "name": "Segment",
+    "slug": "segment",
+    "category": [
+      "analytics",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "team": 120,
+      "business": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Customer data platform (CDP) that collects, cleans, and routes user data from all touchpoints to analytics, marketing, and warehouse destinations.",
+    "pros": [
+      "Single API to collect data sent to 400+ destinations",
+      "Eliminates data silos with unified customer profiles",
+      "Free plan with 1,000 visitors/month",
+      "Strong data governance and privacy controls"
+    ],
+    "cons": [
+      "Expensive at scale (pricing jumps significantly)",
+      "Implementation complexity for large organizations",
+      "Some destinations have data lag"
+    ],
+    "bestFor": [
+      "product-teams",
+      "data-teams",
+      "growth-companies",
+      "multi-tool-stacks"
+    ],
+    "features": [
+      "data-collection",
+      "customer-profiles",
+      "destination-routing",
+      "identity-resolution",
+      "privacy-controls",
+      "protocols",
+      "functions"
+    ],
+    "website": "https://segment.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2011,
+    "icon": "/icons/segment.svg"
+  },
+  {
+    "id": "lemlist",
+    "name": "Lemlist",
+    "slug": "lemlist",
+    "category": [
+      "email-marketing",
+      "sales"
+    ],
+    "pricing": {
+      "free": true,
+      "emailStarter": 32,
+      "emailPro": 55,
+      "multichannel": 79,
+      "outreachScale": 129
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Cold email outreach platform with AI-powered personalization, multi-channel sequences, email warm-up, and deliverability tools for B2B sales teams.",
+    "pros": [
+      "Excellent deliverability with built-in email warm-up",
+      "AI personalization for images and text at scale",
+      "Multi-channel (email + LinkedIn + calls) in one tool",
+      "Free email finder and verifier included"
+    ],
+    "cons": [
+      "Per-seat pricing expensive for large teams",
+      "UI can feel cluttered with many features",
+      "Reporting less detailed than enterprise tools"
+    ],
+    "bestFor": [
+      "sdrs",
+      "sales-teams",
+      "agencies",
+      "b2b-outbound"
+    ],
+    "features": [
+      "cold-email",
+      "email-warmup",
+      "ai-personalization",
+      "multi-channel-sequences",
+      "email-finder",
+      "ab-testing",
+      "deliverability-tools"
+    ],
+    "website": "https://www.lemlist.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2018,
+    "icon": "/icons/lemlist.svg"
+  },
+  {
+    "id": "screaming-frog",
+    "name": "Screaming Frog",
+    "slug": "screaming-frog",
+    "category": [
+      "seo"
+    ],
+    "pricing": {
+      "free": true,
+      "paid": 259
+    },
+    "currency": "USD",
+    "pricingModel": "annual",
+    "description": "Desktop website crawler for technical SEO auditing, finding broken links, analyzing metadata, generating XML sitemaps, and discovering duplicate content.",
+    "pros": [
+      "Industry-standard technical SEO crawler",
+      "Free version crawls up to 500 URLs",
+      "Extremely detailed technical analysis",
+      "Integrates with GA, GSC, PageSpeed, Ahrefs"
+    ],
+    "cons": [
+      "Desktop-only (requires download and local resources)",
+      "UI is complex and not beginner-friendly",
+      "Annual license renewal required"
+    ],
+    "bestFor": [
+      "seo-professionals",
+      "agencies",
+      "technical-seo",
+      "large-websites"
+    ],
+    "features": [
+      "website-crawling",
+      "broken-link-detection",
+      "redirect-chains",
+      "duplicate-content",
+      "xml-sitemaps",
+      "schema-validation",
+      "custom-extraction"
+    ],
+    "website": "https://www.screamingfrog.co.uk",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2010,
+    "icon": "/icons/screaming-frog.svg"
+  },
+  {
+    "id": "unbounce",
+    "name": "Unbounce",
+    "slug": "unbounce",
+    "category": [
+      "advertising",
+      "website-builder"
+    ],
+    "pricing": {
+      "free": false,
+      "launch": 99,
+      "optimize": 145,
+      "accelerate": 240,
+      "concierge": 625
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "AI-powered landing page builder and conversion optimization platform creating high-converting landing pages, popups, and sticky bars without developers.",
+    "pros": [
+      "AI-powered Smart Traffic routes to best-converting variant",
+      "Fast drag-and-drop page builder with no coding",
+      "Built-in A/B testing with statistical significance",
+      "100+ high-converting templates"
+    ],
+    "cons": [
+      "Expensive for small businesses ($99+ per month)",
+      "Limited CMS features (landing pages only)",
+      "Visitor limits on lower plans"
+    ],
+    "bestFor": [
+      "marketers",
+      "ppc-advertisers",
+      "lead-generation",
+      "agencies"
+    ],
+    "features": [
+      "landing-pages",
+      "smart-traffic-ai",
+      "ab-testing",
+      "popups",
+      "sticky-bars",
+      "dynamic-text-replacement",
+      "integrations"
+    ],
+    "website": "https://unbounce.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2009,
+    "icon": "/icons/unbounce.svg"
+  },
+  {
+    "id": "davinci-resolve",
+    "name": "DaVinci Resolve",
+    "slug": "davinci-resolve",
+    "category": [
+      "video-editing",
+      "audio-music"
+    ],
+    "pricing": {
+      "free": true,
+      "studio": 295
+    },
+    "currency": "USD",
+    "pricingModel": "one-time",
+    "description": "Professional video editing, color grading, visual effects, and audio post-production software used by Hollywood studios, offered free with no watermarks.",
+    "pros": [
+      "Free version is genuinely professional-grade",
+      "Industry-leading color grading tools",
+      "Audio (Fairlight), VFX (Fusion), editing in one app",
+      "One-time purchase for Studio (no subscription)"
+    ],
+    "cons": [
+      "Steep learning curve for beginners",
+      "Requires powerful hardware for smooth editing",
+      "Large application size (2GB+ download)"
+    ],
+    "bestFor": [
+      "professional-editors",
+      "colorists",
+      "filmmakers",
+      "youtube-creators"
+    ],
+    "features": [
+      "video-editing",
+      "color-grading",
+      "visual-effects",
+      "audio-post",
+      "motion-graphics",
+      "collaboration",
+      "hdr-support"
+    ],
+    "website": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "affiliateUrl": null,
+    "rating": 4.7,
+    "yearFounded": 2004,
+    "icon": "/icons/davinci-resolve.svg"
+  },
+  {
+    "id": "murf-ai",
+    "name": "Murf AI",
+    "slug": "murf-ai",
+    "category": [
+      "ai-voice"
+    ],
+    "pricing": {
+      "free": true,
+      "creator": 23,
+      "business": 79,
+      "enterprise": 166
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "AI voice generator platform creating realistic text-to-speech voiceovers in 120+ voices and 20+ languages for videos, presentations, and e-learning content.",
+    "pros": [
+      "120+ AI voices with natural-sounding output",
+      "Voice cloning for custom brand voices",
+      "Multi-language support (20+ languages)",
+      "Studio editor with timing and emphasis controls"
+    ],
+    "cons": [
+      "Free plan limited to 10 minutes of generation",
+      "Some voices still sound artificial for long content",
+      "Commercial license requires paid plan"
+    ],
+    "bestFor": [
+      "content-creators",
+      "elearning-developers",
+      "marketers",
+      "podcast-producers"
+    ],
+    "features": [
+      "text-to-speech",
+      "voice-cloning",
+      "multi-language",
+      "voice-editor",
+      "background-music",
+      "api-access",
+      "collaboration"
+    ],
+    "website": "https://murf.ai",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2020,
+    "icon": "/icons/murf-ai.svg"
+  },
+  {
+    "id": "play-ht",
+    "name": "Play.ht",
+    "slug": "play-ht",
+    "category": [
+      "ai-voice"
+    ],
+    "pricing": {
+      "free": true,
+      "creator": 31.2,
+      "unlimited": 99,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "AI voice generation and text-to-speech platform offering ultra-realistic voices, voice cloning, and an API for creating audio content at scale.",
+    "pros": [
+      "Ultra-realistic voice quality with latest AI models",
+      "Instant voice cloning from short audio samples",
+      "900+ voices across 142 languages",
+      "Real-time streaming API for voice applications"
+    ],
+    "cons": [
+      "Character limits on lower plans",
+      "Voice cloning quality depends on input sample",
+      "API pricing can be unpredictable for high usage"
+    ],
+    "bestFor": [
+      "developers",
+      "podcast-creators",
+      "audiobook-producers",
+      "accessibility"
+    ],
+    "features": [
+      "text-to-speech",
+      "voice-cloning",
+      "streaming-api",
+      "multi-language",
+      "ssml-support",
+      "audio-widgets",
+      "pronunciations"
+    ],
+    "website": "https://play.ht",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2016,
+    "icon": "/icons/play-ht.svg"
+  },
+  {
+    "id": "resend",
+    "name": "Resend",
+    "slug": "resend",
+    "category": [
+      "email-marketing",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 20,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Modern email API for developers offering transactional email delivery with React Email integration, webhooks, and excellent developer experience.",
+    "pros": [
+      "Best developer experience for sending emails",
+      "React Email for building templates with components",
+      "Free tier with 100 emails/day (3,000/month)",
+      "Excellent deliverability with dedicated IPs available"
+    ],
+    "cons": [
+      "Marketing email features are minimal",
+      "Newer platform with less enterprise track record",
+      "No built-in email editor for non-developers"
+    ],
+    "bestFor": [
+      "developers",
+      "saas-products",
+      "startups",
+      "indie-hackers"
+    ],
+    "features": [
+      "transactional-email",
+      "react-email",
+      "webhooks",
+      "custom-domains",
+      "analytics",
+      "dedicated-ips",
+      "api"
+    ],
+    "website": "https://resend.com",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2022,
+    "icon": "/icons/resend.svg"
+  },
+  {
+    "id": "loops",
+    "name": "Loops",
+    "slug": "loops",
+    "category": [
+      "email-marketing",
+      "automation"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 49,
+      "growth": 149,
+      "pro": 399
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Modern email platform for SaaS companies combining transactional and marketing email with beautiful templates, automation loops, and developer-friendly APIs.",
+    "pros": [
+      "Purpose-built for SaaS (not retrofitted from marketing)",
+      "Beautiful default templates and editor",
+      "Transactional and marketing in one platform",
+      "Free plan with 1,000 contacts"
+    ],
+    "cons": [
+      "Newer platform with fewer integrations",
+      "Limited advanced segmentation compared to mature tools",
+      "Not suited for non-SaaS businesses"
+    ],
+    "bestFor": [
+      "saas-companies",
+      "startups",
+      "product-led-growth",
+      "developers"
+    ],
+    "features": [
+      "email-campaigns",
+      "automation-loops",
+      "transactional-email",
+      "audience-segments",
+      "analytics",
+      "api",
+      "templates"
+    ],
+    "website": "https://loops.so",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2022,
+    "icon": "/icons/loops.svg"
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "slug": "replit-agent",
+    "category": [
+      "ai-coding",
+      "ai-agents"
+    ],
+    "pricing": {
+      "free": false,
+      "core": 25,
+      "teams": 40
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "AI agent within Replit that builds complete applications from natural language descriptions, handling code generation, dependency setup, database configuration, and deployment.",
+    "pros": [
+      "Builds full applications from a single prompt",
+      "Handles environment setup and dependency installation",
+      "Integrated deployment (ships live apps directly)",
+      "Iterates on feedback in real-time"
+    ],
+    "cons": [
+      "Can produce inconsistent results on complex apps",
+      "Requires Replit Core subscription",
+      "Generated code may need manual refinement"
+    ],
+    "bestFor": [
+      "non-technical-founders",
+      "rapid-prototyping",
+      "mvps",
+      "students"
+    ],
+    "features": [
+      "natural-language-to-app",
+      "auto-deployment",
+      "database-setup",
+      "dependency-management",
+      "iterative-development",
+      "version-history"
+    ],
+    "website": "https://replit.com/agent",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2024,
+    "icon": "/icons/replit-agent.svg"
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "slug": "devin",
+    "category": [
+      "ai-coding",
+      "ai-agents"
+    ],
+    "pricing": {
+      "free": false,
+      "team": 500,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Autonomous AI software engineer by Cognition Labs that plans, writes, debugs, and deploys code independently with its own development environment and tools.",
+    "pros": [
+      "Truly autonomous (handles multi-step engineering tasks)",
+      "Own environment with terminal, browser, and code editor",
+      "Can learn from documentation and unfamiliar codebases",
+      "Handles real GitHub issues and PRs independently"
+    ],
+    "cons": [
+      "Very expensive at $500/month for teams",
+      "Output quality varies significantly by task complexity",
+      "Limited availability (still in early access)"
+    ],
+    "bestFor": [
+      "engineering-teams",
+      "enterprise-developers",
+      "code-maintenance",
+      "automated-testing"
+    ],
+    "features": [
+      "autonomous-coding",
+      "planning",
+      "debugging",
+      "deployment",
+      "code-review",
+      "testing",
+      "slack-integration"
+    ],
+    "website": "https://devin.ai",
+    "affiliateUrl": null,
+    "rating": 4.0,
+    "yearFounded": 2024,
+    "icon": "/icons/devin.svg"
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "slug": "codeium",
+    "category": [
+      "ai-coding"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 12,
+      "teams": 24,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Free AI code completion and chat assistant supporting 70+ languages and 40+ IDEs with fast autocomplete, code search, and context-aware suggestions.",
+    "pros": [
+      "Generous free tier for individual developers",
+      "Supports 70+ programming languages",
+      "Works in 40+ IDEs and editors",
+      "Fast completions with low latency"
+    ],
+    "cons": [
+      "Less context-aware than Copilot for large codebases",
+      "Chat assistant less capable than dedicated AI chatbots",
+      "Enterprise features still maturing"
+    ],
+    "bestFor": [
+      "individual-developers",
+      "students",
+      "open-source-contributors",
+      "budget-conscious-teams"
+    ],
+    "features": [
+      "code-completion",
+      "ai-chat",
+      "code-search",
+      "multi-ide",
+      "multi-language",
+      "context-awareness",
+      "custom-models"
+    ],
+    "website": "https://codeium.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2022,
+    "icon": "/icons/codeium.svg"
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "slug": "claude-code",
+    "category": [
+      "ai-coding",
+      "ai-agents"
+    ],
+    "pricing": {
+      "free": false,
+      "api": 0,
+      "max": 100,
+      "team": 30
+    },
+    "currency": "USD",
+    "pricingModel": "usage-based",
+    "description": "Anthropic's agentic coding tool providing an AI pair programmer in the terminal that can read/write files, run commands, search code, and execute multi-step engineering tasks.",
+    "pros": [
+      "Deep codebase understanding through file and search tools",
+      "Executes multi-step tasks autonomously",
+      "Direct terminal integration for real development workflow",
+      "Built on Claude's strong reasoning and coding abilities"
+    ],
+    "cons": [
+      "Requires API credits or Max subscription",
+      "Terminal-based (no visual IDE integration yet)",
+      "Token usage can be expensive for long sessions"
+    ],
+    "bestFor": [
+      "professional-developers",
+      "devops-engineers",
+      "technical-leads",
+      "open-source-maintainers"
+    ],
+    "features": [
+      "code-generation",
+      "file-editing",
+      "command-execution",
+      "code-search",
+      "git-integration",
+      "multi-step-tasks",
+      "custom-commands"
+    ],
+    "website": "https://docs.anthropic.com/en/docs/claude-code",
+    "affiliateUrl": null,
+    "rating": 4.7,
+    "yearFounded": 2025,
+    "icon": "/icons/claude-code.svg"
+  },
+  {
+    "id": "raycast",
+    "name": "Raycast",
+    "slug": "raycast",
+    "category": [
+      "productivity",
+      "automation",
+      "ai-chatbot"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 8,
+      "teams": 12,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Blazingly fast launcher and productivity tool for macOS replacing Spotlight with extensions, AI chat, window management, clipboard history, and workflow automation.",
+    "pros": [
+      "Incredibly fast keyboard-driven launcher",
+      "Rich extension store with 1000+ community extensions",
+      "Built-in AI chat with multiple models (GPT-4, Claude)",
+      "Window management and clipboard history included"
+    ],
+    "cons": [
+      "macOS only (no Windows or Linux support)",
+      "AI features require Pro subscription",
+      "Some extensions less polished than native apps"
+    ],
+    "bestFor": [
+      "mac-developers",
+      "power-users",
+      "productivity-enthusiasts",
+      "keyboard-driven-workflows"
+    ],
+    "features": [
+      "launcher",
+      "extensions",
+      "ai-chat",
+      "window-management",
+      "clipboard-history",
+      "snippets",
+      "quicklinks"
+    ],
+    "website": "https://www.raycast.com",
+    "affiliateUrl": null,
+    "rating": 4.8,
+    "yearFounded": 2020,
+    "icon": "/icons/raycast.svg"
+  },
+  {
+    "id": "superhuman",
+    "name": "Superhuman",
+    "slug": "superhuman",
+    "category": [
+      "email-marketing",
+      "productivity"
+    ],
+    "pricing": {
+      "free": false,
+      "starter": 25,
+      "business": 33,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Premium email client built for speed and productivity offering keyboard-driven workflows, AI triage, read statuses, and sub-100ms performance for professionals.",
+    "pros": [
+      "Fastest email client with sub-100ms interactions",
+      "AI triage auto-prioritizes and summarizes emails",
+      "Split inbox and snippets for efficient workflows",
+      "Read statuses show when emails are opened"
+    ],
+    "cons": [
+      "Expensive at $25-33/month per user",
+      "No free plan or trial without invite",
+      "Gmail and Outlook only (no other providers)"
+    ],
+    "bestFor": [
+      "executives",
+      "sales-professionals",
+      "founders",
+      "high-volume-emailers"
+    ],
+    "features": [
+      "keyboard-shortcuts",
+      "ai-triage",
+      "read-statuses",
+      "split-inbox",
+      "snippets",
+      "scheduled-send",
+      "undo-send"
+    ],
+    "website": "https://superhuman.com",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2014,
+    "icon": "/icons/superhuman.svg"
+  },
+  {
+    "id": "gitpod",
+    "name": "Gitpod",
+    "slug": "gitpod",
+    "category": [
+      "devops",
+      "ai-coding"
+    ],
+    "pricing": {
+      "free": true,
+      "personal": 9,
+      "professional": 36,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Cloud development environment platform providing instant, pre-configured dev environments for any project with automatic environment setup from configuration files.",
+    "pros": [
+      "Instant ready-to-code environments from Git repos",
+      "Pre-builds eliminate waiting for dependencies",
+      "Works with GitHub, GitLab, and Bitbucket",
+      "Eliminates works on my machine issues"
+    ],
+    "cons": [
+      "Free tier limited to 50 hours/month",
+      "Internet connection required for development",
+      "Some workflows still better with local development"
+    ],
+    "bestFor": [
+      "open-source-projects",
+      "onboarding-new-developers",
+      "distributed-teams",
+      "educators"
+    ],
+    "features": [
+      "cloud-environments",
+      "prebuilds",
+      "vs-code-integration",
+      "docker-support",
+      "collaboration",
+      "dotfiles",
+      "automation"
+    ],
+    "website": "https://www.gitpod.io",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2018,
+    "icon": "/icons/gitpod.svg"
+  },
+  {
+    "id": "windmill",
+    "name": "Windmill",
+    "slug": "windmill",
+    "category": [
+      "automation",
+      "open-source",
+      "no-code"
+    ],
+    "pricing": {
+      "free": true,
+      "team": 10,
+      "enterprise": 40
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Open-source developer platform for building internal tools, workflows, and scripts with a visual editor, turning scripts into UIs and scheduled jobs.",
+    "pros": [
+      "Open-source and self-hostable",
+      "Supports Python, TypeScript, Go, Bash, SQL natively",
+      "Auto-generates UI from script parameters",
+      "Excellent scheduling and workflow orchestration"
+    ],
+    "cons": [
+      "Smaller community than Zapier/n8n",
+      "Self-hosting requires infrastructure knowledge",
+      "Less polished documentation for beginners"
+    ],
+    "bestFor": [
+      "developers",
+      "devops-teams",
+      "internal-tools",
+      "data-pipelines"
+    ],
+    "features": [
+      "workflow-editor",
+      "script-to-ui",
+      "scheduling",
+      "approval-flows",
+      "multi-language",
+      "self-hostable",
+      "audit-logs"
+    ],
+    "website": "https://www.windmill.dev",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2022,
+    "icon": "/icons/windmill.svg"
+  },
+  {
+    "id": "umami",
+    "name": "Umami",
+    "slug": "umami",
+    "category": [
+      "analytics",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "hobby": 9,
+      "pro": 20,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Simple, fast, privacy-focused open-source web analytics alternative to Google Analytics with beautiful dashboards and no cookie banners required.",
+    "pros": [
+      "Completely open-source and self-hostable for free",
+      "Beautiful, clean dashboard interface",
+      "No cookies required (GDPR/CCPA compliant by default)",
+      "Lightweight script (under 2KB) does not slow sites"
+    ],
+    "cons": [
+      "Limited advanced analytics features",
+      "No conversion funnel or cohort analysis",
+      "Self-hosting requires database management"
+    ],
+    "bestFor": [
+      "indie-developers",
+      "privacy-focused-sites",
+      "bloggers",
+      "small-businesses"
+    ],
+    "features": [
+      "page-views",
+      "custom-events",
+      "realtime-dashboard",
+      "utm-tracking",
+      "multi-site",
+      "api",
+      "teams"
+    ],
+    "website": "https://umami.is",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2020,
+    "icon": "/icons/umami.svg"
+  },
+  {
+    "id": "chatwoot",
+    "name": "Chatwoot",
+    "slug": "chatwoot",
+    "category": [
+      "customer-support",
+      "open-source",
+      "communication"
+    ],
+    "pricing": {
+      "free": true,
+      "business": 19,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-agent-monthly",
+    "description": "Open-source customer engagement platform offering live chat, email, social media, and WhatsApp support with AI features and self-hosting capability.",
+    "pros": [
+      "Open-source with full self-hosting option",
+      "Omnichannel (chat, email, WhatsApp, Telegram, etc.)",
+      "AI-powered response suggestions and summaries",
+      "Free for self-hosted with unlimited agents"
+    ],
+    "cons": [
+      "Self-hosting requires DevOps knowledge",
+      "Fewer integrations than established help desks",
+      "Mobile apps less polished than competitors"
+    ],
+    "bestFor": [
+      "startups",
+      "small-businesses",
+      "privacy-focused-companies",
+      "self-hosters"
+    ],
+    "features": [
+      "live-chat",
+      "omnichannel-inbox",
+      "ai-assist",
+      "automations",
+      "canned-responses",
+      "reports",
+      "self-hostable"
+    ],
+    "website": "https://www.chatwoot.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2017,
+    "icon": "/icons/chatwoot.svg"
+  },
+  {
+    "id": "twenty",
+    "name": "Twenty",
+    "slug": "twenty",
+    "category": [
+      "crm",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source CRM alternative to Salesforce offering a modern interface, customizable data models, email integration, and full self-hosting with PostgreSQL.",
+    "pros": [
+      "Completely open-source and free to self-host",
+      "Modern, beautiful UI rivaling paid CRMs",
+      "Flexible data model with custom objects",
+      "GraphQL API for developers"
+    ],
+    "cons": [
+      "Young project with frequent breaking changes",
+      "Fewer integrations than mature CRMs",
+      "Self-hosting requires technical expertise"
+    ],
+    "bestFor": [
+      "startups",
+      "developers",
+      "privacy-focused-businesses",
+      "open-source-enthusiasts"
+    ],
+    "features": [
+      "contacts-management",
+      "pipeline",
+      "email-integration",
+      "custom-objects",
+      "graphql-api",
+      "calendar-sync",
+      "task-management"
+    ],
+    "website": "https://twenty.com",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2023,
+    "icon": "/icons/twenty.svg"
+  },
+  {
+    "id": "attio",
+    "name": "Attio",
+    "slug": "attio",
+    "category": [
+      "crm"
+    ],
+    "pricing": {
+      "free": true,
+      "plus": 29,
+      "pro": 59,
+      "enterprise": 119
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Next-generation CRM with a flexible data model, real-time multiplayer collaboration, AI-powered insights, and automatic data enrichment for modern go-to-market teams.",
+    "pros": [
+      "Beautiful modern UI with real-time collaboration",
+      "Flexible data model adapts to any workflow",
+      "Automatic contact enrichment from email and calendar",
+      "AI-powered insights and automations"
+    ],
+    "cons": [
+      "Newer platform with less enterprise maturity",
+      "Fewer integrations than Salesforce/HubSpot",
+      "Reporting less advanced than established CRMs"
+    ],
+    "bestFor": [
+      "startups",
+      "b2b-saas",
+      "venture-capital",
+      "modern-sales-teams"
+    ],
+    "features": [
+      "contact-management",
+      "deal-pipeline",
+      "email-sync",
+      "automations",
+      "ai-insights",
+      "custom-objects",
+      "real-time-collaboration"
+    ],
+    "website": "https://attio.com",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2019,
+    "icon": "/icons/attio.svg"
+  },
+  {
+    "id": "folk",
+    "name": "Folk",
+    "slug": "folk",
+    "category": [
+      "crm",
+      "collaboration"
+    ],
+    "pricing": {
+      "free": true,
+      "standard": 20,
+      "premium": 40,
+      "custom": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Collaborative CRM for relationship-driven teams combining contact management, pipeline tracking, and outreach with a spreadsheet-like interface and browser extension.",
+    "pros": [
+      "Intuitive spreadsheet-like interface",
+      "Browser extension captures contacts from anywhere",
+      "Built-in email sequences and mail merge",
+      "Great for lightweight relationship management"
+    ],
+    "cons": [
+      "Limited reporting and analytics",
+      "Not suited for large enterprise sales teams",
+      "Fewer automations than Salesforce/HubSpot"
+    ],
+    "bestFor": [
+      "agencies",
+      "founders",
+      "partnerships-teams",
+      "investor-relations"
+    ],
+    "features": [
+      "contact-management",
+      "pipelines",
+      "email-sequences",
+      "mail-merge",
+      "browser-extension",
+      "enrichment",
+      "integrations"
+    ],
+    "website": "https://www.folk.app",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2020,
+    "icon": "/icons/folk.svg"
+  },
+  {
+    "id": "appflowy",
+    "name": "AppFlowy",
+    "slug": "appflowy",
+    "category": [
+      "project-management",
+      "note-taking",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 12.5,
+      "business": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Open-source Notion alternative offering documents, databases, kanban boards, and AI-powered features with data privacy and self-hosting capabilities.",
+    "pros": [
+      "Open-source with full self-hosting option",
+      "Familiar Notion-like interface and features",
+      "Local-first with offline support",
+      "AI features powered by multiple models"
+    ],
+    "cons": [
+      "Less mature than Notion with fewer integrations",
+      "Template library is limited",
+      "Collaboration features still developing"
+    ],
+    "bestFor": [
+      "privacy-focused-teams",
+      "open-source-enthusiasts",
+      "notion-alternatives",
+      "self-hosters"
+    ],
+    "features": [
+      "documents",
+      "databases",
+      "kanban",
+      "calendar-view",
+      "ai-assistant",
+      "self-hostable",
+      "offline-mode"
+    ],
+    "website": "https://appflowy.io",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2021,
+    "icon": "/icons/appflowy.svg"
+  },
+  {
+    "id": "anytype",
+    "name": "Anytype",
+    "slug": "anytype",
+    "category": [
+      "note-taking",
+      "knowledge-management",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "builder": 10,
+      "coop": 14
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Local-first, open-source knowledge management tool with end-to-end encryption, graph-based relations, and type system for personal and team knowledge bases.",
+    "pros": [
+      "Local-first with end-to-end encryption",
+      "Open-source with peer-to-peer sync",
+      "Powerful type system and relations",
+      "Beautiful, fast native application"
+    ],
+    "cons": [
+      "Unique paradigm requires learning investment",
+      "Smaller community than Notion/Obsidian",
+      "Collaboration features still maturing"
+    ],
+    "bestFor": [
+      "privacy-enthusiasts",
+      "personal-knowledge-management",
+      "researchers",
+      "digital-gardeners"
+    ],
+    "features": [
+      "local-first",
+      "end-to-end-encryption",
+      "types-and-relations",
+      "graph-view",
+      "sets-and-collections",
+      "syncing",
+      "templates"
+    ],
+    "website": "https://anytype.io",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2019,
+    "icon": "/icons/anytype.svg"
+  },
+  {
+    "id": "pitch",
+    "name": "Pitch",
+    "slug": "pitch",
+    "category": [
+      "presentation",
+      "collaboration"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 8,
+      "business": 19
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Modern presentation software for teams with real-time collaboration, beautiful templates, video embeds, and analytics for tracking viewer engagement.",
+    "pros": [
+      "Real-time collaboration like Google Slides but better design",
+      "Beautiful templates with professional quality",
+      "Presentation analytics showing viewer engagement",
+      "Video recording and embedding built-in"
+    ],
+    "cons": [
+      "Smaller template library than Canva",
+      "Offline mode limited in functionality",
+      "Less animation options than PowerPoint"
+    ],
+    "bestFor": [
+      "startup-pitches",
+      "sales-decks",
+      "design-teams",
+      "collaborative-presentations"
+    ],
+    "features": [
+      "real-time-collaboration",
+      "templates",
+      "analytics",
+      "video-embeds",
+      "custom-fonts",
+      "version-history",
+      "export"
+    ],
+    "website": "https://pitch.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2018,
+    "icon": "/icons/pitch.svg"
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "slug": "penpot",
+    "category": [
+      "design",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "teams": 8,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Open-source design and prototyping platform offering Figma-like features with CSS-based design, real-time collaboration, and self-hosting for full data control.",
+    "pros": [
+      "Open-source and self-hostable for free",
+      "CSS-based design outputs production-ready code",
+      "Real-time collaboration (Figma-like experience)",
+      "SVG-native (no proprietary formats)"
+    ],
+    "cons": [
+      "Performance slower than Figma on complex files",
+      "Smaller plugin and community ecosystem",
+      "Missing some advanced design features"
+    ],
+    "bestFor": [
+      "open-source-teams",
+      "privacy-focused-designers",
+      "developers",
+      "educational-institutions"
+    ],
+    "features": [
+      "vector-editing",
+      "prototyping",
+      "components",
+      "design-tokens",
+      "real-time-collaboration",
+      "css-output",
+      "self-hostable"
+    ],
+    "website": "https://penpot.app",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2015,
+    "icon": "/icons/penpot.svg"
+  },
+  {
+    "id": "infisical",
+    "name": "Infisical",
+    "slug": "infisical",
+    "category": [
+      "cybersecurity",
+      "open-source",
+      "devops"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 6,
+      "team": 18,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Open-source secret management platform for syncing environment variables and secrets across teams, CI/CD pipelines, and infrastructure with full audit trails.",
+    "pros": [
+      "Open-source with free self-hosting option",
+      "Syncs secrets to any platform (Vercel, AWS, K8s, etc.)",
+      "Point-in-time secret recovery (version history)",
+      "Auto-rotation of secrets and certificates"
+    ],
+    "cons": [
+      "Younger project than HashiCorp Vault",
+      "Self-hosted requires infrastructure management",
+      "Enterprise features gated behind paid plans"
+    ],
+    "bestFor": [
+      "development-teams",
+      "devops-engineers",
+      "startups",
+      "security-conscious-organizations"
+    ],
+    "features": [
+      "secret-management",
+      "env-sync",
+      "audit-logs",
+      "access-control",
+      "auto-rotation",
+      "integrations",
+      "self-hostable"
+    ],
+    "website": "https://infisical.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2022,
+    "icon": "/icons/infisical.svg"
+  },
+  {
+    "id": "hoppscotch",
+    "name": "Hoppscotch",
+    "slug": "hoppscotch",
+    "category": [
+      "api",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "personal": 7,
+      "team": 12,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Open-source API development ecosystem offering a lightweight Postman alternative with REST, GraphQL, WebSocket, and real-time testing capabilities in the browser.",
+    "pros": [
+      "Open-source and self-hostable",
+      "Lightweight and fast (browser-based, no download)",
+      "Supports REST, GraphQL, WebSocket, SSE, Socket.IO",
+      "Team collaboration with shared collections"
+    ],
+    "cons": [
+      "Fewer features than Postman for enterprise use",
+      "Limited mock server capabilities",
+      "Desktop app less mature than web version"
+    ],
+    "bestFor": [
+      "developers",
+      "open-source-teams",
+      "api-testing",
+      "lightweight-alternative"
+    ],
+    "features": [
+      "rest-client",
+      "graphql-client",
+      "websocket-testing",
+      "collections",
+      "environments",
+      "team-collaboration",
+      "self-hostable"
+    ],
+    "website": "https://hoppscotch.io",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2019,
+    "icon": "/icons/hoppscotch.svg"
+  },
+  {
+    "id": "val-town",
+    "name": "Val Town",
+    "slug": "val-town",
+    "category": [
+      "api",
+      "no-code",
+      "automation"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 10,
+      "team": 20
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Social coding platform for writing and deploying small scripts (vals) as serverless functions, scheduled tasks, or APIs with instant sharing and collaboration.",
+    "pros": [
+      "Instant deployment of scripts with no infrastructure",
+      "Social platform (fork, remix, share vals)",
+      "Built-in persistence (SQLite, blob storage)",
+      "Scheduled execution and email/web triggers"
+    ],
+    "cons": [
+      "Not suited for complex applications",
+      "Execution time and memory limits on free plan",
+      "TypeScript/JavaScript only"
+    ],
+    "bestFor": [
+      "indie-hackers",
+      "developers",
+      "automation-enthusiasts",
+      "prototyping"
+    ],
+    "features": [
+      "serverless-functions",
+      "scheduled-tasks",
+      "sqlite-persistence",
+      "email-triggers",
+      "social-sharing",
+      "http-endpoints",
+      "typescript-runtime"
+    ],
+    "website": "https://www.val.town",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2022,
+    "icon": "/icons/val-town.svg"
+  },
+  {
+    "id": "eraser-io",
+    "name": "Eraser",
+    "slug": "eraser-io",
+    "category": [
+      "whiteboard",
+      "documents",
+      "collaboration"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 10,
+      "team": 12,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Technical design and documentation tool combining diagrams-as-code, whiteboarding, and docs in one platform purpose-built for engineering teams.",
+    "pros": [
+      "AI-generated diagrams from text descriptions",
+      "Code-first diagrams with version control",
+      "Combines docs and diagrams in one canvas",
+      "Purpose-built for technical architecture docs"
+    ],
+    "cons": [
+      "Limited general-purpose whiteboarding features",
+      "Smaller template library than Miro/Lucidchart",
+      "Not suited for non-technical teams"
+    ],
+    "bestFor": [
+      "engineering-teams",
+      "solution-architects",
+      "technical-documentation",
+      "system-design"
+    ],
+    "features": [
+      "diagrams-as-code",
+      "ai-diagrams",
+      "whiteboarding",
+      "documentation",
+      "version-history",
+      "templates",
+      "collaboration"
+    ],
+    "website": "https://www.eraser.io",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2022,
+    "icon": "/icons/eraser-io.svg"
+  },
+  {
+    "id": "tldraw",
+    "name": "tldraw",
+    "slug": "tldraw",
+    "category": [
+      "whiteboard",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "sdk": 0
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source infinite canvas whiteboard with a minimalist interface, collaborative editing, and an embeddable SDK for building custom canvas experiences.",
+    "pros": [
+      "Completely free and open-source",
+      "Incredibly fast and responsive canvas",
+      "Embeddable SDK for building custom apps",
+      "AI-powered features (make real, draw-to-code)"
+    ],
+    "cons": [
+      "Fewer built-in shapes than enterprise whiteboards",
+      "No built-in templates or frameworks",
+      "Collaboration requires self-hosting or tldraw.com"
+    ],
+    "bestFor": [
+      "developers",
+      "quick-sketches",
+      "embedded-canvas-apps",
+      "open-source-projects"
+    ],
+    "features": [
+      "infinite-canvas",
+      "drawing-tools",
+      "real-time-collaboration",
+      "embeddable-sdk",
+      "export",
+      "ai-features",
+      "multiplayer"
+    ],
+    "website": "https://www.tldraw.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2021,
+    "icon": "/icons/tldraw.svg"
+  },
+  {
+    "id": "trigger-dev",
+    "name": "Trigger.dev",
+    "slug": "trigger-dev",
+    "category": [
+      "automation",
+      "open-source",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "usage-based",
+    "description": "Open-source background job framework for TypeScript offering long-running tasks, scheduled jobs, and event-driven workflows with built-in retries and observability.",
+    "pros": [
+      "Write background jobs in TypeScript (not YAML/config)",
+      "Built-in retries, queues, and concurrency controls",
+      "Excellent developer experience with type safety",
+      "Open-source with self-hosting option"
+    ],
+    "cons": [
+      "TypeScript only (no Python/Go support)",
+      "Cloud pricing based on compute time",
+      "Newer platform with evolving API"
+    ],
+    "bestFor": [
+      "typescript-developers",
+      "saas-apps",
+      "background-processing",
+      "serverless-teams"
+    ],
+    "features": [
+      "background-jobs",
+      "scheduled-tasks",
+      "event-triggers",
+      "retries",
+      "observability",
+      "concurrency-control",
+      "self-hostable"
+    ],
+    "website": "https://trigger.dev",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2022,
+    "icon": "/icons/trigger-dev.svg"
+  },
+  {
+    "id": "immich",
+    "name": "Immich",
+    "slug": "immich",
+    "category": [
+      "file-sharing",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "selfHosted": 0
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source Google Photos alternative offering self-hosted photo and video backup with AI-powered search, facial recognition, and automatic organization.",
+    "pros": [
+      "Full Google Photos replacement (self-hosted)",
+      "AI face recognition and smart search",
+      "Mobile apps with automatic background backup",
+      "Shared albums and partner sharing"
+    ],
+    "cons": [
+      "Self-hosting only (no managed cloud option)",
+      "Resource-intensive (especially ML features)",
+      "Still in active development (breaking changes possible)"
+    ],
+    "bestFor": [
+      "self-hosters",
+      "families",
+      "privacy-focused-users",
+      "photographers"
+    ],
+    "features": [
+      "photo-backup",
+      "facial-recognition",
+      "smart-search",
+      "shared-albums",
+      "memories",
+      "map-view",
+      "mobile-apps"
+    ],
+    "website": "https://immich.app",
+    "affiliateUrl": null,
+    "rating": 4.7,
+    "yearFounded": 2022,
+    "icon": "/icons/immich.svg"
+  },
+  {
+    "id": "actual-budget",
+    "name": "Actual Budget",
+    "slug": "actual-budget",
+    "category": [
+      "budgeting",
+      "open-source",
+      "personal-finance"
+    ],
+    "pricing": {
+      "free": true,
+      "selfHosted": 0
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source envelope budgeting app offering local-first personal finance management with bank sync, goal tracking, and reporting with optional self-hosting.",
+    "pros": [
+      "Open-source with no subscription fees",
+      "Local-first with optional sync",
+      "Beautiful and fast interface",
+      "Bank sync via SimpleFIN/GoCardless"
+    ],
+    "cons": [
+      "Self-hosting required for sync features",
+      "Smaller community than YNAB",
+      "Mobile experience less polished than native apps"
+    ],
+    "bestFor": [
+      "budget-conscious-individuals",
+      "self-hosters",
+      "ynab-migrants",
+      "privacy-focused-budgeters"
+    ],
+    "features": [
+      "envelope-budgeting",
+      "bank-sync",
+      "reports",
+      "goal-tracking",
+      "rules",
+      "scheduled-transactions",
+      "self-hostable"
+    ],
+    "website": "https://actualbudget.org",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2019,
+    "icon": "/icons/actual-budget.svg"
+  },
+  {
+    "id": "notion-sites",
+    "name": "Notion Sites",
+    "slug": "notion-sites",
+    "category": [
+      "website-builder",
+      "no-code"
+    ],
+    "pricing": {
+      "free": true,
+      "plus": 10,
+      "business": 20
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Website publishing feature built into Notion allowing users to turn any Notion page into a public website with custom domains, themes, and navigation.",
+    "pros": [
+      "Publish websites directly from Notion pages",
+      "No separate tool or coding required",
+      "Custom domains and themes available",
+      "Inherits Notion flexible content blocks"
+    ],
+    "cons": [
+      "Limited design customization compared to website builders",
+      "SEO capabilities are basic",
+      "Performance depends on Notion infrastructure"
+    ],
+    "bestFor": [
+      "knowledge-bases",
+      "documentation-sites",
+      "portfolios",
+      "simple-landing-pages"
+    ],
+    "features": [
+      "page-publishing",
+      "custom-domains",
+      "themes",
+      "navigation",
+      "analytics",
+      "seo-settings"
+    ],
+    "website": "https://www.notion.so/product/sites",
+    "affiliateUrl": null,
+    "rating": 4.0,
+    "yearFounded": 2024,
+    "icon": "/icons/notion-sites.svg"
+  },
+  {
+    "id": "cal-ai",
+    "name": "Cal.ai",
+    "slug": "cal-ai",
+    "category": [
+      "calendar",
+      "ai-agents"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 12,
+      "team": 15,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "AI-powered scheduling assistant built on Cal.com that handles meeting scheduling via natural language, automatically resolving conflicts and suggesting optimal times.",
+    "pros": [
+      "Natural language scheduling via email or chat",
+      "Automatic conflict resolution across calendars",
+      "Open-source foundation with full transparency",
+      "Works with existing Cal.com scheduling infrastructure"
+    ],
+    "cons": [
+      "AI features still maturing",
+      "Requires Cal.com account as foundation",
+      "Limited language support beyond English"
+    ],
+    "bestFor": [
+      "busy-professionals",
+      "sales-teams",
+      "executives",
+      "recruiters"
+    ],
+    "features": [
+      "natural-language-scheduling",
+      "conflict-resolution",
+      "email-assistant",
+      "multi-calendar-sync",
+      "time-preferences",
+      "meeting-routing"
+    ],
+    "website": "https://cal.com/ai",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2023,
+    "icon": "/icons/cal-ai.svg"
+  },
+  {
+    "id": "phantom-buster",
+    "name": "PhantomBuster",
+    "slug": "phantom-buster",
+    "category": [
+      "automation",
+      "sales"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 69,
+      "pro": 159,
+      "team": 439
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Cloud-based automation platform for lead generation, extracting data from social networks, and automating outreach across LinkedIn, Twitter, Instagram, and more.",
+    "pros": [
+      "Pre-built automations for LinkedIn, Twitter, etc.",
+      "No coding required for complex scraping workflows",
+      "Cloud-based (runs 24/7 without your computer)",
+      "Chain multiple Phantoms for sophisticated workflows"
+    ],
+    "cons": [
+      "Violates most social platform terms of service",
+      "Account ban risk on LinkedIn and other networks",
+      "Credits system limits usage on lower plans"
+    ],
+    "bestFor": [
+      "sales-teams",
+      "recruiters",
+      "growth-hackers",
+      "lead-generation"
+    ],
+    "features": [
+      "linkedin-automation",
+      "data-extraction",
+      "email-finder",
+      "workflow-chains",
+      "scheduling",
+      "crm-export",
+      "api-access"
+    ],
+    "website": "https://phantombuster.com",
+    "affiliateUrl": null,
+    "rating": 4.1,
+    "yearFounded": 2016,
+    "icon": "/icons/phantom-buster.svg"
+  },
+  {
+    "id": "canva-video",
+    "name": "Canva Video",
+    "slug": "canva-video",
+    "category": [
+      "video-editing"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 15,
+      "teams": 10
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Browser-based video editing tool within Canva offering timeline editing, transitions, stock footage, text animations, and AI-powered features for quick video creation.",
+    "pros": [
+      "Easiest video editor for non-professionals",
+      "Huge stock media library (video, music, graphics)",
+      "No software installation needed",
+      "Templates for every social media format"
+    ],
+    "cons": [
+      "Limited compared to professional video editors",
+      "No advanced timeline or keyframe controls",
+      "Export resolution limited on free plan"
+    ],
+    "bestFor": [
+      "social-media-managers",
+      "small-businesses",
+      "content-creators",
+      "marketers"
+    ],
+    "features": [
+      "timeline-editing",
+      "transitions",
+      "stock-footage",
+      "text-animations",
+      "music-library",
+      "templates",
+      "ai-tools"
+    ],
+    "website": "https://www.canva.com/video",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2021,
+    "icon": "/icons/canva-video.svg"
+  },
+  {
+    "id": "greptile",
+    "name": "Greptile",
+    "slug": "greptile",
+    "category": [
+      "ai-coding",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "startup": 100,
+      "team": 500,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "AI-powered codebase understanding API that indexes repositories to answer natural language questions about code, generate documentation, and power code review.",
+    "pros": [
+      "Deep semantic understanding of entire repositories",
+      "API-first for embedding in your own tools",
+      "Supports private repos across GitHub, GitLab, Bitbucket",
+      "Answers questions about code architecture and logic"
+    ],
+    "cons": [
+      "API-only (no standalone consumer product)",
+      "Indexing time for large repos can be slow",
+      "Limited language/framework support for newest tech"
+    ],
+    "bestFor": [
+      "developer-tool-builders",
+      "engineering-teams",
+      "code-review",
+      "onboarding-new-developers"
+    ],
+    "features": [
+      "codebase-indexing",
+      "natural-language-queries",
+      "code-review",
+      "documentation-generation",
+      "api-access",
+      "multi-repo",
+      "context-retrieval"
+    ],
+    "website": "https://www.greptile.com",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2023,
+    "icon": "/icons/greptile.svg"
+  },
+  {
+    "id": "novu",
+    "name": "Novu",
+    "slug": "novu",
+    "category": [
+      "communication",
+      "open-source",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 0.0025,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-event",
+    "description": "Open-source notification infrastructure for developers providing a unified API to manage in-app, email, SMS, push, and chat notifications with subscriber preferences.",
+    "pros": [
+      "Single API for all notification channels",
+      "Open-source with self-hosting option",
+      "Built-in notification center UI component",
+      "Subscriber preference management included"
+    ],
+    "cons": [
+      "Complex setup for advanced use cases",
+      "Documentation has gaps for edge cases",
+      "Self-hosted version requires maintenance"
+    ],
+    "bestFor": [
+      "saas-developers",
+      "product-teams",
+      "startups",
+      "notification-heavy-apps"
+    ],
+    "features": [
+      "multi-channel-notifications",
+      "notification-center",
+      "subscriber-preferences",
+      "workflow-editor",
+      "digest",
+      "templates",
+      "self-hostable"
+    ],
+    "website": "https://novu.co",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2021,
+    "icon": "/icons/novu.svg"
+  },
+  {
+    "id": "fibery",
+    "name": "Fibery",
+    "slug": "fibery",
+    "category": [
+      "project-management",
+      "knowledge-management",
+      "no-code"
+    ],
+    "pricing": {
+      "free": true,
+      "standard": 10,
+      "pro": 17
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Connected workspace for product teams combining project management, knowledge management, feedback analysis, and custom databases in one flexible platform.",
+    "pros": [
+      "Highly flexible with custom entity types and relations",
+      "Combines PM, wiki, and feedback tools in one platform",
+      "Bi-directional relations between any entities",
+      "AI-powered summaries and content generation"
+    ],
+    "cons": [
+      "Steep learning curve due to extreme flexibility",
+      "Smaller community than Notion or ClickUp",
+      "Mobile app is limited"
+    ],
+    "bestFor": [
+      "product-teams",
+      "startups",
+      "agencies",
+      "connected-workflows"
+    ],
+    "features": [
+      "custom-databases",
+      "bi-directional-relations",
+      "documents",
+      "views",
+      "automations",
+      "ai-assistant",
+      "feedback-management"
+    ],
+    "website": "https://fibery.io",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2018,
+    "icon": "/icons/fibery.svg"
+  },
+  {
+    "id": "ghostfolio",
+    "name": "Ghostfolio",
+    "slug": "ghostfolio",
+    "category": [
+      "personal-finance",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "premium": 5.99
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Open-source wealth management platform for tracking stocks, ETFs, crypto, and other assets with portfolio analytics, allocation views, and self-hosting capability.",
+    "pros": [
+      "Open-source with self-hosting option",
+      "Privacy-focused (no data selling or ads)",
+      "Supports stocks, ETFs, crypto, commodities",
+      "Beautiful portfolio allocation visualizations"
+    ],
+    "cons": [
+      "Limited broker integrations (manual entry mostly)",
+      "Smaller community than commercial alternatives",
+      "No tax-loss harvesting or advisor features"
+    ],
+    "bestFor": [
+      "privacy-focused-investors",
+      "self-hosters",
+      "passive-investors",
+      "international-portfolios"
+    ],
+    "features": [
+      "portfolio-tracking",
+      "performance-analysis",
+      "allocation-views",
+      "multi-currency",
+      "dividends",
+      "benchmarking",
+      "self-hostable"
+    ],
+    "website": "https://ghostfol.io",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2021,
+    "icon": "/icons/ghostfolio.svg"
+  },
+  {
+    "id": "maybe-finance",
+    "name": "Maybe Finance",
+    "slug": "maybe-finance",
+    "category": [
+      "personal-finance",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "selfHosted": 0
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source personal finance and wealth management app offering net worth tracking, investment management, budgeting, and financial planning tools.",
+    "pros": [
+      "Fully open-source and free to self-host",
+      "Comprehensive financial dashboard",
+      "No ads, no data selling, full privacy",
+      "Active development community"
+    ],
+    "cons": [
+      "Self-hosting only (no managed cloud option yet)",
+      "Still in active development (features incomplete)",
+      "Requires Plaid API key for bank connections"
+    ],
+    "bestFor": [
+      "self-hosters",
+      "privacy-focused-individuals",
+      "developers",
+      "personal-finance-enthusiasts"
+    ],
+    "features": [
+      "net-worth-tracking",
+      "investment-tracking",
+      "budgeting",
+      "transaction-categorization",
+      "goal-planning",
+      "multi-currency",
+      "self-hostable"
+    ],
+    "website": "https://maybe.co",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2021,
+    "icon": "/icons/maybe-finance.svg"
+  },
+  {
+    "id": "insomnia",
+    "name": "Insomnia",
+    "slug": "insomnia",
+    "category": [
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "individual": 5,
+      "team": 12,
+      "enterprise": 25
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "API design and testing platform by Kong offering a beautiful desktop client for REST, GraphQL, and gRPC with Git sync, environment management, and collaboration.",
+    "pros": [
+      "Beautiful and intuitive desktop application",
+      "Git-based sync for version control of API specs",
+      "Plugin system for extending functionality",
+      "Supports REST, GraphQL, gRPC protocols"
+    ],
+    "cons": [
+      "Kong acquisition changed direction (cloud-focused)",
+      "Free tier became more limited over time",
+      "Fewer integrations than Postman"
+    ],
+    "bestFor": [
+      "developers",
+      "api-designers",
+      "small-teams",
+      "individual-developers"
+    ],
+    "features": [
+      "api-client",
+      "graphql-explorer",
+      "environment-variables",
+      "git-sync",
+      "plugins",
+      "design-specs",
+      "automated-testing"
+    ],
+    "website": "https://insomnia.rest",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2015,
+    "icon": "/icons/insomnia.svg"
+  },
+  {
+    "id": "kestra",
+    "name": "Kestra",
+    "slug": "kestra",
+    "category": [
+      "automation",
+      "open-source",
+      "devops"
+    ],
+    "pricing": {
+      "free": true,
+      "cloud": 100,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Open-source orchestration platform for building scheduled workflows, data pipelines, and event-driven automations with declarative YAML and 500+ plugins.",
+    "pros": [
+      "Open-source with full orchestration capabilities",
+      "Declarative YAML workflows (GitOps friendly)",
+      "500+ plugins for data, cloud, and messaging services",
+      "Real-time triggers, schedules, and event listeners"
+    ],
+    "cons": [
+      "Less visual builder than no-code tools",
+      "Learning curve for YAML workflow syntax",
+      "Newer platform with smaller community than Airflow"
+    ],
+    "bestFor": [
+      "data-engineers",
+      "devops-teams",
+      "backend-developers",
+      "workflow-automation"
+    ],
+    "features": [
+      "workflow-orchestration",
+      "scheduling",
+      "event-triggers",
+      "plugins",
+      "monitoring",
+      "secret-management",
+      "multi-tenant"
+    ],
+    "website": "https://kestra.io",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2020,
+    "icon": "/icons/kestra.svg"
+  },
+  {
+    "id": "memos",
+    "name": "Memos",
+    "slug": "memos",
+    "category": [
+      "note-taking",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "selfHosted": 0
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Open-source, self-hosted memo hub for capturing quick thoughts, ideas, and notes with a privacy-first approach, tags, and markdown support.",
+    "pros": [
+      "Completely free and open-source",
+      "Lightweight and fast (single binary deployment)",
+      "Twitter-like quick note interface",
+      "Full data ownership with self-hosting"
+    ],
+    "cons": [
+      "No real-time collaboration features",
+      "Limited organizational tools (no folders/hierarchy)",
+      "Self-hosting required (no managed cloud option)"
+    ],
+    "bestFor": [
+      "self-hosters",
+      "quick-note-takers",
+      "journaling",
+      "privacy-focused-users"
+    ],
+    "features": [
+      "markdown",
+      "tags",
+      "search",
+      "api",
+      "docker-deployment",
+      "embed-resources",
+      "timeline-view"
+    ],
+    "website": "https://www.usememos.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2022,
+    "icon": "/icons/memos.svg"
+  },
+  {
+    "id": "documenso",
+    "name": "Documenso",
+    "slug": "documenso",
+    "category": [
+      "legal",
+      "open-source",
+      "documents"
+    ],
+    "pricing": {
+      "free": true,
+      "individual": 30,
+      "teams": 50,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Open-source DocuSign alternative for digital document signing offering legally binding e-signatures, templates, and API access with full self-hosting capability.",
+    "pros": [
+      "Open-source with self-hosting option",
+      "Legally binding electronic signatures",
+      "Clean modern interface",
+      "API-first for developer integration"
+    ],
+    "cons": [
+      "Fewer enterprise features than DocuSign/Adobe Sign",
+      "Smaller template library",
+      "Self-hosting requires maintenance"
+    ],
+    "bestFor": [
+      "startups",
+      "freelancers",
+      "open-source-businesses",
+      "privacy-focused-companies"
+    ],
+    "features": [
+      "e-signatures",
+      "templates",
+      "audit-trail",
+      "api",
+      "team-management",
+      "reminders",
+      "self-hostable"
+    ],
+    "website": "https://documenso.com",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2023,
+    "icon": "/icons/documenso.svg"
+  },
+  {
+    "id": "buildship",
+    "name": "BuildShip",
+    "slug": "buildship",
+    "category": [
+      "no-code",
+      "ai-agents",
+      "automation"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 29,
+      "expert": 99,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Visual backend builder for creating AI workflows, APIs, and scheduled tasks with no-code using pre-built nodes, AI assistance, and cloud deployment.",
+    "pros": [
+      "Build backends and APIs without code",
+      "AI assistant helps create and debug workflows",
+      "Pre-built integrations with databases and AI models",
+      "Instant deployment with no server management"
+    ],
+    "cons": [
+      "Limited for complex custom logic",
+      "Execution limits on free plan",
+      "Debugging complex workflows can be challenging"
+    ],
+    "bestFor": [
+      "no-code-builders",
+      "indie-hackers",
+      "ai-app-builders",
+      "prototyping"
+    ],
+    "features": [
+      "visual-workflow-builder",
+      "ai-nodes",
+      "api-creation",
+      "database-integration",
+      "scheduled-tasks",
+      "cloud-deployment",
+      "pre-built-templates"
+    ],
+    "website": "https://buildship.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2023,
+    "icon": "/icons/buildship.svg"
+  },
+  {
+    "id": "supertokens",
+    "name": "SuperTokens",
+    "slug": "supertokens",
+    "category": [
+      "cybersecurity",
+      "open-source",
+      "api"
+    ],
+    "pricing": {
+      "free": true,
+      "paid": 0.02,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-mau",
+    "description": "Open-source authentication solution offering email/password, social login, passwordless, and multi-factor auth with self-hosting option and drop-in UI components.",
+    "pros": [
+      "Open-source with free self-hosting",
+      "Pre-built UI components for quick integration",
+      "Session management with anti-CSRF protection",
+      "Multiple auth methods (email, social, passwordless, MFA)"
+    ],
+    "cons": [
+      "Smaller ecosystem than Auth0 or Firebase Auth",
+      "Documentation has gaps for complex setups",
+      "Limited admin dashboard features"
+    ],
+    "bestFor": [
+      "saas-developers",
+      "startups",
+      "privacy-focused-apps",
+      "self-hosters"
+    ],
+    "features": [
+      "email-password",
+      "social-login",
+      "passwordless",
+      "mfa",
+      "session-management",
+      "pre-built-ui",
+      "self-hostable"
+    ],
+    "website": "https://supertokens.com",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2019,
+    "icon": "/icons/supertokens.svg"
+  },
+  {
+    "id": "arc-browser",
+    "name": "Arc Browser",
+    "slug": "arc-browser",
+    "category": [
+      "productivity"
+    ],
+    "pricing": {
+      "free": true
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Reimagined web browser by The Browser Company featuring vertical tabs, spaces for context switching, built-in tools replacing extensions, and AI-powered features.",
+    "pros": [
+      "Innovative sidebar with vertical tabs and spaces",
+      "Built-in tools (notes, easel, split view) reduce extensions",
+      "Profiles and spaces for work/personal separation",
+      "Beautiful design with attention to detail"
+    ],
+    "cons": [
+      "Mac and iOS focused (Windows version limited)",
+      "Steep learning curve from traditional browsers",
+      "Company pivoting away from Arc to new product"
+    ],
+    "bestFor": [
+      "knowledge-workers",
+      "researchers",
+      "designers",
+      "tab-heavy-users"
+    ],
+    "features": [
+      "vertical-tabs",
+      "spaces",
+      "split-view",
+      "boosts",
+      "easel",
+      "notes",
+      "ai-features"
+    ],
+    "website": "https://arc.net",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2022,
+    "icon": "/icons/arc-browser.svg"
   }
 ]
