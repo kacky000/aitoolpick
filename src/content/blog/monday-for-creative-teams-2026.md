@@ -92,7 +92,7 @@ Create a dedicated "Approvals" board or column. When a deliverable is ready for 
 
 Clients can reply, approve, or request changes directly in the Monday update thread (if you've shared the board with them) or via email. Either way, all communication is logged on the item.
 
-This eliminates the approval chaos that happens in long email chains or scattered Slack threads.
+This eliminates the approval chaos that happens in long email chains or scattered [Slack](/tools/slack/) threads.
 
 ## Connecting Monday to Your Creative Stack
 
@@ -100,7 +100,7 @@ Creative teams typically use Monday alongside:
 
 **[Figma](/tools/figma/) or Adobe Creative Cloud** — Link to design files directly from Monday items. Install the Monday-Figma integration to see Figma frames previewed within Monday.
 
-**Slack** — Receive notifications in relevant channels. Create Monday items from Slack messages (the "create item" shortcut saves time).
+**Slack** — Receive notifications in relevant channels. Create Monday items from Slack messages (the "create item" [shortcut](/tools/shortcut/) saves time).
 
 **[Google Drive](/tools/google-drive/) or Dropbox** — Attach linked folders to items so the whole team can access creative assets without hunting for them.
 

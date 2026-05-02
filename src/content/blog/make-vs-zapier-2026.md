@@ -77,7 +77,7 @@ But if your workflow depends on a tool that only Zapier supports, Make isn't an 
 ### Zapier's Builder
 Zapier uses a [linear](/tools/linear/), step-by-step editor. You add a trigger → add an action → add another action. Each step flows left to right in a list format. It's immediately intuitive. Most users can build their first automation in 10-15 minutes.
 
-The limitation: complex workflows with branching paths, parallel processes, or conditional routing become hard to follow in a linear list.
+The limitation: complex workflows with branching paths, parallel processes, or conditional routing become hard to follow in a [linear](/tools/linear/) list.
 
 ### Make's Builder
 Make uses a circular, node-based canvas. Triggers and actions are circles connected by lines. The visual layout makes complex workflows genuinely easier to understand — you can see branching logic, parallel paths, and data routing at a glance.
@@ -107,7 +107,7 @@ Both platforms added AI features in 2025-2026.
 
 **Make AI**: Similar AI modules powered by OpenAI and other providers. More flexible data manipulation before/after AI steps due to Make's visual builder. Slightly steeper setup.
 
-Neither platform matches n8n's AI agent capabilities for complex AI workflows. But for adding AI steps to existing automation chains, both work well.
+Neither platform matches [n8n](/tools/n8n/)'s AI agent capabilities for complex AI workflows. But for adding AI steps to existing automation chains, both work well.
 
 ## Real-World Use Cases
 

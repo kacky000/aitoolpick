@@ -16,7 +16,7 @@ AI image generation has exploded in popularity, and two names dominate the conve
 |---------|-----------|--------|
 | **Developer** | Midjourney Inc. | OpenAI |
 | **Access** | Discord / Web App | [ChatGPT](/tools/chatgpt/) / API |
-| **Starting Price** | $10/month | Free tier + $20/month (ChatGPT Plus) |
+| **Starting Price** | $10/month | Free tier + $20/month ([ChatGPT](/tools/chatgpt/) Plus) |
 | **Image Quality** | Artistic, painterly | Photorealistic, clean |
 | **Editing** | Vary, [Zoom](/tools/zoom/), Pan | Inpainting, Outpainting |
 | **API Access** | Limited | Full REST API |
@@ -57,7 +57,7 @@ DALL-E is the better choice when you need accurate, literal interpretations of y
 ### DALL-E Pricing
 
 - **Free tier**: Limited generations in ChatGPT free
-- **ChatGPT Plus**: $20/month — generous DALL-E 3 usage
+- **ChatGPT Plus**: $20/month — generous [DALL-E 3](/tools/dall-e/) usage
 - **API**: ~$0.04-0.08 per image (1024x1024)
 
 For casual users, DALL-E's inclusion in ChatGPT Plus offers better value since you also get GPT-4o access. For high-volume creative work, Midjourney's Standard plan gives more flexibility.
@@ -69,7 +69,7 @@ For casual users, DALL-E's inclusion in ChatGPT Plus offers better value since y
 Midjourney originally required [Discord](/tools/discord/), which created a steep learning curve. The 2025 web app launch improved things dramatically:
 
 - Web interface with prompt history and galleries
-- Discord still available for power users
+- [Discord](/tools/discord/) still available for power users
 - Prompt parameters (`--ar`, `--stylize`, `--chaos`) offer granular control
 - Community gallery provides endless inspiration
 
@@ -104,7 +104,7 @@ DALL-E's ChatGPT integration makes it the easier tool to start with:
 
 ## Editing and Refinement
 
-Midjourney offers **Vary (Subtle/Strong)**, **Zoom Out**, **Pan**, and **Remix** to iterate on generations. These tools are excellent for exploring variations of a concept.
+Midjourney offers **Vary (Subtle/Strong)**, **[Zoom](/tools/zoom/) Out**, **Pan**, and **Remix** to iterate on generations. These tools are excellent for exploring variations of a concept.
 
 DALL-E provides **inpainting** (editing specific regions) and **outpainting** (extending images beyond their borders). For targeted edits, DALL-E's approach is more precise.
 

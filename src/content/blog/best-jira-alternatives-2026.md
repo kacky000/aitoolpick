@@ -46,7 +46,7 @@ ClickUp tries to do everything — docs, whiteboards, goals, time tracking, spri
 
 **Price:** Free (10 users) / $10.99/user/mo / $24.99/user/mo
 
-Asana occupies the sweet spot between Jira's complexity and Trello's simplicity. Its clean interface is easy for non-technical teams to adopt.
+Asana occupies the sweet spot between Jira's complexity and [Trello](/tools/trello/)'s simplicity. Its clean interface is easy for non-technical teams to adopt.
 
 **Standout features:** Portfolio view for multi-project tracking, powerful no-code automation rules, strong marketing tool integrations (HubSpot, [Salesforce](/tools/salesforce/), Slack).
 

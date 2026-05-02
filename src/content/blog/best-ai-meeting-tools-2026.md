@@ -65,7 +65,7 @@ Otter's AI Chat feature lets you ask questions about your meeting after it ends:
 
 ### 4. Zoom AI Companion — Best for Zoom-Heavy Teams
 
-**Pricing:** Included with Zoom paid plans (starting at $15.99/month)
+**Pricing:** Included with [Zoom](/tools/zoom/) paid plans (starting at $15.99/month)
 
 If your organization already pays for Zoom, the AI Companion is worth enabling immediately. It generates meeting summaries, captures action items, and can answer questions mid-meeting ("What did we decide about the rollout timeline?") — all without leaving Zoom.
 

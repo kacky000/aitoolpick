@@ -260,7 +260,7 @@ const faqJsonLd = JSON.stringify({
       <h2 style="margin-bottom: 1.5rem;">Features</h2>
       <div class="features-grid">
         {tool.features.map((feature: string) => (
-          <span class="feature-badge">{feature}</span>
+          <a href={`/features/${feature}/`} class="feature-badge feature-link">{feature}</a>
         ))}
       </div>
     </div>
@@ -272,10 +272,10 @@ const faqJsonLd = JSON.stringify({
       <h2 style="margin-bottom: 1.5rem;">Best For</h2>
       <div class="best-for-grid">
         {tool.bestFor.map((audience: string) => (
-          <div class="best-for-item">
+          <a href={`/best-for/${audience}/`} class="best-for-item">
             <span class="best-for-icon">👤</span>
             <span>{audience.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</span>
-          </div>
+          </a>
         ))}
       </div>
     </div>
@@ -363,6 +363,21 @@ const faqJsonLd = JSON.stringify({
       </div>
     </section>
   )}
+
+  <!-- Explore More -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 style="margin-bottom: 1rem;">More About {tool.name}</h2>
+      <div class="explore-links">
+        <a href={`/pricing/${tool.slug}/`} class="explore-link-card">Pricing Details</a>
+        <a href={`/reviews/${tool.slug}/`} class="explore-link-card">Editorial Review</a>
+        <a href={`/how-to/${tool.slug}/`} class="explore-link-card">Getting Started</a>
+        <a href={`/checklist/${tool.slug}/`} class="explore-link-card">Setup Checklist</a>
+        <a href={`/integrations/${tool.slug}/`} class="explore-link-card">Integrations</a>
+        <a href={`/alternatives/${tool.slug}/`} class="explore-link-card">Alternatives</a>
+      </div>
+    </div>
+  </section>
 
   <!-- CTA -->
   <section class="section">
@@ -542,6 +557,17 @@ const faqJsonLd = JSON.stringify({
     text-transform: capitalize;
   }
 
+  .feature-link {
+    text-decoration: none;
+    transition: background 0.15s, transform 0.1s;
+  }
+
+  .feature-link:hover {
+    background: var(--accent);
+    color: white;
+    transform: translateY(-1px);
+  }
+
   /* Best For */
   .best-for-grid {
     display: grid;
@@ -559,6 +585,14 @@ const faqJsonLd = JSON.stringify({
     border-radius: var(--radius);
     font-weight: 500;
     font-size: 0.95rem;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .best-for-item:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-sm);
   }
 
   .best-for-icon {
@@ -719,5 +753,29 @@ const faqJsonLd = JSON.stringify({
       padding: 0 1.25rem 1rem;
       font-size: 0.9rem;
     }
+  }
+
+  .explore-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .explore-link-card {
+    padding: 0.6rem 1.2rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 0.88rem;
+    font-weight: 500;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .explore-link-card:hover {
+    border-color: var(--primary);
+    background: var(--primary-light);
+    color: var(--primary-dark);
   }
 </style>

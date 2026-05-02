@@ -46,7 +46,7 @@ ChatGPT is the most widely adopted AI tool in education, and for good reason. Fo
 
 [Claude](/tools/claude/)'s strengths align well with specific teacher workflows:
 
-**Assignment feedback**: Upload a student essay (remove the student's name first) and ask "Provide constructive written feedback on this essay, focusing on argument structure and evidence use, appropriate for a 10th-grade student." Claude gives nuanced, developmentally appropriate feedback quickly.
+**Assignment feedback**: Upload a student essay (remove the student's name first) and ask "Provide constructive written feedback on this essay, focusing on argument structure and evidence use, appropriate for a 10th-grade student." [Claude](/tools/claude/) gives nuanced, developmentally appropriate feedback quickly.
 
 **IEP and accommodation support**: Paste the accommodations from an IEP and ask Claude to help you modify a specific lesson to meet those requirements.
 

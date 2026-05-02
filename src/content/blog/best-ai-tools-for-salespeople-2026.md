@@ -19,7 +19,7 @@ Here's what's worth using.
 ChatGPT has become the default drafting assistant for sales teams. The use cases that work best aren't generic — they require good prompting.
 
 What salespeople actually use it for:
-- **Cold email sequences**: "Write a 3-email cold outreach sequence for a VP of Sales at a 500-person SaaS company. Lead with the problem of rep onboarding time." The output still needs personalization, but the structure and opening hooks are solid.
+- **Cold email sequences**: "Write a 3-email cold [outreach](/tools/outreach/) sequence for a VP of Sales at a 500-person SaaS company. Lead with the problem of rep onboarding time." The output still needs personalization, but the structure and opening hooks are solid.
 - **Objection responses**: Feed in a common objection ("Your price is too high") and ask for 5 different response angles. Pick and adapt the best one.
 - **Discovery call prep**: Paste a company's About page and recent press release, then ask for likely pain points and good discovery questions.
 - **Win/loss analysis**: Summarize patterns from multiple deal notes to identify what objections come up most often.
@@ -33,7 +33,7 @@ What salespeople actually use it for:
 Where ChatGPT is fast and punchy, [Claude](/tools/claude/) is better for longer, more structured work. If you're writing an RFP response, a detailed proposal, or analyzing a 40-page prospect contract before a big call, Claude handles the context better.
 
 Sales-specific strengths:
-- **Proposal drafting**: Give Claude your prospect's stated requirements, your product capabilities, and a competitor's known weaknesses. It produces well-structured, coherent proposals faster than starting from scratch.
+- **Proposal drafting**: Give [Claude](/tools/claude/) your prospect's stated requirements, your product capabilities, and a competitor's known weaknesses. It produces well-structured, coherent proposals faster than starting from scratch.
 - **Contract review before signing**: Upload an agreement and ask what terms are unusual or could be negotiated. Not legal advice — but it flags things worth asking about.
 - **Competitive intelligence**: Paste competitor documentation and ask for a direct comparison table to use in deal conversations.
 - **Account research**: Feed in a 10-K filing and ask for the three biggest strategic priorities that your product could address.

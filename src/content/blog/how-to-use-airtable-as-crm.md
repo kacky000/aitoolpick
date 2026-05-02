@@ -35,7 +35,7 @@ Create your base and add a table called **Contacts** with these fields:
 | Email | Email | |
 | Phone | Phone number | |
 | Stage | Single select | Lead / Prospect / Customer / Churned |
-| Source | Single select | Website / Referral / Cold Outreach / Event |
+| Source | Single select | Website / Referral / Cold [Outreach](/tools/outreach/) / Event |
 | Last Contacted | Date | Update manually or via automation |
 | Notes | Long text | Freeform context |
 | Tags | Multiple select | Industry, region, etc. |
@@ -53,7 +53,7 @@ Create a **Deals** table with:
 | Contact | Link to Contacts | Main contact for this deal |
 | Value | Currency | Expected deal value |
 | Stage | Single select | Qualified / Proposal / Negotiating / Closed Won / Closed Lost |
-| Close Date | Date | Expected or actual close date |
+| [Close](/tools/close/) Date | Date | Expected or actual close date |
 | Probability | Percent | Likelihood of winning |
 | Notes | Long text | |
 | Created | Created time | Auto-filled |
@@ -99,7 +99,7 @@ The "Follow Up Needed" view is especially useful — it automatically surfaces c
 
 Airtable's built-in automation (free tier allows 100 automation runs/month) can handle basic CRM workflows:
 
-- **When Stage changes to "Customer" → Send a Slack notification** to your team
+- **When Stage changes to "Customer" → Send a [Slack](/tools/slack/) notification** to your team
 - **When a new Contact is created → Send a welcome email** via Gmail
 - **When Close Date is tomorrow → Create a reminder record** in Activities
 
@@ -127,7 +127,7 @@ Airtable's template gallery has pre-built CRM templates at airtable.com/template
 
 Before committing to Airtable CRM:
 - No native email sending (you'll need [Zapier](/tools/zapier/) or Make integrations)
-- No call recording or VoIP integration out of the box
+- No call recording or VoIP integration out of the [box](/tools/box/)
 - Reporting is limited on the free plan
 - At 500+ contacts, Airtable's performance can slow down
 

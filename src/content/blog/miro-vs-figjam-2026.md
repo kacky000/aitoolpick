@@ -12,7 +12,7 @@ Online whiteboards have become essential for remote and hybrid teams. Miro and F
 
 | Feature | Miro | FigJam |
 |---------|------|--------|
-| **Starting Price** | Free (3 boards) | Free for all Figma users |
+| **Starting Price** | Free (3 boards) | Free for all [Figma](/tools/figma/) users |
 | **Paid Plans** | $8–$20/user/mo | $3/editor/mo (standalone) |
 | **Best For** | Workshops, strategy, all teams | Design teams on Figma |
 | **Canvas Size** | Infinite | Infinite |
@@ -52,7 +52,7 @@ FigJam offers [around](/tools/around/) 300+ templates, including brainstorming b
 
 FigJam's killer advantage is its native integration with Figma. You can copy and paste design components between Figma and FigJam, link to Figma files directly on the board, and switch between the two tools without leaving the Figma platform. For design teams, this creates a seamless workflow: brainstorm in FigJam, design in Figma, present from either.
 
-Miro integrates with Figma through a plugin, but it is a one-way embed — you can view Figma frames in Miro, but you cannot edit them. Miro also connects with Sketch, Adobe XD, and other design tools, giving it broader (if shallower) design ecosystem support.
+Miro integrates with Figma through a plugin, but it is a one-way embed — you can view Figma frames in Miro, but you cannot edit them. Miro also connects with Sketch, [Adobe XD](/tools/adobe-xd/), and other design tools, giving it broader (if shallower) design ecosystem support.
 
 **Winner:** FigJam for Figma-native teams. Miro for multi-tool design teams.
 
@@ -92,7 +92,7 @@ Miro's pricing is higher, but you get a more powerful tool. For organizations wh
 - Your team includes non-[designers](/best-for/designers/) (product managers, strategists, executives)
 - You need deep integrations with [project management](/category/project-management/) and communication tools
 - Template variety matters — you want a library that covers every use case
-- Built-in video chat and facilitation tools reduce your need for Zoom
+- Built-in video chat and facilitation tools reduce your need for [Zoom](/tools/zoom/)
 
 **Choose FigJam if:**
 - Your team already uses Figma for design work
@@ -105,7 +105,7 @@ Miro's pricing is higher, but you get a more powerful tool. For organizations wh
 
 Miro is the best standalone whiteboard tool in 2026. It has the deepest feature set for facilitation, the largest template library, and the broadest integration ecosystem. If whiteboarding is central to how your team works, Miro earns its price.
 
-FigJam is the best whiteboard for design teams already on Figma. The native integration is seamless, the price is right (often free), and it covers the most common whiteboarding use cases without the complexity of Miro. For teams that just need a quick space to brainstorm and sketch, FigJam delivers without overhead.
+FigJam is the best whiteboard for design teams already on Figma. The native integration is seamless, the price is right (often free), and it covers the most common whiteboarding use cases without the complexity of Miro. For teams that just need a quick space to brainstorm and [sketch](/tools/sketch/), FigJam delivers without overhead.
 
 The decision often comes down to one question: does your team already pay for Figma? If yes, start with FigJam. If your whiteboarding needs outgrow it, Miro is there.
 

@@ -16,7 +16,7 @@ The core insight is simple: video is more personal than text, and async video is
 
 A sales email says "I can help you with X." A Loom says "I noticed your team is using Y, here's exactly how we'd solve that problem for you" — while showing your face, your screen, and demonstrating genuine understanding.
 
-Studies consistently show personalized video outreach generates 2-3x higher reply rates than text-only emails. Loom is the fastest way to create that personalized video at scale.
+Studies consistently show personalized video [outreach](/tools/outreach/) generates 2-3x higher reply rates than text-only emails. Loom is the fastest way to create that personalized video at scale.
 
 ## Use Case 1: Personalized Prospecting Videos
 

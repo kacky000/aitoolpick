@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Airtable** and **Google Sheets** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-The question "should I use Airtable or Google Sheets?" comes up constantly in operations, marketing, and product teams. They look similar on the surface — both display data in rows and columns — but they're built on fundamentally different ideas.
+The question "should I use Airtable or Google Sheets?" comes up constantly in operations, marketing, and product teams. They look similar on the surface — both display data in [rows](/tools/rows/) and columns — but they're built on fundamentally different ideas.
 
 This comparison will help you pick the right tool for what you actually need.
 

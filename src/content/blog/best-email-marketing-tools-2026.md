@@ -20,7 +20,7 @@ This guide compares the five best email marketing tools for small businesses in 
 |---|---|---|---|
 | [Mailchimp](/tools/mailchimp/) | 500 contacts, 1,000 emails/mo | $13/month | Beginners, all-in-one |
 | ConvertKit | 10,000 subscribers | $25/month | Creators, bloggers |
-| Brevo | 300 emails/day, unlimited contacts | $9/month | Budget-conscious |
+| [Brevo](/tools/brevo/) | 300 emails/day, unlimited contacts | $9/month | Budget-conscious |
 | MailerLite | 1,000 subscribers, 12,000 emails/mo | $10/month | Simplicity |
 | Constant Contact | 60-day trial | $12/month | Events, nonprofits |
 
@@ -131,7 +131,7 @@ MailerLite consistently ranks as the easiest email marketing tool to use. The in
 
 ## 5. Constant Contact — Best for Events and Nonprofits
 
-Constant Contact has been around since 1995 and remains a solid choice for businesses that run events or work in the nonprofit space. Its event management features and social media integration stand out.
+Constant Contact has been [around](/tools/around/) since 1995 and remains a solid choice for businesses that run events or work in the nonprofit space. Its event management features and social media integration stand out.
 
 **Strengths:**
 - Event marketing and registration management
@@ -174,7 +174,7 @@ Before choosing, evaluate these factors:
 
 1. **List size and growth rate** — Will you hit paid tiers quickly?
 2. **Email volume** — How often do you send? (Matters for Brevo's model)
-3. **Automation needs** — Do you need welcome sequences, drip campaigns, or complex workflows?
+3. **Automation needs** — Do you need welcome sequences, [drip](/tools/drip/) campaigns, or complex workflows?
 4. **Integrations** — Does it connect to your e-commerce platform, CRM, or other tools?
 5. **Deliverability** — Check independent inbox placement rates before committing
 

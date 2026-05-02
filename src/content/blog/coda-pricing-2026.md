@@ -33,7 +33,7 @@ The free plan is more generous than most competitors on paper — unlimited docs
 - Core table functionality
 
 **Not in Free:**
-- Pack integrations (Jira, Gmail, GitHub, etc.)
+- Pack integrations (Jira, Gmail, [GitHub](/tools/github/), etc.)
 - Cross-doc functionality
 - Custom branding or domains
 - Advanced automations
@@ -71,11 +71,11 @@ This is where Coda gets expensive — and where it delivers the most unique valu
 The Pack integrations are the core reason to pay for Team. A Jira Pack that pulls in your open issues, a Gmail Pack that lets a button send an email from the doc — this functionality replaces [Zapier](/tools/zapier/) workflows for many operational processes.
 
 At $30/user/month, Team is expensive compared to alternatives:
-- Notion Business: $15/user/month
+- [Notion](/tools/notion/) Business: $15/user/month
 - [Airtable](/tools/airtable/) Business: $45/user/month
 - [ClickUp](/tools/clickup/) Business: $12/user/month
 
-Whether it's worth $30 depends entirely on whether you need the Packs. For teams replacing Zapier middleware with Coda-native integrations, the math can work out. For teams using Coda primarily for documents and tables, Pro at $10 is sufficient.
+Whether it's worth $30 depends entirely on whether you need the Packs. For teams replacing [Zapier](/tools/zapier/) middleware with Coda-native integrations, the math can work out. For teams using Coda primarily for documents and tables, Pro at $10 is sufficient.
 
 ## How Coda Pricing Compares
 
@@ -83,8 +83,8 @@ Whether it's worth $30 depends entirely on whether you need the Packs. For teams
 |------|----------------|-------------------|
 | Coda | $10/user/month (Pro) | $30/user/month (Team) |
 | Notion | $10/user/month (Plus) | $15/user/month (Business) |
-| Airtable | $20/seat/month (Team) | $45/seat/month (Business) |
-| ClickUp | $7/user/month (Unlimited) | $12/user/month (Business) |
+| [Airtable](/tools/airtable/) | $20/seat/month (Team) | $45/seat/month (Business) |
+| [ClickUp](/tools/clickup/) | $7/user/month (Unlimited) | $12/user/month (Business) |
 
 Coda sits between Notion and Airtable in price. It's more expensive than Notion at the team level, cheaper than Airtable. Whether Coda's formula power and document integration justify the premium over Notion depends on your workflow.
 

@@ -38,7 +38,7 @@ This pricing model makes Logseq one of the most affordable serious note-taking t
 
 Logseq's outliner is its defining feature. Every line of text is an indentable block. You write in an inherently hierarchical, structured way — perfect for meeting notes, research, and journaling.
 
-Unlike Obsidian (which uses flat Markdown files), Logseq's block structure enables **block-level references**. You can embed or link to a specific bullet point from another note, creating dense interconnections across your knowledge base.
+Unlike [Obsidian](/tools/obsidian/) (which uses flat Markdown files), Logseq's block structure enables **block-level references**. You can embed or link to a specific bullet point from another note, creating dense interconnections across your knowledge base.
 
 ### Bidirectional Linking and Graph View
 
@@ -75,7 +75,7 @@ The plugin ecosystem is smaller than Obsidian's (which has 1,000+ community plug
 
 ### Cons
 
-- **Steeper learning curve** than Notion or Evernote
+- **Steeper learning curve** than Notion or [Evernote](/tools/evernote/)
 - **Mobile app** is functional but less polished than desktop
 - **Smaller plugin ecosystem** than Obsidian
 - **Outliner structure** takes adjustment if you're used to free-form text
@@ -87,7 +87,7 @@ Logseq is an excellent fit for:
 - **Researchers and academics** who need to connect ideas across sources
 - **Developers** comfortable with plain-text files and version control (git-sync is possible)
 - **Privacy-conscious users** who want local-only notes
-- **Zettelkasten practitioners** who want a digital slip-box
+- **Zettelkasten practitioners** who want a digital slip-[box](/tools/box/)
 - **Daily journalers** who like an outliner workflow
 
 Logseq may not be ideal for:
@@ -97,7 +97,7 @@ Logseq may not be ideal for:
 
 ## Logseq vs Obsidian vs Notion
 
-| Feature | Logseq | Obsidian | Notion |
+| Feature | Logseq | Obsidian | [Notion](/tools/notion/) |
 |---------|--------|----------|--------|
 | Price | Free | Free | Free–$10/user |
 | Local-first | ✅ | ✅ | ❌ |
@@ -111,7 +111,7 @@ See our full [Logseq vs Notion comparison](/blog/logseq-vs-notion-2026) and [bes
 
 ## Verdict
 
-Logseq is a **genuinely excellent free tool** for personal knowledge management in 2026. Its outliner structure, local-first philosophy, and block-level references make it uniquely powerful for researchers, writers, and developers who think in interconnected notes.
+Logseq is a **genuinely excellent free tool** for personal knowledge management in 2026. Its outliner structure, local-first philosophy, and block-level references [make](/tools/make/) it uniquely powerful for researchers, writers, and developers who think in interconnected notes.
 
 The main barrier is the learning curve and less-polished mobile experience. If you're willing to invest an afternoon learning it, Logseq can transform how you organize and recall information.
 

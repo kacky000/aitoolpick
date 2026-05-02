@@ -94,7 +94,7 @@ If you are also considering ClickUp, check our [Notion vs ClickUp comparison](/b
 - **Teams of 15+** that need structured project management at scale
 - **Project managers** who rely on timelines, dependencies, and workload management
 - **Organizations with multiple concurrent projects** that need portfolio-level visibility
-- **Teams that want minimal setup** — Asana works well out of the box
+- **Teams that want minimal setup** — Asana works well out of the [box](/tools/box/)
 - **Enterprise teams** with compliance and governance requirements
 
 For a broader view of options in this category, see our guide to the [best project management tools in 2026](/blog/best-project-management-tools-2026).

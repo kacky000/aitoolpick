@@ -96,7 +96,7 @@ Grammarly is cheaper at every tier. But that's partly because it does less — i
 | Google Docs | Yes | No (standalone) |
 | Microsoft Word | Yes | No (Copilot is separate) |
 | Gmail | Yes | No |
-| Slack | Yes | No |
+| [Slack](/tools/slack/) | Yes | No |
 | API | No (consumer product) | Yes (developer API) |
 
 **Winner: Grammarly.** It works everywhere you write, without switching apps. ChatGPT lives in its own interface — you go to it, rather than it coming to you.

@@ -18,9 +18,9 @@ Freelancing means wearing every hat — designer, accountant, marketer, and proj
 | Project management | [ClickUp](/tools/clickup/) | Free-$7/mo | Best free plan in PM |
 | Task management | [Todoist](/tools/todoist/) | Free-$4/mo | Fast, clean, cross-platform |
 | Writing assistant | [Grammarly](/tools/grammarly/) | Free-$12/mo | Works everywhere |
-| Automation | Make | Free-$10.59/mo | Affordable automations |
-| Design | Canva | Free-$12.99/mo | No design skills needed |
-| AI assistant | Claude | Free-$20/mo | Best for writing and analysis |
+| Automation | [Make](/tools/make/) | Free-$10.59/mo | Affordable automations |
+| Design | [Canva](/tools/canva/) | Free-$12.99/mo | No design skills needed |
+| AI assistant | [Claude](/tools/claude/) | Free-$20/mo | Best for writing and analysis |
 
 ## Project Management: Notion + ClickUp
 

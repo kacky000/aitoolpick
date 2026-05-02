@@ -11,7 +11,7 @@ This guide walks you through the full migration process, from auditing your exis
 
 ## Why Switch from Zapier to n8n?
 
-There are four main reasons teams make the move:
+There are four main reasons teams [make](/tools/make/) the move:
 
 - **Cost savings** — Zapier's per-task pricing adds up quickly. A workflow that runs 1,000 times a month costs real money on Zapier but is essentially free on n8n self-hosted.
 - **Self-hosting option** — Run n8n on your own server and keep all data in-house. No third-party processing, no vendor lock-in.
@@ -152,7 +152,7 @@ Don't flip the switch all at once:
 - **Visual debugging** — See data at every node in real time during test runs
 - **Sub-workflows** — Call one workflow from another, enabling modular automation design
 - **Community nodes** — Install custom integrations built by the community
-- **No task counting** — A 20-step workflow is one execution, not twenty tasks
+- **No task counting** — A 20-step workflow is one execution, not [twenty](/tools/twenty/) tasks
 
 For teams building AI automations, see our [Make vs n8n](/blog/make-vs-n8n-2026) comparison to understand how n8n stacks up in that space.
 
@@ -161,7 +161,7 @@ For teams building AI automations, see our [Make vs n8n](/blog/make-vs-n8n-2026)
 Be honest about the trade-offs:
 
 - **Larger app library** — Zapier supports 7,000+ apps vs. n8n's 400+. Niche SaaS tools may not have native n8n nodes.
-- **Simpler interface** — Zapier's linear step-by-step builder is easier for non-technical users. n8n's canvas can overwhelm beginners.
+- **Simpler interface** — Zapier's [linear](/tools/linear/) step-by-step builder is easier for non-technical users. n8n's canvas can overwhelm beginners.
 - **Better support for non-technical teams** — Zapier's guided setup and templates require less technical knowledge.
 - **Zapier Tables** — Built-in lightweight database. n8n doesn't have an equivalent; you'll need an external database or [Airtable](/tools/airtable/).
 - **AI-powered Zap builder** — Zapier's natural language workflow builder is ahead of n8n's current AI features.

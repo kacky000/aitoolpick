@@ -50,7 +50,7 @@ Slack offers four pricing tiers:
 - Priority support 24/7
 - Best for: large enterprises
 
-Compared to 2025 pricing, Slack has maintained relatively stable rates, though the value proposition has shifted with competition from Microsoft Teams (which is included in Microsoft 365 subscriptions).
+Compared to 2025 pricing, Slack has maintained relatively stable rates, though the value proposition has shifted with competition from [Microsoft Teams](/tools/microsoft-teams/) (which is included in Microsoft 365 subscriptions).
 
 ## Key Features That Stand Out
 
@@ -84,7 +84,7 @@ Teams that transition from email-heavy workflows report dramatically reduced inb
 Unlike email, Slack conversations stay organized and discoverable, becoming an institutional knowledge base.
 
 **5. Strong Community & Resources**
-Slack has extensive documentation, community forums, and third-party tools built around it.
+Slack has extensive documentation, community forums, and third-party tools built [around](/tools/around/) it.
 
 ## Cons: Where Slack Falls Short
 
@@ -112,7 +112,7 @@ Workflows, Slack Apps, and custom integrations require technical knowledge. Non-
 Teams is bundled with Microsoft 365, making it significantly cheaper for organizations already invested in Microsoft's ecosystem. However, Teams' interface is less polished, and its integration ecosystem is smaller. [Slack vs Microsoft Teams](/blog/slack-vs-microsoft-teams-2026) covers this comparison in depth.
 
 **Slack vs. [Discord](/tools/discord/)**
-Discord is free and excellent for communities but lacks enterprise features like audit logs, admin controls, and compliance tools. Best for gaming communities, not enterprises.
+[Discord](/tools/discord/) is free and excellent for communities but lacks enterprise features like audit logs, admin controls, and compliance tools. Best for gaming communities, not enterprises.
 
 **Slack vs. Google Chat**
 Google Chat is free for Google Workspace users and integrates seamlessly with Google's tools. However, it's less feature-rich than Slack and has a smaller app ecosystem.
@@ -120,7 +120,7 @@ Google Chat is free for Google Workspace users and integrates seamlessly with Go
 ## Best For
 
 - Remote-first teams
-- Development teams (especially those using GitHub, Jira, and similar tools)
+- Development teams (especially those using [GitHub](/tools/github/), Jira, and similar tools)
 - Distributed organizations
 - Companies prioritizing searchable communication history
 - Teams needing 2,600+ integrations

@@ -117,7 +117,7 @@ See how Notion stacks up against a dedicated database tool in our [Notion vs Air
 
 **Weaknesses:**
 - Still not a native CRM — email and phone integrations require workarounds
-- Free plan limits records per base (1,000 rows)
+- Free plan limits records per base (1,000 [rows](/tools/rows/))
 - Learning curve for non-technical users
 
 **Who it's for:** Operations-minded teams that want full control over their CRM data structure and are willing to invest in setup time.
@@ -154,7 +154,7 @@ ClickUp has been expanding aggressively into CRM territory. Its CRM view lets yo
 | Monday.com CRM | $15/user/mo | No | Visual pipeline + PM integration |
 | HubSpot | $0 | Yes | Purpose-built CRM, email tracking |
 | Notion | $0 (individual) | Yes | Flexible, familiar for existing users |
-| Airtable | $0 (limited) | Yes | Relational data, custom structure |
+| [Airtable](/tools/airtable/) | $0 (limited) | Yes | Relational data, custom structure |
 | ClickUp | $0 (limited) | Yes | All-in-one with tasks + CRM |
 
 ---

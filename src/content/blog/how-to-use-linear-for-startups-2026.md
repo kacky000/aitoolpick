@@ -121,7 +121,7 @@ Once connected:
 - When you open a PR, Linear links it to the issue and updates the status
 - When the PR merges, the issue moves to Done
 
-This eliminates the manual status updating that kills Jira workflows.
+This eliminates the manual status updating that kills [Jira](/tools/jira/) workflows.
 
 ## Step 5: Prioritization with Views
 
@@ -152,7 +152,7 @@ This gives founders and stakeholders a high-level view without exposing the spri
 
 ## Linear Keyboard Shortcuts Worth Memorizing
 
-| Shortcut | Action |
+| [Shortcut](/tools/shortcut/) | Action |
 |----------|--------|
 | `C` | Create new issue |
 | `G then I` | Go to My Issues |

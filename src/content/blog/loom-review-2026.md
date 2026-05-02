@@ -36,7 +36,7 @@ The free plan is genuinely useful for occasional use — 25 videos is enough to 
 
 ## What Atlassian Changed (and What They Didn't)
 
-Since the acquisition, Loom has deepened its integration with Jira, Confluence, and the broader Atlassian ecosystem. If you're an Atlassian shop, Loom is now built into your workflow rather than bolted on.
+Since the acquisition, Loom has deepened its integration with [Jira](/tools/jira/), Confluence, and the broader Atlassian ecosystem. If you're an Atlassian shop, Loom is now built into your workflow rather than bolted on.
 
 The core recording experience hasn't changed. The free plan is still free. Pricing held steady.
 
@@ -83,7 +83,7 @@ For [remote teams](/best-for/remote-teams/) already living in Slack and Notion, 
 | **Loom** | Team async video | 25 videos, 5 min |
 | Vidyard | Sales teams | 1 video limit |
 | Screencast-O-Matic | Simple recording | Watermark |
-| Zoom clips | Existing Zoom users | Limited |
+| [Zoom](/tools/zoom/) clips | Existing Zoom users | Limited |
 | Scribe | Process docs (not video) | 10 docs |
 
 Loom's free plan is the most useful of the group. Vidyard's single-video free tier is nearly useless. Zoom Clips works if your org is all-in on Zoom, but the integration depth doesn't match Loom's.

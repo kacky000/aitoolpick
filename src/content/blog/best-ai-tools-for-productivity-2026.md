@@ -123,7 +123,7 @@ Zapier connects 6,000+ apps and now uses AI to [make](/tools/make/) automation e
 | ChatGPT | General AI tasks | Yes | $20/mo |
 | Claude | Long docs & writing | Yes | $20/mo |
 | Perplexity | Research | Yes | $20/mo |
-| ClickUp AI | Project management | Yes | $9/mo add-on |
+| [ClickUp](/tools/clickup/) AI | Project management | Yes | $9/mo add-on |
 | Grammarly | Writing quality | Yes | $12/mo |
 | Zapier AI | Automation | Yes | $29.99/mo |
 

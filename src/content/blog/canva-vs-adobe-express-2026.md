@@ -62,7 +62,7 @@ Both tools have invested heavily in AI. Here is where things stand in 2026.
 
 **Canva's AI toolkit (Magic Studio):**
 - **Magic Design** — describe what you need and get a complete design generated automatically
-- **Magic Eraser** — remove unwanted objects from photos
+- **Magic [Eraser](/tools/eraser-io/)** — remove unwanted objects from photos
 - **Magic Expand** — extend image backgrounds beyond the original frame
 - **Magic Write** — AI text generation for captions, headlines, and body copy
 - **Magic Animate** — add animations to any element in one click
@@ -73,7 +73,7 @@ Both tools have invested heavily in AI. Here is where things stand in 2026.
 - **Firefly Image Generation** — create images from text prompts, trained exclusively on licensed content (important for commercial use)
 - **Generative Fill** — add or replace elements in photos using AI
 - **Text Effects** — apply AI-generated textures and styles to text
-- **Generative Recolor** — change the color palette of vector artwork instantly
+- **Generative Recolor** — change the color palette of vector artwork [instantly](/tools/instantly/)
 - **Remove Background** — one-click background removal powered by Photoshop's engine
 
 **Winner: Tie — but for different reasons.** Canva offers more AI features across a broader range of tasks. Adobe Firefly's image generation is arguably higher quality and is trained on licensed content, which matters if you worry about copyright in commercial projects. If you need general-purpose AI design help, Canva has more tools. If image generation quality and legal safety are your priority, Adobe wins.
@@ -120,7 +120,7 @@ Video editing in a design tool used to be an afterthought. In 2026, both Canva a
 - Export up to 1080p
 - Merge and resize videos for different platforms
 
-**Winner: Canva.** The video editor is more capable, supports higher resolution output, and has more templates. Adobe Express's video tools feel like an add-on rather than a primary feature. If video editing is a major part of your workflow, neither tool replaces a dedicated editor like Premiere Pro or DaVinci Resolve — but Canva gets you further.
+**Winner: Canva.** The video editor is more capable, supports higher resolution output, and has more templates. Adobe Express's video tools feel like an add-on rather than a primary feature. If video editing is a major part of your workflow, neither tool replaces a dedicated editor like Premiere Pro or [DaVinci Resolve](/tools/davinci-resolve/) — but Canva gets you further.
 
 ---
 

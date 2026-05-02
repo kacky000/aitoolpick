@@ -38,7 +38,7 @@ For most beginners, Canva Free is more than enough to start. Upgrade to Pro only
 
 ## Step 1: Start With a Template, Not a Blank Canvas
 
-The single biggest mistake beginners make is opening a blank canvas and freezing. Don't do this.
+The single biggest mistake beginners [make](/tools/make/) is opening a blank canvas and freezing. Don't do this.
 
 Canva's core value is its template library. On the home screen:
 
@@ -93,7 +93,7 @@ In the Brand Kit, upload:
 - Your exact brand colors (hex codes)
 - Your chosen fonts (headline + body)
 
-Once set up, Brand Kit elements appear in a dedicated sidebar in every design. Click to apply your logo, colors, or fonts instantly. Every design you create will look consistent.
+Once set up, Brand Kit elements appear in a dedicated sidebar in every design. Click to apply your logo, colors, or fonts [instantly](/tools/instantly/). Every design you create will look consistent.
 
 Canva Free users cannot save custom colors/fonts as a Brand Kit, but you can bookmark the hex codes in a note for manual reference.
 
@@ -143,7 +143,7 @@ Canva is the right tool for 80% of non-designer use cases. Consider alternatives
 - You need vector illustration at a professional level → [Figma](/tools/figma/) or Adobe Illustrator
 - You need advanced photo editing → Photoshop or Photopea
 - You need complex video editing → [CapCut](/tools/capcut/) or DaVinci Resolve
-- You need full design systems for product work → Figma
+- You need full design systems for product work → [Figma](/tools/figma/)
 
 For social media, marketing collateral, documents, and presentations, Canva remains the best choice.
 
@@ -153,7 +153,7 @@ Related: [Best Canva Alternatives in 2026](/blog/best-canva-alternatives-2026) |
 
 Once you are comfortable with the basics:
 
-1. **Canva Docs** — A Google Docs-like document tool with native design integration
+1. **[Canva Docs](/tools/canva-docs/)** — A Google Docs-like document tool with native design integration
 2. **Canva Sheets** — Data + design, useful for infographics
 3. **Content Planner** — Schedule social posts directly from Canva Pro
 4. **Print products** — Order business cards, stickers, mugs, and T-shirts directly from Canva

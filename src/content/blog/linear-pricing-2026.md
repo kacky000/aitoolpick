@@ -100,7 +100,7 @@ Enterprise pricing is negotiated based on team size and requirements. Expect sig
 | [ClickUp](/tools/clickup/) | ✅ | $7/user/mo | $12/user/mo |
 | [Jira](/tools/jira/) | ✅ (10 users) | $7.75/user/mo | $15.25/user/mo |
 
-Linear's pricing is competitive, especially considering its free plan has no user cap. Compared to Jira — the traditional choice for engineering teams — Linear is slightly more expensive at the Basic tier but offers a dramatically better user experience.
+Linear's pricing is competitive, especially considering its free plan has no user cap. Compared to [Jira](/tools/jira/) — the traditional choice for engineering teams — Linear is slightly more expensive at the Basic tier but offers a dramatically better user experience.
 
 Read more: [Linear vs Asana comparison](/blog/linear-vs-asana-2026)
 

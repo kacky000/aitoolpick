@@ -95,7 +95,7 @@ Monday.com automations won't carry over. Audit your existing automations and reb
 - Task assignment on status change
 - Due date reminders
 - Moving tasks between sections
-- Slack notifications
+- [Slack](/tools/slack/) notifications
 
 Asana's Rules cover common automation scenarios. For complex automations that used Monday.com's custom recipes, you may need [Zapier](/tools/zapier/) or Make (formerly Integromat) as a bridge.
 
@@ -121,7 +121,7 @@ Run a 30-minute walkthrough showing where tasks live and how to update status. C
 
 - **Assignee emails don't match** — Monday.com may use different emails than Asana accounts. Export your Monday.com user list, match to Asana accounts, and bulk-reassign after import.
 - **Dates import incorrectly** — Reformat to YYYY-MM-DD in your spreadsheet before import.
-- **Sub-items don't nest** — Monday.com sub-items export as flat rows. After import, manually convert them to subtasks using drag-and-drop or Asana's Tab+N shortcut.
+- **Sub-items don't nest** — Monday.com sub-items export as flat rows. After import, manually convert them to subtasks using drag-and-drop or Asana's Tab+N [shortcut](/tools/shortcut/).
 - **Comments are lost** — CSV export excludes Monday.com Updates. Screenshot or copy critical decision threads before migrating.
 
 ## Timeline and Final Steps

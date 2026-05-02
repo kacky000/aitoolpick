@@ -13,7 +13,7 @@ AI app builders let you describe what you want in plain English and get a workin
 |------|----------|---------------|-----------------|--------|
 | **Lovable** | Full-stack MVPs | $20/mo | [Supabase](/tools/supabase/) built-in | One-click |
 | **[Bolt.new](/tools/bolt/)** | Quick prototypes | $20/mo | Limited | Browser-based |
-| **V0** | UI components | Free tier | None | Vercel |
+| **V0** | UI components | Free tier | None | [Vercel](/tools/vercel/) |
 | **[Replit](/tools/replit/) Agent** | Learning + building | $25/mo | Yes | Built-in |
 | **Cursor** | [Developers](/best-for/developers/) who code | $20/mo | Yes (you build it) | Manual |
 
@@ -24,9 +24,9 @@ AI app builders let you describe what you want in plain English and get a workin
 [Lovable](/tools/lovable/) reached $20M ARR in just two months — the fastest-growing startup in European history — and for good reason. It's the most complete AI app builder for going from idea to deployed product.
 
 **What makes it stand out:**
-- Built-in Supabase integration for database, auth, and storage
+- Built-in [Supabase](/tools/supabase/) integration for database, auth, and storage
 - One-click deployment to production
-- GitHub export for continuing development in a real IDE
+- [GitHub](/tools/github/) export for continuing development in a real IDE
 - Generates clean React + TypeScript code
 
 **Pricing:** From $20/month with usage limits. Free tier available for testing.
@@ -47,7 +47,7 @@ Bolt.new runs entirely in your browser using WebContainers — no local setup re
 
 **Pricing:** Pro at $20/month includes 10 million tokens, Git integration, and Supabase support.
 
-**Limitations:** Token consumption can spike on complex projects. Limited backend capabilities compared to Lovable.
+**Limitations:** Token consumption can spike on complex projects. Limited backend capabilities compared to [Lovable](/tools/lovable/).
 
 ## 3. V0 (by Vercel)
 
@@ -107,7 +107,7 @@ Replit Agent combines an [AI coding](/category/ai-coding/) assistant with a full
 
 **Pick Replit if:** You're learning to code or want an all-in-one environment.
 
-**Pick Cursor if:** You're a developer who wants AI to accelerate your coding, not replace it.
+**Pick [Cursor](/tools/cursor/) if:** You're a developer who wants AI to accelerate your coding, not replace it.
 
 ## What AI App Builders Can't Do (Yet)
 

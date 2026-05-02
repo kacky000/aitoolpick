@@ -38,7 +38,7 @@ High-value executive use cases:
 Where executives get the most value:
 - **Competitive landscape summaries**: "Summarize how companies in enterprise SaaS typically respond when a hyperscaler enters their market. What strategies tend to work, and what fails?"
 - **Scenario planning**: "Here's our current business model. Walk me through three scenarios for how the next 18 months might unfold if inflation stays elevated, and what we should prepare for in each."
-- **First-draft communications**: Quick drafts of investor emails, press releases, internal memos. Still needs your voice and judgment, but faster to refine than to start from scratch.
+- **First-draft communications**: Quick drafts of investor emails, press releases, internal [memos](/tools/memos/). Still needs your voice and judgment, but faster to refine than to start from scratch.
 - **Executive briefings**: "Explain [complex regulatory change] in plain language and tell me what the material implications are for a $200M professional services firm."
 
 The key for executives: treat AI like a smart, well-read analyst who needs direction but can quickly synthesize large amounts of information.

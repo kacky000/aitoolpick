@@ -15,7 +15,7 @@ Not every team needs a $20/user/month project management tool. Many of the best 
 | Tool | Users | Projects | Key Limit |
 |------|-------|----------|-----------|
 | [ClickUp](/tools/clickup/) | Unlimited | Unlimited | 100MB storage |
-| Asana | Up to 10 | Unlimited | No timeline/goals |
+| [Asana](/tools/asana/) | Up to 10 | Unlimited | No timeline/goals |
 | [Trello](/tools/trello/) | Unlimited | 10 boards | 1 Power-Up/board |
 | [Notion](/tools/notion/) | Up to 10 | Unlimited | Limited blocks for teams |
 | [Linear](/tools/linear/) | Unlimited | Unlimited | 250 issues |
@@ -96,13 +96,13 @@ Linear is purpose-built for software engineering teams. The free plan includes u
 **What you get for free**:
 - Unlimited members
 - Issues, cycles, and roadmaps
-- Git integration (GitHub, GitLab)
+- Git integration ([GitHub](/tools/github/), GitLab)
 - Keyboard-first interface
 - API access
 
 **Key limitations**: 250 issue limit. No advanced analytics or SAML SSO.
 
-**Best for**: Small engineering teams and startups who want a fast, opinionated issue tracker without Jira's complexity.
+**Best for**: Small engineering teams and startups who want a fast, opinionated issue tracker without [Jira](/tools/jira/)'s complexity.
 
 [See all Linear alternatives →](/alternatives/linear/)
 

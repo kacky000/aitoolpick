@@ -29,7 +29,7 @@ Obsidian's **graph view** and **bidirectional linking** [make](/tools/make/) it 
 Notion offers linked databases and relations between pages, but it's more structured. You're working with databases and properties rather than freeform connections.
 
 ### Collaboration
-Notion is built for teams. Real-time editing, comments, permissions, and shared workspaces make it ideal for collaborative work.
+Notion is built for teams. Real-time editing, comments, permissions, and shared workspaces [make](/tools/make/) it ideal for collaborative work.
 
 Obsidian is primarily a solo tool. While Obsidian Publish lets you share notes as a website, real-time collaboration isn't a core feature.
 

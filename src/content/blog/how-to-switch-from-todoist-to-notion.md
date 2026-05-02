@@ -18,7 +18,7 @@ Be honest about the trade-offs before investing time in migration.
 
 ### What You Gain With Notion
 
-- **Databases**: Tasks become rows in a database with custom properties, views, and relations. You can build exactly the system you want.
+- **Databases**: Tasks become [rows](/tools/rows/) in a database with custom properties, views, and relations. You can build exactly the system you want.
 - **Documentation**: Notes, meeting minutes, project briefs, and SOPs live alongside your tasks. No more switching between apps.
 - **Wikis**: Create team knowledge bases, process documentation, and reference libraries.
 - **Relations & Rollups**: Connect tasks to projects, projects to goals, and goals to quarterly reviews. Build a complete productivity system.

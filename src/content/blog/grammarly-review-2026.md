@@ -88,7 +88,7 @@ It's competent but not as capable as dedicated AI chatbots. Think of GrammarlyGO
 
 ## Grammarly vs AI Chatbots
 
-| Feature | Grammarly | ChatGPT/Claude |
+| Feature | Grammarly | [ChatGPT](/tools/chatgpt/)/Claude |
 |---------|-----------|----------------|
 | Inline corrections | Yes | No |
 | Works in all apps | Yes | No (separate window) |

@@ -6,7 +6,7 @@ tags: ["asana", "beginners", "project-management", "task-management", "guide"]
 heroImage: "/thumbs/asana-for-beginners-guide-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Asana has more features than most people ever use, which can make it feel overwhelming when you first start. The good news: you can get genuine value from Asana by learning just a handful of core concepts.
+Asana has more features than most people ever use, which can [make](/tools/make/) it feel overwhelming when you first start. The good news: you can get genuine value from Asana by learning just a handful of core concepts.
 
 Here's how to get started without getting lost.
 
@@ -92,7 +92,7 @@ You can switch between views at the top of any project. All views show the same 
 By default, My Tasks has three sections:
 - **Today**: What you're doing today
 - **Upcoming**: What's coming up in the next week
-- **Later**: Everything else
+- **[Later](/tools/later/)**: Everything else
 
 Move tasks between sections as priorities shift. This is your daily command center.
 

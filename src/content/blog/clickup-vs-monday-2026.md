@@ -62,7 +62,7 @@ Monday.com does fewer things but does them with more polish:
 
 - **Intuitive board system**: Color-coded, drag-and-drop, immediately understandable
 - **200+ automation recipes**: Pre-built automation templates that non-technical users can set up in minutes
-- **200+ native integrations**: More out-of-the-box connections than ClickUp
+- **200+ native integrations**: More out-of-the-[box](/tools/box/) connections than ClickUp
 - **Monday CRM**: A built-in CRM product (separate add-on) that lives inside the same interface
 - **Polished dashboards**: Executive-ready reporting with clean visualization widgets
 - **Monday AI** (included in Pro+): Task generation, formula builder, content summarization
@@ -109,7 +109,7 @@ For a 10-person team: ClickUp Unlimited + AI = $140/month. Monday.com Pro (with 
 
 **Monday.com** has a dedicated **Monday CRM** product that integrates seamlessly with its Work Management product. You can manage leads, deals, contacts, and sales pipelines in the same interface your project managers use. This is a genuine competitive advantage for teams that need both PM and CRM.
 
-**ClickUp** offers CRM functionality through custom views and templates, but it's not a purpose-built CRM. You can make it work, but it requires significant configuration.
+**ClickUp** offers CRM functionality through custom views and templates, but it's not a purpose-built CRM. You can [make](/tools/make/) it work, but it requires significant configuration.
 
 **Winner:** Monday.com — purpose-built CRM vs DIY approach.
 
@@ -121,7 +121,7 @@ For a 10-person team: ClickUp Unlimited + AI = $140/month. Monday.com Pro (with 
 
 **Monday.com** is customizable within its framework, but there are more guardrails. This is intentional — the constraints are what keep Monday.com simple and intuitive. But teams with unusual workflows may feel limited.
 
-**Winner:** ClickUp — if customization is a priority, nothing else comes close.
+**Winner:** ClickUp — if customization is a priority, nothing else comes [close](/tools/close/).
 
 ---
 

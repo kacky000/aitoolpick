@@ -38,7 +38,7 @@ Microsoft Teams has closed the gap significantly. Video quality on a stable conn
 
 Teams offers a full messaging platform with persistent channels, threaded conversations, file sharing, and integration with SharePoint document libraries. Channels can be organized by team and topic, and the chat experience rivals dedicated tools like [Slack](/tools/slack/). For organizations that need messaging and meetings in one place, Teams eliminates the need for a separate chat tool.
 
-Zoom Team Chat has improved substantially but still feels secondary to Zoom's core meeting experience. Channels exist, threading works, and file sharing is supported. But the feature depth — search, message formatting, integrations within chat — does not match Teams or Slack.
+Zoom Team Chat has improved substantially but still feels secondary to Zoom's core meeting experience. Channels exist, threading works, and file sharing is supported. But the feature depth — search, message formatting, integrations within chat — does not match Teams or [Slack](/tools/slack/).
 
 **Winner:** Teams for daily messaging and team communication.
 
@@ -106,7 +106,7 @@ Zoom's standalone pricing is higher, but you pay for a best-in-class meeting exp
 **Choose Zoom if:**
 - Video quality and meeting reliability are your top priorities
 - You run regular webinars or large virtual events
-- Your organization uses a mix of tools (Google Workspace, Salesforce, etc.)
+- Your organization uses a mix of tools (Google Workspace, [Salesforce](/tools/salesforce/), etc.)
 - Simplicity matters — you want meetings that just work with minimal setup
 - You want AI meeting features included without a $30/user/mo add-on
 

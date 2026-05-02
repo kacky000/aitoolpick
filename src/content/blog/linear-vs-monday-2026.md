@@ -40,7 +40,7 @@ Monday.com is well-designed but heavier. Complex boards with many items can slow
 
 Linear integrates deeply with GitHub, [GitLab](/tools/gitlab/), and Slack. Link pull requests to issues automatically, track branch status, and close issues when PRs merge. Cycles (similar to sprints) run automatically, and triage helps teams process incoming requests efficiently.
 
-Monday.com integrates with GitHub and GitLab through third-party or native integrations, but the connection is less seamless. It supports sprint planning through templates, but you are building a dev workflow on top of a general-purpose tool.
+Monday.com integrates with [GitHub](/tools/github/) and GitLab through third-party or native integrations, but the connection is less seamless. It supports sprint planning through templates, but you are building a dev workflow on top of a general-purpose tool.
 
 **Winner: Linear** — purpose-built for software development.
 
@@ -87,7 +87,7 @@ Linear provides insights focused on development metrics — cycle velocity, issu
 | Standard | $12/mo/seat | Timeline, Gantt, automations (250/mo) |
 | Pro | $19/mo/seat | [Time tracking](/category/time-tracking/), formula columns, unlimited automations |
 
-Monday.com's free plan is limited to 2 users, making it less practical for teams. Linear's free plan caps issues at 250 but supports more users. For growing teams, Linear Basic ($10/user) versus Monday.com Standard ($12/seat) is relatively close in price.
+Monday.com's free plan is limited to 2 users, making it less practical for teams. Linear's free plan caps issues at 250 but supports more users. For growing teams, Linear Basic ($10/user) versus Monday.com Standard ($12/seat) is relatively [close](/tools/close/) in price.
 
 For more on what Linear offers, see our [Linear review for 2026](/blog/linear-review-2026). For Monday.com's full capabilities, read our [Monday.com review for 2026](/blog/monday-review-2026).
 
@@ -98,7 +98,7 @@ For more on what Linear offers, see our [Linear review for 2026](/blog/linear-re
 - **Teams using GitHub/GitLab** that want deep, native integration
 - **Developers** who prefer keyboard-driven workflows
 - **Engineering managers** who want clean cycle metrics and backlog management
-- **Teams frustrated with Jira** who want something faster and simpler
+- **Teams frustrated with [Jira](/tools/jira/)** who want something faster and simpler
 
 For more engineering-focused options, explore our [best Linear alternatives in 2026](/blog/best-linear-alternatives-2026).
 
@@ -121,7 +121,7 @@ This approach adds integration overhead, but it gives each team the best tool fo
 
 **Choose Linear** if your primary users are software developers. It is faster, more focused, and designed [around](/tools/around/) how engineering teams actually work. The opinionated workflow reduces setup time and keeps teams moving quickly.
 
-**Choose Monday.com** if you need a platform that works across departments. Its flexibility, visual interface, and automation capabilities make it the better choice for organizations where engineering is just one of many teams.
+**Choose Monday.com** if you need a platform that works across departments. Its flexibility, visual interface, and automation capabilities [make](/tools/make/) it the better choice for organizations where engineering is just one of many teams.
 
 The wrong choice is forcing developers to use a generic tool or forcing marketers to use a dev-focused issue tracker. Match the tool to the team.
 

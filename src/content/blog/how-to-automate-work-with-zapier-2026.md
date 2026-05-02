@@ -12,7 +12,7 @@ Most people who sign up for Zapier set up one automation, then stop. The initial
 
 Zapier connects apps using a Trigger → Action structure. When something happens in App A (the trigger), Zapier does something in App B (the action).
 
-Example: When a new row is added to Google Sheets (trigger) → Send a Slack message with that row's data (action).
+Example: When a new row is added to Google Sheets (trigger) → Send a [Slack](/tools/slack/) message with that row's data (action).
 
 Zaps can have multiple steps. A trigger can kick off 3-4 actions in sequence, and you can add logic (filters, paths) to handle different conditions.
 
@@ -49,7 +49,7 @@ Gives sales reps real-time signals about which leads are engaged without manual 
 ### New Deal Won → Onboarding Kickoff
 When a deal is marked Closed Won in your CRM → Send a welcome email to the new customer → Create an onboarding task list in your project management tool → Notify the customer success team in Slack.
 
-This eliminates the handoff gap between sales and customer success that loses momentum post-close.
+This eliminates the handoff gap between sales and customer success that loses momentum post-[close](/tools/close/).
 
 ### Meeting Scheduled → Prep Checklist
 When a meeting is created in Google Calendar with a prospect → Create a research task in Asana or [Notion](/tools/notion/) → Send a Slack reminder to the rep 30 minutes before the meeting.

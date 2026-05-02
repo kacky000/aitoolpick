@@ -49,11 +49,11 @@ Jira also sells **Jira Product Discovery** ($10/creator/month), **Jira Service M
 
 **Price-to-value for small teams.** Below 30 engineers, the flexibility is a tax, not a benefit. You are paying for configurability you don't need.
 
-**Public perception in engineering culture.** Linear has become shorthand for "we care about developer experience." Choosing Jira at a hot startup now requires justification.
+**Public perception in engineering culture.** [Linear](/tools/linear/) has become shorthand for "we care about developer experience." Choosing Jira at a hot startup now requires justification.
 
 ## Jira vs. The Competition
 
-| Feature | Jira | Linear | ClickUp |
+| Feature | Jira | Linear | [ClickUp](/tools/clickup/) |
 |---------|------|--------|---------|
 | Setup time | Days | Minutes | Hours |
 | Speed | Slow | Instant | Medium |

@@ -48,7 +48,7 @@ ChatGPT is the most widely used AI tool among HR teams because HR generates an e
 
 **Benefits comparison**: Upload competing benefit plan documents and get a structured comparison.
 
-**Policy gap analysis**: Feed Claude your current HR policies and the employment laws for your state/country — ask what gaps exist.
+**Policy gap analysis**: Feed [Claude](/tools/claude/) your current HR policies and the employment laws for your state/country — ask what gaps exist.
 
 **Resume screening guidelines**: Paste a large batch of screener notes or profiles and ask Claude to identify patterns or summarize candidates against criteria.
 
@@ -98,7 +98,7 @@ HR involves a lot of data moving between systems: an offer accepted in your ATS 
 - **New hire provisioning**: When ATS marks candidate as hired → create accounts in [Slack](/tools/slack/), Gmail, Notion
 - **Onboarding scheduling**: Automatically schedule 30/60/90-day check-in meetings
 - **Survey automation**: Send engagement survey 90 days after start date
-- **Birthday/anniversary recognition**: Pull dates from HRIS and post to Slack
+- **Birthday/anniversary recognition**: Pull dates from HRIS and post to [Slack](/tools/slack/)
 - **Offboarding checklists**: When HRIS marks employee as departing → trigger IT deprovisioning tasks
 
 For HR teams without engineering resources, Zapier's no-code interface is genuinely accessible.

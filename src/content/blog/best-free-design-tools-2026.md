@@ -17,7 +17,7 @@ You don't need expensive software to create professional designs. These free des
 | **[Canva](/tools/canva/)** | Social media & marketing | 5 GB storage, 1M+ templates | $13/month |
 | **[Figma](/tools/figma/)** | UI/UX design | 3 projects, unlimited editors | $15/editor/month |
 | **Photopea** | Photo editing | Full features, ad-supported | $5/month (ad-free) |
-| **Penpot** | Open-source design | Unlimited, self-hostable | Free forever |
+| **[Penpot](/tools/penpot/)** | Open-source design | Unlimited, self-hostable | Free forever |
 | **Pixlr** | Quick photo edits | Basic tools, watermark on exports | $5/month |
 | **Lunacy** | Desktop design | Full features, built-in assets | Free forever |
 
@@ -59,7 +59,7 @@ Photopea is a browser-based photo editor that closely mirrors Adobe Photoshop:
 
 - **Full PSD support** — open and edit Photoshop files
 - **Layer-based editing** with masks, blending modes, and effects
-- **Support for PSD, XCF, Sketch, XD**, and RAW formats
+- **Support for PSD, XCF, [Sketch](/tools/sketch/), XD**, and RAW formats
 - **All core Photoshop tools**: clone stamp, healing brush, pen tool, etc.
 - **No account required** — just open the website and start editing
 - **Works offline** as a PWA
@@ -116,7 +116,7 @@ Lunacy by Icons8 is a full-featured desktop design application:
 
 - **GIMP** — Open-source image editor with professional capabilities (steep learning curve)
 - **Inkscape** — Vector graphics editor, free and open-source
-- **Blender** — 3D modeling and rendering (completely free)
+- **[Blender](/tools/blender/)** — 3D modeling and rendering (completely free)
 - **[Excalidraw](/tools/excalidraw/)** — Whiteboard-style diagramming
 
 ## How to Choose the Right Free Design Tool

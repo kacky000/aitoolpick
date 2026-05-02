@@ -100,11 +100,11 @@ Both integrate with common nonprofit tools:
 |-------------|--------|---------|
 | Google Workspace | ✅ | ✅ |
 | [Slack](/tools/slack/) | ✅ | ✅ |
-| Zoom | ✅ | ✅ |
+| [Zoom](/tools/zoom/) | ✅ | ✅ |
 | [Salesforce](/tools/salesforce/)/CRM | Via Zapier | Via Zapier |
 | QuickBooks | Via [Zapier](/tools/zapier/) | Via Zapier |
 | [Mailchimp](/tools/mailchimp/) | Via Zapier | Via Zapier |
-| Zapier | ✅ | ✅ |
+| [Zapier](/tools/zapier/) | ✅ | ✅ |
 
 Neither has deep native nonprofit-specific integrations (like DonorPerfect or Bloomerang), so third-party automation via [Zapier](/tools/zapier) is typically needed for donor management workflows.
 

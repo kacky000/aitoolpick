@@ -104,12 +104,12 @@ Both platforms connect to the broader data stack, though the approaches differ.
 
 ### Notion Integrations
 
-- **GitHub**: available through third-party integrations and the API
-- **Slack**: native integration for notifications and page sharing
-- **Zapier/Make**: similar breadth of connections as ClickUp
+- **[GitHub](/tools/github/)**: available through third-party integrations and the API
+- **[Slack](/tools/slack/)**: native integration for notifications and page sharing
+- **[Zapier](/tools/zapier/)/Make**: similar breadth of connections as ClickUp
 - **API**: well-documented REST API. Many data teams build custom integrations that push pipeline metadata, freshness metrics, or dbt model documentation directly into Notion databases
 
-Neither platform offers native, out-of-the-box connectors to dbt, Snowflake, or Airflow. Both rely on their APIs or Zapier/Make for those connections. ClickUp's native GitHub integration is slightly more polished than what's available for Notion.
+Neither platform offers native, out-of-the-box connectors to dbt, [Snowflake](/tools/snowflake/), or Airflow. Both rely on their APIs or Zapier/Make for those connections. ClickUp's native GitHub integration is slightly more polished than what's available for Notion.
 
 **Winner: Tie**. Both platforms integrate with data tools through APIs and automation platforms. ClickUp has a slight edge on native GitHub integration, Notion has a slight edge on API flexibility.
 
@@ -128,7 +128,7 @@ Here's what each platform actually costs for a typical data team:
 **5-person team**: $50-100/month
 **15-person team**: $150-300/month
 
-Notion AI is an add-on at $10/member/month. For a 15-person team, that's an extra $150/month.
+[Notion AI](/tools/notion-ai/) is an add-on at $10/member/month. For a 15-person team, that's an extra $150/month.
 
 ### ClickUp
 

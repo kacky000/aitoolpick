@@ -40,14 +40,14 @@ Not every feature matters equally. Rank these by importance for your team:
 
 | Feature | Best Tools |
 |---------|-----------|
-| Speed & Performance | Linear, Todoist |
+| Speed & Performance | Linear, [Todoist](/tools/todoist/) |
 | Customization | ClickUp, [Airtable](/tools/airtable/) |
-| Built-in Docs | Notion, ClickUp |
-| Visual Boards | Trello, Monday.com |
+| Built-in Docs | Notion, [ClickUp](/tools/clickup/) |
+| Visual Boards | Trello, [Monday.com](/tools/monday/) |
 | Automations | Monday.com, Zapier |
 | Git Integration | Linear, ClickUp |
 | Time Tracking | ClickUp, Monday.com |
-| Free Plan | ClickUp, Trello, Notion |
+| Free Plan | ClickUp, Trello, [Notion](/tools/notion/) |
 | AI Features | Notion, Linear, ClickUp |
 
 ## Step 3: Consider Your Budget
@@ -71,7 +71,7 @@ PM tool pricing varies dramatically. Here's what you'll pay for a 10-person team
 A powerful tool that nobody uses is worse than a simple tool everyone loves.
 
 **Easiest to learn:**
-- Trello — drag cards, done
+- [Trello](/tools/trello/) — drag cards, done
 - Todoist — type tasks, done
 - Monday.com — visual and intuitive
 

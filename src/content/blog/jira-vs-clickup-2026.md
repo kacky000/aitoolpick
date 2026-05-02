@@ -105,7 +105,7 @@ Pick Jira if your team:
 - Is primarily engineers practicing Scrum or Kanban
 - Needs native sprint planning, velocity tracking, and burndown reports
 - Already uses Confluence, Bitbucket, or Atlassian ecosystem tools
-- Requires deep integration with GitHub/GitLab for issue-to-commit linking
+- Requires deep integration with [GitHub](/tools/github/)/GitLab for issue-to-commit linking
 - Values compliance and enterprise-grade security controls
 
 ## Who Should Choose ClickUp?

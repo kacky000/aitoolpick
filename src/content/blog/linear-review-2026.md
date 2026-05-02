@@ -36,7 +36,7 @@ Linear connects deeply with [GitHub](/tools/github/), GitLab, and Bitbucket. Lin
 New issues land in a triage queue where team leads can review, prioritize, and assign them. The inbox keeps you updated on mentions and changes relevant to you.
 
 ### Linear AI
-In 2026, Linear has expanded its AI capabilities: auto-categorization, smart priority suggestions, and natural language issue creation make it even more efficient.
+In 2026, Linear has expanded its AI capabilities: auto-categorization, smart priority suggestions, and natural language issue creation [make](/tools/make/) it even more efficient.
 
 ## Pricing (2026)
 
@@ -70,7 +70,7 @@ Linear requires annual billing for paid plans, though monthly options are availa
 Linear is ideal for:
 - **Engineering teams** of 5-100 people
 - **Startups** that want a fast, modern tool without legacy bloat
-- **Teams using GitHub/GitLab** who want tight code integration
+- **Teams using [GitHub](/tools/github/)/GitLab** who want tight code integration
 - **Developers** who value keyboard shortcuts and speed
 
 It's **not** the best choice for:

@@ -55,7 +55,7 @@ YNAB invests heavily in user education. All subscribers get access to:
 - **YNAB University:** A structured video course for new users covering the four rules and how to get started
 - **Priority email support:** The support team is responsive and knowledgeable about both the software and budgeting questions
 
-This educational layer is part of what differentiates YNAB from cheaper tools. You are not just buying software — you are buying access to a methodology and the support structure around it.
+This educational layer is part of what differentiates YNAB from cheaper tools. You are not just buying software — you are buying access to a methodology and the support structure [around](/tools/around/) it.
 
 ## The 34-Day Free Trial
 

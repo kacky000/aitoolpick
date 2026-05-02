@@ -17,7 +17,7 @@ Before comparing tools, understand what you actually need to automate.
 ### Simple Automations (1–3 Steps)
 **Best picks:** [Zapier](/tools/zapier), native integrations
 
-If you just need "when X happens in App A, do Y in App B," almost any tool works. Zapier is the easiest to set up for these simple workflows. Many apps also have built-in integrations that cost nothing.
+If you just need "when X happens in App A, do Y in App B," almost any tool works. [Zapier](/tools/zapier/) is the easiest to set up for these simple workflows. Many apps also have built-in integrations that cost nothing.
 
 ### Complex Workflows (Branching, Loops, Error Handling)
 **Best picks:** [Make](/tools/make), n8n
@@ -39,7 +39,7 @@ Automation tools charge differently, and costs can surprise you.
 | [Make](/tools/make) | 1,000 ops/mo | $10.59/mo | Operations |
 | [n8n](/tools/n8n/) | Self-hosted free | $24/mo (cloud) | Executions |
 
-**Key insight:** Make counts "operations" (each step = 1 operation), while Zapier counts "tasks" (each run = 1 task regardless of steps). For multi-step workflows, Make is almost always cheaper.
+**Key insight:** [Make](/tools/make/) counts "operations" (each step = 1 operation), while Zapier counts "tasks" (each run = 1 task regardless of steps). For multi-step workflows, Make is almost always cheaper.
 
 ## Step 3: Check Your App Ecosystem
 
@@ -47,7 +47,7 @@ The most powerful automation tool is useless if it doesn't connect to your apps.
 
 - **Zapier:** 6,000+ app integrations — the largest library by far
 - **Make:** 1,800+ integrations with deeper API access
-- **n8n:** 400+ built-in nodes plus custom API support
+- **[n8n](/tools/n8n/):** 400+ built-in nodes plus custom API support
 
 If you use niche or industry-specific tools, check Zapier first. If you work primarily with popular SaaS apps, Make likely has everything you need at a lower price.
 

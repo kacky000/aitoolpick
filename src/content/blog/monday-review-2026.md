@@ -19,7 +19,7 @@ What sets Monday.com apart is its visual, colorful interface and its flexibility
 ## Key Features
 
 ### Boards and Views
-Monday.com's boards are the foundation of everything. Each board represents a project or workflow, with items (rows) representing tasks. You can view your boards in multiple ways:
+Monday.com's boards are the foundation of everything. Each board represents a project or workflow, with items ([rows](/tools/rows/)) representing tasks. You can view your boards in multiple ways:
 
 - **Main Table**: The default spreadsheet-like view
 - **Kanban**: Drag-and-drop cards grouped by status

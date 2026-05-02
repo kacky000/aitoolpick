@@ -17,9 +17,9 @@ As an entrepreneur, your time is your most valuable asset. The right AI tools ca
 | [ChatGPT](/tools/chatgpt/) | Writing, strategy, brainstorming | ✅ | $20/mo |
 | [Claude](/tools/claude/) | Long documents, analysis | ✅ | $20/mo |
 | [Notion AI](/tools/notion-ai/) | Knowledge base + task management | ✅ | $10/mo |
-| Zapier | Automating repetitive workflows | ✅ | $19.99/mo |
+| [Zapier](/tools/zapier/) | Automating repetitive workflows | ✅ | $19.99/mo |
 | [Grammarly](/tools/grammarly/) | Writing clarity and polish | ✅ | $12/mo |
-| Canva | Marketing and visual content | ✅ | $15/mo |
+| [Canva](/tools/canva/) | Marketing and visual content | ✅ | $15/mo |
 | [Perplexity AI](/tools/perplexity/) | Research and competitive intel | ✅ | $20/mo |
 
 ---
@@ -32,7 +32,7 @@ ChatGPT is the Swiss Army knife for solo entrepreneurs. In a single session, you
 
 GPT-4o (included in the free tier) handles most tasks. ChatGPT Plus at $20/month adds faster responses, DALL-E image generation, and custom GPTs — worth it if you're using it daily.
 
-**Entrepreneur use case:** Write 10 cold email variations, pick the best, and send via your outreach tool — all in 20 minutes.
+**Entrepreneur use case:** Write 10 cold email variations, pick the best, and send via your [outreach](/tools/outreach/) tool — all in 20 minutes.
 
 ---
 
@@ -70,8 +70,8 @@ Notion Plus starts at $10/user/month. If you're already using Notion, the AI upg
 If you find yourself copying data between apps, sending the same type of email repeatedly, or manually updating spreadsheets — Zapier should automate it.
 
 Common entrepreneur automations:
-- New form submission → create Notion task + send Slack notification
-- New Stripe payment → add to Google Sheets + send welcome email
+- New form submission → create Notion task + send [Slack](/tools/slack/) notification
+- New [Stripe](/tools/stripe/) payment → add to Google Sheets + send welcome email
 - Instagram post published → share to LinkedIn automatically
 
 Zapier's free plan handles 100 tasks/month. Paid starts at $19.99/month. See [best automation tools 2026](/blog/best-automation-tools-2026) for alternatives including [Make](/blog/make-review-2026), which is cheaper for complex workflows.

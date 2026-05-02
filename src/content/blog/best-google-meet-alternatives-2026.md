@@ -115,7 +115,7 @@ Discord started as a gaming platform, but remote teams have adopted it for its a
 
 **Pricing:** Free | Pro $8.50/user/mo
 
-Around is built for teams that treat meetings as the exception, not the rule. Its floating video bubbles sit in the corner of your screen, keeping your face visible without dominating your workspace. Meetings start instantly — no links, no scheduling.
+Around is built for teams that treat meetings as the exception, not the rule. Its floating video bubbles sit in the corner of your screen, keeping your face visible without dominating your workspace. Meetings start [instantly](/tools/instantly/) — no links, no scheduling.
 
 **Why pick Around over Google Meet:**
 - **Non-intrusive video** — small floating bubbles instead of full-screen gallery view

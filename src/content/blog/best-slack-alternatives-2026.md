@@ -48,7 +48,7 @@ Google Chat is tightly integrated with Gmail, [Google Drive](/tools/google-drive
 
 **Why choose Google Chat over Slack:**
 - Included with Google Workspace
-- Native Google Drive integration
+- Native [Google Drive](/tools/google-drive/) integration
 - Seamless Google Meet video calls
 - Spaces for topic-based discussions
 

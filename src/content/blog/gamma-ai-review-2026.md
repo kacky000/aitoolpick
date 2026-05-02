@@ -10,7 +10,7 @@ lastModified: "2026-04-26"
 
 Gamma entered the presentation space with a bold claim: AI can generate a complete, well-designed deck in seconds. In 2026, that claim has matured into a genuinely useful product that thousands of founders, marketers, and consultants rely on daily. But it is not a PowerPoint killer — and understanding where it excels versus where it falls short matters before you commit.
 
-We put Gamma through its paces across pitch decks, one-pagers, and product demos to give you an honest picture.
+We put Gamma through its paces across [pitch](/tools/pitch/) decks, one-pagers, and product demos to give you an honest picture.
 
 ## What Is Gamma?
 
@@ -62,7 +62,7 @@ The **Pro plan** at $15/month adds custom branding, advanced analytics, and prio
 
 **Dramatic speed advantage.** A usable first draft in under 60 seconds is not marketing — it is actually what happens. For anyone who has spent hours wrestling with slide layouts, Gamma's speed is a genuine quality-of-life improvement.
 
-**Consistent design out of the box.** Gamma's design system prevents the visual chaos that plagues DIY PowerPoint decks. The output looks professional without design skills.
+**Consistent design out of the [box](/tools/box/).** Gamma's design system prevents the visual chaos that plagues DIY PowerPoint decks. The output looks professional without design skills.
 
 **Interactive and web-native.** Embeddable content, scrolling cards, and live data connections [make](/tools/make/) Gamma decks feel modern in a way that static slides cannot match.
 
@@ -100,7 +100,7 @@ The **Pro plan** at $15/month adds custom branding, advanced analytics, and prio
 
 **Gamma vs PowerPoint:** PowerPoint gives you complete control and perfect enterprise compatibility. Gamma gives you speed, design quality by default, and AI assistance throughout. For most non-corporate use cases, Gamma produces better-looking results faster.
 
-**Gamma vs Canva:** Canva has more templates, more design control, and better export options. Gamma has dramatically better AI generation and the card-based interactive format. For starting from scratch with AI help, Gamma wins; for polishing custom designs, Canva wins.
+**Gamma vs [Canva](/tools/canva/):** Canva has more templates, more design control, and better export options. Gamma has dramatically better AI generation and the card-based interactive format. For starting from scratch with AI help, Gamma wins; for polishing custom designs, Canva wins.
 
 **Gamma vs Google Slides:** Google Slides is free and excellent for collaboration on simple decks. Gamma is significantly better at design quality and speed for anything requiring a polished look.
 

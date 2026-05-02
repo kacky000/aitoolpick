@@ -19,7 +19,7 @@ AI has turned data analysis from a specialist skill into something anyone with a
 | **Julius AI** | No-code data analysis | Free / $20/mo | Purpose-built for data workflows |
 | **Google Sheets AI** | Spreadsheet users | Free with Workspace | Native Sheets integration |
 | **Perplexity** | Research + data context | Free / $20/mo | Real-time data sourcing |
-| **Rows** | Spreadsheet + AI hybrid | Free / $59/mo | AI-powered spreadsheet |
+| **[Rows](/tools/rows/)** | Spreadsheet + AI hybrid | Free / $59/mo | AI-powered spreadsheet |
 | **[Airtable](/tools/airtable/)** | No-code databases | Free / $20/user/mo | Structured data with AI fields |
 | **Coefficient** | Live data pipelines | Free / $49/mo | Connect live sources to Sheets |
 
@@ -41,7 +41,7 @@ Where Claude truly shines is document-heavy analysis. Upload a 100-page financia
 
 ## 3. Julius AI
 
-Julius is built specifically for data analysis, and the specialization shows. Upload a dataset, and it suggests relevant analyses, identifies column types, and proposes visualizations. The interface is designed around data workflows: import, clean, analyze, visualize, export.
+Julius is built specifically for data analysis, and the specialization shows. Upload a dataset, and it suggests relevant analyses, identifies column types, and proposes visualizations. The interface is designed [around](/tools/around/) data workflows: import, clean, analyze, visualize, export.
 
 Interactive charts can be modified without code. Non-technical users get a complete analysis tool without the intimidation factor. Free tier offers 15 analyses per month; Pro at $20/month is unlimited.
 

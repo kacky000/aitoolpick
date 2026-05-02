@@ -77,7 +77,7 @@ One critical pricing detail: Figma only charges for editors. Viewers (people who
 
 **Auto layout is best-in-class.** Figma's auto layout closely mirrors CSS flexbox behavior, which means designs translate to code more accurately. For product design, this reduces back-and-forth between designers and developers significantly.
 
-**Component system is powerful.** Variants, component properties, and nested instances make it possible to build comprehensive design systems that stay maintainable at scale.
+**Component system is powerful.** Variants, component properties, and nested instances [make](/tools/make/) it possible to build comprehensive design systems that stay maintainable at scale.
 
 **Dev Mode bridges the gap.** The dedicated developer view with code snippets, measurements, and asset export makes handoff genuinely smooth.
 
@@ -89,7 +89,7 @@ One critical pricing detail: Figma only charges for editors. Viewers (people who
 
 **Pricing adds up for large teams.** At $15/editor/month for Professional, a 10-person design team costs $1,800/year. Organization tier at $45/editor is $5,400/year for the same team. For budget-conscious [startups](/best-for/startups/), this is significant.
 
-**Print and illustration are not its strength.** Figma is optimized for UI and product design. If you need advanced typography controls, CMYK support, or complex illustration tools, Adobe Illustrator or Affinity Designer remain better choices.
+**Print and illustration are not its strength.** Figma is optimized for UI and product design. If you need advanced typography controls, CMYK support, or complex illustration tools, Adobe Illustrator or [Affinity Designer](/tools/affinity-designer/) remain better choices.
 
 **Learning curve for advanced features.** Basic design in Figma is intuitive, but mastering auto layout, variants, and component properties takes dedicated learning time.
 
@@ -104,13 +104,13 @@ One critical pricing detail: Figma only charges for editors. Viewers (people who
 
 **Not ideal for:**
 - Print designers (InDesign is better)
-- Illustrators and digital artists (Procreate or Illustrator)
+- Illustrators and digital artists ([Procreate](/tools/procreate/) or Illustrator)
 - Solo designers on a tight budget who need more than 3 files (though the free plan is generous for personal drafts)
 - Teams in areas with unreliable internet
 
 ## How Figma Compares
 
-Figma's main competitors are Sketch (macOS-only, still popular with some teams), Adobe XD (effectively sunset), and Penpot (open-source alternative). For most product teams, Figma remains the standard.
+Figma's main competitors are Sketch (macOS-only, still popular with some teams), [Adobe XD](/tools/adobe-xd/) (effectively sunset), and Penpot (open-source alternative). For most product teams, Figma remains the standard.
 
 If you are exploring options, our guide to the [best Figma alternatives in 2026](/blog/best-figma-alternatives-2026) covers the top contenders and explains when each one makes sense.
 

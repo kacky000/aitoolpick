@@ -74,7 +74,7 @@ Both models are strong coders in 2026, but they have different strengths:
 - Understanding and refactoring large codebases
 - Debugging complex, multi-file issues
 - Writing cleaner, more idiomatic code
-- Claude Code CLI for terminal-based development workflows
+- [Claude Code](/tools/claude-code/) CLI for terminal-based development workflows
 
 Claude's 200K context window is particularly valuable for coding — you can paste an entire project and ask for architectural feedback, something that's harder to do with ChatGPT's 128K limit.
 

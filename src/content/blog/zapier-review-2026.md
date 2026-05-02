@@ -30,7 +30,7 @@ Zapier connects your apps and automates workflows through "Zaps" — automated w
 ## What's Good
 
 ### Massive App Library
-7,000+ app integrations make Zapier the largest automation ecosystem. If an app exists, Zapier probably connects to it.
+7,000+ app integrations [make](/tools/make/) Zapier the largest automation ecosystem. If an app exists, Zapier probably connects to it.
 
 ### Easy to Use
 The visual builder is intuitive. Non-technical users can create multi-step automations in minutes. No code required.

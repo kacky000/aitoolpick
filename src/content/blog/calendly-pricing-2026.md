@@ -47,7 +47,7 @@ Standard unlocks most of what makes Calendly genuinely powerful:
 - **Unlimited event types** (15-min calls, 30-min demos, 60-min strategy sessions)
 - 2 calendar connections
 - **Workflows**: Automated email and SMS reminders, follow-ups, and no-show sequences
-- **Payment collection** via Stripe (charge for consultations, workshops, or coaching sessions)
+- **Payment collection** via [Stripe](/tools/stripe/) (charge for consultations, workshops, or coaching sessions)
 - Embed in your website
 - Group events (multiple people booking the same slot)
 - Remove Calendly branding

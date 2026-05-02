@@ -96,7 +96,7 @@ Connect Linear to Slack. Set up automated Slack messages when issues move to spe
 
 ## Linear vs Jira for Engineering Teams
 
-The most common question: should we switch from Jira to Linear?
+The most common question: should we switch from [Jira](/tools/jira/) to Linear?
 
 | Feature | Linear | Jira |
 |---------|--------|------|

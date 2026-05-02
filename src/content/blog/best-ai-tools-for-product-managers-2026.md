@@ -43,7 +43,7 @@ Second, Claude can hold an entire product context in memory during a conversatio
 - Creating interview guides and survey questions
 - Analyzing App Store reviews in bulk (paste reviews, ask for theme summaries)
 
-ChatGPT with web browsing (Plus) can pull recent product announcements, reviews, and news — useful for competitive intelligence ahead of planning cycles.
+[ChatGPT](/tools/chatgpt/) with web browsing (Plus) can pull recent product announcements, reviews, and news — useful for competitive intelligence ahead of planning cycles.
 
 → [ChatGPT review 2026](/blog/chatgpt-review-2026/) | [Best ChatGPT alternatives](/blog/best-chatgpt-alternatives-2026/)
 
@@ -96,7 +96,7 @@ More importantly, Linear's speed and clean interface reduces the friction of PM-
 
 **Price**: Free / $12/month (Pro)
 
-PMs write constantly — stakeholder emails, executive summaries, Slack messages to engineering, support escalations. Grammarly catches the small errors that undermine credibility:
+PMs write constantly — stakeholder emails, executive summaries, [Slack](/tools/slack/) messages to engineering, support escalations. Grammarly catches the small errors that undermine credibility:
 
 - Tone suggestions (this sounds too aggressive for an exec email)
 - Clarity rewrites (this sentence is too long/complex)

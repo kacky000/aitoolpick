@@ -27,7 +27,7 @@ So which one should your team use? This comparison breaks down features, pricing
 
 ### Miro
 
-Miro's infinite canvas is the gold standard for digital whiteboarding. You can zoom in and out smoothly, navigate across massive boards with thousands of objects, and use frames to organize content into logical sections. The canvas supports sticky notes, shapes, connectors, mind maps, wireframes, flowcharts, and even embedded documents.
+Miro's infinite canvas is the gold standard for digital whiteboarding. You can [zoom](/tools/zoom/) in and out smoothly, navigate across massive boards with thousands of objects, and use frames to organize content into logical sections. The canvas supports sticky notes, shapes, connectors, mind maps, wireframes, flowcharts, and even embedded documents.
 
 The experience feels polished. Drag-and-drop is intuitive, and real-time collaboration works without noticeable lag for teams of up to 20-30 concurrent users. For larger groups, performance can slow down on boards with hundreds of objects, but Miro has improved this significantly in 2026.
 
@@ -63,7 +63,7 @@ Miro also has a robust API and SDK for building custom integrations, which is va
 
 ### Microsoft Whiteboard
 
-Microsoft Whiteboard's integration story is focused entirely on the Microsoft ecosystem. It works seamlessly with Microsoft Teams (you can launch a whiteboard directly in a Teams meeting), OneNote, PowerPoint, and OneDrive. The Copilot AI integration allows you to generate ideas, organize content, and summarize boards using natural language.
+Microsoft Whiteboard's integration story is focused entirely on the Microsoft ecosystem. It works seamlessly with [Microsoft Teams](/tools/microsoft-teams/) (you can launch a whiteboard directly in a Teams meeting), OneNote, PowerPoint, and OneDrive. The Copilot AI integration allows you to generate ideas, organize content, and summarize boards using natural language.
 
 If your organization runs on Microsoft 365, these integrations feel native and frictionless. If you use tools outside the Microsoft ecosystem, integration options are limited.
 
@@ -73,7 +73,7 @@ If your organization runs on Microsoft 365, these integrations feel native and f
 
 ### Miro
 
-Miro was built for facilitation. Features like voting, timers, emoji reactions, attention management (bring everyone to your view), presentation mode, and anonymous sticky notes make it the top choice for running workshops, design sprints, and structured brainstorming sessions.
+Miro was built for facilitation. Features like voting, timers, emoji reactions, attention management (bring everyone to your view), presentation mode, and anonymous sticky notes [make](/tools/make/) it the top choice for running workshops, design sprints, and structured brainstorming sessions.
 
 The commenting system is robust, with threaded conversations, @mentions, and the ability to resolve comments. For asynchronous collaboration, Miro works well because team members can leave feedback and review boards on their own time.
 

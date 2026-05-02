@@ -115,7 +115,7 @@ Students, researchers, and solo [developers](/best-for/developers/) who use Logs
 
 Anyone who genuinely needs multi-device access. The $5/month is reasonable for what it provides, and the end-to-end encryption is a real differentiator compared to syncing through a generic cloud storage service.
 
-If you've been manually syncing your Logseq folder through Dropbox or iCloud and have experienced data corruption or merge conflicts, Logseq Sync solves that problem directly.
+If you've been manually syncing your Logseq folder through [Dropbox](/tools/dropbox/) or iCloud and have experienced data corruption or merge conflicts, Logseq Sync solves that problem directly.
 
 ## Who Should Consider the Sponsor Tier
 

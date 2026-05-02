@@ -10,7 +10,7 @@ Switching from Asana to ClickUp? You're not alone. ClickUp's lower pricing and a
 
 ## Why Teams Switch from Asana to ClickUp
 
-Before diving into the how, here's why teams typically make this move:
+Before diving into the how, here's why teams typically [make](/tools/make/) this move:
 
 - **Price:** ClickUp Unlimited ($7/user/mo) vs Asana Starter ($10.99/user/mo)
 - **Features:** ClickUp includes docs, whiteboards, [time tracking](/category/time-tracking/), and goals at lower tiers

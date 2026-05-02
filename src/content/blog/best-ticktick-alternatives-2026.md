@@ -70,7 +70,7 @@ Notion doesn't replace TickTick — it's a different kind of tool. But if you fe
 [ClickUp](/tools/clickup/) is what TickTick would be if it grew up into a full project management platform. Multiple views (list, board, calendar, Gantt), docs, goals, and time tracking — all in one app.
 
 **What it has over TickTick:** Team collaboration, project-level organization, custom workflows  
-**What it lacks:** TickTick's simplicity and personal focus (ClickUp can be overwhelming)
+**What it lacks:** TickTick's simplicity and personal focus ([ClickUp](/tools/clickup/) can be overwhelming)
 
 **Choose ClickUp if** you're managing projects with a team, not just personal tasks.
 

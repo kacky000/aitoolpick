@@ -32,7 +32,7 @@ If your company uses Microsoft 365, Teams is the obvious choice. Video meetings 
 
 ### Best for Task Focus: [Asana](/tools/asana)
 **Price:** Free / $10.99/user/mo  
-Asana's clean interface and powerful automations make it ideal for teams that need structured workflows. Timeline view is excellent for project planning.
+[Asana](/tools/asana/)'s clean interface and powerful automations make it ideal for teams that need structured workflows. Timeline view is excellent for project planning.
 
 ### Best Budget Option: [ClickUp](/tools/clickup)
 **Price:** Free / $7/user/mo  
@@ -68,7 +68,7 @@ The Pomodoro technique works. These apps gamify focused work sessions and help y
 
 ### Best for Teams: [Notion](/tools/notion)
 **Price:** Free / $10/user/mo  
-Team wikis, meeting notes, process docs — Notion handles it all. The template marketplace means you don't start from scratch.
+Team wikis, meeting notes, process docs — [Notion](/tools/notion/) handles it all. The template marketplace means you don't start from scratch.
 
 ### Best for Personal Notes: [Obsidian](/tools/obsidian)
 **Price:** Free  
@@ -90,7 +90,7 @@ Remote whiteboarding that actually works. Essential for brainstorming sessions, 
 
 ### Best for Beginners: [Zapier](/tools/zapier)
 **Price:** Free / $29.99/mo  
-Connect your apps without code. "When I get a Slack message with 📌, create a Todoist task" — that kind of magic.
+Connect your apps without code. "When I get a Slack message with 📌, create a [Todoist](/tools/todoist/) task" — that kind of magic.
 
 ### Best for Power Users: [Make](/tools/make)
 **Price:** Free / $10.59/mo  

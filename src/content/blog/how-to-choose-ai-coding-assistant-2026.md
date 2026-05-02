@@ -20,10 +20,10 @@ Before comparing features and pricing, answer these:
 
 ### 2. What editor do you use?
 
-- **VS Code** → All options available (Copilot extension, Cursor fork, Windsurf fork)
-- **JetBrains (IntelliJ, PyCharm, WebStorm)** → GitHub Copilot or JetBrains AI Assistant
-- **Neovim** → GitHub Copilot
-- **Don't care / willing to switch** → Cursor or Windsurf for the deepest AI integration
+- **VS Code** → All options available (Copilot extension, Cursor fork, [Windsurf](/tools/windsurf/) fork)
+- **JetBrains (IntelliJ, PyCharm, WebStorm)** → [GitHub Copilot](/tools/github-copilot/) or JetBrains AI Assistant
+- **Neovim** → [GitHub](/tools/github/) Copilot
+- **Don't care / willing to switch** → [Cursor](/tools/cursor/) or Windsurf for the deepest AI integration
 
 ### 3. How much are you willing to spend?
 
@@ -100,7 +100,7 @@ Yes, and many developers do. A common setup:
 
 - **GitHub Copilot** for completions in JetBrains
 - **Cursor** for complex refactoring sessions
-- **ChatGPT or Claude** for code review, architecture questions, and rubber-ducking
+- **[ChatGPT](/tools/chatgpt/) or Claude** for code review, architecture questions, and rubber-ducking
 
 The cost of two subscriptions ($30/month for Copilot + Cursor) is trivial compared to developer salary if it meaningfully improves output.
 

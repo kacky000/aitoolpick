@@ -77,7 +77,7 @@ For most businesses, this is the plan that makes the most sense. You get everyth
 
 ## Microsoft Teams vs Slack: The Pricing Angle
 
-The biggest competitor to Microsoft Teams is Slack. Here is how pricing compares:
+The biggest competitor to Microsoft Teams is [Slack](/tools/slack/). Here is how pricing compares:
 
 | Feature | Teams Business Basic | Slack Pro |
 |---------|---------------------|-----------|

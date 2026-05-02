@@ -16,7 +16,7 @@ The short answer: **it depends on your workflow**. But let's dig deeper.
 
 ### Quick Overview: Notion vs Coda
 
-**Notion** is the dominant player in the all-in-one workspace space. It's built around flexible **databases** that can display as tables, kanban boards, calendars, and galleries. You combine these with docs, wikis, and simple automations to create a completely customized knowledge base.
+**Notion** is the dominant player in the all-in-one workspace space. It's built [around](/tools/around/) flexible **databases** that can display as tables, kanban boards, calendars, and galleries. You combine these with docs, wikis, and simple automations to create a completely customized knowledge base.
 
 **Coda** takes a different approach. It's fundamentally a **document-first** tool that happens to have database-like features. Think of it as Google Docs that learned spreadsheet logic, AI collaboration, and extensibility through "Packs" (integrations). Coda emphasizes **formulas and automations** more than Notion does.
 
@@ -75,7 +75,7 @@ For teams needing automation-heavy workflows—customer databases with triggered
 **Winner**: Notion for templates and community resources.
 
 #### Integrations
-**Notion integrations** are limited compared to competitors. You can zapier (via Zapier/Make), webhook into Slack, or use a few native integrations. This is Notion's weakest point.
+**Notion integrations** are limited compared to competitors. You can [zapier](/tools/zapier/) (via Zapier/Make), webhook into Slack, or use a few native integrations. This is Notion's weakest point.
 
 **Coda Packs** are Notion's answer to this, but more powerful. With Packs, you can embed external data directly into Coda—pull live data from Stripe, HubSpot, [Airtable](/tools/airtable/), and build on it without leaving Coda.
 

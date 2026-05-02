@@ -20,7 +20,7 @@ What makes it different from Zapier or [Make](/tools/make/):
 
 1. **Self-hosting**: Run n8n on your own server for free, forever. [Docker](/tools/docker/) image, one-command install.
 2. **Code nodes**: Write JavaScript or Python inside any workflow step. No sandbox restrictions on self-hosted instances.
-3. **AI agent workflows**: Build multi-step AI agents with memory, tool use, and conditional logic — far beyond what Zapier's AI features allow.
+3. **AI agent workflows**: Build multi-step AI agents with memory, tool use, and conditional logic — far beyond what [Zapier](/tools/zapier/)'s AI features allow.
 4. **No per-task pricing**: Self-hosted n8n runs unlimited executions. You pay for your server, not per automation run.
 
 ## Pricing
@@ -32,7 +32,7 @@ What makes it different from Zapier or [Make](/tools/make/):
 | Cloud Pro | $60/month | 15 active workflows, 10,000 executions |
 | Enterprise | Custom | Unlimited everything + SSO |
 
-The value proposition is obvious: a $5/month VPS running Docker gives you unlimited n8n forever. The break-even point against Zapier's Professional plan ($49/month) is month one.
+The value proposition is obvious: a $5/month VPS running [Docker](/tools/docker/) gives you unlimited n8n forever. The break-even point against Zapier's Professional plan ($49/month) is month one.
 
 Cloud plans are for teams that don't want to manage infrastructure. The execution and workflow limits are more restrictive than self-hosting, which makes the cloud pricing less compelling.
 
@@ -54,7 +54,7 @@ If that sentence made you nervous, n8n might not be the right fit. The self-host
 
 ## Integration Library
 
-n8n has 400+ native integrations. That's smaller than Zapier's 7,000+ or Make's 1,000+, but the gap is less impactful than it sounds:
+n8n has 400+ native integrations. That's smaller than Zapier's 7,000+ or [Make](/tools/make/)'s 1,000+, but the gap is less impactful than it sounds:
 
 - **HTTP Request node**: Connect to any REST API with no official integration required. If a service has an API, n8n can use it.
 - **Code node**: Process any data with JavaScript or Python.
@@ -94,7 +94,7 @@ Zapier's error handling is simpler — alerts in plain English, automatic retrie
 
 **Integration breadth**: If you need a niche SaaS tool that doesn't have an API, n8n can't help more than Zapier can. The HTTP Request node only works if the tool has an accessible API.
 
-**Managed reliability**: Self-hosted n8n is only as reliable as your server. If your VPS goes down, your automations stop. Enterprise teams need monitoring, failover, and SLA guarantees that self-hosting doesn't provide out of the box.
+**Managed reliability**: Self-hosted n8n is only as reliable as your server. If your VPS goes down, your automations stop. Enterprise teams need monitoring, failover, and SLA guarantees that self-hosting doesn't provide out of the [box](/tools/box/).
 
 **Support**: The community forum is active and helpful, but paid support is limited to Enterprise plans. For self-hosted users, you're largely on your own.
 

@@ -70,7 +70,7 @@ Claude's extended context window makes it ideal for reviewing long contracts, su
 
 ### 6. Slack — Best for Internal Team Coordination
 
-Slack's organized channels keep case discussions, document sharing, and internal memos separate and searchable. Huddles replace quick hallway conversations for remote teams.
+Slack's organized channels keep case discussions, document sharing, and internal [memos](/tools/memos/) separate and searchable. Huddles replace quick hallway conversations for remote teams.
 
 - **Price:** Free, $7.25/user/month (Pro)
 - **Why lawyers love it:** Matter-specific channels, searchable message history, integrations with document storage

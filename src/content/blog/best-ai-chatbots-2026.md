@@ -37,7 +37,7 @@ ChatGPT's plugin ecosystem and GPT Store give it an edge for users who want cust
 
 ## 2. Claude — Best for Writing and Long Documents
 
-Anthropic's Claude excels at nuanced writing, document analysis, and handling extremely long contexts (up to 200K tokens). If your work involves reports, contracts, or research papers, Claude is hard to beat.
+Anthropic's [Claude](/tools/claude/) excels at nuanced writing, document analysis, and handling extremely long contexts (up to 200K tokens). If your work involves reports, contracts, or research papers, Claude is hard to beat.
 
 **Key strengths:**
 - 200K context window (reads entire books)

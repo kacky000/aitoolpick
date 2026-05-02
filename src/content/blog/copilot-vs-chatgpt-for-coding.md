@@ -20,7 +20,7 @@ These are complementary tools, not direct competitors. But if you can only pick 
 
 ## Quick Comparison
 
-| Feature | GitHub Copilot | ChatGPT (Plus) |
+| Feature | [GitHub Copilot](/tools/github-copilot/) | ChatGPT (Plus) |
 |---------|---------------|----------------|
 | **Primary Use** | Inline code completion | Conversational coding help |
 | **IDE Integration** | VS Code, JetBrains, Neovim | Web browser, API |

@@ -37,7 +37,7 @@ Canva Pro adds:
 - **Brand Kit** (logos, colors, fonts)
 - **Magic Resize** — resize designs for any platform [instantly](/tools/instantly/)
 - **Background Remover** — one-click background removal
-- **Magic Eraser** and **Magic Edit**
+- **Magic [Eraser](/tools/eraser-io/)** and **Magic Edit**
 - **Advanced AI features** (unlimited Magic Write, text-to-image)
 - **Content Planner** — schedule social media posts
 - **Transparent backgrounds** for PNG exports

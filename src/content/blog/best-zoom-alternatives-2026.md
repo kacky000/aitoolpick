@@ -16,7 +16,7 @@ Here are the 7 best Zoom alternatives in 2026, who each is for, and how they com
 
 | Tool | Starting Price | Best For | Included AI |
 |------|----------------|----------|-------------|
-| Microsoft Teams | Bundled with M365 ($12.50/user) | Microsoft 365 shops | Copilot ($30 extra) |
+| [Microsoft Teams](/tools/microsoft-teams/) | Bundled with M365 ($12.50/user) | Microsoft 365 shops | Copilot ($30 extra) |
 | Google Meet | Bundled with Google Workspace ($7.20/user) | Google Workspace shops | Gemini (included Business Standard+) |
 | [Slack](/tools/slack/) Huddles | $8.75/user/month | Quick calls inside Slack | Slack AI ($10 extra) |
 | Webex | $14.50/user/month | Enterprise, regulated industries | Webex AI Assistant (included) |
@@ -52,7 +52,7 @@ Related: [Google Meet Review 2026](/blog/google-meet-review-2026)
 
 Huddles are not a direct Zoom replacement — they are lightweight audio/video calls started [instantly](/tools/instantly/) from a Slack channel or DM. But for many teams, the shift has been dramatic: half the meetings that used to be "15-minute Zooms" now happen as 5-minute Huddles.
 
-Huddles are included in every paid Slack plan ($8.75/user/month and up). Video, screen share, and drawing annotations work well. You cannot schedule Huddles like traditional meetings, which is the point.
+Huddles are included in every paid [Slack](/tools/slack/) plan ($8.75/user/month and up). Video, screen share, and drawing annotations work well. You cannot schedule Huddles like traditional meetings, which is the point.
 
 **Switch from Zoom if:** Most of your "meetings" are short team syncs, and you are already paying for Slack.
 

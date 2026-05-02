@@ -49,7 +49,7 @@ Advanced is for power users:
 
 ## Who Should Stay Free?
 
-Honestly? Almost nobody. The 50-note limit and single-device restriction make the free plan viable only for:
+Honestly? Almost nobody. The 50-note limit and single-device restriction [make](/tools/make/) the free plan viable only for:
 
 - **Testing Evernote** before committing
 - **Light personal notes** on a single device

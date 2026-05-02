@@ -116,7 +116,7 @@ Team Workspace
 
 ### The Home Dashboard
 
-Your team's Home page is the most-visited page in the workspace. Make it useful:
+Your team's Home page is the most-visited page in the workspace. [Make](/tools/make/) it useful:
 
 - **Team announcements** (simple bulletin board style)
 - **Quick links** to the 5–10 most-used pages

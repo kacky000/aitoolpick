@@ -158,7 +158,7 @@ The common complaint about Teams: it tries to do too much, leading to a cluttere
 
 ### Moving from Teams to Slack
 - Slack offers migration support for Enterprise Grid customers
-- Challenge: replacing Teams meeting functionality (need Zoom/Google Meet)
+- Challenge: replacing Teams meeting functionality (need [Zoom](/tools/zoom/)/Google Meet)
 - Teams file storage (SharePoint) needs an alternative
 - Timeline: 3-6 months
 

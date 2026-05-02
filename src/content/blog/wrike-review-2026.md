@@ -59,7 +59,7 @@ The **Business plan** at $24.80/user/month adds custom fields, request forms, ti
 
 ## Pros
 
-**Powerful Gantt charts.** Wrike's Timeline view is among the best in the market. Dependencies, critical path visualization, and baseline comparisons make it a legitimate alternative to Microsoft Project for most teams.
+**Powerful Gantt charts.** Wrike's Timeline view is among the best in the market. Dependencies, critical path visualization, and baseline comparisons [make](/tools/make/) it a legitimate alternative to Microsoft Project for most teams.
 
 **Strong automation engine.** The workflow builder covers complex multi-step automations without requiring a developer. Blueprint templates multiply the value by making those automations reusable.
 
@@ -97,11 +97,11 @@ The **Business plan** at $24.80/user/month adds custom fields, request forms, ti
 
 ## How Wrike Compares to Alternatives
 
-**Wrike vs Asana:** Asana is more intuitive and slightly cheaper. Wrike beats it on Gantt charts, resource management, and built-in proofing. Choose Asana for simpler team workflows; choose Wrike for complex, cross-functional project management.
+**Wrike vs [Asana](/tools/asana/):** Asana is more intuitive and slightly cheaper. Wrike beats it on Gantt charts, resource management, and built-in proofing. Choose Asana for simpler team workflows; choose Wrike for complex, cross-functional project management.
 
 **Wrike vs [Monday.com](/tools/monday/):** Monday is more visual and easier to adopt quickly. Wrike has deeper automation, stronger reporting, and better resource management. For enterprise use cases, Wrike typically wins; for fast-growing SMBs, Monday is often the better fit.
 
-**Wrike vs ClickUp:** ClickUp is more affordable and feature-packed but can feel chaotic. Wrike is more structured and enterprise-ready. If you need a polished, professional tool your executive team will trust, Wrike has the edge.
+**Wrike vs [ClickUp](/tools/clickup/):** ClickUp is more affordable and feature-packed but can feel chaotic. Wrike is more structured and enterprise-ready. If you need a polished, professional tool your executive team will trust, Wrike has the edge.
 
 For a full comparison of top project management tools, see our guide to the [best project management tools in 2026](/blog/best-project-management-tools-2026).
 
@@ -111,7 +111,7 @@ Wrike is a powerful, enterprise-ready project management platform that earns its
 
 The tradeoff is complexity. Wrike requires real investment to set up and maintain. It is not the right tool for a 5-person startup or a solo freelancer. But for a 30-100 person organization running complex projects across multiple teams, Wrike delivers serious ROI.
 
-If you have outgrown Trello or Asana but find Monday too light for your needs, Wrike deserves a genuine evaluation.
+If you have outgrown [Trello](/tools/trello/) or Asana but find Monday too light for your needs, Wrike deserves a genuine evaluation.
 
 ---
 

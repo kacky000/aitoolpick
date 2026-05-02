@@ -19,7 +19,7 @@ Grammarly is genuinely useful for catching errors you would otherwise miss after
 - Inconsistent tone and passive voice overuse
 - Basic clarity issues that [make](/tools/make/) your writing harder to follow
 
-What Grammarly does **not** do: make your arguments better. It cannot tell you whether your thesis is strong, whether your evidence is convincing, or whether your structure makes sense. It polishes surface-level writing.
+What Grammarly does **not** do: [make](/tools/make/) your arguments better. It cannot tell you whether your thesis is strong, whether your evidence is convincing, or whether your structure makes sense. It polishes surface-level writing.
 
 If your paper has fundamental argument or structure problems, Grammarly's suggestions will not save you. But if your ideas are solid and your writing is rough [around](/tools/around/) the edges, it can meaningfully improve the final product.
 
@@ -45,7 +45,7 @@ The free plan is genuinely useful for grammar and spelling. Premium adds the hig
 Grammarly offers a student pricing discount, but it is not automatically applied. Here is how to get it:
 
 1. **Grammarly Student Plan**: Available through many universities that partner with Grammarly. Check if your school provides access through your student email.
-2. **Annual billing**: Premium costs around $12/month when billed monthly, but drops to approximately $6-7/month on an annual plan.
+2. **Annual billing**: Premium costs [around](/tools/around/) $12/month when billed monthly, but drops to approximately $6-7/month on an annual plan.
 3. **Free trials**: Grammarly occasionally offers free Premium trials — typically around back-to-school periods (August-September) and exam seasons.
 4. **Check your university**: Many US universities provide Grammarly Premium for free to enrolled students through institutional licenses. Ask your writing center or IT helpdesk.
 

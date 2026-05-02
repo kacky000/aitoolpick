@@ -47,7 +47,7 @@ Cursor uses a monthly credit pool:
 | Ultra | $200/mo | $200 credit pool |
 | Teams | $40/user/mo | Pro features + admin |
 
-Cursor's credit pool is more flexible — you can front-load heavy usage early in the month — but it's also easier to exhaust.
+Cursor's credit pool is more flexible — you can [front](/tools/front/)-load heavy usage early in the month — but it's also easier to exhaust.
 
 ## Agent Capabilities
 

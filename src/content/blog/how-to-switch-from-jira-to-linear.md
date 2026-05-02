@@ -6,7 +6,7 @@ tags: ["jira", "linear", "migration", "project-management"]
 heroImage: "/thumbs/how-to-switch-from-jira-to-linear.jpg"
 lastModified: "2026-04-26"
 ---
-Jira is the enterprise standard, but more and more engineering teams are switching to Linear for its speed, clean UI, and opinionated workflow design. If your team has decided to make the move, here's how to do it without losing data or momentum.
+Jira is the enterprise standard, but more and more engineering teams are switching to Linear for its speed, clean UI, and opinionated workflow design. If your team has decided to [make](/tools/make/) the move, here's how to do it without losing data or momentum.
 
 ## Why Teams Switch from Jira to Linear
 
@@ -119,7 +119,7 @@ That's it. If your Jira workflow had 12 statuses, condense them. The simplicity 
 **Automations to set up:**
 - Auto-assign issues from Triage based on team
 - Auto-move issues to "In Review" when a PR is opened
-- Auto-close issues when PRs are merged
+- Auto-[close](/tools/close/) issues when PRs are merged
 - Cycle auto-scheduling for backlog grooming
 
 ### Step 5: Team Onboarding

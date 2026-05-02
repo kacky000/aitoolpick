@@ -65,7 +65,7 @@ Obsidian Sync is the only paid add-on most users will consider. It solves one sp
 - You already use iCloud, [Dropbox](/tools/dropbox/), or another service that syncs your Obsidian vault folder automatically (this is a free workaround that many users rely on)
 - You're comfortable with a manual sync workflow using Git or Syncthing
 
-The free workaround is worth mentioning: because Obsidian stores notes as plain Markdown files in a folder, you can sync that folder using any cloud storage service. Many users sync via iCloud on Mac/iPhone or Dropbox across platforms. It's slightly more technical to set up than Obsidian Sync, but costs nothing.
+The free workaround is worth mentioning: because Obsidian stores notes as plain Markdown files in a folder, you can sync that folder using any cloud storage service. Many users sync via iCloud on Mac/iPhone or [Dropbox](/tools/dropbox/) across platforms. It's slightly more technical to set up than Obsidian Sync, but costs nothing.
 
 ---
 
@@ -88,7 +88,7 @@ Obsidian Publish lets you host a public website built directly from your vault. 
 
 **When Publish is NOT worth it:**
 - You just want a blog — standard blogging platforms (Ghost, WordPress, even free options like [Substack](/tools/substack/)) offer far more publishing features at the same price or less
-- You only share notes occasionally — exporting individual notes as PDFs or sharing via a service like Notion is free
+- You only share notes occasionally — exporting individual notes as PDFs or sharing via a service like [Notion](/tools/notion/) is free
 - You want full design control — Publish's customization is limited compared to a dedicated site builder
 
 ---

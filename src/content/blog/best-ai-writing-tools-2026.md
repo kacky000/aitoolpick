@@ -32,7 +32,7 @@ Read our full [ChatGPT vs Claude comparison](/blog/chatgpt-vs-claude-which-ai-is
 
 **Pricing**: Free (limited) / $20/mo for Pro
 
-**Why we like it**: Claude produces noticeably more natural, less "AI-sounding" prose than most competitors. If you're writing content that needs to feel human and authentic, Claude is the top choice.
+**Why we like it**: [Claude](/tools/claude/) produces noticeably more natural, less "AI-sounding" prose than most competitors. If you're writing content that needs to feel human and authentic, Claude is the top choice.
 
 ## 3. Grammarly — Best for Editing and Polishing
 

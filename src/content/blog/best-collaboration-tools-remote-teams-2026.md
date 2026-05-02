@@ -58,7 +58,7 @@ When async isn't enough and you need face-to-face conversation, Zoom is still th
 
 **Pricing**: Free (40-min limit) / $13.33/user/mo
 
-**Why it's essential**: AI meeting summaries, breakout rooms, and whiteboard features make meetings more productive. The recording and transcript features let absent team members catch up asynchronously.
+**Why it's essential**: AI meeting summaries, breakout rooms, and whiteboard features [make](/tools/make/) meetings more productive. The recording and transcript features let absent team members catch up asynchronously.
 
 ## 5. Loom — Best for Async Video
 

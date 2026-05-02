@@ -16,7 +16,7 @@ Here's our full comparison to help you pick the right one.
 
 **Choose Zapier** if you want the easiest setup, the largest app library, and you don't mind paying a premium for convenience.
 
-**Choose Make** if you're comfortable with a visual workflow builder, need complex logic (branching, loops, error handling), and want to keep costs down.
+**Choose Make** if you're comfortable with a visual workflow builder, need complex logic (branching, [loops](/tools/loops/), error handling), and want to keep costs down.
 
 For a side-by-side feature breakdown, check our [Zapier vs Make comparison page](/compare/zapier-vs-make).
 
@@ -51,7 +51,7 @@ If you're new to automation, our guide on [how to choose the right AI tool](/blo
 
 ## Workflow Complexity
 
-This is where Make pulls ahead. Zapier workflows (called "Zaps") are essentially linear chains: trigger → action → action. You can add filters and paths, but the logic stays relatively simple.
+This is where Make pulls ahead. Zapier workflows (called "Zaps") are essentially [linear](/tools/linear/) chains: trigger → action → action. You can add filters and paths, but the logic stays relatively simple.
 
 Make scenarios support:
 

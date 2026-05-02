@@ -86,7 +86,7 @@ Over time, as you create more notes and links, the **Graph View** (`Ctrl+G`) sho
 
 ### Keep it simple at first
 
-The biggest mistake beginners make is spending more time organizing notes than writing them. Start with this minimal structure:
+The biggest mistake beginners [make](/tools/make/) is spending more time organizing notes than writing them. Start with this minimal structure:
 
 ```
 My Vault/
@@ -134,9 +134,9 @@ Install community plugins at **Settings → Community Plugins → Browse**.
 
 Obsidian is not for everyone. Consider alternatives if:
 
-- **You need real-time collaboration** → Notion works better
+- **You need real-time collaboration** → [Notion](/tools/notion/) works better
 - **You want simpler, cloud-based notes** → [Evernote](/tools/evernote/) or Apple Notes
-- **You need iOS/Android first** → Notion or Evernote have better mobile apps
+- **You need iOS/Android first** → Notion or [Evernote](/tools/evernote/) have better mobile apps
 
 Obsidian shines for solo knowledge workers, researchers, writers, and developers who value local-first storage and long-term note ownership.
 

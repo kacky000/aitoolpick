@@ -102,7 +102,7 @@ The Starter bundle is the best value for small businesses that want all hubs at 
 | CRM | Entry Paid Price | Notes |
 |-----|-----------------|-------|
 | **HubSpot Starter** | $15/user/month | Full CRM suite at entry level |
-| **Salesforce Essentials** | $25/user/month | More powerful, steeper learning curve |
+| **[Salesforce](/tools/salesforce/) Essentials** | $25/user/month | More powerful, steeper learning curve |
 | **[Monday.com](/tools/monday/) CRM** | $12/user/month | Simpler, less CRM-native features |
 | **[Pipedrive](/tools/pipedrive/)** | $14/user/month | Sales-focused, easier to use |
 | **Zoho CRM** | $14/user/month | Strong value, complex setup |

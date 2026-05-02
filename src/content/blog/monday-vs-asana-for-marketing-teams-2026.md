@@ -68,7 +68,7 @@ Asana's proofing feature is more mature. You can annotate images, PDFs, and even
 ## Reporting & Analytics
 
 ### Monday.com
-Monday's dashboards are its crown jewel. Drag-and-drop widgets, chart types, and cross-board reporting make it easy to build marketing performance dashboards.
+Monday's dashboards are its crown jewel. Drag-and-drop widgets, chart types, and cross-board reporting [make](/tools/make/) it easy to build marketing performance dashboards.
 
 ### Asana
 Asana's reporting is functional but less visual. Custom dashboards exist in Advanced plans, but they don't match Monday's dashboard flexibility.

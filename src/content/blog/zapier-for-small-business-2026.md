@@ -23,7 +23,7 @@ What Zapier doesn't do: replace apps, store data, or handle complex logic. It's 
 
 ### 1. Capture Leads Automatically
 
-**Trigger:** New form submission (Typeform, Google Forms, Jotform)
+**Trigger:** New form submission ([Typeform](/tools/typeform/), Google Forms, Jotform)
 **Actions:**
 - Add contact to CRM (HubSpot, [Pipedrive](/tools/pipedrive/))
 - Add to email list ([Mailchimp](/tools/mailchimp/), ConvertKit)
@@ -45,7 +45,7 @@ New customers deserve a fast, personalized response. Zapier ensures they receive
 
 ### 3. Automatically Create Invoices
 
-**Trigger:** Project marked "Completed" in your project manager (Notion, ClickUp, Trello)
+**Trigger:** Project marked "Completed" in your project manager (Notion, [ClickUp](/tools/clickup/), Trello)
 **Actions:**
 - Create invoice in QuickBooks or [FreshBooks](/tools/freshbooks/)
 - Send invoice to client via email
@@ -65,7 +65,7 @@ If your team still logs customer data in spreadsheets (it happens), this Zap kee
 **Actions:**
 - Post to LinkedIn company page
 - Post to Twitter / X
-- Send to your email list via Mailchimp
+- Send to your email list via [Mailchimp](/tools/mailchimp/)
 
 Content distribution is time-consuming. This Zap handles it automatically every time you publish.
 
@@ -81,7 +81,7 @@ For small businesses that take customer feedback seriously but don't have time t
 
 ### 7. Follow Up on Unpaid Invoices
 
-**Trigger:** Invoice overdue in QuickBooks or FreshBooks
+**Trigger:** Invoice overdue in QuickBooks or [FreshBooks](/tools/freshbooks/)
 **Actions:**
 - Send polite reminder email to client
 - Create a follow-up task for you in Todoist or Notion
@@ -90,7 +90,7 @@ Chasing invoices is uncomfortable and time-consuming. This Zap sends the first r
 
 ### 8. Onboard New Team Members
 
-**Trigger:** New employee added in Gusto or BambooHR
+**Trigger:** New employee added in Gusto or [BambooHR](/tools/bamboohr/)
 **Actions:**
 - Send welcome email with onboarding links
 - Create accounts in Google Workspace

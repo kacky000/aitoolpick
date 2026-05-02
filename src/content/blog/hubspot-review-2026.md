@@ -13,7 +13,7 @@ lastModified: "2026-05-01"
 
 HubSpot is a customer platform combining CRM, marketing automation, sales tools, customer service software, and a CMS into one integrated system. Founded in 2006 by Brian Halligan and Dharmesh Shah at MIT, it pioneered the concept of "inbound marketing" — attracting customers with content rather than interrupting them with ads.
 
-The platform is built around a free CRM that's genuinely useful, with paid "Hubs" layered on top for marketing, sales, service, CMS, and operations teams.
+The platform is built [around](/tools/around/) a free CRM that's genuinely useful, with paid "Hubs" layered on top for marketing, sales, service, CMS, and operations teams.
 
 ## Key Features
 
@@ -108,7 +108,7 @@ See the [full pricing breakdown →](/blog/hubspot-pricing-2026)
 
 **HubSpot is NOT the right choice for:**
 - Freelancers or solo businesses (overkill — use Notion or [Pipedrive](/tools/pipedrive/))
-- Companies with complex custom CRM requirements (consider Salesforce)
+- Companies with complex custom CRM requirements (consider [Salesforce](/tools/salesforce/))
 - Budget-constrained teams needing just email marketing (consider [Mailchimp](/tools/mailchimp/) or ActiveCampaign)
 - Pure e-commerce businesses (Klaviyo or [Shopify](/tools/shopify/) Email are better fits)
 
@@ -118,8 +118,8 @@ See the [full pricing breakdown →](/blog/hubspot-pricing-2026)
 |------|----------|---------------|
 | **HubSpot** | All-in-one CRM + marketing | Free / $800/month (Professional) |
 | **Salesforce** | Enterprise CRM, complex sales | $25/user/month |
-| **Pipedrive** | Sales-focused, simple CRM | $14/user/month |
-| **ActiveCampaign** | Email marketing + basic CRM | $15/month |
+| **[Pipedrive](/tools/pipedrive/)** | Sales-focused, simple CRM | $14/user/month |
+| **[ActiveCampaign](/tools/activecampaign/)** | Email marketing + basic CRM | $15/month |
 | **Monday CRM** | Visual pipeline management | $12/user/month |
 
 ## Verdict: 4.4/5

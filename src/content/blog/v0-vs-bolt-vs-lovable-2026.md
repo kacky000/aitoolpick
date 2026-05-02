@@ -14,7 +14,7 @@ V0, Bolt.new, and Lovable are the three most popular AI app builders in 2026. Al
 | **Best for** | UI components | Quick prototypes | Full-stack MVPs |
 | **Backend** | No | Limited | [Supabase](/tools/supabase/) built-in |
 | **Auth** | No | Via integration | Built-in |
-| **Database** | No | Via integration | Supabase built-in |
+| **Database** | No | Via integration | [Supabase](/tools/supabase/) built-in |
 | **Deployment** | [Vercel](/tools/vercel/) | Browser preview | One-click |
 | **Code export** | Copy/paste, Vercel | Download | [GitHub](/tools/github/) export |
 | **Starting price** | Free | $20/mo | $20/mo |
@@ -31,7 +31,7 @@ V0 rebranded from v0.dev to v0.app in January 2026 and now supports full-stack d
 
 ### Where It Falls Short
 
-V0 has no built-in backend. No database, no authentication, no server-side logic. You build the frontend in V0, then wire up the backend yourself — typically with Next.js API routes on Vercel.
+V0 has no built-in backend. No database, no authentication, no server-side logic. You build the frontend in V0, then wire up the backend yourself — typically with Next.js API routes on [Vercel](/tools/vercel/).
 
 This makes V0 a component generator with full-stack aspirations, not a true full-stack builder.
 
@@ -39,7 +39,7 @@ This makes V0 a component generator with full-stack aspirations, not a true full
 - [Designers](/best-for/designers/) converting designs to code
 - Frontend [developers](/best-for/developers/) building UI components
 - Vercel users who want tight platform integration
-- Figma-to-code workflows
+- [Figma](/tools/figma/)-to-code workflows
 
 ## Bolt.new
 
@@ -63,7 +63,7 @@ Token consumption can be aggressive on complex projects. You might burn through 
 
 ### What It Does Best
 
-Lovable is the most complete of the three for building real applications. It has Supabase built in — meaning database, authentication, and file storage are available from your first prompt. One-click deployment gets your app live, and GitHub export lets you continue development in a proper IDE.
+Lovable is the most complete of the three for building real applications. It has Supabase built in — meaning database, authentication, and file storage are available from your first prompt. One-click deployment gets your app live, and [GitHub](/tools/github/) export lets you continue development in a proper IDE.
 
 Lovable reached $20M ARR in two months, the fastest growth in European startup history.
 

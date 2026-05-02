@@ -113,8 +113,8 @@ If your startup is all engineers, ClickUp's complexity is fine — they'll appre
 ### ClickUp's Advantage: All-in-One
 
 ClickUp genuinely tries to replace multiple tools:
-- **Docs**: Built-in documents that link to tasks. You don't need a separate Notion or Google Docs.
-- **Whiteboards**: Brainstorming and diagramming without Miro or FigJam.
+- **Docs**: Built-in documents that link to tasks. You don't need a separate [Notion](/tools/notion/) or Google Docs.
+- **Whiteboards**: Brainstorming and diagramming without Miro or [FigJam](/tools/figjam/).
 - **Goals**: Track OKRs connected to actual tasks without a separate tool.
 - **Time tracking**: Built into every task. No need for Toggl or [Harvest](/tools/harvest/).
 
@@ -156,13 +156,13 @@ Both tools integrate with the startup stack:
 
 | Integration | ClickUp | Monday.com |
 |-------------|---------|-----------|
-| GitHub/GitLab | ✅ | ✅ |
+| [GitHub](/tools/github/)/GitLab | ✅ | ✅ |
 | Slack | ✅ | ✅ |
 | Figma | ✅ | ✅ |
 | Google Workspace | ✅ | ✅ |
 | [Zapier](/tools/zapier/)/Make | ✅ | ✅ |
-| HubSpot | ✅ | ✅ |
-| Stripe | Via Zapier | Via Zapier |
+| [HubSpot](/tools/hubspot/) | ✅ | ✅ |
+| Stripe | Via [Zapier](/tools/zapier/) | Via Zapier |
 
 No significant difference here. Both cover the essentials.
 

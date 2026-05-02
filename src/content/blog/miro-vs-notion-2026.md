@@ -72,7 +72,7 @@ Notion's databases with Kanban, timeline, calendar, and table views handle [proj
 ### For Documentation
 **Winner: Notion**
 
-Notion is fundamentally a documentation tool. Nested pages, databases, embedded content, and a robust editor make it ideal for wikis and knowledge bases. Miro can hold text, but it's not designed for long-form documentation.
+Notion is fundamentally a documentation tool. Nested pages, databases, embedded content, and a robust editor [make](/tools/make/) it ideal for wikis and knowledge bases. Miro can hold text, but it's not designed for long-form documentation.
 
 ### For Remote Workshops
 **Winner: Miro**

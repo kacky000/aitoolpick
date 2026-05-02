@@ -81,7 +81,7 @@ At $35.99/year ($2.99/month billed annually or $5.99 billed monthly), Premium un
 | Things 3 (one-time) | $49.99 | ✅ | ❌ | ❌ |
 | [Notion](/tools/notion/) Personal | $192/year | ❌ (separate) | ❌ | ❌ |
 
-At $35.99/year, TickTick is the cheapest of these options — and it includes more built-in productivity features than any of them. Todoist costs 33% more for fewer features. Things 3 is macOS only. Notion is 5x more expensive and doesn't replace a dedicated task manager.
+At $35.99/year, TickTick is the cheapest of these options — and it includes more built-in productivity features than any of them. [Todoist](/tools/todoist/) costs 33% more for fewer features. Things 3 is macOS only. Notion is 5x more expensive and doesn't replace a dedicated task manager.
 
 ## Is TickTick Premium Worth It?
 

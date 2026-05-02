@@ -53,7 +53,7 @@ Pro identifies wordy phrases and suggests tighter alternatives:
 - "In order to" → "To"
 - "At this point in time" → "Now"
 
-These suggestions make your writing noticeably more readable. It's like having an editor who trims the fat.
+These suggestions [make](/tools/make/) your writing noticeably more readable. It's like having an editor who trims the fat.
 
 ### 2. Tone Detection
 

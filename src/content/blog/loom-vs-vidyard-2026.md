@@ -29,7 +29,7 @@ Both tools cover the basics: screen-only, camera-only, or screen-plus-camera rec
 
 **Loom** pulls ahead on editing. You can trim, stitch clips together, add CTAs, and insert chapters. Loom's AI generates automatic titles, summaries, and chapter markers, which saves time when you're recording 5-10 videos a day.
 
-**Vidyard** keeps editing minimal. Trim the beginning and end, add a CTA — that's about it. Vidyard's philosophy is that sales videos should be quick and personal, not polished. The AI script generator helps you draft what to say before recording, which is useful for cold outreach videos.
+**Vidyard** keeps editing minimal. Trim the beginning and end, add a CTA — that's about it. Vidyard's philosophy is that sales videos should be quick and personal, not polished. The AI script generator helps you draft what to say before recording, which is useful for cold [outreach](/tools/outreach/) videos.
 
 **Winner: Loom** for editing and polish. **Vidyard** if you prefer speed over production value.
 
@@ -39,7 +39,7 @@ Both tools cover the basics: screen-only, camera-only, or screen-plus-camera rec
 
 **Vidyard** creates a video landing page that can be customized with your branding, prospect's name, and a CTA button. For sales, this personalization matters. Seeing "Hi Sarah, here's the demo you asked about" with a "Book a Call" button underneath converts better than a generic Loom link.
 
-Vidyard also integrates into email clients. You can record and embed videos directly in Gmail, Outlook, Outreach, and SalesLoft sequences without leaving your inbox.
+Vidyard also integrates into email clients. You can record and embed videos directly in Gmail, Outlook, Outreach, and [SalesLoft](/tools/salesloft/) sequences without leaving your inbox.
 
 **Winner: Vidyard** for sales outreach. **Loom** for internal team communication.
 
@@ -61,8 +61,8 @@ For sales teams, this changes the workflow. Instead of guessing whether a prospe
 
 **Vidyard** is built [around](/tools/around/) CRM integration. It connects natively to:
 
-- **Salesforce**: Auto-logs video views as activities on contact/lead records
-- **HubSpot**: Tracks video engagement in the contact timeline
+- **[Salesforce](/tools/salesforce/)**: Auto-logs video views as activities on contact/lead records
+- **[HubSpot](/tools/hubspot/)**: Tracks video engagement in the contact timeline
 - **Outreach**: Embeds video in sequences with tracking
 - **SalesLoft**: Same as Outreach
 - **[Gong](/tools/gong/)**: Links video engagement to deal intelligence

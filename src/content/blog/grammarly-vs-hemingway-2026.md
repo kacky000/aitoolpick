@@ -96,7 +96,7 @@ Grammarly works practically everywhere:
 - Browser extensions for Chrome, Firefox, Edge, and Safari
 - Desktop apps for Windows and macOS
 - Mobile keyboards for iOS and Android
-- Integrations with Google Docs, Microsoft Word, Slack, and more
+- Integrations with Google Docs, Microsoft Word, [Slack](/tools/slack/), and more
 
 This is Grammarly's strongest advantage. You don't need to copy-paste text into a separate editor — corrections appear wherever you're writing.
 
@@ -107,7 +107,7 @@ Hemingway runs in two places:
 - The free web editor at hemingwayapp.com
 - The $19.99 desktop app (Windows and macOS)
 
-There's no browser extension, no mobile app, and no integration with other writing tools. You write or paste text into Hemingway's editor, make your changes, then copy it back. This workflow is fine for blog posts and long documents but impractical for emails, chat messages, or social media.
+There's no browser extension, no mobile app, and no integration with other writing tools. You write or paste text into Hemingway's editor, [make](/tools/make/) your changes, then copy it back. This workflow is fine for blog posts and long documents but impractical for emails, chat messages, or social media.
 
 **Winner:** Grammarly. The browser extension alone makes it far more convenient for daily use.
 

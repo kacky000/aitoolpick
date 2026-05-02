@@ -126,7 +126,7 @@ You can genuinely stay on Zapier Free if:
 
 ## Who Should Upgrade to Professional
 
-Upgrade when you need multi-step workflows, you're hitting the 100-task limit, or you want filters and 2-minute polling. **Real-world example:** A small business automating lead capture (form to CRM to email sequence to Slack alert) -- Professional handles it easily.
+Upgrade when you need multi-step workflows, you're hitting the 100-task limit, or you want filters and 2-minute polling. **Real-world example:** A small business automating lead capture (form to CRM to email sequence to [Slack](/tools/slack/) alert) -- Professional handles it easily.
 
 ## Who Should Upgrade to Team
 

@@ -83,7 +83,7 @@ Linear integrates with Slack, GitHub, GitLab, Figma, Sentry, [Zendesk](/tools/ze
 | Plus/Premium | $16/user/mo | $15.25/user/mo |
 | Enterprise | Custom | Custom |
 
-The pricing is remarkably close at each tier. The real cost difference emerges when you factor in Jira's add-ons. Confluence costs an additional $6.05/user/mo, and many teams need third-party marketplace apps that add further cost. Linear includes its full feature set in the Plus plan with no add-ons required.
+The pricing is remarkably [close](/tools/close/) at each tier. The real cost difference emerges when you factor in Jira's add-ons. Confluence costs an additional $6.05/user/mo, and many teams need third-party marketplace apps that add further cost. Linear includes its full feature set in the Plus plan with no add-ons required.
 
 ## Who Should Choose What
 
@@ -105,7 +105,7 @@ The pricing is remarkably close at each tier. The real cost difference emerges w
 
 Linear is the issue tracker that [developers](/best-for/developers/) actually enjoy using. It is fast, beautiful, and removes friction from daily work. For startups and modern engineering teams that value speed over configurability, Linear is the clear winner.
 
-Jira is the issue tracker that large organizations depend on. It is not as fast or as pretty, but it handles complexity that Linear cannot. Custom workflows, deep integrations, advanced reporting, and enterprise governance make Jira irreplaceable for organizations at scale.
+Jira is the issue tracker that large organizations depend on. It is not as fast or as pretty, but it handles complexity that Linear cannot. Custom workflows, deep integrations, advanced reporting, and enterprise governance [make](/tools/make/) Jira irreplaceable for organizations at scale.
 
 The choice comes down to team size and complexity. If you have a team under 200 and a clean workflow, start with Linear. If you are managing hundreds of developers across multiple projects with different processes, Jira earns its complexity.
 

@@ -76,7 +76,7 @@ Obsidian's mobile app is noticeably more polished than Logseq's. If you capture 
 - Daily journalers who want all notes to flow from a journal
 - Researchers who want deep block-level referencing
 - Users who prioritize fully open-source software
-- People who came from Roam Research
+- People who came from [Roam Research](/tools/roam-research/)
 
 ## Who Should Use Obsidian
 

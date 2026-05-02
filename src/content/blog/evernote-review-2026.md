@@ -62,7 +62,7 @@ This is where Evernote loses many potential users.
 
 Evernote's free plan was once generous — unlimited notes, multiple notebooks, and decent upload limits. In 2026, the free tier is restricted to just **50 notes and 1 notebook**. This is barely enough to evaluate the app, let alone use it as your primary note-taking tool.
 
-For comparison, Apple Notes, Google Keep, and Notion all offer unlimited notes on their free plans. OneNote gives you essentially unlimited storage tied to your OneDrive. Evernote's free plan is the most restrictive of any major note-taking app.
+For comparison, Apple Notes, Google Keep, and [Notion](/tools/notion/) all offer unlimited notes on their free plans. OneNote gives you essentially unlimited storage tied to your OneDrive. Evernote's free plan is the most restrictive of any major note-taking app.
 
 ### Paid Plans Are Expensive
 
@@ -86,11 +86,11 @@ The **Advanced plan** at $14.99/month adds 10GB of monthly uploads, offline acce
 
 **Expensive for what you get.** At $10-15/month, Evernote costs more than Notion ($10/month with vastly more features) and infinitely more than free alternatives like Apple Notes, Google Keep, or [Obsidian](/tools/obsidian/).
 
-**The interface feels dated.** Despite updates, Evernote's design still feels like a product from a previous era. It lacks the modern, clean aesthetic of Notion, Craft, or Bear. The editor is functional but not enjoyable.
+**The interface feels dated.** Despite updates, Evernote's design still feels like a product from a previous era. It lacks the modern, clean aesthetic of Notion, [Craft](/tools/craft/), or Bear. The editor is functional but not enjoyable.
 
 **Limited collaboration.** Evernote's sharing and collaboration features are basic compared to Notion or Google Docs. You can share notebooks and notes, but real-time co-editing is limited.
 
-**No meaningful free tier for evaluation.** Most competing apps let you use them fully before asking for payment. Evernote's restrictions make it hard for new users to commit.
+**No meaningful free tier for evaluation.** Most competing apps let you use them fully before asking for payment. Evernote's restrictions [make](/tools/make/) it hard for new users to commit.
 
 **Feature set has not grown.** While competitors have added databases, kanban boards, wikis, and advanced AI, Evernote has largely stayed focused on notes. There is nothing wrong with focus, but the price does not reflect the narrower feature set.
 

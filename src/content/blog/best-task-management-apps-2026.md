@@ -57,7 +57,7 @@ Trello's Kanban boards are the easiest way to visualize task workflows. Drag-and
 - **Limitation:** Not suited for complex projects
 
 ### 7. Linear — Best for Engineering Teams
-Linear is blazing fast with a keyboard-first design built for software development. Cycles, roadmaps, and Git integration make sprint planning seamless.
+Linear is blazing fast with a keyboard-first design built for software development. Cycles, roadmaps, and Git integration [make](/tools/make/) sprint planning seamless.
 
 - **Price:** Free / $10/user/mo / $16/user/mo
 - **Standout:** Speed, keyboard shortcuts, Git integration

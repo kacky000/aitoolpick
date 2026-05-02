@@ -56,7 +56,7 @@ Grammar and style checking is solid, though not as deep as Grammarly or ProWriti
 
 **Pricing**: Free (10 rewrites/day), $9.99/month (Plus)
 
-Wordtune rewrites your sentences to make them clearer, more formal, or more casual. Unlike grammar checkers that fix errors, Wordtune improves already-correct text. The AI suggestions are often surprisingly good.
+Wordtune rewrites your sentences to [make](/tools/make/) them clearer, more formal, or more casual. Unlike grammar checkers that fix errors, Wordtune improves already-correct text. The AI suggestions are often surprisingly good.
 
 **Best for**: Non-native English speakers and anyone who wants better phrasing.
 

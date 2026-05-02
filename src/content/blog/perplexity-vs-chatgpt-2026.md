@@ -43,7 +43,7 @@ ChatGPT's web browsing can find information, but it doesn't consistently cite so
 
 ChatGPT is far more capable at generating content. Blog posts, emails, marketing copy, code, creative writing — ChatGPT handles all of these. Perplexity can write but it's not its strength.
 
-**Winner: ChatGPT** — not even close for content creation.
+**Winner: ChatGPT** — not even [close](/tools/close/) for content creation.
 
 ## Coding
 

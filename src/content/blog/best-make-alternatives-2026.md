@@ -82,7 +82,7 @@ Cloud pricing starts at $10/month, which undercuts Make's paid plans. Self-hoste
 
 **Price:** Custom (typically $600+/month)
 
-Tray.io targets enterprise teams that have outgrown tools like Make and Zapier. It handles complex, multi-branch workflows with conditional logic, loops, and error handling that enterprise IT teams expect.
+Tray.io targets enterprise teams that have outgrown tools like Make and Zapier. It handles complex, multi-branch workflows with conditional logic, [loops](/tools/loops/), and error handling that enterprise IT teams expect.
 
 The platform includes features Make lacks: a built-in data mapper for transforming complex JSON, role-based access control, SOC 2 compliance documentation, and dedicated customer success managers.
 
@@ -102,7 +102,7 @@ Key differentiators: AI-assisted recipe building, a community library of pre-bui
 
 Like Tray.io, Workato is priced for enterprise budgets. Small businesses and solopreneurs should look elsewhere.
 
-**Switch to Workato if:** You need to integrate enterprise systems (SAP, Oracle, Workday) with modern SaaS tools.
+**Switch to Workato if:** You need to integrate enterprise systems (SAP, Oracle, [Workday](/tools/workday/)) with modern SaaS tools.
 
 **Stay on Make if:** You're automating between cloud-based SaaS products and don't need on-premise connectivity.
 

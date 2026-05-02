@@ -19,9 +19,9 @@ Here are the AI tools that actually matter for designers in 2026, organized by w
 | UI/UX design with AI | [Figma](/tools/figma/) (AI features) | Free – $15/mo |
 | Graphic design + templates | [Canva](/tools/canva/) (Magic Studio) | Free – $15/mo |
 | Image generation | [Midjourney](/tools/midjourney/) | $10/mo |
-| Background removal | Remove.bg / Canva | Free – $15/mo |
+| Background removal | Remove.bg / [Canva](/tools/canva/) | Free – $15/mo |
 | AI copywriting for UI | [Claude](/tools/claude/) | Free – $20/mo |
-| Design-to-code | Figma Dev Mode | $15/mo |
+| Design-to-code | [Figma](/tools/figma/) Dev Mode | $15/mo |
 | Stock photo alternative | Adobe Firefly | Included with CC |
 
 ## 1. Figma — AI-Powered UI/UX Design
@@ -48,7 +48,7 @@ Read our full [Figma review](/blog/figma-review-2026) or compare with [Canva](/c
 Canva's Magic Studio suite includes:
 
 - **Magic Design**: Describe what you want, get a complete design with layout, images, and text
-- **Magic Eraser**: Remove objects from photos
+- **Magic [Eraser](/tools/eraser-io/)**: Remove objects from photos
 - **Magic Expand**: Extend images beyond their original borders
 - **Magic Write**: Generate marketing copy, social captions, and presentations
 - **Magic Morph**: Transform text and shapes with AI-generated effects
@@ -135,7 +135,7 @@ Framer has pushed AI website generation further than anyone:
 
 - **AI page generation**: Describe your site, get a fully designed page with real components
 - **AI section generation**: Add sections by describing what you need
-- **Responsive by default**: AI-generated layouts are mobile-responsive out of the box
+- **Responsive by default**: AI-generated layouts are mobile-responsive out of the [box](/tools/box/)
 - **CMS integration**: Dynamic content with visual editing
 
 For designers building client websites or portfolios, Framer eliminates the boilerplate. You get a designed starting point, then customize to perfection.

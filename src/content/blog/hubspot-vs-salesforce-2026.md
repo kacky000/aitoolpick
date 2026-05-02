@@ -118,7 +118,7 @@ Both platforms have added AI capabilities in 2025–2026:
 
 Switching CRMs is never simple. Both platforms offer data import tools, but complex migrations with custom fields, historical activity data, and automation rules require planning.
 
-If you start on HubSpot and later outgrow it, migrating to Salesforce is possible but time-consuming. It's worth thinking ahead about your 3–5 year growth trajectory before choosing.
+If you start on HubSpot and [later](/tools/later/) outgrow it, migrating to Salesforce is possible but time-consuming. It's worth thinking ahead about your 3–5 year growth trajectory before choosing.
 
 ## Verdict
 

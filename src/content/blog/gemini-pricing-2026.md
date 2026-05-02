@@ -106,7 +106,7 @@ Both Workspace plans add Gemini AI directly into Gmail, Docs, Sheets, Slides, an
 | Feature | Gemini AI Pro | ChatGPT Plus | [Claude](/tools/claude/) Pro |
 |---------|-------------|-------------|-----------|
 | Price | $19.99/mo | $20/mo | $20/mo |
-| Top model | Gemini 3 | GPT-4o | Claude 3.5 Sonnet |
+| Top model | Gemini 3 | GPT-4o | [Claude](/tools/claude/) 3.5 Sonnet |
 | Context window | 1M tokens | 128K tokens | 200K tokens |
 | Image generation | Yes | Yes ([DALL-E 3](/tools/dall-e/)) | No |
 | Web search | Yes (native) | Yes | Yes (limited) |
@@ -130,7 +130,7 @@ Gemini's 1M token context window is the standout — 8x ChatGPT's limit and 5x C
 
 ## Bottom Line
 
-Google's new Gemini pricing is competitive. The $7.99 AI Plus tier undercuts every major competitor, and the AI Pro plan matches ChatGPT Plus and Claude Pro on price while offering deeper integration with the Google ecosystem. The Ultra tier is expensive but generous with credits.
+Google's new Gemini pricing is competitive. The $7.99 AI Plus tier undercuts every major competitor, and the AI Pro plan matches [ChatGPT](/tools/chatgpt/) Plus and Claude Pro on price while offering deeper integration with the Google ecosystem. The Ultra tier is expensive but generous with credits.
 
 The biggest deciding factor isn't price — it's ecosystem. If you live in Google Workspace, Gemini is the obvious choice. If you don't, [ChatGPT](/blog/chatgpt-vs-gemini-2026/) and [Claude](/blog/claude-vs-gemini-2026/) may serve you better.
 

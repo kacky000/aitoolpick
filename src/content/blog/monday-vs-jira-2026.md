@@ -99,7 +99,7 @@ Jira's reports are more granular and development-specific. The built-in Agile re
 - Software development teams using Agile, Scrum, or Kanban
 - You need detailed sprint tracking, burndown charts, and velocity reports
 - Your team uses Atlassian products (Confluence, Bitbucket)
-- You need deep GitHub/GitLab integration for issue tracking
+- You need deep [GitHub](/tools/github/)/GitLab integration for issue tracking
 
 ## Verdict
 

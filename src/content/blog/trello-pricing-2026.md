@@ -129,9 +129,9 @@ Enterprise adds organization-wide controls, advanced security, and features desi
 
 Trello made a smart move by making Power-Ups unlimited on all plans — including Free. Power-Ups are integrations that extend Trello's functionality:
 
-- **Slack** — get Trello notifications in Slack channels
+- **[Slack](/tools/slack/)** — get Trello notifications in Slack channels
 - **[Google Drive](/tools/google-drive/)** — attach Drive files to cards
-- **Jira** — sync with Jira issues
+- **[Jira](/tools/jira/)** — sync with Jira issues
 - **Custom Fields** — add structured data to cards (Standard+)
 - **Calendar** — view cards with dates in calendar format (Premium+)
 - **Voting** — let team members vote on cards

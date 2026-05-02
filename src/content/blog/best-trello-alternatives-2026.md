@@ -58,7 +58,7 @@ Read our full [Asana review](/blog/asana-review-2026/) for an in-depth look.
 
 ## 4. Monday.com — Best for Visual Teams
 
-Monday.com offers a colorful, highly visual interface with boards that go far beyond Kanban. Its built-in CRM, automations, and dashboards make it a strong Trello upgrade.
+Monday.com offers a colorful, highly visual interface with boards that go far beyond Kanban. Its built-in CRM, automations, and dashboards [make](/tools/make/) it a strong Trello upgrade.
 
 **Pricing**: Free (up to 2 seats) / $9/seat/mo
 
@@ -120,7 +120,7 @@ GitHub Projects brings Kanban boards directly into your GitHub workflow. Issues 
 | Monday.com | 2 seats | $9/mo | Yes | Yes | No | Visual teams |
 | Linear | Small teams | $8/mo | Yes | Yes | No | Dev teams |
 | Todoist | Good | $4/mo | Yes | No | No | Personal tasks |
-| Airtable | 1,000 rows | $20/mo | Yes | No | No | Data-driven teams |
+| Airtable | 1,000 [rows](/tools/rows/) | $20/mo | Yes | No | No | Data-driven teams |
 | GitHub Projects | Full | Free | Yes | Yes | No | GitHub developers |
 
 ## Which Trello Alternative Should You Pick?

@@ -10,7 +10,7 @@ lastModified: "2026-04-26"
 
 Google Meet has spent years being "the video tool you use if you already have Google Workspace." For a long time that was a polite way of saying "it's not as good as [Zoom](/tools/zoom/), but it's free." In 2026, that framing no longer holds up. Gemini integration has transformed Meet into a serious competitor on AI-driven meeting intelligence, and the core video experience has closed most of the quality gap.
 
-Here is an honest review of Google Meet in 2026 — what it does well, where it still trails, and whether Google Workspace companies should cancel Zoom.
+Here is an honest review of Google Meet in 2026 — what it does well, where it still trails, and whether Google Workspace companies should cancel [Zoom](/tools/zoom/).
 
 ## The Short Answer
 

@@ -76,7 +76,7 @@ Both offer paid tiers with advanced AI:
 | Sources with answers | Yes | Partial (AI Overviews) |
 | Gmail/Docs integration | No | Yes |
 
-If you're heavily invested in Google Workspace, Google One AI integrates across Gmail, Docs, and Drive — something Perplexity can't match. For pure research, Perplexity Pro's multi-model access (GPT-4o + Claude) is a stronger value.
+If you're heavily invested in Google Workspace, Google One AI integrates across Gmail, Docs, and Drive — something Perplexity can't match. For pure research, Perplexity Pro's multi-model access (GPT-4o + [Claude](/tools/claude/)) is a stronger value.
 
 See our [Perplexity review](/blog/perplexity-ai-review-2026) and [best AI search engines 2026](/blog/best-ai-search-engines-2026) for more options.
 

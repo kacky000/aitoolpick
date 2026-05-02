@@ -28,7 +28,7 @@ Types include one-on-one meetings, round-robin (rotating team members for inboun
 
 ### Scheduling Links
 
-Your Calendly link is your scheduling superpower. You embed it in email signatures, LinkedIn bios, cold outreach, and websites. When someone clicks, they see your available times and book without any email exchange.
+Your Calendly link is your scheduling superpower. You embed it in email signatures, LinkedIn bios, cold [outreach](/tools/outreach/), and websites. When someone clicks, they see your available times and book without any email exchange.
 
 You can create multiple links for different meeting types — a 15-minute discovery call, a 30-minute demo, a 60-minute strategy session — each with different availability rules.
 
@@ -96,7 +96,7 @@ The **Teams plan** at $16/month adds routing forms, round-robin scheduling, and 
 - Anyone who spends more than 30 minutes per week on scheduling coordination
 
 **Not ideal for:**
-- Teams on tight budgets (Cal.com's open-source version is free and powerful)
+- Teams on tight budgets ([Cal.com](/tools/cal-com/)'s open-source version is free and powerful)
 - Users who need fully white-labeled scheduling pages
 - Teams that primarily initiate meetings rather than receive bookings
 

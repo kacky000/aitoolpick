@@ -40,7 +40,7 @@ Organize your board into named sections — one per exercise or time block. Use 
 
 ### 3. Pre-populate Stickies and Instructions
 
-Write clear instructions inside each frame before participants join. Use colored sticky notes to differentiate instructions (blue) from participant inputs (yellow/green). Don't make people read a wall of text during the session.
+Write clear instructions inside each frame before participants join. Use colored sticky notes to differentiate instructions (blue) from participant inputs (yellow/green). Don't [make](/tools/make/) people read a wall of text during the session.
 
 ### 4. Share Access Before the Session
 
@@ -115,7 +115,7 @@ The most common workshop failure: great ideas, zero accountability. Before endin
 | Lock background elements | Right-click → Lock — prevents accidental moves |
 | Bring everyone to same view | Click your avatar → "Focus on me" |
 | [Zoom](/tools/zoom/) in on a frame | Double-click the frame border |
-| Add reactions | Keyboard shortcut E |
+| Add reactions | Keyboard [shortcut](/tools/shortcut/) E |
 | Presentation mode | Press P — presents frames in sequence |
 | Guest mode | Share a link without requiring sign-in (free boards only) |
 

@@ -17,7 +17,7 @@ You need: task lists, due dates, basic organization.
 
 **Best picks**:
 - **[Todoist](/tools/todoist/)** ($4/mo) — Clean, fast, natural language input
-- **Trello** (Free) — Visual Kanban boards, dead simple
+- **[Trello](/tools/trello/)** (Free) — Visual Kanban boards, dead simple
 
 ### Medium (Growing Team)
 You need: multiple views, basic automations, collaboration features.
@@ -45,16 +45,16 @@ Prioritize speed and simplicity. You don't need collaboration features, permissi
 ### For Teams (2-10 people)
 Look for shared workspaces, commenting, and notifications. Avoid tools that require per-seat pricing on expensive plans.
 
-**Top small team picks**: Trello (free), ClickUp ($7/user), Asana (free up to 10)
+**Top small team picks**: Trello (free), [ClickUp](/tools/clickup/) ($7/user), Asana (free up to 10)
 
 ### For Large Teams (10+)
 Admin controls, reporting, and scalability matter. Budget for proper onboarding.
 
-**Top large team picks**: Asana Advanced, Monday.com, ClickUp Business
+**Top large team picks**: Asana Advanced, [Monday.com](/tools/monday/), ClickUp Business
 
 ## Step 3: Check Your Must-Have Features
 
-| Feature | Todoist | Trello | Asana | ClickUp | Monday | Notion |
+| Feature | [Todoist](/tools/todoist/) | Trello | Asana | ClickUp | Monday | Notion |
 |---------|---------|--------|-------|---------|--------|--------|
 | Kanban boards | No | Yes | Yes | Yes | Yes | Yes |
 | Timeline/Gantt | No | No | Yes | Yes | Yes | Yes |
@@ -73,7 +73,7 @@ Every major task management app offers a free tier. Here's what you actually get
 - **Asana Free**: Up to 10 teammates, list/board/calendar views
 - **ClickUp Free**: Unlimited members, 100MB storage
 - **Monday.com Free**: Up to 2 seats, 3 boards
-- **Notion Free**: Unlimited pages, 10 guest collaborators
+- **[Notion](/tools/notion/) Free**: Unlimited pages, 10 guest collaborators
 
 **Pro tip**: Use free plans for at least 2 weeks before deciding. Day-one impressions don't capture friction points that show up over time.
 

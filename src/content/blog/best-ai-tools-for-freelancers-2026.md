@@ -20,7 +20,7 @@ As a freelancer, you wear every hat: writer, designer, accountant, marketer, pro
 
 **Price**: Free / $20/month (Pro)
 
-ChatGPT remains the most versatile AI tool for freelancers. Use it to draft client proposals, brainstorm project ideas, write cold outreach emails, create content outlines, or troubleshoot problems in your domain.
+ChatGPT remains the most versatile AI tool for freelancers. Use it to draft client proposals, brainstorm project ideas, write cold [outreach](/tools/outreach/) emails, create content outlines, or troubleshoot problems in your domain.
 
 **Best for**: Writers, consultants, developers, marketers
 **Key use cases**: Drafting proposals, brainstorming, research summaries, client communication templates

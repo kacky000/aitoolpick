@@ -25,7 +25,7 @@ Notion isn't just a note-taking app — it's a full workspace that combines note
 
 **Best for:** People who want to consolidate their digital life into one app. Students, freelancers, and teams who need structured knowledge management.
 
-**Limitations:** The free plan doesn't include Notion AI. The interface can feel overwhelming for new users. Mobile app performance lags behind desktop.
+**Limitations:** The free plan doesn't include [Notion AI](/tools/notion-ai/). The interface can feel overwhelming for new users. Mobile app performance lags behind desktop.
 
 ---
 

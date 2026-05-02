@@ -84,7 +84,7 @@ Many solopreneurs and side project builders never leave the free tier.
 Upgrade to Team when you hit any of these:
 
 - Your base regularly approaches or exceeds 1,000 records
-- You want to sync data from other tools (Google Sheets, Salesforce, etc.)
+- You want to sync data from other tools (Google Sheets, [Salesforce](/tools/salesforce/), etc.)
 - You run automations that fire more than a few times a day
 - You need timeline or Gantt views for [project management](/category/project-management/)
 - You're sharing bases with paying collaborators and need full edit rights

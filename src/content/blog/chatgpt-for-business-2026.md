@@ -61,7 +61,7 @@ What ChatGPT can't do: handle live customer conversations reliably without signi
 
 **Prospect research summaries**: Paste a company's About page and ask ChatGPT to summarize their business model, likely pain points, and potential fit with your solution.
 
-**Cold outreach personalization**: Give ChatGPT a prospect's LinkedIn summary and your value proposition — it writes a personalized opening line for cold emails far faster than reps doing it manually.
+**Cold [outreach](/tools/outreach/) personalization**: Give ChatGPT a prospect's LinkedIn summary and your value proposition — it writes a personalized opening line for cold emails far faster than reps doing it manually.
 
 **Proposal drafts**: Describe the deal scope and ChatGPT generates a proposal structure and first draft. The numbers and specifics still need to come from humans.
 

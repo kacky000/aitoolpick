@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Clickup** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
-ClickUp is known for offering one of the most feature-packed free plans in the productivity space. But when you need more, which paid plan makes sense? In this guide, we break down every ClickUp pricing tier so you can make an informed decision.
+ClickUp is known for offering one of the most feature-packed free plans in the productivity space. But when you need more, which paid plan makes sense? In this guide, we break down every ClickUp pricing tier so you can [make](/tools/make/) an informed decision.
 
 ## ClickUp Pricing Overview (2026)
 
@@ -90,7 +90,7 @@ Whether the AI add-on is worth it depends on how heavily you use ClickUp Docs. I
 |------|-----------|--------------|---------|-------------|
 | ClickUp | Generous | $7/mo | Unlimited (paid) | 1,000/mo |
 | [Asana](/tools/asana/) | Basic | $10.99/mo | Unlimited | 250 rules |
-| Monday.com | 2 seats max | $9/mo | 5GB | 250/mo |
+| [Monday.com](/tools/monday/) | 2 seats max | $9/mo | 5GB | 250/mo |
 | [Notion](/tools/notion/) | Generous | $10/mo | Unlimited | N/A |
 | [Trello](/tools/trello/) | Good | $5/mo | Unlimited | Limited |
 

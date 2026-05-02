@@ -43,7 +43,7 @@ Where ChatGPT is the most versatile, [Claude](/tools/claude/) is the best at rea
 - **Contracts and agreements** — extract payment terms, penalty clauses, revenue recognition triggers
 - **Audit documentation** — summarize findings, identify inconsistencies
 
-Claude's 200K token context window means it can hold an entire year's worth of transaction data or a complete audit file in a single conversation. That's a meaningful advantage for CPAs reviewing complex documents.
+[Claude](/tools/claude/)'s 200K token context window means it can hold an entire year's worth of transaction data or a complete audit file in a single conversation. That's a meaningful advantage for CPAs reviewing complex documents.
 
 → [See full Claude review](/blog/claude-review-2026/)
 

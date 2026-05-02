@@ -135,7 +135,7 @@ For researchers who work on flights, in remote field locations, or in buildings 
 - **Pandoc Plugin**: Export to any format
 
 ### Notion Features for Researchers
-- **Notion AI**: Summarize, translate, brainstorm
+- **[Notion AI](/tools/notion-ai/)**: Summarize, translate, brainstorm
 - **Database templates**: Standardized paper review formats
 - **API**: Build custom integrations with Python
 - **Embeds**: Embed PDFs, videos, and external content directly

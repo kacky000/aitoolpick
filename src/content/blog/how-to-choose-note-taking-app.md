@@ -53,7 +53,7 @@ Notion is the most powerful note-taking app available, but calling it a "note-ta
 
 **Pricing:** Free for personal use (limited blocks for guests). Plus plan at $10/month. Team plan at $10/seat/month.
 
-**Choose Notion if:** You want one tool for notes, docs, and project tracking, and you work with a team.
+**Choose [Notion](/tools/notion/) if:** You want one tool for notes, docs, and project tracking, and you work with a team.
 
 ### Obsidian — Best for Offline Power Users
 
@@ -103,7 +103,7 @@ Evernote was the original note-taking app, and while it has lost market share to
 
 ### Apple Notes — Best for Simplicity (Apple Users)
 
-Apple Notes is the most underrated note-taking app available. It is free, pre-installed on every Apple device, syncs instantly via iCloud, and has gotten remarkably capable over the past few years.
+Apple Notes is the most underrated note-taking app available. It is free, pre-installed on every Apple device, syncs [instantly](/tools/instantly/) via iCloud, and has gotten remarkably capable over the past few years.
 
 **Strengths:**
 - Completely free with any Apple device

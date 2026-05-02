@@ -13,7 +13,7 @@ Miro is the leading online whiteboard, but its free plan limits you to 3 boards,
 ### 1. FigJam — Best for Design Teams
 FigJam is [Figma](/tools/figma/)'s whiteboard tool, built directly into the Figma ecosystem. If your team already uses Figma for design, FigJam provides seamless brainstorming alongside your design files.
 
-- **Price:** Free (unlimited FigJam files) / Included with Figma ($15/editor/mo)
+- **Price:** Free (unlimited FigJam files) / Included with [Figma](/tools/figma/) ($15/editor/mo)
 - **Best for:** Design teams already using Figma
 - **vs Miro:** More focused, less feature-heavy, free for unlimited boards
 

@@ -13,7 +13,7 @@ This guide covers what Linear offers product managers in 2026, where it excels, 
 
 ## What Makes Linear Different (for PMs)
 
-Linear was built with one obsession: speed. Every action—creating an issue, filtering a backlog, changing a status—happens in milliseconds. The keyboard-shortcut-first design means you can manage 50 issues faster in Linear than 10 issues in most other tools.
+Linear was built with one obsession: speed. Every action—creating an issue, filtering a backlog, changing a status—happens in milliseconds. The keyboard-[shortcut](/tools/shortcut/)-first design means you can manage 50 issues faster in Linear than 10 issues in most other tools.
 
 For product managers, this translates into:
 
@@ -76,11 +76,11 @@ Linear integrates with:
 
 | Integration | Use Case |
 |-------------|---------|
-| Slack | Post issue updates to channels; create issues from Slack |
+| [Slack](/tools/slack/) | Post issue updates to channels; create issues from Slack |
 | [GitHub](/tools/github/)/GitLab | Link issues to PRs; auto-close issues on merge |
-| Figma | Embed designs directly in issues |
+| [Figma](/tools/figma/) | Embed designs directly in issues |
 | [Zendesk](/tools/zendesk/) | Create Linear issues from support tickets |
-| Intercom | Link customer feedback to product issues |
+| [Intercom](/tools/intercom/) | Link customer feedback to product issues |
 | [Notion](/tools/notion/) | Reference docs alongside technical tasks |
 
 ## Linear Pricing for Product Teams
@@ -116,7 +116,7 @@ Most product teams need the **Basic plan ($8/user/mo)** at minimum to access roa
 |---------|--------|-------|
 | Engineering focus | ✅ Built for dev teams | ⚠️ General purpose |
 | Non-technical PMs | ⚠️ Learning curve | ✅ More accessible |
-| GitHub integration | ✅ Native | ⚠️ Limited |
+| [GitHub](/tools/github/) integration | ✅ Native | ⚠️ Limited |
 | Roadmaps | ✅ Clean timeline | ✅ Timeline view |
 | Customer management | ❌ No | ⚠️ Basic |
 | Best for | Dev-adjacent PMs | Cross-functional PMs |

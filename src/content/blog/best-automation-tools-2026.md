@@ -34,7 +34,7 @@ Zapier remains the king of no-code automation with 6,000+ app integrations. It's
 
 **Price:** Free / $10.59/mo (Core) / $18.82/mo (Pro)
 
-Make offers a visual workflow builder that handles complex branching, loops, and data transformations better than any competitor.
+Make offers a visual workflow builder that handles complex branching, [loops](/tools/loops/), and data transformations better than any competitor.
 
 **Best for:** Technical users and agencies building complex automations
 **Standout feature:** Visual scenario builder with drag-and-drop modules

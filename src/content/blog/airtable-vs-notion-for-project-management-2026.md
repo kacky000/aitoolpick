@@ -22,7 +22,7 @@ This distinction shapes everything about how these tools feel to use.
 
 | Plan | Notion | Airtable |
 |------|--------|---------|
-| Free | Yes (limited blocks for teams) | Yes (limited rows) |
+| Free | Yes (limited blocks for teams) | Yes (limited [rows](/tools/rows/)) |
 | Entry paid | $10/user/month (Plus) | $20/seat/month (Team) |
 | Business | $18/user/month | $45/seat/month |
 

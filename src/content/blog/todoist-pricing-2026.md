@@ -78,7 +78,7 @@ The Business plan adds team management features:
 |------|-----------|--------------|----------|
 | **Todoist Pro** | ✅ | $5/mo | Personal tasks |
 | **ClickUp** | ✅ | $7/mo | Full [project management](/category/project-management/) |
-| **Asana Starter** | ✅ | $10.99/mo | Team projects |
+| **[Asana](/tools/asana/) Starter** | ✅ | $10.99/mo | Team projects |
 | **[Monday.com](/tools/monday/)** | ✅ | $9/mo | Visual boards |
 | **[Notion](/tools/notion/)** | ✅ | $10/mo | All-in-one workspace |
 
@@ -104,7 +104,7 @@ Todoist is significantly cheaper than all major competitors, but it's also more 
 
 ## Final Verdict
 
-Todoist's pricing remains competitive. At $5/month for Pro (annual billing), it's still one of the best values in productivity software. It won't replace a full project management suite like ClickUp or Asana, but if you want a fast, clean task manager — Todoist delivers.
+Todoist's pricing remains competitive. At $5/month for Pro (annual billing), it's still one of the best values in productivity software. It won't replace a full project management suite like [ClickUp](/tools/clickup/) or Asana, but if you want a fast, clean task manager — Todoist delivers.
 
 → [Read our full Todoist review](/blog/todoist-review-2026)
 → [Compare Todoist vs TickTick](/blog/todoist-vs-ticktick-2026)

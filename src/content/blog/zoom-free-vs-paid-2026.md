@@ -67,7 +67,7 @@ Before upgrading, consider whether Zoom is the right tool:
 | Tool | Free Limit | Notes |
 |------|-----------|-------|
 | Google Meet | 60 minutes (with Google account) | Included in free Google accounts |
-| Microsoft Teams | Unlimited (basic) | Included in free Microsoft accounts |
+| [Microsoft Teams](/tools/microsoft-teams/) | Unlimited (basic) | Included in free Microsoft accounts |
 | [Discord](/tools/discord/) | Unlimited | Better for casual/community calls |
 | Jitsi Meet | Unlimited | Open source, no account required |
 

@@ -37,7 +37,7 @@ Gamma's free tier is genuinely generous for trying the product:
 - Priority AI access (slower generation during peak times)
 - Custom fonts
 
-The free plan is ideal for occasional use — generating a presentation for a one-time pitch or testing whether Gamma fits your workflow before committing.
+The free plan is ideal for occasional use — generating a presentation for a one-time [pitch](/tools/pitch/) or testing whether Gamma fits your workflow before committing.
 
 ## Plus Plan: $8/month (Annual) — Most Popular
 
@@ -107,7 +107,7 @@ Annual billing saves 20% for both plans. The savings are modest in absolute term
 | **PowerPoint** | Via Microsoft 365 | $6/month | Traditional slide work |
 | **Google Slides** | Free (unlimited) | Free | Basic, real-time collab |
 
-Gamma is the most affordable dedicated AI presentation tool. For generating polished decks quickly, it costs less than Canva Pro while being purpose-built for presentations.
+Gamma is the most affordable dedicated AI presentation tool. For generating polished decks quickly, it costs less than [Canva](/tools/canva/) Pro while being purpose-built for presentations.
 
 ## Is Gamma Worth Paying For?
 

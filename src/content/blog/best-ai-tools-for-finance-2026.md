@@ -35,10 +35,10 @@ Related: [ChatGPT vs Claude — which is better for your work?](/blog/chatgpt-vs
 
 [Claude](/tools/claude/)'s standout capability is handling long, complex documents — exactly the kind of work that dominates finance. Where it excels:
 
-- **Annual report analysis** — upload a 200-page 10-K filing and ask specific questions about revenue recognition policies, risk factors, or segment performance
+- **Annual report analysis** — upload a 200-page 10-K filing and ask specific questions about revenue recognition policies, risk factors, or [segment](/tools/segment/) performance
 - **Regulatory review** — paste new regulatory text and get a plain-language breakdown of what changed and what it means for your compliance obligations
 - **Contract analysis** — extract payment terms, covenants, and penalty clauses from loan agreements or vendor contracts
-- **Reasoning through complex scenarios** — Claude handles multi-step financial logic better than most alternatives, making it useful for tax planning discussions or M&A scenario analysis
+- **Reasoning through complex scenarios** — [Claude](/tools/claude/) handles multi-step financial logic better than most alternatives, making it useful for tax planning discussions or M&A scenario analysis
 
 The 200K token context window is the key differentiator. Most finance documents are long. Being able to hold an entire audit report, prospectus, or set of financial statements in a single conversation changes how you work with AI.
 
@@ -108,7 +108,7 @@ Finance teams accumulate massive amounts of institutional knowledge: valuation m
 - **Financial dashboards** — build custom databases that track deals, budgets, portfolios, or client engagements
 - **AI-powered search** — ask questions about your team's documentation in natural language
 - **Auto-summarization** — condense lengthy meeting notes, earnings call transcripts, or research reports
-- **Template creation** — generate standardized templates for financial analysis, due diligence checklists, or investment memos
+- **Template creation** — generate standardized templates for financial analysis, due diligence checklists, or investment [memos](/tools/memos/)
 
 The database functionality is particularly strong for finance use cases. Build a deal pipeline tracker, a portfolio monitoring dashboard, or a regulatory change log — then use AI to surface patterns and generate summaries.
 

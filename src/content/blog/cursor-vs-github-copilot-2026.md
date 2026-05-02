@@ -47,7 +47,7 @@ Both tools offer real-time code completion that anticipates what you're about to
 
 ### Chat and Q&A
 
-**GitHub Copilot Chat** is integrated into VS Code's sidebar. You can ask questions about your codebase, request explanations, suggest fixes, and use slash commands like `/fix`, `/explain`, `/test`, and `/doc`. In 2025, Copilot added Claude, Gemini, and OpenAI model selection.
+**GitHub Copilot Chat** is integrated into VS Code's sidebar. You can ask questions about your codebase, request explanations, suggest fixes, and use slash commands like `/fix`, `/explain`, `/test`, and `/doc`. In 2025, Copilot added [Claude](/tools/claude/), Gemini, and OpenAI model selection.
 
 **Cursor Chat** is a core feature, not an add-on. You can chat with `Cmd+L`, reference specific files with `@filename`, bring in documentation with `@docs`, and add web searches with `@web`. Cursor's chat feels more tightly integrated with your code because it's aware of your full project context, not just the open file.
 

@@ -52,7 +52,7 @@ Pro subscribers can choose which AI model powers their searches. Options typical
 
 - **Default** — Perplexity's optimized model
 - **GPT-4o** — OpenAI's latest model
-- **Claude** — Anthropic's model, strong for analysis and reasoning
+- **[Claude](/tools/claude/)** — Anthropic's model, strong for analysis and reasoning
 - **Sonar Large** — Perplexity's own large language model
 
 This flexibility matters because different models excel at different tasks. Claude might handle a nuanced legal question better, while GPT-4o might be stronger for creative tasks.
@@ -103,7 +103,7 @@ It depends on how you use AI search. Here is a simple framework:
 
 ### Compared to Alternatives
 
-At $20/month, Perplexity Pro costs the same as ChatGPT Plus and Claude Pro. The difference is focus — Perplexity is purpose-built for search and research, while ChatGPT and Claude are general-purpose AI assistants.
+At $20/month, Perplexity Pro costs the same as [ChatGPT](/tools/chatgpt/) Plus and Claude Pro. The difference is focus — Perplexity is purpose-built for search and research, while ChatGPT and Claude are general-purpose AI assistants.
 
 If research and fact-checking are your primary needs, Perplexity Pro offers better value than ChatGPT Plus for those specific tasks. For a detailed comparison, see our [ChatGPT vs Perplexity AI breakdown](/blog/chatgpt-vs-perplexity-ai-2026).
 

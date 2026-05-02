@@ -102,7 +102,7 @@ This plays to each tool's strengths without forcing one to do the other's job. I
 
 **Mistake 1: Using Canva for UI design.** Canva templates look great for marketing materials but lack the precision, component system, and developer handoff features needed for product design. You'll hit walls quickly.
 
-**Mistake 2: Using Figma for quick marketing graphics.** Figma *can* make a social media post, but it'll take 10x longer than Canva because you're starting from a blank canvas without templates.
+**Mistake 2: Using Figma for quick marketing graphics.** Figma *can* [make](/tools/make/) a social media post, but it'll take 10x longer than Canva because you're starting from a blank canvas without templates.
 
 **Mistake 3: Comparing them as competitors.** They're not competing for the same user. Asking "Canva or Figma?" is like asking "Mailchimp or [Salesforce](/tools/salesforce/)?" — the answer depends entirely on your role.
 

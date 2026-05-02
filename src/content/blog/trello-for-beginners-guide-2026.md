@@ -107,7 +107,7 @@ Trello's "Power-Ups" are integrations and feature extensions. The free plan allo
 - **Calendar**: View all cards with due dates in a monthly calendar view
 - **Card Aging**: Cards that haven't been touched fade visually — useful for spotting stale tasks
 - **[Google Drive](/tools/google-drive/)**: Attach Google Docs, Sheets, and Slides directly to cards
-- **Slack**: Get Trello notifications in Slack channels
+- **[Slack](/tools/slack/)**: Get Trello notifications in Slack channels
 
 To add a Power-Up: Open your board → Click "Power-Ups" in the right panel → Browse and enable.
 

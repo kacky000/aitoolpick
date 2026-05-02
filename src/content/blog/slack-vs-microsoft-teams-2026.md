@@ -118,7 +118,7 @@ Teams has a slight edge for highly regulated industries because it integrates wi
 
 ## User Experience & Learning Curve
 
-Slack is widely considered more intuitive and enjoyable to use. The interface is clean, search is fast, and keyboard shortcuts make power users extremely productive. New team members typically get comfortable within hours.
+Slack is widely considered more intuitive and enjoyable to use. The interface is clean, search is fast, and keyboard shortcuts [make](/tools/make/) power users extremely productive. New team members typically get comfortable within hours.
 
 Teams can feel overwhelming at first. The interface packs a lot of functionality — chat, meetings, files, apps, calendar — and navigating between them takes time. However, once you're familiar, having everything in one place is powerful.
 

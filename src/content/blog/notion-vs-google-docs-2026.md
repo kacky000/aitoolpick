@@ -84,7 +84,7 @@ Yes, and many teams do. A common setup:
 - **Notion** for internal documentation, project management, wikis, and databases
 - **Google Docs** for external-facing documents, client proposals, and traditional reports shared outside the organization
 
-Notion can embed Google Docs, and Google Drive integrations let you attach Drive files to Notion pages. The two tools complement each other well.
+Notion can embed Google Docs, and [Google Drive](/tools/google-drive/) integrations let you attach Drive files to Notion pages. The two tools complement each other well.
 
 ## The Bottom Line
 

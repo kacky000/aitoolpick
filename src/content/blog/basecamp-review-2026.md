@@ -26,7 +26,7 @@ Every project in Basecamp gets its own "Campfire" — a message board, to-do lis
 
 ### Message Board
 
-The message board replaces the endless Slack thread problem. Instead of important information getting buried in real-time chat, decisions get their own posts that are easy to find, reference, and respond to asynchronously. For remote teams spread across time zones, this is more valuable than it sounds.
+The message board replaces the endless [Slack](/tools/slack/) thread problem. Instead of important information getting buried in real-time chat, decisions get their own posts that are easy to find, reference, and respond to asynchronously. For remote teams spread across time zones, this is more valuable than it sounds.
 
 ### To-Dos
 

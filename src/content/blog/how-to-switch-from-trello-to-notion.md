@@ -156,7 +156,7 @@ The biggest migration risk isn't technical — it's adoption. Help your team adj
 | Due dates | Date property |
 | Card descriptions | Page content |
 | Power-Ups | Integrations + native features |
-| Butler automations | Database automations + Zapier |
+| Butler automations | Database automations + [Zapier](/tools/zapier/) |
 
 For more on Notion's capabilities, read our [Notion vs ClickUp comparison](/blog/notion-vs-clickup-which-is-better) or check out [Notion pricing in 2026](/blog/notion-pricing-2026).
 

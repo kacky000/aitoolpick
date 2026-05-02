@@ -127,7 +127,7 @@ After your team is comfortable (usually 2-4 weeks):
 1. Archive or cancel your Monday.com subscription
 2. Download a final export for records
 3. Remove any integrations pointing to Monday.com
-4. Update your Zapier/Make automations to use Notion
+4. Update your [Zapier](/tools/zapier/)/Make automations to use Notion
 
 ## Common Mistakes to Avoid
 

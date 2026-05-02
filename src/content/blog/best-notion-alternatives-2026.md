@@ -19,16 +19,16 @@ Whatever your reason, here are the 7 best Notion alternatives worth considering 
 | [Evernote](/tools/evernote/) | Web clipping & search | ✅ (limited) | $10.83/mo |
 | [Monday.com](/tools/monday/) | Visual workflows | ✅ (2 seats) | $9/seat/mo |
 | [Airtable](/tools/airtable/) | Database power users | ✅ | $20/seat/mo |
-| Todoist | Pure task management | ✅ | $4/user/mo |
-| Trello | Simple Kanban boards | ✅ | $5/user/mo |
+| [Todoist](/tools/todoist/) | Pure task management | ✅ | $4/user/mo |
+| [Trello](/tools/trello/) | Simple Kanban boards | ✅ | $5/user/mo |
 
 ## 1. ClickUp — Best Overall Alternative
 
-**Why switch**: ClickUp packs more project management features than Notion at a lower price point. Built-in time tracking, goals, whiteboards, and docs make it a true all-in-one platform.
+**Why switch**: ClickUp packs more project management features than Notion at a lower price point. Built-in time tracking, goals, whiteboards, and docs [make](/tools/make/) it a true all-in-one platform.
 
 **Key advantages over Notion**:
 - Native time tracking (Notion needs integrations)
-- Multiple project views out of the box (Gantt, mind maps, workload)
+- Multiple project views out of the [box](/tools/box/) (Gantt, mind maps, workload)
 - More affordable for teams ($7/user vs $10/user)
 
 **Trade-off**: The interface can feel overwhelming. ClickUp tries to do everything, which means a steeper initial learning curve.
@@ -86,7 +86,7 @@ Whatever your reason, here are the 7 best Notion alternatives worth considering 
 
 ## 5. Airtable — Best for Database Power Users
 
-**Why switch**: While Notion has databases, Airtable is purpose-built for relational data. If your work revolves around structured data, Airtable is more powerful.
+**Why switch**: While Notion has databases, Airtable is purpose-built for relational data. If your work revolves [around](/tools/around/) structured data, Airtable is more powerful.
 
 **Key advantages over Notion**:
 - More advanced database views and field types

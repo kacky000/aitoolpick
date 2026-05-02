@@ -16,7 +16,7 @@ Whether you need a cheaper option, more technical flexibility, or self-hosted co
 
 **Price:** Free / Core $10.59/mo / Pro $18.82/mo
 
-Make is the most direct Zapier competitor and often the first tool people switch to. Its visual scenario builder lets you design complex automations with branching logic, loops, and error handling — capabilities that require workarounds in Zapier.
+Make is the most direct Zapier competitor and often the first tool people switch to. Its visual scenario builder lets you design complex automations with branching logic, [loops](/tools/loops/), and error handling — capabilities that require workarounds in Zapier.
 
 **Best for:** Teams that need complex, multi-step automations at a lower cost
 

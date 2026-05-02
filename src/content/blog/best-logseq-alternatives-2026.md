@@ -67,7 +67,7 @@ Tana combines the outliner model with structured data through its "supertag" sys
 
 **Pricing:** Free | $9.99/month Pro
 
-Capacities organizes knowledge around objects (a person, a book, a meeting, a project) rather than pages or outlines. Objects have properties and relations that create a structured knowledge graph without manual linking. The interface is clean and visual, with daily notes, tags, and a graph view included.
+Capacities organizes knowledge [around](/tools/around/) objects (a person, a book, a meeting, a project) rather than pages or outlines. Objects have properties and relations that create a structured knowledge graph without manual linking. The interface is clean and visual, with daily notes, tags, and a graph view included.
 
 **Why choose it:** Object-based model for organizing diverse information, beautiful minimal UI, built-in daily notes and reflection prompts, media-rich notes, and good mobile experience.
 

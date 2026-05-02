@@ -99,7 +99,7 @@ Notion's mobile app is polished and full-featured. Logseq's mobile app works but
 
 ### AI Features
 
-Notion AI is deeply integrated, offering writing assistance, summaries, and Q&A across your workspace. Logseq AI features exist via plugins but aren't as seamless.
+[Notion AI](/tools/notion-ai/) is deeply integrated, offering writing assistance, summaries, and Q&A across your workspace. Logseq AI features exist via plugins but aren't as seamless.
 
 ## Which Should You Choose?
 

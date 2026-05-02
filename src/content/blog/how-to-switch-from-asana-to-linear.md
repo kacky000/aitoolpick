@@ -46,7 +46,7 @@ Linear uses **Teams** as the top-level organizational unit. Each team has its ow
 ### Brief Your Team
 
 Don't surprise your engineers. A quick 15-minute demo showing:
-- How to create issues (keyboard shortcut: `C`)
+- How to create issues (keyboard [shortcut](/tools/shortcut/): `C`)
 - How Cycles work vs Asana Sprints
 - How Git commits link to Linear issues
 
@@ -102,7 +102,7 @@ For Asana users who relied heavily on subtasks to break down work, this is the b
 
 ### Git Integration is Different
 
-If your team uses GitHub, Linear's integration is more powerful than anything in Asana:
+If your team uses [GitHub](/tools/github/), Linear's integration is more powerful than anything in Asana:
 - Branches auto-linked to issues when you use the branch name format `[team-abbreviation]/[issue-id]-description`
 - PRs auto-linked when you mention the Linear issue ID in PR description
 - Issues auto-[close](/tools/close/) when linked PRs merge to main
@@ -137,7 +137,7 @@ Moving from Asana to Linear works best when:
 3. You run parallel for 2 weeks, not indefinitely
 4. You set up Git integration on day one
 
-The speed difference alone is usually enough to make engineers glad they switched.
+The speed difference alone is usually enough to [make](/tools/make/) engineers glad they switched.
 
 ---
 

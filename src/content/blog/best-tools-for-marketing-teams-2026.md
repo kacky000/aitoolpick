@@ -91,7 +91,7 @@ The learning curve is gentle and the template library covers most common marketi
 
 **Pricing**: Free (1,000 ops/mo) | Core $9/mo | Pro $16/mo | Teams $29/mo
 
-Make handles more complex automation scenarios than Zapier at a lower price point. If you need multi-step workflows with conditional logic and data transformation, Make gives you more control. For simple automations, stick with Zapier. For advanced workflows with loops and API calls, choose Make.
+Make handles more complex automation scenarios than Zapier at a lower price point. If you need multi-step workflows with conditional logic and data transformation, Make gives you more control. For simple automations, stick with Zapier. For advanced workflows with [loops](/tools/loops/) and API calls, choose Make.
 
 ## AI Writing & Editing
 

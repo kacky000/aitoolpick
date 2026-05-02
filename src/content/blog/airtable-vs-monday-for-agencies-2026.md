@@ -118,7 +118,7 @@ Monday includes 250+ pre-built automation recipes. Most agency workflows can be 
 
 Airtable automations are trigger-based with more flexibility:
 
-- **Client onboarding**: When a record is created in "Clients" → run a script that creates linked records in Projects, Tasks, and Invoices tables → send Slack notification
+- **Client onboarding**: When a record is created in "Clients" → run a script that creates linked records in Projects, Tasks, and Invoices tables → send [Slack](/tools/slack/) notification
 - **Approval workflows**: When "Status" field changes → check conditions with a script → update linked records → send email
 - **Reporting**: On a schedule → run a script that calculates weekly metrics → update a summary table → send to Slack
 
@@ -162,13 +162,13 @@ Both platforms integrate with the tools agencies rely on, but coverage differs:
 | [Google Drive](/tools/google-drive/) | Native | Native |
 | Figma | Native integration | Via [Zapier](/tools/zapier/)/Make |
 | [Harvest](/tools/harvest/) (time tracking) | Native | Via Zapier/Make |
-| Toggl | Native | Via Zapier/Make |
+| Toggl | Native | Via [Zapier](/tools/zapier/)/Make |
 | [HubSpot](/tools/hubspot/) | Native | Native |
 | QuickBooks | Via integration | Via Zapier/Make |
 | Adobe Creative Cloud | Native | Not available |
-| Jira | Native | Via Zapier/Make |
+| [Jira](/tools/jira/) | Native | Via Zapier/Make |
 
-Monday has a broader set of native integrations for agency-adjacent tools, particularly design and time tracking software. Airtable relies more on Zapier or Make for third-party connections, though its API is more developer-friendly for custom integrations.
+Monday has a broader set of native integrations for agency-adjacent tools, particularly design and time tracking software. Airtable relies more on Zapier or [Make](/tools/make/) for third-party connections, though its API is more developer-friendly for custom integrations.
 
 ## Pricing for a Typical Agency (10-25 Members)
 
@@ -211,7 +211,7 @@ For most agencies under 15 people with standard workflows, **Monday.com is the b
 
 For data-heavy agencies — those tracking budgets across dozens of clients, managing complex resource allocation, or needing a single system for projects and client relationship management — **Airtable is the better long-term investment**. The upfront setup cost pays off when your team outgrows rigid board structures.
 
-Many agencies start with Monday and add Airtable later for specific use cases like client CRM or financial tracking. The two tools complement each other well.
+Many agencies start with Monday and add Airtable [later](/tools/later/) for specific use cases like client CRM or financial tracking. The two tools complement each other well.
 
 [Compare Airtable and Monday.com side by side ->](/compare/airtable-vs-monday/)
 

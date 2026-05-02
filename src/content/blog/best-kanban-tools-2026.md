@@ -58,9 +58,9 @@ ClickUp supports kanban boards alongside 15+ other views, making it the most fle
 
 ## 4. Linear — Best Kanban for Engineering Teams
 
-Linear's kanban boards are designed specifically for engineering and product teams. Issues automatically move through workflows, cycles (sprints) are built in, and GitHub/GitLab integration means code changes update issue status automatically.
+Linear's kanban boards are designed specifically for engineering and product teams. Issues automatically move through workflows, cycles (sprints) are built in, and [GitHub](/tools/github/)/GitLab integration means code changes update issue status automatically.
 
-**Why it works:** Linear is fast — noticeably faster than most project management tools. Its keyboard shortcuts, command palette, and opinionated workflow design make it a pleasure for technical teams who want to minimize time in the project management tool and maximize time building.
+**Why it works:** Linear is fast — noticeably faster than most project management tools. Its keyboard shortcuts, command palette, and opinionated workflow design [make](/tools/make/) it a pleasure for technical teams who want to minimize time in the project management tool and maximize time building.
 
 **Pricing:** Free for up to 250 issues. Basic plan at $10/user/month removes limits.
 

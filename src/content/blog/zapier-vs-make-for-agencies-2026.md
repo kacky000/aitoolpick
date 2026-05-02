@@ -59,7 +59,7 @@ The biggest differentiator for agencies is pricing. Zapier's per-task model can 
 
 Zapier excels at straightforward automations:
 - "When a new lead comes in HubSpot, add to [Mailchimp](/tools/mailchimp/), create Trello card, send Slack message"
-- Linear steps, easy to understand
+- [Linear](/tools/linear/) steps, easy to understand
 - Multi-step zaps available on paid plans
 
 Where Zapier struggles:

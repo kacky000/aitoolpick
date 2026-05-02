@@ -101,7 +101,7 @@ If you're a solo user or a team of 2, you're overpaying by 33–50%.
 
 ## How It Compares to Competitors
 
-Monday.com's pricing is mid-range but the seat minimums make it expensive for small teams:
+Monday.com's pricing is mid-range but the seat minimums [make](/tools/make/) it expensive for small teams:
 
 - **[ClickUp](/tools/clickup/)**: Free plan supports unlimited users, paid starts at $7/user with no minimums
 - **[Asana](/tools/asana/)**: Free plan supports up to 10 users

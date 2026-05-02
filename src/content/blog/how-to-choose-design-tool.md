@@ -17,8 +17,8 @@ This is the most important question. Different design work requires fundamentall
 | UI/UX interfaces | [Figma](/tools/figma/) | Vector editing, prototyping, component systems |
 | Marketing graphics | [Canva](/tools/canva/) | Templates, Brand Kit, quick output |
 | Diagrams & workshops | [Miro](/tools/miro/) | Infinite canvas, collaboration features |
-| Print materials | Canva | Print-ready exports, template library |
-| Icon/illustration | Figma | Precise vector control |
+| Print materials | [Canva](/tools/canva/) | Print-ready exports, template library |
+| Icon/illustration | [Figma](/tools/figma/) | Precise vector control |
 
 **If you're doing UI/UX design,** the answer is almost always Figma. Its prototyping, component system, and developer handoff features are unmatched.
 
@@ -57,7 +57,7 @@ Be honest about your team's skill level:
 | Tool | Learning Curve | Time to Productivity |
 |------|---------------|---------------------|
 | Canva | Low | 30 minutes |
-| Miro | Low-Medium | 1 hour |
+| [Miro](/tools/miro/) | Low-Medium | 1 hour |
 | Figma | Medium-High | 1-2 weeks |
 
 If your team doesn't have design experience, forcing them into Figma will waste time. Canva's templates get non-[designers](/best-for/designers/) producing quality work in minutes.

@@ -91,7 +91,7 @@ Airtable is a spreadsheet-database hybrid that lets PMs build custom project man
 
 **Price:** Free (3 boards) | Starter $8/user/mo | Business $16/user/mo
 
-Miro complements your PM tool rather than replacing it. Use it for sprint planning, retrospectives, brainstorming sessions, and stakeholder mapping. The infinite canvas and real-time collaboration make remote planning sessions feel natural.
+Miro complements your PM tool rather than replacing it. Use it for sprint planning, retrospectives, brainstorming sessions, and stakeholder mapping. The infinite canvas and real-time collaboration [make](/tools/make/) remote planning sessions feel natural.
 
 **Best for:** PMs who run frequent planning workshops and team sessions.
 

@@ -36,7 +36,7 @@ Both platforms support screen sharing, but the implementations differ.
 
 **Zoom** offers full desktop sharing, individual app sharing, whiteboard sharing, and a "portion of screen" option. The annotation tools let participants draw on shared content. Remote control lets someone take over your screen. These features [make](/tools/make/) Zoom a strong choice for demos, training sessions, and technical troubleshooting.
 
-**Slack Huddles** support screen sharing with drawing tools, which covers most everyday needs. You can share your screen and collaborators can sketch on it in real time. However, there are no breakout rooms, no remote control, and no "share a specific app window" option as polished as Zoom's.
+**Slack Huddles** support screen sharing with drawing tools, which covers most everyday needs. You can share your screen and collaborators can [sketch](/tools/sketch/) on it in real time. However, there are no breakout rooms, no remote control, and no "share a specific app window" option as polished as Zoom's.
 
 For a quick "let me show you this bug" moment, Slack's screen sharing is perfectly fine. For a 45-minute product demo to a client, Zoom gives you more control.
 
@@ -92,7 +92,7 @@ Here is the thing many teams miss: **you can use both together.** Zoom integrate
 
 ## When to Choose Slack Huddles
 
-Slack Huddles make sense when:
+Slack Huddles [make](/tools/make/) sense when:
 
 - Your team already uses Slack as its primary communication tool
 - Most meetings are spontaneous, informal, or involve fewer than 10 people

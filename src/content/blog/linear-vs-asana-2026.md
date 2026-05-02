@@ -61,7 +61,7 @@ Linear was built by developers for developers:
 - **CLI and API** for automation
 - **Keyboard-first** navigation
 
-Asana can integrate with GitHub via third-party tools, but it's not the same as native support.
+Asana can integrate with [GitHub](/tools/github/) via third-party tools, but it's not the same as native support.
 
 **Winner: Linear** for engineering, **Asana** for non-technical teams
 

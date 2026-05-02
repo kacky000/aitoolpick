@@ -70,7 +70,7 @@ GitLab, [Buffer](/tools/buffer/), and other async-first companies use Loom as a 
 A 3-second "yes" or "approved" in Slack beats recording a Loom video. For rapid back-and-forth, text wins.
 
 **2. Integrations and automation**
-If your workflow depends on GitHub notifying your team when a PR merges, or PagerDuty pinging on-call when production fails — that is Slack territory.
+If your workflow depends on [GitHub](/tools/github/) notifying your team when a PR merges, or PagerDuty pinging on-call when production fails — that is Slack territory.
 
 **3. Team culture and social glue**
 Watercooler channels, emoji reactions, casual threads — Slack builds team culture in a way async video cannot replicate.

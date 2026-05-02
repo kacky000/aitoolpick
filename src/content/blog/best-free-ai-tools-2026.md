@@ -32,7 +32,7 @@ If you're wondering how ChatGPT compares to its main competitor, read our [ChatG
 Anthropic's [Claude](/tools/claude/) has carved out a strong niche as the AI that writes more naturally and handles long documents better than anyone else. The free tier is surprisingly generous.
 
 **What you get for free:**
-- Claude 3.5 Sonnet access
+- [Claude](/tools/claude/) 3.5 Sonnet access
 - 100K+ context window for long documents
 - Artifacts for code and documents
 - Project organization features

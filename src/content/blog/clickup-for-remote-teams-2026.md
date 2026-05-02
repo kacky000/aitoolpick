@@ -57,7 +57,7 @@ ClickUp's automations reduce the manual coordination overhead that slows remote 
 1. **Status change → Comment notification**: When a task moves to "In Review", automatically tag the reviewer with a comment
 2. **Due date approaching → [Slack](/tools/slack/) message**: Send a Slack DM 2 days before a task is due
 3. **Task completed → Create follow-up**: Auto-create a "Deploy" task when "Development" is marked done
-4. **Unassigned tasks → Weekly Slack alert**: Notify the team lead about tasks without an owner every Monday
+4. **Unassigned tasks → Weekly [Slack](/tools/slack/) alert**: Notify the team lead about tasks without an owner every Monday
 
 Set these up under *Space Settings → Automations*.
 

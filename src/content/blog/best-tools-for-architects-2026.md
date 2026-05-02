@@ -20,7 +20,7 @@ Architecture firms deal with a specific kind of complexity: multi-year projects,
 - **Client dashboards** — Share filtered views showing milestone progress without exposing internal notes or budget details.
 - **RFI tracking** — Dedicated board for Requests for Information during construction with submission dates, deadlines, and resolution status.
 
-**Pricing consideration:** Monday.com's Standard plan ($12/seat/month) covers most needs. The Pro plan ($19/seat/month) adds time tracking and formula columns, which matter for firms billing hourly.
+**Pricing consideration:** [Monday.com](/tools/monday/)'s Standard plan ($12/seat/month) covers most needs. The Pro plan ($19/seat/month) adds time tracking and formula columns, which matter for firms billing hourly.
 
 For a deeper look, see our [best project management tools](/blog/best-project-management-tools-2026) comparison.
 
@@ -50,7 +50,7 @@ For a deeper look, see our [best project management tools](/blog/best-project-ma
 
 - **Programming workshops** — Facilitate space programming sessions with clients using sticky notes for room types and drag-and-drop adjacency diagrams.
 - **Site analysis boards** — Compile site photos, zoning overlays, and sun path diagrams on a single board for client or regulatory presentations.
-- **Design charrettes** — Multiple designers sketch simultaneously. Use frames to organize scheme options for side-by-side comparison.
+- **Design charrettes** — Multiple designers [sketch](/tools/sketch/) simultaneously. Use frames to organize scheme options for side-by-side comparison.
 - **Consultant coordination** — Share boards with structural and MEP consultants to mark up routing conflicts before they become expensive RFIs.
 
 **Pricing consideration:** Miro's free plan allows three editable boards. The Business plan ($8/member/month) is the sweet spot for small to mid-size firms.
@@ -99,7 +99,7 @@ For a full feature breakdown, see our [Miro review](/blog/miro-review-2026).
 - **Project portfolio** — Track all firm projects with type, fee, status, and team. Generate reports for marketing and business development.
 - **Submittal log** — Track submittals with status, reviewer, deadline, and spec section. Filter by discipline for distribution.
 
-**Pricing consideration:** Airtable's free plan limits bases to 1,000 records — insufficient for serious use. The Team plan ($20/seat/month) provides 50,000 records per base and is the practical starting point for firms.
+**Pricing consideration:** [Airtable](/tools/airtable/)'s free plan limits bases to 1,000 records — insufficient for serious use. The Team plan ($20/seat/month) provides 50,000 records per base and is the practical starting point for firms.
 
 ## Putting It Together
 

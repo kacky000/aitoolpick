@@ -100,7 +100,7 @@ Just starting out? Everything below is free:
 - **Canva** (free tier) — Design
 - **Todoist** (free tier) — Tasks
 - **Zapier** (free tier) — 5 basic automations
-- **Grammarly** (free tier) — Grammar checking
+- **[Grammarly](/tools/grammarly/)** (free tier) — Grammar checking
 
 This gives you a genuinely functional business toolkit for zero dollars.
 

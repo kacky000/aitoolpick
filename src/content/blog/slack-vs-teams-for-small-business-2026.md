@@ -18,7 +18,7 @@ Choosing between Slack and [Microsoft Teams](/tools/microsoft-teams/) is one of 
 
 ## Pricing Comparison for Small Business
 
-| Plan | Slack | Microsoft Teams |
+| Plan | Slack | [Microsoft Teams](/tools/microsoft-teams/) |
 |------|-------|----------------|
 | Free | 90 days of messages | Unlimited messages |
 | Starter | $7.25/user/month | $4/user/month |

@@ -14,7 +14,7 @@ This guide cuts through the complexity. Here's what you actually need to know to
 
 n8n is an open-source workflow automation platform. Like Zapier or [Make](/tools/make/), it connects apps and automates tasks without writing full programs. Unlike them, it runs on your own server (self-hosted) or n8n's cloud, costs significantly less at scale, and lets you write actual JavaScript or Python inside any node.
 
-The core value proposition: **free self-hosting with no task limits**. On Zapier, you pay per task. On self-hosted n8n, you run unlimited automations for the cost of a $5/month server.
+The core value proposition: **free self-hosting with no task limits**. On [Zapier](/tools/zapier/), you pay per task. On self-hosted n8n, you run unlimited automations for the cost of a $5/month server.
 
 ## Key Concepts Before You Start
 
@@ -81,7 +81,7 @@ Action: HTTP Request to a weather API → Gmail or Slack with today's forecast
 Why: Simple intro to API calls and HTTP Request node
 
 ### 3. Form Response → Airtable + Email
-Trigger: Webhook (from Typeform or Tally)  
+Trigger: Webhook (from [Typeform](/tools/typeform/) or Tally)  
 Action: Create Airtable record + send welcome email  
 Why: Classic "form to database + confirmation" that most businesses need
 

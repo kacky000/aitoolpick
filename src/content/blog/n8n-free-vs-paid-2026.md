@@ -74,7 +74,7 @@ The question isn't features — it's **operational overhead vs. cost**.
 | Updates | Manual | Automatic |
 | Cost | ~$5–10/mo for VPS | $24–$60/mo |
 
-If you or someone on your team can handle Docker, self-hosting is almost always the better deal. A $6/month DigitalOcean droplet running n8n beats paying $24–$60/month for the same functionality.
+If you or someone on your team can handle [Docker](/tools/docker/), self-hosting is almost always the better deal. A $6/month DigitalOcean droplet running n8n beats paying $24–$60/month for the same functionality.
 
 ---
 

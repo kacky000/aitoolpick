@@ -151,7 +151,7 @@ Common automations to recreate:
 - **Don't over-engineer**: Start simple. Add complexity only when the team requests it.
 - **Use Notion templates**: Create templates for recurring items (project briefs, meeting notes, bug reports).
 - **Embrace the wiki**: Build the documentation hub you always wished ClickUp had.
-- **Set up a feedback channel**: Let the team report friction points in a shared Notion page or Slack channel.
+- **Set up a feedback channel**: Let the team report friction points in a shared Notion page or [Slack](/tools/slack/) channel.
 
 ## Next Steps
 

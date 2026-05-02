@@ -164,7 +164,7 @@ If you need SSO, SCIM, compliance certifications, or dedicated support, you'll n
 2. **Use guests for external collaborators.** Guests are free on all paid plans. Don't add clients or contractors as full members.
 3. **Audit your user list quarterly.** Remove inactive members. Each unused seat costs you $10.99-24.99/month.
 4. **Consider annual billing.** Asana sometimes offers discounts for annual commitments.
-5. **Compare before committing.** ClickUp offers more features at a lower price point. Make sure Asana's strengths (UI polish, Portfolios, ease of use) justify the premium.
+5. **Compare before committing.** [ClickUp](/tools/clickup/) offers more features at a lower price point. Make sure Asana's strengths (UI polish, Portfolios, ease of use) justify the premium.
 
 ## Is Asana Worth the Price in 2026?
 

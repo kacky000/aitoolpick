@@ -70,7 +70,7 @@ Love it or hate it, Slack remains the communication backbone for most developmen
 
 **Productivity tips for developers:**
 - Use Slack Connect to collaborate with external partners without email chains
-- Set up automated notifications from GitHub, Linear, and CI/CD pipelines into dedicated channels
+- Set up automated notifications from [GitHub](/tools/github/), Linear, and CI/CD pipelines into dedicated channels
 - Use Huddles for quick pair programming sessions instead of scheduling formal meetings
 - Leverage Slack's Workflow Builder for automating repetitive requests (deploy approvals, access requests)
 - Set a "focus time" status that pauses notifications — and actually respect it
@@ -96,7 +96,7 @@ Developers often build custom scripts to automate repetitive tasks. But for conn
 
 **Zapier** is the easier option — connect two or more apps with a trigger-action model. It supports 6,000+ apps and requires no code. Use it for straightforward automations like "when a GitHub issue is labeled 'urgent', send a Slack message to #incidents."
 
-**Make** (formerly Integromat) is more powerful. It offers visual workflow building with branching logic, loops, error handling, and data transformation. Developers tend to prefer Make because it feels more like programming and handles complex multi-step workflows better.
+**Make** (formerly Integromat) is more powerful. It offers visual workflow building with branching logic, [loops](/tools/loops/), error handling, and data transformation. Developers tend to prefer Make because it feels more like programming and handles complex multi-step workflows better.
 
 **When to use them vs custom code:**
 - Use Zapier/Make for connecting third-party SaaS tools

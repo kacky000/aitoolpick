@@ -196,7 +196,7 @@ Logseq is an open-source, privacy-first outliner with powerful bidirectional lin
 **Top pick: Bear** — The writing experience is beautiful, and Markdown support makes it easy to export to any format.
 
 ### For Teams
-**Top pick: Notion** — Real-time collaboration, shared wikis, and database views make it the clear winner for team knowledge management.
+**Top pick: Notion** — Real-time collaboration, shared wikis, and database views [make](/tools/make/) it the clear winner for team knowledge management.
 
 ### For Privacy-First Users
 **Top pick: Obsidian** — Local files, no cloud dependency, and end-to-end encrypted sync (paid add-on).

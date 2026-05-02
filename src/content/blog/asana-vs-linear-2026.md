@@ -33,14 +33,14 @@ Asana and Linear are both excellent [project management](/category/project-manag
 ## Where Linear Wins
 
 ### Raw Speed
-Linear is genuinely the fastest project management tool available. Every interaction — creating issues, searching, navigating, changing status — is instant. There's no visible loading. If you've worked in Jira, the difference feels dramatic.
+Linear is genuinely the fastest project management tool available. Every interaction — creating issues, searching, navigating, changing status — is instant. There's no visible loading. If you've worked in [Jira](/tools/jira/), the difference feels dramatic.
 
 For developers who live in their issue tracker, this matters more than it might seem. Friction in your tools accumulates.
 
 ### Git Integration
 Linear's GitHub/GitLab integration is the deepest in the category. When you create a branch named using Linear's format (`eng/ENG-123-feature-name`), Linear automatically links it to the issue. PRs auto-link when you mention the issue ID. Issues auto-[close](/tools/close/) when linked PRs merge to main.
 
-Asana's GitHub integration is functional but surface-level: you can attach PR links to tasks, but it doesn't automatically trigger state changes or surface development progress natively.
+Asana's [GitHub](/tools/github/) integration is functional but surface-level: you can attach PR links to tasks, but it doesn't automatically trigger state changes or surface development progress natively.
 
 ### Keyboard-First Design
 Linear is designed [around](/tools/around/) keyboard shortcuts. You can do almost everything without touching a mouse. Asana has some shortcuts, but they're not central to the experience the way they are in Linear.

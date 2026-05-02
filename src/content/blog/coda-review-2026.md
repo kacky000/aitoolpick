@@ -14,7 +14,7 @@ That distinction sounds subtle, but it shapes everything about how Coda works �
 
 Coda calls itself a "doc that can do anything." The core unit is a document. Inside that document, you can embed tables (called Packs), interactive buttons, forms, and views that would require separate apps in a typical workflow.
 
-The key difference from Notion: Coda documents can trigger actions. A button in a Coda doc can send a Slack message, update a row in a table, or create a new item in another doc. Notion docs are mostly read/write. Coda docs can actively do things.
+The key difference from [Notion](/tools/notion/): Coda documents can trigger actions. A button in a Coda doc can send a Slack message, update a row in a table, or create a new item in another doc. Notion docs are mostly read/write. Coda docs can actively do things.
 
 This makes Coda better for operational workflows — where users need to interact with data, not just view it.
 
@@ -56,7 +56,7 @@ The free plan allows unlimited documents but limits the number of "objects" (row
 | Interactive buttons | ✅ | ❌ |
 | Database views | ✅ | ✅ |
 | Formula language | Advanced | Basic |
-| AI features | Coda AI (paid) | Notion AI (paid) |
+| AI features | Coda AI (paid) | [Notion AI](/tools/notion-ai/) (paid) |
 | Learning curve | Steeper | Moderate |
 | Free plan quality | Limited objects | Limited blocks |
 | Template library | Smaller | Large |
@@ -69,9 +69,9 @@ Coda is more powerful for operational workflows. Notion is more accessible for k
 
 **Operations and product teams** building internal tools — trackers, CRMs, process documents — without needing a dedicated developer.
 
-**Teams that send too many Slack messages about spreadsheets** — Coda puts the data and the conversation in the same place, with buttons to take action.
+**Teams that send too many [Slack](/tools/slack/) messages about spreadsheets** — Coda puts the data and the conversation in the same place, with buttons to take action.
 
-**Companies looking for Airtable alternatives** with more document context around their data.
+**Companies looking for [Airtable](/tools/airtable/) alternatives** with more document context around their data.
 
 ## Who Shouldn't Use Coda
 
@@ -83,7 +83,7 @@ Coda is more powerful for operational workflows. Notion is more accessible for k
 
 ## What Improved in 2026
 
-Coda's AI features matured significantly. The AI assistant now understands cross-table relationships and can generate meaningful summaries of operational data — not just text. Pack library coverage expanded, reducing the need for Zapier middleware. The mobile app, historically weak, improved substantially for read/write use cases.
+Coda's AI features matured significantly. The AI assistant now understands cross-table relationships and can generate meaningful summaries of operational data — not just text. Pack library coverage expanded, reducing the need for [Zapier](/tools/zapier/) middleware. The mobile app, historically weak, improved substantially for read/write use cases.
 
 ## Verdict
 

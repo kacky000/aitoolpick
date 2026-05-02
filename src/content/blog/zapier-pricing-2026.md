@@ -60,7 +60,7 @@ Here's how task counting works in practice:
 - Trigger: New form submission (0 tasks)
 - Filter: Only if submission contains "urgent" (0 tasks—filters are free)
 - Action 1: Create row in Google Sheets (1 task)
-- Action 2: Send Slack notification (1 task)
+- Action 2: Send [Slack](/tools/slack/) notification (1 task)
 - Action 3: Create task in [Asana](/tools/asana/) (1 task)
 - **Total: 3 tasks per submission**
 

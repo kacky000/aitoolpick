@@ -50,7 +50,7 @@ A **database** in Notion is a collection of pages with consistent properties (li
 
 1. Type `/table` and select "Table - Full page"
 2. You'll see a table with a "Name" column
-3. Add a few rows (these are pages — click on them to open full content)
+3. Add a few [rows](/tools/rows/) (these are pages — click on them to open full content)
 4. Click "+ Add property" to add columns: Status, Date, Tags, etc.
 
 **Database views:**

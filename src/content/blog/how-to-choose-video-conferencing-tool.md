@@ -38,7 +38,7 @@ Free tiers are surprisingly capable in 2026, but paid plans unlock meaningful fe
 
 ## Quick Comparison: Zoom vs Google Meet vs Microsoft Teams vs Loom
 
-| Feature | Zoom | Google Meet | Microsoft Teams | Loom |
+| Feature | [Zoom](/tools/zoom/) | Google Meet | Microsoft Teams | Loom |
 |---------|------|-------------|-----------------|------|
 | **Free tier** | 40-min limit, 100 participants | 60-min limit, 100 participants | Unlimited (60-min for group), 100 participants | 5-min recordings, 25 videos |
 | **Paid plan** | Pro $13.33/mo | Business Starter $6/mo (per user) | Essentials $4/mo (per user) | Business $12.50/mo |
@@ -96,7 +96,7 @@ Your video tool doesn't exist in isolation. Before committing, verify it integra
 - **Chat tool** ([Slack](/tools/slack/) or Teams) for join links and notifications
 - **Project management tool** (Notion, [Monday.com](/tools/monday/), Asana) for meeting notes
 - **CRM** ([Salesforce](/tools/salesforce/), HubSpot) for sales call logging
-- **SSO provider** (Okta, Azure AD, Google) for single sign-on
+- **SSO provider** ([Okta](/tools/okta/), Azure AD, Google) for single sign-on
 
 > For a broader look at video tools, see our roundup of the [best video conferencing tools in 2026](/blog/best-video-conferencing-tools-2026).
 

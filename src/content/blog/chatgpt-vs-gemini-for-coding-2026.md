@@ -74,13 +74,13 @@ For API usage, Gemini is meaningfully cheaper — roughly half the cost of GPT-4
 - You work primarily in JavaScript, TypeScript, Python, or Rust
 - You want debugging explanations, not just fixes
 - Your codebase fits within 128K tokens
-- You're already paying for GitHub Copilot (combining with ChatGPT Plus gives redundancy)
+- You're already paying for [GitHub Copilot](/tools/github-copilot/) (combining with ChatGPT Plus gives redundancy)
 - You prefer ChatGPT's conversational interface for architecture discussions
 
 ## When to Choose Gemini
 
 - You work with large codebases that exceed 128K tokens
-- You use Google Cloud, Firebase, or Android development
+- You use Google Cloud, [Firebase](/tools/firebase/), or Android development
 - You want an IDE-integrated coding assistant for free
 - You're building AI applications and need cheaper API access
 - You frequently debug using screenshots of error messages

@@ -59,7 +59,7 @@ Discord's voice and video channels are always on — just hop in and start talki
 - **Standout:** Always-on voice/video channels, zero cost
 
 ### 8. Butter — Best for Workshops and Facilitation
-Butter is built specifically for interactive sessions — workshops, training, and retrospectives. Built-in polls, timers, breakout rooms, and collaboration tools make facilitation effortless.
+Butter is built specifically for interactive sessions — workshops, training, and retrospectives. Built-in polls, timers, breakout rooms, and collaboration tools [make](/tools/make/) facilitation effortless.
 
 - **Price:** Free (1 hour, 25 people) / $20/user/mo (Pro)
 - **Standout:** Purpose-built facilitation tools, participant engagement features

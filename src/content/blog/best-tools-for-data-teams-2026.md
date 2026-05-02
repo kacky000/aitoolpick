@@ -19,7 +19,7 @@ Here are the best productivity and collaboration tools for data teams in 2026.
 - Database views for tracking data requests and pipeline status
 - Embedded code blocks for SQL snippets and Python examples
 - Wiki pages for metric definitions and data dictionaries
-- API for automated updates from dbt, Airflow, or custom scripts
+- API for automated updates from [dbt](/tools/dbt/), Airflow, or custom scripts
 
 **Pricing:** Free for personal. Plus at $10/user/month. Business at $20/user/month.
 

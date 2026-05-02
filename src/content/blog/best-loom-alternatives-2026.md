@@ -48,7 +48,7 @@ Where Loom creates videos that recipients watch, Scribe creates interactive guid
 
 If your organization already pays for Zoom Business+, Zoom Clips is included. It works similarly to Loom — record a clip, share a link, recipients comment at timestamps.
 
-The integration with Zoom's meeting recordings is the main advantage. Clip a segment from a recorded meeting and share it async, without leaving the Zoom ecosystem.
+The integration with Zoom's meeting recordings is the main advantage. Clip a [segment](/tools/segment/) from a recorded meeting and share it async, without leaving the Zoom ecosystem.
 
 The downside: Zoom Clips lacks Loom's polish. Analytics are thin, editing is minimal, and if you're not already a Zoom Business+ customer, paying $25/month for this specific feature is hard to justify.
 

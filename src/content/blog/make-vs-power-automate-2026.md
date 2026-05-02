@@ -43,7 +43,7 @@ Make (formerly Integromat) and Microsoft Power Automate are both serious workflo
 ### Visual Clarity
 Make's canvas shows every module, every data path, and every transformation in a single view. When a scenario breaks, you can see exactly where in the flow the error occurred and what data was flowing at that point.
 
-Power Automate's list-based interface obscures complex flows — nested conditions and loops become difficult to debug as workflows grow.
+Power Automate's list-based interface obscures complex flows — nested conditions and [loops](/tools/loops/) become difficult to debug as workflows grow.
 
 ### Non-Microsoft Integration Depth
 Make has native integrations for 1,800+ apps, with dedicated modules for most popular SaaS tools. Integrations with Notion, Airtable, HubSpot, Shopify, and [Webflow](/tools/webflow/) are first-class, not afterthoughts.

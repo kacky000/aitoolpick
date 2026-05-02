@@ -203,7 +203,7 @@ For more options, check our list of [Airtable alternatives](/alternatives/airtab
 1. **Design your schema first.** Plan your tables and relationships before building. Restructuring [later](/tools/later/) is painful.
 2. **Use linked records aggressively.** This is Airtable's superpower — don't treat it like a flat spreadsheet.
 3. **Start with the Team plan.** The free plan is too limiting for real work. Skip straight to Team if you're serious.
-4. **Leverage automations for repetitive tasks.** Even simple automations (like sending a Slack notification when a record changes status) save significant time.
+4. **Leverage automations for repetitive tasks.** Even simple automations (like sending a [Slack](/tools/slack/) notification when a record changes status) save significant time.
 5. **Explore the template gallery.** Airtable's pre-built templates are excellent starting points for CRM, project management, and content planning.
 
 ---

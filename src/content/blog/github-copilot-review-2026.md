@@ -49,7 +49,7 @@ No other AI coding tool has this level of GitHub platform integration.
 
 ## What Needs Improvement
 
-- **Agent mode maturity**: Cursor's Agent is more capable for complex multi-file refactors
+- **Agent mode maturity**: [Cursor](/tools/cursor/)'s Agent is more capable for complex multi-file refactors
 - **Credit limits post-June 2026**: $10 of credits may not go far for heavy chat/Agent users
 - **No standalone editor**: It's an extension, not a purpose-built AI-first IDE
 - **Copilot Edits reliability**: Multi-file editing sometimes produces inconsistent results across files
@@ -76,7 +76,7 @@ See our [complete GitHub Copilot pricing breakdown](/blog/github-copilot-pricing
 
 ## Copilot vs the Competition
 
-| Feature | GitHub Copilot | Cursor | Windsurf |
+| Feature | GitHub Copilot | Cursor | [Windsurf](/tools/windsurf/) |
 |---------|---------------|--------|----------|
 | **Price** | $10/mo | $20/mo | ~$15/mo |
 | **Editor** | Extension | Standalone | Standalone |

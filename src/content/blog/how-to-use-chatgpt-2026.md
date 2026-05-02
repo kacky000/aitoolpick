@@ -88,7 +88,7 @@ For serious coding work, dedicated tools like [GitHub Copilot](https://github.co
 
 Or for sales meetings:
 
-> "I'm meeting with a CFO at a 200-person manufacturing company to pitch our inventory management software. What are the 3 most likely objections I'll face, and how should I address each one?"
+> "I'm meeting with a CFO at a 200-person manufacturing company to [pitch](/tools/pitch/) our inventory management software. What are the 3 most likely objections I'll face, and how should I address each one?"
 
 ### 7. Translate and Reformat
 

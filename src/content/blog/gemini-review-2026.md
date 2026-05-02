@@ -79,7 +79,7 @@ The combination of the 1M token context window, native Google Search, and strong
 
 ### Google Ecosystem Users
 
-If your work lives in Gmail, Docs, Sheets, and Drive, Gemini is the only AI that integrates natively. The time savings from eliminating the copy-paste-to-AI workflow add up to 30-60 minutes per workday.
+If your work lives in Gmail, Docs, Sheets, and Drive, Gemini is the only AI that integrates natively. The time savings from eliminating the copy-paste-to-AI workflow add up to 30-60 minutes per [workday](/tools/workday/).
 
 ### Multimodal Tasks
 
@@ -89,7 +89,7 @@ Gemini handles text, images, audio, video, and code in a unified interface. Uplo
 
 ### Writing Quality
 
-Gemini's writing is functional but rarely impressive — generic, corporate tone that requires editing. Claude produces noticeably better long-form writing. Not the first choice for content creators.
+Gemini's writing is functional but rarely impressive — generic, corporate tone that requires editing. [Claude](/tools/claude/) produces noticeably better long-form writing. Not the first choice for content creators.
 
 ### Hallucinations
 
@@ -97,7 +97,7 @@ Gemini still hallucinates — fabricating statistics, misattributing quotes, inv
 
 ### Coding Depth
 
-Fine for simple scripts. For complex projects and debugging, Claude and ChatGPT outperform it. Gemini gives correct but shallow code solutions.
+Fine for simple scripts. For complex projects and debugging, Claude and [ChatGPT](/tools/chatgpt/) outperform it. Gemini gives correct but shallow code solutions.
 
 ### Credit System Confusion
 

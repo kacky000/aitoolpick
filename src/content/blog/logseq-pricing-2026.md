@@ -74,7 +74,7 @@ This tier is not about getting more features long-term. Experimental features ev
 If you want cross-device access without paying for Logseq Sync, four options work well:
 
 - **iCloud (macOS/iOS):** Automatic sync between Apple devices. Does not work natively with Android or Windows, and occasional file conflicts can occur.
-- **Dropbox:** Cross-platform with 2 GB free storage, more than enough for text-based graphs. Risk of sync conflicts with simultaneous edits.
+- **[Dropbox](/tools/dropbox/):** Cross-platform with 2 GB free storage, more than enough for text-based graphs. Risk of sync conflicts with simultaneous edits.
 - **Git:** The most robust option for technical users. Full version history and conflict resolution, but not real-time and requires command-line comfort.
 - **Syncthing:** Free, open-source, peer-to-peer sync with no cloud server. Both devices must be online simultaneously.
 
@@ -84,7 +84,7 @@ If you want cross-device access without paying for Logseq Sync, four options wor
 
 [Obsidian](/tools/obsidian/) is the most common comparison point for Logseq. Here is how pricing stacks up:
 
-| Feature | Logseq | Obsidian |
+| Feature | Logseq | [Obsidian](/tools/obsidian/) |
 |---------|--------|----------|
 | Base app | Free | Free |
 | Cloud sync | ~$5/month | $4/month (Obsidian Sync) |
@@ -98,7 +98,7 @@ Obsidian charges $50/user/year for commercial use (Logseq does not), and offers 
 
 [Notion](/tools/notion/) takes a completely different approach to pricing:
 
-| Plan | Notion | Logseq Equivalent |
+| Plan | [Notion](/tools/notion/) | Logseq Equivalent |
 |------|--------|-------------------|
 | Free | $0 (limited blocks for guests) | $0 (unlimited, local) |
 | Plus | $10/month | ~$5/month (sync only) |

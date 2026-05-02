@@ -15,13 +15,13 @@ This guide covers the best AI tools for engineers and [developers](/best-for/dev
 
 | Tool | Best For | Price |
 |------|---------|-------|
-| **Cursor** | AI-first code editor | $20/mo |
+| **[Cursor](/tools/cursor/)** | AI-first code editor | $20/mo |
 | **[GitHub Copilot](/tools/github-copilot/)** | IDE integration (VS Code, JetBrains) | $10–19/mo |
 | **[Claude](/tools/claude/)** | Complex reasoning, code review | $20/mo |
 | **[ChatGPT](/tools/chatgpt/)** | General coding assistance | Free–$20/mo |
-| **Codeium** | Free Copilot alternative | Free |
+| **[Codeium](/tools/codeium/)** | Free Copilot alternative | Free |
 | **[Tabnine](/tools/tabnine/)** | Team code completion | $12/user/mo |
-| **Devin** | Autonomous coding agent | Custom |
+| **[Devin](/tools/devin/)** | Autonomous coding agent | Custom |
 | **Sourcegraph Cody** | Codebase-aware AI | Free–$19/mo |
 
 ---

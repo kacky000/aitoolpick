@@ -53,7 +53,7 @@ AI picks from the same three fonts: Inter, Roboto, Open Sans. All fine fonts —
 - Try DM Sans, Plus Jakarta Sans, Sora, or Geist for English
 - Use Noto Sans JP or BIZ UDGothic for Japanese
 - Different font families (or at least weights and spacing) for headings vs body
-- Make hero titles dramatically larger — not incremental
+- [Make](/tools/make/) hero titles dramatically larger — not incremental
 - Headings: line-height 1.1–1.3. Body: 1.6–1.8.
 - Tighten letter-spacing on large headings (-0.02em)
 
@@ -134,7 +134,7 @@ AI builds pages that dump everything at once with scroll animations on everythin
 Can't go through all 30 items? Here's the 5-second version:
 
 1. **Screenshot your site at full width.** Does it look like every other SaaS landing page?
-2. **Remove all text.** Is the layout still distinctive, or is it just cards in rows?
+2. **Remove all text.** Is the layout still distinctive, or is it just cards in [rows](/tools/rows/)?
 3. **Show it to someone who doesn't know you.** Ask: "Does this look like a template?"
 
 If the answer to any of these is "yes," you have work to do.
@@ -159,7 +159,7 @@ Overall score = average of all 6 category scores.
 - [ ] No purple-to-blue gradient backgrounds
 - [ ] No gradient buttons or CTAs
 - [ ] 3 colors max (main + grayscale + 1 accent)
-- [ ] No box-shadow on more than 2 element types
+- [ ] No [box](/tools/box/)-shadow on more than 2 element types
 - [ ] No alternating section background colors (#f5f5f5/#fafafa pattern)
 
 ### 2. Typography (5 checks)

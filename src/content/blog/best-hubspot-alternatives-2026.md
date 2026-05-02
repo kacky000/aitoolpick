@@ -92,7 +92,7 @@ Zoho CRM is part of the broader Zoho suite, which includes email marketing, help
 
 **Best for:** Teams already using [Monday.com](/tools/monday/) for project management
 
-Monday CRM builds CRM functionality into Monday.com's familiar board-based interface. If your team already loves Monday.com's visual style, this is the most natural CRM upgrade.
+Monday CRM builds CRM functionality into [Monday.com](/tools/monday/)'s familiar board-based interface. If your team already loves Monday.com's visual style, this is the most natural CRM upgrade.
 
 | Plan | Price |
 |------|-------|

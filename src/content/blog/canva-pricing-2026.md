@@ -43,7 +43,7 @@ Canva's free plan isn't a stripped-down trial — it's a genuinely useful design
 - No Magic Resize for reformatting designs across platforms
 - Limited premium template and asset access
 - No scheduled social media publishing
-- Fewer AI credits (Magic Write, Magic Edit, Magic Eraser)
+- Fewer AI credits (Magic Write, Magic Edit, Magic [Eraser](/tools/eraser-io/))
 
 **Verdict:** For students, personal projects, and occasional social media graphics, the free plan delivers real value. You can produce professional-looking designs without spending a dollar.
 
@@ -168,7 +168,7 @@ If you're exploring all your options, our [best free design tools guide](/blog/b
 
 Canva's free plan remains one of the most generous in the design tool space. For most individual creators and small businesses, **Canva Pro at $15/month** (or $10/month annual) is the sweet spot — you get the full AI toolkit, 100M+ premium assets, and brand management without team overhead.
 
-The Teams plan makes genuine sense for organizations with 3+ content creators. At $10/user/month (annual), it's priced competitively against both Figma and Adobe, while offering a much lower learning curve.
+The Teams plan makes genuine sense for organizations with 3+ content creators. At $10/user/month (annual), it's priced competitively against both [Figma](/tools/figma/) and Adobe, while offering a much lower learning curve.
 
 **Compare design tools side by side** → [Canva vs Figma: Which design tool is right for you?](/compare/canva-vs-figma)
 

@@ -183,7 +183,7 @@ Your prototype now feels like a real app. Share the prototype link with stakehol
 
 ## Essential Keyboard Shortcuts
 
-| Shortcut | Action |
+| [Shortcut](/tools/shortcut/) | Action |
 |----------|--------|
 | V | Move tool |
 | F | Frame tool |

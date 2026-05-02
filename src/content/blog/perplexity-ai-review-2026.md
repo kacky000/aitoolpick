@@ -14,7 +14,7 @@ Perplexity AI has quietly become one of the most useful AI tools available. Whil
 
 Perplexity is an AI search engine that combines large language models with real-time web search. Ask it a question, and it returns a synthesized answer with inline citations — so you can verify every claim.
 
-Think of it as Google meets ChatGPT, but with the academic rigor of citing sources for every statement.
+Think of it as Google meets [ChatGPT](/tools/chatgpt/), but with the academic rigor of citing sources for every statement.
 
 ## Pricing in 2026
 
@@ -78,7 +78,7 @@ While citations are great, Perplexity sometimes pulls from low-quality or outdat
 | Document analysis | Good | Good | Best |
 | Price (Pro) | $20/mo | $20/mo | $20/mo |
 
-**Bottom line**: Use Perplexity for research and fact-finding. Use ChatGPT or Claude for creative work, coding, and general AI assistance.
+**Bottom line**: Use Perplexity for research and fact-finding. Use ChatGPT or [Claude](/tools/claude/) for creative work, coding, and general AI assistance.
 
 For a deeper comparison, check our [ChatGPT vs Claude comparison](/blog/chatgpt-vs-claude-which-ai-is-better) or browse [Perplexity alternatives](/alternatives/perplexity/).
 

@@ -39,7 +39,7 @@ Compare that to [Zapier](/tools/zapier/) Professional at $49/month with a 2,000 
 Cloud plans aren't about features — n8n self-hosted and cloud have identical functionality. Cloud plans are about not managing infrastructure:
 
 - **No server setup**: Login and start building
-- **Automatic updates**: n8n stays current without manual Docker pulls
+- **Automatic updates**: n8n stays current without manual [Docker](/tools/docker/) pulls
 - **Managed backups**: Your workflows are backed up by n8n
 - **Technical support**: Email support on paid plans
 
@@ -60,7 +60,7 @@ The limit is 5 *active* workflows — you can have unlimited inactive workflows.
 
 15 active workflows and 10,000 executions/month. The better comparison point is a team that runs medium-volume automations and doesn't want infrastructure overhead.
 
-At $60/month, you're spending more than Zapier Professional ($49/month) for fewer executions. The advantage is n8n's superior code support, AI agent capabilities, and no-per-task-pricing philosophy.
+At $60/month, you're spending more than [Zapier](/tools/zapier/) Professional ($49/month) for fewer executions. The advantage is n8n's superior code support, AI agent capabilities, and no-per-task-pricing philosophy.
 
 For most teams choosing Cloud Pro over Starter: the 15-workflow limit is the real driver, not execution count.
 

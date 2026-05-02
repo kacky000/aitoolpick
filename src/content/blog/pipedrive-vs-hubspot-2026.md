@@ -31,7 +31,7 @@ We tested both platforms with real sales workflows to give you a clear-eyed comp
 
 ### What Pipedrive Does Well
 
-Pipedrive was built by salespeople who were frustrated with bloated CRMs that required too much administration and not enough selling. The result is a product that puts the sales pipeline front and center.
+Pipedrive was built by salespeople who were frustrated with bloated CRMs that required too much administration and not enough selling. The result is a product that puts the sales pipeline [front](/tools/front/) and center.
 
 **Visual pipeline:** Pipedrive's kanban-style pipeline view is arguably the clearest deal visualization in the market. You can see every deal, its stage, value, and owner at a glance. Dragging deals between stages takes one second. This sounds trivial but meaningfully affects how consistently reps update deal status.
 

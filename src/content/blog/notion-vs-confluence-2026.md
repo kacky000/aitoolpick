@@ -49,7 +49,7 @@ Confluence doesn't have databases. It's purely documentation — and for teams t
 
 ### Atlassian Ecosystem Integration
 
-If your engineering team uses Jira, Confluence has an obvious advantage. Issues, sprints, and Jira tickets link seamlessly to Confluence docs. Product specs, engineering runbooks, and sprint retrospectives flow between tools without copy-pasting.
+If your engineering team uses [Jira](/tools/jira/), Confluence has an obvious advantage. Issues, sprints, and Jira tickets link seamlessly to Confluence docs. Product specs, engineering runbooks, and sprint retrospectives flow between tools without copy-pasting.
 
 Notion integrates with Jira through third-party tools like [Zapier](/tools/zapier/), but it's not the same as native integration.
 

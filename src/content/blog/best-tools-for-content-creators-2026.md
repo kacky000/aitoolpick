@@ -78,7 +78,7 @@ Figma is the industry standard for UI/UX design and increasingly popular with co
 
 **Pricing**: Free (1 project) / $15/month per editor for the Professional plan
 
-**Standout feature**: Dev Mode and component libraries make it easy to build a design system you can reuse across hundreds of pieces of content.
+**Standout feature**: Dev Mode and component libraries [make](/tools/make/) it easy to build a design system you can reuse across hundreds of pieces of content.
 
 ---
 

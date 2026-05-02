@@ -93,7 +93,7 @@ For detailed pricing, see our [Notion pricing breakdown](/blog/notion-pricing-20
 
 In 2026, Notion is the stronger choice for most users. Its free plan alone beats Evernote's paid plans in functionality. The database features, team collaboration, and customization options [make](/tools/make/) it a complete workspace, not just a note-taking app.
 
-Evernote still has its strengths — offline access, web clipping, and OCR search are genuinely best-in-class. But its aggressive pricing and limited free tier make it hard to recommend unless you specifically need those features.
+Evernote still has its strengths — offline access, web clipping, and OCR search are genuinely best-in-class. But its aggressive pricing and limited free tier [make](/tools/make/) it hard to recommend unless you specifically need those features.
 
 Want to explore more options? See our guide to the [best note-taking apps in 2026](/blog/best-note-taking-apps-2026) and [Evernote alternatives](/blog/evernote-alternatives-2026).
 

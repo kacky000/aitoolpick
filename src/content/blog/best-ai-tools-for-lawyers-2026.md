@@ -43,7 +43,7 @@ While Claude excels at reading documents, ChatGPT remains the most versatile dra
 - **First drafts**: Tell it the key deal points and get a first draft of an NDA, employment agreement, or purchase order in minutes
 - **Demand letters**: Provide the facts, desired outcome, and tone, and get a professional draft
 - **Client communications**: Translate legal findings into plain English for client updates
-- **Research memos**: Structure preliminary research findings into a clean memo format
+- **Research [memos](/tools/memos/)**: Structure preliminary research findings into a clean memo format
 
 The ChatGPT Code Interpreter is also useful for analyzing data-heavy legal work — class action statistics, financial fraud analysis, damages calculations.
 

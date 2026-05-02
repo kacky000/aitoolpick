@@ -84,7 +84,7 @@ Camtasia by TechSmith is the professional tool for creating polished tutorial vi
 **Key features:**
 - Screen recording + full video editing in one tool
 - Callouts, annotations, and spotlight effects built in
-- Zoom and pan animations to highlight specific areas
+- [Zoom](/tools/zoom/) and pan animations to highlight specific areas
 - Quiz and interaction elements
 - Export in multiple formats (MP4, GIF, web)
 

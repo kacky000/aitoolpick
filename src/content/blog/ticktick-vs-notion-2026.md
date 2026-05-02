@@ -51,7 +51,7 @@ With Premium, TickTick syncs directly with Google Calendar, showing your events 
 Notion can be anything: a CRM, a wiki, a project tracker, a personal journal, a product roadmap. TickTick is only a task manager. If you need to connect your tasks to notes, documentation, and knowledge, Notion is unmatched.
 
 ### Team Collaboration
-Notion is built for teams. Real-time collaborative editing, comments, mentions, shared workspaces, and permission controls make it a natural fit for team knowledge management. TickTick's collaboration features are limited to shared task lists.
+Notion is built for teams. Real-time collaborative editing, comments, mentions, shared workspaces, and permission controls [make](/tools/make/) it a natural fit for team knowledge management. TickTick's collaboration features are limited to shared task lists.
 
 ### Long-form Note-Taking
 Writing a meeting note, project brief, or documentation in TickTick is awkward — it's not built for it. Notion's editor handles long-form content beautifully.

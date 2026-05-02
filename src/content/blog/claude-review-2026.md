@@ -118,7 +118,7 @@ Claude supports up to 200K tokens of context — that's roughly 150,000 words. Y
 Claude is more likely to say "I'm not sure" or "I might be wrong about this" rather than confidently generating incorrect information. For professional use cases where accuracy matters, this honesty is invaluable.
 
 ### 4. Coding Capabilities
-Claude has become a serious coding assistant in 2026. It handles complex refactoring, debugging, and architecture discussions with impressive accuracy. Claude Code, Anthropic's CLI tool, is particularly popular among developers.
+Claude has become a serious coding assistant in 2026. It handles complex refactoring, debugging, and architecture discussions with impressive accuracy. [Claude Code](/tools/claude-code/), Anthropic's CLI tool, is particularly popular among developers.
 
 ### 5. Document Analysis
 Upload a 100-page PDF and ask Claude to summarize, compare, or extract specific information — it handles this remarkably well. This makes it ideal for legal, academic, and business research.
@@ -128,7 +128,7 @@ Upload a 100-page PDF and ask Claude to summarize, compare, or extract specific 
 ## Claude's Weaknesses
 
 ### 1. No Native Image Generation
-Unlike ChatGPT (which has DALL-E), Claude cannot generate images. If image creation is part of your workflow, you'll need a separate tool.
+Unlike [ChatGPT](/tools/chatgpt/) (which has DALL-E), Claude cannot generate images. If image creation is part of your workflow, you'll need a separate tool.
 
 ### 2. Smaller Plugin Ecosystem
 ChatGPT has a massive library of GPTs and plugins. Claude's ecosystem is growing but significantly smaller. If you rely on third-party integrations, ChatGPT has the edge.
@@ -137,7 +137,7 @@ ChatGPT has a massive library of GPTs and plugins. Claude's ecosystem is growing
 Even on the Pro plan, heavy users can hit rate limits during peak hours. The Max plan addresses this, but at $100-200/month, it's a significant investment.
 
 ### 4. Less Brand Recognition
-This isn't a technical weakness, but it matters. Fewer tutorials, community resources, and third-party tools are built around Claude compared to ChatGPT.
+This isn't a technical weakness, but it matters. Fewer tutorials, community resources, and third-party tools are built [around](/tools/around/) Claude compared to ChatGPT.
 
 ---
 

@@ -52,7 +52,7 @@ Compared to [Microsoft Teams](/tools/microsoft-teams/) (bundled with $12.50/user
 
 ## Zoom vs. The Competition
 
-| Feature | Zoom | Microsoft Teams | Google Meet |
+| Feature | Zoom | [Microsoft Teams](/tools/microsoft-teams/) | Google Meet |
 |---------|------|-----------------|-------------|
 | Video quality | Best | Very good | Very good |
 | AI summaries | Included | Copilot ($30/user extra) | Gemini (higher plans only) |
@@ -74,7 +74,7 @@ Compared to [Microsoft Teams](/tools/microsoft-teams/) (bundled with $12.50/user
 1. **Microsoft 365 shops running mostly internal meetings** — Teams is good enough and already paid for.
 2. **Google Workspace companies** — Meet has closed the gap for internal use.
 3. **[Small teams](/best-for/small-teams/) under 10 people** — The free plans of Teams, Meet, or Zoom itself are sufficient.
-4. **Anyone using Slack Huddles for quick calls** — You may not need a dedicated video tool at all.
+4. **Anyone using [Slack](/tools/slack/) Huddles for quick calls** — You may not need a dedicated video tool at all.
 
 ## Verdict
 

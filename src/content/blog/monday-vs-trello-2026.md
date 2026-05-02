@@ -46,7 +46,7 @@ Monday.com has a steeper learning curve. The initial setup — choosing views, c
 
 Trello's collaboration is basic: assign members, leave comments, attach files. It covers the essentials without extras.
 
-Monday.com adds updates (threaded discussions), workload views, guest access, and embedded docs. For teams larger than 5, these features make coordination significantly easier.
+Monday.com adds updates (threaded discussions), workload views, guest access, and embedded docs. For teams larger than 5, these features [make](/tools/make/) coordination significantly easier.
 
 **Winner: Monday.com** for teams, **Trello** for simplicity.
 

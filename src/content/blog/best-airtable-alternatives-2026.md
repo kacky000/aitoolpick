@@ -125,7 +125,7 @@ Sometimes the simplest tool is the best. Google Sheets won't give you the relati
 
 **Pricing:** Free with Google account
 
-**Best for:** Simple tracking needs, small teams, and anyone already in the Google ecosystem.
+**Best for:** Simple tracking needs, [small teams](/best-for/small-teams/), and anyone already in the Google ecosystem.
 
 ## How to Choose the Right Alternative
 

@@ -20,7 +20,7 @@ Before diving in, a quick orientation:
 
 - **Discord vs Slack**: Discord is better for communities and informal groups; [Slack](/tools/slack) is better for workplace teams. [See our full comparison →](/blog/slack-vs-discord-for-communities-2026/)
 - **Discord vs Microsoft Teams**: Teams is corporate-focused with Microsoft 365 integration; [Teams](/tools/microsoft-teams) for companies, Discord for communities
-- **Discord vs Telegram**: Both are free and community-friendly; Discord has better voice/video and server organization; Telegram has better broadcast features
+- **Discord vs [Telegram](/tools/telegram/)**: Both are free and community-friendly; Discord has better voice/video and server organization; Telegram has better broadcast features
 
 ## Setting Up Your Account
 
@@ -124,7 +124,7 @@ Bots are automated accounts that add features to servers. Server admins add them
 - **[Midjourney](/tools/midjourney/) Bot**: AI image generation (in the Midjourney server)
 - **Ticket Tool**: Support ticket systems for communities
 
-You interact with bots using slash commands: type `/` in any message box to see available commands.
+You interact with bots using slash commands: type `/` in any message [box](/tools/box/) to see available commands.
 
 ## Server Roles and Permissions
 

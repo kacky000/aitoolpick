@@ -103,7 +103,7 @@ Webflow pricing is higher per site but includes hosting, CDN, and SSL.
 
 ### E-commerce
 
-**WordPress + WooCommerce** is the most powerful e-commerce platform in this comparison. WooCommerce supports unlimited products, complex shipping rules, subscriptions, multi-vendor marketplaces, and hundreds of payment gateways. The plugin ecosystem extends it further.
+**WordPress + [WooCommerce](/tools/woocommerce/)** is the most powerful e-commerce platform in this comparison. WooCommerce supports unlimited products, complex shipping rules, subscriptions, multi-vendor marketplaces, and hundreds of payment gateways. The plugin ecosystem extends it further.
 
 **Webflow E-commerce** supports standard product catalogs, digital downloads, and custom checkout pages with excellent design control. However, it lacks the depth of WooCommerce for complex inventory management, and the pricing tiers are expensive.
 

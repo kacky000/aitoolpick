@@ -79,7 +79,7 @@ The recent addition of customizable channel types and improved threading has mad
 
 This is Teams' biggest weakness. The app tries to do everything — chat, calls, meetings, files, apps, calendars, tasks — and the result is an interface that feels overwhelming. New users struggle to find features, and the distinction between "Chat" and "Teams" conversations confuses people for months.
 
-The navigation redesign in late 2025 helped, but Teams remains more complex than Slack's clean sidebar approach.
+The navigation redesign in late 2025 helped, but Teams remains more complex than [Slack](/tools/slack/)'s clean sidebar approach.
 
 ### Performance
 

@@ -79,7 +79,7 @@ Both integrate with major tools, but Monday.com has deeper native integrations (
 
 ## Who Should Choose Monday.com?
 
-- **Teams of 5+** who need structured workflows out of the box
+- **Teams of 5+** who need structured workflows out of the [box](/tools/box/)
 - **Sales and marketing teams** wanting built-in CRM
 - **Agencies** managing multiple client projects
 - **Operations teams** that rely on automations

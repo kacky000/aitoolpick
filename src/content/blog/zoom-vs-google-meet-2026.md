@@ -35,7 +35,7 @@ Both offer genuinely useful free tiers:
 
 **Zoom Free:** 40-minute limit per meeting (enforced strictly), 100 participants, unlimited 1:1 meetings with no time limit, no cloud recording.
 
-**Google Meet Free:** 60-minute limit, 100 participants, cloud recording saves directly to Google Drive (with personal Google account).
+**Google Meet Free:** 60-minute limit, 100 participants, cloud recording saves directly to [Google Drive](/tools/google-drive/) (with personal Google account).
 
 **Advantage: Google Meet.** The extra 20 minutes per meeting eliminates a real frustration. Free cloud recording to Drive is also meaningfully useful.
 

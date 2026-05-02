@@ -76,7 +76,7 @@ Many organizations end up paying for Zoom + Zoom Phone, bringing the real per-us
 | Tool | Entry Paid | Notes |
 |------|-----------|-------|
 | Zoom Pro | $13.32/user | AI Companion included |
-| Microsoft Teams | $4/user | Included in Microsoft 365 |
+| [Microsoft Teams](/tools/microsoft-teams/) | $4/user | Included in Microsoft 365 |
 | Google Meet | $6/user | Included in Google Workspace |
 | Webex | $13.50/user | Strong enterprise features |
 

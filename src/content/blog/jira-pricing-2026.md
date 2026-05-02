@@ -82,7 +82,7 @@ Jira is mid-range on headline pricing but premium when add-ons are included.
 - Compliance and audit logs are required
 
 **No, if:**
-- Your team is under 30 people (Linear is faster and cheaper all-in)
+- Your team is under 30 people ([Linear](/tools/linear/) is faster and cheaper all-in)
 - You don't need the Atlassian ecosystem
 - Your engineers complain about Jira daily (a signal the ROI is negative)
 

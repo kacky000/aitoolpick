@@ -32,7 +32,7 @@ Monday CRM's pipeline view shows every deal as a card on a Kanban board. You can
 
 - **Drag deals** between stages (Lead → Qualified → Proposal → Negotiation → Closed Won/Lost)
 - **See deal value** on each card
-- **Filter by owner, stage, or close date**
+- **Filter by owner, stage, or [close](/tools/close/) date**
 - **Color-code by deal health** (on track, at risk, overdue)
 
 Unlike spreadsheet-based pipelines, Monday's pipeline is genuinely visual—your team gets a real-time snapshot of the entire sales process at a glance.
@@ -119,7 +119,7 @@ Note: Monday CRM is priced separately from Monday Work Management. The free tier
 | Starting price | $15/seat | $0 | $90/user/mo |
 | Project management | ✅ Built-in | ❌ No | ❌ No |
 
-**Choose Monday CRM if**: You need sales + operations in one platform, or your team finds HubSpot's free tier too limited but HubSpot Pro too expensive.
+**Choose Monday CRM if**: You need sales + operations in one platform, or your team finds [HubSpot](/tools/hubspot/)'s free tier too limited but HubSpot Pro too expensive.
 
 **Choose HubSpot if**: You need email sequences, marketing automation, or deep reporting.
 
@@ -152,7 +152,7 @@ Resist the urge to add 10 stages. You can always add more [later](/tools/later/)
 Monday CRM supports import from:
 - CSV/Excel files
 - HubSpot
-- Salesforce
+- [Salesforce](/tools/salesforce/)
 - [Pipedrive](/tools/pipedrive/)
 
 Run a data cleanup before importing—duplicate contacts are harder to fix after migration.
@@ -162,7 +162,7 @@ Run a data cleanup before importing—duplicate contacts are harder to fix after
 Start with three automations:
 1. **Follow-up reminder**: When a deal hasn't moved in 5 days → remind the owner
 2. **Lead assignment**: When a new lead is added → assign to the next rep in rotation
-3. **Closed won notification**: When a deal moves to Closed Won → notify customer success via Slack
+3. **Closed won notification**: When a deal moves to Closed Won → notify customer success via [Slack](/tools/slack/)
 
 ### Step 4: Build Your Dashboard
 

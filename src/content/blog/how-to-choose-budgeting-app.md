@@ -38,7 +38,7 @@ This is the biggest decision point:
 | Privacy | Shares bank credentials | No data shared |
 | Best for | Busy people | Privacy-conscious users |
 
-**With bank sync:** YNAB ($99/yr), Monarch Money ($99/yr), Copilot ($69/yr)
+**With bank sync:** [YNAB](/tools/ynab/) ($99/yr), Monarch Money ($99/yr), Copilot ($69/yr)
 **Without bank sync:** [Notion](/tools/notion) templates, Google Sheets, Goodbudget
 
 ## Step 3: Compare Costs

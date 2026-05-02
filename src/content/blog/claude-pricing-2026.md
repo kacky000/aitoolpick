@@ -42,7 +42,7 @@ Claude's free tier gives you genuine access to the platform — enough to evalua
 - Shorter effective context window
 - No Projects feature
 
-**Honest take:** Claude's free tier is more restrictive than ChatGPT's. Sonnet is genuinely capable, but the usage caps are tighter. If you're comparing free tiers specifically, ChatGPT gives you slightly more room. But Claude's writing quality — even on Sonnet — often exceeds what you'll get from GPT-4o mini.
+**Honest take:** Claude's free tier is more restrictive than [ChatGPT](/tools/chatgpt/)'s. Sonnet is genuinely capable, but the usage caps are tighter. If you're comparing free tiers specifically, ChatGPT gives you slightly more room. But Claude's writing quality — even on Sonnet — often exceeds what you'll get from GPT-4o mini.
 
 **Best for:** Anyone evaluating Claude before paying, students, or occasional users who need a few AI tasks per week.
 
@@ -61,7 +61,7 @@ Pro is Claude's core offering and where the platform genuinely shines. It unlock
 - Up to 200K token context window (~150,000 words)
 - Priority access during peak hours
 - Web search with no restrictions
-- Claude Code for terminal-based development
+- [Claude Code](/tools/claude-code/) for terminal-based development
 
 **Three features that drive the value:**
 

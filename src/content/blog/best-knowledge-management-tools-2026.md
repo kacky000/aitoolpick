@@ -48,7 +48,7 @@ Confluence is the default wiki for companies using Atlassian products. Its tight
 
 **Best for:** Enterprise teams already in the Atlassian ecosystem (Jira, [Trello](/tools/trello/), Bitbucket)
 
-**Key feature:** Jira integration embeds live issue data in documentation pages, keeping docs automatically up to date with development status.
+**Key feature:** [Jira](/tools/jira/) integration embeds live issue data in documentation pages, keeping docs automatically up to date with development status.
 
 **Pricing note:** The free plan supports up to 10 users with 2 GB storage — genuinely useful for small teams.
 
@@ -78,7 +78,7 @@ Slite strips away the complexity of Notion and Confluence. The editor is clean, 
 
 **Price:** Free (up to 10 users) / $8.33/user/mo (Scaling) / Custom (Professional)
 
-Tettra turns your team's frequently asked questions into a structured knowledge base. When someone asks a question in Slack, Tettra's bot suggests existing answers or routes unanswered questions to the right expert. Over time, this builds a Q&A-driven knowledge base organically.
+Tettra turns your team's frequently asked questions into a structured knowledge base. When someone asks a question in [Slack](/tools/slack/), Tettra's bot suggests existing answers or routes unanswered questions to the right expert. Over time, this builds a Q&A-driven knowledge base organically.
 
 **Best for:** Growing teams where the same questions keep getting asked across channels
 
@@ -94,7 +94,7 @@ GitBook is purpose-built for technical documentation. It syncs with [GitHub](/to
 
 **Best for:** Developer teams that need to publish and maintain technical docs, API references, or developer portals
 
-**Key feature:** Git Sync keeps your docs in a GitHub repo, meaning documentation follows the same review and versioning workflow as your code.
+**Key feature:** Git Sync keeps your docs in a [GitHub](/tools/github/) repo, meaning documentation follows the same review and versioning workflow as your code.
 
 **Pricing note:** The free plan only allows public documentation. Private docs require the Plus plan.
 

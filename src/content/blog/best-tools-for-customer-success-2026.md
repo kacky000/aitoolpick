@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 Looking for the best tools for customer success? We tested and compared the top options available in 2026, evaluating features, pricing, ease of use, and real-world performance.
 
-Customer success teams are measured on retention and expansion. The tools they use need to support proactive outreach, early churn detection, structured onboarding, and efficient account management — often across hundreds or thousands of accounts simultaneously.
+Customer success teams are measured on retention and expansion. The tools they use need to support proactive [outreach](/tools/outreach/), early churn detection, structured onboarding, and efficient account management — often across hundreds or thousands of accounts simultaneously.
 
 Here's what's worth using in 2026.
 
@@ -21,7 +21,7 @@ Before anything else, customer success teams need a structured knowledge base: o
 Notion works well for centralizing this because it's flexible enough to hold different content types (structured databases, documents, checklists) and searchable enough for CSMs to actually use it.
 
 High-value CS use cases in Notion:
-- **Onboarding playbooks**: Structured checklists and guides for each customer segment, with task ownership and milestone timelines.
+- **Onboarding playbooks**: Structured checklists and guides for each customer [segment](/tools/segment/), with task ownership and milestone timelines.
 - **QBR templates**: Standard Quarterly Business Review decks with sections for value delivered, upcoming roadmap, success metrics, and next steps. CSMs copy and customize per account.
 - **Escalation runbooks**: Step-by-step procedures for common customer issues, including who to loop in and what to communicate at each stage.
 - **Product update library**: Searchable database of all recent product releases, organized by feature area, with talking points for customer conversations.
@@ -93,7 +93,7 @@ CS use cases for Loom:
 
 For CS teams that need more database power than Notion offers — complex filtering, rollup formulas, automation within the database, or integration with BI tools — [Airtable](/tools/airtable/) is the stronger choice.
 
-The primary CS use case in Airtable is account health tracking: a database where each customer is a record with health scores, renewal dates, tier, assigned CSM, NPS scores, product adoption metrics, and current status. The formula and automation features let you build calculated health scores and trigger alerts automatically.
+The primary CS use case in [Airtable](/tools/airtable/) is account health tracking: a database where each customer is a record with health scores, renewal dates, tier, assigned CSM, NPS scores, product adoption metrics, and current status. The formula and automation features let you build calculated health scores and trigger alerts automatically.
 
 → [Airtable review 2026](/blog/airtable-review-2026/) | [Notion vs Airtable 2026](/blog/notion-vs-airtable-2026/)
 

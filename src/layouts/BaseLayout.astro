@@ -18,6 +18,12 @@ const jsonLd = JSON.stringify({
   name: 'AIToolPick',
   url: 'https://aitoolpick.org',
   description: 'Find and compare the best AI and productivity tools for your workflow.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'AIToolPick',
+    url: 'https://aitoolpick.org',
+    logo: { '@type': 'ImageObject', url: 'https://aitoolpick.org/og-default.png' },
+  },
   potentialAction: {
     '@type': 'SearchAction',
     target: {

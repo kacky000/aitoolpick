@@ -112,7 +112,7 @@ Both tools use large language models, but they serve different purposes.
 - You want automated database properties that fill themselves
 - Your team needs a shared AI layer across a common workspace
 
-**Use ChatGPT when:**
+**Use [ChatGPT](/tools/chatgpt/) when:**
 - You need deep research or multi-step reasoning on external topics
 - You want to generate very long content in a single session
 - You need code generation, data analysis, or image creation

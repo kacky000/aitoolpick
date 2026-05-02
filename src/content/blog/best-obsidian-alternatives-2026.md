@@ -52,7 +52,7 @@ If you love Obsidian's philosophy but want a different organizational structure,
 
 ## 3. Roam Research — The Original Bidirectional Linker
 
-Roam Research is the pioneer that introduced bidirectional linking to mainstream note-taking. It popularized the "thinking tool" category that Obsidian later dominated.
+Roam Research is the pioneer that introduced bidirectional linking to mainstream note-taking. It popularized the "thinking tool" category that Obsidian [later](/tools/later/) dominated.
 
 **Key Strengths:**
 - Created the bidirectional linking standard

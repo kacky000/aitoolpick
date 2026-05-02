@@ -72,7 +72,7 @@ ClickUp connects with the tools your marketing team already uses:
 | Tool | Integration Type |
 |------|-----------------|
 | [HubSpot](/tools/hubspot/) | Two-way sync for campaigns |
-| Slack | Task notifications in channels |
+| [Slack](/tools/slack/) | Task notifications in channels |
 | [Google Drive](/tools/google-drive/) | Attach files directly to tasks |
 | [Figma](/tools/figma/) | Embed designs in tasks |
 | [Zapier](/tools/zapier/)/Make | Automate anything |
@@ -167,7 +167,7 @@ For marketing teams that need docs + time tracking + content calendar in one too
 **ClickUp may not be the right fit if:**
 - Your team is just 1–2 people and needs something simpler (try [Todoist](/blog/todoist-review-2026) or Trello)
 - You need a dedicated social media scheduler (ClickUp doesn't post to social platforms)
-- Your company uses Jira company-wide and marketing needs to integrate tightly
+- Your company uses [Jira](/tools/jira/) company-wide and marketing needs to integrate tightly
 
 ## Verdict
 

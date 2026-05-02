@@ -34,7 +34,7 @@ n8n uses a node-based canvas that feels more like a flowchart editor. Nodes are 
 
 ### Integration Library
 
-Make offers 1,000+ pre-built app integrations, covering most popular SaaS tools. Each integration comes with multiple modules (triggers, actions, searches) that expose deep functionality. For example, the Google Sheets integration has separate modules for adding rows, updating cells, searching, and watching for changes.
+Make offers 1,000+ pre-built app integrations, covering most popular SaaS tools. Each integration comes with multiple modules (triggers, actions, searches) that expose deep functionality. For example, the Google Sheets integration has separate modules for adding [rows](/tools/rows/), updating cells, searching, and watching for changes.
 
 n8n has 400+ integrations — a smaller library, but growing fast. Where n8n shines is its HTTP Request node and Code node, which let you connect to any API without waiting for an official integration. If a service has a REST API, n8n can automate it.
 

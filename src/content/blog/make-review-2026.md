@@ -31,7 +31,7 @@ Power users love Make's ability to call any API directly using HTTP modules. If 
 Make includes built-in data stores that act as simple databases within your automations. Store, retrieve, and manipulate data between scenario runs without needing an external database.
 
 ### Error Handling
-Unlike Zapier's basic retry logic, Make offers sophisticated error handling: break, resume, rollback, commit, and ignore directives give you fine-grained control over what happens when things go wrong.
+Unlike [Zapier](/tools/zapier/)'s basic retry logic, Make offers sophisticated error handling: break, resume, rollback, commit, and ignore directives give you fine-grained control over what happens when things go wrong.
 
 ## Pricing (2026)
 
@@ -72,7 +72,7 @@ Make's credit-based pricing is more cost-effective than Zapier's task-based mode
 
 **Not ideal for:**
 - Beginners who want the simplest possible setup
-- Teams that only need basic linear automations
+- Teams that only need basic [linear](/tools/linear/) automations
 - Users who need obscure app integrations
 
 ## Make vs Zapier: Quick Comparison

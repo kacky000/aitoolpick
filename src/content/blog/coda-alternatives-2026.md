@@ -67,7 +67,7 @@ Confluence is the enterprise documentation standard — deeply integrated with [
 
 It doesn't have Coda's interactive features, but it also doesn't need them. Confluence is a document repository first.
 
-**Confluence wins on:** Jira integration, enterprise security, established ecosystem  
+**Confluence wins on:** [Jira](/tools/jira/) integration, enterprise security, established ecosystem  
 **Coda wins on:** Interactive features, formulas, non-Atlassian environments
 
 ## 5. Google Sites + Sheets — Best Free Alternative

@@ -72,7 +72,7 @@ If you work at a brokerage with other agents and support staff, Slack channels k
 
 ### 6. Canva — Best for Listing Marketing Materials
 
-Real estate marketing demands great visuals: listing flyers, social media graphics, open house announcements, and neighborhood guides. Canva's real estate templates make professional-looking materials accessible to non-designers.
+Real estate marketing demands great visuals: listing flyers, social media graphics, open house announcements, and neighborhood guides. Canva's real estate templates [make](/tools/make/) professional-looking materials accessible to non-designers.
 
 - **Price:** Free, $15/month (Pro)
 - **Why agents love it:** Real estate-specific templates, brand kit for consistent branding, easy resize for different platforms, presentation mode
@@ -87,7 +87,7 @@ Real estate marketing demands great visuals: listing flyers, social media graphi
 Property descriptions are time-consuming to write and critically important for attracting buyers. ChatGPT drafts compelling listing descriptions when you provide the key features, helping you maintain quality while saving 20–30 minutes per listing.
 
 - **Price:** Free, $20/month (Plus)
-- **Why agents love it:** Instant listing descriptions, email templates for client outreach, neighborhood guides, FAQ generation
+- **Why agents love it:** Instant listing descriptions, email templates for client [outreach](/tools/outreach/), neighborhood guides, FAQ generation
 - **Best for:** Agents who write a lot of property content
 
 [Compare ChatGPT vs Claude →](/blog/chatgpt-vs-claude-which-ai-is-better.md)

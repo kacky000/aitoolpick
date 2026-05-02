@@ -16,10 +16,10 @@ Here's a breakdown of the best survey tools available in 2026, from free options
 
 | Tool | Best For | Starting Price |
 |------|----------|---------------|
-| Typeform | Engaging, conversational surveys | Free / $25/month |
+| [Typeform](/tools/typeform/) | Engaging, conversational surveys | Free / $25/month |
 | SurveyMonkey | Professional research | Free / $25/month |
 | Google Forms | Simple, free surveys | Free |
-| Tally | Clean forms with a generous free tier | Free / $29/month |
+| [Tally](/tools/tally/) | Clean forms with a generous free tier | Free / $29/month |
 | Jotform | Complex forms with integrations | Free / $34/month |
 | Qualtrics | Academic and enterprise research | Custom |
 | Tally | Developer-friendly free tier | Free |
@@ -96,7 +96,7 @@ Tally is a newer survey tool that has gained a strong following for its generous
 - Pro: $29/month — remove branding, custom domains, file uploads, payments
 
 **Key Features:**
-- Block-based form builder similar to Notion
+- Block-based form builder similar to [Notion](/tools/notion/)
 - Logic, calculations, and hidden fields
 - Partial submissions capture
 - 500+ integrations via [Zapier](/tools/zapier/) and native connectors

@@ -16,7 +16,7 @@ This is the single biggest factor most people overlook.
 |---------------------|---------------|-----|
 | Microsoft 365 (Word, Excel, Outlook) | [Microsoft Teams](/tools/microsoft-teams/) | Included free, deep Office integration |
 | Google Workspace | [Slack](/tools/slack/) or Teams | Both integrate well, but Slack is more popular here |
-| Neither / Mixed | Slack | Most flexible, best third-party integrations |
+| Neither / Mixed | [Slack](/tools/slack/) | Most flexible, best third-party integrations |
 
 **If you're already paying for Microsoft 365,** Teams is essentially free. Starting with Slack means paying twice for communication tools.
 
@@ -32,7 +32,7 @@ Slack is built [around](/tools/around/) **asynchronous messaging**. It excels wh
 **Price:** Free / $7.25/user/month (Pro)
 
 ### Meetings-First (Microsoft Teams)
-Teams is built around **video meetings with chat**. It excels when your team:
+Teams is built [around](/tools/around/) **video meetings with chat**. It excels when your team:
 - Has frequent scheduled meetings
 - Needs large meeting capacity (up to 1,000 participants)
 - Works heavily in Office documents

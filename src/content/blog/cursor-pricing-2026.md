@@ -87,7 +87,7 @@ In June 2025, Cursor moved from counting "premium requests" to a credit-based sy
 
 1. Every paid plan includes a monthly credit pool equal to the plan price in dollars
 2. Each AI interaction costs credits based on the model and token usage
-3. Cheaper models (like GPT-4o Mini) consume fewer credits than frontier models (like Claude Opus)
+3. Cheaper models (like GPT-4o Mini) consume fewer credits than frontier models (like [Claude](/tools/claude/) Opus)
 4. Tab completions are unlimited and don't consume credits on paid plans
 5. Unused credits don't roll over
 

@@ -45,7 +45,7 @@ n8n supports **400+ native integrations** but comes with a killer advantage: eve
 
 Zapier's [linear](/tools/linear/) "Trigger → Action" model is the easiest automation interface in the industry. Most non-technical users build their first Zap in under five minutes.
 
-n8n uses a **visual canvas-based workflow editor** where you connect nodes by dragging lines between them. It's more powerful and handles branching, loops, and error handling far better — but the learning curve is steeper. Budget a few hours to get comfortable if you're new to it.
+n8n uses a **visual canvas-based workflow editor** where you connect nodes by dragging lines between them. It's more powerful and handles branching, [loops](/tools/loops/), and error handling far better — but the learning curve is steeper. Budget a few hours to get comfortable if you're new to it.
 
 If you've never used automation tools before, check out our [how to choose an automation tool guide](/blog/how-to-choose-automation-tool) first.
 

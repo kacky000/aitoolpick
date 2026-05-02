@@ -33,7 +33,7 @@ The Pro plan is a significant step up:
 |---------|------|-----|
 | Standard searches | Unlimited | Unlimited |
 | Pro searches | 5/day | 600+/day |
-| Model access | Default only | GPT-4o, Claude 3.5, Sonar Large |
+| Model access | Default only | GPT-4o, [Claude](/tools/claude/) 3.5, Sonar Large |
 | File uploads | — | Yes (PDFs, docs, images) |
 | Image generation | — | Yes ([DALL-E 3](/tools/dall-e/), SDXL) |
 | Perplexity Spaces | — | Yes |
@@ -87,7 +87,7 @@ Consider upgrading if you:
 - Work in research, journalism, consulting, or any field requiring fast, sourced information
 - Want to generate images alongside research
 
-At $20/month, Perplexity Pro is cheaper than ChatGPT Plus ($20/month) and Claude Pro ($20/month). If you primarily use AI for research rather than writing or coding, Perplexity Pro often delivers more value per dollar than the alternatives.
+At $20/month, Perplexity Pro is cheaper than [ChatGPT](/tools/chatgpt/) Plus ($20/month) and Claude Pro ($20/month). If you primarily use AI for research rather than writing or coding, Perplexity Pro often delivers more value per dollar than the alternatives.
 
 ## Perplexity vs ChatGPT and Claude for Research
 

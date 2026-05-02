@@ -100,7 +100,7 @@ If Evernote's pricing feels steep, you're not alone. Here are the most common al
 
 **For free note-taking:** Notion's free plan is far more generous than Evernote's, offering unlimited pages and basic collaboration. [Best Note-Taking Apps 2026](/blog/best-note-taking-apps-2026) covers the full landscape.
 
-**For privacy and offline-first:** Obsidian stores everything as local Markdown files and is completely free for personal use. There's no subscription required for core functionality.
+**For privacy and offline-first:** [Obsidian](/tools/obsidian/) stores everything as local Markdown files and is completely free for personal use. There's no subscription required for core functionality.
 
 **For power users:** [Notion](/tools/notion/)'s paid plans offer databases, linked views, and team features that go well beyond what Evernote provides.
 

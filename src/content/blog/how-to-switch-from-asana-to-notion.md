@@ -85,7 +85,7 @@ Notion's power is in views. Set up:
 2. Map Asana columns to Notion properties
 3. Review and clean up imported data
 
-**Important:** Asana's subtasks export as separate rows. You may need to manually convert these to sub-pages or checklist items in Notion.
+**Important:** Asana's subtasks export as separate [rows](/tools/rows/). You may need to manually convert these to sub-pages or checklist items in Notion.
 
 ### What Doesn't Transfer
 - Comments and activity history
@@ -109,7 +109,7 @@ Notion's power is in views. Set up:
 ### Onboarding Tips
 1. **Start with one team** — pilot with a small group before company-wide rollout
 2. **Create a Notion Guide page** — document your team's conventions
-3. **Set up template buttons** — make recurring workflows one-click
+3. **Set up template buttons** — [make](/tools/make/) recurring workflows one-click
 4. **Run both tools for 1 week** — parallel usage reduces anxiety
 5. **Assign a Notion champion** — someone who answers questions
 

@@ -12,7 +12,7 @@ After using Perplexity daily for over six months — on both the Free and Pro pl
 
 Perplexity is a conversational search tool. You type a question in natural language, and it returns a synthesized answer with numbered citations linking to source material. You can ask follow-up questions, and Perplexity maintains context across the conversation.
 
-The core experience is closer to "Google Search with an AI summary built in" than to "ChatGPT." The key difference from Google's AI Overviews: Perplexity's citations are more transparent, and follow-up questions work naturally.
+The core experience is closer to "Google Search with an AI summary built in" than to "[ChatGPT](/tools/chatgpt/)." The key difference from Google's AI Overviews: Perplexity's citations are more transparent, and follow-up questions work naturally.
 
 ## Free vs Pro ($20/month)
 
@@ -35,7 +35,7 @@ The free plan is functional for casual use. Five Pro searches per day covers lig
 
 This is Perplexity's defining feature. Every factual claim in an answer includes a numbered citation. Click it, and you go to the source. This matters for anyone who needs to verify information — journalists, researchers, students, analysts.
 
-ChatGPT and Claude can provide sources when asked, but they frequently hallucinate URLs or cite pages that don't contain the claimed information. Perplexity's citations are consistently real and relevant because they're pulled from live web search results, not generated from memory.
+ChatGPT and [Claude](/tools/claude/) can provide sources when asked, but they frequently hallucinate URLs or cite pages that don't contain the claimed information. Perplexity's citations are consistently real and relevant because they're pulled from live web search results, not generated from memory.
 
 ### Real-Time Web Access
 
