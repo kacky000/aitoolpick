@@ -11,11 +11,14 @@ const allPosts = (await getCollection('blog')).sort(
 const latestPosts = allPosts.slice(0, 6);
 
 const popularComparisons = [
-  { slugA: 'notion', slugB: 'clickup', nameA: 'Notion', nameB: 'ClickUp' },
   { slugA: 'chatgpt', slugB: 'claude', nameA: 'ChatGPT', nameB: 'Claude' },
+  { slugA: 'cursor', slugB: 'github-copilot', nameA: 'Cursor', nameB: 'GitHub Copilot' },
+  { slugA: 'notion', slugB: 'clickup', nameA: 'Notion', nameB: 'ClickUp' },
+  { slugA: 'midjourney', slugB: 'dall-e', nameA: 'Midjourney', nameB: 'DALL-E 3' },
   { slugA: 'canva', slugB: 'figma', nameA: 'Canva', nameB: 'Figma' },
-  { slugA: 'asana', slugB: 'monday', nameA: 'Asana', nameB: 'Monday.com' },
-  { slugA: 'slack', slugB: 'monday', nameA: 'Slack', nameB: 'Monday.com' },
+  { slugA: 'vercel', slugB: 'netlify', nameA: 'Vercel', nameB: 'Netlify' },
+  { slugA: 'zapier', slugB: 'make', nameA: 'Zapier', nameB: 'Make' },
+  { slugA: 'ahrefs', slugB: 'semrush', nameA: 'Ahrefs', nameB: 'Semrush' },
 ];
 ---
 
@@ -26,7 +29,7 @@ const popularComparisons = [
   <!-- Hero -->
   <section class="hero">
     <h1>Find the <span class="highlight">Perfect Tool</span> for Your Workflow</h1>
-    <p>Compare features, pricing, and reviews across 20+ top productivity and AI tools.</p>
+    <p>Compare features, pricing, and reviews across 100+ top productivity and AI tools.</p>
     <div class="hero-search">
       <input type="text" placeholder="Search tools... (e.g., Notion, ChatGPT)" id="hero-search-input" />
       <span class="hero-search-icon">&#128269;</span>
@@ -40,12 +43,12 @@ const popularComparisons = [
       <h2 class="section-title">Browse by Category</h2>
       <p class="section-subtitle">Find tools organized by what you need to get done.</p>
       <div class="category-grid">
-        {categories.map((cat) => {
-          const firstTool = tools.find(t => t.category.includes(cat.id));
+        {categories.filter(cat => tools.some(t => t.category.includes(cat.id))).slice(0, 20).map((cat) => {
+          const count = tools.filter(t => t.category.includes(cat.id)).length;
           return (
-            <a href={firstTool ? `/alternatives/${firstTool.slug}/` : '#'} class="category-card">
+            <a href={`/category/${cat.slug}/`} class="category-card">
               <span class="icon">{cat.icon}</span>
-              <span class="label">{cat.name}</span>
+              <span class="label">{cat.name} ({count})</span>
             </a>
           );
         })}
