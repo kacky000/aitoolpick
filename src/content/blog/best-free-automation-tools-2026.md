@@ -20,7 +20,7 @@ Zapier's free tier is the easiest way to dip your toes into automation. The setu
 
 **Key limitations:** The 100-task limit disappears fast. Each time a Zap fires, it counts as one task. A daily backup Zap burns 30 tasks/month alone. You're also locked to single-step Zaps, which means no filters, no formatters, and no branching logic.
 
-**Best use case:** One or two simple automations, like sending Slack notifications when a Google Form is submitted.
+**Best use case:** One or two simple automations, like sending [Slack](/tools/slack/) notifications when a Google Form is submitted.
 
 For a deeper look at what each Zapier plan includes, see our [Zapier Free vs Paid breakdown](/blog/zapier-free-vs-paid-2026).
 
@@ -32,7 +32,7 @@ Make gives you ten times the volume of Zapier's free tier. The operations-based 
 
 **Key limitations:** Only 2 active scenarios at a time. The 10 MB data transfer cap means file-heavy automations (like moving PDFs or images) will hit the wall quickly. Polling is every 15 minutes.
 
-**Best use case:** Complex multi-step workflows that don't involve large files, like syncing CRM data to a spreadsheet with conditional logic.
+**Best use case:** Complex multi-step workflows that don't involve large files, like syncing [CRM](/category/crm/) data to a spreadsheet with conditional logic.
 
 If you're choosing between these two, our [automation tool selection guide](/blog/how-to-choose-automation-tool) walks you through the decision framework.
 
@@ -44,7 +44,7 @@ n8n is the only tool on this list where "free" truly means free with no limits. 
 
 **Key limitations:** You need technical skills to set it up and maintain it. Self-hosting means you're responsible for updates, backups, and uptime. The cloud plan starts at $24/month, which isn't free.
 
-**Best use case:** Developers and technical teams who want full automation power without any recurring SaaS costs.
+**Best use case:** [Developers](/best-for/developers/) and technical teams who want full automation power without any recurring SaaS costs.
 
 ## 4. IFTTT — Best for Smart Home & Simple Personal Automations
 
@@ -62,7 +62,7 @@ IFTTT pioneered the "if this, then that" model and remains the go-to for smart h
 
 If your organization already pays for Microsoft 365, you likely have Power Automate included. It integrates deeply with Outlook, Teams, SharePoint, Excel, and the entire Microsoft ecosystem. Desktop flows (RPA) can automate legacy Windows applications.
 
-**Key limitations:** Premium connectors (Salesforce, SAP, custom APIs) require a standalone license at $15/user/month. The visual builder is functional but less intuitive than Zapier or Make. Desktop flows require Power Automate Desktop, which is free on Windows 11 but limited without a premium license.
+**Key limitations:** Premium connectors ([Salesforce](/tools/salesforce/), SAP, custom APIs) require a standalone license at $15/user/month. The visual builder is functional but less intuitive than Zapier or Make. Desktop flows require Power Automate Desktop, which is free on Windows 11 but limited without a premium license.
 
 **Best use case:** Automating approvals, document routing, and data entry within the Microsoft ecosystem.
 

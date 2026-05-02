@@ -5,7 +5,7 @@ pubDate: "2026-04-28"
 tags: ["logseq", "pricing", "note-taking", "open-source"]
 ---
 
-**Logseq** is one of the most generous note-taking tools on the market when it comes to pricing. The entire feature set is free for local use, with optional paid plans for cloud sync and supporting the project. But what exactly do you get at each tier, and how does it compare to Obsidian and Notion?
+**Logseq** is one of the most generous [note-taking](/category/note-taking/) tools on the market when it comes to pricing. The entire feature set is free for local use, with optional paid plans for cloud sync and supporting the project. But what exactly do you get at each tier, and how does it compare to Obsidian and Notion?
 
 This guide breaks down every Logseq pricing option in 2026, explains what you actually need to pay for, and helps you decide whether the paid plans are worth it.
 
@@ -52,7 +52,7 @@ Key details:
 - **Conflict resolution**: Handles simultaneous edits gracefully
 - **Storage included**: Sufficient for most knowledge bases (including images and assets)
 
-The encryption is the main selling point here. If you use iCloud or Dropbox for sync, your cloud provider can technically access your files. Logseq Sync ensures that only your devices can decrypt the data.
+The encryption is the main selling point here. If you use iCloud or [Dropbox](/tools/dropbox/) for sync, your cloud provider can technically access your files. Logseq Sync ensures that only your devices can decrypt the data.
 
 **Best for:** Users who work across multiple devices (laptop, phone, tablet) and want encrypted sync without technical setup.
 
@@ -82,7 +82,7 @@ If you want cross-device access without paying for Logseq Sync, four options wor
 
 ## Logseq vs Obsidian Pricing
 
-Obsidian is the most common comparison point for Logseq. Here is how pricing stacks up:
+[Obsidian](/tools/obsidian/) is the most common comparison point for Logseq. Here is how pricing stacks up:
 
 | Feature | Logseq | Obsidian |
 |---------|--------|----------|
@@ -96,7 +96,7 @@ Obsidian charges $50/user/year for commercial use (Logseq does not), and offers 
 
 ## Logseq vs Notion Pricing
 
-Notion takes a completely different approach to pricing:
+[Notion](/tools/notion/) takes a completely different approach to pricing:
 
 | Plan | Notion | Logseq Equivalent |
 |------|--------|-------------------|

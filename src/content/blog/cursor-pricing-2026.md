@@ -12,7 +12,7 @@ Cursor has quickly become one of the most popular AI-powered code editors, but i
 | Plan | Price | Credits | Best For |
 |------|-------|---------|----------|
 | **Hobby** | Free | Limited | Trying Cursor out |
-| **Pro** | $20/mo | $20 pool | Individual developers |
+| **Pro** | $20/mo | $20 pool | Individual [developers](/best-for/developers/) |
 | **Pro+** | $60/mo | $60 pool | Power users |
 | **Ultra** | $200/mo | $200 pool | Heavy daily usage |
 | **Teams** | $40/user/mo | $40 pool | Development teams |
@@ -35,7 +35,7 @@ This is Cursor's most popular plan and the sweet spot for most individual develo
 **What you get:**
 - Unlimited Tab completions
 - $20 monthly credit pool for premium models
-- Access to Claude Sonnet, GPT-4o, and other frontier models
+- Access to [Claude](/tools/claude/) Sonnet, GPT-4o, and other frontier models
 - Extended Agent limits
 
 The credit pool works like a wallet — every AI interaction deducts credits based on the model used. Once your pool runs out, you can still use basic features but lose access to premium models until next month.
@@ -93,7 +93,7 @@ In June 2025, Cursor moved from counting "premium requests" to a credit-based sy
 
 ## Student Discount
 
-Verified students get **one full year of Cursor Pro free** by signing up with a school email address. This is one of the best student deals in AI coding tools.
+Verified students get **one full year of Cursor Pro free** by signing up with a school email address. This is one of the best student deals in [AI coding](/category/ai-coding/) tools.
 
 ## Annual Billing Savings
 

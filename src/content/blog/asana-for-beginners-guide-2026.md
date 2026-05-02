@@ -14,7 +14,7 @@ Here's how to get started without getting lost.
 
 Asana is a work management platform designed to help teams (or individuals) track projects and tasks. Unlike a simple to-do app, Asana is built for collaborative work: assigning tasks to people, tracking dependencies, and reporting on progress.
 
-For solo users, Asana's free plan is usable but it's somewhat overbuilt — Todoist or Notion may be simpler choices for personal task management. Asana really shines for teams of 3-20 people running multiple projects simultaneously.
+For solo users, Asana's free plan is usable but it's somewhat overbuilt — [Todoist](/tools/todoist/) or Notion may be simpler choices for personal task management. Asana really shines for teams of 3-20 people running multiple projects simultaneously.
 
 ## Core Concepts
 
@@ -123,7 +123,7 @@ The **free plan** covers:
 - Unlimited tasks and projects (up to 10 users)
 - List, Board, and Calendar views
 - Basic automations
-- Integrations with Slack, Google Drive, etc.
+- Integrations with Slack, [Google Drive](/tools/google-drive/), etc.
 
 The **Starter plan ($10.99/user/month)** adds:
 - Timeline (Gantt) view
@@ -145,9 +145,9 @@ Most individuals and small teams get significant value from the free plan before
 
 ## Alternatives If Asana Isn't Right
 
-- **Notion**: Better for teams that need a combination of project management and documentation/wikis
-- **Trello**: Simpler Kanban-only interface, better for small teams just getting started
-- **Linear**: Better for software engineering teams that need tight Git integration
+- **[Notion](/tools/notion/)**: Better for teams that need a combination of project management and documentation/wikis
+- **[Trello](/tools/trello/)**: Simpler Kanban-only interface, better for small teams just getting started
+- **[Linear](/tools/linear/)**: Better for software engineering teams that need tight Git integration
 
 → [Best Asana alternatives 2026](/blog/best-asana-alternatives-2026/) | [Asana vs Trello 2026](/blog/asana-vs-trello-2026/)
 

@@ -21,7 +21,7 @@ You need to track leads from first contact to closed deal. Look for: visual pipe
 
 **Customer Support & Success**
 You need to manage ongoing relationships, tickets, and renewals. Look for: ticket management, customer health scores, communication history.
-→ Best fits: HubSpot, Zendesk, Freshdesk
+→ Best fits: HubSpot, Zendesk, [Freshdesk](/tools/freshdesk/)
 
 **Project-Based Client Management**
 You manage clients alongside deliverables and deadlines. Look for: project views, task management, time tracking, client portals.
@@ -57,7 +57,7 @@ Team size dramatically affects which CRM makes sense:
 - Need advanced security and compliance
 - Require custom workflows and API access
 - Want dedicated support and SLAs
-- **Recommended:** Salesforce, HubSpot Enterprise, Microsoft Dynamics
+- **Recommended:** [Salesforce](/tools/salesforce/), HubSpot Enterprise, Microsoft Dynamics
 
 ## Step 3: Evaluate Must-Have Features
 
@@ -116,14 +116,14 @@ Per-user pricing adds up fast. A $15/user/month CRM costs $1,800/year for a 10-p
 
 ```
 Do you need team collaboration?
-├── No → HubSpot Free or Notion CRM
+├── No → [HubSpot](/tools/hubspot/) Free or Notion CRM
 └── Yes →
     Do you manage projects alongside clients?
-    ├── Yes → ClickUp or Monday.com
+    ├── Yes → ClickUp or [Monday.com](/tools/monday/)
     └── No →
         Is your budget > $50/month?
         ├── Yes → HubSpot Starter or Salesforce
-        └── No → Monday.com Basic or ClickUp Unlimited
+        └── No → Monday.com Basic or [ClickUp](/tools/clickup/) Unlimited
 ```
 
 ## The Bottom Line

@@ -22,7 +22,7 @@ Airtable excels here. You can create linked records between tables, build relati
 **Winner: Airtable** — significantly more powerful for structured data.
 
 ### Project Management
-Monday.com is built for project management with native Gantt charts, timeline views, workload management, and dashboards. Airtable can do project management with its Timeline and Kanban views, but it requires more setup.
+Monday.com is built for [project management](/category/project-management/) with native Gantt charts, timeline views, workload management, and dashboards. Airtable can do project management with its Timeline and Kanban views, but it requires more setup.
 
 **Winner: Monday.com** — purpose-built for managing projects and teams.
 
@@ -37,7 +37,7 @@ Airtable's Interface Designer lets you build custom dashboards and forms on top 
 **Winner: Airtable** — Interface Designer is a unique advantage.
 
 ### CRM
-Monday.com offers a built-in CRM product. Airtable can function as a CRM with custom configuration, or you can use templates.
+Monday.com offers a built-in [CRM](/category/crm/) product. Airtable can function as a CRM with custom configuration, or you can use templates.
 
 **Winner: Monday.com** — dedicated CRM product is more polished.
 
@@ -81,7 +81,7 @@ Monday.com is significantly cheaper per seat. Airtable's pricing can add up fast
 
 ## Bottom Line
 
-These tools serve different primary purposes. **Airtable** is best when your work revolves around structured data and custom processes. **Monday.com** is best when you need straightforward project and team management with minimal setup.
+These tools serve different primary purposes. **Airtable** is best when your work revolves [around](/tools/around/) structured data and custom processes. **Monday.com** is best when you need straightforward project and team management with minimal setup.
 
 If you're unsure, ask yourself: "Am I managing data or managing projects?" Your answer will point you to the right tool.
 

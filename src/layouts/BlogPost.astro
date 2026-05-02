@@ -143,7 +143,7 @@ const formattedModified = modifiedDate.toLocaleDateString('en-US', { year: 'nume
       {tags.length > 0 && (
         <div class="article-tags">
           {tags.map((tag) => (
-            <span class="card-tag">{tag}</span>
+            <a href={`/blog/tag/${tag}/`} class="card-tag">{tag}</a>
           ))}
         </div>
       )}

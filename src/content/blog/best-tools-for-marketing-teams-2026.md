@@ -85,7 +85,7 @@ Slack remains the default for marketing teams. Channels organized by campaign or
 
 Zapier connects over 6,000 apps without code. For marketing teams, the most valuable automations include: pushing new blog subscribers from your form tool to your email platform, syncing CRM updates to Slack channels, auto-posting social media content from a spreadsheet schedule, and routing lead form submissions to the right sales rep.
 
-The learning curve is gentle and the template library covers most common marketing automations out of the box.
+The learning curve is gentle and the template library covers most common marketing automations out of the [box](/tools/box/).
 
 ### Make (formerly Integromat) — Best for Complex Workflows
 

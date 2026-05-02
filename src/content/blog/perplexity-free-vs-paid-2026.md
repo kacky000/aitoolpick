@@ -15,7 +15,7 @@ Perplexity AI has quietly become one of the most useful AI tools for anyone who 
 The free tier gives you access to Perplexity's core functionality:
 
 - **Unlimited standard searches** (Perplexity's default model)
-- **5 Pro searches per day** (limited access to GPT-4o, Claude, and Sonar)
+- **5 Pro searches per day** (limited access to GPT-4o, [Claude](/tools/claude/), and Sonar)
 - **Web sources cited inline** for every answer
 - **File uploads** — not available
 - **Image search** — basic access
@@ -35,7 +35,7 @@ The Pro plan is a significant step up:
 | Pro searches | 5/day | 600+/day |
 | Model access | Default only | GPT-4o, Claude 3.5, Sonar Large |
 | File uploads | — | Yes (PDFs, docs, images) |
-| Image generation | — | Yes (DALL-E 3, SDXL) |
+| Image generation | — | Yes ([DALL-E 3](/tools/dall-e/), SDXL) |
 | Perplexity Spaces | — | Yes |
 | API credits | — | $5/month included |
 | Early feature access | — | Yes |
@@ -72,7 +72,7 @@ The free plan is right for you if:
 - You don't need to upload documents
 - 5 Pro searches per day is enough for your typical workflow
 - You're trying Perplexity before committing
-- You already have ChatGPT or Claude Plus for deep reasoning
+- You already have [ChatGPT](/tools/chatgpt/) or Claude Plus for deep reasoning
 
 The free tier is one of the best in AI search — most people who use Perplexity casually never hit its limits.
 

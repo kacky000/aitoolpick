@@ -6,7 +6,7 @@ tags: ["obsidian", "note-taking", "knowledge-management", "beginners", "how-to"]
 heroImage: "/thumbs/obsidian-for-beginners-guide-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Obsidian has a reputation for being powerful but intimidating. That reputation is partly deserved — the app has a steep learning curve compared to something like Notion or Apple Notes. But the core idea is simple, and once it clicks, it changes how you think about note-taking.
+Obsidian has a reputation for being powerful but intimidating. That reputation is partly deserved — the app has a steep learning curve compared to something like [Notion](/tools/notion/) or Apple Notes. But the core idea is simple, and once it clicks, it changes how you think about note-taking.
 
 This guide is for people who just downloaded Obsidian and aren't sure where to start.
 
@@ -125,8 +125,8 @@ Once you've been using Obsidian for a few weeks and are comfortable, the **Commu
 
 - **Templater**: More powerful templates than the core plugin
 - **Calendar**: A calendar view for daily notes
-- **Dataview**: Query your notes like a database (advanced — save for later)
-- **Excalidraw**: Draw diagrams inside notes
+- **Dataview**: Query your notes like a database (advanced — save for [later](/tools/later/))
+- **[Excalidraw](/tools/excalidraw/)**: Draw diagrams inside notes
 
 Install community plugins at **Settings → Community Plugins → Browse**.
 
@@ -135,7 +135,7 @@ Install community plugins at **Settings → Community Plugins → Browse**.
 Obsidian is not for everyone. Consider alternatives if:
 
 - **You need real-time collaboration** → Notion works better
-- **You want simpler, cloud-based notes** → Evernote or Apple Notes
+- **You want simpler, cloud-based notes** → [Evernote](/tools/evernote/) or Apple Notes
 - **You need iOS/Android first** → Notion or Evernote have better mobile apps
 
 Obsidian shines for solo knowledge workers, researchers, writers, and developers who value local-first storage and long-term note ownership.
@@ -147,7 +147,7 @@ Obsidian shines for solo knowledge workers, researchers, writers, and developers
 Obsidian Sync ($4/month) is the official syncing service, but it's optional. Free alternatives:
 
 - **iCloud** (Mac/iOS): Put your vault in iCloud Drive
-- **Dropbox or Google Drive**: Put your vault in a synced folder
+- **Dropbox or [Google Drive](/tools/google-drive/)**: Put your vault in a synced folder
 - **Git**: For developers who want version history
 
 ## Starting Your Note-Taking Habit

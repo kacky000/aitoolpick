@@ -16,11 +16,11 @@ Linear and Jira both solve the same core problem — tracking issues and managin
 |---------|--------|------|
 | **Starting Price** | Free (250 issues) | Free (10 users) |
 | **Paid Plans** | $8–$16/user/mo | $8.15–$15.25/user/mo |
-| **Best For** | Startups, modern dev teams | Large enterprises, Atlassian shops |
+| **Best For** | [Startups](/best-for/startups/), modern dev teams | Large enterprises, Atlassian shops |
 | **Speed** | Blazing fast (local-first) | Slower, especially at scale |
 | **UI Design** | Minimal, opinionated | Feature-dense, customizable |
 | **Keyboard Shortcuts** | Extensive, Vim-inspired | Available but less central |
-| **Git Integration** | GitHub, GitLab (auto-close) | Deep (Bitbucket, GitHub, GitLab, CI/CD) |
+| **Git Integration** | [GitHub](/tools/github/), GitLab (auto-close) | Deep (Bitbucket, GitHub, GitLab, CI/CD) |
 | **Customization** | Limited by design | Highly customizable (workflows, fields, screens) |
 | **Mobile App** | iOS and Android | iOS and Android |
 
@@ -52,9 +52,9 @@ Linear keeps workflows simple: Backlog, Todo, In Progress, Done (plus custom sta
 
 ### Git Integration
 
-Both tools integrate with GitHub, GitLab, and Bitbucket, but the depth differs. Linear auto-detects branch names and links PRs to issues, auto-transitions issues when PRs merge, and supports cycle automation based on Git activity.
+Both tools integrate with GitHub, [GitLab](/tools/gitlab/), and Bitbucket, but the depth differs. Linear auto-detects branch names and links PRs to issues, auto-transitions issues when PRs merge, and supports cycle automation based on Git activity.
 
-Jira goes deeper. It connects with CI/CD pipelines (Jenkins, CircleCI, GitHub Actions), shows build and deployment status directly on issues, and integrates natively with Bitbucket for code review workflows. The development panel on a Jira issue can show commits, branches, PRs, builds, and deployments in one place.
+Jira goes deeper. It connects with CI/CD pipelines (Jenkins, [CircleCI](/tools/circleci/), GitHub Actions), shows build and deployment status directly on issues, and integrates natively with Bitbucket for code review workflows. The development panel on a Jira issue can show commits, branches, PRs, builds, and deployments in one place.
 
 **Winner:** Jira for full DevOps visibility. Linear for streamlined Git-to-issue linking.
 
@@ -68,9 +68,9 @@ Jira offers burndown charts, velocity tracking, sprint reports, cumulative flow 
 
 ### Ecosystem and Integrations
 
-Jira sits at the center of the Atlassian ecosystem: Confluence for docs, Bitbucket for code, Trello for lightweight boards, Statuspage for incident communication, and OpsGenie for alerting. If your organization already uses Atlassian products, Jira slots in seamlessly.
+Jira sits at the center of the Atlassian ecosystem: Confluence for docs, Bitbucket for code, [Trello](/tools/trello/) for lightweight boards, Statuspage for incident communication, and OpsGenie for alerting. If your organization already uses Atlassian products, Jira slots in seamlessly.
 
-Linear integrates with Slack, GitHub, GitLab, Figma, Sentry, Zendesk, and others. Its integration library is growing but remains smaller than Jira's marketplace, which offers thousands of third-party apps and plugins.
+Linear integrates with Slack, GitHub, GitLab, Figma, Sentry, [Zendesk](/tools/zendesk/), and others. Its integration library is growing but remains smaller than Jira's marketplace, which offers thousands of third-party apps and plugins.
 
 **Winner:** Jira for ecosystem breadth.
 
@@ -103,7 +103,7 @@ The pricing is remarkably close at each tier. The real cost difference emerges w
 
 ## The Verdict
 
-Linear is the issue tracker that developers actually enjoy using. It is fast, beautiful, and removes friction from daily work. For startups and modern engineering teams that value speed over configurability, Linear is the clear winner.
+Linear is the issue tracker that [developers](/best-for/developers/) actually enjoy using. It is fast, beautiful, and removes friction from daily work. For startups and modern engineering teams that value speed over configurability, Linear is the clear winner.
 
 Jira is the issue tracker that large organizations depend on. It is not as fast or as pretty, but it handles complexity that Linear cannot. Custom workflows, deep integrations, advanced reporting, and enterprise governance make Jira irreplaceable for organizations at scale.
 

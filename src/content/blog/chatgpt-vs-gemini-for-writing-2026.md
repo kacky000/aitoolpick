@@ -134,7 +134,7 @@ ChatGPT requires copy-pasting between the chat interface and your document. Ther
 
 ### Output Length and Consistency
 
-**ChatGPT** handles long-form content better. It can maintain consistent tone, structure, and detail across 2,000+ word articles. When you say "write a 1,500-word guide," you get something close to 1,500 words.
+**ChatGPT** handles long-form content better. It can maintain consistent tone, structure, and detail across 2,000+ word articles. When you say "write a 1,500-word guide," you get something [close](/tools/close/) to 1,500 words.
 
 **Gemini** sometimes loses steam in longer pieces, becoming repetitive or shifting tone midway. It's better for shorter content (emails, social posts, paragraphs) than full articles.
 

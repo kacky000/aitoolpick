@@ -12,9 +12,9 @@ Notion and ClickUp are two of the most popular all-in-one productivity platforms
 
 ## Quick Verdict
 
-**Choose Notion** if you want a flexible workspace for docs, wikis, and lightweight project management. It's elegant, customizable, and has a thriving template marketplace.
+**Choose Notion** if you want a flexible workspace for docs, wikis, and lightweight [project management](/category/project-management/). It's elegant, customizable, and has a thriving template marketplace.
 
-**Choose ClickUp** if you need robust project management with built-in time tracking, goals, and multiple project views. It packs more PM-specific features at a lower price point.
+**Choose ClickUp** if you need robust project management with built-in [time tracking](/category/time-tracking/), goals, and multiple project views. It packs more PM-specific features at a lower price point.
 
 For a detailed feature-by-feature comparison, see our [Notion vs ClickUp comparison page](/compare/clickup-vs-notion/).
 
@@ -46,7 +46,7 @@ Notion's database system is arguably the most flexible tool for organizing infor
 
 ### ClickUp's Strengths
 
-ClickUp is built from the ground up for project management, and it shows. Where Notion requires you to build your own PM system, ClickUp gives you one out of the box.
+ClickUp is built from the ground up for project management, and it shows. Where Notion requires you to build your own PM system, ClickUp gives you one out of the [box](/tools/box/).
 
 - **Multiple views**: List, Board, Gantt, Calendar, Timeline, and more
 - **Built-in time tracking**: No need for a separate tool
@@ -77,7 +77,7 @@ ClickUp has had its own performance challenges in the past, but recent improveme
 
 ## Integrations
 
-Both tools integrate with popular apps like Slack, Google Drive, and GitHub. Notion's API has enabled a rich ecosystem of third-party integrations and tools built on top of it. ClickUp offers more native integrations out of the box, including direct integrations with time tracking and communication tools.
+Both tools integrate with popular apps like Slack, [Google Drive](/tools/google-drive/), and GitHub. Notion's API has enabled a rich ecosystem of third-party integrations and tools built on top of it. ClickUp offers more native integrations out of the box, including direct integrations with time tracking and communication tools.
 
 **Winner: Tie** — Both have strong integration ecosystems.
 
@@ -97,7 +97,7 @@ Both tools integrate with popular apps like Slack, Google Drive, and GitHub. Not
 - An agency juggling multiple client projects
 - A team that needs built-in time tracking and reporting
 - Someone who wants the most features for the lowest price
-- A team transitioning from tools like Asana or Monday.com
+- A team transitioning from tools like Asana or [Monday.com](/tools/monday/)
 
 ## The Bottom Line
 

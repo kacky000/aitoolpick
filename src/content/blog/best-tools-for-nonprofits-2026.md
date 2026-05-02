@@ -64,7 +64,7 @@ Slack keeps distributed nonprofit teams connected:
 - **Channels**: Organize by program, committee, or topic
 - **Huddles**: Quick voice calls without scheduling a meeting
 - **Integrations**: Connect with Google Workspace, Asana, and 2,000+ apps
-- **Searchable history**: Find past decisions and context instantly
+- **Searchable history**: Find past decisions and context [instantly](/tools/instantly/)
 
 **Why nonprofits love it**: The 85% nonprofit discount makes Pro incredibly affordable. Even the free plan works for small teams.
 

@@ -81,7 +81,7 @@ Structure it as:
 
 ## Limitations to Know
 
-**Notion is not a donor database.** Don't try to run major donor relationship management in Notion. There are purpose-built CRMs (Salesforce Nonprofit, Bloomerang, Little Green Light) that handle donation tracking, giving history, and receipt generation properly. Notion can store supplementary notes about donors, but the primary record should be in a dedicated CRM.
+**Notion is not a donor database.** Don't try to run major donor relationship management in Notion. There are purpose-built CRMs ([Salesforce](/tools/salesforce/) Nonprofit, Bloomerang, Little Green Light) that handle donation tracking, giving history, and receipt generation properly. Notion can store supplementary notes about donors, but the primary record should be in a dedicated CRM.
 
 **Notion is not a case management system.** For programs serving vulnerable populations with complex, regulated data, you need purpose-built software with proper access controls and compliance features.
 

@@ -12,7 +12,7 @@ But the learning curve is shorter than it looks. Here's exactly how to get start
 
 ## What Notion Actually Is
 
-Notion is a workspace that combines notes, databases, tasks, and wikis in one app. Unlike Google Docs (just documents) or Trello (just boards), Notion lets you build your own system from flexible building blocks.
+Notion is a workspace that combines notes, databases, tasks, and wikis in one app. Unlike Google Docs (just documents) or [Trello](/tools/trello/) (just boards), Notion lets you build your own system from flexible building blocks.
 
 The key insight: **everything in Notion is a page, and pages can contain databases, and databases can contain pages**. Once you understand that recursive structure, the whole thing clicks.
 
@@ -42,7 +42,7 @@ Type `/to-do` and create a few checkboxes. Click the circles to check them off. 
 
 ## Understanding Databases (The Key to Notion)
 
-Most people use Notion as a fancy notes app for months before discovering databases. Don't make that mistake — databases are the feature that makes Notion worth using.
+Most people use Notion as a fancy notes app for months before discovering databases. Don't [make](/tools/make/) that mistake — databases are the feature that makes Notion worth using.
 
 A **database** in Notion is a collection of pages with consistent properties (like columns in a spreadsheet, but each row is its own full page).
 
@@ -111,9 +111,9 @@ The Plus plan ($10/month annual) adds unlimited file uploads, unlimited guests, 
 ## Alternatives If Notion Isn't for You
 
 Notion's flexibility is its strength and its weakness. If you want something simpler:
-- **Todoist** — if you just need a task manager without the complexity
-- **Obsidian** — if you prefer local Markdown files and deep linking
-- **ClickUp** — if you need team project management with stronger task views
+- **[Todoist](/tools/todoist/)** — if you just need a task manager without the complexity
+- **[Obsidian](/tools/obsidian/)** — if you prefer local Markdown files and deep linking
+- **ClickUp** — if you need team [project management](/category/project-management/) with stronger task views
 
 → [Best Notion alternatives 2026](/blog/best-notion-alternatives-2026/)
 

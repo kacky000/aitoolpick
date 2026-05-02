@@ -12,20 +12,20 @@ V0, Bolt.new, and Lovable are the three most popular AI app builders in 2026. Al
 | Feature | V0 | Bolt.new | Lovable |
 |---------|-----|----------|---------|
 | **Best for** | UI components | Quick prototypes | Full-stack MVPs |
-| **Backend** | No | Limited | Supabase built-in |
+| **Backend** | No | Limited | [Supabase](/tools/supabase/) built-in |
 | **Auth** | No | Via integration | Built-in |
 | **Database** | No | Via integration | Supabase built-in |
-| **Deployment** | Vercel | Browser preview | One-click |
-| **Code export** | Copy/paste, Vercel | Download | GitHub export |
+| **Deployment** | [Vercel](/tools/vercel/) | Browser preview | One-click |
+| **Code export** | Copy/paste, Vercel | Download | [GitHub](/tools/github/) export |
 | **Starting price** | Free | $20/mo | $20/mo |
 | **Code quality** | Excellent (UI) | Good | Good |
-| **Figma import** | Yes | No | No |
+| **[Figma](/tools/figma/) import** | Yes | No | No |
 
 ## V0 (by Vercel)
 
 ### What It Does Best
 
-V0 generates the cleanest UI code of the three. It outputs React components with Tailwind CSS that look production-ready out of the box. If you show it a design — or even describe one — the UI quality is noticeably higher than competitors.
+V0 generates the cleanest UI code of the three. It outputs React components with Tailwind CSS that look production-ready out of the [box](/tools/box/). If you show it a design — or even describe one — the UI quality is noticeably higher than competitors.
 
 V0 rebranded from v0.dev to v0.app in January 2026 and now supports full-stack development, but its core strength remains frontend.
 
@@ -36,8 +36,8 @@ V0 has no built-in backend. No database, no authentication, no server-side logic
 This makes V0 a component generator with full-stack aspirations, not a true full-stack builder.
 
 ### Best For
-- Designers converting designs to code
-- Frontend developers building UI components
+- [Designers](/best-for/designers/) converting designs to code
+- Frontend [developers](/best-for/developers/) building UI components
 - Vercel users who want tight platform integration
 - Figma-to-code workflows
 

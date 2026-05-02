@@ -13,10 +13,10 @@ Before comparing features and pricing, answer these:
 
 ### 1. What do you mostly use AI for?
 
-- **Autocomplete while typing** → Any tool works, but GitHub Copilot and Cursor lead
-- **Chat and Q&A about code** → Claude, ChatGPT, or an IDE-integrated chat
-- **Multi-file refactoring** → Cursor or Windsurf with Agent mode
-- **Building apps from scratch** → AI app builders like Lovable or Bolt.new
+- **Autocomplete while typing** → Any tool works, but [GitHub Copilot](/tools/github-copilot/) and Cursor lead
+- **Chat and Q&A about code** → Claude, [ChatGPT](/tools/chatgpt/), or an IDE-integrated chat
+- **Multi-file refactoring** → Cursor or [Windsurf](/tools/windsurf/) with Agent mode
+- **Building apps from scratch** → AI app builders like Lovable or [Bolt.new](/tools/bolt/)
 
 ### 2. What editor do you use?
 
@@ -84,7 +84,7 @@ AI coding tools make you faster, but the actual multiplier depends on what you'r
 
 ### Model-specific loyalty
 
-All major tools now support multiple models (Claude, GPT-4o, Gemini). The tool's integration quality matters more than which model it defaults to.
+All major tools now support multiple models ([Claude](/tools/claude/), GPT-4o, Gemini). The tool's integration quality matters more than which model it defaults to.
 
 ## Decision Flowchart
 

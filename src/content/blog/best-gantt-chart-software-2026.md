@@ -86,7 +86,7 @@ Like Asana, it doesn't offer Gantt on the free plan. The Standard plan ($12/seat
 
 ## 4. Notion — Best If Your Team Is Already in Notion
 
-**Best for:** Teams using Notion for docs and wikis who want light project tracking
+**Best for:** Teams using [Notion](/tools/notion/) for docs and wikis who want light project tracking
 
 Notion doesn't have a traditional Gantt chart, but its Timeline view (available on the Plus plan at $10/user/month) provides similar functionality for teams who don't need heavy PM features.
 

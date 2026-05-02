@@ -75,10 +75,88 @@ const jsonLd = JSON.stringify({
     priceCurrency: tool.currency || 'USD',
   },
 });
+
+// Generate FAQ data
+function buildFaqPricingAnswer(pricing: Record<string, number | boolean | null>, name: string): string {
+  const paidPlans = Object.entries(pricing).filter(
+    ([key, val]) => key !== 'free' && val !== null && typeof val === 'number'
+  );
+  if (pricing.free && paidPlans.length > 0) {
+    const planDetails = paidPlans.map(([plan, val]) => `${plan.charAt(0).toUpperCase() + plan.slice(1).replace(/([A-Z])/g, ' $1')}: $${val}/mo`).join(', ');
+    return `${name} offers a free plan. Paid plans start at ${planDetails}.`;
+  } else if (pricing.free && paidPlans.length === 0) {
+    return `${name} is completely free to use.`;
+  } else if (paidPlans.length > 0) {
+    const planDetails = paidPlans.map(([plan, val]) => `${plan.charAt(0).toUpperCase() + plan.slice(1).replace(/([A-Z])/g, ' $1')}: $${val}/mo`).join(', ');
+    return `${name} does not offer a free plan. Paid plans include: ${planDetails}.`;
+  } else {
+    return `${name} uses custom pricing. Contact their sales team for a quote.`;
+  }
+}
+
+function buildFaqFreeAnswer(pricing: Record<string, number | boolean | null>, name: string): string {
+  if (pricing.free) {
+    const hasPaid = Object.entries(pricing).some(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+    return hasPaid
+      ? `Yes, ${name} offers a free plan with limited features. Premium plans are available for users who need more advanced functionality.`
+      : `Yes, ${name} is completely free to use.`;
+  }
+  return `No, ${name} does not offer a free plan. However, they may offer a free trial. Check their website for current offers.`;
+}
+
+function buildFaqAlternativesAnswer(alts: typeof alternatives, name: string): string {
+  const topAlts = alts.slice(0, 4);
+  if (topAlts.length === 0) return `There are various alternatives to ${name} depending on your needs. Browse our tools directory for options.`;
+  const altNames = topAlts.map((a) => a.name);
+  return `The best alternatives to ${name} include ${altNames.join(', ')}. Each offers similar functionality with different strengths in features, pricing, and ease of use.`;
+}
+
+function buildFaqBestForAnswer(bestFor: string[], name: string): string {
+  if (!bestFor || bestFor.length === 0) return `${name} is suitable for a wide range of users and use cases.`;
+  const formatted = bestFor.map((b: string) => b.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()));
+  return `${name} is best for ${formatted.join(', ')}. It is designed to serve these audiences with specialized features and workflows.`;
+}
+
+const faqItems = [
+  {
+    question: `What is ${tool.name}?`,
+    answer: tool.description,
+  },
+  {
+    question: `How much does ${tool.name} cost?`,
+    answer: buildFaqPricingAnswer(tool.pricing, tool.name),
+  },
+  {
+    question: `What are the best alternatives to ${tool.name}?`,
+    answer: buildFaqAlternativesAnswer(alternatives, tool.name),
+  },
+  {
+    question: `Is ${tool.name} free?`,
+    answer: buildFaqFreeAnswer(tool.pricing, tool.name),
+  },
+  {
+    question: `What is ${tool.name} best for?`,
+    answer: buildFaqBestForAnswer(tool.bestFor, tool.name),
+  },
+];
+
+const faqJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+});
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
   <script type="application/ld+json" set:html={jsonLd} slot="head" />
+  <script type="application/ld+json" set:html={faqJsonLd} slot="head" />
 
   <!-- Breadcrumb -->
   <nav class="breadcrumb" style="max-width: var(--max-width); padding-top: 1.5rem;">
@@ -253,6 +331,21 @@ const jsonLd = JSON.stringify({
       </div>
     </section>
   )}
+
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="container">
+      <h2 style="margin-bottom: 1.5rem;">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        {faqItems.map((item) => (
+          <details class="faq-item">
+            <summary class="faq-question">{item.question}</summary>
+            <p class="faq-answer">{item.answer}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <!-- Related Blog Posts -->
   {relatedPosts.length > 0 && (
@@ -528,6 +621,70 @@ const jsonLd = JSON.stringify({
     color: var(--primary-dark);
   }
 
+  /* FAQ Section */
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 800px;
+  }
+
+  .faq-item {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .faq-item[open] {
+    border-color: var(--primary);
+  }
+
+  .faq-question {
+    padding: 1.25rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    color: var(--dark);
+    user-select: none;
+  }
+
+  .faq-question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-question::after {
+    content: '+';
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--gray-500);
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+
+  .faq-item[open] .faq-question::after {
+    content: '−';
+    color: var(--primary);
+  }
+
+  .faq-question:hover {
+    color: var(--primary-dark);
+  }
+
+  .faq-answer {
+    padding: 0 1.5rem 1.25rem;
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--gray-600);
+  }
+
   @media (max-width: 768px) {
     .tool-hero-inner {
       flex-direction: column;
@@ -551,6 +708,16 @@ const jsonLd = JSON.stringify({
 
     .best-for-grid {
       grid-template-columns: 1fr;
+    }
+
+    .faq-question {
+      padding: 1rem 1.25rem;
+      font-size: 0.95rem;
+    }
+
+    .faq-answer {
+      padding: 0 1.25rem 1rem;
+      font-size: 0.9rem;
     }
   }
 </style>

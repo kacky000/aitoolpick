@@ -14,7 +14,7 @@ Whether you're an independent consultant or running a small consulting firm, you
 
 ### 1. Monday.com — Best for Client-Facing Dashboards
 
-Monday.com's visual boards make it easy to share project progress with clients. The guest access feature lets clients view dashboards without a paid seat.
+Monday.com's visual boards [make](/tools/make/) it easy to share project progress with clients. The guest access feature lets clients view dashboards without a paid seat.
 
 - **Price:** Free (2 seats), $9/seat/month (Basic)
 - **Why consultants love it:** Client-facing views, CRM features, automations
@@ -107,7 +107,7 @@ Not every consultant has design skills, but every consultant needs professional-
 | AI assistant | Claude | $0–$20 |
 | Research | Perplexity | $0–$20 |
 | Presentations | Canva | $0–$15/user |
-| Task tracking | Todoist | $0–$4/user |
+| Task tracking | [Todoist](/tools/todoist/) | $0–$4/user |
 
 **Total estimated cost:** $0–$76/month for a complete consulting stack.
 

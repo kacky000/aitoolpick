@@ -39,7 +39,7 @@ ClickUp Free Forever includes:
 - **Multiple views** — List, Board, Calendar, and more
 - **Docs** — Built-in document editor (unique among free PM tools)
 - **Real-time collaboration** — Comments, mentions, chat
-- **Integrations** — Slack, GitHub, Google Drive, and more
+- **Integrations** — Slack, GitHub, [Google Drive](/tools/google-drive/), and more
 - **24/7 support** — Even on the free plan
 
 For a free tool, this is remarkably complete. You get more features in ClickUp Free than in many paid plans of competitors.
@@ -56,7 +56,7 @@ This is the biggest pain point. 100 MB for your entire workspace means you can u
 Goal tracking is locked behind the Unlimited plan. If OKRs or quarterly targets are part of your workflow, free won't cut it.
 
 ### 4. Limited Dashboards
-Free gives you basic dashboards, but the customizable widgets that make dashboards actually useful require Unlimited.
+Free gives you basic dashboards, but the customizable widgets that [make](/tools/make/) dashboards actually useful require Unlimited.
 
 ### 5. Guest Limit (5)
 Fine for internal teams, but if you work with clients or contractors, 5 guests is restrictive.

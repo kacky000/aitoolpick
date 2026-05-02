@@ -7,13 +7,13 @@ heroImage: "/thumbs/hubspot-pricing-2026.jpg"
 lastModified: "2026-05-01"
 ---
 
-**HubSpot pricing** is famously complex. Unlike most SaaS tools with three simple tiers, HubSpot sells modular "Hubs" — Marketing, Sales, Service, CMS, and Operations — each with their own Free, Starter, Professional, and Enterprise tiers. The free CRM is genuinely free. Everything beyond it gets expensive fast.
+**HubSpot pricing** is famously complex. Unlike most SaaS tools with three simple tiers, HubSpot sells modular "Hubs" — Marketing, Sales, Service, CMS, and Operations — each with their own Free, Starter, Professional, and Enterprise tiers. The free [CRM](/category/crm/) is genuinely free. Everything beyond it gets expensive fast.
 
 This guide cuts through the complexity to show you exactly what you pay and what you get at each level in 2026.
 
 ## HubSpot's Structure: Hubs + Bundles
 
-HubSpot is organized around five product hubs:
+HubSpot is organized [around](/tools/around/) five product hubs:
 
 | Hub | What It Does |
 |-----|--------------|
@@ -37,7 +37,7 @@ HubSpot's free tier is legitimately useful and used by hundreds of thousands of 
 - Meeting scheduling links (1 link per user)
 - Live chat and basic chatbots
 - Forms and landing pages (HubSpot-branded)
-- Basic email marketing (2,000 sends/month)
+- Basic [email marketing](/category/email-marketing/) (2,000 sends/month)
 - 5 email templates
 
 The free CRM is a real product, not a stripped-down teaser. Small teams can run their sales process entirely on the free tier.
@@ -93,7 +93,7 @@ The Starter bundle is the best value for small businesses that want all hubs at 
 
 **Contact limits**: Marketing Hub charges per contact in your marketing database. Adding 5K more contacts to Starter adds ~$75/month. Costs scale faster than expected.
 
-**Integrations**: Many valuable integrations (Salesforce sync, some data enrichment tools) require Professional or higher.
+**Integrations**: Many valuable integrations ([Salesforce](/tools/salesforce/) sync, some data enrichment tools) require Professional or higher.
 
 **Add-ons**: Dedicated IP for email ($300/month), increased API calls, additional users on restrictive plans.
 
@@ -103,8 +103,8 @@ The Starter bundle is the best value for small businesses that want all hubs at 
 |-----|-----------------|-------|
 | **HubSpot Starter** | $15/user/month | Full CRM suite at entry level |
 | **Salesforce Essentials** | $25/user/month | More powerful, steeper learning curve |
-| **Monday.com CRM** | $12/user/month | Simpler, less CRM-native features |
-| **Pipedrive** | $14/user/month | Sales-focused, easier to use |
+| **[Monday.com](/tools/monday/) CRM** | $12/user/month | Simpler, less CRM-native features |
+| **[Pipedrive](/tools/pipedrive/)** | $14/user/month | Sales-focused, easier to use |
 | **Zoho CRM** | $14/user/month | Strong value, complex setup |
 
 For small businesses, HubSpot's free tier often beats paid tiers of competitors. For mid-market, the Professional pricing ($800-1,600/month) becomes a major decision point.

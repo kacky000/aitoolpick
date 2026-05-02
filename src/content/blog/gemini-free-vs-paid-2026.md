@@ -42,7 +42,7 @@ The gap is most visible in complex reasoning, long-form writing, code generation
 
 Free Gemini gives you a standard context window — adequate for normal conversations but limiting for serious work. AI Pro unlocks the full 1 million token context window.
 
-In practice: a 300-page book is ~150,000 tokens, so Gemini 3 can hold about 6 books simultaneously. You can load 10-20 research papers and synthesize findings, or upload an entire codebase. No competitor matches this — ChatGPT caps at 128K, Claude at 200K.
+In practice: a 300-page book is ~150,000 tokens, so Gemini 3 can hold about 6 books simultaneously. You can load 10-20 research papers and synthesize findings, or upload an entire codebase. No competitor matches this — [ChatGPT](/tools/chatgpt/) caps at 128K, Claude at 200K.
 
 ## Google Workspace Integration
 
@@ -57,7 +57,7 @@ Free users get none of this. For Workspace-heavy users, this integration elimina
 
 ## Image Generation
 
-Free users cannot generate images. AI Pro users get image generation powered by Google's Imagen model (consumes AI credits). Quality is solid for business use — mockups, social graphics, presentation visuals. Not Midjourney-level, but handles practical needs well.
+Free users cannot generate images. AI Pro users get image generation powered by Google's Imagen model (consumes AI credits). Quality is solid for business use — mockups, social graphics, presentation visuals. Not [Midjourney](/tools/midjourney/)-level, but handles practical needs well.
 
 ## Voice Conversations (Gemini Live)
 
@@ -118,7 +118,7 @@ For most users, it's either Free or AI Pro. The middle tier is a storage deal wi
 
 If AI is a casual tool you use occasionally, the free plan works. If AI is part of your daily workflow — especially within Google Workspace — AI Pro at $19.99/month pays for itself in time savings within the first week.
 
-The Google Workspace integration is the deciding factor. Without it, Gemini competes evenly with ChatGPT and Claude. With it, Gemini has a genuine edge for Google-centric users.
+The Google Workspace integration is the deciding factor. Without it, Gemini competes evenly with ChatGPT and [Claude](/tools/claude/). With it, Gemini has a genuine edge for Google-centric users.
 
 For a broader look at which free AI tools deliver real value, check our guide to the [best free AI tools in 2026](/blog/best-free-ai-tools-2026/).
 

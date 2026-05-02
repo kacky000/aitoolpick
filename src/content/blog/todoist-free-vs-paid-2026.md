@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Todoist Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-Todoist's free plan is one of the most generous in the task management space. But at $4/month, the Pro plan is also one of the cheapest upgrades. Here's exactly what you get — and don't get — at each tier.
+Todoist's free plan is one of the most generous in the [task management](/category/task-management/) space. But at $4/month, the Pro plan is also one of the cheapest upgrades. Here's exactly what you get — and don't get — at each tier.
 
 ## Free Plan: What's Included
 
@@ -84,11 +84,11 @@ The Business plan adds on top of Pro:
 
 At $4/month, Todoist Pro is cheaper than almost every competitor:
 
-- **ClickUp**: Free plan is more generous, paid starts at $7/user/month
-- **Asana**: Starter plan is $10.99/user/month
-- **Notion**: Plus plan is $10/user/month
+- **[ClickUp](/tools/clickup/)**: Free plan is more generous, paid starts at $7/user/month
+- **[Asana](/tools/asana/)**: Starter plan is $10.99/user/month
+- **[Notion](/tools/notion/)**: Plus plan is $10/user/month
 
-Todoist Pro is arguably the best value in task management if you want a focused, fast tool without the complexity of a full project management suite.
+Todoist Pro is arguably the best value in task management if you want a focused, fast tool without the complexity of a full [project management](/category/project-management/) suite.
 
 ## The Verdict
 

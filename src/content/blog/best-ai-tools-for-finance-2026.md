@@ -33,7 +33,7 @@ Related: [ChatGPT vs Claude — which is better for your work?](/blog/chatgpt-vs
 
 **Price**: Free / $20/month (Pro) / $100/month (Team)
 
-Claude's standout capability is handling long, complex documents — exactly the kind of work that dominates finance. Where it excels:
+[Claude](/tools/claude/)'s standout capability is handling long, complex documents — exactly the kind of work that dominates finance. Where it excels:
 
 - **Annual report analysis** — upload a 200-page 10-K filing and ask specific questions about revenue recognition policies, risk factors, or segment performance
 - **Regulatory review** — paste new regulatory text and get a plain-language breakdown of what changed and what it means for your compliance obligations
@@ -67,7 +67,7 @@ The citation model is what matters here. Every claim links to its source, so you
 
 **Price**: Free / $20/month (Advanced) / Included with Google Workspace Business plans
 
-If your finance team lives in Google Sheets, Gmail, and Google Drive, Gemini's native integration makes it the most frictionless AI option.
+If your finance team lives in Google Sheets, Gmail, and [Google Drive](/tools/google-drive/), Gemini's native integration makes it the most frictionless AI option.
 
 - **Sheets integration** — generate formulas, create pivot tables, and analyze data without leaving your spreadsheet
 - **Gmail drafting** — compose professional financial communications with context from your inbox
@@ -112,7 +112,7 @@ Finance teams accumulate massive amounts of institutional knowledge: valuation m
 
 The database functionality is particularly strong for finance use cases. Build a deal pipeline tracker, a portfolio monitoring dashboard, or a regulatory change log — then use AI to surface patterns and generate summaries.
 
-**Key benefit**: Combines documentation, project management, and AI in one platform — no need to maintain separate wikis, spreadsheets, and task lists.
+**Key benefit**: Combines documentation, [project management](/category/project-management/), and AI in one platform — no need to maintain separate wikis, spreadsheets, and task lists.
 
 **Limitation**: Notion AI queries your workspace, not external data. It can't pull live stock prices or market data. It also has a learning curve — the flexibility that makes Notion powerful also means it takes time to set up properly.
 
@@ -125,7 +125,7 @@ Airtable sits between a spreadsheet and a database, which makes it surprisingly 
 - **Portfolio tracking** — create relational databases linking investments, performance data, and client information
 - **Financial workflows** — automate approval chains for expenses, invoices, or budget requests
 - **Reporting** — build custom views, charts, and dashboards from your financial data
-- **Integration** — connects to Slack, Gmail, Salesforce, and hundreds of other tools for automated data flows
+- **Integration** — connects to Slack, Gmail, [Salesforce](/tools/salesforce/), and hundreds of other tools for automated data flows
 
 The relational database model is Airtable's real advantage. Link a client record to their portfolio, transactions, and communication history in ways that flat spreadsheets simply cannot handle.
 
@@ -141,7 +141,7 @@ Related: [Best AI tools for small business](/blog/best-ai-tools-for-small-busine
 
 Financial communication has unusually high stakes. A poorly worded email to a client about portfolio losses can erode trust. An ambiguous sentence in a compliance document can create legal exposure. Grammarly catches these issues before they reach anyone.
 
-- **Tone adjustment** — shift between formal (board reports), professional (client updates), and casual (internal Slack messages)
+- **Tone adjustment** — shift between formal (board reports), professional (client updates), and casual (internal [Slack](/tools/slack/) messages)
 - **Clarity checks** — flag jargon-heavy sentences that non-finance stakeholders won't understand
 - **Consistency** — maintain uniform terminology across all team communications
 - **Compliance language** — the Business plan lets you set custom rules to flag potentially problematic phrasing
@@ -171,7 +171,7 @@ Most finance professionals end up using two or three of these tools together. A 
 
 ## Bottom Line
 
-AI tools for finance aren't replacing analysts or advisors — they're eliminating the repetitive work that keeps professionals from doing higher-value analysis. The tools that deliver real value in 2026 are the ones that integrate into existing workflows rather than demanding you rebuild your process around them.
+AI tools for finance aren't replacing analysts or advisors — they're eliminating the repetitive work that keeps professionals from doing higher-value analysis. The tools that deliver real value in 2026 are the ones that integrate into existing workflows rather than demanding you rebuild your process [around](/tools/around/) them.
 
 Start with the tool that addresses your biggest time sink. If you spend hours reading documents, try Claude. If you spend hours researching markets, try Perplexity. If you spend hours formatting reports, try ChatGPT. Build from there.
 

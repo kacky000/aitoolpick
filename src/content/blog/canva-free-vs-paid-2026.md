@@ -35,7 +35,7 @@ Canva Pro adds:
 - **610,000+ premium templates**
 - **1 TB cloud storage** (up from 5 GB)
 - **Brand Kit** (logos, colors, fonts)
-- **Magic Resize** — resize designs for any platform instantly
+- **Magic Resize** — resize designs for any platform [instantly](/tools/instantly/)
 - **Background Remover** — one-click background removal
 - **Magic Eraser** and **Magic Edit**
 - **Advanced AI features** (unlimited Magic Write, text-to-image)
@@ -86,7 +86,7 @@ Need a logo or graphic without a background? Free plan doesn't support transpare
 - Export transparent PNGs regularly
 
 **No, if you:**
-- Make occasional designs for personal use
+- [Make](/tools/make/) occasional designs for personal use
 - Don't need brand consistency across designs
 - Are happy with the free template selection
 - Use another tool for background removal
@@ -95,9 +95,9 @@ Need a logo or graphic without a background? Free plan doesn't support transpare
 
 | Tool | Free Plan | Pro Price | Best For |
 |------|-----------|-----------|----------|
-| **Canva** | Very generous | $15/mo | Non-designers, social media |
-| **Figma** | 3 projects | $15/mo | UI/UX design |
-| **Adobe Express** | Basic features | $10/mo | Adobe ecosystem users |
+| **Canva** | Very generous | $15/mo | Non-[designers](/best-for/designers/), social media |
+| **[Figma](/tools/figma/)** | 3 projects | $15/mo | UI/UX design |
+| **[Adobe Express](/tools/adobe-express/)** | Basic features | $10/mo | Adobe ecosystem users |
 
 Canva Pro is competitively priced for what you get. The combination of Brand Kit, Magic Resize, and the premium content library makes it the best value for non-designers who create content regularly.
 

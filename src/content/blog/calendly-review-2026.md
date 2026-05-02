@@ -16,13 +16,13 @@ We tested Calendly across sales workflows, team scheduling, and external booking
 
 Calendly is a scheduling automation platform that lets you share a booking link — calendar.com/yourname — and let others book time based on your actual availability. When someone books, it automatically sends confirmations, reminders, and calendar invites to all parties.
 
-Founded in 2013 and used by millions of professionals worldwide, Calendly has expanded from simple scheduling links into a full meeting workflow platform with routing, payments, and CRM integrations.
+Founded in 2013 and used by millions of professionals worldwide, Calendly has expanded from simple scheduling links into a full meeting workflow platform with routing, payments, and [CRM](/category/crm/) integrations.
 
 ## Key Features
 
 ### Event Types
 
-You create "event types" that define meeting parameters: duration (15, 30, 60 minutes), availability windows, buffer times, and maximum meetings per day. Once set up, your booking page handles everything automatically.
+You create "event types" that define meeting parameters: duration (15, 30, 60 minutes), availability windows, [buffer](/tools/buffer/) times, and maximum meetings per day. Once set up, your booking page handles everything automatically.
 
 Types include one-on-one meetings, round-robin (rotating team members for inbound calls), collective (all team members must be available), and group events (multiple attendees book the same slot).
 
@@ -46,7 +46,7 @@ Automated email and SMS sequences send before and after meetings — confirmatio
 
 ### Integrations
 
-Calendly integrates natively with Zoom, Google Meet, Microsoft Teams, HubSpot, Salesforce, Stripe (for paid bookings), Slack, and dozens more. The quality of these integrations is consistently high.
+Calendly integrates natively with Zoom, Google Meet, [Microsoft Teams](/tools/microsoft-teams/), HubSpot, Salesforce, Stripe (for paid bookings), Slack, and dozens more. The quality of these integrations is consistently high.
 
 ## Pricing
 
@@ -69,7 +69,7 @@ The **Teams plan** at $16/month adds routing forms, round-robin scheduling, and 
 
 **Reliable calendar sync.** The calendar integration is rock-solid. You rarely encounter double-booking issues or sync delays. This reliability is more valuable than it sounds.
 
-**Strong integrations.** Zoom, HubSpot, Salesforce, Stripe — the integrations work well and are actively maintained. For sales and customer success teams, these connections automate significant workflow steps.
+**Strong integrations.** Zoom, HubSpot, [Salesforce](/tools/salesforce/), Stripe — the integrations work well and are actively maintained. For sales and customer success teams, these connections automate significant workflow steps.
 
 **Routing forms are powerful.** For sales teams, the ability to qualify and route inbound prospects automatically replaces significant manual SDR work.
 
@@ -77,7 +77,7 @@ The **Teams plan** at $16/month adds routing forms, round-robin scheduling, and 
 
 ## Cons
 
-**Pricing increased significantly.** Calendly's pricing has risen over the years. At $10-16/month, it is still reasonable, but competitors like Cal.com and TidyCal offer comparable free or cheaper alternatives.
+**Pricing increased significantly.** Calendly's pricing has risen over the years. At $10-16/month, it is still reasonable, but competitors like [Cal.com](/tools/cal-com/) and TidyCal offer comparable free or cheaper alternatives.
 
 **Free plan is too limited.** One event type restricts the free plan to very specific use cases. Most users will need to upgrade immediately.
 
@@ -104,9 +104,9 @@ The **Teams plan** at $16/month adds routing forms, round-robin scheduling, and 
 
 **Calendly vs Cal.com:** Cal.com is open-source and significantly cheaper (free self-hosted or affordable cloud). Its feature set approaches Calendly's at the standard level. For teams comfortable with more setup, Cal.com is the cost-effective alternative.
 
-**Calendly vs TidyCal:** TidyCal charges a one-time fee ($29 lifetime) for features comparable to Calendly Standard. For individuals or small teams who want to avoid monthly fees, TidyCal is compelling.
+**Calendly vs TidyCal:** TidyCal charges a one-time fee ($29 lifetime) for features comparable to Calendly Standard. For individuals or [small teams](/best-for/small-teams/) who want to avoid monthly fees, TidyCal is compelling.
 
-**Calendly vs HubSpot Meetings:** If you use HubSpot CRM, the built-in meeting scheduling tool covers most Calendly use cases at no extra cost. Standalone Calendly is unnecessary if you are already in the HubSpot ecosystem.
+**Calendly vs [HubSpot](/tools/hubspot/) Meetings:** If you use HubSpot CRM, the built-in meeting scheduling tool covers most Calendly use cases at no extra cost. Standalone Calendly is unnecessary if you are already in the HubSpot ecosystem.
 
 Explore scheduling as part of your broader stack in our guide to the [best tools for freelancers in 2026](/blog/best-tools-for-freelancers-2026).
 

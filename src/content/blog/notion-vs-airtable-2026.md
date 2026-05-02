@@ -24,7 +24,7 @@ So which one should you choose? It depends on what you're building.
 
 ## Notion: The All-in-One Workspace
 
-Notion combines docs, wikis, databases, and project management into a single platform. Its databases are flexible and visual, with support for multiple views including tables, boards, timelines, calendars, and galleries.
+Notion combines docs, wikis, databases, and [project management](/category/project-management/) into a single platform. Its databases are flexible and visual, with support for multiple views including tables, boards, timelines, calendars, and galleries.
 
 ### Notion's Database Strengths
 - **Inline databases**: Embed databases directly within documents
@@ -63,7 +63,7 @@ Airtable takes the spreadsheet concept and extends it with relational database f
 ### Documentation
 **Winner: Notion**
 
-This isn't even close. Notion's document editor is one of the best in the productivity space. Airtable has no native documentation feature at all. If your team needs wikis, meeting notes, or any kind of written documentation, Notion wins by default.
+This isn't even [close](/tools/close/). Notion's document editor is one of the best in the productivity space. Airtable has no native documentation feature at all. If your team needs wikis, meeting notes, or any kind of written documentation, Notion wins by default.
 
 ### Database Power
 **Winner: Airtable**
@@ -88,7 +88,7 @@ At $10/user/month vs Airtable's $20/seat/month, Notion is significantly cheaper.
 ### Integrations
 **Winner: Airtable**
 
-Airtable's API and integration ecosystem are more developed. It works seamlessly with Zapier, Make, and has a robust scripting extension for custom logic.
+Airtable's API and integration ecosystem are more developed. It works seamlessly with [Zapier](/tools/zapier/), Make, and has a robust scripting extension for custom logic.
 
 ## When to Choose Notion
 
@@ -103,7 +103,7 @@ Airtable's API and integration ecosystem are more developed. It works seamlessly
 - You're managing **complex, structured data** with relationships between tables
 - You need **advanced automations** triggered by data changes
 - You want to build **custom apps** on top of your data (Interface Designer)
-- Your use case is **data-first** (inventory management, CRM, product catalogs)
+- Your use case is **data-first** (inventory management, [CRM](/category/crm/), product catalogs)
 - You need a **powerful API** for integrating with other systems
 
 ## Can You Use Both?
@@ -113,7 +113,7 @@ Absolutely, and many teams do. A common setup is:
 - **Notion** for documentation, wikis, and meeting notes
 - **Airtable** for operational data like CRM, inventory, or content pipelines
 
-You can even sync data between them using Zapier or Make, getting the best of both worlds.
+You can even sync data between them using Zapier or [Make](/tools/make/), getting the best of both worlds.
 
 ## The Verdict
 

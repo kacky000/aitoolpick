@@ -26,7 +26,7 @@ Read our full [ChatGPT vs Claude comparison](/blog/chatgpt-vs-claude-which-ai-is
 
 ## 2. Claude — Best for Long-Form and Nuanced Writing
 
-Claude by Anthropic excels at longer, more thoughtful pieces. Its extended context window means it can work with entire documents without losing track of earlier content, making it ideal for editing book chapters, research papers, or comprehensive guides.
+[Claude](/tools/claude/) by Anthropic excels at longer, more thoughtful pieces. Its extended context window means it can work with entire documents without losing track of earlier content, making it ideal for editing book chapters, research papers, or comprehensive guides.
 
 **Best for**: Long-form content, document analysis, nuanced writing
 
@@ -42,7 +42,7 @@ Grammarly isn't a content generator — it's an editor that makes your existing 
 
 **Pricing**: Free (basic) / $12/mo for Premium
 
-**Why we like it**: It works everywhere — Gmail, Google Docs, Slack, social media, and more. The browser extension catches errors in real-time without disrupting your workflow.
+**Why we like it**: It works everywhere — Gmail, Google Docs, [Slack](/tools/slack/), social media, and more. The browser extension catches errors in real-time without disrupting your workflow.
 
 Learn more in our [Grammarly Free vs Paid](/blog/grammarly-free-vs-paid/) breakdown.
 

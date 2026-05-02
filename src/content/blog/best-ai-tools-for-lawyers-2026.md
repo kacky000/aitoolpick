@@ -103,7 +103,7 @@ The Business plan's style guide feature is particularly useful for firms that wa
 Law firm administration involves a lot of repetitive handoffs: client intake forms into case management, invoices into billing, court deadlines into calendar. Zapier automates these:
 
 - Auto-create client folders when a new matter is opened
-- Send deadline reminders from court calendars to Slack
+- Send deadline reminders from court calendars to [Slack](/tools/slack/)
 - Log billable time entries automatically from tracked activities
 - Sync contacts between intake forms and your CRM
 

@@ -19,7 +19,7 @@ Marketing teams often face a choice: Canva's ease of use or Figma's design power
 | Collaboration | Real-time | Real-time |
 | Brand consistency tools | Strong (Brand Kit) | Excellent (Design Systems) |
 | Price (paid) | $15/user/mo | $15/editor/mo |
-| Best for | Non-designers, social content | Designer-marketer hybrids, complex assets |
+| Best for | Non-[designers](/best-for/designers/), social content | Designer-marketer hybrids, complex assets |
 
 ---
 
@@ -90,8 +90,8 @@ This isn't redundant — the tools serve genuinely different workflows.
 ## Who Should Choose What
 
 **Choose Canva if:**
-- Most content creators on your team aren't trained designers
-- You primarily make social media content
+- Most [content creators](/best-for/content-creators/) on your team aren't trained designers
+- You primarily [make](/tools/make/) social media content
 - You need speed above all else
 - You want an all-in-one platform with scheduling, printing, and AI tools
 

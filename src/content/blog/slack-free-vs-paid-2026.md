@@ -36,7 +36,7 @@ The Slack free plan is genuinely functional for small, early-stage teams. Here's
 
 **What works:**
 - Unlimited channels, direct messages, and users
-- Up to 10 third-party app integrations (enough for essential tools like Google Drive, Notion, or GitHub)
+- Up to 10 third-party app integrations (enough for essential tools like [Google Drive](/tools/google-drive/), Notion, or GitHub)
 - 1:1 audio and video huddles
 - Slack AI features are available as a paid add-on even on free (though rarely worth it at this tier)
 - Clips (async video/audio messages)
@@ -46,7 +46,7 @@ The Slack free plan is genuinely functional for small, early-stage teams. Here's
 
 The 90-day message limit is the free plan's biggest pain point. After three months, messages and files disappear from search. For a three-person side project or early-stage team still figuring things out, 90 days is survivable. For any team making decisions, documenting processes, or onboarding new hires — it's a real problem. New team members can't see context from before they joined, and important decisions vanish from the record.
 
-The 10-app integration cap also becomes a bottleneck faster than most teams expect. Adding Google Drive, Notion, GitHub, Jira, a calendar app, and a few others, and you're already close to the limit.
+The 10-app integration cap also becomes a bottleneck faster than most teams expect. Adding Google Drive, [Notion](/tools/notion/), GitHub, Jira, a calendar app, and a few others, and you're already close to the limit.
 
 The single-huddle restriction matters for teams running parallel workstreams. If your design team is in a huddle and your engineering lead wants to jump on a quick call — they can't.
 
@@ -58,7 +58,7 @@ Pro removes the three main free plan frustrations:
 2. **Unlimited app integrations** — connect everything
 3. **Unlimited huddles** — multiple simultaneous audio/video sessions across the workspace
 
-It also unlocks guest access (single-channel), which matters if you work with contractors, freelancers, or agency partners who need limited access to your workspace without seeing everything.
+It also unlocks guest access (single-channel), which matters if you work with contractors, [freelancers](/best-for/freelancers/), or agency partners who need limited access to your workspace without seeing everything.
 
 Workflow automations double to 2,000 runs/month — still capped, but sufficient for most small team automation needs.
 
@@ -66,10 +66,10 @@ Workflow automations double to 2,000 runs/month — still capped, but sufficient
 
 ## Business+ ($12.50/user/month): For Compliance and Scale
 
-Business+ is aimed at mid-size companies and teams with IT, security, or compliance requirements. Most small teams won't need it.
+Business+ is aimed at mid-size companies and teams with IT, security, or compliance requirements. Most [small teams](/best-for/small-teams/) won't need it.
 
 The headline additions:
-- **SAML-based SSO** — connects Slack to your identity provider (Okta, Azure AD, Google Workspace)
+- **SAML-based SSO** — connects Slack to your identity provider ([Okta](/tools/okta/), Azure AD, Google Workspace)
 - **SCIM user provisioning** — automate user onboarding/offboarding from your directory
 - **Data exports for all messages** — for legal, compliance, or archiving purposes
 - **99.99% uptime SLA** — Slack puts an SLA behind it (vs best-effort for Pro)

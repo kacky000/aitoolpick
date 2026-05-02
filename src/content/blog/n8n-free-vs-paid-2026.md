@@ -14,7 +14,7 @@ n8n has one of the most unusual pricing models in automation software: the core 
 
 | Option | Cost | Best For |
 |--------|------|----------|
-| Self-Hosted (Community) | Free forever | Developers and technical teams |
+| Self-Hosted (Community) | Free forever | [Developers](/best-for/developers/) and technical teams |
 | Cloud Starter | $24/month | Teams who want managed hosting |
 | Cloud Pro | $60/month | Growing teams needing more executions |
 | Cloud Enterprise | Custom | Large organizations |
@@ -34,7 +34,7 @@ n8n's self-hosted Community Edition is genuinely free with no feature restrictio
 
 The catch? You need to host it yourself. That means:
 
-- Setting up a server (VPS, Docker, or home server)
+- Setting up a server (VPS, [Docker](/tools/docker/), or home server)
 - Managing updates
 - Handling uptime and backups yourself
 

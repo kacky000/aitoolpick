@@ -6,11 +6,11 @@ tags: ["airtable", "crm", "how-to", "small-business", "tutorial"]
 heroImage: "/thumbs/how-to-use-airtable-as-crm.jpg"
 lastModified: "2026-04-26"
 ---
-Airtable makes an excellent lightweight CRM for small businesses, freelancers, and startups that don't need the complexity of Salesforce or HubSpot. With the right structure, you can track contacts, manage your sales pipeline, and log all client interactions — for free or near-free.
+Airtable makes an excellent lightweight CRM for small businesses, freelancers, and startups that don't need the complexity of [Salesforce](/tools/salesforce/) or HubSpot. With the right structure, you can track contacts, manage your sales pipeline, and log all client interactions — for free or near-free.
 
 ## Why Airtable for CRM?
 
-Dedicated CRMs like HubSpot charge $45-800/month for business plans. Airtable Free gives you the core database functionality to build a functional CRM at no cost.
+Dedicated CRMs like [HubSpot](/tools/hubspot/) charge $45-800/month for business plans. Airtable Free gives you the core database functionality to build a functional CRM at no cost.
 
 The tradeoff: Airtable doesn't have built-in email tracking, call logging, or deal forecasting. You build these features yourself. For teams with 1-5 people managing < 500 contacts, this is the right trade.
 
@@ -79,7 +79,7 @@ Log every meaningful interaction here. Over time, this becomes a complete histor
 
 ## Step 4: Set Up Pipeline Views
 
-In your **Deals** table, create a **Kanban view** grouped by Stage. This gives you a visual pipeline that works like Trello — drag deals from column to column as they progress.
+In your **Deals** table, create a **Kanban view** grouped by Stage. This gives you a visual pipeline that works like [Trello](/tools/trello/) — drag deals from column to column as they progress.
 
 Add these additional views:
 - **Closing This Month** — filter Close Date = This Month
@@ -107,7 +107,7 @@ For more complex automation (email sequences, lead scoring), [Zapier connects Ai
 
 ## Airtable CRM vs Dedicated CRMs
 
-| Feature | Airtable (free) | HubSpot Free | Notion CRM |
+| Feature | Airtable (free) | HubSpot Free | [Notion](/tools/notion/) CRM |
 |---------|----------------|-------------|------------|
 | Contacts | Unlimited | Unlimited | Unlimited |
 | Pipeline views | Yes (Kanban) | Yes | Yes |
@@ -126,7 +126,7 @@ Airtable's template gallery has pre-built CRM templates at airtable.com/template
 ## Limitations to Know
 
 Before committing to Airtable CRM:
-- No native email sending (you'll need Zapier or Make integrations)
+- No native email sending (you'll need [Zapier](/tools/zapier/) or Make integrations)
 - No call recording or VoIP integration out of the box
 - Reporting is limited on the free plan
 - At 500+ contacts, Airtable's performance can slow down

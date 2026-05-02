@@ -113,11 +113,11 @@ These plugins cover most of what Notion offered:
 |--------|----------|
 | **Dataview** | Notion databases and filtered views |
 | **Templater** | Notion templates |
-| **Calendar** | Notion calendar view for daily notes |
+| **Calendar** | [Notion calendar](/tools/notion-calendar/) view for daily notes |
 | **Kanban** | Notion board view |
-| **Tasks** | Notion task management |
+| **Tasks** | Notion [task management](/category/task-management/) |
 | **Tag Wrangler** | Notion tag management |
-| **Obsidian Git** | Auto-backup to GitHub (replaces Notion's cloud sync) |
+| **Obsidian Git** | Auto-backup to [GitHub](/tools/github/) (replaces Notion's cloud sync) |
 
 Install all plugins via **Settings > Community Plugins > Browse**.
 
@@ -138,7 +138,7 @@ Install all plugins via **Settings > Community Plugins > Browse**.
 
 **Don't abandon Notion before you're settled.** Run both apps in parallel for 2–4 weeks. Keep Notion active until you're confident Obsidian covers all your use cases.
 
-**Don't forget mobile sync.** Obsidian sync costs $10/month, or you can use iCloud, Dropbox, or Obsidian Git for free. Plan your sync strategy before migrating.
+**Don't forget mobile sync.** Obsidian sync costs $10/month, or you can use iCloud, [Dropbox](/tools/dropbox/), or Obsidian Git for free. Plan your sync strategy before migrating.
 
 ## Is the Switch Worth It?
 

@@ -91,7 +91,7 @@ This adds complexity but can work for organizations where forcing non-engineers 
 
 - **Engineering team running Scrum → Jira**
 - **Small team with a simple workflow → Trello**
-- **Mixed team (engineering + non-engineering) → Consider ClickUp or Asana**
+- **Mixed team (engineering + non-engineering) → Consider [ClickUp](/tools/clickup/) or Asana**
 
 The worst outcome is trying to run engineering sprints in Trello or trying to run marketing campaigns in Jira. Use the right tool for the workflow.
 

@@ -6,7 +6,7 @@ heroImage: "/thumbs/ticktick-review-2026.jpg"
 tags: ["ticktick", "task-management", "to-do", "productivity", "review"]
 lastModified: "2026-04-26"
 ---
-TickTick sits in an awkward middle ground: more powerful than Todoist, simpler than Notion, and somehow less talked about than both. If you've never seriously tried it, 2026 is a good time to reconsider.
+TickTick sits in an awkward middle ground: more powerful than [Todoist](/tools/todoist/), simpler than Notion, and somehow less talked about than both. If you've never seriously tried it, 2026 is a good time to reconsider.
 
 This review covers what TickTick actually does well, where it falls short, and who it's right for.
 
@@ -14,7 +14,7 @@ This review covers what TickTick actually does well, where it falls short, and w
 
 TickTick is a cross-platform task manager with built-in calendar integration, Pomodoro timer, habit tracker, and a surprisingly capable free tier. It's designed for individuals and small teams who want more structure than a simple to-do list but less complexity than full project management software.
 
-Unlike Todoist, which keeps things clean and minimal, TickTick packs more views and features into the same space. Unlike Notion, it stays focused on tasks — it doesn't try to be a wiki or database platform.
+Unlike Todoist, which keeps things clean and minimal, TickTick packs more views and features into the same space. Unlike [Notion](/tools/notion/), it stays focused on tasks — it doesn't try to be a wiki or database platform.
 
 ## Key Features
 
@@ -53,7 +53,7 @@ The premium price is one of the lowest in the category. Todoist charges $48/year
 
 **vs. Things 3**: Things 3 is macOS/iOS only and charges a one-time fee of $49.99. TickTick is cross-platform (including Android and web) and subscription-based. Neither is obviously better — it depends on your ecosystem.
 
-**vs. Microsoft To Do**: Microsoft To Do is free and integrates well with Office 365, but has minimal features beyond basic lists. TickTick's Premium adds views and features that make it a serious productivity tool.
+**vs. Microsoft To Do**: Microsoft To Do is free and integrates well with Office 365, but has minimal features beyond basic lists. TickTick's Premium adds views and features that [make](/tools/make/) it a serious productivity tool.
 
 ## What TickTick Doesn't Do Well
 

@@ -15,10 +15,10 @@ AI image generation has exploded in popularity, and two names dominate the conve
 | Feature | Midjourney | DALL-E |
 |---------|-----------|--------|
 | **Developer** | Midjourney Inc. | OpenAI |
-| **Access** | Discord / Web App | ChatGPT / API |
+| **Access** | Discord / Web App | [ChatGPT](/tools/chatgpt/) / API |
 | **Starting Price** | $10/month | Free tier + $20/month (ChatGPT Plus) |
 | **Image Quality** | Artistic, painterly | Photorealistic, clean |
-| **Editing** | Vary, Zoom, Pan | Inpainting, Outpainting |
+| **Editing** | Vary, [Zoom](/tools/zoom/), Pan | Inpainting, Outpainting |
 | **API Access** | Limited | Full REST API |
 
 ## Image Quality Compared
@@ -36,7 +36,7 @@ The default aesthetic leans toward "beautiful" — images often look polished an
 
 ### DALL-E
 
-DALL-E 3 (integrated into ChatGPT) takes a different approach:
+[DALL-E 3](/tools/dall-e/) (integrated into ChatGPT) takes a different approach:
 
 - **Photorealism** that closely matches real-world scenes
 - **Text rendering** — DALL-E handles text in images far better than Midjourney
@@ -66,7 +66,7 @@ For casual users, DALL-E's inclusion in ChatGPT Plus offers better value since y
 
 ### Midjourney
 
-Midjourney originally required Discord, which created a steep learning curve. The 2025 web app launch improved things dramatically:
+Midjourney originally required [Discord](/tools/discord/), which created a steep learning curve. The 2025 web app launch improved things dramatically:
 
 - Web interface with prompt history and galleries
 - Discord still available for power users

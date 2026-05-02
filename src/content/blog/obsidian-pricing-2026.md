@@ -36,7 +36,7 @@ Obsidian's free tier is genuinely complete. You get:
 - **Local storage** — your notes are Markdown files on your device, not locked in a proprietary format
 - **No account required** — you can use Obsidian without ever creating a login
 
-This is the fundamental difference between Obsidian and almost every other note-taking app. Tools like Notion, Evernote, and Roam Research require cloud accounts to do anything useful. Obsidian works entirely offline on your local file system.
+This is the fundamental difference between Obsidian and almost every other note-taking app. Tools like Notion, Evernote, and [Roam Research](/tools/roam-research/) require cloud accounts to do anything useful. Obsidian works entirely offline on your local file system.
 
 For a single-device user — say, someone who only takes notes on their laptop — there is absolutely no reason to pay for Obsidian. Ever. You get everything.
 
@@ -57,12 +57,12 @@ Obsidian Sync is the only paid add-on most users will consider. It solves one sp
 
 **When Sync is worth it:**
 - You regularly switch between a laptop and phone, or between a home and work computer
-- You want an encrypted, privacy-preserving backup that isn't tied to iCloud, Google Drive, or Dropbox
+- You want an encrypted, privacy-preserving backup that isn't tied to iCloud, [Google Drive](/tools/google-drive/), or Dropbox
 - You care about end-to-end encryption — Sync's E2E encryption means even Obsidian's servers can't read your notes
 
 **When Sync is NOT worth it:**
 - You only use one device
-- You already use iCloud, Dropbox, or another service that syncs your Obsidian vault folder automatically (this is a free workaround that many users rely on)
+- You already use iCloud, [Dropbox](/tools/dropbox/), or another service that syncs your Obsidian vault folder automatically (this is a free workaround that many users rely on)
 - You're comfortable with a manual sync workflow using Git or Syncthing
 
 The free workaround is worth mentioning: because Obsidian stores notes as plain Markdown files in a folder, you can sync that folder using any cloud storage service. Many users sync via iCloud on Mac/iPhone or Dropbox across platforms. It's slightly more technical to set up than Obsidian Sync, but costs nothing.
@@ -87,7 +87,7 @@ Obsidian Publish lets you host a public website built directly from your vault. 
 - You value the tight integration with Obsidian's backlinking and graph view on the public site
 
 **When Publish is NOT worth it:**
-- You just want a blog — standard blogging platforms (Ghost, WordPress, even free options like Substack) offer far more publishing features at the same price or less
+- You just want a blog — standard blogging platforms (Ghost, WordPress, even free options like [Substack](/tools/substack/)) offer far more publishing features at the same price or less
 - You only share notes occasionally — exporting individual notes as PDFs or sharing via a service like Notion is free
 - You want full design control — Publish's customization is limited compared to a dedicated site builder
 
@@ -127,7 +127,7 @@ For a detailed head-to-head, read [Notion vs. Obsidian: Which Note App Is Right 
 - **Digital garden blogger (Sync + Publish):** $144/year
 - **Professional using it for work (Commercial license):** $50/year + optional Sync/Publish
 
-Most people who love Obsidian pay either $0 or $48/year. That's a dramatically lower cost than Evernote's minimum $129.99/year or Notion's $120/year Plus plan.
+Most people who love Obsidian pay either $0 or $48/year. That's a dramatically lower cost than [Evernote](/tools/evernote/)'s minimum $129.99/year or Notion's $120/year Plus plan.
 
 ---
 

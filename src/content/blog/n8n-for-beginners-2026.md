@@ -6,13 +6,13 @@ heroImage: "/thumbs/n8n-for-beginners-2026.jpg"
 tags: ["n8n", "automation", "beginners", "workflow", "no-code"]
 lastModified: "2026-04-26"
 ---
-n8n is one of the most powerful automation tools available — and one of the most intimidating to start with. Unlike Zapier, which guides you step by step, n8n drops you on a canvas with infinite flexibility and very little hand-holding.
+n8n is one of the most powerful automation tools available — and one of the most intimidating to start with. Unlike [Zapier](/tools/zapier/), which guides you step by step, n8n drops you on a canvas with infinite flexibility and very little hand-holding.
 
 This guide cuts through the complexity. Here's what you actually need to know to build your first useful workflow.
 
 ## What n8n Is (and Why It's Different)
 
-n8n is an open-source workflow automation platform. Like Zapier or Make, it connects apps and automates tasks without writing full programs. Unlike them, it runs on your own server (self-hosted) or n8n's cloud, costs significantly less at scale, and lets you write actual JavaScript or Python inside any node.
+n8n is an open-source workflow automation platform. Like Zapier or [Make](/tools/make/), it connects apps and automates tasks without writing full programs. Unlike them, it runs on your own server (self-hosted) or n8n's cloud, costs significantly less at scale, and lets you write actual JavaScript or Python inside any node.
 
 The core value proposition: **free self-hosting with no task limits**. On Zapier, you pay per task. On self-hosted n8n, you run unlimited automations for the cost of a $5/month server.
 
@@ -28,7 +28,7 @@ Nodes are the building blocks. An HTTP Request node makes API calls. A Gmail nod
 Every workflow needs a trigger:
 - **Schedule Trigger**: Run every hour, every day, every Monday at 9 AM
 - **Webhook Trigger**: Fire when an external service sends data to your n8n URL
-- **App Trigger**: Fire when something happens in a connected app (new email, new row in Airtable, etc.)
+- **App Trigger**: Fire when something happens in a connected app (new email, new row in [Airtable](/tools/airtable/), etc.)
 
 ### Credentials
 n8n stores API keys and authentication details as "credentials" that any node can reference. You set them up once per service, then reuse them across workflows.
@@ -42,7 +42,7 @@ n8n stores API keys and authentication details as "credentials" that any node ca
 - Paid plans from $24/month (Starter)
 
 **Self-hosted** is free but requires setup:
-- Docker: `docker run -it --rm --name n8n -p 5678:5678 n8nio/n8n`
+- [Docker](/tools/docker/): `docker run -it --rm --name n8n -p 5678:5678 n8nio/n8n`
 - Access at `localhost:5678`
 - Free forever, no task limits
 - You manage updates and reliability

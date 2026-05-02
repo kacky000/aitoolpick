@@ -85,7 +85,7 @@ Both have built-in automation builders.
 
 **Notion automations** are basic — change a property based on another, send a notification, filter-based triggers.
 
-**Airtable automations** are significantly more powerful: multi-step workflows, script actions (JavaScript), complex conditional logic, native integrations with 30+ tools. For teams that want to automate reporting, approval workflows, or data transformations, Airtable's automation engine competes with lightweight Zapier usage.
+**Airtable automations** are significantly more powerful: multi-step workflows, script actions (JavaScript), complex conditional logic, native integrations with 30+ tools. For teams that want to automate reporting, approval workflows, or data transformations, Airtable's automation engine competes with lightweight [Zapier](/tools/zapier/) usage.
 
 **Winner for automations**: Airtable
 
@@ -97,7 +97,7 @@ Both have built-in automation builders.
 - **Knowledge management**: Company wikis, onboarding docs, team handbooks
 - **Simple PM for small teams**: Startups and small teams that need lightweight tracking
 - **Mixed docs + tasks**: When documentation and task management need to live together
-- **AI integration**: Notion AI is built in and trained on your workspace
+- **AI integration**: [Notion AI](/tools/notion-ai/) is built in and trained on your workspace
 
 ### Airtable Is Better For:
 
@@ -111,7 +111,7 @@ Both have built-in automation builders.
 
 **Marketing team tracking campaigns**: Both work, but Notion's simplicity wins for smaller teams. Airtable wins for agencies tracking dozens of simultaneous campaigns with complex status workflows.
 
-**Software development team**: Neither is ideal compared to Linear or Jira. If forced to choose, Notion's docs + basic tasks work for small teams; Airtable for larger tracking needs.
+**Software development team**: Neither is ideal compared to [Linear](/tools/linear/) or Jira. If forced to choose, Notion's docs + basic tasks work for small teams; Airtable for larger tracking needs.
 
 **Operations team managing vendors, contracts, inventory**: Airtable wins decisively. This is exactly what it was built for.
 

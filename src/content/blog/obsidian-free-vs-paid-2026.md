@@ -37,7 +37,7 @@ Sync solves the multi-device problem:
 
 **Do you need it?** Only if you use Obsidian on multiple devices. If you're laptop-only, free Obsidian is perfect.
 
-**Free alternatives:** iCloud Drive, Google Drive, or Syncthing can sync your vault folder for free. It works, but lacks end-to-end encryption and version history.
+**Free alternatives:** iCloud Drive, [Google Drive](/tools/google-drive/), or Syncthing can sync your vault folder for free. It works, but lacks end-to-end encryption and version history.
 
 ## Obsidian Publish ($8/month)
 
@@ -69,7 +69,7 @@ Most Obsidian users. The free version is genuinely complete:
 
 ## The Verdict
 
-Obsidian's free tier is arguably the most generous in the note-taking space. Unlike Evernote or Notion, there are no artificial limitations — you get the full app. Sync and Publish are genuine add-ons, not paywalled essentials.
+Obsidian's free tier is arguably the most generous in the [note-taking](/category/note-taking/) space. Unlike Evernote or Notion, there are no artificial limitations — you get the full app. Sync and Publish are genuine add-ons, not paywalled essentials.
 
 Compare note-taking options: [Obsidian vs Notion](/compare/notion-vs-obsidian/) or see [best Obsidian alternatives](/alternatives/obsidian/).
 

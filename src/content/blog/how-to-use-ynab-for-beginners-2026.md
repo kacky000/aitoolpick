@@ -85,7 +85,7 @@ Say you just received a $3,000 paycheck:
 
 The goal is to reach $0 in your "Ready to Assign" total. Every dollar has a job.
 
-**YNAB tip for beginners:** Don't try to create the perfect budget on day one. Make your best guess at amounts. Reality will correct you within the first few weeks.
+**YNAB tip for beginners:** Don't try to create the perfect budget on day one. [Make](/tools/make/) your best guess at amounts. Reality will correct you within the first few weeks.
 
 ## Step 4: Understanding Credit Cards in YNAB
 
@@ -134,7 +134,7 @@ YNAB works best when you use it regularly — ideally every day or at minimum a 
 
 **Daily (2 minutes):** Enter any purchases from the previous day before you forget. If you have bank sync enabled, just approve or categorize the imported transactions.
 
-**Weekly (10 minutes):** Review all categories. Are any getting close to zero? Do you need to move money? Look at what the next week will bring (upcoming bills, planned trips, etc.).
+**Weekly (10 minutes):** Review all categories. Are any getting [close](/tools/close/) to zero? Do you need to move money? Look at what the next week will bring (upcoming bills, planned trips, etc.).
 
 **Monthly (20 minutes):** Reflect on how you did. Which categories did you consistently overspend? Which do you never use? Adjust amounts for next month.
 

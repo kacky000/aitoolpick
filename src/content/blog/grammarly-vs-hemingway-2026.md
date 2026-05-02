@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Grammarly** and **Hemingway** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-Grammarly and Hemingway Editor both promise to make your writing better, but they attack the problem from opposite directions. Grammarly hunts down grammar mistakes. Hemingway strips away complexity. Choosing between them depends on what "better writing" means to you.
+Grammarly and Hemingway Editor both promise to [make](/tools/make/) your writing better, but they attack the problem from opposite directions. Grammarly hunts down grammar mistakes. Hemingway strips away complexity. Choosing between them depends on what "better writing" means to you.
 
 ## Quick Verdict
 
@@ -73,7 +73,7 @@ It covers some of the same ground as Hemingway, but the feedback is less visual 
 GrammarlyGO is Grammarly's generative AI layer. It can:
 
 - Rewrite selected text in a different tone
-- Compose replies in Gmail and Slack
+- Compose replies in Gmail and [Slack](/tools/slack/)
 - Generate drafts from brief prompts
 - Adjust formality, length, and clarity
 

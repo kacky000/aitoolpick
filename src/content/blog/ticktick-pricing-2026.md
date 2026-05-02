@@ -77,9 +77,9 @@ At $35.99/year ($2.99/month billed annually or $5.99 billed monthly), Premium un
 | Tool | Annual Price | Calendar View | Habit Tracker | Pomodoro |
 |------|-------------|---------------|---------------|---------|
 | TickTick Premium | $35.99 | ✅ | ✅ | ✅ |
-| Todoist Pro | $48/year | ❌ | ❌ | ❌ |
+| [Todoist](/tools/todoist/) Pro | $48/year | ❌ | ❌ | ❌ |
 | Things 3 (one-time) | $49.99 | ✅ | ❌ | ❌ |
-| Notion Personal | $192/year | ❌ (separate) | ❌ | ❌ |
+| [Notion](/tools/notion/) Personal | $192/year | ❌ (separate) | ❌ | ❌ |
 
 At $35.99/year, TickTick is the cheapest of these options — and it includes more built-in productivity features than any of them. Todoist costs 33% more for fewer features. Things 3 is macOS only. Notion is 5x more expensive and doesn't replace a dedicated task manager.
 

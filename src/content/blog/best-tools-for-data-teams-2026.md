@@ -142,6 +142,6 @@ The best tool for your data team depends on your biggest pain point:
 - **SQL/analysis help** → Use [Claude](/tools/claude)
 - **Communication gaps** → Optimize [Slack](/tools/slack) workflows
 
-Most data teams benefit from combining 2-3 tools rather than trying to make one tool do everything. Start with documentation (Notion) and communication (Slack), then add project management as the team grows.
+Most data teams benefit from combining 2-3 tools rather than trying to [make](/tools/make/) one tool do everything. Start with documentation (Notion) and communication (Slack), then add project management as the team grows.
 
 Explore more → [Best Project Management Tools](/blog/best-project-management-tools-2026) | [Linear Review](/blog/linear-review-2026) | [Notion for Beginners](/blog/notion-for-beginners-guide-2026)

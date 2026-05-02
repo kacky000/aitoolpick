@@ -48,7 +48,7 @@ The free plan gives you basic checkboxes. Standard adds due dates and assignees 
 
 ### Unlimited Power-Ups
 
-Trello's Power-Up library includes integrations with Slack, Google Drive, GitHub, Jira, Salesforce, and dozens more. The free plan restricts you to one Power-Up per board. Standard removes that cap, which is important if your team relies on multiple integrations.
+Trello's Power-Up library includes integrations with Slack, [Google Drive](/tools/google-drive/), GitHub, Jira, Salesforce, and dozens more. The free plan restricts you to one Power-Up per board. Standard removes that cap, which is important if your team relies on multiple integrations.
 
 At $5/user/month, Standard is one of the cheapest paid project management tiers on the market. For a 5-person team, it's $25/month — less than most SaaS tools.
 
@@ -116,7 +116,7 @@ Premium makes sense if:
 - Project managers need timeline or Gantt views
 - You want calendar or dashboard visibility across boards
 - You're running a team of 10+ with multiple concurrent projects
-- You're replacing dedicated project management software like Asana or ClickUp
+- You're replacing dedicated project management software like Asana or [ClickUp](/tools/clickup/)
 
 ## Verdict
 

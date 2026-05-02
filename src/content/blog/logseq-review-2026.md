@@ -7,13 +7,13 @@ heroImage: "/thumbs/logseq-review-2026.jpg"
 lastModified: "2026-04-28"
 ---
 
-**Logseq** is a free, open-source knowledge management and note-taking app that stores all your notes as local plain-text files. In 2026, it remains one of the most popular alternatives to Obsidian and Notion for users who care about privacy, data ownership, and powerful outliner-style thinking.
+**Logseq** is a free, open-source knowledge management and note-taking app that stores all your notes as local plain-text files. In 2026, it remains one of the most popular alternatives to [Obsidian](/tools/obsidian/) and Notion for users who care about privacy, data ownership, and powerful outliner-style thinking.
 
 This review covers everything you need to know before committing to Logseq.
 
 ## What Is Logseq?
 
-Logseq is a **block-based outliner** with bidirectional linking. Every bullet point is a "block" that can be referenced, queried, and embedded anywhere in your notes. This structure encourages a bottom-up, non-hierarchical approach to knowledge — unlike traditional folder-based apps like Evernote.
+Logseq is a **block-based outliner** with bidirectional linking. Every bullet point is a "block" that can be referenced, queried, and embedded anywhere in your notes. This structure encourages a bottom-up, non-hierarchical approach to knowledge — unlike traditional folder-based apps like [Evernote](/tools/evernote/).
 
 Key principles behind Logseq:
 - **Local-first**: Your notes live on your device as Markdown or Org-Mode files
@@ -28,9 +28,9 @@ Key principles behind Logseq:
 | Desktop/Mobile | Free forever |
 | Logseq Sync | $5/month (end-to-end encrypted cloud sync) |
 
-The core application is free with no feature limits. The only paid option is Logseq Sync, which provides end-to-end encrypted sync across devices for $5/month. You can also self-host sync using iCloud, Dropbox, or similar services for free.
+The core application is free with no feature limits. The only paid option is Logseq Sync, which provides end-to-end encrypted sync across devices for $5/month. You can also self-host sync using iCloud, [Dropbox](/tools/dropbox/), or similar services for free.
 
-This pricing model makes Logseq one of the most affordable serious note-taking tools available. Compare to Obsidian ($4/month for Sync) or Notion (free to $10/month per user) — Logseq holds its own.
+This pricing model makes Logseq one of the most affordable serious note-taking tools available. Compare to Obsidian ($4/month for Sync) or [Notion](/tools/notion/) (free to $10/month per user) — Logseq holds its own.
 
 ## Key Features
 
@@ -48,7 +48,7 @@ The **graph view** visualizes all these connections as an interactive network ma
 
 ### Daily Journals
 
-Logseq defaults to an **always-on daily journal**. Every day you open the app, a new date-stamped journal entry is waiting. This makes it effortless to capture tasks, notes, and ideas without worrying about where to file them — you can reference and organize them later.
+Logseq defaults to an **always-on daily journal**. Every day you open the app, a new date-stamped journal entry is waiting. This makes it effortless to capture tasks, notes, and ideas without worrying about where to file them — you can reference and organize them [later](/tools/later/).
 
 This journaling approach is beloved by users who practice daily note-taking or the Zettelkasten method.
 

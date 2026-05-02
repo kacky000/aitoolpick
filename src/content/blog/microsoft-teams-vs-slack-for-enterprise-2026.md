@@ -101,7 +101,7 @@ Teams integrates deeply with the Microsoft ecosystem:
 - **SharePoint**: File storage and collaboration
 - **Power Platform**: Power Automate workflows, Power BI dashboards, Power Apps
 - **Azure DevOps**: Development pipeline integration
-- **Third-party**: 1,000+ apps in the Teams App Store (Salesforce, ServiceNow, Workday, etc.)
+- **Third-party**: 1,000+ apps in the Teams App Store ([Salesforce](/tools/salesforce/), ServiceNow, Workday, etc.)
 
 The strength is depth within the Microsoft stack. The weakness is that non-Microsoft integrations often feel bolted-on rather than native.
 
@@ -111,14 +111,14 @@ Slack's integration philosophy is breadth and developer-friendliness:
 - **2,600+ integrations**: The largest app directory in the communication space
 - **Developer tools**: Bolt SDK, Block Kit, slash commands, webhooks — building custom integrations is straightforward
 - **Workflow Builder**: No-code automations triggered by messages, forms, or schedules
-- **Key enterprise integrations**: Salesforce (owned by same parent company), Jira, GitHub, PagerDuty, Datadog
+- **Key enterprise integrations**: Salesforce (owned by same parent company), Jira, GitHub, PagerDuty, [Datadog](/tools/datadog/)
 - **Slack Connect**: Communicate with external organizations in shared channels
 
-Slack's integrations feel more native and responsive. If your stack is AWS + GitHub + Jira + Datadog + Salesforce, Slack connects everything more seamlessly than Teams.
+Slack's integrations feel more native and responsive. If your stack is AWS + [GitHub](/tools/github/) + Jira + Datadog + Salesforce, Slack connects everything more seamlessly than Teams.
 
 ## Meetings and Video Conferencing
 
-**Teams** has evolved into a full-fledged video conferencing platform:
+**Teams** has evolved into a full-fledged [video conferencing](/category/video-conferencing/) platform:
 - Up to 1,000 participants (10,000 for webinars/town halls)
 - Together Mode, breakout rooms, live captions and translation
 - Meeting recording with auto-transcription
@@ -131,7 +131,7 @@ Slack's integrations feel more native and responsive. If your stack is AWS + Git
 - Designed for quick, informal conversations
 - Not a replacement for formal meetings
 
-If your enterprise needs a single platform for both messaging and large meetings, Teams eliminates the need for a separate Zoom or Webex license. Slack assumes you'll use a dedicated video platform.
+If your enterprise needs a single platform for both messaging and large meetings, Teams eliminates the need for a separate [Zoom](/tools/zoom/) or Webex license. Slack assumes you'll use a dedicated video platform.
 
 ## User Experience
 
@@ -172,7 +172,7 @@ The common complaint about Teams: it tries to do too much, leading to a cluttere
 | Needs large-scale video conferencing | Teams |
 | Values integration ecosystem breadth | Slack |
 | Wants to minimize vendor count | Teams |
-| Uses Salesforce as primary CRM | Slack |
+| Uses Salesforce as primary [CRM](/category/crm/) | Slack |
 | Has 10,000+ employees | Teams (cost advantage) |
 
 ## Bottom Line

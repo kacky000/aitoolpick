@@ -86,10 +86,10 @@ You don't need to spend hundreds. Here's a complete business stack under $50/mon
 | Canva | Free | $0 |
 | Todoist | Pro | $4 |
 | Zapier | Free | $0 |
-| Grammarly | Free | $0 |
+| [Grammarly](/tools/grammarly/) | Free | $0 |
 | **Total** | | **$24/mo** |
 
-Add ChatGPT Plus ($20/mo) if you need image generation, bringing the total to $44/month.
+Add [ChatGPT](/tools/chatgpt/) Plus ($20/mo) if you need image generation, bringing the total to $44/month.
 
 ## The $0/Month Starter Stack
 

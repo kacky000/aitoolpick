@@ -132,9 +132,9 @@ For active study sessions:
 
 ## Notion vs. Other Student Tools
 
-**Notion vs. Obsidian**: Obsidian is better for deep note-linking and works offline. Notion wins for the database/task integration and collaboration.
+**Notion vs. [Obsidian](/tools/obsidian/)**: Obsidian is better for deep note-linking and works offline. Notion wins for the database/task integration and collaboration.
 
-**Notion vs. Evernote**: Notion's databases and free plan are significantly better for students in 2026. Evernote's free plan is very limited (50 notes).
+**Notion vs. [Evernote](/tools/evernote/)**: Notion's databases and free plan are significantly better for students in 2026. Evernote's free plan is very limited (50 notes).
 
 **Notion vs. Google Docs**: Google Docs is better for collaborative writing (real-time co-editing). Notion is better for organization. Most students use both: Google Docs for writing assignments that need peer review, Notion for everything else.
 

@@ -15,7 +15,7 @@ For a deeper dive into what Google Meet itself offers, check our [Google Meet re
 Google Meet works well for quick calls and integrates seamlessly with Gmail and Google Calendar. But it has real limitations:
 
 - **Free plan caps at 60 minutes** — fine for a standup, frustrating for a workshop
-- **Limited breakout room controls** — basic compared to Zoom or Webex
+- **Limited breakout room controls** — basic compared to [Zoom](/tools/zoom/) or Webex
 - **No persistent chat or channels** — the meeting ends and context disappears
 - **Ecosystem lock-in** — if you don't use Google Workspace, Meet adds friction instead of reducing it
 - **Recording only on paid plans** — free users cannot record meetings at all
@@ -65,7 +65,7 @@ Teams is not just a video calling app. It combines persistent chat, file sharing
 Slack Huddles are the opposite of a scheduled meeting. Click a button in any Slack channel and start talking. No calendar invite, no meeting link, no waiting room. It is the digital equivalent of tapping someone on the shoulder.
 
 **Why pick Slack Huddles over Google Meet:**
-- **Zero scheduling friction** — start a huddle from any channel or DM instantly
+- **Zero scheduling friction** — start a huddle from any channel or DM [instantly](/tools/instantly/)
 - **Screen sharing with drawing** — annotate shared screens in real time
 - **Threaded context** — the huddle happens inside a Slack channel where all your project context already lives
 - **Multi-person huddles** — up to 50 participants on paid plans
@@ -165,7 +165,7 @@ Whereby lets you create permanent meeting rooms with custom URLs. Send someone `
 - **Enterprise compliance required?** Webex has the certifications
 - **Budget is zero?** Discord gives unlimited free calls
 - **Hate formal meetings?** Around makes video calls feel lightweight
-- **Meeting external clients?** Whereby's branded rooms make a good impression
+- **Meeting external clients?** Whereby's branded rooms [make](/tools/make/) a good impression
 
 ## The Bottom Line
 

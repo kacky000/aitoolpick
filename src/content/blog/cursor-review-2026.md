@@ -9,7 +9,7 @@ Cursor is a VS Code fork that embeds AI directly into the editing experience —
 
 ## What Is Cursor?
 
-Cursor is a standalone code editor built on top of VS Code. It supports all VS Code extensions and keybindings, so the switch is nearly seamless. The difference is AI: Cursor bakes in autocomplete, chat, inline editing, and an autonomous Agent that can make changes across multiple files.
+Cursor is a standalone code editor built on top of VS Code. It supports all VS Code extensions and keybindings, so the switch is nearly seamless. The difference is AI: Cursor bakes in autocomplete, chat, inline editing, and an autonomous Agent that can [make](/tools/make/) changes across multiple files.
 
 ## Key Features
 
@@ -40,7 +40,7 @@ Cursor can edit multiple files in a single operation. When you ask the Agent to 
 - **Context awareness**: Cursor indexes your entire project and pulls relevant code into AI prompts automatically
 - **Speed**: Tab completions are fast enough to not break your flow
 - **VS Code compatibility**: Extensions, themes, keybindings all transfer
-- **Model flexibility**: Switch between Claude, GPT-4o, and other models depending on the task
+- **Model flexibility**: Switch between [Claude](/tools/claude/), GPT-4o, and other models depending on the task
 
 ## What Needs Improvement
 
@@ -62,13 +62,13 @@ Cursor offers plans from free (Hobby) to $200/month (Ultra). The Pro plan at $20
 - You're comfortable with a credit-based system
 
 **Stay with your current setup if:**
-- Simple autocomplete is all you need (GitHub Copilot at $10/month is cheaper)
+- Simple autocomplete is all you need ([GitHub Copilot](/tools/github-copilot/) at $10/month is cheaper)
 - You're locked into JetBrains and don't want to change editors
 - Your company restricts which tools can access your codebase
 
 ## Cursor vs the Competition
 
-| Feature | Cursor | GitHub Copilot | Windsurf |
+| Feature | Cursor | GitHub Copilot | [Windsurf](/tools/windsurf/) |
 |---------|--------|---------------|----------|
 | Agent mode | Yes | Yes (via Copilot Workspace) | Yes (Cascade) |
 | Multi-file editing | Yes | Limited | Yes |
@@ -80,8 +80,8 @@ For deeper comparisons, see [Cursor vs GitHub Copilot](/blog/cursor-vs-github-co
 
 ## The Verdict
 
-Cursor is the best AI code editor for developers who want Agent-level capabilities baked into their editor. The Tab completions alone justify the switch from vanilla VS Code. The Agent mode is powerful but inconsistent on complex tasks — treat it as a very capable junior developer, not an autonomous engineer.
+Cursor is the best AI code editor for [developers](/best-for/developers/) who want Agent-level capabilities baked into their editor. The Tab completions alone justify the switch from vanilla VS Code. The Agent mode is powerful but inconsistent on complex tasks — treat it as a very capable junior developer, not an autonomous engineer.
 
-**Rating: 4.5/5** — The AI coding tool to beat in 2026, with room to grow on Agent reliability and credit economics.
+**Rating: 4.5/5** — The [AI coding](/category/ai-coding/) tool to beat in 2026, with room to grow on Agent reliability and credit economics.
 
 Compare Cursor with other AI coding tools in our [best AI code assistants roundup](/blog/best-ai-code-assistants-2026).

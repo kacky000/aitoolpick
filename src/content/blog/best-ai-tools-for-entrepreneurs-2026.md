@@ -14,13 +14,13 @@ As an entrepreneur, your time is your most valuable asset. The right AI tools ca
 
 | Tool | Best For | Free Plan | Starting Price |
 |------|----------|-----------|---------------|
-| ChatGPT | Writing, strategy, brainstorming | ✅ | $20/mo |
-| Claude | Long documents, analysis | ✅ | $20/mo |
-| Notion AI | Knowledge base + task management | ✅ | $10/mo |
+| [ChatGPT](/tools/chatgpt/) | Writing, strategy, brainstorming | ✅ | $20/mo |
+| [Claude](/tools/claude/) | Long documents, analysis | ✅ | $20/mo |
+| [Notion AI](/tools/notion-ai/) | Knowledge base + task management | ✅ | $10/mo |
 | Zapier | Automating repetitive workflows | ✅ | $19.99/mo |
-| Grammarly | Writing clarity and polish | ✅ | $12/mo |
+| [Grammarly](/tools/grammarly/) | Writing clarity and polish | ✅ | $12/mo |
 | Canva | Marketing and visual content | ✅ | $15/mo |
-| Perplexity AI | Research and competitive intel | ✅ | $20/mo |
+| [Perplexity AI](/tools/perplexity/) | Research and competitive intel | ✅ | $20/mo |
 
 ---
 

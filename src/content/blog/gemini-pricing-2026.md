@@ -77,7 +77,7 @@ This is Google's answer to [ChatGPT Plus ($20)](/blog/chatgpt-vs-gemini-2026/) a
 
 **AI credits** are consumed by compute-intensive operations: long document analysis, complex code generation, image creation, and multi-step reasoning. Basic conversations don't consume credits. Most users won't burn through 1,000 in a month unless they're doing heavy image generation daily.
 
-This is the sweet spot for most users. The Workspace integration is the real differentiator — AI natively inside Gmail, Docs, and Sheets eliminates the copy-paste workflow that plagues ChatGPT and Claude users in Google's ecosystem.
+This is the sweet spot for most users. The Workspace integration is the real differentiator — AI natively inside Gmail, Docs, and Sheets eliminates the copy-paste workflow that plagues [ChatGPT](/tools/chatgpt/) and Claude users in Google's ecosystem.
 
 ## Google AI Ultra — ~$42/mo ($124.99 per 3 months)
 
@@ -103,12 +103,12 @@ Both Workspace plans add Gemini AI directly into Gmail, Docs, Sheets, Slides, an
 
 ## How Gemini Pricing Compares
 
-| Feature | Gemini AI Pro | ChatGPT Plus | Claude Pro |
+| Feature | Gemini AI Pro | ChatGPT Plus | [Claude](/tools/claude/) Pro |
 |---------|-------------|-------------|-----------|
 | Price | $19.99/mo | $20/mo | $20/mo |
 | Top model | Gemini 3 | GPT-4o | Claude 3.5 Sonnet |
 | Context window | 1M tokens | 128K tokens | 200K tokens |
-| Image generation | Yes | Yes (DALL-E 3) | No |
+| Image generation | Yes | Yes ([DALL-E 3](/tools/dall-e/)) | No |
 | Web search | Yes (native) | Yes | Yes (limited) |
 | Voice mode | Yes (Gemini Live) | Yes (Advanced Voice) | No |
 | Workspace integration | Google native | Third-party plugins | No |

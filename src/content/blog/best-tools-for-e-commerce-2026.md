@@ -18,22 +18,22 @@ Here are the tools that have proven most valuable for e-commerce operators in 20
 |----------|----------|-------------|-------------|
 | Automation | Zapier | Make | Zapier (100 tasks/mo) |
 | Design | Canva | Figma | Canva Free |
-| Communication | Slack | Microsoft Teams | Both (limited) |
-| Project management | Notion | ClickUp | Both |
-| Writing/copy | ChatGPT | Claude | Both |
+| Communication | Slack | [Microsoft Teams](/tools/microsoft-teams/) | Both (limited) |
+| Project management | Notion | [ClickUp](/tools/clickup/) | Both |
+| Writing/copy | [ChatGPT](/tools/chatgpt/) | Claude | Both |
 | Analytics | Google Analytics 4 | — | Free |
 
 ---
 
 ## 1. Zapier — Automate Your Store Operations
 
-**Best for:** Connecting Shopify/WooCommerce to your other tools
+**Best for:** Connecting [Shopify](/tools/shopify/)/WooCommerce to your other tools
 
 Manual e-commerce operations don't scale. Zapier connects your store platform to everything else:
 
 - New order → update inventory spreadsheet + send Slack alert
 - New customer email signup → add to Klaviyo list + create CRM contact
-- Negative review posted → create Notion task for response
+- Negative review posted → create [Notion](/tools/notion/) task for response
 - New product added → post to social media channels
 
 The free plan handles 100 tasks/month. Most growing stores need the $19.99/month Professional plan. If cost is a concern, [Make](/blog/make-review-2026) offers similar power at a lower price — see [Zapier vs Make](/blog/make-vs-zapier-2026) for the full comparison.

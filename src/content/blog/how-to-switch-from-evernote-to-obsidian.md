@@ -47,7 +47,7 @@ If ENEX gives you trouble, export as HTML. Obsidian's importer handles both form
 2. Create a new vault — choose a folder on your computer
 3. Pick a location you control (e.g., Documents/ObsidianVault)
 
-**Pro tip:** If you want cloud sync, place your vault in iCloud Drive, Google Drive, or Dropbox. Obsidian Sync ($4/mo) is the official option but not required.
+**Pro tip:** If you want cloud sync, place your vault in iCloud Drive, [Google Drive](/tools/google-drive/), or Dropbox. Obsidian Sync ($4/mo) is the official option but not required.
 
 ## Step 3: Import with the Obsidian Importer Plugin
 
@@ -112,7 +112,7 @@ Obsidian's power comes from plugins. Here are the must-haves for Evernote conver
 The biggest adjustment isn't technical — it's mental. Evernote is a *filing cabinet* (put notes in folders). Obsidian is a *knowledge graph* (connect notes with links).
 
 ### Key mindset shifts:
-1. **Link first, folder later** — Use `[[double brackets]]` to connect related notes
+1. **Link first, folder [later](/tools/later/)** — Use `[[double brackets]]` to connect related notes
 2. **Daily notes** — Start each day with a daily note and link to projects/topics
 3. **Tags for status, links for relationships** — Use tags like `#todo` or `#review`, use links for "this note relates to that note"
 4. **Graph view** — Check your graph periodically to find unlinked notes and clusters

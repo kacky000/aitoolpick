@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **N8N** is a popular software tool used by individuals and teams for productivity and collaboration. In this review, we evaluate its features, pricing, pros, cons, and alternatives for 2026.
 
-n8n (pronounced "n-eight-n") is the automation platform that technical teams use when Zapier gets too expensive and Make feels too limited. It's open-source, self-hostable, and built for users who want real programming power inside their workflows — not just click-and-connect.
+n8n (pronounced "n-eight-n") is the automation platform that technical teams use when [Zapier](/tools/zapier/) gets too expensive and Make feels too limited. It's open-source, self-hostable, and built for users who want real programming power inside their workflows — not just click-and-connect.
 
 This review covers what n8n does well, where it falls short, and who should actually consider switching to it.
 
@@ -16,9 +16,9 @@ This review covers what n8n does well, where it falls short, and who should actu
 
 n8n is a workflow automation platform with a visual node-based editor. You connect triggers (webhook, schedule, app event) to actions (HTTP request, database query, API call) by dragging and connecting nodes on a canvas.
 
-What makes it different from Zapier or Make:
+What makes it different from Zapier or [Make](/tools/make/):
 
-1. **Self-hosting**: Run n8n on your own server for free, forever. Docker image, one-command install.
+1. **Self-hosting**: Run n8n on your own server for free, forever. [Docker](/tools/docker/) image, one-command install.
 2. **Code nodes**: Write JavaScript or Python inside any workflow step. No sandbox restrictions on self-hosted instances.
 3. **AI agent workflows**: Build multi-step AI agents with memory, tool use, and conditional logic — far beyond what Zapier's AI features allow.
 4. **No per-task pricing**: Self-hosted n8n runs unlimited executions. You pay for your server, not per automation run.
@@ -48,7 +48,7 @@ docker run -it --rm \
   n8nio/n8n
 ```
 
-That's it for local testing. For production: a VPS (Hetzner, DigitalOcean, Vultr), Docker, a reverse proxy (Nginx or Caddy), and a domain name. Total time: 30-60 minutes if you're comfortable with Linux.
+That's it for local testing. For production: a VPS ([Hetzner](/tools/hetzner/), DigitalOcean, Vultr), Docker, a reverse proxy (Nginx or Caddy), and a domain name. Total time: 30-60 minutes if you're comfortable with Linux.
 
 If that sentence made you nervous, n8n might not be the right fit. The self-hosted path requires basic server administration skills.
 
@@ -67,7 +67,7 @@ The 400+ official integrations cover the most-used tools. The custom options han
 This is where n8n genuinely stands out in 2026.
 
 n8n's AI agent nodes let you build workflows that:
-- Use LLMs (OpenAI, Anthropic Claude, Google Gemini, or local LLMs via Ollama)
+- Use LLMs (OpenAI, Anthropic Claude, [Google Gemini](/tools/gemini/), or local LLMs via Ollama)
 - Maintain memory across conversation turns
 - Call tools and sub-workflows as part of reasoning chains
 - Handle conditional logic based on AI output
@@ -101,7 +101,7 @@ Zapier's error handling is simpler — alerts in plain English, automatic retrie
 ## Who Should Use n8n
 
 **The right fit:**
-- Developers and technical teams who want automation without usage-based pricing
+- [Developers](/best-for/developers/) and technical teams who want automation without usage-based pricing
 - Teams running high-volume automations that would be expensive on Zapier
 - AI builders who want custom agent workflows with full code access
 - Privacy-conscious teams who need data to stay on their own infrastructure

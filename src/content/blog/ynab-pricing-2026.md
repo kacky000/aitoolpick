@@ -25,7 +25,7 @@ The annual plan at $99/year is the clear financial choice for anyone planning to
 
 ## What You Get for $99/Year
 
-YNAB is not a traditional expense tracker. It is built around a specific budgeting philosophy called zero-based budgeting: every dollar you earn gets assigned a job before you spend it. The software enforces this methodology through its interface, and the entire feature set supports that workflow.
+YNAB is not a traditional expense tracker. It is built [around](/tools/around/) a specific budgeting philosophy called zero-based budgeting: every dollar you earn gets assigned a job before you spend it. The software enforces this methodology through its interface, and the entire feature set supports that workflow.
 
 ### Core Budgeting Features
 
@@ -74,9 +74,9 @@ For a deeper look at how YNAB performs in practice, see our [YNAB review 2026](/
 
 YNAB works best for specific types of users. The $99/year price makes sense if you fall into these categories:
 
-**People living paycheck to paycheck.** YNAB's core methodology directly addresses the root cause of paycheck-to-paycheck living. Users who stick with YNAB for 3-6 months consistently report building a buffer. The software makes the problem visible and provides a systematic path out.
+**People living paycheck to paycheck.** YNAB's core methodology directly addresses the root cause of paycheck-to-paycheck living. Users who stick with YNAB for 3-6 months consistently report building a [buffer](/tools/buffer/). The software makes the problem visible and provides a systematic path out.
 
-**Users with variable or irregular income.** Freelancers, contractors, and commission-based earners have unpredictable monthly income. YNAB's zero-based approach handles income variability better than fixed-category budgets because you only allocate what you actually have.
+**Users with variable or irregular income.** [Freelancers](/best-for/freelancers/), contractors, and commission-based earners have unpredictable monthly income. YNAB's zero-based approach handles income variability better than fixed-category budgets because you only allocate what you actually have.
 
 **People with high-spending debt or specific savings goals.** If you are aggressively paying down credit card debt or saving for a major purchase, YNAB's goal tracking and true expense features provide useful structure and momentum tracking.
 
@@ -94,7 +94,7 @@ YNAB works best for specific types of users. The $99/year price makes sense if y
 
 The honest comparison is not YNAB vs. other paid apps — it is YNAB vs. doing nothing or using a free alternative.
 
-Free budgeting apps like Mint (discontinued in 2024), Copilot, and Monarch Money offer automatic transaction categorization and spending reports. They are genuinely useful for awareness, but they do not enforce a forward-looking budgeting methodology. You see what you spent; YNAB makes you plan what you will spend.
+Free budgeting apps like [Mint](/tools/mint/) (discontinued in 2024), Copilot, and Monarch Money offer automatic transaction categorization and spending reports. They are genuinely useful for awareness, but they do not enforce a forward-looking budgeting methodology. You see what you spent; YNAB makes you plan what you will spend.
 
 A free spreadsheet template covers zero-based budgeting mechanics but requires manual data entry and has no bank sync. For disciplined users, it works. For most people, the friction leads to abandonment within weeks.
 

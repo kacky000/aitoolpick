@@ -15,7 +15,7 @@ Coda's pricing is more complex than most tools in this category — and more exp
 | Plan | Price | Billed As | Right For |
 |------|-------|-----------|----------|
 | Free | $0/user | — | Solo use, evaluation |
-| Pro | $10/user/month | Annually | Power users and small teams |
+| Pro | $10/user/month | Annually | Power users and [small teams](/best-for/small-teams/) |
 | Team | $30/user/month | Annually | Teams needing Packs and AI |
 | Enterprise | Custom | Custom | Large org security/compliance |
 
@@ -53,7 +53,7 @@ The Pro plan removes the object cap and adds the features that make Coda worth u
 - Offline mode
 - Priority support
 
-At $10/user/month (billed annually), Pro is the entry point for serious Coda use. It's comparable to Notion Plus pricing, which makes it easier to justify over Notion if you need Coda's formula and automation capabilities.
+At $10/user/month (billed annually), Pro is the entry point for serious Coda use. It's comparable to [Notion](/tools/notion/) Plus pricing, which makes it easier to justify over Notion if you need Coda's formula and automation capabilities.
 
 **Who should be on Pro:** Solo power users, small teams building internal trackers, anyone who hit the free object limit.
 
@@ -62,18 +62,18 @@ At $10/user/month (billed annually), Pro is the entry point for serious Coda use
 This is where Coda gets expensive — and where it delivers the most unique value:
 
 **Added in Team:**
-- **Packs** — Live integrations with Gmail, Jira, GitHub, Figma, Salesforce, and 600+ others. Pull real data into your docs.
+- **Packs** — Live integrations with Gmail, Jira, GitHub, Figma, [Salesforce](/tools/salesforce/), and 600+ others. Pull real data into your docs.
 - **Coda AI** — Summarization, formula assistance, table generation from prompts
 - **Admin controls** — User management, permission controls
 - **Doc locking** — Prevent edits while reviewing
 - **Cross-workspace Packs** — Share Packs across multiple docs/teams
 
-The Pack integrations are the core reason to pay for Team. A Jira Pack that pulls in your open issues, a Gmail Pack that lets a button send an email from the doc — this functionality replaces Zapier workflows for many operational processes.
+The Pack integrations are the core reason to pay for Team. A Jira Pack that pulls in your open issues, a Gmail Pack that lets a button send an email from the doc — this functionality replaces [Zapier](/tools/zapier/) workflows for many operational processes.
 
 At $30/user/month, Team is expensive compared to alternatives:
 - Notion Business: $15/user/month
-- Airtable Business: $45/user/month
-- ClickUp Business: $12/user/month
+- [Airtable](/tools/airtable/) Business: $45/user/month
+- [ClickUp](/tools/clickup/) Business: $12/user/month
 
 Whether it's worth $30 depends entirely on whether you need the Packs. For teams replacing Zapier middleware with Coda-native integrations, the math can work out. For teams using Coda primarily for documents and tables, Pro at $10 is sufficient.
 

@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Asana** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
-Asana is one of the most popular project management tools, trusted by teams at Amazon, Google, and thousands of smaller companies. But with four pricing tiers and a wide feature gap between plans, choosing the right one can be confusing.
+Asana is one of the most popular [project management](/category/project-management/) tools, trusted by teams at Amazon, Google, and thousands of smaller companies. But with four pricing tiers and a wide feature gap between plans, choosing the right one can be confusing.
 
 In this guide, we break down every Asana plan, compare features side by side, and help you pick the best option based on your team size and needs.
 
@@ -28,7 +28,7 @@ All paid plans are billed per user per month. Asana occasionally offers discount
 
 ### Free (Personal) — $0
 
-Asana's free plan is genuinely usable, not just a trial. You get core task management features that work well for individuals and very small teams.
+Asana's free plan is genuinely usable, not just a trial. You get core [task management](/category/task-management/) features that work well for individuals and very small teams.
 
 **What's included:**
 - Unlimited tasks and projects
@@ -36,7 +36,7 @@ Asana's free plan is genuinely usable, not just a trial. You get core task manag
 - Assignees, due dates, and comments
 - Up to 10 team members
 - 100MB file storage per file
-- Basic integrations (Slack, Google Drive, etc.)
+- Basic integrations (Slack, [Google Drive](/tools/google-drive/), etc.)
 - Mobile app access
 
 **What's missing:**
@@ -101,7 +101,7 @@ The Advanced plan is designed for teams that need portfolio management, advanced
 
 ### Enterprise & Enterprise+ — Custom Pricing
 
-Enterprise plans add security, compliance, and admin features for large organizations. Pricing is custom and typically starts around $30-35/user/month based on team size.
+Enterprise plans add security, compliance, and admin features for large organizations. Pricing is custom and typically starts [around](/tools/around/) $30-35/user/month based on team size.
 
 **Additional features:**
 - **Enterprise:** SCIM provisioning, custom branding, data export, priority support, audit log API
@@ -134,9 +134,9 @@ How does Asana's pricing compare to the biggest alternatives?
 | Tool | Free Plan | Entry Paid | Mid Tier | Notes |
 |------|-----------|-----------|----------|-------|
 | **Asana** | 10 users | $10.99/user/mo | $24.99/user/mo | Strong free plan |
-| **ClickUp** | Unlimited | $7/user/mo | $12/user/mo | Cheaper but more complex |
-| **Monday.com** | 2 users | $9/seat/mo | $16/seat/mo | Min 3 seats on paid |
-| **Notion** | 1 user | $10/user/mo | $18/user/mo | More flexible, less structured |
+| **[ClickUp](/tools/clickup/)** | Unlimited | $7/user/mo | $12/user/mo | Cheaper but more complex |
+| **[Monday.com](/tools/monday/)** | 2 users | $9/seat/mo | $16/seat/mo | Min 3 seats on paid |
+| **[Notion](/tools/notion/)** | 1 user | $10/user/mo | $18/user/mo | More flexible, less structured |
 
 **Key takeaway:** Asana is priced in the middle of the pack. ClickUp is cheaper but has a steeper learning curve. Monday.com is similarly priced but requires minimum 3 seats. For a head-to-head breakdown, see our [ClickUp vs Asana comparison](/blog/clickup-vs-asana-2026/).
 

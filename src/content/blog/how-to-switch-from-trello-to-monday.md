@@ -6,7 +6,7 @@ tags: ["trello", "monday", "migration", "project-management", "how-to"]
 heroImage: "/thumbs/how-to-switch-from-trello-to-monday.jpg"
 lastModified: "2026-04-26"
 ---
-Trello is a great starting point for project management, but teams often outgrow it. No Gantt chart, limited automations, and weak reporting make it feel cramped as projects grow in complexity. Monday.com fills most of these gaps.
+Trello is a great starting point for [project management](/category/project-management/), but teams often outgrow it. No Gantt chart, limited automations, and weak reporting make it feel cramped as projects grow in complexity. Monday.com fills most of these gaps.
 
 Switching tools is never zero-effort, but this guide makes it as smooth as possible.
 
@@ -18,7 +18,7 @@ Trello's simplicity is its strength — if you're happy with basic Kanban and do
 - Timeline/Gantt views for deadline planning
 - Dashboard reporting across multiple projects
 - Built-in automations (if X happens, do Y)
-- CRM features alongside project management
+- [CRM](/category/crm/) features alongside project management
 - Better views for executive stakeholders
 
 **Stick with Trello if:**
@@ -150,7 +150,7 @@ After the migration, most teams report:
 
 - **Visibility** — executives can see project health without asking for updates
 - **Time savings** — automations eliminate 3–5 manual status updates per week
-- **Planning** — timeline views make deadline conflicts obvious before they happen
+- **Planning** — timeline views [make](/tools/make/) deadline conflicts obvious before they happen
 
 The transition takes 2–3 weeks of adjustment, but teams that complete it rarely go back.
 

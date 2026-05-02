@@ -58,7 +58,7 @@ For teams, the cost difference narrows — Notion's free plan is workable for sm
 | Offline Access | ✅ 100% | Partial (cached pages) |
 | Mobile App | ✅ (less polished) | ✅ Polished |
 | Web Clipper | ❌ | ✅ |
-| AI Assistant | Limited plugin | ✅ Notion AI |
+| AI Assistant | Limited plugin | ✅ [Notion AI](/tools/notion-ai/) |
 | Open Source | ✅ | ❌ |
 
 ## Where Logseq Wins

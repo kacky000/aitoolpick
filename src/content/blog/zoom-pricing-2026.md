@@ -54,7 +54,7 @@ In 2024, Zoom made AI Companion free for all paid accounts. This includes:
 - Whiteboard AI
 - Chat compose and thread summarization
 
-This is significant — competitors like Microsoft Teams charge extra for Copilot ($30/user/month), while Zoom includes equivalent features in Pro ($13.32).
+This is significant — competitors like [Microsoft Teams](/tools/microsoft-teams/) charge extra for Copilot ($30/user/month), while Zoom includes equivalent features in Pro ($13.32).
 
 ## Add-On Products
 

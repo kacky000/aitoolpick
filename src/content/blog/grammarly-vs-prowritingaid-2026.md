@@ -46,7 +46,7 @@ ProWritingAid's main strength is its 25+ writing reports. These analyze:
 
 Grammarly offers style suggestions in its Premium plan but focuses on clarity, conciseness, and tone. It doesn't provide the same depth of analytical reports.
 
-For writers actively trying to improve their craft, ProWritingAid's reports are genuinely educational. Grammarly helps you write correctly; ProWritingAid helps you write better.
+For writers actively trying to improve their [craft](/tools/craft/), ProWritingAid's reports are genuinely educational. Grammarly helps you write correctly; ProWritingAid helps you write better.
 
 ## Integrations
 
@@ -55,7 +55,7 @@ Grammarly integrates with essentially everything:
 - Google Docs
 - Microsoft Word
 - Chrome, Firefox, Edge, Safari (browser extension)
-- Slack, Notion, LinkedIn
+- Slack, [Notion](/tools/notion/), LinkedIn
 - Desktop app for macOS and Windows
 
 ProWritingAid integrates well but with a narrower range:
@@ -64,7 +64,7 @@ ProWritingAid integrates well but with a narrower range:
 - Scrivener (popular with fiction writers)
 - Chrome and Firefox extensions
 
-If you need AI writing assistance everywhere — including Slack messages, browser forms, and social media — Grammarly is more comprehensive. ProWritingAid is better when your writing happens in a dedicated tool like Word or Scrivener.
+If you need AI writing assistance everywhere — including [Slack](/tools/slack/) messages, browser forms, and social media — Grammarly is more comprehensive. ProWritingAid is better when your writing happens in a dedicated tool like Word or Scrivener.
 
 ## AI Writing Features
 

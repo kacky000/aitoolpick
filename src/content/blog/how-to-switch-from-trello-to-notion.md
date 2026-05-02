@@ -10,18 +10,18 @@ Switching from Trello to Notion is one of the most common tool migrations in 202
 
 ## Why People Switch from Trello to Notion
 
-Before diving into the how, here's why teams make the move:
+Before diving into the how, here's why teams [make](/tools/make/) the move:
 
 - **All-in-one workspace** — Notion replaces Trello, Google Docs, and wikis
 - **Database power** — views, filters, rollups, and relations go far beyond Trello cards
 - **Better documentation** — rich pages with nested content vs. Trello's limited card descriptions
-- **Cost** — Notion's free plan is more generous for small teams
+- **Cost** — Notion's free plan is more generous for [small teams](/best-for/small-teams/)
 - **Custom views** — switch between board, table, list, calendar, gallery, and timeline
 
 ## Before You Start: Preparation Checklist
 
 - [ ] **Audit your Trello boards** — which ones are active vs. archived?
-- [ ] **Identify your workflow** — are you using Trello for task management, CRM, content planning, or something else?
+- [ ] **Identify your workflow** — are you using Trello for [task management](/category/task-management/), CRM, content planning, or something else?
 - [ ] **Map your labels and tags** — list all Trello labels you want to preserve
 - [ ] **Export attachments** — download any critical files attached to cards
 - [ ] **Notify your team** — set a migration date and communicate the plan
@@ -115,7 +115,7 @@ For teams with fewer than 100 active cards, manual migration produces cleaner re
 Trello's Butler automations need to be recreated in Notion:
 
 - **Due date reminders** → Use Notion's built-in reminders (@mentions with dates)
-- **Card moving rules** → Use Notion's database automations or Zapier
+- **Card moving rules** → Use Notion's database automations or [Zapier](/tools/zapier/)
 - **Recurring tasks** → Use Notion's recurring templates or database templates
 
 ### Templates

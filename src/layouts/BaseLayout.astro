@@ -29,6 +29,11 @@ const jsonLd = JSON.stringify({
   <meta name="google-site-verification" content="C_ki-T4Q9TpMGoUx_c2Yn8pNNd_ZxePU7YbJlUyeS90" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="canonical" href={canonicalURL} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
 
   <title>{title}</title>
   <meta name="description" content={description} />
@@ -65,6 +70,7 @@ const jsonLd = JSON.stringify({
   <!-- Styles -->
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
   <nav class="nav">
     <div class="nav-inner">
       <a href="/" class="nav-logo">AI<span>ToolPick</span></a>
@@ -73,6 +79,7 @@ const jsonLd = JSON.stringify({
         <li><a href="/">Home</a></li>
         <li><a href="/compare/">Compare</a></li>
         <li><a href="/rankings/">Rankings</a></li>
+        <li><a href="/best-for/">Best For</a></li>
         <li><a href="/free/">Free Tools</a></li>
         <li><a href="/quiz/">Find My Tool</a></li>
         <li><a href="/blog/">Blog</a></li>
@@ -84,7 +91,7 @@ const jsonLd = JSON.stringify({
     </div>
   </nav>
 
-  <main>
+  <main id="main-content">
     <slot />
   </main>
 
@@ -106,22 +113,41 @@ const jsonLd = JSON.stringify({
           <li><a href="/compare/notion-vs-clickup/">Notion vs ClickUp</a></li>
           <li><a href="/compare/chatgpt-vs-claude/">ChatGPT vs Claude</a></li>
           <li><a href="/compare/canva-vs-figma/">Canva vs Figma</a></li>
+          <li><a href="/compare/cursor-vs-github-copilot/">Cursor vs Copilot</a></li>
           <li><a href="/compare/asana-vs-monday/">Asana vs Monday</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Alternatives</h4>
+        <h4>Best For</h4>
         <ul>
-          <li><a href="/alternatives/notion/">Notion Alternatives</a></li>
-          <li><a href="/alternatives/chatgpt/">ChatGPT Alternatives</a></li>
-          <li><a href="/alternatives/slack/">Slack Alternatives</a></li>
-          <li><a href="/alternatives/canva/">Canva Alternatives</a></li>
+          <li><a href="/best-for/freelancers/">Freelancers</a></li>
+          <li><a href="/best-for/startups/">Startups</a></li>
+          <li><a href="/best-for/developers/">Developers</a></li>
+          <li><a href="/best-for/designers/">Designers</a></li>
+          <li><a href="/best-for/marketers/">Marketers</a></li>
+          <li><a href="/best-for/students/">Students</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="/category/ai-chatbot/">AI Chatbots</a></li>
+          <li><a href="/category/ai-coding/">AI Coding</a></li>
+          <li><a href="/category/project-management/">Project Management</a></li>
+          <li><a href="/category/design/">Design</a></li>
+          <li><a href="/category/automation/">Automation</a></li>
+          <li><a href="/free/">Free Tools</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Resources</h4>
         <ul>
           <li><a href="/blog/">Blog</a></li>
+          <li><a href="/glossary/">Glossary</a></li>
+          <li><a href="/rankings/">Rankings</a></li>
+          <li><a href="/quiz/">Find My Tool</a></li>
+          <li><a href="/use-case/">Use Cases</a></li>
+          <li><a href="/submit/">Submit Tool</a></li>
           <li><a href="/about/">About</a></li>
         </ul>
       </div>

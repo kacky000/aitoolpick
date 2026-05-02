@@ -18,7 +18,7 @@ For a direct comparison, see our [Zapier vs Make pricing breakdown](/blog/make-v
 
 ### Visual Workflow Builder
 
-Zapier uses a linear, step-by-step editor. Make uses a **visual canvas** where modules connect visually, making it easier to understand complex workflows, debug issues, and build branching logic. For anyone who thinks visually, this is a significant quality-of-life improvement.
+Zapier uses a [linear](/tools/linear/), step-by-step editor. Make uses a **visual canvas** where modules connect visually, making it easier to understand complex workflows, debug issues, and build branching logic. For anyone who thinks visually, this is a significant quality-of-life improvement.
 
 ### Flexibility and Advanced Features
 

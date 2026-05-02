@@ -41,12 +41,12 @@ The Team plan is where Airtable becomes genuinely useful for work. The record li
 
 Key features at this tier include:
 
-- **Extensions (Integrations):** Connect Airtable to tools like Slack, Google Workspace, and Salesforce
+- **Extensions (Integrations):** Connect Airtable to tools like Slack, Google Workspace, and [Salesforce](/tools/salesforce/)
 - **Sync across bases:** Share tables between different bases, which is critical for cross-team collaboration
 - **Expanded attachment storage:** 20 GB per base
 - **Revision history:** 1 year of snapshot history for tracking changes
 
-The $20/seat/month price point is competitive but not cheap. For a team of 5, you are looking at $100/month or $1,200/year. Compare that to Notion's Team plan at $10/seat/month or Monday.com's Standard plan at $12/seat/month, and Airtable is clearly positioned as a premium option.
+The $20/seat/month price point is competitive but not cheap. For a team of 5, you are looking at $100/month or $1,200/year. Compare that to Notion's Team plan at $10/seat/month or [Monday.com](/tools/monday/)'s Standard plan at $12/seat/month, and Airtable is clearly positioned as a premium option.
 
 **Best for:** Small teams (3-10 people) that need a real database with automations, not just a project management tool.
 
@@ -92,8 +92,8 @@ It depends entirely on your use case.
 - You need multiple views of the same data (grid, kanban, calendar, Gantt)
 
 **Airtable is not worth it if:**
-- You primarily need project management (use Asana, Linear, or Monday.com instead)
-- You want a knowledge base or wiki (use Notion or Obsidian)
+- You primarily need project management (use Asana, [Linear](/tools/linear/), or Monday.com instead)
+- You want a knowledge base or wiki (use Notion or [Obsidian](/tools/obsidian/))
 - You are a solo user or very small team on a tight budget
 - Your data needs exceed 125,000 records per base (consider a real database)
 

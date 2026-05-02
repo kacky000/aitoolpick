@@ -7,7 +7,7 @@ heroImage: "/thumbs/trello-vs-clickup-2026.jpg"
 lastModified: "2026-04-28"
 ---
 
-**Trello** and **ClickUp** both handle project management, but at very different scales. Trello is a beloved Kanban tool known for its radical simplicity. ClickUp is an all-in-one productivity platform that tries to replace Trello, Asana, Notion, and Docs all at once.
+**Trello** and **ClickUp** both handle project management, but at very different scales. Trello is a beloved Kanban tool known for its radical simplicity. ClickUp is an all-in-one productivity platform that tries to replace Trello, Asana, [Notion](/tools/notion/), and Docs all at once.
 
 If you're choosing between them, here's everything you need to know.
 
@@ -63,13 +63,13 @@ Trello's flexibility is primarily delivered through **Power-Ups** — integratio
 
 ClickUp's flexibility is built-in. Custom fields, custom statuses, custom views, and automation rules are all available without add-ons. Every workspace can be configured differently to match how your team actually works.
 
-**Winner: ClickUp** for out-of-the-box flexibility without add-on costs.
+**Winner: ClickUp** for out-of-the-[box](/tools/box/) flexibility without add-on costs.
 
 ## Integrations
 
-Trello supports 200+ Power-Ups including Slack, Google Drive, GitHub, and Jira. As an Atlassian product, it connects well with Confluence and the Atlassian ecosystem.
+Trello supports 200+ Power-Ups including Slack, [Google Drive](/tools/google-drive/), GitHub, and Jira. As an Atlassian product, it connects well with Confluence and the Atlassian ecosystem.
 
-ClickUp integrates with 1,000+ tools including Slack, GitHub, Figma, HubSpot, Salesforce, and more. It also has a native email integration that lets you manage work directly from your inbox.
+ClickUp integrates with 1,000+ tools including Slack, GitHub, Figma, HubSpot, [Salesforce](/tools/salesforce/), and more. It also has a native email integration that lets you manage work directly from your inbox.
 
 **Winner: ClickUp** for breadth of integrations.
 

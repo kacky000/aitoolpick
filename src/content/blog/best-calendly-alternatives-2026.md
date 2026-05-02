@@ -34,7 +34,7 @@ Cal.com is an open-source scheduling platform that offers unlimited event types 
 
 **What Cal.com does better:** Open-source means self-hosting is an option for privacy-conscious organizations. The free tier is far more generous than Calendly's. The interface is clean and modern.
 
-**What it lacks:** The integrations aren't as polished as Calendly's. HubSpot and Salesforce connections exist but require more setup. The mobile experience isn't as refined.
+**What it lacks:** The integrations aren't as polished as Calendly's. HubSpot and [Salesforce](/tools/salesforce/) connections exist but require more setup. The mobile experience isn't as refined.
 
 **Verdict:** If you're on Calendly's free plan and frustrated by the one-event-type limit, Cal.com free is the obvious upgrade at zero cost.
 
@@ -60,7 +60,7 @@ TidyCal offers a lifetime deal for $29 (one-time payment) that covers unlimited 
 
 **Best for:** Health & wellness, beauty, coaching, and other appointment-based businesses
 
-Acuity Scheduling (now part of Squarespace) is built for service businesses that need more than meeting links — intake forms, packages, gift certificates, class scheduling, and recurring appointments.
+Acuity Scheduling (now part of [Squarespace](/tools/squarespace/)) is built for service businesses that need more than meeting links — intake forms, packages, gift certificates, class scheduling, and recurring appointments.
 
 | Plan | Price |
 |------|-------|
@@ -68,7 +68,7 @@ Acuity Scheduling (now part of Squarespace) is built for service businesses that
 | Growing | $27/month |
 | Powerhouse | $49/month |
 
-**What Acuity does better:** Service-specific features like packages (buy 5 sessions, use them over time), gift certificates, intake forms, and client-facing portal make it better for coaches, therapists, and personal trainers than Calendly.
+**What Acuity does better:** Service-specific features like packages (buy 5 sessions, use them over time), gift certificates, intake forms, and client-facing portal [make](/tools/make/) it better for coaches, therapists, and personal trainers than Calendly.
 
 **What it lacks:** Less polished for pure B2B scheduling workflows. Routing and round-robin features aren't as strong.
 
@@ -111,9 +111,9 @@ SavvyCal takes a different philosophical approach: instead of just showing your 
 
 ## 6. HubSpot Meetings — Best If You Already Use HubSpot
 
-**Best for:** Teams using HubSpot CRM
+**Best for:** Teams using HubSpot [CRM](/category/crm/)
 
-HubSpot Meetings is a scheduling tool built directly into the HubSpot CRM. When someone books a meeting through a HubSpot meeting link, the booking is automatically logged in their contact record — no Zapier required.
+[HubSpot](/tools/hubspot/) Meetings is a scheduling tool built directly into the HubSpot CRM. When someone books a meeting through a HubSpot meeting link, the booking is automatically logged in their contact record — no Zapier required.
 
 | Plan | Price |
 |------|-------|

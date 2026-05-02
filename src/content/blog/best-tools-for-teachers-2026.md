@@ -16,7 +16,7 @@ Teachers are time-poor and resource-stretched. The right set of tools can meanin
 
 **Best for: Individual teacher to-do lists and recurring task management**
 
-Todoist's clean interface and powerful recurring task system make it ideal for the repetitive nature of teaching: weekly lesson prep, monthly grading cycles, term-end reports. Natural language input lets you add tasks quickly ("Grade essays every Friday at 4pm"), and the project view keeps long-term work like curriculum planning separated from daily tasks.
+Todoist's clean interface and powerful recurring task system [make](/tools/make/) it ideal for the repetitive nature of teaching: weekly lesson prep, monthly grading cycles, term-end reports. Natural language input lets you add tasks quickly ("Grade essays every Friday at 4pm"), and the project view keeps long-term work like curriculum planning separated from daily tasks.
 
 The free plan covers most individual teacher needs. Paid plans add reminders and comment threads useful for project collaboration. See our [full Todoist review](/blog/todoist-review-2026) for details.
 

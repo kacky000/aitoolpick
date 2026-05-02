@@ -12,7 +12,7 @@ Grammarly's free plan is one of the most used writing tools in the world. But is
 
 ## Quick Answer
 
-**Free Grammarly** handles basic grammar, spelling, and punctuation well. It catches about 70% of the errors most people make.
+**Free Grammarly** handles basic grammar, spelling, and punctuation well. It catches about 70% of the errors most people [make](/tools/make/).
 
 **Grammarly Pro** ($12/mo annual) adds tone detection, full-sentence rewrites, plagiarism checking, and AI writing assistance. It's worth it if you write professionally.
 
@@ -73,7 +73,7 @@ Instead of just flagging problems, Pro suggests completely rewritten versions of
 Pro checks your text against 16 billion web pages to detect unintentional plagiarism. Essential for:
 
 - Students writing papers
-- Content creators
+- [Content creators](/best-for/content-creators/)
 - Journalists
 - Anyone publishing written work
 
@@ -116,7 +116,7 @@ The features are identical regardless of billing cycle. If you're going to upgra
 
 ## Grammarly vs AI Chatbots for Writing
 
-A common question in 2026: why pay for Grammarly when ChatGPT or Claude can edit your writing?
+A common question in 2026: why pay for Grammarly when [ChatGPT](/tools/chatgpt/) or Claude can edit your writing?
 
 **Grammarly's advantages**:
 - Works inline as you type (browser extension, desktop app)
@@ -124,7 +124,7 @@ A common question in 2026: why pay for Grammarly when ChatGPT or Claude can edit
 - Consistent suggestions without prompt engineering
 - Plagiarism detection
 
-**AI chatbot advantages**:
+**[AI chatbot](/category/ai-chatbot/) advantages**:
 - More flexible — can handle any writing task
 - Better at major rewrites and restructuring
 - Can generate content from scratch

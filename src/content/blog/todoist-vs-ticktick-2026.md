@@ -27,7 +27,7 @@ Todoist and TickTick are two of the most popular personal task managers, but the
 
 ### Todoist
 
-Todoist's task management is elegant and refined:
+Todoist's [task management](/category/task-management/) is elegant and refined:
 
 - **Natural language parsing** is best-in-class — type "meeting with Sarah tomorrow at 3pm #work p1" and everything gets parsed correctly
 - **Nested subtasks** up to 4 levels deep
@@ -79,7 +79,7 @@ Todoist's AI can suggest tasks, break down projects, reschedule overdue items, a
 A rich library of project templates for everything from moving houses to planning weddings.
 
 ### Superior Integrations
-Todoist integrates with 80+ apps natively, including deep integrations with Gmail, Google Calendar, Slack, and Zapier.
+Todoist integrates with 80+ apps natively, including deep integrations with Gmail, Google Calendar, Slack, and [Zapier](/tools/zapier/).
 
 ## Pricing Comparison
 

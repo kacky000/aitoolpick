@@ -16,8 +16,8 @@ The Personal plan supports **up to 2 users** and includes:
 
 - **Unlimited tasks and projects** — no cap on what you can create
 - **List, Board, and Calendar views** — the basics are all there
-- **Assignees and due dates** — standard task management
-- **100+ integrations** — Slack, Google Drive, Microsoft 365
+- **Assignees and due dates** — standard [task management](/category/task-management/)
+- **100+ integrations** — Slack, [Google Drive](/tools/google-drive/), Microsoft 365
 - **Mobile apps** — iOS and Android
 
 **What's missing:** Timeline (Gantt), Portfolios, Goals, custom fields, forms, milestones, approvals, and automations.
@@ -34,7 +34,7 @@ The Starter plan unlocks the features most teams actually need:
 - **Admin console** — team management tools
 - **Unlimited free guests** — collaborate with external partners
 
-This tier is where Asana starts to feel like a real project management tool rather than a to-do list.
+This tier is where Asana starts to feel like a real [project management](/category/project-management/) tool rather than a to-do list.
 
 ## Asana Advanced ($24.99/user/month)
 

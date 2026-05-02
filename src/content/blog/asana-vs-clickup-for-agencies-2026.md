@@ -12,7 +12,7 @@ Agencies juggle multiple clients, tight deadlines, and cross-functional teams. B
 
 ## Quick Verdict
 
-**Choose ClickUp** if you want maximum features at the lowest cost — especially built-in time tracking and docs. **Choose Asana** if you prioritize clean UX, client-friendly interfaces, and proven workflow templates.
+**Choose ClickUp** if you want maximum features at the lowest cost — especially built-in [time tracking](/category/time-tracking/) and docs. **Choose Asana** if you prioritize clean UX, client-friendly interfaces, and proven workflow templates.
 
 ## What Agencies Actually Need
 
@@ -37,7 +37,7 @@ Before comparing features, let's define what matters for agencies:
 
 ### Time Tracking
 
-**Asana**: No built-in time tracking. You'll need Harvest, Toggl, or Clockify integration.
+**Asana**: No built-in time tracking. You'll need Harvest, Toggl, or [Clockify](/tools/clockify/) integration.
 
 **ClickUp**: Built-in time tracking on all plans, including free. Track time per task, generate reports, set estimates. No extra tool needed.
 
@@ -90,7 +90,7 @@ Before comparing features, let's define what matters for agencies:
 ### Creative Agency
 **Better fit: Asana**
 - Cleaner proofing and approval workflows
-- Better Figma and Adobe integrations
+- Better [Figma](/tools/figma/) and Adobe integrations
 - Client presentations look more polished
 - Forms for creative briefs
 
@@ -117,9 +117,9 @@ Before comparing features, let's define what matters for agencies:
 
 ## Migration Considerations
 
-**Moving to Asana**: CSV import, integrations with Trello/Monday. Clean migration path. 1-2 weeks for a team of 10.
+**Moving to Asana**: CSV import, integrations with [Trello](/tools/trello/)/Monday. Clean migration path. 1-2 weeks for a team of 10.
 
-**Moving to ClickUp**: Import from Asana, Trello, Monday, Jira, and more. Import process can be rough — hierarchy differences cause confusion. Plan for 2-3 weeks.
+**Moving to ClickUp**: Import from Asana, Trello, Monday, [Jira](/tools/jira/), and more. Import process can be rough — hierarchy differences cause confusion. Plan for 2-3 weeks.
 
 ## Bottom Line
 

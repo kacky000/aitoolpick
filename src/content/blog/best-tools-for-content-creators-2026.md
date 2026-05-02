@@ -58,13 +58,13 @@ Claude (from Anthropic) excels at tasks that require deep reasoning and long con
 
 ### 4. Canva — Best for Non-Designers
 
-Canva is the undisputed king of accessible design. In 2026, it's packed with AI features — Magic Studio generates images, removes backgrounds, and resizes designs for every platform automatically. The template library is enormous, and the collaboration features make it practical for teams.
+Canva is the undisputed king of accessible design. In 2026, it's packed with AI features — Magic Studio generates images, removes backgrounds, and resizes designs for every platform automatically. The template library is enormous, and the collaboration features [make](/tools/make/) it practical for teams.
 
 **Best for**: Social media creators, course creators, bloggers who need quick graphics, small teams without a dedicated designer
 
 **Pricing**: Free (solid feature set) / $15/month for Canva Pro per person
 
-**Standout feature**: Magic Resize instantly adapts a single design to Instagram post, Story, YouTube thumbnail, and Pinterest pin — all in one click.
+**Standout feature**: Magic Resize [instantly](/tools/instantly/) adapts a single design to Instagram post, Story, YouTube thumbnail, and Pinterest pin — all in one click.
 
 > Check out our full [Canva review for 2026](/blog/canva-review-2026) for a complete breakdown of features.
 
@@ -106,7 +106,7 @@ Trello remains the easiest project management tool to pick up and start using in
 
 **Pricing**: Free (unlimited cards, 10 boards) / $5/month for Standard per user
 
-**Standout feature**: Power-Ups integrate with Google Drive, Slack, and calendar apps so your content workflow connects with tools you already use.
+**Standout feature**: Power-Ups integrate with [Google Drive](/tools/google-drive/), Slack, and calendar apps so your content workflow connects with tools you already use.
 
 ---
 
@@ -114,7 +114,7 @@ Trello remains the easiest project management tool to pick up and start using in
 
 ### 8. Zapier — Best for Connecting Your Entire Creator Stack
 
-Zapier sits in the background connecting all your other tools. When a new blog post is published, Zapier can automatically tweet it, add it to your Notion database, and send you a Slack notification — without you lifting a finger. In 2026, the AI features let you build more complex workflows with natural language.
+Zapier sits in the background connecting all your other tools. When a new blog post is published, Zapier can automatically tweet it, add it to your Notion database, and send you a [Slack](/tools/slack/) notification — without you lifting a finger. In 2026, the AI features let you build more complex workflows with natural language.
 
 **Best for**: Creators managing multiple platforms, anyone tired of repetitive manual tasks
 

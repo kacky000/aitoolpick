@@ -57,7 +57,7 @@ Understanding the terminology difference makes the transition much smoother:
 | Task | Execution | One complete workflow run |
 | Zapier Tables | n8n's internal data (or external DB) | Zapier Tables has no direct equivalent |
 
-The biggest mental shift: in Zapier, everything is linear. In n8n, workflows are visual graphs — nodes can branch, merge, and loop. This is more powerful but takes getting used to.
+The biggest mental shift: in Zapier, everything is [linear](/tools/linear/). In n8n, workflows are visual graphs — nodes can branch, merge, and loop. This is more powerful but takes getting used to.
 
 ## Step-by-Step Migration Process
 
@@ -66,7 +66,7 @@ The biggest mental shift: in Zapier, everything is linear. In n8n, workflows are
 Choose your deployment:
 
 - **n8n Cloud** — Fastest start. Sign up at n8n.io, and you're running in minutes. Starts at EUR 24/month.
-- **Self-hosted (Docker)** — Run `docker run -it --rm -p 5678:5678 n8nio/n8n` to test locally. For production, use Docker Compose with a PostgreSQL database.
+- **Self-hosted (Docker)** — Run `docker run -it --rm -p 5678:5678 n8nio/n8n` to test locally. For production, use Docker Compose with a [PostgreSQL](/tools/postgresql/) database.
 - **Self-hosted (npm)** — `npm install n8n -g && n8n start` for a quick local instance.
 
 For most migrations, start with n8n Cloud so you can focus on rebuilding workflows without worrying about infrastructure.
@@ -123,7 +123,7 @@ Zapier retries failed steps automatically. In n8n, you have more control:
 - **Retry on Fail** — configure per-node retry behavior in node settings
 - **Error Workflow** — designate a separate workflow to handle failures globally
 
-Set up an error notification workflow early. Route errors to Slack or email so nothing fails silently.
+Set up an error notification workflow early. Route errors to [Slack](/tools/slack/) or email so nothing fails silently.
 
 ### Step 7: Run Both Systems in Parallel
 
@@ -163,7 +163,7 @@ Be honest about the trade-offs:
 - **Larger app library** — Zapier supports 7,000+ apps vs. n8n's 400+. Niche SaaS tools may not have native n8n nodes.
 - **Simpler interface** — Zapier's linear step-by-step builder is easier for non-technical users. n8n's canvas can overwhelm beginners.
 - **Better support for non-technical teams** — Zapier's guided setup and templates require less technical knowledge.
-- **Zapier Tables** — Built-in lightweight database. n8n doesn't have an equivalent; you'll need an external database or Airtable.
+- **Zapier Tables** — Built-in lightweight database. n8n doesn't have an equivalent; you'll need an external database or [Airtable](/tools/airtable/).
 - **AI-powered Zap builder** — Zapier's natural language workflow builder is ahead of n8n's current AI features.
 - **Mature error recovery** — Zapier's automatic retry and replay system requires less configuration than n8n's.
 
@@ -194,7 +194,7 @@ Don't rush it. A botched migration costs more than an extra month of Zapier bill
 
 ## Final Recommendations
 
-- Start with n8n Cloud even if you plan to self-host later — learn the platform first
+- Start with n8n Cloud even if you plan to self-host [later](/tools/later/) — learn the platform first
 - Migrate simple workflows first to build confidence
 - Set up error handling before migrating critical workflows
 - Run both platforms in parallel during transition

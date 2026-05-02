@@ -16,7 +16,7 @@ Here are the best tools for lawyers in 2026, chosen for their reliability, secur
 
 ### 1. Notion — Best for Case Files & Legal Wikis
 
-Notion's flexible databases make it surprisingly effective for case management. Create a master database of matters, link related documents, track deadlines, and build reusable checklists for common legal processes like contract review or due diligence.
+Notion's flexible databases [make](/tools/make/) it surprisingly effective for case management. Create a master database of matters, link related documents, track deadlines, and build reusable checklists for common legal processes like contract review or due diligence.
 
 - **Price:** Free, $10/user/month (Plus)
 - **Why lawyers love it:** Linked databases for cases, clients, and documents; templated checklists for standard procedures; customizable per practice area
@@ -94,7 +94,7 @@ Obsidian's local-first, markdown-based system appeals to lawyers who want comple
 
 ### 8. Zapier — Best for Workflow Automation
 
-Zapier connects your tools: client fills out intake form → creates a matter in ClickUp → sends a confirmation email → creates a Google Drive folder for documents. No manual steps required.
+Zapier connects your tools: client fills out intake form → creates a matter in ClickUp → sends a confirmation email → creates a [Google Drive](/tools/google-drive/) folder for documents. No manual steps required.
 
 - **Price:** Free (5 zaps), $29.99/month (Professional)
 - **Why lawyers love it:** Automates repetitive intake and administrative tasks, 6,000+ app integrations

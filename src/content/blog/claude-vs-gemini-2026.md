@@ -48,7 +48,7 @@ Anthropic's Constitutional AI approach means Claude is less likely to hallucinat
 
 ### Google Workspace Integration
 
-Gemini Advanced integrates directly into the apps millions of professionals use daily. In Gmail, it can draft emails from meeting notes. In Google Docs, it can summarize and expand sections. In Google Drive, it can search across all your files semantically.
+Gemini Advanced integrates directly into the apps millions of professionals use daily. In Gmail, it can draft emails from meeting notes. In Google Docs, it can summarize and expand sections. In [Google Drive](/tools/google-drive/), it can search across all your files semantically.
 
 If 80% of your work happens in Google's apps, Gemini's native integration is practically valuable in ways Claude can't replicate through add-ons.
 

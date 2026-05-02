@@ -33,7 +33,7 @@ High-value executive use cases:
 
 **Price**: Free / $20/month (Plus)
 
-ChatGPT is faster and more iterative than Claude for back-and-forth strategic discussions. When you want to think through a decision by talking it out with an AI, ChatGPT's conversational style and broad knowledge work well.
+[ChatGPT](/tools/chatgpt/) is faster and more iterative than Claude for back-and-forth strategic discussions. When you want to think through a decision by talking it out with an AI, ChatGPT's conversational style and broad knowledge work well.
 
 Where executives get the most value:
 - **Competitive landscape summaries**: "Summarize how companies in enterprise SaaS typically respond when a hyperscaler enters their market. What strategies tend to work, and what fails?"

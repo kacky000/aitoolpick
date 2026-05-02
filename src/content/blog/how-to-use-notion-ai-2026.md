@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 Notion AI turns your workspace into something that can actually think alongside you. Instead of switching between Notion and a separate AI chatbot, you get writing assistance, summaries, translations, and database automation right where your work already lives.
 
-This guide covers what Notion AI does in 2026, how to set it up, five practical ways to use it daily, and when you might want a dedicated AI tool like ChatGPT instead.
+This guide covers what Notion AI does in 2026, how to set it up, five practical ways to use it daily, and when you might want a dedicated AI tool like [ChatGPT](/tools/chatgpt/) instead.
 
 ## What Is Notion AI?
 
@@ -28,7 +28,7 @@ For a full breakdown of Notion's features beyond AI, see our [Notion review for 
 
 ### Writing Generation
 
-Highlight any block on a page, press the space bar, and type a prompt. Notion AI generates text inline — blog drafts, emails, product specs, brainstorm lists. You can also ask it to continue writing, change the tone, make something shorter, or rewrite from scratch.
+Highlight any block on a page, press the space bar, and type a prompt. Notion AI generates text inline — blog drafts, emails, product specs, brainstorm lists. You can also ask it to continue writing, change the tone, [make](/tools/make/) something shorter, or rewrite from scratch.
 
 The output quality is competitive with ChatGPT for short-to-medium writing tasks. Where it falls behind is in very long-form generation. If you need a 3,000-word article in one shot, a dedicated writing tool will give you better results. We compared several of these in our [best AI writing tools roundup](/blog/best-ai-writing-tools-2026/).
 
@@ -132,7 +132,7 @@ The AI features appear throughout the interface once enabled. There is no separa
 
 ## Final Thoughts
 
-Notion AI is not a replacement for dedicated AI tools — it is an enhancement for people who already live inside Notion. The database autofill and workspace Q&A features are things you genuinely cannot get from ChatGPT or Claude, because those tools do not have access to your Notion data.
+Notion AI is not a replacement for dedicated AI tools — it is an enhancement for people who already live inside Notion. The database autofill and workspace Q&A features are things you genuinely cannot get from ChatGPT or [Claude](/tools/claude/), because those tools do not have access to your Notion data.
 
 If you are deciding between Notion and other project management tools, our [Notion vs. ClickUp comparison](/blog/notion-vs-clickup-which-is-better/) covers how they stack up on the project management side.
 

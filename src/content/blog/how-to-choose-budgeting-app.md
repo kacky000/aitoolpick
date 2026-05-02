@@ -15,17 +15,17 @@ Here's how to find your match.
 ### Envelope / Zero-Based Budgeting
 **Best pick:** [YNAB](/tools/ynab)
 
-If you want to assign every dollar a job before you spend it, YNAB is purpose-built for this. Its methodology forces you to be proactive rather than reactive with your money.
+If you want to assign every dollar a job before you spend it, [YNAB](/tools/ynab/) is purpose-built for this. Its methodology forces you to be proactive rather than reactive with your money.
 
 ### Track-and-Categorize
-**Best picks:** Mint alternatives, Monarch Money, Copilot
+**Best picks:** [Mint](/tools/mint/) alternatives, Monarch Money, Copilot
 
 If you prefer to see where your money went (rather than planning ahead), look for apps with automatic bank syncing and smart categorization.
 
 ### Flexible / Custom Tracking
 **Best picks:** [Notion](/tools/notion) templates, Excel/Google Sheets
 
-If you want full control over your budget layout, formulas, and tracking categories, spreadsheets and Notion give you unlimited flexibility.
+If you want full control over your budget layout, formulas, and tracking categories, spreadsheets and [Notion](/tools/notion/) give you unlimited flexibility.
 
 ## Step 2: Decide on Bank Sync
 

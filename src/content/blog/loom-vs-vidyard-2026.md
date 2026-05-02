@@ -16,7 +16,7 @@ Picking the wrong one means paying for features you don't use — or missing fea
 | **Free plan** | 25 videos, 5 min each | 1 video |
 | **Paid plans** | Business $12.50/user/mo | Pro $19/user/mo, Business $59/user/mo |
 | **Max recording length** | Unlimited (paid) | Unlimited (paid) |
-| **CRM integration** | Basic (Salesforce, HubSpot) | Deep (Salesforce, HubSpot, Outreach, SalesLoft) |
+| **[CRM](/category/crm/) integration** | Basic (Salesforce, HubSpot) | Deep (Salesforce, HubSpot, Outreach, SalesLoft) |
 | **Viewer analytics** | Views, watch %, comments | Views, watch %, re-watches, CRM sync |
 | **Desktop app** | ✅ | ✅ |
 | **Browser extension** | ✅ | ✅ |
@@ -49,7 +49,7 @@ This is where the tools diverge most.
 
 **Loom** shows basic analytics: view count, watch percentage, and who viewed (if they're in your workspace). Enough to know whether your team watched the product update video, but not much more.
 
-**Vidyard** provides sales-grade analytics. You see who watched, how much they watched, how many times they re-watched, and which sections they rewound. This data syncs directly into your CRM — a Salesforce or HubSpot record shows every video a prospect has watched, with engagement scores.
+**Vidyard** provides sales-grade analytics. You see who watched, how much they watched, how many times they re-watched, and which sections they rewound. This data syncs directly into your CRM — a [Salesforce](/tools/salesforce/) or HubSpot record shows every video a prospect has watched, with engagement scores.
 
 For sales teams, this changes the workflow. Instead of guessing whether a prospect watched your demo, you see they watched 80% of it twice and replayed the pricing section — then you call them. Loom can't do this.
 
@@ -57,19 +57,19 @@ For sales teams, this changes the workflow. Instead of guessing whether a prospe
 
 ## CRM and Sales Tool Integrations
 
-**Loom** integrates with Salesforce and HubSpot at a basic level — you can share Loom links in CRM records. But there's no automatic activity logging, no engagement scoring, and no integration with sales engagement platforms.
+**Loom** integrates with Salesforce and [HubSpot](/tools/hubspot/) at a basic level — you can share Loom links in CRM records. But there's no automatic activity logging, no engagement scoring, and no integration with sales engagement platforms.
 
-**Vidyard** is built around CRM integration. It connects natively to:
+**Vidyard** is built [around](/tools/around/) CRM integration. It connects natively to:
 
 - **Salesforce**: Auto-logs video views as activities on contact/lead records
 - **HubSpot**: Tracks video engagement in the contact timeline
 - **Outreach**: Embeds video in sequences with tracking
 - **SalesLoft**: Same as Outreach
-- **Gong**: Links video engagement to deal intelligence
+- **[Gong](/tools/gong/)**: Links video engagement to deal intelligence
 
 This integration depth means sales managers can see video engagement alongside call data, email opens, and meeting history — all in one pipeline view.
 
-**Winner: Vidyard**. Not close.
+**Winner: Vidyard**. Not [close](/tools/close/).
 
 ## Pricing
 

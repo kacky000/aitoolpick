@@ -14,11 +14,11 @@ Whatever your reason, here are the 7 best Notion alternatives worth considering 
 
 | Tool | Best For | Free Plan | Starting Price |
 |------|----------|-----------|----------------|
-| ClickUp | All-in-one PM | ✅ | $7/user/mo |
-| Obsidian | Local-first notes | ✅ | $4/mo (sync) |
-| Evernote | Web clipping & search | ✅ (limited) | $10.83/mo |
-| Monday.com | Visual workflows | ✅ (2 seats) | $9/seat/mo |
-| Airtable | Database power users | ✅ | $20/seat/mo |
+| [ClickUp](/tools/clickup/) | All-in-one PM | ✅ | $7/user/mo |
+| [Obsidian](/tools/obsidian/) | Local-first notes | ✅ | $4/mo (sync) |
+| [Evernote](/tools/evernote/) | Web clipping & search | ✅ (limited) | $10.83/mo |
+| [Monday.com](/tools/monday/) | Visual workflows | ✅ (2 seats) | $9/seat/mo |
+| [Airtable](/tools/airtable/) | Database power users | ✅ | $20/seat/mo |
 | Todoist | Pure task management | ✅ | $4/user/mo |
 | Trello | Simple Kanban boards | ✅ | $5/user/mo |
 

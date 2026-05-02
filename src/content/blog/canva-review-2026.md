@@ -18,7 +18,7 @@ Canva changed graphic design forever when it launched in 2013. It made professio
 
 Canva is a browser-based (and app-based) graphic design platform. It provides thousands of templates for social media posts, presentations, flyers, logos, videos, and more. You drag, drop, resize, and customize until your design looks exactly the way you want — no technical skills needed.
 
-In 2026, Canva has expanded far beyond static graphics. It now competes with tools like Adobe Express, Figma (for some use cases), PowerPoint, and even basic video editors.
+In 2026, Canva has expanded far beyond static graphics. It now competes with tools like [Adobe Express](/tools/adobe-express/), Figma (for some use cases), PowerPoint, and even basic video editors.
 
 ---
 
@@ -27,8 +27,8 @@ In 2026, Canva has expanded far beyond static graphics. It now competes with too
 | Plan | Price | Best For |
 |---|---|---|
 | Free | $0/month | Individuals, basic use |
-| Canva Pro | $15/user/month | Creators, marketers, freelancers |
-| Canva for Teams | $14.99/user/month (min 2 users) | Small teams |
+| Canva Pro | $15/user/month | Creators, marketers, [freelancers](/best-for/freelancers/) |
+| Canva for Teams | $14.99/user/month (min 2 users) | [Small teams](/best-for/small-teams/) |
 | Canva Enterprise | Custom | Large organizations |
 
 The Free plan is genuinely useful — you get access to 250,000+ templates and a massive library of stock photos. But you'll hit limits quickly if you're using Canva professionally. The Pro plan unlocks the Brand Kit, 100GB of storage, background remover, Magic Resize, and 100+ million premium stock assets.
@@ -42,7 +42,7 @@ Canva has been aggressive about adding AI features. The standout additions inclu
 - **Magic Studio** — Generate images, expand backgrounds, remove objects, and rewrite text with AI
 - **Magic Design** — Input a prompt and get a full presentation or document generated automatically
 - **Magic Animate** — Add animations to presentations in one click
-- **Canva AI Image Generator** — Create original images from text prompts (powered by Stable Diffusion and Canva's own models)
+- **Canva AI Image Generator** — Create original images from text prompts (powered by [Stable Diffusion](/tools/stable-diffusion/) and Canva's own models)
 - **Docs with AI** — A Google Docs competitor with AI writing assistance built in
 
 These aren't gimmicks. Magic Resize alone saves hours if you're repurposing content across multiple social platforms.
@@ -65,11 +65,11 @@ The Brand Kit feature is a major productivity booster for freelancers and teams.
 
 ### 4. Collaboration
 
-Real-time collaboration is smooth. Multiple people can edit the same design simultaneously, leave comments, and share links with view or edit permissions. For small teams, this works well without the complexity of Figma.
+Real-time collaboration is smooth. Multiple people can edit the same design simultaneously, leave comments, and share links with view or edit permissions. For small teams, this works well without the complexity of [Figma](/tools/figma/).
 
 ### 5. Cross-Platform Access
 
-Canva works in the browser and has polished apps for iOS and Android. Designs sync instantly across devices. The mobile app is particularly good for quick edits and posting directly to social media.
+Canva works in the browser and has polished apps for iOS and Android. Designs sync [instantly](/tools/instantly/) across devices. The mobile app is particularly good for quick edits and posting directly to social media.
 
 ### 6. Print and Delivery
 
@@ -93,7 +93,7 @@ You can export to PNG, JPG, PDF, MP4, and GIF. But SVG export is limited, and th
 
 ### 4. AI Image Quality Can Be Inconsistent
 
-The AI image generator is useful for placeholder images and social media content, but it struggles with complex scenes, accurate text rendering in images, and photorealistic output. Midjourney and DALL-E still produce higher-quality results for demanding use cases.
+The AI image generator is useful for placeholder images and social media content, but it struggles with complex scenes, accurate text rendering in images, and photorealistic output. [Midjourney](/tools/midjourney/) and DALL-E still produce higher-quality results for demanding use cases.
 
 ### 5. Can Get Expensive for Teams
 

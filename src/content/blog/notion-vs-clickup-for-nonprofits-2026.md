@@ -16,7 +16,7 @@ Here's how the two compare for the specific realities of nonprofit work.
 
 **Choose Notion if**: You need a flexible knowledge base, have volunteers who need read-only access to resources, and value simplicity over features.
 
-**Choose ClickUp if**: You're managing multiple programs with complex task dependencies, need built-in time tracking, and have staff who will use the tool daily.
+**Choose ClickUp if**: You're managing multiple programs with complex task dependencies, need built-in [time tracking](/category/time-tracking/), and have staff who will use the tool daily.
 
 ## Pricing for Nonprofits
 
@@ -69,7 +69,7 @@ Nonprofits accumulate enormous amounts of institutional knowledge: program guide
 - **Hierarchical pages**: Organize everything from mission statement to operational SOPs in one place
 - **Embedded tables and databases**: Link related information across pages
 - **Templates**: Reuse meeting agendas, program reports, grant narrative structures
-- **Searchable**: Staff can find anything instantly without knowing where it's filed
+- **Searchable**: Staff can find anything [instantly](/tools/instantly/) without knowing where it's filed
 
 ClickUp has a Docs feature, but it's not as polished or as central to the ClickUp experience as pages are to Notion.
 
@@ -99,11 +99,11 @@ Both integrate with common nonprofit tools:
 | Integration | Notion | ClickUp |
 |-------------|--------|---------|
 | Google Workspace | ✅ | ✅ |
-| Slack | ✅ | ✅ |
+| [Slack](/tools/slack/) | ✅ | ✅ |
 | Zoom | ✅ | ✅ |
-| Salesforce/CRM | Via Zapier | Via Zapier |
-| QuickBooks | Via Zapier | Via Zapier |
-| Mailchimp | Via Zapier | Via Zapier |
+| [Salesforce](/tools/salesforce/)/CRM | Via Zapier | Via Zapier |
+| QuickBooks | Via [Zapier](/tools/zapier/) | Via Zapier |
+| [Mailchimp](/tools/mailchimp/) | Via Zapier | Via Zapier |
 | Zapier | ✅ | ✅ |
 
 Neither has deep native nonprofit-specific integrations (like DonorPerfect or Bloomerang), so third-party automation via [Zapier](/tools/zapier) is typically needed for donor management workflows.
@@ -124,7 +124,7 @@ Neither has deep native nonprofit-specific integrations (like DonorPerfect or Bl
 
 ## The Hybrid Approach
 
-Many nonprofits use both: **Notion for knowledge and documentation, ClickUp for active project management**. It's a legitimate choice, though it requires clear guidelines about what lives where.
+Many nonprofits use both: **Notion for knowledge and documentation, ClickUp for active [project management](/category/project-management/)**. It's a legitimate choice, though it requires clear guidelines about what lives where.
 
 If you're choosing one, the deciding factor is usually:
 - **Staff count**: Small nonprofits (under 10 staff) often do fine with Notion alone

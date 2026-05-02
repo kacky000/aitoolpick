@@ -8,15 +8,15 @@ lastModified: "2026-04-26"
 ---
 If your engineering team has outgrown Asana — or just wants a faster, more developer-centric tool — Linear is the obvious next step. The migration itself isn't complicated, but it requires some deliberate planning to avoid losing context or disrupting active projects.
 
-This guide covers exactly how to make the switch.
+This guide covers exactly how to [make](/tools/make/) the switch.
 
 ## Why Teams Move from Asana to Linear
 
-Asana is a great general-purpose project management tool. But engineering teams often hit a wall:
+Asana is a great general-purpose [project management](/category/project-management/) tool. But engineering teams often hit a wall:
 
 - **Speed**: Asana can feel sluggish. Linear is optimized for instant interactions.
 - **Developer focus**: Asana lacks native Git integration, Cycle management, and engineering-specific workflows.
-- **Keyboard shortcuts**: Developers want to stay in the keyboard. Linear's shortcut system is best-in-class.
+- **Keyboard shortcuts**: [Developers](/best-for/developers/) want to stay in the keyboard. Linear's shortcut system is best-in-class.
 - **Simplicity**: Asana's feature set has expanded so much it's become noisy for teams that just need issue tracking.
 
 The main trade-offs: Linear has less customization, no built-in docs, and doesn't support non-engineering workflows as well. If your team is cross-functional, reconsider. If you're primarily a dev team, read on.
@@ -41,7 +41,7 @@ Linear uses **Teams** as the top-level organizational unit. Each team has its ow
 - Create a team for each product/service area (not one team per project as you might have in Asana)
 - Set up your **Labels** (equivalent to Asana's tags)
 - Configure **Issue statuses** to match your workflow (Backlog → In Progress → Review → Done)
-- Connect your GitHub/GitLab repository
+- Connect your [GitHub](/tools/github/)/GitLab repository
 
 ### Brief Your Team
 
@@ -79,7 +79,7 @@ Linear supports CSV imports for bulk issue creation:
 
 ### Option 3: Third-Party Migration Tools
 
-Tools like Unito or Zapier can sync Asana and Linear bidirectionally during a transition period. This is useful if you have stakeholders still using Asana dashboards while engineering moves to Linear.
+Tools like Unito or [Zapier](/tools/zapier/) can sync Asana and Linear bidirectionally during a transition period. This is useful if you have stakeholders still using Asana dashboards while engineering moves to Linear.
 
 The downside: complexity. It works well for a 2-4 week overlap period, but maintaining a sync indefinitely creates confusion about which system is authoritative.
 
@@ -105,7 +105,7 @@ For Asana users who relied heavily on subtasks to break down work, this is the b
 If your team uses GitHub, Linear's integration is more powerful than anything in Asana:
 - Branches auto-linked to issues when you use the branch name format `[team-abbreviation]/[issue-id]-description`
 - PRs auto-linked when you mention the Linear issue ID in PR description
-- Issues auto-close when linked PRs merge to main
+- Issues auto-[close](/tools/close/) when linked PRs merge to main
 
 Set this up on day one. It's one of the main reasons dev teams prefer Linear.
 

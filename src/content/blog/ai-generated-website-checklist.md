@@ -10,7 +10,7 @@ I've built several websites with AI tools over the past year. Every single first
 
 Users can tell. Google can probably tell too — Helpful Content Update penalizes content that feels auto-generated, and that includes design.
 
-After dozens of iterations and feedback rounds, I compiled the patterns that make a site scream "AI made this." Here's the full list, organized by category, with specific fixes for each one.
+After dozens of iterations and feedback rounds, I compiled the patterns that [make](/tools/make/) a site scream "AI made this." Here's the full list, organized by category, with specific fixes for each one.
 
 ## Why This Matters
 
@@ -27,7 +27,7 @@ The #1 giveaway is the purple-to-blue gradient background. AI models have seen t
 **What AI does:**
 - Purple-to-blue gradient backgrounds
 - Gradient buttons (web 2.0 vibes)
-- Box-shadow on every single element
+- [Box](/tools/box/)-shadow on every single element
 - Alternating section background colors (#F5F5F5, white, #F5F5F5, white)
 - 5+ colors competing for attention
 
@@ -141,7 +141,7 @@ If the answer to any of these is "yes," you have work to do.
 
 ## AI Audit Prompt — Copy, Paste, Score
 
-The fastest way to check your site: paste this prompt into ChatGPT, Claude, or any AI tool along with your HTML/CSS (or a screenshot of your site). It will score every category and tell you exactly what to fix.
+The fastest way to check your site: paste this prompt into [ChatGPT](/tools/chatgpt/), Claude, or any AI tool along with your HTML/CSS (or a screenshot of your site). It will score every category and tell you exactly what to fix.
 
 ```
 You are a web design auditor specialized in detecting AI-generated design patterns.
@@ -223,7 +223,7 @@ Return this exact structure:
 
 **How to use it:**
 1. Copy the prompt above
-2. Open ChatGPT, Claude, Gemini, or any AI
+2. Open ChatGPT, [Claude](/tools/claude/), Gemini, or any AI
 3. Paste the prompt + your HTML source code (right-click → View Page Source → copy all)
 4. Or attach a full-page screenshot of your site
 5. Get an instant scorecard with specific fixes
@@ -242,7 +242,7 @@ Change the font, remove gradients, and vary your layout. These three changes alo
 
 ### Are AI-generated illustrations OK to use?
 
-Generally no. Current AI image generators produce artifacts (extra fingers, melted text, inconsistent lighting) that users recognize instantly. SVG illustrations or real photographs are safer bets.
+Generally no. Current AI image generators produce artifacts (extra fingers, melted text, inconsistent lighting) that users recognize [instantly](/tools/instantly/). SVG illustrations or real photographs are safer bets.
 
 ### Should I avoid AI tools entirely?
 

@@ -25,7 +25,7 @@ Engineering teams have a real choice between two fundamentally different approac
 
 ### Linear
 
-Linear's speed is not marketing hype. The app loads instantly, transitions are immediate, and almost every action can be done via keyboard shortcuts. Creating an issue takes about two seconds: hit `C`, type the title, set priority, assign, and hit Enter.
+Linear's speed is not marketing hype. The app loads [instantly](/tools/instantly/), transitions are immediate, and almost every action can be done via keyboard shortcuts. Creating an issue takes about two seconds: hit `C`, type the title, set priority, assign, and hit Enter.
 
 The interface is opinionated. There are no ten-level nested hierarchies. Linear gives you issues, projects, cycles, and roadmaps. It decides how they relate, and you work within that structure. For teams that value velocity in their tools, Linear feels like it was designed by engineers for engineers.
 
@@ -41,7 +41,7 @@ The UI is functional but not as polished as Linear's. You will use the mouse mor
 
 ### Linear's Approach
 
-Linear connects to GitHub through an official integration that syncs PRs with issues. When a developer opens a PR referencing a Linear issue, it automatically links the PR, updates issue status, and can close the issue on merge. It works well, but it is a bridge between two systems with two sources of truth.
+Linear connects to GitHub through an official integration that syncs PRs with issues. When a developer opens a PR referencing a Linear issue, it automatically links the PR, updates issue status, and can [close](/tools/close/) the issue on merge. It works well, but it is a bridge between two systems with two sources of truth.
 
 ### GitHub Projects: Native by Default
 
@@ -61,7 +61,7 @@ GitHub Projects supports iteration fields that mimic sprints, but the experience
 
 ## Automations
 
-Linear includes powerful automations out of the box: auto-change status on PR activity, triage workflows, notifications on cycle start. No code or external tools required.
+Linear includes powerful automations out of the [box](/tools/box/): auto-change status on PR activity, triage workflows, notifications on cycle start. No code or external tools required.
 
 GitHub Projects has basic status automations, but anything complex requires GitHub Actions and YAML configuration. This is more powerful in theory but requires maintenance.
 

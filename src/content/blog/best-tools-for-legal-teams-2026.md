@@ -105,9 +105,9 @@ For legal teams specifically:
 
 ## What Legal-Specific Software Gets Wrong
 
-Dedicated legal practice management platforms (Clio, MyCase, etc.) are better for law firms billing by the hour. For in-house legal teams, they're often overkill — you pay for matter billing and client portal features you don't need.
+Dedicated legal practice management platforms ([Clio](/tools/clio/), MyCase, etc.) are better for law firms billing by the hour. For in-house legal teams, they're often overkill — you pay for matter billing and client portal features you don't need.
 
-The more practical approach for in-house teams: use general-purpose tools for communication, project tracking, and knowledge management, and add AI (Claude, ChatGPT) for document work. The total cost is lower and the tools integrate better with the rest of the business.
+The more practical approach for in-house teams: use general-purpose tools for communication, project tracking, and knowledge management, and add AI (Claude, [ChatGPT](/tools/chatgpt/)) for document work. The total cost is lower and the tools integrate better with the rest of the business.
 
 ## The Stack That Works
 

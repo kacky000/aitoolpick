@@ -63,7 +63,7 @@ Notion AI doesn't have native task management in the same way. You can build tas
 
 ## Head-to-Head: Writing and Document AI
 
-**This is a draw, leaning toward Notion AI.** Both tools write, summarize, and edit competently. Notion AI feels slightly more natural for long-form writing because Notion's editor is designed around documents. ClickUp Brain writes well too, but the interface is more task-centric.
+**This is a draw, leaning toward Notion AI.** Both tools write, summarize, and edit competently. Notion AI feels slightly more natural for long-form writing because Notion's editor is designed [around](/tools/around/) documents. ClickUp Brain writes well too, but the interface is more task-centric.
 
 For teams who write a lot (content teams, legal, policy, product specs), Notion AI feels more at home.
 
@@ -97,7 +97,7 @@ ClickUp's AI is actually the better deal if you're starting from scratch. Notion
 
 ## The Bottom Line
 
-ClickUp Brain is the better AI for project-focused teams. Notion AI is the better AI for knowledge-focused teams. Neither replaces a standalone AI like ChatGPT for complex tasks — but both add meaningful automation within their respective platforms.
+ClickUp Brain is the better AI for project-focused teams. Notion AI is the better AI for knowledge-focused teams. Neither replaces a standalone AI like [ChatGPT](/tools/chatgpt/) for complex tasks — but both add meaningful automation within their respective platforms.
 
 The most important question: do you already use ClickUp or Notion? If yes, the AI add-on for your current tool is probably worth trying before switching platforms.
 

@@ -6,7 +6,7 @@ heroImage: "/thumbs/coda-review-2026.jpg"
 tags: ["coda", "notion-alternative", "productivity", "docs", "databases", "review"]
 lastModified: "2026-04-26"
 ---
-Coda sits in an unusual position: it's been compared to Notion so often that people sometimes forget it's solving a different problem. Notion is a flexible workspace. Coda is a document that can do things.
+Coda sits in an unusual position: it's been compared to [Notion](/tools/notion/) so often that people sometimes forget it's solving a different problem. Notion is a flexible workspace. Coda is a document that can do things.
 
 That distinction sounds subtle, but it shapes everything about how Coda works — and who it works well for.
 
@@ -21,17 +21,17 @@ This makes Coda better for operational workflows — where users need to interac
 ## Key Features
 
 ### Tables and Views
-Coda's tables function similarly to Airtable: structured rows and columns with relation fields, lookups, rollups, and formulas. Unlike Airtable, the table lives inside a document alongside prose, headers, and other content. The context stays together.
+Coda's tables function similarly to [Airtable](/tools/airtable/): structured rows and columns with relation fields, lookups, rollups, and formulas. Unlike Airtable, the table lives inside a document alongside prose, headers, and other content. The context stays together.
 
 Views are flexible: grid, kanban, calendar, gallery, chart, detail. You build what makes sense for the workflow, not for what the tool defaults to.
 
 ### Formulas and Automation
 Coda's formula language is powerful — closer to a programming language than Notion's limited formula system. Experienced users can build complex logic (conditional branching, cross-table lookups, aggregations) without code.
 
-Automations trigger on schedules or events: "when a row is added to this table, send a Slack notification." For teams running operational processes, this replaces a layer of Zapier or Make integrations.
+Automations trigger on schedules or events: "when a row is added to this table, send a Slack notification." For teams running operational processes, this replaces a layer of [Zapier](/tools/zapier/) or Make integrations.
 
 ### Packs (Integrations)
-Packs are Coda's integration layer. Official Packs connect to Gmail, Jira, GitHub, Figma, Salesforce, and more. Data from these services can be pulled directly into a Coda table, queried with formulas, and acted on with buttons.
+Packs are Coda's integration layer. Official Packs connect to Gmail, Jira, GitHub, Figma, [Salesforce](/tools/salesforce/), and more. Data from these services can be pulled directly into a Coda table, queried with formulas, and acted on with buttons.
 
 ### AI Features (Coda AI)
 Coda AI (available on paid plans) can summarize documents, generate table data, extract insights from text, and assist with formula writing. It's more document-aware than general-purpose AI assistants — it understands the structure of your Coda doc, not just the text.
@@ -52,7 +52,7 @@ The free plan allows unlimited documents but limits the number of "objects" (row
 | Feature | Coda | Notion |
 |---------|------|--------|
 | Document-first | ✅ | ✅ |
-| Built-in automations | ✅ | ❌ (needs Notion AI or 3rd party) |
+| Built-in automations | ✅ | ❌ (needs [Notion AI](/tools/notion-ai/) or 3rd party) |
 | Interactive buttons | ✅ | ❌ |
 | Database views | ✅ | ✅ |
 | Formula language | Advanced | Basic |

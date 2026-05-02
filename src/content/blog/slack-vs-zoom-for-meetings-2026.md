@@ -14,7 +14,7 @@ Here is how they compare across the features that matter most.
 
 ## The Core Difference: Huddles vs. Meetings
 
-**Slack Huddles** are lightweight audio-first calls that live inside Slack channels or DMs. You click one button and you are in a call — no scheduling, no meeting links, no waiting room. Video is optional and was added later. Think of Huddles as the digital equivalent of tapping someone on the shoulder.
+**Slack Huddles** are lightweight audio-first calls that live inside Slack channels or DMs. You click one button and you are in a call — no scheduling, no meeting links, no waiting room. Video is optional and was added [later](/tools/later/). Think of Huddles as the digital equivalent of tapping someone on the shoulder.
 
 **Zoom Meetings** are structured video calls with scheduling, waiting rooms, breakout rooms, polls, and recording. They are built for planned meetings — team standups, client calls, all-hands, webinars. You generate a link, send invites, and people join at the scheduled time.
 
@@ -34,7 +34,7 @@ For audio-only calls, the gap narrows significantly. Both platforms handle voice
 
 Both platforms support screen sharing, but the implementations differ.
 
-**Zoom** offers full desktop sharing, individual app sharing, whiteboard sharing, and a "portion of screen" option. The annotation tools let participants draw on shared content. Remote control lets someone take over your screen. These features make Zoom a strong choice for demos, training sessions, and technical troubleshooting.
+**Zoom** offers full desktop sharing, individual app sharing, whiteboard sharing, and a "portion of screen" option. The annotation tools let participants draw on shared content. Remote control lets someone take over your screen. These features [make](/tools/make/) Zoom a strong choice for demos, training sessions, and technical troubleshooting.
 
 **Slack Huddles** support screen sharing with drawing tools, which covers most everyday needs. You can share your screen and collaborators can sketch on it in real time. However, there are no breakout rooms, no remote control, and no "share a specific app window" option as polished as Zoom's.
 
@@ -86,7 +86,7 @@ For a full pricing breakdown on each tool, see our [Slack pricing guide](/blog/s
 
 **Slack** integrates with over 2,600 apps — project management tools, CRMs, developer tools, and more. The key advantage is that Huddles happen inside the same interface where your team already communicates. Start a Huddle in a project channel, and the context of the conversation is right there. No switching apps, no "let me find the Zoom link."
 
-**Zoom** integrates with major calendars (Google, Outlook), Slack itself, Microsoft Teams, and hundreds of other tools. Zoom's calendar integration is seamless — meetings appear automatically, and joining is one click from your calendar.
+**Zoom** integrates with major calendars (Google, Outlook), Slack itself, [Microsoft Teams](/tools/microsoft-teams/), and hundreds of other tools. Zoom's calendar integration is seamless — meetings appear automatically, and joining is one click from your calendar.
 
 Here is the thing many teams miss: **you can use both together.** Zoom integrates directly into Slack, so you can start a Zoom meeting from a Slack channel. This gives you Slack's conversational context with Zoom's superior video capabilities.
 

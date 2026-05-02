@@ -53,7 +53,7 @@ Plus removes the credit ceiling and adds features that matter for regular use:
 At $8/month, Plus pays for itself quickly if you're generating more than 4-5 presentations per month. The unlimited AI removes the psychological friction of wondering whether to use a credit on an edit.
 
 **Who should get Plus:**
-- Marketers who build decks regularly for internal and external audiences
+- [Marketers](/best-for/marketers/) who build decks regularly for internal and external audiences
 - Consultants who create client presentations
 - Founders who iterate on pitch decks frequently
 - Educators building course materials
@@ -101,8 +101,8 @@ Annual billing saves 20% for both plans. The savings are modest in absolute term
 | Tool | Free Tier | Starting Price | Best For |
 |------|-----------|---------------|----------|
 | **Gamma** | 400 credits | $8/month | AI-first presentations |
-| **Canva** | Generous | $15/month (Pro) | Design-first, broad use |
-| **Beautiful.ai** | No | $12/month | Design automation |
+| **[Canva](/tools/canva/)** | Generous | $15/month (Pro) | Design-first, broad use |
+| **[Beautiful.ai](/tools/beautiful-ai/)** | No | $12/month | Design automation |
 | **Tome** | Limited | $16/month | AI narrative decks |
 | **PowerPoint** | Via Microsoft 365 | $6/month | Traditional slide work |
 | **Google Slides** | Free (unlimited) | Free | Basic, real-time collab |

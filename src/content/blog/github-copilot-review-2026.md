@@ -5,7 +5,7 @@ pubDate: "2026-05-02"
 tags: ["github-copilot", "ai-coding", "review"]
 ---
 
-GitHub Copilot was the first mainstream AI coding assistant, and it's still the most widely used. But with Cursor, Windsurf, and others offering more aggressive AI features, is Copilot still the right choice in 2026? Here's an honest assessment.
+GitHub Copilot was the first mainstream AI coding assistant, and it's still the most widely used. But with Cursor, [Windsurf](/tools/windsurf/), and others offering more aggressive AI features, is Copilot still the right choice in 2026? Here's an honest assessment.
 
 ## What Is GitHub Copilot?
 
@@ -23,7 +23,7 @@ Ask questions about your code, generate code from descriptions, explain errors, 
 
 ### Copilot Edits
 
-Launched in late 2025, Copilot Edits lets you describe changes in natural language and apply them across multiple files. It's GitHub's answer to Cursor's multi-file editing — functional but still catching up in reliability.
+Launched in late 2025, Copilot Edits lets you describe changes in natural language and apply them across multiple files. It's GitHub's answer to [Cursor](/tools/cursor/)'s multi-file editing — functional but still catching up in reliability.
 
 ### Agent Mode
 

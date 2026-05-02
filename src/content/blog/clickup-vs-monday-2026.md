@@ -48,7 +48,7 @@ For a feature-by-feature side-by-side, see our [ClickUp vs Monday comparison pag
 ClickUp markets itself as "one app to replace them all" — and the feature list is genuinely massive:
 
 - **15+ view types**: List, Board, Calendar, Gantt, Timeline, Mind Map, Whiteboard, Table, and more
-- **Built-in Docs**: A Notion-like document editor inside your PM tool
+- **Built-in Docs**: A [Notion](/tools/notion/)-like document editor inside your PM tool
 - **Native time tracking**: No third-party integration needed (included from the free plan)
 - **Goals and OKRs**: Track company objectives alongside daily tasks
 - **Whiteboards**: Visual brainstorming built into the platform
@@ -72,9 +72,9 @@ Monday.com does fewer things but does them with more polish:
 
 ## Ease of Use: Monday.com Wins Decisively
 
-This is Monday.com's defining advantage, and it's not close.
+This is Monday.com's defining advantage, and it's not [close](/tools/close/).
 
-**Monday.com** feels intuitive from minute one. New users can create a board, add tasks, set statuses, and start collaborating within 15 minutes. The colorful interface, logical navigation, and simple automation builder make adoption effortless — even for non-technical team members.
+**Monday.com** feels intuitive from minute one. New users can create a board, add tasks, set statuses, and start collaborating within 15 minutes. The colorful interface, logical navigation, and simple automation builder [make](/tools/make/) adoption effortless — even for non-technical team members.
 
 **ClickUp** is powerful but overwhelming. The sheer volume of features, settings, views, and customization options creates a steep learning curve. Teams typically need days or weeks to configure ClickUp before feeling productive. And the UI changes frequently between updates, which can disorient users.
 
@@ -130,7 +130,7 @@ For a 10-person team: ClickUp Unlimited + AI = $140/month. Monday.com Pro (with 
 | Aspect | ClickUp | Monday.com |
 |--------|---------|------------|
 | Native integrations | 100+ | 200+ |
-| Zapier/Make support | Yes | Yes |
+| [Zapier](/tools/zapier/)/Make support | Yes | Yes |
 | API quality | Good | Excellent |
 | App marketplace | Growing | Mature |
 | CRM integration | Via custom setup | Native (Monday CRM) |
@@ -143,7 +143,7 @@ Monday.com has more native integrations and a more mature app ecosystem. ClickUp
 
 ## Performance and Reliability
 
-Monday.com is consistently faster. Pages load quickly, boards with hundreds of items remain responsive, and dashboards render without lag.
+Monday.com is consistently faster. Pages load quickly, boards with hundreds of items remain responsive, and dashboards [render](/tools/render/) without lag.
 
 ClickUp has improved significantly in 2025-2026, but large workspaces can still experience slowdowns — particularly in Gantt views, dashboards with many widgets, and spaces with thousands of tasks.
 

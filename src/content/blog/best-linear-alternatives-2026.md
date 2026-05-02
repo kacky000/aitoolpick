@@ -12,7 +12,7 @@ Linear has become the default choice for engineering teams, but it's not the onl
 
 ## Why Look for Linear Alternatives?
 
-Linear excels at simplicity and speed, but it comes with tradeoffs. The $10/user/month pricing can add up for larger teams. The feature set, while focused, might not cover all your needs—especially if you want built-in time tracking, portfolio management, or advanced reporting without third-party integrations.
+Linear excels at simplicity and speed, but it comes with tradeoffs. The $10/user/month pricing can add up for larger teams. The feature set, while focused, might not cover all your needs—especially if you want built-in [time tracking](/category/time-tracking/), portfolio management, or advanced reporting without third-party integrations.
 
 The right tool depends on your team size, budget, and workflow priorities. Let's explore seven competitive alternatives that deserve your attention.
 
@@ -58,7 +58,7 @@ Asana positions itself as a work operating system rather than just an issue trac
 
 ## 3. ClickUp – The All-in-One Alternative
 
-ClickUp positions itself as the only platform you need—issue tracking, project management, docs, time tracking, and goals all in one. It's feature-rich and highly customizable.
+ClickUp positions itself as the only platform you need—issue tracking, [project management](/category/project-management/), docs, time tracking, and goals all in one. It's feature-rich and highly customizable.
 
 **Strengths:**
 - Built-in time tracking and capacity planning
@@ -130,7 +130,7 @@ Notion isn't specialized for issue tracking, but its flexibility means you can b
 - Strong community templates
 
 **Weaknesses:**
-- Requires setup and customization (not out-of-the-box)
+- Requires setup and customization (not out-of-the-[box](/tools/box/))
 - Can be slower than specialized tools
 - No built-in agile features
 - UI feels less polished for issue tracking than Linear

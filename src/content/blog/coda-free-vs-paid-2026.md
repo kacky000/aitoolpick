@@ -27,7 +27,7 @@ Coda's free tier is genuinely capable for getting started:
 - **All core formulas**: Access to Coda's full formula library
 - **Basic automations**: Simple automated actions within docs
 - **All views**: Tables, kanban boards, calendar, timeline, and card views
-- **Basic integrations**: Slack, GitHub, and others at a basic level
+- **Basic integrations**: Slack, [GitHub](/tools/github/), and others at a basic level
 - **Unlimited viewers**: Anyone with a link can view for free
 
 **The key free-tier limitation**: The **"doc size" limit**. Free docs can only have 1,000 objects total. An "object" is any row in a table, any page, any image, or any section. For simple docs, this is plenty. For complex Coda databases — tracking projects, leads, inventory, or content — 1,000 objects fills up quickly.
@@ -46,7 +46,7 @@ The 1,000-object limit sounds abstract. Here's when it matters in practice:
 |----------|-------------|-------------|
 | Personal task tracker (50 tasks) | ~100 | No |
 | Team wiki with 30 pages | ~150 | No |
-| CRM tracker (500 contacts) | ~1,500+ | Yes |
+| [CRM](/category/crm/) tracker (500 contacts) | ~1,500+ | Yes |
 | Content calendar (200 entries + columns) | ~1,200+ | Yes |
 | Project tracker for 20 projects | ~400 | Borderline |
 
@@ -73,7 +73,7 @@ Team adds collaborative and administrative features:
 - Everything in Pro
 - Granular permissions (who can edit what within a doc)
 - Team-level admin controls
-- Enhanced Slack integration
+- Enhanced [Slack](/tools/slack/) integration
 - Advanced automations with cross-doc workflows
 - Priority support
 
@@ -100,7 +100,7 @@ Notion's free plan has no block limit, making it more accessible for teams explo
 ## Who Should Stay on Free?
 
 **Free is sufficient if you:**
-- Use Coda as a personal note-taking and wiki tool
+- Use Coda as a personal [note-taking](/category/note-taking/) and wiki tool
 - Have docs with fewer than 10 tables and minimal data
 - Are evaluating Coda before committing
 - Run simple team wikis with mostly static content

@@ -53,9 +53,9 @@ Canva's annual report templates work well for impact reports — drop in your ph
 
 ### Social Media Content
 
-Nonprofits need a constant stream of content: campaign updates, volunteer spotlights, fundraising milestones, event announcements. Canva makes this manageable for small teams.
+Nonprofits need a constant stream of content: campaign updates, volunteer spotlights, fundraising milestones, event announcements. Canva makes this manageable for [small teams](/best-for/small-teams/).
 
-The Brand Kit ensures every post looks cohesive — consistent colors, fonts, and logo placement. Non-designers on staff can create on-brand posts without graphic design training.
+The Brand Kit ensures every post looks cohesive — consistent colors, fonts, and logo placement. Non-[designers](/best-for/designers/) on staff can create on-brand posts without graphic design training.
 
 Use Canva's social media scheduler to batch-create and schedule a week of content in one session, then post automatically throughout the week.
 
@@ -65,7 +65,7 @@ Gala invitations, event programs, sponsor recognition slides, event banners — 
 
 ### Grant Applications
 
-Some grant applications require visual attachments — org charts, program logic models, impact maps. Canva's presentation and diagram templates make these quick to produce.
+Some grant applications require visual attachments — org charts, program logic models, impact maps. Canva's presentation and diagram templates [make](/tools/make/) these quick to produce.
 
 Store finalized grant appendices in Canva so you can update and reuse them across multiple applications.
 

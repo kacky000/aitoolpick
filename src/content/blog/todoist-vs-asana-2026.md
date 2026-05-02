@@ -44,15 +44,15 @@ Asana provides list, board, timeline (Gantt), and calendar views, plus portfolio
 
 Todoist's collaboration features are basic: you can share projects, assign tasks, and leave comments. It works for small teams but lacks the depth larger teams need.
 
-Asana was built for collaboration from day one. Features like project status updates, workload management, forms for intake, and goals tracking make it a true team platform.
+Asana was built for collaboration from day one. Features like project status updates, workload management, forms for intake, and goals tracking [make](/tools/make/) it a true team platform.
 
 **Winner: Asana** by a wide margin for teams.
 
 ### Integrations
 
-Todoist integrates with 80+ tools including Slack, Google Calendar, and Zapier. The integrations are solid but focused on the essentials.
+Todoist integrates with 80+ tools including Slack, Google Calendar, and [Zapier](/tools/zapier/). The integrations are solid but focused on the essentials.
 
-Asana offers 200+ native integrations plus deep connections with tools like Salesforce, Adobe, and Microsoft Teams. For enterprise environments, Asana's integration ecosystem is significantly stronger.
+Asana offers 200+ native integrations plus deep connections with tools like Salesforce, Adobe, and [Microsoft Teams](/tools/microsoft-teams/). For enterprise environments, Asana's integration ecosystem is significantly stronger.
 
 **Winner: Asana** for breadth, though Todoist covers the essentials well.
 

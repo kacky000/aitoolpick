@@ -28,14 +28,14 @@ If any of these pain points resonate, one of the alternatives below may be a bet
 
 **Pricing:** Free | Professional $15/mo | Organization $45/mo
 
-Figma is the professional design tool that has taken over the industry. While it started as a UI/UX design platform, its capabilities now extend far beyond app design into presentations, social graphics, marketing materials, and collaborative whiteboarding with FigJam.
+Figma is the professional design tool that has taken over the industry. While it started as a UI/UX design platform, its capabilities now extend far beyond app design into presentations, social graphics, marketing materials, and collaborative whiteboarding with [FigJam](/tools/figjam/).
 
 **Why choose Figma over Canva:**
 - **True vector editing** — create custom shapes, icons, and illustrations with precision
-- **Real-time collaboration** — multiple designers can work on the same file simultaneously, with cursor visibility and commenting
+- **Real-time collaboration** — multiple designers can work on the same file simultaneously, with [cursor](/tools/cursor/) visibility and commenting
 - **Components and variants** — build reusable design elements that update globally
 - **Auto Layout** — responsive designs that adapt to content automatically
-- **Dev Mode** — hand off designs to developers with precise specs and code snippets
+- **Dev Mode** — hand off designs to [developers](/best-for/developers/) with precise specs and code snippets
 - **Plugin ecosystem** — thousands of plugins for stock photos, icons, accessibility checks, and more
 
 **Where Canva still wins:** Template quantity, ease of use for non-designers, and built-in stock photo access. Figma has a steeper learning curve but offers dramatically more design power.
@@ -102,7 +102,7 @@ VistaCreate (formerly Crello) is the closest direct competitor to Canva. The int
 
 **Why choose VistaCreate over Canva:**
 - **Lower price** — Pro at $13/month vs Canva Pro at $15/month
-- **Animation focus** — stronger animated design capabilities with more motion presets
+- **Animation focus** — stronger animated design capabilities with more [motion](/tools/motion/) presets
 - **Unique template styles** — different design aesthetic from Canva's library
 - **Object removal** — AI-powered background and object removal included in Pro
 
@@ -120,11 +120,11 @@ Snappa is the minimalist alternative. It strips away complexity and focuses on o
 - **Speed** — the interface is intentionally simpler than Canva's, so you create graphics faster
 - **Pre-sized templates** — every social platform dimension is ready to go
 - **Built-in stock photos** — 5 million+ free photos included, no attribution required
-- **Buffer integration** — schedule social media posts directly from Snappa
+- **[Buffer](/tools/buffer/) integration** — schedule social media posts directly from Snappa
 
 **Where Canva still wins:** Everything beyond social media graphics. Snappa intentionally limits its scope, so it does not compete with Canva on presentations, documents, videos, or whiteboarding.
 
-**Best for:** Bloggers, solo marketers, small teams that need social graphics fast without feature overload.
+**Best for:** Bloggers, solo marketers, [small teams](/best-for/small-teams/) that need social graphics fast without feature overload.
 
 ## Quick Comparison Table
 
@@ -148,7 +148,7 @@ Snappa is the minimalist alternative. It strips away complexity and focuses on o
 
 ## Final Thoughts
 
-Canva remains the best all-around design tool for non-designers. Its template library is unmatched, its free tier is generous, and its ease of use is hard to beat. But "best all-around" does not mean "best for everything."
+Canva remains the best all-[around](/tools/around/) design tool for non-designers. Its template library is unmatched, its free tier is generous, and its ease of use is hard to beat. But "best all-around" does not mean "best for everything."
 
 If your needs are specific — professional-grade design, data visualization, business presentations, or just faster social media graphics — one of these alternatives will serve you better. Most offer free tiers, so test them with your actual workflow before committing.
 

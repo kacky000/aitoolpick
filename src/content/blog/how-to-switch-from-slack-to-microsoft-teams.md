@@ -47,9 +47,9 @@ List every Slack integration and find the Teams equivalent:
 | Slack Integration | Teams Alternative |
 |------------------|-------------------|
 | Slack Workflows | Power Automate |
-| GitHub notifications | GitHub for Teams app |
-| Google Drive sharing | SharePoint / OneDrive |
-| Jira updates | Jira Cloud for Teams |
+| [GitHub](/tools/github/) notifications | GitHub for Teams app |
+| [Google Drive](/tools/google-drive/) sharing | SharePoint / OneDrive |
+| [Jira](/tools/jira/) updates | Jira Cloud for Teams |
 | Custom Slack bots | Teams bots / Power Virtual Agents |
 
 ## Phase 2: Export and Set Up (Week 2)

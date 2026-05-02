@@ -52,7 +52,7 @@ Users who want one AI tool for everything — search, writing, coding, and analy
 
 **Pricing:** Free / Pro $20/mo
 
-Claude is Anthropic's AI assistant, known for thoughtful reasoning and handling long documents. While not a dedicated search engine, Claude's analysis capabilities make it a strong alternative for users who care more about answer quality than real-time web data.
+Claude is Anthropic's AI assistant, known for thoughtful reasoning and handling long documents. While not a dedicated search engine, Claude's analysis capabilities [make](/tools/make/) it a strong alternative for users who care more about answer quality than real-time web data.
 
 ### Where Claude Beats Perplexity
 

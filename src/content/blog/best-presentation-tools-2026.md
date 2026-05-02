@@ -18,11 +18,11 @@ We tested seven tools across pitch decks, sales presentations, and internal repo
 |------|----------|-------|
 | PowerPoint | Enterprise, complex layouts | $6.99/month (Microsoft 365) |
 | Google Slides | Free collaboration | Free |
-| Canva | Design-first, social media | Free / $12.99/month |
-| Gamma | AI-generated speed | Free / $8/month |
-| Beautiful.ai | Smart templates | $12/month |
+| [Canva](/tools/canva/) | Design-first, social media | Free / $12.99/month |
+| [Gamma](/tools/gamma/) | AI-generated speed | Free / $8/month |
+| [Beautiful.ai](/tools/beautiful-ai/) | Smart templates | $12/month |
 | Pitch | Team collaboration | Free / $8/month |
-| Prezi | Non-linear presentations | $7/month |
+| Prezi | Non-[linear](/tools/linear/) presentations | $7/month |
 
 ---
 
@@ -77,7 +77,7 @@ Canva also handles social media graphics, documents, and websites — making it 
 
 Gamma generates complete, well-designed presentations from a text prompt in under 60 seconds. The output is genuinely impressive — not a rough draft that needs two hours of cleanup, but a usable starting point that might need 20 minutes of refinement.
 
-Its card-based, web-native format feels modern and works well for presentations shared as links. The interactive elements (embedded videos, scrolling content, live data) make Gamma decks feel more engaging than static slides.
+Its card-based, web-native format feels modern and works well for presentations shared as links. The interactive elements (embedded videos, scrolling content, live data) [make](/tools/make/) Gamma decks feel more engaging than static slides.
 
 **Pros:** Fastest generation of any tool, consistent design system, interactive format, AI integrated throughout  
 **Cons:** Requires internet, not ideal for enterprise PowerPoint workflows, less granular design control
@@ -105,9 +105,9 @@ The template library is curated and well-designed. It is not as fast as Gamma bu
 
 ## 6. Pitch — Built for Team Collaboration
 
-**Best for:** Remote teams creating pitches and investor decks collaboratively
+**Best for:** [Remote teams](/best-for/remote-teams/) creating pitches and investor decks collaboratively
 
-Pitch combines a presentation builder with lightweight project management for decks — team members can leave comments on specific slides, assign tasks, track presentation status, and see version history. For teams where multiple people contribute to a single presentation, this workflow is significantly better than Google Slides comments.
+Pitch combines a presentation builder with lightweight [project management](/category/project-management/) for decks — team members can leave comments on specific slides, assign tasks, track presentation status, and see version history. For teams where multiple people contribute to a single presentation, this workflow is significantly better than Google Slides comments.
 
 The template library is curated toward startup pitches and business decks, with particularly strong investor deck templates.
 

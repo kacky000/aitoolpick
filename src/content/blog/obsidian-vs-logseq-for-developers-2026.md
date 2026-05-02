@@ -5,9 +5,9 @@ pubDate: "2026-04-29"
 tags: ["obsidian", "logseq", "developers", "note-taking", "comparison"]
 ---
 
-Developers have specific requirements for note-taking tools that general-purpose reviews tend to gloss over. Git compatibility matters. Markdown portability matters. The ability to extend functionality through code matters. Obsidian and Logseq both target this audience, but they approach the problem from fundamentally different angles.
+Developers have specific requirements for [note-taking](/category/note-taking/) tools that general-purpose reviews tend to gloss over. Git compatibility matters. Markdown portability matters. The ability to extend functionality through code matters. Obsidian and Logseq both target this audience, but they approach the problem from fundamentally different angles.
 
-This comparison focuses on the things developers actually care about when choosing between these two.
+This comparison focuses on the things [developers](/best-for/developers/) actually care about when choosing between these two.
 
 ## File Format and Markdown Compatibility
 
@@ -41,7 +41,7 @@ For developers who version-control their notes (and most developer-users do), Ob
 
 **Logseq** has roughly 300 plugins. The JavaScript API can manipulate blocks, pages, and UI, but documentation gaps exist and breaking changes between versions have frustrated authors. Key plugins: Git, Developer Theme, Tabs, and Agenda.
 
-Obsidian wins on ecosystem breadth and API maturity. If you want to build custom tooling around your notes, Obsidian's TypeScript API and larger community make it the safer bet.
+Obsidian wins on ecosystem breadth and API maturity. If you want to build custom tooling [around](/tools/around/) your notes, Obsidian's TypeScript API and larger community make it the safer bet.
 
 ## Code Handling
 

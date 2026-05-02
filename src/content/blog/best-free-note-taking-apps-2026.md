@@ -19,9 +19,9 @@ Here are the seven best free note-taking apps in 2026, with honest assessments o
 **Free plan:** Unlimited personal blocks, unlimited pages
 **Paid:** Plus at $10/user/month
 
-Notion isn't just a note-taking app — it's a full workspace that combines notes, databases, task management, wikis, and calendars. The block-based editor lets you build anything from a simple daily journal to a complex project management system.
+Notion isn't just a note-taking app — it's a full workspace that combines notes, databases, task management, wikis, and calendars. The block-based editor lets you build anything from a simple daily journal to a complex [project management](/category/project-management/) system.
 
-**Why it stands out in 2026:** Notion AI (available as an add-on) can summarize pages, generate content, and answer questions about your notes. The template library has exploded — you can find community-made templates for almost any use case imaginable.
+**Why it stands out in 2026:** [Notion AI](/tools/notion-ai/) (available as an add-on) can summarize pages, generate content, and answer questions about your notes. The template library has exploded — you can find community-made templates for almost any use case imaginable.
 
 **Best for:** People who want to consolidate their digital life into one app. Students, freelancers, and teams who need structured knowledge management.
 
@@ -40,7 +40,7 @@ Obsidian is unlike any other app on this list. All your notes are stored as plai
 
 **Best for:** Researchers, writers, and knowledge workers who want to build a personal knowledge base (PKM). Anyone who values data ownership and portability.
 
-**Limitations:** Requires some setup to get the most out of it. Sync between devices requires the paid Sync add-on or a third-party solution (iCloud, Dropbox). The learning curve is real.
+**Limitations:** Requires some setup to get the most out of it. Sync between devices requires the paid Sync add-on or a third-party solution (iCloud, [Dropbox](/tools/dropbox/)). The learning curve is real.
 
 For a deeper dive, check out our full [Obsidian review for 2026](/blog/obsidian-review-2026).
 
@@ -66,7 +66,7 @@ Apple Notes is easy to dismiss as basic, but it has quietly become one of the mo
 **Free plan:** Fully free
 **Paid:** N/A (included with Google account)
 
-Google Keep is the scratchpad of note-taking apps. It's designed for speed: open the app, type your thought, close the app. Color-coded sticky notes, labels, reminders, and list-making make it ideal for capturing quick ideas and to-dos.
+Google Keep is the scratchpad of note-taking apps. It's designed for speed: open the app, type your thought, [close](/tools/close/) the app. Color-coded sticky notes, labels, reminders, and list-making make it ideal for capturing quick ideas and to-dos.
 
 **Why it stands out in 2026:** Deep integration with Google Workspace means your Keep notes show up in Gmail, Google Docs, and Google Assistant. The Gemini AI integration now lets you interact with your notes using natural language.
 
@@ -111,9 +111,9 @@ Evernote invented the modern note-taking category, but its 2026 free plan is a s
 **Free plan:** Fully free and open source
 **Paid:** Sync at $5/month (coming soon)
 
-Logseq is an open-source, privacy-first note-taking app built around the outliner format and daily journals. Like Obsidian, all notes are stored locally as plain files (Markdown or Org-mode). The bidirectional linking and graph view create a web of connected ideas.
+Logseq is an open-source, privacy-first note-taking app built [around](/tools/around/) the outliner format and daily journals. Like Obsidian, all notes are stored locally as plain files (Markdown or Org-mode). The bidirectional linking and graph view create a web of connected ideas.
 
-**Why it stands out in 2026:** Logseq has a passionate community pushing active development. The built-in PDF annotator, task management, and flashcard features make it a serious PKM tool. The open-source nature means no vendor lock-in of any kind.
+**Why it stands out in 2026:** Logseq has a passionate community pushing active development. The built-in PDF annotator, [task management](/category/task-management/), and flashcard features make it a serious PKM tool. The open-source nature means no vendor lock-in of any kind.
 
 **Best for:** Power users who want an Obsidian alternative with a different organizational paradigm (outliner-first vs. document-first). Developers and privacy-conscious users.
 

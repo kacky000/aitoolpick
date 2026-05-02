@@ -32,7 +32,7 @@ Notion and Monday.com are both popular productivity platforms, but they take ver
 - Free: Up to 2 seats, 3 boards
 - Basic: $9/seat/mo — unlimited items, 5GB storage
 - Standard: $12/seat/mo — timeline, Gantt, automations
-- Pro: $19/seat/mo — time tracking, formula column
+- Pro: $19/seat/mo — [time tracking](/category/time-tracking/), formula column
 - Enterprise: Custom
 
 Important: Monday.com requires a minimum of 3 seats on paid plans, so your real starting cost is $27/mo vs Notion's $10/mo for a single user.
@@ -41,13 +41,13 @@ Important: Monday.com requires a minimum of 3 seats on paid plans, so your real 
 
 ### Project Management
 
-Monday.com wins here with purpose-built project views (Gantt, timeline, workload), automations, and dashboards. Notion can do project management through databases and views, but requires more setup.
+Monday.com wins here with purpose-built project views (Gantt, timeline, workload), automations, and dashboards. Notion can do [project management](/category/project-management/) through databases and views, but requires more setup.
 
-**Winner: Monday.com** for out-of-the-box project management
+**Winner: Monday.com** for out-of-the-[box](/tools/box/) project management
 
 ### Documentation
 
-Notion is fundamentally a document-first tool. Its pages, databases, and nested content system make it unmatched for wikis, docs, and knowledge bases. Monday.com has Docs, but it feels like an afterthought.
+Notion is fundamentally a document-first tool. Its pages, databases, and nested content system [make](/tools/make/) it unmatched for wikis, docs, and knowledge bases. Monday.com has Docs, but it feels like an afterthought.
 
 **Winner: Notion** by a wide margin
 
@@ -59,13 +59,13 @@ Notion lets you build virtually anything — CRMs, wikis, habit trackers, produc
 
 ### Automations
 
-Monday.com offers powerful no-code automations with hundreds of recipes. Notion's automations are more basic and were added later.
+Monday.com offers powerful no-code automations with hundreds of recipes. Notion's automations are more basic and were added [later](/tools/later/).
 
 **Winner: Monday.com** significantly
 
 ### Integrations
 
-Both integrate with major tools, but Monday.com has deeper native integrations (Slack, Zoom, Gmail, etc.) while Notion relies more on its API and third-party connectors.
+Both integrate with major tools, but Monday.com has deeper native integrations ([Slack](/tools/slack/), Zoom, Gmail, etc.) while Notion relies more on its API and third-party connectors.
 
 **Winner: Monday.com** slightly
 
@@ -87,7 +87,7 @@ Both integrate with major tools, but Monday.com has deeper native integrations (
 
 ## Can You Use Both?
 
-Yes — and some teams do. A common setup is Notion for documentation and knowledge management, with Monday.com for active project tracking. They integrate via Zapier or Make.
+Yes — and some teams do. A common setup is Notion for documentation and knowledge management, with Monday.com for active project tracking. They integrate via [Zapier](/tools/zapier/) or Make.
 
 ## Verdict
 

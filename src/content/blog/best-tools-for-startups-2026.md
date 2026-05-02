@@ -18,7 +18,7 @@ This guide covers the essential startup toolkit — from day-one project managem
 
 ### 1. Linear — Best for Engineering-Heavy Startups
 
-Linear has become the default project management tool for serious software startups. It's fast, opinionated, and built specifically for engineering teams. Issues sync automatically with GitHub pull requests, sprints are built in, and the keyboard-first interface means developers rarely need to leave their workflow to update a ticket.
+Linear has become the default project management tool for serious software startups. It's fast, opinionated, and built specifically for engineering teams. Issues sync automatically with [GitHub](/tools/github/) pull requests, sprints are built in, and the keyboard-first interface means developers rarely need to leave their workflow to update a ticket.
 
 **Why it suits startups**: Linear is free for up to 250 issues, which is plenty for an early-stage team. The UX is clean enough that engineers actually update it — which is half the battle.
 
@@ -32,7 +32,7 @@ Linear has become the default project management tool for serious software start
 
 ### 2. ClickUp — Best for Non-Technical Startup Teams
 
-ClickUp is a flexible all-in-one workspace that handles tasks, docs, goals, and time tracking in one platform. It's more powerful than Trello and more accessible than Linear for teams without a strong engineering focus. The free tier is exceptionally generous — unlimited tasks and 100MB storage.
+ClickUp is a flexible all-in-one workspace that handles tasks, docs, goals, and time tracking in one platform. It's more powerful than [Trello](/tools/trello/) and more accessible than Linear for teams without a strong engineering focus. The free tier is exceptionally generous — unlimited tasks and 100MB storage.
 
 **Why it suits startups**: The flexibility means you can configure ClickUp to match your process rather than fitting your process to the tool. Marketing, sales, and ops teams find it easier to adopt than Linear.
 
@@ -50,7 +50,7 @@ ClickUp is a flexible all-in-one workspace that handles tasks, docs, goals, and 
 
 Slack remains the communication backbone for most startups in 2026. Channels keep conversations organized by topic, the search is powerful, and the integration library connects Slack to virtually every other tool in your stack. The free tier is functional for small teams, though message history is limited to 90 days.
 
-**Why it suits startups**: Slack's async-friendly format reduces the need for status update meetings. You can integrate it with Linear, Notion, GitHub, and Zapier — so your tools talk to each other through Slack channels.
+**Why it suits startups**: Slack's async-friendly format reduces the need for status update meetings. You can integrate it with Linear, [Notion](/tools/notion/), GitHub, and Zapier — so your tools talk to each other through Slack channels.
 
 **Free tier**: 90-day message history, 10 integrations
 
@@ -74,7 +74,7 @@ Every startup needs a shared brain — a place where processes, meeting notes, p
 
 **Pricing**: Free / $10/user/month for Plus / $15/user/month for Business
 
-**Standout feature**: Notion AI can generate first drafts of SOPs, meeting summaries, and product specs — cutting the time it takes to keep your wiki up to date.
+**Standout feature**: [Notion AI](/tools/notion-ai/) can generate first drafts of SOPs, meeting summaries, and product specs — cutting the time it takes to keep your wiki up to date.
 
 ---
 
@@ -110,7 +110,7 @@ Figma is for product design; Canva is for everything else. Pitch decks, social m
 
 ### 7. Zapier — Best for Connecting Your Tool Stack
 
-Every hour your team spends on repetitive data entry is an hour not spent building. Zapier connects your tools so information flows automatically — a new Stripe payment creates a Notion record, a Slack message triggers a Linear ticket, a form submission adds a row to Google Sheets. The AI-assisted workflow builder makes it faster than ever to set up these automations without code.
+Every hour your team spends on repetitive data entry is an hour not spent building. [Zapier](/tools/zapier/) connects your tools so information flows automatically — a new Stripe payment creates a Notion record, a Slack message triggers a Linear ticket, a form submission adds a row to Google Sheets. The AI-assisted workflow builder makes it faster than ever to set up these automations without code.
 
 **Why it suits startups**: Early-stage startups are building process from scratch. Zapier lets you automate before you have the engineering bandwidth to build internal tools.
 

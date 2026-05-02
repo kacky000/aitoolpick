@@ -14,12 +14,12 @@ Not every team needs a $20/user/month project management tool. Many of the best 
 
 | Tool | Users | Projects | Key Limit |
 |------|-------|----------|-----------|
-| ClickUp | Unlimited | Unlimited | 100MB storage |
+| [ClickUp](/tools/clickup/) | Unlimited | Unlimited | 100MB storage |
 | Asana | Up to 10 | Unlimited | No timeline/goals |
-| Trello | Unlimited | 10 boards | 1 Power-Up/board |
-| Notion | Up to 10 | Unlimited | Limited blocks for teams |
-| Linear | Unlimited | Unlimited | 250 issues |
-| Monday.com | Up to 2 | 3 boards | No automations |
+| [Trello](/tools/trello/) | Unlimited | 10 boards | 1 Power-Up/board |
+| [Notion](/tools/notion/) | Up to 10 | Unlimited | Limited blocks for teams |
+| [Linear](/tools/linear/) | Unlimited | Unlimited | 250 issues |
+| [Monday.com](/tools/monday/) | Up to 2 | 3 boards | No automations |
 
 ## 1. ClickUp — Best Free Plan Overall
 

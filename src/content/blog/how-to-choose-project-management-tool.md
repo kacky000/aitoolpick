@@ -17,22 +17,22 @@ The most important factor in choosing a PM tool is **who will use it**.
 ### Software Development Teams
 **Top picks:** [Linear](/tools/linear), [ClickUp](/tools/clickup), [Asana](/tools/asana)
 
-Dev teams need Git integration, sprint/cycle management, and issue tracking. Linear is the fastest and most developer-focused. ClickUp offers more flexibility if your team includes non-developers.
+Dev teams need Git integration, sprint/cycle management, and issue tracking. Linear is the fastest and most developer-focused. [ClickUp](/tools/clickup/) offers more flexibility if your team includes non-developers.
 
 ### Marketing and Creative Teams
 **Top picks:** [Monday.com](/tools/monday), [Asana](/tools/asana), [Notion](/tools/notion)
 
-Marketing teams need campaign tracking, content calendars, and approval workflows. Monday.com's visual boards and automations excel here. Asana's portfolio view helps manage multiple campaigns.
+Marketing teams need campaign tracking, content calendars, and approval workflows. [Monday.com](/tools/monday/)'s visual boards and automations excel here. Asana's portfolio view helps manage multiple campaigns.
 
 ### Cross-Functional Teams
 **Top picks:** [ClickUp](/tools/clickup), [Notion](/tools/notion), [Monday.com](/tools/monday)
 
-If engineers, designers, marketers, and PMs all need to collaborate, you need a flexible tool. ClickUp and Notion both offer enough customization to serve diverse workflows.
+If engineers, designers, marketers, and PMs all need to collaborate, you need a flexible tool. ClickUp and [Notion](/tools/notion/) both offer enough customization to serve diverse workflows.
 
 ### Solo and Small Teams
 **Top picks:** [Todoist](/tools/todoist), [Trello](/tools/trello), [Notion](/tools/notion)
 
-Don't over-engineer it. Simple tools like Todoist and Trello keep small teams focused without the overhead of enterprise features you'll never use.
+Don't over-engineer it. Simple tools like [Todoist](/tools/todoist/) and Trello keep small teams focused without the overhead of enterprise features you'll never use.
 
 ## Step 2: Prioritize Your Must-Have Features
 
@@ -41,7 +41,7 @@ Not every feature matters equally. Rank these by importance for your team:
 | Feature | Best Tools |
 |---------|-----------|
 | Speed & Performance | Linear, Todoist |
-| Customization | ClickUp, Airtable |
+| Customization | ClickUp, [Airtable](/tools/airtable/) |
 | Built-in Docs | Notion, ClickUp |
 | Visual Boards | Trello, Monday.com |
 | Automations | Monday.com, Zapier |

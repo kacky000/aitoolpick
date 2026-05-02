@@ -14,7 +14,7 @@ Let's find out.
 
 ## What Is Trello?
 
-Trello is a visual project management tool built around Kanban boards. You create boards, add lists (columns), and move cards between them. It's owned by Atlassian — the same company behind Jira and Confluence.
+Trello is a visual project management tool built [around](/tools/around/) Kanban boards. You create boards, add lists (columns), and move cards between them. It's owned by Atlassian — the same company behind Jira and Confluence.
 
 ## Key Features in 2026
 
@@ -25,7 +25,7 @@ Trello's core. Drag-and-drop cards across lists to track progress. It's intuitiv
 Trello now offers Timeline, Calendar, Table, Dashboard, and Map views — though most are locked behind the Premium plan.
 
 ### Power-Ups
-Integrations with Slack, Google Drive, GitHub, and hundreds of other apps. Free plans get unlimited Power-Ups (a huge improvement from the old one-Power-Up limit).
+Integrations with Slack, [Google Drive](/tools/google-drive/), GitHub, and hundreds of other apps. Free plans get unlimited Power-Ups (a huge improvement from the old one-Power-Up limit).
 
 ### Butler Automation
 Built-in automation that lets you create rules, scheduled commands, and buttons. No code needed. For example: "When a card is moved to Done, mark the due date as complete and notify the team."
@@ -75,7 +75,7 @@ Atlassian Intelligence is starting to roll out in Trello, offering AI-generated 
 
 ## Trello vs. The Competition
 
-| Feature | Trello | ClickUp | Notion | Asana |
+| Feature | Trello | [ClickUp](/tools/clickup/) | Notion | Asana |
 |---------|--------|---------|--------|-------|
 | Free plan | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★☆☆ |
 | Ease of use | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★★★☆ |
@@ -89,7 +89,7 @@ Want a detailed breakdown? Check our [Trello vs ClickUp](/blog/clickup-vs-trello
 
 Trello remains the best project management tool for people who don't want to think about project management. It does one thing — Kanban boards — and does it beautifully.
 
-But if your needs have outgrown "move cards left to right," you'll hit Trello's ceiling fast. The lack of native docs, limited reporting, and view restrictions on the free plan make it hard to recommend as your *only* tool in 2026.
+But if your needs have outgrown "move cards left to right," you'll hit Trello's ceiling fast. The lack of native docs, limited reporting, and view restrictions on the free plan [make](/tools/make/) it hard to recommend as your *only* tool in 2026.
 
 **Bottom line:** Use Trello if simplicity is your priority. Switch to [ClickUp](/tools/clickup) or [Notion](/tools/notion) if you need more firepower.
 

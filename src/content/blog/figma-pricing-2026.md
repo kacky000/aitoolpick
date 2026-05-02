@@ -14,8 +14,8 @@ Figma has become the go-to design tool for teams worldwide, but understanding it
 
 | Plan | Price | Best For |
 |------|-------|----------|
-| Free (Starter) | $0 | Individual designers and students |
-| Professional | $15/editor/mo | Professional designers and small teams |
+| Free (Starter) | $0 | Individual [designers](/best-for/designers/) and students |
+| Professional | $15/editor/mo | Professional designers and [small teams](/best-for/small-teams/) |
 | Organization | $45/editor/mo | Design teams needing advanced management |
 | Enterprise | $90/editor/mo | Large organizations with security needs |
 
@@ -25,7 +25,7 @@ All paid plans are billed annually. Figma uses per-editor pricing, meaning viewe
 
 Figma's free plan is solid for individuals:
 
-- **3 Figma design files** and 3 FigJam files
+- **3 Figma design files** and 3 [FigJam](/tools/figjam/) files
 - **Unlimited personal drafts**
 - **Plugins and templates** access
 - **Mobile app** access

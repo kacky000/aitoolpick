@@ -36,12 +36,12 @@ Monday.com's automation builder is one of the best in the industry. Using simple
 - Date-based reminders
 - Item creation and assignment
 - Cross-board updates
-- External integrations (Slack, email, etc.)
+- External integrations ([Slack](/tools/slack/), email, etc.)
 
 The free plan includes basic automations, with higher tiers offering more actions per month. The automation recipes are pre-built and customizable, making them accessible to non-technical users.
 
 ### Monday CRM
-The built-in CRM is a standout feature. Sales teams can manage leads, deals, and customer communications without a separate tool like HubSpot or Salesforce. It includes:
+The built-in CRM is a standout feature. Sales teams can manage leads, deals, and customer communications without a separate tool like HubSpot or [Salesforce](/tools/salesforce/). It includes:
 
 - Deal stages with pipeline views
 - Contact management
@@ -66,7 +66,7 @@ Create visual dashboards pulling data from multiple boards. Widgets include char
 
 ## Pros
 
-- **Visually stunning interface**: The color-coded boards make project tracking intuitive and even enjoyable
+- **Visually stunning interface**: The color-coded boards [make](/tools/make/) project tracking intuitive and even enjoyable
 - **Excellent automations**: One of the most powerful automation builders available
 - **Built-in CRM**: No need for a separate sales tool
 - **Flexible board structure**: Adapts to almost any workflow or industry
@@ -103,7 +103,7 @@ We've compared Monday.com with its closest competitors:
 
 Monday.com is a powerful, visually impressive work management platform that genuinely delivers on its "Work OS" promise. The combination of project management, CRM, automations, and dashboards makes it a compelling choice for teams that want a centralized platform.
 
-The main drawbacks are pricing (the 3-seat minimum and higher per-seat costs vs competitors like ClickUp) and the limited free plan. If budget isn't a primary concern and you value visual, intuitive project management, Monday.com is one of the best options available in 2026.
+The main drawbacks are pricing (the 3-seat minimum and higher per-seat costs vs competitors like [ClickUp](/tools/clickup/)) and the limited free plan. If budget isn't a primary concern and you value visual, intuitive project management, Monday.com is one of the best options available in 2026.
 
 **Rating: 4.5/5**
 

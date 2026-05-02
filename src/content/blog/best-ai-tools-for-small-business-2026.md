@@ -40,7 +40,7 @@ Grammarly checks your grammar, tone, clarity, and engagement across email, socia
 
 ## 4. Canva — AI-Powered Design for Marketing Materials
 
-Canva's AI features let you generate design suggestions, resize graphics for different platforms instantly, and even create backgrounds from text descriptions. You don't need a designer on staff anymore.
+Canva's AI features let you generate design suggestions, resize graphics for different platforms [instantly](/tools/instantly/), and even create backgrounds from text descriptions. You don't need a designer on staff anymore.
 
 **Pricing:** Free version with limited features; Canva Pro at $15/month or $180/year.
 
@@ -48,11 +48,11 @@ Canva's AI features let you generate design suggestions, resize graphics for dif
 
 ## 5. Zapier — Automate Repetitive Tasks Between Apps
 
-Zapier connects your favorite apps (Gmail, Slack, Stripe, Google Sheets, etc.) and automatically moves data between them. Create workflows that run 24/7 without manual intervention.
+Zapier connects your favorite apps (Gmail, Slack, [Stripe](/tools/stripe/), Google Sheets, etc.) and automatically moves data between them. Create workflows that run 24/7 without manual intervention.
 
 **Pricing:** Free plan with 100 tasks/month; paid plans starting at $29.99/month for unlimited automation.
 
-**Best for small business:** Eliminate copy-paste work, sync customer data between CRM and email, auto-save social media posts to a database, automatically create invoices from forms. Every hour you save is profit.
+**Best for small business:** Eliminate copy-paste work, sync customer data between [CRM](/category/crm/) and email, auto-save social media posts to a database, automatically create invoices from forms. Every hour you save is profit.
 
 ## 6. Notion AI — Organize Business Knowledge with AI
 
@@ -74,17 +74,17 @@ Perplexity AI researches topics and provides answers backed by real sources. Unl
 
 Jasper specializes in marketing copy. Feed it your product details, target audience, and tone preferences, and it generates multiple variations of sales pages, ad copy, product descriptions, and email campaigns.
 
-**Pricing:** Custom pricing starting around $39/month for small businesses.
+**Pricing:** Custom pricing starting [around](/tools/around/) $39/month for small businesses.
 
 **Best for small business:** E-commerce sellers, agencies, course creators, and anyone who writes marketing copy regularly. Jasper's templates are built specifically for conversion-focused writing.
 
 ## 9. Otter.ai — AI Meeting Transcription and Summaries
 
-Otter.ai records Zoom, Teams, and in-person meetings, automatically transcribes them, and generates summaries with key points and action items. No more scrambling to take detailed notes.
+Otter.ai records [Zoom](/tools/zoom/), Teams, and in-person meetings, automatically transcribes them, and generates summaries with key points and action items. No more scrambling to take detailed notes.
 
 **Pricing:** Free plan with 600 monthly minutes; paid plans starting at $8.99/month for unlimited transcription.
 
-**Best for small business:** Sales calls, team meetings, client consultations, and interviews. Otter.ai frees your brain to focus on the conversation instead of note-taking.
+**Best for small business:** Sales calls, team meetings, client consultations, and interviews. Otter.ai frees your brain to focus on the conversation instead of [note-taking](/category/note-taking/).
 
 ## 10. Descript — AI Video and Audio Editing Made Simple
 

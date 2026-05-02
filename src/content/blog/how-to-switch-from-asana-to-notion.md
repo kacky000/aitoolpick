@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 Switching from [Asana](/tools/asana) to [Notion](/tools/notion) is popular among teams who want to consolidate project management, docs, and wikis into one workspace. You trade Asana's focused task management for Notion's flexibility.
 
-Here's how to make the switch without losing momentum.
+Here's how to [make](/tools/make/) the switch without losing momentum.
 
 ## Why Teams Switch
 
@@ -125,7 +125,7 @@ Once comfortable, leverage Notion features Asana doesn't have:
 ## Common Pitfalls
 
 1. **Over-engineering databases** — start simple, add properties as needed
-2. **Missing notifications** — Notion's notifications are weaker than Asana's. Use Slack integration
+2. **Missing notifications** — Notion's notifications are weaker than Asana's. Use [Slack](/tools/slack/) integration
 3. **No mobile parity** — Notion's mobile app is slower. Set expectations
 4. **Losing subtask structure** — plan your subtask migration strategy upfront
 

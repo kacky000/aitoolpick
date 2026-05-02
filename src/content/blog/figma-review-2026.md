@@ -16,13 +16,13 @@ We spent months using Figma for UI design, prototyping, and design systems to gi
 
 Figma is a browser-based design tool for creating user interfaces, prototypes, and design systems. It runs entirely in your web browser (with optional desktop apps for macOS and Windows), which means real-time collaboration works without any file syncing headaches.
 
-It has expanded well beyond basic design — Figma now includes Dev Mode for developer handoff, FigJam for whiteboarding, and a growing AI feature set for automating repetitive design tasks.
+It has expanded well beyond basic design — Figma now includes Dev Mode for developer handoff, [FigJam](/tools/figjam/) for whiteboarding, and a growing AI feature set for automating repetitive design tasks.
 
 ## Key Features
 
 ### Vector Editing and UI Design
 
-Figma's core design editor is excellent. You get a full vector editing toolset with auto layout, constraints, and components that make responsive design straightforward. The auto layout system is particularly strong — it handles padding, spacing, and resizing in a way that closely mirrors how CSS flexbox works, which makes designs translate cleanly to code.
+Figma's core design editor is excellent. You get a full vector editing toolset with auto layout, constraints, and components that [make](/tools/make/) responsive design straightforward. The auto layout system is particularly strong — it handles padding, spacing, and resizing in a way that closely mirrors how CSS flexbox works, which makes designs translate cleanly to code.
 
 The component system supports variants, allowing you to manage multiple states (hover, active, disabled) of a UI element within a single component. This is essential for maintaining consistent design systems.
 
@@ -55,7 +55,7 @@ FigJam is Figma's whiteboarding tool for brainstorming, diagramming, and worksho
 | Organization | $45/editor/month | Design system analytics, SSO, private plugins, centralized admin |
 | Enterprise | $75/editor/month | Advanced security, guest access controls, dedicated support |
 
-The **Free plan** is surprisingly capable for individuals. You get 3 team files (with unlimited personal drafts), which is enough for freelancers working on small projects. However, the limitation to 3 files makes it impractical for ongoing team use.
+The **Free plan** is surprisingly capable for individuals. You get 3 team files (with unlimited personal drafts), which is enough for [freelancers](/best-for/freelancers/) working on small projects. However, the limitation to 3 files makes it impractical for ongoing team use.
 
 **Professional** at $15/editor/month is where most teams land. You get unlimited files, shared component libraries, version history, and Dev Mode. For a small product team (designer + developer), this is excellent value.
 
@@ -85,9 +85,9 @@ One critical pricing detail: Figma only charges for editors. Viewers (people who
 
 **Requires internet for full functionality.** While Figma has an offline mode, it is limited. If you regularly work without reliable internet, this is a real concern.
 
-**Performance degrades with large files.** Files with hundreds of frames and heavy assets can slow down, even on powerful machines. Teams need discipline around file organization.
+**Performance degrades with large files.** Files with hundreds of frames and heavy assets can slow down, even on powerful machines. Teams need discipline [around](/tools/around/) file organization.
 
-**Pricing adds up for large teams.** At $15/editor/month for Professional, a 10-person design team costs $1,800/year. Organization tier at $45/editor is $5,400/year for the same team. For budget-conscious startups, this is significant.
+**Pricing adds up for large teams.** At $15/editor/month for Professional, a 10-person design team costs $1,800/year. Organization tier at $45/editor is $5,400/year for the same team. For budget-conscious [startups](/best-for/startups/), this is significant.
 
 **Print and illustration are not its strength.** Figma is optimized for UI and product design. If you need advanced typography controls, CMYK support, or complex illustration tools, Adobe Illustrator or Affinity Designer remain better choices.
 

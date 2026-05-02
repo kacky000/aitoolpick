@@ -40,8 +40,8 @@ Each step in a scenario = 1 operation. Examples:
 
 | Scenario | Ops per Run | Monthly Runs at 1,000 Ops |
 |----------|------------|--------------------------|
-| Gmail → Slack notification (2 steps) | 2 | 500 runs |
-| RSS → filter → Notion (3 steps) | 3 | 333 runs |
+| Gmail → [Slack](/tools/slack/) notification (2 steps) | 2 | 500 runs |
+| RSS → filter → [Notion](/tools/notion/) (3 steps) | 3 | 333 runs |
 | Typeform → Google Sheets → Email (3 steps) | 3 | 333 runs |
 | Complex 10-step workflow | 10 | 100 runs |
 

@@ -35,13 +35,13 @@ Make is significantly cheaper at every tier, and its free plan is more generous.
 
 Zapier connects with **6,000+ apps**, making it the clear winner in breadth. If you use a niche SaaS product, there's a good chance Zapier already supports it.
 
-Make supports **1,000+ apps**, which covers all the major platforms (Google Workspace, Slack, Shopify, HubSpot, etc.) but you may occasionally hit gaps. That said, Make's HTTP module lets you connect to virtually any API with a bit of configuration.
+Make supports **1,000+ apps**, which covers all the major platforms (Google Workspace, Slack, Shopify, [HubSpot](/tools/hubspot/), etc.) but you may occasionally hit gaps. That said, Make's HTTP module lets you connect to virtually any API with a bit of configuration.
 
-**Winner: Zapier** for out-of-the-box integrations. Make catches up if you're comfortable with API calls.
+**Winner: Zapier** for out-of-the-[box](/tools/box/) integrations. Make catches up if you're comfortable with API calls.
 
 ## Ease of Use
 
-Zapier's interface is linear and intuitive. You pick a trigger, add actions, and you're done. Most people can build their first automation in under five minutes without any technical background.
+Zapier's interface is [linear](/tools/linear/) and intuitive. You pick a trigger, add actions, and you're done. Most people can build their first automation in under five minutes without any technical background.
 
 Make uses a **visual scenario builder** where you drag and drop modules onto a canvas and connect them with lines. It looks impressive and handles complex branching well, but the learning curve is steeper. Expect to spend an afternoon getting comfortable with the interface.
 
@@ -61,13 +61,13 @@ Make scenarios support:
 - **Aggregators** — combine multiple items back into one
 - **Scheduling granularity** — run scenarios at specific intervals down to the minute
 
-For example, building a workflow that "receives a webhook, checks a database, sends an email if the record exists OR creates a new record and notifies Slack if it doesn't" is straightforward in Make but clunky in Zapier.
+For example, building a workflow that "receives a webhook, checks a database, sends an email if the record exists OR creates a new record and notifies [Slack](/tools/slack/) if it doesn't" is straightforward in Make but clunky in Zapier.
 
 **Winner: Make**, by a wide margin.
 
 ## Speed and Reliability
 
-Zapier runs workflows almost instantly on paid plans (1-minute polling on the Starter plan, instant on Professional+). Make scenarios can be set to run on-demand or at scheduled intervals, with real-time webhooks available on all plans.
+Zapier runs workflows almost [instantly](/tools/instantly/) on paid plans (1-minute polling on the Starter plan, instant on Professional+). Make scenarios can be set to run on-demand or at scheduled intervals, with real-time webhooks available on all plans.
 
 Both platforms have strong uptime records (99.9%+). In practice, reliability differences are negligible for most users.
 

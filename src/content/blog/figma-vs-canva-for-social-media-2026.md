@@ -42,7 +42,7 @@ Figma is exceptional at what it was designed for: interface design, prototyping,
 
 **Pricing complexity**: Figma Professional at $15/month is competitive, but the features you're paying for (components, auto layout, version history, developer handoff) are irrelevant to social media work.
 
-**Learning curve**: Figma's interface is designed around design system concepts — frames, constraints, auto layout, variants. These are powerful but take real time to learn.
+**Learning curve**: Figma's interface is designed [around](/tools/around/) design system concepts — frames, constraints, auto layout, variants. These are powerful but take real time to learn.
 
 ## When Figma Makes Sense for Social Media
 

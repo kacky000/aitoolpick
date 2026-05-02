@@ -6,7 +6,7 @@ tags: ["miro", "microsoft", "whiteboard", "collaboration"]
 heroImage: "/thumbs/miro-vs-microsoft-whiteboard-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Choosing the right whiteboard tool can make or break your team's remote collaboration experience. Miro and Microsoft Whiteboard are two of the most popular options, but they take very different approaches. Miro is a feature-rich, dedicated whiteboard platform built for workshops and design thinking. Microsoft Whiteboard is a simpler, free tool tightly integrated with the Microsoft 365 ecosystem.
+Choosing the right whiteboard tool can [make](/tools/make/) or break your team's remote collaboration experience. Miro and Microsoft Whiteboard are two of the most popular options, but they take very different approaches. Miro is a feature-rich, dedicated whiteboard platform built for workshops and design thinking. Microsoft Whiteboard is a simpler, free tool tightly integrated with the Microsoft 365 ecosystem.
 
 So which one should your team use? This comparison breaks down features, pricing, integrations, and real-world use cases to help you decide.
 
@@ -17,7 +17,7 @@ So which one should your team use? This comparison breaks down features, pricing
 | **Price** | Free (3 boards) / $8/user/mo Starter | Free with Microsoft 365 |
 | **Canvas** | Infinite, zoomable | Infinite, zoomable |
 | **Templates** | 2,500+ | ~60 |
-| **Integrations** | 200+ (Jira, Slack, Asana) | Microsoft 365 suite |
+| **Integrations** | 200+ (Jira, Slack, [Asana](/tools/asana/)) | Microsoft 365 suite |
 | **AI Features** | AI clustering, summarization | Copilot integration |
 | **Best For** | Workshops, design sprints | Teams already on Microsoft 365 |
 | **Mobile App** | iOS, Android | iOS, Android |
@@ -49,7 +49,7 @@ The Miroverse community marketplace adds thousands more user-created templates, 
 
 ### Microsoft Whiteboard
 
-Microsoft Whiteboard offers around 60 templates covering basic categories like brainstorming, project planning, and retrospectives. They are functional but lack the depth and variety of Miro's library. If you need a quick retrospective board or a simple brainstorm layout, they get the job done. For anything more specialized, you will need to build from scratch.
+Microsoft Whiteboard offers [around](/tools/around/) 60 templates covering basic categories like brainstorming, project planning, and retrospectives. They are functional but lack the depth and variety of Miro's library. If you need a quick retrospective board or a simple brainstorm layout, they get the job done. For anything more specialized, you will need to build from scratch.
 
 **Winner: Miro** — by a wide margin. Template quality and quantity are not comparable.
 
@@ -57,7 +57,7 @@ Microsoft Whiteboard offers around 60 templates covering basic categories like b
 
 ### Miro
 
-Miro integrates with over 200 tools, including Jira, Asana, Slack, Microsoft Teams, Confluence, Google Drive, Figma, Notion, and Zoom. The Jira integration is particularly strong, allowing you to import and sync Jira cards directly onto your whiteboard for sprint planning.
+Miro integrates with over 200 tools, including Jira, Asana, Slack, [Microsoft Teams](/tools/microsoft-teams/), Confluence, Google Drive, Figma, Notion, and Zoom. The Jira integration is particularly strong, allowing you to import and sync Jira cards directly onto your whiteboard for sprint planning.
 
 Miro also has a robust API and SDK for building custom integrations, which is valuable for enterprise teams with specific workflow needs.
 
@@ -121,7 +121,7 @@ Through Copilot integration, Microsoft Whiteboard can generate ideas, categorize
 - **Design teams** running sprints, user research, and journey mapping
 - **Consultants and facilitators** who run workshops for clients
 - **Product teams** doing sprint planning, retrospectives, and roadmapping
-- **Teams using diverse tools** (Jira, Slack, Figma, Asana) that need rich integrations
+- **Teams using diverse tools** (Jira, Slack, [Figma](/tools/figma/), Asana) that need rich integrations
 - **Anyone who needs 2,500+ templates** to avoid building from scratch
 
 For a deeper look at Miro's capabilities, check out our [Miro review for 2026](/blog/miro-review-2026/).

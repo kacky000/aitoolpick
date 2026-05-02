@@ -18,9 +18,9 @@ Figma is a browser-based design tool used to create:
 - **Wireframes and prototypes**
 - **Design systems and component libraries**
 - **Presentations** (via Figma Slides)
-- **Diagrams and brainstorming** (via FigJam)
+- **Diagrams and brainstorming** (via [FigJam](/tools/figjam/))
 
-It's used by designers at companies like Airbnb, Uber, Google, and Spotify. But it's also free for individuals, making it accessible to students, freelancers, and hobbyists.
+It's used by designers at companies like Airbnb, Uber, Google, and Spotify. But it's also free for individuals, making it accessible to students, [freelancers](/best-for/freelancers/), and hobbyists.
 
 **What Figma is NOT**: It's not a photo editor (use Photoshop), an illustration tool (use Illustrator), or a drag-and-drop template tool (use [Canva](/blog/canva-review-2026)). Figma is for *designing interfaces from scratch*.
 
@@ -42,7 +42,7 @@ For unlimited files, the Professional plan is $15/editor/month. But 3 files is p
 
 ### The Canvas
 
-The large empty area is your canvas — an infinite 2D space. You can zoom in/out (Ctrl/Cmd + scroll) and pan around (Space + drag).
+The large empty area is your canvas — an infinite 2D space. You can zoom in/out (Ctrl/Cmd + scroll) and pan [around](/tools/around/) (Space + drag).
 
 ### Top Toolbar
 
@@ -64,7 +64,7 @@ From left to right:
 
 - **Design tab**: Properties of the selected object (size, color, effects, etc.)
 - **Prototype tab**: Add interactions and transitions
-- **Inspect tab (Dev Mode)**: Code output for developers
+- **Inspect tab (Dev Mode)**: Code output for [developers](/best-for/developers/)
 
 ## Core Concept #1: Frames
 
@@ -171,7 +171,7 @@ You've just designed a functional mobile screen with reusable components.
 
 ## Prototyping Basics
 
-Make your design interactive:
+[Make](/tools/make/) your design interactive:
 
 1. Switch to the **Prototype tab** in the right panel
 2. Select the "+" button on your design

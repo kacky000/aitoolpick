@@ -15,7 +15,7 @@ Here are the best Coda alternatives in 2026, organized by the specific reason yo
 - **Cost**: Team plan at $30/user/month is expensive for small teams
 - **Complexity**: Coda's formula system and Pack configuration require investment to learn
 - **Mobile experience**: The mobile app lags behind desktop
-- **Template ecosystem**: Smaller than Notion's marketplace
+- **Template ecosystem**: Smaller than [Notion](/tools/notion/)'s marketplace
 - **No real-time database sync**: Some teams find Packs aren't a full replacement for dedicated database tools
 
 ## 1. Notion — Best for Knowledge Management
@@ -63,7 +63,7 @@ The difference: ClickUp is optimized for project execution. Coda is optimized fo
 **Price:** Free (up to 10 users) / $5.16/user/month (Standard) / $9.73/user/month (Premium)  
 **Best for:** Large engineering and enterprise teams already using Atlassian tools
 
-Confluence is the enterprise documentation standard — deeply integrated with Jira, mature access controls, compliance features, and decades of template evolution. If your team is in the Atlassian ecosystem, Confluence is the default choice for internal documentation.
+Confluence is the enterprise documentation standard — deeply integrated with [Jira](/tools/jira/), mature access controls, compliance features, and decades of template evolution. If your team is in the Atlassian ecosystem, Confluence is the default choice for internal documentation.
 
 It doesn't have Coda's interactive features, but it also doesn't need them. Confluence is a document repository first.
 

@@ -29,7 +29,7 @@ ClickUp's powerful task management handles client onboarding, deadline tracking,
 Asana's timeline view gives accounting managers a clear picture of all deadlines across the team. Rules-based automation can move tasks forward when a client submits documents.
 
 - **Price:** Free (basic), $10.99/user/month (Starter)
-- **Why accountants love it:** Portfolio views for client projects, clear accountability, integration with QuickBooks and Xero
+- **Why accountants love it:** Portfolio views for client projects, clear accountability, integration with QuickBooks and [Xero](/tools/xero/)
 - **Best for:** Mid-size accounting teams with multiple staff
 
 [Compare Asana vs ClickUp →](/blog/clickup-vs-asana-2026)
@@ -48,10 +48,10 @@ Notion works beautifully for storing tax checklists, client intake forms, and pr
 
 ### 4. Slack — Best for Internal Team Communication
 
-Slack channels let accounting teams create client-specific threads, share documents instantly, and use automation to flag urgent items. Integrations with accounting software keep everything connected.
+Slack channels let accounting teams create client-specific threads, share documents [instantly](/tools/instantly/), and use automation to flag urgent items. Integrations with accounting software keep everything connected.
 
 - **Price:** Free, $7.25/user/month (Pro)
-- **Why accountants love it:** Client-specific channels, file sharing, integration with Google Drive and Dropbox
+- **Why accountants love it:** Client-specific channels, file sharing, integration with [Google Drive](/tools/google-drive/) and Dropbox
 - **Best for:** Teams of 3+ who work remotely or across locations
 
 [Read our full Slack review →](/blog/slack-review-2026)
@@ -108,7 +108,7 @@ Claude excels at summarizing financial documents, drafting client emails, explai
 
 1. **Start with project management** — Get client deadlines and tasks organized first. ClickUp or Notion are great starting points.
 2. **Add automation second** — Once your workflow is stable, use Zapier to eliminate repetitive manual steps.
-3. **Use AI for drafting, not decisions** — Claude and ChatGPT are excellent for writing emails and summarizing documents, but always verify financial calculations yourself.
+3. **Use AI for drafting, not decisions** — Claude and [ChatGPT](/tools/chatgpt/) are excellent for writing emails and summarizing documents, but always verify financial calculations yourself.
 4. **Prioritize security** — Ensure any tool storing client data offers encryption at rest and SOC 2 compliance.
 
 [Compare all project management tools →](/compare)

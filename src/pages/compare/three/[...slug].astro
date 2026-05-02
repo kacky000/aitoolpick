@@ -1,0 +1,779 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import tools from '../../../data/tools.json';
+
+interface Tool {
+  id: string;
+  name: string;
+  slug: string;
+  icon?: string;
+  category: string[];
+  pricing: Record<string, number | boolean | null>;
+  currency: string;
+  pricingModel: string;
+  description: string;
+  pros: string[];
+  cons: string[];
+  bestFor: string[];
+  features: string[];
+  website: string;
+  affiliateUrl: string;
+  rating: number;
+  yearFounded: number;
+}
+
+export function getStaticPaths() {
+  const paths: { params: { slug: string }; props: { toolA: Tool; toolB: Tool; toolC: Tool } }[] = [];
+  const seen = new Set<string>();
+
+  // Helper: sort 3 tools alphabetically by slug and create key
+  function makeTriple(a: Tool, b: Tool, c: Tool) {
+    const sorted = [a, b, c].sort((x, y) => x.slug.localeCompare(y.slug));
+    const key = `${sorted[0].slug}-vs-${sorted[1].slug}-vs-${sorted[2].slug}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    paths.push({
+      params: { slug: key },
+      props: { toolA: sorted[0], toolB: sorted[1], toolC: sorted[2] },
+    });
+  }
+
+  // 1. Manually curated popular triples
+  const curatedTriples = [
+    ['chatgpt', 'claude', 'gemini'],
+    ['notion', 'clickup', 'monday'],
+    ['figma', 'canva', 'adobe-express'],
+    ['cursor', 'github-copilot', 'windsurf'],
+    ['slack', 'microsoft-teams', 'discord'],
+    ['asana', 'monday', 'clickup'],
+    ['zapier', 'make', 'n8n'],
+    ['ahrefs', 'semrush', 'surfer-seo'],
+  ];
+
+  for (const triple of curatedTriples) {
+    const resolved = triple.map((slug) => tools.find((t: Tool) => t.slug === slug)).filter(Boolean) as Tool[];
+    if (resolved.length === 3) {
+      makeTriple(resolved[0], resolved[1], resolved[2]);
+    }
+  }
+
+  // 2. For each category with 5+ tools, take top-3 by rating
+  const categoryMap: Record<string, Tool[]> = {};
+  for (const tool of tools as Tool[]) {
+    for (const cat of tool.category) {
+      if (!categoryMap[cat]) categoryMap[cat] = [];
+      categoryMap[cat].push(tool);
+    }
+  }
+
+  for (const [, catTools] of Object.entries(categoryMap)) {
+    if (catTools.length < 5) continue;
+    const top3 = [...catTools].sort((a, b) => b.rating - a.rating).slice(0, 3);
+    if (top3.length === 3) {
+      makeTriple(top3[0], top3[1], top3[2]);
+    }
+  }
+
+  return paths;
+}
+
+const { toolA, toolB, toolC } = Astro.props;
+const allTools = [toolA, toolB, toolC];
+
+// Utility functions
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) {
+    return pricing.free ? 'Free only' : 'Contact sales';
+  }
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / from $${lowest}/mo` : `From $${lowest}/mo`;
+}
+
+function hasFree(pricing: Record<string, number | boolean | null>): boolean {
+  return pricing.free === true;
+}
+
+function getMinPaidPrice(pricing: Record<string, number | boolean | null>): number | null {
+  const prices = Object.entries(pricing)
+    .filter(([key, val]) => key !== 'free' && typeof val === 'number' && val !== null)
+    .map(([, v]) => v as number);
+  return prices.length > 0 ? Math.min(...prices) : null;
+}
+
+// Determine winners
+const prices = allTools.map((t) => ({ tool: t, price: getMinPaidPrice(t.pricing) }));
+const pricesWithValues = prices.filter((p) => p.price !== null);
+const cheapestTool = pricesWithValues.length > 0
+  ? pricesWithValues.sort((a, b) => (a.price as number) - (b.price as number))[0].tool
+  : null;
+
+const highestRatedTool = [...allTools].sort((a, b) => b.rating - a.rating)[0];
+
+const freeTools = allTools.filter((t) => hasFree(t.pricing));
+const bestFreePlanTool = freeTools.length > 0
+  ? freeTools.sort((a, b) => b.rating - a.rating)[0]
+  : null;
+
+const mostFeaturesTool = [...allTools].sort((a, b) => b.features.length - a.features.length)[0];
+
+// All features union
+const allFeatures = [...new Set(allTools.flatMap((t) => t.features))];
+
+// 2-tool comparison links for each pair
+const pairs = [
+  [toolA, toolB],
+  [toolA, toolC],
+  [toolB, toolC],
+];
+
+const pairLinks = pairs.map(([a, b]) => {
+  const [first, second] = a.slug < b.slug ? [a, b] : [b, a];
+  return {
+    slug: `${first.slug}-vs-${second.slug}`,
+    label: `${first.name} vs ${second.name}`,
+  };
+});
+
+// Page metadata
+const pageTitle = `${toolA.name} vs ${toolB.name} vs ${toolC.name}: Best in 2026 | AIToolPick`;
+const pageDescription = `Compare ${toolA.name}, ${toolB.name}, and ${toolC.name} side-by-side. Pricing, features, ratings, pros & cons to help you choose the best tool.`;
+const pageUrl = `https://aitoolpick.org/compare/three/${toolA.slug}-vs-${toolB.slug}-vs-${toolC.slug}/`;
+
+// JSON-LD
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${toolA.name} vs ${toolB.name} vs ${toolC.name}`,
+  description: pageDescription,
+  url: pageUrl,
+  numberOfItems: 3,
+  itemListElement: allTools.map((tool, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    item: {
+      '@type': 'SoftwareApplication',
+      name: tool.name,
+      url: tool.website,
+      applicationCategory: tool.category[0],
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: tool.rating,
+        bestRating: 5,
+      },
+    },
+  })),
+});
+
+// Breadcrumbs
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Compare', href: '/compare/' },
+  { label: `${toolA.name} vs ${toolB.name} vs ${toolC.name}` },
+];
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={breadcrumbs} />
+
+      <!-- Page Header -->
+      <div class="three-compare-header">
+        <h1>{toolA.name} vs {toolB.name} vs {toolC.name}</h1>
+        <p class="subtitle">A comprehensive side-by-side comparison to help you choose the right tool for your needs.</p>
+      </div>
+
+      <!-- Tool Cards Header -->
+      <div class="tools-header-grid">
+        {allTools.map((tool) => (
+          <div class="tool-header-card">
+            {tool.icon && <img src={tool.icon} alt={`${tool.name} icon`} class="tool-icon" width="56" height="56" loading="lazy" />}
+            <h2 class="tool-header-name">{tool.name}</h2>
+            <div class="tool-header-rating">{'★'.repeat(Math.round(tool.rating))}{'☆'.repeat(5 - Math.round(tool.rating))} <span>{tool.rating}</span></div>
+            <p class="tool-header-desc">{tool.description}</p>
+            <a href={tool.website} class="tool-header-link" target="_blank" rel="noopener noreferrer">Visit site &rarr;</a>
+          </div>
+        ))}
+      </div>
+
+      <!-- Comparison Table -->
+      <div class="table-wrapper">
+        <table class="three-comparison-table">
+          <thead>
+            <tr>
+              <th class="feature-col">Feature</th>
+              {allTools.map((tool) => (
+                <th>
+                  {tool.icon && <img src={tool.icon} alt="" class="th-icon" width="20" height="20" />}
+                  {tool.name}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="feature-label">Pricing</td>
+              {allTools.map((tool) => (
+                <td>{formatPrice(tool.pricing)}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="feature-label">Rating</td>
+              {allTools.map((tool) => (
+                <td><strong>{tool.rating}</strong> / 5</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="feature-label">Free Plan</td>
+              {allTools.map((tool) => (
+                <td class={hasFree(tool.pricing) ? 'check' : 'cross'}>
+                  {hasFree(tool.pricing) ? '✓ Yes' : '✗ No'}
+                </td>
+              ))}
+            </tr>
+            <tr>
+              <td class="feature-label">Best For</td>
+              {allTools.map((tool) => (
+                <td>{tool.bestFor.map((b: string) => b.replace(/-/g, ' ')).join(', ')}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="feature-label">Founded</td>
+              {allTools.map((tool) => (
+                <td>{tool.yearFounded}</td>
+              ))}
+            </tr>
+            {allFeatures.map((feature) => (
+              <tr>
+                <td class="feature-label">{feature.replace(/-/g, ' ').replace(/\b\w/g, (c: string) => c.toUpperCase())}</td>
+                {allTools.map((tool) => (
+                  <td class={tool.features.includes(feature) ? 'check' : 'cross'}>
+                    {tool.features.includes(feature) ? '✓' : '✗'}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Pros & Cons Section -->
+      <div class="pros-cons-section">
+        <h2 class="section-title">Pros & Cons</h2>
+        <div class="pros-cons-grid">
+          {allTools.map((tool) => (
+            <div class="pros-cons-card">
+              <h3 class="pros-cons-tool-name">
+                {tool.icon && <img src={tool.icon} alt="" width="24" height="24" />}
+                {tool.name}
+              </h3>
+              <div class="pros-block">
+                <h4 class="pros-heading">Pros</h4>
+                <ul>
+                  {tool.pros.map((pro: string) => <li class="pro-item">{pro}</li>)}
+                </ul>
+              </div>
+              <div class="cons-block">
+                <h4 class="cons-heading">Cons</h4>
+                <ul>
+                  {tool.cons.map((con: string) => <li class="con-item">{con}</li>)}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Winner by Category -->
+      <div class="winners-section">
+        <h2 class="section-title">Winner by Category</h2>
+        <div class="winners-grid">
+          {cheapestTool && (
+            <div class="winner-card">
+              <div class="winner-badge">💰</div>
+              <h3>Best Value</h3>
+              <p class="winner-name">{cheapestTool.name}</p>
+              <p class="winner-detail">Starting at ${getMinPaidPrice(cheapestTool.pricing)}/mo</p>
+            </div>
+          )}
+          <div class="winner-card">
+            <div class="winner-badge">⭐</div>
+            <h3>Highest Rated</h3>
+            <p class="winner-name">{highestRatedTool.name}</p>
+            <p class="winner-detail">{highestRatedTool.rating} / 5 rating</p>
+          </div>
+          {bestFreePlanTool && (
+            <div class="winner-card">
+              <div class="winner-badge">🆓</div>
+              <h3>Best Free Plan</h3>
+              <p class="winner-name">{bestFreePlanTool.name}</p>
+              <p class="winner-detail">Free tier with {bestFreePlanTool.rating} rating</p>
+            </div>
+          )}
+          <div class="winner-card">
+            <div class="winner-badge">🏆</div>
+            <h3>Most Features</h3>
+            <p class="winner-name">{mostFeaturesTool.name}</p>
+            <p class="winner-detail">{mostFeaturesTool.features.length} features</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Head-to-Head Links -->
+      <div class="head-to-head-section">
+        <h2 class="section-title">Head-to-Head Comparisons</h2>
+        <p class="section-subtitle">Want a deeper dive into just two of these tools? Check out the detailed comparisons below.</p>
+        <div class="pair-links-grid">
+          {pairLinks.map((pair) => (
+            <a href={`/compare/${pair.slug}/`} class="pair-link-card">
+              <span class="pair-link-label">{pair.label}</span>
+              <span class="pair-link-arrow">&rarr;</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="cta-section">
+        <h2>Ready to try?</h2>
+        <p>Sign up for free trials and see which tool fits your workflow best.</p>
+        <div class="cta-buttons">
+          {allTools.map((tool) => (
+            <a href={tool.website} class="btn-cta" target="_blank" rel="noopener noreferrer">
+              Try {tool.name} &rarr;
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .three-compare-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .three-compare-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+  }
+
+  .three-compare-header .subtitle {
+    color: var(--gray-600);
+    font-size: 1.05rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Tool Header Cards */
+  .tools-header-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .tool-header-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .tool-header-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .tool-icon {
+    border-radius: var(--radius-md);
+    margin-bottom: 0.75rem;
+  }
+
+  .tool-header-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+
+  .tool-header-rating {
+    color: #f59e0b;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .tool-header-rating span {
+    color: var(--gray-700);
+    font-weight: 600;
+  }
+
+  .tool-header-desc {
+    color: var(--gray-600);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .tool-header-link {
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .tool-header-link:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
+  }
+
+  /* Comparison Table */
+  .table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 3rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--gray-200);
+  }
+
+  .three-comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+
+  .three-comparison-table thead {
+    background: var(--gray-50);
+    position: sticky;
+    top: 0;
+  }
+
+  .three-comparison-table th {
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.88rem;
+    border-bottom: 2px solid var(--gray-200);
+    white-space: nowrap;
+  }
+
+  .three-comparison-table th .th-icon {
+    vertical-align: middle;
+    margin-right: 0.4rem;
+    border-radius: 4px;
+  }
+
+  .three-comparison-table th.feature-col {
+    text-align: left;
+    min-width: 140px;
+  }
+
+  .three-comparison-table td {
+    padding: 0.85rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--gray-100);
+    vertical-align: middle;
+  }
+
+  .three-comparison-table td.feature-label {
+    text-align: left;
+    font-weight: 500;
+    color: var(--gray-700);
+    white-space: nowrap;
+  }
+
+  .three-comparison-table td.check {
+    color: #10b981;
+    font-weight: 600;
+  }
+
+  .three-comparison-table td.cross {
+    color: var(--gray-400);
+  }
+
+  .three-comparison-table tbody tr:hover {
+    background: var(--gray-50);
+  }
+
+  /* Pros & Cons */
+  .pros-cons-section {
+    margin-bottom: 3rem;
+  }
+
+  .pros-cons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .pros-cons-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+  }
+
+  .pros-cons-tool-name {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  .pros-cons-tool-name img {
+    border-radius: 4px;
+  }
+
+  .pros-block,
+  .cons-block {
+    margin-bottom: 1rem;
+  }
+
+  .pros-heading {
+    color: #10b981;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+
+  .cons-heading {
+    color: #ef4444;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+
+  .pros-cons-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pro-item,
+  .con-item {
+    font-size: 0.86rem;
+    line-height: 1.6;
+    color: var(--gray-700);
+    padding: 0.25rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+
+  .pro-item::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #10b981;
+    font-weight: 700;
+  }
+
+  .con-item::before {
+    content: '✗';
+    position: absolute;
+    left: 0;
+    color: #ef4444;
+    font-weight: 700;
+  }
+
+  /* Winners Section */
+  .winners-section {
+    margin-bottom: 3rem;
+  }
+
+  .winners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .winner-card {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    text-align: center;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .winner-card:hover {
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+
+  .winner-badge {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .winner-card h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+  }
+
+  .winner-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 0.25rem;
+  }
+
+  .winner-detail {
+    font-size: 0.84rem;
+    color: var(--gray-600);
+  }
+
+  /* Head-to-Head Section */
+  .head-to-head-section {
+    margin-bottom: 3rem;
+  }
+
+  .section-subtitle {
+    color: var(--gray-600);
+    font-size: 0.92rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pair-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .pair-link-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem 1.5rem;
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+  }
+
+  .pair-link-card:hover {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+
+  .pair-link-arrow {
+    color: var(--accent);
+    font-size: 1.2rem;
+  }
+
+  /* CTA Section */
+  .cta-section {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .cta-section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .cta-section p {
+    color: var(--gray-600);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-cta {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--accent);
+    color: white;
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .btn-cta:hover {
+    background: var(--accent-dark);
+    transform: translateY(-1px);
+  }
+
+  /* Section title */
+  .section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .tools-header-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .pros-cons-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .three-compare-header h1 {
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .three-comparison-table {
+      font-size: 0.82rem;
+    }
+
+    .three-comparison-table th,
+    .three-comparison-table td {
+      padding: 0.6rem 0.5rem;
+    }
+
+    .winners-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>

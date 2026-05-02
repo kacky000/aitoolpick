@@ -29,7 +29,7 @@ Notion's Free plan is surprisingly capable:
 - **Share with up to 10 guests**
 - **7-day page history**
 - **10 MB file upload limit**
-- **Basic Notion AI** (limited queries per day)
+- **Basic [Notion AI](/tools/notion-ai/)** (limited queries per day)
 - **Synced databases and all page types**
 
 The Free plan is genuinely usable for personal note-taking, journaling, and light project management. The main limitations are guest sharing (10 people max), file upload size, and page history.
@@ -158,10 +158,10 @@ The credits typically cover 6-12 months of the Plus plan for small teams.
 | Tool | Free Plan | Paid Starting At | AI Included? |
 |------|-----------|-----------------|--------------|
 | Notion | ✅ Generous | $10/user/mo | ✅ (paid plans) |
-| ClickUp | ✅ | $7/user/mo | Add-on |
-| Monday.com | ✅ (2 users) | $9/seat/mo | Add-on |
-| Obsidian | ✅ | $4/mo (sync only) | No |
-| Evernote | ✅ (limited) | $14.99/mo | ✅ |
+| [ClickUp](/tools/clickup/) | ✅ | $7/user/mo | Add-on |
+| [Monday.com](/tools/monday/) | ✅ (2 users) | $9/seat/mo | Add-on |
+| [Obsidian](/tools/obsidian/) | ✅ | $4/mo (sync only) | No |
+| [Evernote](/tools/evernote/) | ✅ (limited) | $14.99/mo | ✅ |
 
 Notion offers strong value in the mid-range. It's pricier than ClickUp's base plan but includes AI, and it's significantly cheaper than Evernote for comparable features. For a deeper comparison, check out [Notion vs ClickUp](/blog/notion-vs-clickup-which-is-better) or our [best Notion alternatives guide](/blog/best-notion-alternatives-2026).
 

@@ -39,7 +39,7 @@ Before diving into tool specifics, let's define what agencies genuinely need fro
 
 The **template system** is also a significant advantage. Agencies that run the same type of engagement repeatedly (SEO audits, brand identity projects, monthly retainers) can templatize entire project structures and spin them up in minutes.
 
-**Notion AI** (included in paid plans) helps with drafting client reports, summarizing meeting notes, and generating first drafts of content — useful for content agencies.
+**[Notion AI](/tools/notion-ai/)** (included in paid plans) helps with drafting client reports, summarizing meeting notes, and generating first drafts of content — useful for content agencies.
 
 ### Weaknesses
 
@@ -100,7 +100,7 @@ Documentation and knowledge management are secondary features in ClickUp. You ca
 
 ## Can You Use Both?
 
-Some agencies do. A common setup: Notion for the client wiki, brand guides, and internal SOPs; ClickUp for day-to-day task management and project timelines. They integrate via Zapier or the Notion-ClickUp integration.
+Some agencies do. A common setup: Notion for the client wiki, brand guides, and internal SOPs; ClickUp for day-to-day task management and project timelines. They integrate via [Zapier](/tools/zapier/) or the Notion-ClickUp integration.
 
 This works, but adds tool complexity. If your team is already struggling with tool sprawl, consolidate to one.
 

@@ -26,7 +26,7 @@ When HR initiatives involve multiple departments (office relocations, company ev
 - **Why HR loves it:** Portfolio view for managing multiple initiatives, Forms for employee requests
 
 ### ClickUp — Best Budget Option
-ClickUp packs project management, docs, forms, and dashboards into one tool at a lower price than Monday.com. Custom fields let you track HR-specific data like hire dates, departments, and review scores.
+ClickUp packs [project management](/category/project-management/), docs, forms, and dashboards into one tool at a lower price than Monday.com. Custom fields let you track HR-specific data like hire dates, departments, and review scores.
 
 - **Price:** Free / $7/user/mo (Unlimited) / $12/user/mo (Business)
 - **Why HR loves it:** Custom fields for employee data, built-in forms, most features per dollar

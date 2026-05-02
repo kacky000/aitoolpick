@@ -79,7 +79,7 @@ Don't try to recreate Monday.com in Notion. Instead, design a structure that lev
 | Column | Database property |
 | Update | Comment or page content |
 | Dashboard | Linked database views on a page |
-| Automation | Notion automations (limited) or Zapier |
+| Automation | Notion automations (limited) or [Zapier](/tools/zapier/) |
 
 ## Step 3: Build Your Databases
 

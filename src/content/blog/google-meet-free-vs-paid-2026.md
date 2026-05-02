@@ -49,7 +49,7 @@ The 60-minute limit is removed on all paid Workspace plans. Even the $6/user/mon
 ### Recording
 **Recording requires a paid plan.** This is the feature most often misunderstood. If you want to record client calls, training sessions, or team meetings for async review, you need at least Google Workspace Starter ($6/user/month).
 
-Recordings are saved directly to Google Drive, which is convenient. But you can't get recording on free.
+Recordings are saved directly to [Google Drive](/tools/google-drive/), which is convenient. But you can't get recording on free.
 
 ### Noise Cancellation
 Available on Workspace Standard ($12/user/month) and above. If you're in a noisy environment (coffee shop, home with kids, open office), noise cancellation makes a significant difference to call quality.
@@ -89,7 +89,7 @@ You don't need to pay if:
 - Background noise isn't an issue in your environment
 - You have fewer than 100 participants
 
-Many freelancers, small teams, and individuals will never need anything beyond free.
+Many [freelancers](/best-for/freelancers/), small teams, and individuals will never need anything beyond free.
 
 ## When to Upgrade
 
@@ -106,10 +106,10 @@ Upgrade to **Workspace Standard ($12/user/month)** if:
 
 ## Alternatives to Consider
 
-If you only need video conferencing and don't use the Google Workspace suite, paying $6-12/user/month for the whole suite might be overkill. Compare with:
+If you only need [video conferencing](/category/video-conferencing/) and don't use the Google Workspace suite, paying $6-12/user/month for the whole suite might be overkill. Compare with:
 
-- **Zoom**: $13.33/user/month for similar meeting features
-- **Microsoft Teams**: Included in Microsoft 365 at $6/user/month
+- **[Zoom](/tools/zoom/)**: $13.33/user/month for similar meeting features
+- **[Microsoft Teams](/tools/microsoft-teams/)**: Included in Microsoft 365 at $6/user/month
 - Our [Best Google Meet Alternatives](/blog/best-google-meet-alternatives-2026) guide for more options
 
 See also our [Google Meet Pricing 2026](/blog/google-meet-pricing-2026) guide for a full breakdown of all Workspace tiers.

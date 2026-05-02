@@ -14,9 +14,9 @@ That said, budget constraints force real choices. Here is a practical breakdown 
 
 ## What Each Tool Is Actually For
 
-**Slack** is an asynchronous communication platform built around channels, threads, and persistent messaging. Its strength is eliminating email for internal communication — keeping discussions organized by topic, searchable, and accessible to the full team.
+**Slack** is an asynchronous communication platform built [around](/tools/around/) channels, threads, and persistent messaging. Its strength is eliminating email for internal communication — keeping discussions organized by topic, searchable, and accessible to the full team.
 
-**Zoom** is a synchronous video conferencing platform. Its strength is face-to-face interaction — meetings, demos, interviews, and anything that benefits from real-time visual communication.
+**Zoom** is a synchronous [video conferencing](/category/video-conferencing/) platform. Its strength is face-to-face interaction — meetings, demos, interviews, and anything that benefits from real-time visual communication.
 
 These are complementary tools, not competing ones.
 
@@ -52,7 +52,7 @@ These are complementary tools, not competing ones.
 | Pro | $13.33/user/month | Unlimited meetings |
 | Business | $18.33/user/month | 300 participants |
 
-**Cost note:** A 10-person team using both Slack Pro and Zoom Pro pays $207/month combined ($72.50 + $133.33). That's a real budget line item for small teams.
+**Cost note:** A 10-person team using both Slack Pro and Zoom Pro pays $207/month combined ($72.50 + $133.33). That's a real budget line item for [small teams](/best-for/small-teams/).
 
 ## Slack's Video Features (Huddles)
 
@@ -99,7 +99,7 @@ Zoom has been building out its async features as part of "Zoom One," but the cha
 
 **Option 1: Use Slack + Google Meet.** Google Workspace Business Starter ($6/user/month) includes Gmail, Drive, Meet (unlimited meetings), and Calendar. Combined with Slack Pro, total is ~$13.25/user — cheaper than Slack + Zoom.
 
-**Option 2: Use Microsoft Teams instead of both.** Teams handles messaging and video in one platform. Weaker than Slack for async culture, but Microsoft 365 Business plans are $6-22/user/month and include Word, Excel, and PowerPoint.
+**Option 2: Use [Microsoft Teams](/tools/microsoft-teams/) instead of both.** Teams handles messaging and video in one platform. Weaker than Slack for async culture, but Microsoft 365 Business plans are $6-22/user/month and include Word, Excel, and PowerPoint.
 
 **Option 3: Slack + Zoom Free.** If your meetings are typically < 40 minutes, Zoom Free eliminates $13.33/user/month.
 

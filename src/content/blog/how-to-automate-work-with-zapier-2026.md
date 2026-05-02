@@ -26,19 +26,19 @@ Zaps can have multiple steps. A trigger can kick off 3-4 actions in sequence, an
 ## Marketing Team Automations Worth Building
 
 ### Lead Capture → CRM
-When a lead fills out a form (Typeform, Google Forms, website form) → Create a contact in your CRM (HubSpot, Salesforce, Pipedrive) → Notify the assigned rep in Slack.
+When a lead fills out a form (Typeform, Google Forms, website form) → Create a contact in your CRM (HubSpot, [Salesforce](/tools/salesforce/), Pipedrive) → Notify the assigned rep in Slack.
 
 This eliminates manual CRM entry and ensures no lead sits unclaimed.
 
 **Build it**: Trigger = New form submission. Action 1 = Create contact in CRM. Action 2 = Send Slack message to #new-leads with the contact details.
 
 ### New Blog Post → Social Announcements
-When a new article is published in your CMS (WordPress, Webflow) → Post an announcement to Slack → Create a draft in Buffer or Hootsuite for social promotion.
+When a new article is published in your CMS (WordPress, Webflow) → Post an announcement to Slack → Create a draft in Buffer or [Hootsuite](/tools/hootsuite/) for social promotion.
 
 This closes the gap between publishing and promotion without extra manual steps.
 
 ### Email Open/Click → CRM Activity Logging
-When a marketing email is opened or clicked (Mailchimp, ActiveCampaign) → Update the contact's record in your CRM with the engagement activity.
+When a marketing email is opened or clicked ([Mailchimp](/tools/mailchimp/), ActiveCampaign) → Update the contact's record in your CRM with the engagement activity.
 
 Gives sales reps real-time signals about which leads are engaged without manual monitoring.
 
@@ -52,7 +52,7 @@ When a deal is marked Closed Won in your CRM → Send a welcome email to the new
 This eliminates the handoff gap between sales and customer success that loses momentum post-close.
 
 ### Meeting Scheduled → Prep Checklist
-When a meeting is created in Google Calendar with a prospect → Create a research task in Asana or Notion → Send a Slack reminder to the rep 30 minutes before the meeting.
+When a meeting is created in Google Calendar with a prospect → Create a research task in Asana or [Notion](/tools/notion/) → Send a Slack reminder to the rep 30 minutes before the meeting.
 
 ### Form to Proposal
 When a discovery call notes form is submitted → Use Zapier's formatting tools to populate a proposal template → Send the draft to the rep's email.
@@ -68,7 +68,7 @@ When a new employee record is created in HR software → Create accounts in the 
 This is a multi-step Zap with paths for different roles (engineering vs. marketing vs. sales has different tool sets).
 
 ### Invoice and Payment Tracking
-When a new invoice is created in your accounting tool (QuickBooks, FreshBooks) → Add a row to a Google Sheet for tracking → Send a Slack notification to finance → Set a reminder for 30 days out if unpaid.
+When a new invoice is created in your accounting tool (QuickBooks, [FreshBooks](/tools/freshbooks/)) → Add a row to a Google Sheet for tracking → Send a Slack notification to finance → Set a reminder for 30 days out if unpaid.
 
 ### Support Ticket Routing
 When a new support ticket arrives → Categorize based on keywords → Assign to the right team → Send an acknowledgment email to the customer → Create a tracking task internally.

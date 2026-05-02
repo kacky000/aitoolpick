@@ -9,7 +9,7 @@ lastModified: "2026-04-28"
 
 **n8n** and **Zapier** are two of the most popular workflow automation platforms in 2026 — but they're built for very different audiences. Zapier is the approachable no-code solution for non-technical teams, while n8n is the open-source powerhouse favored by developers who want full control without per-task pricing.
 
-This guide breaks down every important difference so you can make the right call.
+This guide breaks down every important difference so you can [make](/tools/make/) the right call.
 
 ## Quick Verdict
 
@@ -29,13 +29,13 @@ For a side-by-side feature breakdown, see our [n8n vs Zapier comparison page](/c
 | Team | $69/mo | $140/mo |
 | Enterprise | Custom | Custom |
 
-The key difference: **n8n self-hosting is completely free forever**. If you can run a Docker container, you pay nothing for unlimited workflows and executions. Zapier's free tier is limited to 100 tasks per month — easy to exhaust with a few active workflows.
+The key difference: **n8n self-hosting is completely free forever**. If you can run a [Docker](/tools/docker/) container, you pay nothing for unlimited workflows and executions. Zapier's free tier is limited to 100 tasks per month — easy to exhaust with a few active workflows.
 
 For teams that run hundreds of automations monthly, Zapier's costs can spiral quickly. n8n's cloud pricing is also lower tier-for-tier once you compare execution volume.
 
 ## App Integrations
 
-Zapier wins on breadth with **7,000+ integrations**. If you use obscure or niche SaaS tools, Zapier almost certainly supports them out of the box.
+Zapier wins on breadth with **7,000+ integrations**. If you use obscure or niche SaaS tools, Zapier almost certainly supports them out of the [box](/tools/box/).
 
 n8n supports **400+ native integrations** but comes with a killer advantage: every node can run custom JavaScript or Python code. Its HTTP Request node lets you connect to any REST API, and the community maintains hundreds of additional nodes. In practice, n8n can connect to almost anything — it just requires slightly more effort for non-standard tools.
 
@@ -43,7 +43,7 @@ n8n supports **400+ native integrations** but comes with a killer advantage: eve
 
 ## Ease of Use
 
-Zapier's linear "Trigger → Action" model is the easiest automation interface in the industry. Most non-technical users build their first Zap in under five minutes.
+Zapier's [linear](/tools/linear/) "Trigger → Action" model is the easiest automation interface in the industry. Most non-technical users build their first Zap in under five minutes.
 
 n8n uses a **visual canvas-based workflow editor** where you connect nodes by dragging lines between them. It's more powerful and handles branching, loops, and error handling far better — but the learning curve is steeper. Budget a few hours to get comfortable if you're new to it.
 
@@ -53,7 +53,7 @@ If you've never used automation tools before, check out our [how to choose an au
 
 ## AI Agent Capabilities
 
-This is where n8n has surged ahead in 2026. n8n's **AI Agent nodes** let you build complex multi-step AI workflows — think: receive an email, extract data with an LLM, query a database, and reply automatically. You can wire up Claude, GPT-4o, Gemini, or any local model directly into your workflows.
+This is where n8n has surged ahead in 2026. n8n's **AI Agent nodes** let you build complex multi-step AI workflows — think: receive an email, extract data with an LLM, query a database, and reply automatically. You can wire up [Claude](/tools/claude/), GPT-4o, Gemini, or any local model directly into your workflows.
 
 Zapier has added AI actions and a Copilot feature, but it remains more of a "trigger this AI tool" connector rather than a true AI workflow builder.
 

@@ -67,7 +67,7 @@ Notion doesn't replace TickTick — it's a different kind of tool. But if you fe
 **Price:** Free / $7/month (Unlimited) / $12/month (Business)  
 **Best for:** Teams that need project management beyond personal task tracking
 
-ClickUp is what TickTick would be if it grew up into a full project management platform. Multiple views (list, board, calendar, Gantt), docs, goals, and time tracking — all in one app.
+[ClickUp](/tools/clickup/) is what TickTick would be if it grew up into a full project management platform. Multiple views (list, board, calendar, Gantt), docs, goals, and time tracking — all in one app.
 
 **What it has over TickTick:** Team collaboration, project-level organization, custom workflows  
 **What it lacks:** TickTick's simplicity and personal focus (ClickUp can be overwhelming)
@@ -93,7 +93,7 @@ Microsoft To Do is dead simple and completely free. It syncs with Outlook tasks,
 **Price:** Free / $10.99/month (Starter) / $24.99/month (Advanced)  
 **Best for:** Teams running campaigns, processes, and multi-step projects
 
-Asana is purpose-built for team work — not personal to-do lists. If you're switching from TickTick because you need better team coordination, Asana is the most intuitive step up.
+[Asana](/tools/asana/) is purpose-built for team work — not personal to-do lists. If you're switching from TickTick because you need better team coordination, Asana is the most intuitive step up.
 
 **What it has over TickTick:** Timeline view, project templates, workload management, portfolio views  
 **What it lacks:** Personal productivity features (habits, Pomodoro)

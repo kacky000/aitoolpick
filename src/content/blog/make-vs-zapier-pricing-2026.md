@@ -40,7 +40,7 @@ This is where the comparison gets interesting.
 
 **Make counts operations**: Similarly, every module execution counts as one operation. But Make gives you significantly more operations per dollar.
 
-**Example scenario**: You have a workflow that triggers when a form is submitted, adds data to a spreadsheet, sends an email, and posts to Slack (4 steps).
+**Example scenario**: You have a workflow that triggers when a form is submitted, adds data to a spreadsheet, sends an email, and posts to [Slack](/tools/slack/) (4 steps).
 
 - **Zapier**: 4 tasks per run. On the Starter plan (750 tasks), you get ~187 runs/month = **$0.107/run**
 - **Make**: 4 operations per run. On the Core plan (10,000 ops), you get ~2,500 runs/month = **$0.004/run**

@@ -20,11 +20,11 @@ A five-person startup has very different needs than a 500-person company. Free t
 
 ### 2. Meeting Frequency & Duration
 
-If your team averages 2-3 meetings per day, Zoom's 40-minute free limit becomes real friction. Long strategy sessions need unlimited duration. Quick 15-minute standups? Free tiers work fine.
+If your team averages 2-3 meetings per day, [Zoom](/tools/zoom/)'s 40-minute free limit becomes real friction. Long strategy sessions need unlimited duration. Quick 15-minute standups? Free tiers work fine.
 
 ### 3. Recording & Async Needs
 
-Do you need to record meetings for compliance, training, or team members in other time zones? Cloud recording is typically a paid feature. And if your real need is asynchronous video — sending screen recordings instead of scheduling live calls — you're looking at a fundamentally different tool category (Loom, not Zoom).
+Do you need to record meetings for compliance, training, or team members in other time zones? Cloud recording is typically a paid feature. And if your real need is asynchronous video — sending screen recordings instead of scheduling live calls — you're looking at a fundamentally different tool category ([Loom](/tools/loom/), not Zoom).
 
 ### 4. Ecosystem & Integrations
 
@@ -93,9 +93,9 @@ Video conferencing security is non-negotiable in 2026. Here are the key areas to
 Your video tool doesn't exist in isolation. Before committing, verify it integrates with your:
 
 - **Calendar** (Google Calendar or Outlook) for scheduling directly from events
-- **Chat tool** (Slack or Teams) for join links and notifications
-- **Project management tool** (Notion, Monday.com, Asana) for meeting notes
-- **CRM** (Salesforce, HubSpot) for sales call logging
+- **Chat tool** ([Slack](/tools/slack/) or Teams) for join links and notifications
+- **Project management tool** (Notion, [Monday.com](/tools/monday/), Asana) for meeting notes
+- **CRM** ([Salesforce](/tools/salesforce/), HubSpot) for sales call logging
 - **SSO provider** (Okta, Azure AD, Google) for single sign-on
 
 > For a broader look at video tools, see our roundup of the [best video conferencing tools in 2026](/blog/best-video-conferencing-tools-2026).

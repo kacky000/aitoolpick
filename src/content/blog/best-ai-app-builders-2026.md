@@ -11,17 +11,17 @@ AI app builders let you describe what you want in plain English and get a workin
 
 | Tool | Best For | Starting Price | Backend Support | Deploy |
 |------|----------|---------------|-----------------|--------|
-| **Lovable** | Full-stack MVPs | $20/mo | Supabase built-in | One-click |
-| **Bolt.new** | Quick prototypes | $20/mo | Limited | Browser-based |
+| **Lovable** | Full-stack MVPs | $20/mo | [Supabase](/tools/supabase/) built-in | One-click |
+| **[Bolt.new](/tools/bolt/)** | Quick prototypes | $20/mo | Limited | Browser-based |
 | **V0** | UI components | Free tier | None | Vercel |
-| **Replit Agent** | Learning + building | $25/mo | Yes | Built-in |
-| **Cursor** | Developers who code | $20/mo | Yes (you build it) | Manual |
+| **[Replit](/tools/replit/) Agent** | Learning + building | $25/mo | Yes | Built-in |
+| **Cursor** | [Developers](/best-for/developers/) who code | $20/mo | Yes (you build it) | Manual |
 
 ## 1. Lovable
 
 **Best for: Full-stack MVPs with database and auth**
 
-Lovable reached $20M ARR in just two months — the fastest-growing startup in European history — and for good reason. It's the most complete AI app builder for going from idea to deployed product.
+[Lovable](/tools/lovable/) reached $20M ARR in just two months — the fastest-growing startup in European history — and for good reason. It's the most complete AI app builder for going from idea to deployed product.
 
 **What makes it stand out:**
 - Built-in Supabase integration for database, auth, and storage
@@ -69,7 +69,7 @@ V0 started as a UI component generator and has expanded into full-stack developm
 
 **Best for: Beginners and full-stack experimentation**
 
-Replit Agent combines an AI coding assistant with a full development environment — editor, database, deployment, all in one browser tab.
+Replit Agent combines an [AI coding](/category/ai-coding/) assistant with a full development environment — editor, database, deployment, all in one browser tab.
 
 **What makes it stand out:**
 - Complete environment: code, run, deploy in one place
@@ -85,7 +85,7 @@ Replit Agent combines an AI coding assistant with a full development environment
 
 **Best for: Developers who want AI assistance, not AI replacement**
 
-Cursor isn't a no-code builder — it's an AI-powered IDE. But its Agent mode can scaffold entire applications from descriptions, making it a powerful app-building tool for developers who want to stay in control.
+[Cursor](/tools/cursor/) isn't a no-code builder — it's an AI-powered IDE. But its Agent mode can scaffold entire applications from descriptions, making it a powerful app-building tool for developers who want to stay in control.
 
 **What makes it stand out:**
 - Full control over generated code

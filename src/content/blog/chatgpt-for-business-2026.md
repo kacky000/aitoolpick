@@ -55,7 +55,7 @@ Workflow: Brief → ChatGPT draft → human edit → send
 
 **Escalation triage**: Train customer service reps to paste ambiguous tickets into ChatGPT to help categorize urgency and suggest response approaches.
 
-What ChatGPT can't do: handle live customer conversations reliably without significant customization and guardrails. The standard ChatGPT interface is not a customer service bot out of the box.
+What ChatGPT can't do: handle live customer conversations reliably without significant customization and guardrails. The standard ChatGPT interface is not a customer service bot out of the [box](/tools/box/).
 
 ## Sales: Speeding Up the Top and Middle of the Funnel
 

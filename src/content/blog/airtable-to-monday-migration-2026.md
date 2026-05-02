@@ -23,7 +23,7 @@ Before migrating, it is worth confirming Monday.com solves the problems you have
 | You need better Gantt/timeline views | Monday's timeline view is more capable |
 | Customer support is lacking | Monday has stronger enterprise support |
 
-If your team uses Airtable mostly as a relational database with complex linked records and formulas, Monday.com may not be the right replacement — it handles project management better than structured data.
+If your team uses Airtable mostly as a relational database with complex linked records and formulas, Monday.com may not be the right replacement — it handles [project management](/category/project-management/) better than structured data.
 
 ## Step 1: Audit Your Airtable Setup Before Migrating
 
@@ -105,7 +105,7 @@ Common Airtable automations and their Monday.com equivalents:
 | Notify when status changes | "When status changes, notify someone" |
 | Send email on record creation | "When item created, send email" |
 | Create record based on condition | "When condition is met, create item" |
-| Slack notification | "When status changes, send Slack message" |
+| [Slack](/tools/slack/) notification | "When status changes, send Slack message" |
 
 Monday.com's automation builder is more visual and easier for non-technical users than Airtable's.
 
@@ -115,7 +115,7 @@ CSV exports do not include attachment files — only URLs. To migrate attachment
 
 1. Use the exported attachment URLs to download files locally
 2. Re-upload files to Monday.com's file column manually or via API
-3. For large libraries, consider a tool like **Zapier** or **Make** to automate the re-upload process
+3. For large libraries, consider a tool like **[Zapier](/tools/zapier/)** or **Make** to automate the re-upload process
 
 ## What You Will Miss From Airtable
 

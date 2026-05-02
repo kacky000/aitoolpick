@@ -59,7 +59,7 @@ Claude's web search depends on tool availability and is less seamless. For resea
 
 ## Google Scholar & Academic Integration
 
-Gemini integrates with Google's ecosystem, which means smoother access to Google Scholar search results and Google Drive documents. If your research workflow is Google-centric, Gemini offers practical convenience advantages.
+Gemini integrates with Google's ecosystem, which means smoother access to Google Scholar search results and [Google Drive](/tools/google-drive/) documents. If your research workflow is Google-centric, Gemini offers practical convenience advantages.
 
 Claude has no native Google integration, but it handles uploaded PDFs from any source well.
 

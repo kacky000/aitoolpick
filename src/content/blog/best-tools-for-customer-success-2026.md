@@ -16,7 +16,7 @@ Here's what's worth using in 2026.
 
 **Price**: Free / $10/month (Plus) / $20/month (Business)
 
-Before anything else, customer success teams need a structured knowledge base: onboarding playbooks, QBR templates, escalation procedures, and product education materials. This content exists in most companies — in someone's head, scattered across Google Drive, or embedded in email threads.
+Before anything else, customer success teams need a structured knowledge base: onboarding playbooks, QBR templates, escalation procedures, and product education materials. This content exists in most companies — in someone's head, scattered across [Google Drive](/tools/google-drive/), or embedded in email threads.
 
 Notion works well for centralizing this because it's flexible enough to hold different content types (structured databases, documents, checklists) and searchable enough for CSMs to actually use it.
 
@@ -91,7 +91,7 @@ CS use cases for Loom:
 
 **Price**: Free / $20/user/month (Team)
 
-For CS teams that need more database power than Notion offers — complex filtering, rollup formulas, automation within the database, or integration with BI tools — Airtable is the stronger choice.
+For CS teams that need more database power than Notion offers — complex filtering, rollup formulas, automation within the database, or integration with BI tools — [Airtable](/tools/airtable/) is the stronger choice.
 
 The primary CS use case in Airtable is account health tracking: a database where each customer is a record with health scores, renewal dates, tier, assigned CSM, NPS scores, product adoption metrics, and current status. The formula and automation features let you build calculated health scores and trigger alerts automatically.
 

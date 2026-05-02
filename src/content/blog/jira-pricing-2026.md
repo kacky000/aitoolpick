@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Jira** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
-Jira's pricing is more complex than most project management tools. Beyond the core cloud plans, Atlassian layers on additional products — Confluence, Jira Product Discovery, Jira Service Management — that make the total cost significantly higher than the headline numbers suggest.
+Jira's pricing is more complex than most project management tools. Beyond the core cloud plans, Atlassian layers on additional products — Confluence, Jira Product Discovery, Jira Service Management — that [make](/tools/make/) the total cost significantly higher than the headline numbers suggest.
 
 Here is every number you need to know before committing to Jira in 2026.
 
@@ -66,10 +66,10 @@ A typical 50-person engineering org on Jira Premium + Confluence Standard + Atla
 | Tool | Entry Paid | Mid-Tier |
 |------|-----------|---------|
 | Jira | $8.60/user | $17/user |
-| Linear | $8/user | $16/user |
-| ClickUp | $7/user | $12/user |
-| Asana | $10.99/user | $24.99/user |
-| Monday.com | $9/user | $12/user |
+| [Linear](/tools/linear/) | $8/user | $16/user |
+| [ClickUp](/tools/clickup/) | $7/user | $12/user |
+| [Asana](/tools/asana/) | $10.99/user | $24.99/user |
+| [Monday.com](/tools/monday/) | $9/user | $12/user |
 
 Jira is mid-range on headline pricing but premium when add-ons are included.
 

@@ -49,10 +49,10 @@ The workaround — rejoining after the 40-minute cutoff — works technically bu
 This is the most significant upgrade in 2026. AI Companion provides:
 - **Meeting summaries** delivered after every call
 - **Action items** automatically extracted
-- **"What did I miss?"** — ask mid-meeting and get caught up instantly
+- **"What did I miss?"** — ask mid-meeting and get caught up [instantly](/tools/instantly/)
 - **Whiteboard AI** for generating diagrams
 
-Microsoft Teams charges $30/user/month for Copilot to do equivalent things. Zoom includes it in Pro at $13.32. If your team has any use for AI meeting summaries, this alone justifies the upgrade.
+[Microsoft Teams](/tools/microsoft-teams/) charges $30/user/month for Copilot to do equivalent things. Zoom includes it in Pro at $13.32. If your team has any use for AI meeting summaries, this alone justifies the upgrade.
 
 ### Cloud Recording
 Free plans record locally only. If you need to share recordings via link (sales calls, training, async team updates), Pro's 5 GB cloud recording is necessary. Storage can be expanded at $40/year per 1 GB if 5 GB isn't enough.
@@ -68,7 +68,7 @@ Before upgrading, consider whether Zoom is the right tool:
 |------|-----------|-------|
 | Google Meet | 60 minutes (with Google account) | Included in free Google accounts |
 | Microsoft Teams | Unlimited (basic) | Included in free Microsoft accounts |
-| Discord | Unlimited | Better for casual/community calls |
+| [Discord](/tools/discord/) | Unlimited | Better for casual/community calls |
 | Jitsi Meet | Unlimited | Open source, no account required |
 
 If your team already uses Google Workspace or Microsoft 365, you may have a paid video conferencing solution you're not fully using.

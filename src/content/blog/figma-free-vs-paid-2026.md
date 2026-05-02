@@ -8,14 +8,14 @@ lastModified: "2026-04-26"
 ---
 **Figma Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-Figma's free tier is one of the most generous in design software — but it does have real limits. If you've been bumping into walls, you've probably wondered whether the Professional plan is actually worth the $15 per month. This guide breaks down exactly what you get with each plan so you can make a confident decision.
+Figma's free tier is one of the most generous in design software — but it does have real limits. If you've been bumping into walls, you've probably wondered whether the Professional plan is actually worth the $15 per month. This guide breaks down exactly what you get with each plan so you can [make](/tools/make/) a confident decision.
 
 ## Figma Free Plan: What's Included
 
 The free tier covers everything a solo designer or small team needs to get started:
 
 - **3 Figma design files** (active at one time)
-- **3 FigJam files**
+- **3 [FigJam](/tools/figjam/) files**
 - **Unlimited personal drafts**
 - **Basic prototyping** (fixed overlays, scroll interactions)
 - **Community access** — use and publish templates
@@ -42,11 +42,11 @@ The Professional plan removes the major constraints and adds tools that matter f
 
 ### Shared Libraries
 
-This is one of the biggest unlocks. With shared libraries, you can publish a component library and have your entire team use the same design system. Any update you push propagates across all files instantly. If you're building a product with multiple designers, this alone justifies the upgrade.
+This is one of the biggest unlocks. With shared libraries, you can publish a component library and have your entire team use the same design system. Any update you push propagates across all files [instantly](/tools/instantly/). If you're building a product with multiple designers, this alone justifies the upgrade.
 
 ### Dev Mode
 
-Dev Mode gives developers a dedicated view of the design file — with CSS snippets, spacing measurements, and asset exports baked in. It reduces the back-and-forth between design and engineering significantly.
+Dev Mode gives [developers](/best-for/developers/) a dedicated view of the design file — with CSS snippets, spacing measurements, and asset exports baked in. It reduces the back-and-forth between design and engineering significantly.
 
 ### Branching
 
@@ -91,7 +91,7 @@ For larger teams, the Organization tier adds:
 - **Private workspaces**
 - **Advanced admin controls**
 
-Most small teams and agencies don't need this until they hit 20+ designers or have compliance requirements.
+Most [small teams](/best-for/small-teams/) and agencies don't need this until they hit 20+ designers or have compliance requirements.
 
 ## Real-World Verdict
 

@@ -35,7 +35,7 @@ Obsidian stores everything as local Markdown files. Its graph view visualizes co
 
 ### Notion — For the Visual Organizer
 
-Notion's databases, templates, and nested pages make it easy to build structured knowledge systems. It's more visually appealing and easier to start with.
+Notion's databases, templates, and nested pages [make](/tools/make/) it easy to build structured knowledge systems. It's more visually appealing and easier to start with.
 
 - **Price:** Free
 - **Best for:** Students, professionals, anyone who likes structured layouts
@@ -93,7 +93,7 @@ The most important habit: capture everything that resonates. Don't organize yet 
 | Meetings | Either | Quick note during/after |
 | Random ideas | Either | Mobile app quick note |
 
-**Rule of thumb:** If something makes you think "I might need this later," capture it. Your future self will thank you.
+**Rule of thumb:** If something makes you think "I might need this [later](/tools/later/)," capture it. Your future self will thank you.
 
 ## Step 4: Process with Progressive Summarization
 
@@ -150,7 +150,7 @@ When you need to expand on a topic in your second brain, Perplexity provides cit
 | Read-later & highlights | Readwise | $8/month |
 | AI analysis | Claude or ChatGPT | $0–20/month |
 | Research expansion | Perplexity | $0–20/month |
-| Task management | Todoist | Free |
+| Task management | [Todoist](/tools/todoist/) | Free |
 
 **Total cost:** $0–$48/month (or completely free if you skip the premium tiers).
 

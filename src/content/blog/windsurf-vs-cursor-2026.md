@@ -62,7 +62,7 @@ Cascade is Windsurf's agentic AI. It reads your codebase, proposes multi-file ch
 
 ### Cursor's Agent Mode
 
-Cursor's Agent indexes your entire project and can autonomously read files, make changes, run tests, and iterate on errors.
+Cursor's Agent indexes your entire project and can autonomously read files, [make](/tools/make/) changes, run tests, and iterate on errors.
 
 **Strengths:**
 - More aggressive multi-step reasoning
@@ -79,7 +79,7 @@ In practice, both are excellent. Cursor's completions feel slightly more context
 
 - **Budget-conscious developers**: Lower entry price and daily quota resets
 - **Predictable usage**: You want to know exactly how much AI you get each day
-- **New to AI coding tools**: The free trial is generous
+- **New to [AI coding](/category/ai-coding/) tools**: The free trial is generous
 - **Teams on a budget**: $30/user vs Cursor's $40/user
 
 ## Who Should Pick Cursor?
@@ -93,6 +93,6 @@ In practice, both are excellent. Cursor's completions feel slightly more context
 
 **Windsurf** is the better value if you want predictable daily AI usage at a lower price. **Cursor** is the better tool if you need maximum Agent capability and don't mind paying more for it.
 
-For most professional developers writing code 8+ hours a day, Cursor Pro at $20/month edges ahead on raw capability. For part-time developers, freelancers, or teams watching their budget, Windsurf offers more per dollar.
+For most professional developers writing code 8+ hours a day, Cursor Pro at $20/month edges ahead on raw capability. For part-time developers, [freelancers](/best-for/freelancers/), or teams watching their budget, Windsurf offers more per dollar.
 
 Want to see how these compare to the original? Read our [Cursor vs GitHub Copilot](/blog/cursor-vs-github-copilot-2026) comparison or check the full [AI code assistants roundup](/blog/best-ai-code-assistants-2026).

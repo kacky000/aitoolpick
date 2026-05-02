@@ -44,7 +44,7 @@ ChatGPT is the most widely adopted AI tool in education, and for good reason. Fo
 
 **Price**: Free / $20/month (Pro)
 
-Claude's strengths align well with specific teacher workflows:
+[Claude](/tools/claude/)'s strengths align well with specific teacher workflows:
 
 **Assignment feedback**: Upload a student essay (remove the student's name first) and ask "Provide constructive written feedback on this essay, focusing on argument structure and evidence use, appropriate for a 10th-grade student." Claude gives nuanced, developmentally appropriate feedback quickly.
 
@@ -83,7 +83,7 @@ Teachers accumulate enormous amounts of resources: lesson plans, worksheets, ass
 - **Student tracking**: Track assignments, interventions, and observations in a structured format
 - **Unit planning**: Plan backwards from assessments using a structured template
 
-The free Notion plan is sufficient for individual teachers. Notion AI (paid add-on) can help draft content within your workspace.
+The free Notion plan is sufficient for individual teachers. [Notion AI](/tools/notion-ai/) (paid add-on) can help draft content within your workspace.
 
 → [Best Notion alternatives](/blog/best-notion-alternatives-2026/)
 

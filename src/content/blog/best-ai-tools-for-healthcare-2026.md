@@ -61,7 +61,7 @@ Here are the best AI tools for healthcare professionals this year.
 
 **Why healthcare professionals love it:**
 - Databases for tracking protocols, equipment, and schedules
-- Notion AI for summarizing meeting notes and generating reports
+- [Notion AI](/tools/notion-ai/) for summarizing meeting notes and generating reports
 - Shared wikis for standard operating procedures
 - HIPAA considerations: self-hosted alternatives available
 

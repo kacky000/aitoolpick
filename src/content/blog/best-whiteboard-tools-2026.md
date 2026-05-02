@@ -17,11 +17,11 @@ Here are the best whiteboard tools for teams in 2026, ranked by features, pricin
 | Tool | Best For | Free Plan | Paid From | Rating |
 |------|---------|-----------|-----------|--------|
 | Miro | Workshops & facilitation | 3 boards | $8/user/mo | 4.5/5 |
-| FigJam | Design teams | 3 files | Free w/Figma | 4.4/5 |
+| [FigJam](/tools/figjam/) | Design teams | 3 files | Free w/Figma | 4.4/5 |
 | Lucidspark | Visual brainstorming | 3 boards | $7.95/user/mo | 4.3/5 |
 | Microsoft Whiteboard | Microsoft 365 users | Unlimited | Free w/M365 | 4.0/5 |
-| Whimsical | Wireframes + docs | Limited | $10/user/mo | 4.3/5 |
-| Canva Whiteboard | Non-designers | Unlimited | Free | 4.2/5 |
+| [Whimsical](/tools/whimsical/) | Wireframes + docs | Limited | $10/user/mo | 4.3/5 |
+| Canva Whiteboard | Non-[designers](/best-for/designers/) | Unlimited | Free | 4.2/5 |
 
 ## 1. Miro — Best Overall Whiteboard
 
@@ -32,7 +32,7 @@ Miro is the industry standard for online whiteboarding. With 2,500+ templates, f
 **Why it's #1:**
 - Most extensive template library (2,500+)
 - Best facilitation tools for running workshops
-- Strong integrations with Jira, Asana, Slack
+- Strong integrations with Jira, [Asana](/tools/asana/), Slack
 - AI-powered clustering and summarization
 - Excellent for large, distributed teams
 
@@ -61,7 +61,7 @@ FigJam is Figma's collaborative whiteboard tool. If your team already uses Figma
 
 **Price:** Free (3 boards) | $7.95/user/mo (Individual) | $9/user/mo (Team)
 
-Lucidspark is the whiteboard component of the Lucid suite (alongside Lucidchart for diagramming). It excels at structured brainstorming with features like idea voting, breakout boards, and automatic grouping.
+Lucidspark is the whiteboard component of the Lucid suite (alongside [Lucidchart](/tools/lucidchart/) for diagramming). It excels at structured brainstorming with features like idea voting, breakout boards, and automatic grouping.
 
 **Strengths:**
 - Excellent brainstorming features
@@ -133,7 +133,7 @@ Whimsical combines whiteboards with wireframing, flowcharts, mind maps, and docs
 
 ## Final Recommendation
 
-For most teams, **Miro** remains the best all-around choice in 2026. Its depth of features, template library, and facilitation tools justify the per-user cost — especially if you run regular collaborative sessions.
+For most teams, **Miro** remains the best all-[around](/tools/around/) choice in 2026. Its depth of features, template library, and facilitation tools justify the per-user cost — especially if you run regular collaborative sessions.
 
 If budget is a concern, **FigJam** (for Figma users) or **Microsoft Whiteboard** (for M365 users) offer excellent value at no additional cost.
 

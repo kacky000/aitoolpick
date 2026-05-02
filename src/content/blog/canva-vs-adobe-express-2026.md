@@ -52,7 +52,7 @@ Canva claims over 250,000 templates on its free plan alone, with millions more o
 - **Adobe Fonts** — thousands of premium typefaces included (a $25+/mo value separately)
 - **Creative Cloud libraries** — import assets from Photoshop, Illustrator, and Lightroom
 
-**Winner: Canva.** Template quantity and variety are not close. If you need a starting point for almost any design, Canva will have something relevant. Adobe Express is catching up, but the gap remains wide.
+**Winner: Canva.** Template quantity and variety are not [close](/tools/close/). If you need a starting point for almost any design, Canva will have something relevant. Adobe Express is catching up, but the gap remains wide.
 
 ---
 
@@ -67,7 +67,7 @@ Both tools have invested heavily in AI. Here is where things stand in 2026.
 - **Magic Write** — AI text generation for captions, headlines, and body copy
 - **Magic Animate** — add animations to any element in one click
 - **Text to Image** — generate original images from text prompts
-- **Magic Resize** — instantly reformat a design for different platforms (Instagram, Facebook, LinkedIn, etc.)
+- **Magic Resize** — [instantly](/tools/instantly/) reformat a design for different platforms (Instagram, Facebook, LinkedIn, etc.)
 
 **Adobe Express's AI toolkit (Adobe Firefly):**
 - **Firefly Image Generation** — create images from text prompts, trained exclusively on licensed content (important for commercial use)
@@ -96,7 +96,7 @@ Both tools offer brand management features that let you save logos, colors, and 
 - Sync with Creative Cloud libraries — pull in assets from Photoshop and Illustrator
 - Shared brand libraries across team members
 
-**Winner: Canva — slightly.** Both cover the basics well. Canva's Brand Templates with locked elements give design managers more control over what team members can and cannot change. Adobe's Creative Cloud sync is valuable if your brand assets live in Photoshop or Illustrator files, but most small teams will not need that.
+**Winner: Canva — slightly.** Both cover the basics well. Canva's Brand Templates with locked elements give design managers more control over what team members can and cannot change. Adobe's Creative Cloud sync is valuable if your brand assets live in Photoshop or Illustrator files, but most [small teams](/best-for/small-teams/) will not need that.
 
 ---
 
@@ -132,7 +132,7 @@ Canva's editor is famously intuitive. Drag elements onto the canvas, click to ed
 **Adobe Express:**
 Adobe Express is also easy to use, but it carries some of Adobe's traditional complexity. The interface is clean, but navigation between features (quick actions, templates, brand kit, assets) can feel fragmented. Adobe has improved this significantly from the old Spark days, but Canva still feels more cohesive.
 
-**Winner: Canva.** Both tools are designed for non-designers, but Canva's editor is smoother and more intuitive. Adobe Express is not difficult — it is just not quite as polished.
+**Winner: Canva.** Both tools are designed for non-[designers](/best-for/designers/), but Canva's editor is smoother and more intuitive. Adobe Express is not difficult — it is just not quite as polished.
 
 ---
 

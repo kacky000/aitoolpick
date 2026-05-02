@@ -42,7 +42,7 @@ Don't try to get a perfect output in one shot. Use ChatGPT to generate a first d
 
 1. "Write a rough draft of a LinkedIn post about [topic]."
 2. Read it. Identify what's wrong or missing.
-3. "The draft is too generic. Make it more specific to [detail], add a concrete example, and cut it to 150 words."
+3. "The draft is too generic. [Make](/tools/make/) it more specific to [detail], add a concrete example, and cut it to 150 words."
 
 Iteration produces far better results than hoping the first prompt nails it.
 
@@ -114,7 +114,7 @@ Every new conversation will have this context automatically.
 **ChatGPT Free (GPT-4o)** handles most use cases: writing, brainstorming, coding, summarizing, learning. The free tier now includes GPT-4o with some rate limits.
 
 **ChatGPT Plus ($20/month)** adds:
-- Higher rate limits (fewer "try again later" moments)
+- Higher rate limits (fewer "try again [later](/tools/later/)" moments)
 - Advanced research mode (deep web search with citations)
 - File and image analysis
 - Faster response times

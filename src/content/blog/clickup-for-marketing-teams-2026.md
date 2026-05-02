@@ -71,16 +71,16 @@ ClickUp connects with the tools your marketing team already uses:
 
 | Tool | Integration Type |
 |------|-----------------|
-| HubSpot | Two-way sync for campaigns |
+| [HubSpot](/tools/hubspot/) | Two-way sync for campaigns |
 | Slack | Task notifications in channels |
-| Google Drive | Attach files directly to tasks |
-| Figma | Embed designs in tasks |
-| Zapier/Make | Automate anything |
+| [Google Drive](/tools/google-drive/) | Attach files directly to tasks |
+| [Figma](/tools/figma/) | Embed designs in tasks |
+| [Zapier](/tools/zapier/)/Make | Automate anything |
 | Google Analytics | View metrics in Dashboards |
 
 ### 6. Time Tracking for Agency Teams
 
-If you're a marketing agency billing clients by the hour, ClickUp's built-in time tracking lets team members log hours directly on tasks. You can then generate time reports by project, client, or team member—without a separate tool like Harvest or Toggl.
+If you're a marketing agency billing clients by the hour, ClickUp's built-in [time tracking](/category/time-tracking/) lets team members log hours directly on tasks. You can then generate time reports by project, client, or team member—without a separate tool like Harvest or Toggl.
 
 ## ClickUp for Marketing: Pricing
 
@@ -145,7 +145,7 @@ ClickUp's automation builder is visual and requires no coding.
 
 ## ClickUp vs Alternatives for Marketing Teams
 
-| Feature | ClickUp | Asana | Monday.com |
+| Feature | ClickUp | Asana | [Monday.com](/tools/monday/) |
 |---------|---------|-------|------------|
 | Free plan | ✅ Generous | ✅ 10 users | ✅ 2 seats |
 | Content calendar | ✅ Built-in calendar view | ⚠️ Via integration | ✅ Built-in |
@@ -171,7 +171,7 @@ For marketing teams that need docs + time tracking + content calendar in one too
 
 ## Verdict
 
-ClickUp is one of the best project management tools for marketing teams in 2026. Its combination of flexible views, built-in docs, custom workflows, and generous pricing makes it a strong choice for teams that are tired of juggling 4–5 different tools.
+ClickUp is one of the best [project management](/category/project-management/) tools for marketing teams in 2026. Its combination of flexible views, built-in docs, custom workflows, and generous pricing makes it a strong choice for teams that are tired of juggling 4–5 different tools.
 
 The learning curve is real—plan for 1–2 weeks before your team is fully comfortable. But once you're set up, the productivity gains are significant.
 

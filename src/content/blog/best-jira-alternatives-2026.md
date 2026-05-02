@@ -18,7 +18,7 @@ Whether you're a startup that needs speed or an enterprise team tired of adminis
 - **Slow UI** — Jira Cloud still lags behind newer tools when loading boards with thousands of issues.
 - **Price creep** — Atlassian's cloud-only pricing has raised costs for many organizations.
 - **Overkill for non-dev teams** — Marketing and operations teams find the developer-centric model confusing.
-- **Fragmented ecosystem** — You need Confluence for docs and Trello for lightweight boards. Competitors bundle these together.
+- **Fragmented ecosystem** — You need Confluence for docs and [Trello](/tools/trello/) for lightweight boards. Competitors bundle these together.
 
 ## The 8 Best Jira Alternatives
 
@@ -26,9 +26,9 @@ Whether you're a startup that needs speed or an enterprise team tired of adminis
 
 **Price:** Free (250 issues) / $8/user/mo / $14/user/mo
 
-Linear is what Jira would look like if rebuilt with speed as the top priority. Every interaction feels instant — keyboard shortcuts, quick filters, and a minimal interface make issue tracking effortless.
+Linear is what Jira would look like if rebuilt with speed as the top priority. Every interaction feels instant — keyboard shortcuts, quick filters, and a minimal interface [make](/tools/make/) issue tracking effortless.
 
-**Standout features:** Sub-100ms UI responses, opinionated workflows, Cycles for sprint planning, tight GitHub/GitLab integration with automatic issue state changes.
+**Standout features:** Sub-100ms UI responses, opinionated workflows, Cycles for sprint planning, tight [GitHub](/tools/github/)/GitLab integration with automatic issue state changes.
 
 **Best for:** Startups and mid-size engineering teams (5–100 developers). Read our [Linear review](/blog/linear-review-2026/) for more detail.
 
@@ -48,7 +48,7 @@ ClickUp tries to do everything — docs, whiteboards, goals, time tracking, spri
 
 Asana occupies the sweet spot between Jira's complexity and Trello's simplicity. Its clean interface is easy for non-technical teams to adopt.
 
-**Standout features:** Portfolio view for multi-project tracking, powerful no-code automation rules, strong marketing tool integrations (HubSpot, Salesforce, Slack).
+**Standout features:** Portfolio view for multi-project tracking, powerful no-code automation rules, strong marketing tool integrations (HubSpot, [Salesforce](/tools/salesforce/), Slack).
 
 **Best for:** Marketing teams, operations teams, and organizations where most users aren't developers.
 

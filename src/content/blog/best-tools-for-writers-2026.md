@@ -18,7 +18,7 @@ Claude excels at long-form writing, editing, and brainstorming. Its 200K context
 
 ### Best for Versatility: [ChatGPT](/tools/chatgpt)
 **Price:** Free / $20/mo  
-ChatGPT's GPT-4o handles everything from blog outlines to creative fiction. The custom GPTs feature lets you create specialized writing assistants for your genre or style.
+[ChatGPT](/tools/chatgpt/)'s GPT-4o handles everything from blog outlines to creative fiction. The custom GPTs feature lets you create specialized writing assistants for your genre or style.
 
 ### Best for Research-Heavy Writing: [Perplexity AI](/tools/perplexity)
 **Price:** Free / $20/mo  
@@ -30,7 +30,7 @@ When your writing needs accurate citations and sourced facts, Perplexity combine
 
 ### Best Grammar Checker: [Grammarly](/tools/grammarly)
 **Price:** Free / $12/mo  
-Grammarly catches errors everywhere — email, docs, social media, Slack. The tone detector and clarity suggestions go beyond basic grammar. Works as a browser extension, desktop app, and keyboard.
+[Grammarly](/tools/grammarly/) catches errors everywhere — email, docs, social media, Slack. The tone detector and clarity suggestions go beyond basic grammar. Works as a browser extension, desktop app, and keyboard.
 
 ### Best Style Guide: Hemingway Editor
 **Price:** Free (web) / $19.99 one-time (desktop)  
@@ -46,15 +46,15 @@ Deeper analysis than Grammarly with reports on sentence variety, pacing, and rea
 
 ### Best for Connected Ideas: [Obsidian](/tools/obsidian)
 **Price:** Free  
-Writers who research extensively benefit from Obsidian's backlinks and graph view. Connect ideas across hundreds of notes and discover patterns you'd miss in a linear notebook.
+Writers who research extensively benefit from [Obsidian](/tools/obsidian/)'s backlinks and graph view. Connect ideas across hundreds of notes and discover patterns you'd miss in a linear notebook.
 
 ### Best for Everything-in-One: [Notion](/tools/notion)
 **Price:** Free / $10/mo  
-Notion works as a writing hub: research databases, editorial calendars, draft management, and published article tracking — all in one workspace.
+[Notion](/tools/notion/) works as a writing hub: research databases, editorial calendars, draft management, and published article tracking — all in one workspace.
 
 ### Best for Quick Capture: [Todoist](/tools/todoist)
 **Price:** Free / $4/mo  
-When ideas strike, Todoist's natural language input lets you capture them instantly on any device. "Blog idea: comparison of AI writing tools #writing" — done in seconds.
+When ideas strike, Todoist's natural language input lets you capture them [instantly](/tools/instantly/) on any device. "Blog idea: comparison of AI writing tools #writing" — done in seconds.
 
 **Compare:** [Notion vs Obsidian](/blog/notion-vs-obsidian-which-note-app) | [Best Note-Taking Apps](/blog/best-note-taking-apps-2026)
 

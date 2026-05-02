@@ -10,7 +10,7 @@ Both Notion and Todoist promise to get your tasks under control — but they tak
 
 ## Quick Verdict
 
-- **Notion** — Best for people who want a customizable workspace that goes beyond task management
+- **Notion** — Best for people who want a customizable workspace that goes beyond [task management](/category/task-management/)
 - **Todoist** — Best for anyone who wants a fast, reliable, dedicated to-do list
 
 ---
@@ -40,13 +40,13 @@ Todoist has been refining the to-do list since 2007. It's one of the most polish
 | Calendar view | Yes | Yes |
 | Notes & docs | Yes (core feature) | No |
 | Database / wiki | Yes | No |
-| AI features | Notion AI ($10/mo add-on) | Todoist AI Assistant |
+| AI features | [Notion AI](/tools/notion-ai/) ($10/mo add-on) | Todoist AI Assistant |
 | Offline access | Limited | Full |
 | Natural language input | No | Yes |
 
 ### Task Entry Speed
 
-This is where Todoist pulls ahead significantly. Type "Submit report tomorrow at 3pm p1" and Todoist instantly creates a high-priority task with a due date and time. Notion requires navigating to a database, creating a new page, and setting properties manually. For pure task capture speed, Todoist wins by a wide margin.
+This is where Todoist pulls ahead significantly. Type "Submit report tomorrow at 3pm p1" and Todoist [instantly](/tools/instantly/) creates a high-priority task with a due date and time. Notion requires navigating to a database, creating a new page, and setting properties manually. For pure task capture speed, Todoist wins by a wide margin.
 
 ### Flexibility and Customization
 
@@ -121,7 +121,7 @@ Notion's mobile app has improved but still lags behind. It's slower, occasionall
 
 ## Integrations
 
-Both tools integrate with popular services. Todoist connects with Google Calendar, Slack, Gmail, and Zapier. Notion integrates with Slack, GitHub, Figma, and hundreds of others via Zapier or its native API. Notion also has an active third-party template community that can accelerate your setup.
+Both tools integrate with popular services. Todoist connects with Google Calendar, Slack, Gmail, and [Zapier](/tools/zapier/). Notion integrates with Slack, GitHub, Figma, and hundreds of others via Zapier or its native API. Notion also has an active third-party template community that can accelerate your setup.
 
 ---
 
@@ -129,7 +129,7 @@ Both tools integrate with popular services. Todoist connects with Google Calenda
 
 If productivity means **capturing and completing tasks reliably**, choose Todoist. It's fast, polished, and purpose-built for the job.
 
-If productivity means **building a complete knowledge and project management system**, choose Notion. It takes more work to set up, but you'll end up with something that fits exactly how your brain works.
+If productivity means **building a complete knowledge and [project management](/category/project-management/) system**, choose Notion. It takes more work to set up, but you'll end up with something that fits exactly how your brain works.
 
 For more app recommendations, see our roundup of the [best note-taking apps in 2026](/blog/best-note-taking-apps-2026). And if you're specifically evaluating Todoist's full feature set, read our dedicated [Todoist review for 2026](/blog/todoist-review-2026).
 

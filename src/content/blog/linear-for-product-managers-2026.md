@@ -19,7 +19,7 @@ For product managers, this translates into:
 
 - **Backlog grooming in minutes, not hours**
 - **Real-time status visibility** without chasing engineers
-- **Clean roadmaps** that developers actually update themselves
+- **Clean roadmaps** that [developers](/best-for/developers/) actually update themselves
 - **Direct link from strategy to execution** via the Goals and Projects system
 
 ## Key Linear Features for Product Managers
@@ -64,10 +64,10 @@ Prioritization is done with four levels: **Urgent, High, Medium, No priority**. 
 
 ### 5. Customer Requests (Views and Filtering)
 
-Linear doesn't have a customer-facing portal like Jira's Service Management or Productboard. But you can work around this:
+Linear doesn't have a customer-facing portal like Jira's Service Management or Productboard. But you can work [around](/tools/around/) this:
 
 - Create a shared "Customer Requests" team visible to relevant stakeholders
-- Use Linear's API to pipe feedback from Intercom, Zendesk, or Slack into Linear
+- Use Linear's API to pipe feedback from [Intercom](/tools/intercom/), Zendesk, or Slack into Linear
 - Tag issues with customer names or companies using labels
 
 ### 6. Linear for Customer Feedback via Integrations
@@ -77,11 +77,11 @@ Linear integrates with:
 | Integration | Use Case |
 |-------------|---------|
 | Slack | Post issue updates to channels; create issues from Slack |
-| GitHub/GitLab | Link issues to PRs; auto-close issues on merge |
+| [GitHub](/tools/github/)/GitLab | Link issues to PRs; auto-close issues on merge |
 | Figma | Embed designs directly in issues |
-| Zendesk | Create Linear issues from support tickets |
+| [Zendesk](/tools/zendesk/) | Create Linear issues from support tickets |
 | Intercom | Link customer feedback to product issues |
-| Notion | Reference docs alongside technical tasks |
+| [Notion](/tools/notion/) | Reference docs alongside technical tasks |
 
 ## Linear Pricing for Product Teams
 

@@ -38,7 +38,7 @@ Perplexity can generate text, but it's optimized for concise, sourced answers ra
 
 ### Coding
 
-Claude is one of the top AI coding assistants. It handles complex codebases, explains code clearly, debugs effectively, and generates production-quality code across multiple languages. Claude Code (the terminal-based coding agent) takes this even further.
+Claude is one of the top [AI coding](/category/ai-coding/) assistants. It handles complex codebases, explains code clearly, debugs effectively, and generates production-quality code across multiple languages. Claude Code (the terminal-based coding agent) takes this even further.
 
 Perplexity can answer coding questions and provide snippets, but it's not designed for interactive coding sessions or complex software development tasks.
 
@@ -82,7 +82,7 @@ Both Pro plans cost $20/month. The value depends entirely on your use case — $
 ## Who Should Choose Claude?
 
 - **Writers** creating long-form content, reports, or creative work
-- **Developers** who need a powerful coding assistant
+- **[Developers](/best-for/developers/)** who need a powerful coding assistant
 - **Analysts** working with large documents and datasets
 - **Professionals** who need thoughtful, nuanced responses
 - Teams building **AI-powered applications** via the API

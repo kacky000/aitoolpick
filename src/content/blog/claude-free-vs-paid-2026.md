@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Claude Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-Claude by Anthropic has quickly become one of the most popular AI assistants alongside ChatGPT. But with a free tier available, is it worth upgrading to Claude Pro at $20/month? Let's break down exactly what you get — and what you miss — on each plan.
+Claude by Anthropic has quickly become one of the most popular AI assistants alongside [ChatGPT](/tools/chatgpt/). But with a free tier available, is it worth upgrading to Claude Pro at $20/month? Let's break down exactly what you get — and what you miss — on each plan.
 
 ## Claude Free Plan
 

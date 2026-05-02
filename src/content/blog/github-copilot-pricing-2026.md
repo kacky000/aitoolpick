@@ -5,7 +5,7 @@ pubDate: "2026-05-02"
 tags: ["github-copilot", "ai-coding", "pricing"]
 ---
 
-GitHub Copilot is the most widely used AI coding assistant, and its pricing is about to change significantly. Starting June 1, 2026, Copilot moves from request-based billing to a usage-based credit system. Here's what you need to know.
+GitHub Copilot is the most widely used [AI coding](/category/ai-coding/) assistant, and its pricing is about to change significantly. Starting June 1, 2026, Copilot moves from request-based billing to a usage-based credit system. Here's what you need to know.
 
 ## Current Plans (Before June 2026)
 
@@ -34,7 +34,7 @@ GitHub is replacing "premium requests" with **AI Credits**. The plan prices stay
 - Chat messages (in editor, on GitHub.com, in CLI)
 - Copilot Edits (multi-file editing)
 - Agent mode sessions
-- Using premium models (Claude Sonnet, GPT-4o, etc.)
+- Using premium models ([Claude](/tools/claude/) Sonnet, GPT-4o, etc.)
 
 ### What's Still Free/Unlimited
 
@@ -65,7 +65,7 @@ At $10/month, this is the cheapest paid AI coding assistant on the market — ha
 
 ### Pro+ ($39/month)
 
-For developers who need heavy chat and Agent usage:
+For [developers](/best-for/developers/) who need heavy chat and Agent usage:
 - Everything in Pro
 - $39 in monthly AI credits (3.9x Pro)
 - Higher rate limits
@@ -104,7 +104,7 @@ The real question is whether $10 of credits is enough for your chat and editing 
 | Tool | Base Paid Plan | Completions | Agent/Chat |
 |------|---------------|-------------|-----------|
 | **GitHub Copilot** | $10/mo | Unlimited | Credit-based |
-| **Cursor** | $20/mo | Unlimited | Credit-based |
-| **Windsurf** | ~$15/mo | Free all tiers | Quota-based |
+| **[Cursor](/tools/cursor/)** | $20/mo | Unlimited | Credit-based |
+| **[Windsurf](/tools/windsurf/)** | ~$15/mo | Free all tiers | Quota-based |
 
 For a full comparison, read [Cursor vs GitHub Copilot](/blog/cursor-vs-github-copilot-2026) or explore our [best AI code assistants guide](/blog/best-ai-code-assistants-2026).

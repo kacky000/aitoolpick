@@ -48,7 +48,7 @@ The linked records feature is what sets Airtable apart. Connect a guest to their
 
 ### 3. Trello — Best for Simple Event Task Tracking
 
-Not every event needs enterprise project management. Trello's kanban boards are perfect for smaller events — create columns for each phase (Research, Booked, Confirmed, Complete) and drag cards as things get locked down.
+Not every event needs enterprise [project management](/category/project-management/). Trello's kanban boards are perfect for smaller events — create columns for each phase (Research, Booked, Confirmed, Complete) and drag cards as things get locked down.
 
 Butler automation lets you set rules like "when a card moves to Confirmed, add a final logistics checklist." It's lightweight enough that volunteers can jump in without training.
 
@@ -116,7 +116,7 @@ Miro's infinite whiteboard is surprisingly powerful for event planning. Map out 
 
 For hybrid events, Miro lets remote and in-person team members contribute equally. Presentation mode walks stakeholders through your event concept visually.
 
-**Best for**: Event designers, conference organizers mapping floor plans, teams brainstorming event concepts
+**Best for**: Event [designers](/best-for/designers/), conference organizers mapping floor plans, teams brainstorming event concepts
 
 **Pricing**: Free (3 editable boards) / Starter $10/member/month / Business $20/member/month
 

@@ -28,7 +28,7 @@ Both can help you manage your finances, but the experience could not be more dif
 
 ### YNAB: The Envelope Method
 
-YNAB follows a zero-based budgeting philosophy built around four rules: give every dollar a job, embrace your true expenses, roll with the punches, and age your money. When you get paid, you assign every dollar to a specific budget category (the digital envelope). When an envelope runs out, you move money from another category rather than overspending.
+YNAB follows a zero-based budgeting philosophy built [around](/tools/around/) four rules: give every dollar a job, embrace your true expenses, roll with the punches, and age your money. When you get paid, you assign every dollar to a specific budget category (the digital envelope). When an envelope runs out, you move money from another category rather than overspending.
 
 This methodology is opinionated and structured. YNAB guides you through the process with tutorials, prompts, and a clear workflow. You do not need to design anything. You just start assigning dollars and tracking spending.
 
@@ -54,7 +54,7 @@ The bank sync is reliable and covers most major banks, credit cards, and investm
 
 ### Notion
 
-Notion has no bank syncing capability. Every transaction must be entered manually into your database, or you need to set up a third-party automation (like Zapier) to bridge the gap. Some users export CSV files from their bank and import them into Notion databases periodically, but this is cumbersome.
+Notion has no bank syncing capability. Every transaction must be entered manually into your database, or you need to set up a third-party automation (like [Zapier](/tools/zapier/)) to bridge the gap. Some users export CSV files from their bank and import them into Notion databases periodically, but this is cumbersome.
 
 Manual entry has its advocates — some people find it increases awareness of spending. But for most users, the lack of automation means the budgeting habit breaks down within weeks.
 
@@ -128,7 +128,7 @@ If you are already paying for Notion for other purposes (notes, projects, wiki),
 
 ### YNAB
 
-YNAB is a budgeting app and nothing more. It does one thing extremely well, but if you want task management, note-taking, goal tracking, or a personal wiki, you need separate tools.
+YNAB is a budgeting app and nothing more. It does one thing extremely well, but if you want [task management](/category/task-management/), note-taking, goal tracking, or a personal wiki, you need separate tools.
 
 ### Notion
 
@@ -160,7 +160,7 @@ Curious how Notion stacks up in more detail? Check out our [YNAB vs Notion compa
 
 ## The Verdict
 
-**Choose YNAB if budgeting is a priority and you want the best tool for the job.** The envelope method, bank syncing, mobile app, and built-in reports create a complete budgeting experience that Notion cannot match out of the box. The $99/year price pays for itself if it helps you gain control of your finances.
+**Choose YNAB if budgeting is a priority and you want the best tool for the job.** The envelope method, bank syncing, mobile app, and built-in reports create a complete budgeting experience that Notion cannot match out of the [box](/tools/box/). The $99/year price pays for itself if it helps you gain control of your finances.
 
 **Choose Notion if you are already a Notion user and want a lightweight budget tracker integrated with the rest of your life.** You will sacrifice bank sync, guided methodology, and budgeting-specific features, but you will gain flexibility and avoid adding another subscription.
 

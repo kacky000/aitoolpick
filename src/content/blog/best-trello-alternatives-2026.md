@@ -52,7 +52,7 @@ Asana provides the structure that Trello lacks. With task hierarchies, dependenc
 
 **Why switch**: If your projects involve multiple steps, approvals, and dependencies, Asana handles complexity that Trello simply can't.
 
-**Trade-off**: Asana's free plan is more restrictive than Trello's. You'll likely need a paid plan to access the features that make it worth switching.
+**Trade-off**: Asana's free plan is more restrictive than Trello's. You'll likely need a paid plan to access the features that [make](/tools/make/) it worth switching.
 
 Read our full [Asana review](/blog/asana-review-2026/) for an in-depth look.
 
@@ -114,7 +114,7 @@ GitHub Projects brings Kanban boards directly into your GitHub workflow. Issues 
 
 | Tool | Free Plan | Starting Price | Kanban | Timeline | Docs | Best For |
 |------|-----------|---------------|--------|----------|------|----------|
-| ClickUp | Generous | $7/mo | Yes | Yes | Yes | All-around replacement |
+| ClickUp | Generous | $7/mo | Yes | Yes | Yes | All-[around](/tools/around/) replacement |
 | Notion | Generous | $10/mo | Yes | Yes | Yes | All-in-one workspace |
 | Asana | 10 users | $10.99/mo | Yes | Yes | No | Structured teams |
 | Monday.com | 2 seats | $9/mo | Yes | Yes | No | Visual teams |

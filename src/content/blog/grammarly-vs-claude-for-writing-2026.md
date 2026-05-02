@@ -24,7 +24,7 @@ AI writing tools have split into two camps: tools that fix your writing, and too
 
 ## Grammar and Spelling Checking
 
-This is Grammarly's home turf. Its grammar engine catches everything from simple typos to nuanced issues like dangling modifiers and subject-verb agreement errors in complex sentences. The browser extension works inside Gmail, Google Docs, Slack, LinkedIn, and virtually any text field on the web, showing suggestions as you type.
+This is Grammarly's home turf. Its grammar engine catches everything from simple typos to nuanced issues like dangling modifiers and subject-verb agreement errors in complex sentences. The browser extension works inside Gmail, Google Docs, [Slack](/tools/slack/), LinkedIn, and virtually any text field on the web, showing suggestions as you type.
 
 Claude can catch grammar errors too, but you have to ask it to. You paste your text, request a review, and Claude returns corrections with explanations. It often provides more context about *why* a phrasing is problematic. However, it is not integrated into your workflow the way Grammarly is. You cannot have Claude automatically check your emails as you type.
 

@@ -29,7 +29,7 @@ If you're wondering how ChatGPT compares to its main competitor, read our [ChatG
 
 ## 2. Claude (Free Tier) — Best for Long Documents and Thoughtful Writing
 
-Anthropic's Claude has carved out a strong niche as the AI that writes more naturally and handles long documents better than anyone else. The free tier is surprisingly generous.
+Anthropic's [Claude](/tools/claude/) has carved out a strong niche as the AI that writes more naturally and handles long documents better than anyone else. The free tier is surprisingly generous.
 
 **What you get for free:**
 - Claude 3.5 Sonnet access
@@ -59,7 +59,7 @@ Perplexity AI has quietly become the best tool for research. Unlike traditional 
 
 ## 4. Canva (Free Tier with AI) — Best for AI-Powered Design
 
-Canva's free plan includes several AI-powered features that make professional design accessible to everyone. Magic Write helps with copy, while text-to-image generation and background removal handle visual tasks.
+Canva's free plan includes several AI-powered features that [make](/tools/make/) professional design accessible to everyone. Magic Write helps with copy, while text-to-image generation and background removal handle visual tasks.
 
 **What you get for free:**
 - Drag-and-drop editor with 250,000+ templates

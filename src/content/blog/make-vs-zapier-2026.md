@@ -75,7 +75,7 @@ But if your workflow depends on a tool that only Zapier supports, Make isn't an 
 ## Visual Builder: Different Design Philosophies
 
 ### Zapier's Builder
-Zapier uses a linear, step-by-step editor. You add a trigger → add an action → add another action. Each step flows left to right in a list format. It's immediately intuitive. Most users can build their first automation in 10-15 minutes.
+Zapier uses a [linear](/tools/linear/), step-by-step editor. You add a trigger → add an action → add another action. Each step flows left to right in a list format. It's immediately intuitive. Most users can build their first automation in 10-15 minutes.
 
 The limitation: complex workflows with branching paths, parallel processes, or conditional routing become hard to follow in a linear list.
 
@@ -112,20 +112,20 @@ Neither platform matches n8n's AI agent capabilities for complex AI workflows. B
 ## Real-World Use Cases
 
 ### Zapier Is Better For:
-- Marketing team connecting HubSpot → Slack → Airtable (all three have native Zapier integrations)
-- Customer support routing: Typeform → Zendesk → Slack notification
-- Sales workflow: new Salesforce lead → Gmail follow-up → Trello card
+- Marketing team connecting HubSpot → Slack → [Airtable](/tools/airtable/) (all three have native Zapier integrations)
+- Customer support routing: Typeform → [Zendesk](/tools/zendesk/) → Slack notification
+- Sales workflow: new [Salesforce](/tools/salesforce/) lead → Gmail follow-up → Trello card
 - Any workflow relying on niche tools in Zapier's 7,000+ library
 
 ### Make Is Better For:
-- Complex data transformation: webhook input → parse JSON → filter records → update database → send conditionally formatted Slack message
+- Complex data transformation: webhook input → parse JSON → filter records → update database → send conditionally formatted [Slack](/tools/slack/) message
 - Multi-branch logic: if customer status = premium → path A, else → path B → path C based on another condition
 - High-volume automations: 50,000+ monthly operations where Zapier's pricing becomes prohibitive
 - Agency workflows managing multiple clients' integrations on predictable budgets
 
 ## Who Should Choose Make
 
-- Developers or technically comfortable users who want more control
+- [Developers](/best-for/developers/) or technically comfortable users who want more control
 - Teams running medium-to-high automation volume (10,000+ operations/month)
 - Agencies managing automations for multiple clients
 - Anyone who has hit Zapier's price ceiling and wants equivalent power at lower cost

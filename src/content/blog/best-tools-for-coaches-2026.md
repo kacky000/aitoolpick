@@ -36,7 +36,7 @@ If you run group coaching programs or cohorts, Monday.com's board system helps y
 
 ### 3. Todoist — Best for Personal Productivity
 
-Coaches juggle sessions, content creation, marketing, and admin. Todoist's clean interface and natural language input make it the fastest way to capture and organize tasks.
+Coaches juggle sessions, content creation, marketing, and admin. Todoist's clean interface and natural language input [make](/tools/make/) it the fastest way to capture and organize tasks.
 
 - **Price:** Free, $4/user/month (Pro)
 - **Why coaches love it:** Quick capture, recurring tasks for session prep, cross-platform

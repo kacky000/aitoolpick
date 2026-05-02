@@ -59,7 +59,7 @@ ChatGPT can search the web in real time, pulling current information and citing 
 - **Rate limits are frustrating** — Hit the GPT-4o cap? You're stuck with mini
 - **Privacy concerns** — Your conversations may be used for training (opt-out available)
 - **Plugin/GPT quality varies wildly** — The GPT Store is hit-or-miss
-- **Not the best at any single task** — Claude writes better, Perplexity searches better, GitHub Copilot codes better
+- **Not the best at any single task** — Claude writes better, Perplexity searches better, [GitHub Copilot](/tools/github-copilot/) codes better
 
 ## Who Should Use ChatGPT?
 
@@ -72,11 +72,11 @@ ChatGPT can search the web in real time, pulling current information and citing 
 **Not great for:**
 - Long-form writing or nuanced analysis (try [Claude](/tools/claude))
 - Research with source citations (try [Perplexity](/tools/perplexity))
-- Coding-focused workflows (try GitHub Copilot or Cursor)
+- Coding-focused workflows (try GitHub Copilot or [Cursor](/tools/cursor/))
 
 ## ChatGPT vs. The Competition
 
-| Feature | ChatGPT | Claude | Perplexity |
+| Feature | ChatGPT | [Claude](/tools/claude/) | Perplexity |
 |---------|---------|--------|------------|
 | Writing quality | ★★★★☆ | ★★★★★ | ★★★☆☆ |
 | Coding | ★★★★☆ | ★★★★★ | ★★☆☆☆ |
@@ -89,7 +89,7 @@ For detailed comparisons, check [ChatGPT vs Claude](/blog/chatgpt-vs-claude-whic
 
 ## The Verdict: 8/10
 
-ChatGPT is the Swiss Army knife of AI. It does almost everything reasonably well, and the ecosystem around it (GPTs, plugins, API) is unmatched. The free tier is genuinely useful, and GPT-4o remains a top-tier model.
+ChatGPT is the Swiss Army knife of AI. It does almost everything reasonably well, and the ecosystem [around](/tools/around/) it (GPTs, plugins, API) is unmatched. The free tier is genuinely useful, and GPT-4o remains a top-tier model.
 
 But "good at everything" also means "best at nothing." If you have a specific need — deep writing, research, or coding — a specialized tool will likely serve you better.
 

@@ -7,11 +7,11 @@ tags: ["architects", "productivity", "project-management", "tools"]
 
 Architecture firms deal with a specific kind of complexity: multi-year projects, cross-discipline coordination, client visibility demands, and immovable regulatory deadlines. Generic productivity tool lists rarely address these realities. This guide focuses on tools that solve problems architects actually face, with concrete use cases for each.
 
-## Monday.com — Project Scheduling and Client Visibility
+## [Monday.com](/tools/monday/) — Project Scheduling and Client Visibility
 
 **What it does for architects:** Tracks project phases, milestones, deadlines, and resource allocation across multiple concurrent projects.
 
-**Why it fits:** Architecture projects have predictable phases — schematic design, design development, construction documents, bidding, construction administration. Monday.com's timeline and Gantt views map directly to this structure.
+**Why it fits:** Architecture projects have predictable phases — schematic design, design development, construction documents, bidding, construction administration. [Monday.com](/tools/monday/)'s timeline and Gantt views map directly to this structure.
 
 **Specific use cases:**
 
@@ -35,7 +35,7 @@ For a deeper look, see our [best project management tools](/blog/best-project-ma
 - **Detail standards library** — Database of standard construction details tagged by building type, system, and jurisdiction. Filter instead of reinventing solutions on each project.
 - **Material specifications database** — Track preferred products with manufacturer contacts, lead times, and cost. Link to specification sections for CD production.
 - **Meeting notes with action items** — Templated notes with linked action items, filterable across projects by person.
-- **Onboarding documentation** — New hires get firm standards, BIM protocols, and procedures in one place. Updates propagate instantly.
+- **Onboarding documentation** — New hires get firm standards, BIM protocols, and procedures in one place. Updates propagate [instantly](/tools/instantly/).
 - **Code research notes** — Document code interpretations by jurisdiction. When a similar question comes up on a future project, the research is done.
 
 **Pricing consideration:** Notion's free plan supports up to 10 guests. The Plus plan ($10/seat/month) is sufficient for most firms. The Business plan ($18/seat/month) adds SAML SSO for firms with IT security requirements.
@@ -86,11 +86,11 @@ For a full feature breakdown, see our [Miro review](/blog/miro-review-2026).
 
 **Pricing consideration:** Slack's free plan limits history to 90 days — not enough for multi-year architecture projects. The Pro plan ($8.75/user/month) provides unlimited history.
 
-## Airtable — Material Tracking, Project Databases, and Asset Management
+## [Airtable](/tools/airtable/) — Material Tracking, Project Databases, and Asset Management
 
 **What it does for architects:** Flexible database for materials, furniture selections, project portfolios, and equipment inventories.
 
-**Why it fits:** Architecture firms manage relational data that Excel handles poorly — materials linked to specifications linked to vendors linked to projects. Airtable's database structure handles these connections natively.
+**Why it fits:** Architecture firms manage relational data that Excel handles poorly — materials linked to specifications linked to vendors linked to projects. [Airtable](/tools/airtable/)'s database structure handles these connections natively.
 
 **Specific use cases:**
 

@@ -40,7 +40,7 @@ This is where Monday.com starts to shine. The Standard plan adds **automations**
 
 ## Pro Plan — $19/seat/month
 
-The Pro plan is designed for teams managing complex workflows. You get **25,000 automations/month**, **25,000 integrations/month**, time tracking, formula columns, chart view, and private boards.
+The Pro plan is designed for teams managing complex workflows. You get **25,000 automations/month**, **25,000 integrations/month**, [time tracking](/category/time-tracking/), formula columns, chart view, and private boards.
 
 **Best for:** Larger teams, agencies, and project-heavy organizations.
 
@@ -52,7 +52,7 @@ Custom pricing with advanced security features, multi-level permissions, enterpr
 
 1. **Seat minimums**: You buy in multiples (3, then 5, 10, 15, etc.). You can't buy exactly 4 seats — you'll pay for 5.
 2. **Monthly vs annual**: Monthly billing costs 18–20% more. Always go annual if you're committed.
-3. **Add-ons**: Monday WorkForms, Monday CRM, and other products have separate pricing.
+3. **Add-ons**: Monday WorkForms, Monday [CRM](/category/crm/), and other products have separate pricing.
 
 ## How Does Monday.com Compare?
 

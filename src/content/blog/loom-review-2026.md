@@ -14,7 +14,7 @@ Short answer: yes — for most use cases. Here's the full picture.
 
 ## What Loom Actually Does
 
-Loom lets you record your screen, webcam, or both simultaneously, then instantly generates a shareable link. The recipient watches in their browser with no downloads required. They can comment at specific timestamps, react with emoji, and respond in-kind with their own Loom.
+Loom lets you record your screen, webcam, or both simultaneously, then [instantly](/tools/instantly/) generates a shareable link. The recipient watches in their browser with no downloads required. They can comment at specific timestamps, react with emoji, and respond in-kind with their own Loom.
 
 It replaces a surprising number of meetings:
 - "Can you walk me through this bug?" → Loom it
@@ -40,7 +40,7 @@ Since the acquisition, Loom has deepened its integration with Jira, Confluence, 
 
 The core recording experience hasn't changed. The free plan is still free. Pricing held steady.
 
-What did change: the enterprise push. Loom is increasingly marketed to larger teams through Atlassian's sales channels. Small teams and solo users still get a great product, but the roadmap prioritizes enterprise features.
+What did change: the enterprise push. Loom is increasingly marketed to larger teams through Atlassian's sales channels. [Small teams](/best-for/small-teams/) and solo users still get a great product, but the roadmap prioritizes enterprise features.
 
 ## Key Features
 
@@ -58,13 +58,13 @@ See who watched your video, how much they watched, and when they stopped. For sa
 
 ### Integrations
 Loom embeds natively in:
-- Slack (auto-previews in messages)
-- Notion (renders inline)
+- [Slack](/tools/slack/) (auto-previews in messages)
+- [Notion](/tools/notion/) (renders inline)
 - Jira and Confluence
-- Linear
-- GitHub
+- [Linear](/tools/linear/)
+- [GitHub](/tools/github/)
 
-For remote teams already living in Slack and Notion, Loom fits into the existing workflow with minimal friction.
+For [remote teams](/best-for/remote-teams/) already living in Slack and Notion, Loom fits into the existing workflow with minimal friction.
 
 ## Who Should Use Loom
 

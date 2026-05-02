@@ -85,7 +85,7 @@ Figma: **Moderate to steep**. The basics (drawing shapes, adding text) are easy,
 
 Both tools excel at collaboration, but in different contexts.
 
-Canva's collaboration is about **sharing and approving** — send a design to a teammate, they leave comments, you make changes. It's simple and effective for marketing teams.
+Canva's collaboration is about **sharing and approving** — send a design to a teammate, they leave comments, you [make](/tools/make/) changes. It's simple and effective for marketing teams.
 
 Figma's collaboration is about **co-creating** — multiple designers working on the same file in real-time, using shared component libraries, with version history and branching. It's built for design teams that ship products together.
 
@@ -104,7 +104,7 @@ This plays to each tool's strengths without forcing one to do the other's job. I
 
 **Mistake 2: Using Figma for quick marketing graphics.** Figma *can* make a social media post, but it'll take 10x longer than Canva because you're starting from a blank canvas without templates.
 
-**Mistake 3: Comparing them as competitors.** They're not competing for the same user. Asking "Canva or Figma?" is like asking "Mailchimp or Salesforce?" — the answer depends entirely on your role.
+**Mistake 3: Comparing them as competitors.** They're not competing for the same user. Asking "Canva or Figma?" is like asking "Mailchimp or [Salesforce](/tools/salesforce/)?" — the answer depends entirely on your role.
 
 ## Who Wins?
 

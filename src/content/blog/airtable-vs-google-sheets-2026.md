@@ -64,10 +64,10 @@ The right choice depends on what you're actually doing with your data.
 
 Many organizations use both tools in different parts of their workflow:
 
-- **Airtable for operations tracking**: CRM, content calendar, project database, vendor list
+- **Airtable for operations tracking**: [CRM](/category/crm/), content calendar, project database, vendor list
 - **Google Sheets for analysis**: Financial models, reporting dashboards, data analysis where formulas matter
 
-This is a natural split. You build structured, relational data in Airtable and export or sync it to Sheets for analysis when needed. Airtable can sync data to Google Sheets via its built-in sync feature or through Zapier/Make.
+This is a natural split. You build structured, relational data in Airtable and export or sync it to Sheets for analysis when needed. Airtable can sync data to Google Sheets via its built-in sync feature or through [Zapier](/tools/zapier/)/Make.
 
 ## Pricing Reality
 

@@ -176,7 +176,7 @@ A simple decision framework:
 
 2. **Compare before committing.** At $20/month, Plus competes directly with [Claude Pro](/blog/claude-pricing-2026/) — same price, different strengths. Claude wins on writing quality and context length; ChatGPT wins on multimodal features and ecosystem.
 
-3. **Use free tools strategically.** Combine ChatGPT Free with Claude Free and Perplexity Free for a powerful zero-cost setup.
+3. **Use free tools strategically.** Combine ChatGPT Free with [Claude](/tools/claude/) Free and Perplexity Free for a powerful zero-cost setup.
 
 4. **Annual billing saves money** on Team plans — $5/user/month savings adds up fast.
 

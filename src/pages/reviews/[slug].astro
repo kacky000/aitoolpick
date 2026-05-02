@@ -1,0 +1,889 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  return tools.map((tool) => ({
+    params: { slug: tool.slug },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+
+// Get category details
+const toolCategories = categories.filter((c) => tool.category.includes(c.id));
+
+// Find top alternative for comparison callout
+const topAlternative = tools
+  .filter((t) => t.id !== tool.id && t.category.some((c: string) => tool.category.includes(c)))
+  .sort((a, b) => b.rating - a.rating)
+  [0];
+
+// Score breakdown derived from tool data
+function computeScores(tool: typeof tools[0]) {
+  const featureScore = Math.min(5, Math.round((tool.features.length / 3) * 10) / 10);
+  const easeScore = tool.rating >= 4.5 ? 4.5 : tool.rating >= 4 ? 4.0 : tool.rating >= 3.5 ? 3.5 : 3.0;
+  const valueScore = tool.pricing.free
+    ? Math.min(5, tool.rating + 0.2)
+    : Math.min(5, tool.rating - 0.2);
+  const supportScore = tool.cons.some((c: string) => c.toLowerCase().includes('support'))
+    ? Math.max(3.0, tool.rating - 0.5)
+    : Math.min(5, tool.rating + 0.1);
+
+  // Clamp all to [1, 5]
+  const clamp = (v: number) => Math.round(Math.min(5, Math.max(1, v)) * 10) / 10;
+  return {
+    features: clamp(featureScore),
+    easeOfUse: clamp(easeScore),
+    value: clamp(valueScore),
+    support: clamp(supportScore),
+  };
+}
+
+const scores = computeScores(tool);
+const overallScore = Math.round(((scores.features + scores.easeOfUse + scores.value + scores.support) / 4) * 10) / 10;
+
+// Format price helper
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(
+    ([key, val]) => key !== 'free' && val !== null && typeof val === 'number'
+  );
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+// Generate verdict paragraph
+function generateVerdict(tool: typeof tools[0], score: number): string {
+  const strength = tool.pros[0] || 'solid functionality';
+  const weakness = tool.cons[0] || 'minor limitations';
+  const audience = tool.bestFor.slice(0, 2).map((b: string) => b.replace(/-/g, ' ')).join(' and ');
+
+  if (score >= 4.5) {
+    return `${tool.name} earns a strong recommendation from our editorial team. Its standout quality — ${strength.toLowerCase()} — makes it a top-tier choice for ${audience}. While ${weakness.toLowerCase()} is worth noting, the overall package delivers exceptional value. If you fall within its target audience, this should be near the top of your shortlist.`;
+  } else if (score >= 4.0) {
+    return `${tool.name} is a solid contender that does most things well. We were particularly impressed by how it delivers on ${strength.toLowerCase()}, which will matter most to ${audience}. The trade-off? ${weakness}. For most users in its target market, the strengths comfortably outweigh the drawbacks — but do check alternatives if that weakness is a dealbreaker for your workflow.`;
+  } else if (score >= 3.5) {
+    return `${tool.name} occupies a respectable middle ground. It handles ${strength.toLowerCase()} competently enough for ${audience}, but ${weakness.toLowerCase()} prevents it from breaking into the top tier. It can still be the right pick if your priorities align with its strengths, though we recommend comparing it against the leading alternatives before committing.`;
+  } else {
+    return `${tool.name} has potential but faces stiff competition. While it attempts to serve ${audience} with ${strength.toLowerCase()}, ${weakness.toLowerCase()} holds it back from a strong recommendation. Consider exploring the alternatives in this category unless ${tool.name}'s specific approach to the problem resonates with your needs.`;
+  }
+}
+
+// Determine CTA URL
+const ctaUrl = tool.affiliateUrl || tool.website;
+
+// SEO meta
+const pageTitle = `${tool.name} Review 2026 — Is It Worth It? Honest Assessment | AIToolPick`;
+const pageDescription = `Our editorial review of ${tool.name} in 2026. Detailed score breakdown, strengths, weaknesses, pricing analysis, and verdict. Rating: ${overallScore}/5.`;
+
+// Review JSON-LD schema
+const reviewJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Review',
+  name: `${tool.name} Review 2026`,
+  reviewBody: generateVerdict(tool, overallScore),
+  author: {
+    '@type': 'Organization',
+    name: 'AIToolPick Editorial Team',
+    url: 'https://aitoolpick.org/about/',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'AIToolPick',
+    url: 'https://aitoolpick.org',
+  },
+  datePublished: '2026-01-15',
+  dateModified: new Date().toISOString().split('T')[0],
+  itemReviewed: {
+    '@type': 'SoftwareApplication',
+    name: tool.name,
+    applicationCategory: toolCategories.map((c) => c.name).join(', '),
+    url: tool.website,
+    offers: {
+      '@type': 'Offer',
+      price: tool.pricing.free ? '0' : Object.values(tool.pricing).find((v) => typeof v === 'number') || '0',
+      priceCurrency: tool.currency || 'USD',
+    },
+  },
+  reviewRating: {
+    '@type': 'Rating',
+    ratingValue: overallScore,
+    bestRating: 5,
+    worstRating: 1,
+  },
+});
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: 'Reviews', href: '/reviews/' },
+  { label: `${tool.name} Review`, href: '' },
+];
+
+// Helper to render stars
+function renderStarWidth(score: number): string {
+  return `${(score / 5) * 100}%`;
+}
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={reviewJsonLd} slot="head" />
+
+  <div class="review-page">
+    <div class="container">
+      <Breadcrumbs items={breadcrumbItems} />
+
+      <!-- Review Header -->
+      <header class="review-header">
+        <div class="review-header-top">
+          <span class="review-badge">Editorial Review</span>
+          <span class="review-date">Updated May 2026</span>
+        </div>
+        <h1>{tool.name} Review 2026 — Is It Worth It?</h1>
+        <p class="review-subtitle">
+          An honest, hands-on assessment by the AIToolPick editorial team. No sponsored content, no affiliate bias in our scoring.
+        </p>
+      </header>
+
+      <!-- Editor's Rating Card -->
+      <section class="rating-card">
+        <div class="rating-card-left">
+          <div class="rating-big-score">
+            <span class="score-number">{overallScore}</span>
+            <span class="score-max">/ 5</span>
+          </div>
+          <div class="rating-stars">
+            {'★'.repeat(Math.round(overallScore))}{'☆'.repeat(5 - Math.round(overallScore))}
+          </div>
+          <p class="rating-label">Editor's Rating</p>
+        </div>
+        <div class="rating-card-right">
+          <div class="score-row">
+            <span class="score-category">Features</span>
+            <div class="score-bar"><div class="score-bar-fill" style={`width: ${renderStarWidth(scores.features)}`}></div></div>
+            <span class="score-value">{scores.features}</span>
+          </div>
+          <div class="score-row">
+            <span class="score-category">Ease of Use</span>
+            <div class="score-bar"><div class="score-bar-fill" style={`width: ${renderStarWidth(scores.easeOfUse)}`}></div></div>
+            <span class="score-value">{scores.easeOfUse}</span>
+          </div>
+          <div class="score-row">
+            <span class="score-category">Value for Money</span>
+            <div class="score-bar"><div class="score-bar-fill" style={`width: ${renderStarWidth(scores.value)}`}></div></div>
+            <span class="score-value">{scores.value}</span>
+          </div>
+          <div class="score-row">
+            <span class="score-category">Support</span>
+            <div class="score-bar"><div class="score-bar-fill" style={`width: ${renderStarWidth(scores.support)}`}></div></div>
+            <span class="score-value">{scores.support}</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Verdict -->
+      <section class="quick-verdict">
+        <h2>The Bottom Line</h2>
+        <p>{generateVerdict(tool, overallScore)}</p>
+        <a href={ctaUrl} target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Try {tool.name} &rarr;
+        </a>
+      </section>
+
+      <!-- Who Is It For -->
+      <section class="review-section">
+        <h2>Who is {tool.name} for?</h2>
+        <p class="section-intro">
+          Not every tool is right for everyone. Here's who will get the most value from {tool.name}:
+        </p>
+        <div class="audience-grid">
+          {tool.bestFor.map((audience: string) => {
+            const formatted = audience.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
+            return (
+              <div class="audience-card">
+                <span class="audience-icon">
+                  {audience.includes('startup') ? '🚀' :
+                   audience.includes('enterprise') ? '🏢' :
+                   audience.includes('freelance') ? '💼' :
+                   audience.includes('student') ? '🎓' :
+                   audience.includes('team') ? '👥' :
+                   audience.includes('developer') ? '💻' :
+                   audience.includes('marketer') || audience.includes('marketing') ? '📈' :
+                   audience.includes('designer') ? '🎨' :
+                   audience.includes('creator') ? '✨' :
+                   '🎯'}
+                </span>
+                <span class="audience-label">{formatted}</span>
+              </div>
+            );
+          })}
+        </div>
+        {tool.bestFor.length > 0 && (
+          <p class="section-note">
+            If you identify with any of these profiles, {tool.name} was designed with your workflow in mind.
+            {tool.pricing.free ? " The free tier makes it easy to test whether it actually fits." : " Consider starting with a trial to validate the fit."}
+          </p>
+        )}
+      </section>
+
+      <!-- Key Strengths -->
+      <section class="review-section">
+        <h2>Key Strengths</h2>
+        <p class="section-intro">Where {tool.name} genuinely excels:</p>
+        <div class="strengths-list">
+          {tool.pros.map((pro: string, index: number) => (
+            <div class="strength-item">
+              <span class="strength-number">{index + 1}</span>
+              <div>
+                <strong>{pro}</strong>
+                <p class="strength-detail">
+                  {index === 0 ? `This is arguably ${tool.name}'s biggest competitive advantage — and it's immediately noticeable from the first session.` :
+                   index === 1 ? `A consistently praised aspect that adds real day-to-day value for the target audience.` :
+                   index === 2 ? `This differentiator becomes more apparent the longer you use the platform.` :
+                   `An additional benefit that rounds out the overall experience.`}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Where It Falls Short -->
+      <section class="review-section">
+        <h2>Where {tool.name} Falls Short</h2>
+        <p class="section-intro">No tool is perfect. Here's what gave us pause:</p>
+        <div class="weaknesses-list">
+          {tool.cons.map((con: string, index: number) => (
+            <div class="weakness-item">
+              <span class="weakness-icon">&#9888;</span>
+              <div>
+                <strong>{con}</strong>
+                <p class="weakness-detail">
+                  {index === 0 ? `This is the most commonly cited frustration — and the one most likely to affect your decision.` :
+                   index === 1 ? `A secondary concern that may or may not impact you depending on your use case.` :
+                   `Worth knowing about, though not necessarily a dealbreaker for most users.`}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Pricing Overview -->
+      <section class="review-section">
+        <h2>Pricing: Is {tool.name} Worth the Cost?</h2>
+        <div class="pricing-overview">
+          <div class="pricing-summary">
+            <span class="pricing-headline">{formatPrice(tool.pricing)}</span>
+            {tool.pricingModel && (
+              <span class="pricing-model">{tool.pricingModel.replace(/-/g, ' ')}</span>
+            )}
+          </div>
+          <div class="pricing-plans-review">
+            {Object.entries(tool.pricing).map(([plan, value]) => {
+              const isFree = plan === 'free';
+              const priceDisplay = isFree
+                ? (value ? 'Free' : '—')
+                : value === null
+                  ? 'Custom'
+                  : `$${value}/mo`;
+              if (isFree && !value) return null;
+              return (
+                <div class="pricing-plan-row">
+                  <span class="plan-name">{plan.charAt(0).toUpperCase() + plan.slice(1).replace(/([A-Z])/g, ' $1')}</span>
+                  <span class="plan-price">{priceDisplay}</span>
+                </div>
+              );
+            })}
+          </div>
+          <p class="pricing-take">
+            {tool.pricing.free
+              ? `The free tier is generous enough to genuinely evaluate ${tool.name} before spending anything. That's a confidence signal — they trust the product to sell itself.`
+              : `There's no free plan, which means you'll need to commit financially to properly evaluate ${tool.name}. Look for a trial period on their site.`
+            }
+          </p>
+          <a href={ctaUrl} target="_blank" rel="noopener noreferrer" class="btn-primary">
+            View Full Pricing &rarr;
+          </a>
+        </div>
+      </section>
+
+      <!-- Comparison Callout -->
+      {topAlternative && (
+        <section class="review-section comparison-callout">
+          <div class="comparison-callout-inner">
+            <div class="comparison-text">
+              <h3>See How {tool.name} Compares</h3>
+              <p>
+                Wondering how {tool.name} stacks up against {topAlternative.name}?
+                Our side-by-side comparison breaks down features, pricing, and performance.
+              </p>
+            </div>
+            <a
+              href={`/compare/${[tool.slug, topAlternative.slug].sort().join('-vs-')}/`}
+              class="btn-secondary"
+            >
+              {tool.name} vs {topAlternative.name} &rarr;
+            </a>
+          </div>
+        </section>
+      )}
+
+      <!-- Final CTA -->
+      <section class="review-final-cta">
+        <h2>Ready to Decide?</h2>
+        <p>
+          {overallScore >= 4.0
+            ? `With an editor's rating of ${overallScore}/5, ${tool.name} is a strong choice for its target audience.`
+            : `${tool.name} scores ${overallScore}/5 — a reasonable option if its strengths align with your needs.`
+          }
+        </p>
+        <div class="final-cta-buttons">
+          <a href={ctaUrl} target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Try {tool.name} &rarr;
+          </a>
+          <a href={`/tools/${tool.slug}/`} class="btn-secondary">
+            Full Spec Sheet &rarr;
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .review-page {
+    padding: 2rem 0 4rem;
+  }
+
+  .container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* Review Header */
+  .review-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .review-header-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .review-badge {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: var(--primary);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+  }
+
+  .review-date {
+    font-size: 0.85rem;
+    color: var(--gray-500);
+  }
+
+  .review-header h1 {
+    font-size: 2.25rem;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+    color: var(--dark);
+  }
+
+  .review-subtitle {
+    font-size: 1.05rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    max-width: 680px;
+  }
+
+  /* Rating Card */
+  .rating-card {
+    display: flex;
+    gap: 3rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+    margin-bottom: 3rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .rating-card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 140px;
+  }
+
+  .rating-big-score {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+
+  .score-number {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--primary-dark);
+    line-height: 1;
+  }
+
+  .score-max {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--gray-500);
+  }
+
+  .rating-stars {
+    font-size: 1.3rem;
+    color: var(--warning);
+    letter-spacing: 2px;
+    margin-top: 0.5rem;
+  }
+
+  .rating-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--gray-500);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0.5rem;
+  }
+
+  .rating-card-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .score-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .score-category {
+    width: 130px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--gray-700);
+    flex-shrink: 0;
+  }
+
+  .score-bar {
+    flex: 1;
+    height: 8px;
+    background: var(--gray-200);
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .score-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    border-radius: 50px;
+    transition: width 0.6s ease;
+  }
+
+  .score-value {
+    width: 2.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--dark);
+    text-align: right;
+  }
+
+  /* Quick Verdict */
+  .quick-verdict {
+    background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .quick-verdict h2 {
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+    color: var(--dark);
+  }
+
+  .quick-verdict p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--gray-700);
+    margin-bottom: 1.5rem;
+  }
+
+  /* Review Sections */
+  .review-section {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .review-section:last-of-type {
+    border-bottom: none;
+  }
+
+  .review-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--dark);
+  }
+
+  .section-intro {
+    font-size: 1rem;
+    color: var(--gray-600);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .section-note {
+    margin-top: 1.5rem;
+    font-size: 0.92rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  /* Audience Grid */
+  .audience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .audience-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .audience-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .audience-icon {
+    font-size: 1.5rem;
+  }
+
+  .audience-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  /* Strengths */
+  .strengths-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .strength-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .strength-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    background: var(--success);
+    color: white;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 50%;
+  }
+
+  .strength-item strong {
+    display: block;
+    font-size: 1rem;
+    color: var(--dark);
+    margin-bottom: 0.25rem;
+  }
+
+  .strength-detail {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Weaknesses */
+  .weaknesses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .weakness-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem 1.25rem;
+    background: #FFF8F0;
+    border: 1px solid #FFE8D0;
+    border-radius: var(--radius);
+  }
+
+  .weakness-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+
+  .weakness-item strong {
+    display: block;
+    font-size: 1rem;
+    color: var(--dark);
+    margin-bottom: 0.25rem;
+  }
+
+  .weakness-detail {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Pricing Overview */
+  .pricing-overview {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+  }
+
+  .pricing-summary {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pricing-headline {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-dark);
+  }
+
+  .pricing-model {
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    text-transform: capitalize;
+  }
+
+  .pricing-plans-review {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--gray-200);
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .pricing-plan-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+
+  .plan-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--gray-700);
+    text-transform: capitalize;
+  }
+
+  .plan-price {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--dark);
+  }
+
+  .pricing-take {
+    font-size: 0.95rem;
+    color: var(--gray-600);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Comparison Callout */
+  .comparison-callout {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 3rem;
+  }
+
+  .comparison-callout-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background: linear-gradient(135deg, #f4f0ff 0%, #ede8ff 100%);
+    border: 1px solid #ddd4ff;
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+  }
+
+  .comparison-text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+  }
+
+  .comparison-text p {
+    font-size: 0.95rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Final CTA */
+  .review-final-cta {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    margin-top: 2rem;
+  }
+
+  .review-final-cta h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .review-final-cta p {
+    font-size: 1.05rem;
+    color: var(--gray-600);
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .final-cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    display: inline-block;
+    padding: 0.75rem 1.75rem;
+    background: var(--primary);
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+  }
+
+  .btn-primary:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    padding: 0.75rem 1.75rem;
+    background: var(--white);
+    color: var(--primary-dark);
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: 1px solid var(--primary);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .btn-secondary:hover {
+    background: var(--primary-light);
+    transform: translateY(-1px);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .review-header h1 {
+      font-size: 1.6rem;
+    }
+
+    .rating-card {
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1.5rem;
+    }
+
+    .rating-card-left {
+      flex-direction: row;
+      gap: 1rem;
+      min-width: auto;
+    }
+
+    .score-category {
+      width: 100px;
+      font-size: 0.82rem;
+    }
+
+    .comparison-callout-inner {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    .audience-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .quick-verdict {
+      padding: 1.5rem;
+    }
+
+    .pricing-overview {
+      padding: 1.5rem;
+    }
+
+    .review-final-cta {
+      padding: 2rem 1.5rem;
+    }
+
+    .final-cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>

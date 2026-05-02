@@ -16,11 +16,11 @@ Here are the AI tools that actually matter for designers in 2026, organized by w
 
 | Need | Best Tool | Price |
 |------|-----------|-------|
-| UI/UX design with AI | Figma (AI features) | Free – $15/mo |
-| Graphic design + templates | Canva (Magic Studio) | Free – $15/mo |
-| Image generation | Midjourney | $10/mo |
+| UI/UX design with AI | [Figma](/tools/figma/) (AI features) | Free – $15/mo |
+| Graphic design + templates | [Canva](/tools/canva/) (Magic Studio) | Free – $15/mo |
+| Image generation | [Midjourney](/tools/midjourney/) | $10/mo |
 | Background removal | Remove.bg / Canva | Free – $15/mo |
-| AI copywriting for UI | Claude | Free – $20/mo |
+| AI copywriting for UI | [Claude](/tools/claude/) | Free – $20/mo |
 | Design-to-code | Figma Dev Mode | $15/mo |
 | Stock photo alternative | Adobe Firefly | Included with CC |
 
@@ -121,7 +121,7 @@ ChatGPT with GPT-4o is the Swiss Army knife for designers:
 - **User research synthesis**: Summarize interview transcripts and survey data
 - **Competitive analysis**: Research competitor designs and summarize patterns
 
-ChatGPT's image generation with DALL-E 3 is good for quick concepts but less artistic than Midjourney. Its real strength for designers is the breadth of tasks it handles.
+ChatGPT's image generation with [DALL-E 3](/tools/dall-e/) is good for quick concepts but less artistic than Midjourney. Its real strength for designers is the breadth of tasks it handles.
 
 **Pricing**: Free → Plus $20/mo → Team $25/user/mo
 

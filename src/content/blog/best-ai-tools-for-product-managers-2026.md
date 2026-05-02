@@ -35,7 +35,7 @@ Second, Claude can hold an entire product context in memory during a conversatio
 
 **Price**: Free / $20/month (Plus)
 
-ChatGPT's breadth of training data makes it useful for market research and competitive analysis. PMs use it for:
+[ChatGPT](/tools/chatgpt/)'s breadth of training data makes it useful for market research and competitive analysis. PMs use it for:
 
 - Getting a quick overview of a competitor's product and positioning
 - Understanding industry trends before strategy sessions
@@ -88,7 +88,7 @@ Linear isn't an AI product primarily, but it's the best issue tracker for produc
 - Suggest similar existing issues to avoid duplicates
 - Generate cycle summaries for standups and stakeholder updates
 
-More importantly, Linear's speed and clean interface reduces the friction of PM-engineering collaboration. PMs who use it report fewer "where are we on this?" Slack messages.
+More importantly, Linear's speed and clean interface reduces the friction of PM-engineering collaboration. PMs who use it report fewer "where are we on this?" [Slack](/tools/slack/) messages.
 
 → [Linear review](/blog/best-linear-alternatives-2026/) | [ClickUp vs Linear](/blog/clickup-vs-jira-2026/)
 

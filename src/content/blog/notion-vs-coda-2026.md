@@ -38,14 +38,14 @@ Let's start with the clearest differentiator: **price**.
 - Team: $30/month per person → workspace management, priority support
 - Enterprise: Custom pricing
 
-**The verdict**: Notion is cheaper for small teams. At scale, Coda's per-seat pricing makes it significantly more expensive. However, Coda's Free tier is surprisingly capable—you get AI and Packs, which are usually premium features.
+**The verdict**: Notion is cheaper for [small teams](/best-for/small-teams/). At scale, Coda's per-seat pricing makes it significantly more expensive. However, Coda's Free tier is surprisingly capable—you get AI and Packs, which are usually premium features.
 
 ### Features: The Detailed Breakdown
 
 #### Databases & Tables
 **Notion** has the more intuitive database experience. Create a database, switch between 7 different views (table, kanban, calendar, gallery, timeline, list, sheet), and link relations between databases. This is powerful, but it's also why Notion has a steep learning curve.
 
-**Coda** tables feel more like Google Sheets. They're flexible, support formulas, and integrate seamlessly into docs. For teams used to spreadsheets, Coda feels more natural. For teams coming from Asana or Monday.com, Notion feels more natural.
+**Coda** tables feel more like Google Sheets. They're flexible, support formulas, and integrate seamlessly into docs. For teams used to spreadsheets, Coda feels more natural. For teams coming from Asana or [Monday.com](/tools/monday/), Notion feels more natural.
 
 **Winner**: Notion for flexibility, Coda for spreadsheet comfort.
 
@@ -61,14 +61,14 @@ For teams needing automation-heavy workflows—customer databases with triggered
 **Winner**: Coda for power users and automation-heavy workflows.
 
 #### AI Integration
-**Notion AI** (powered by OpenAI) can generate content, answer questions about your database, and summarize documents. It's functional and integrated well, but not groundbreaking.
+**[Notion AI](/tools/notion-ai/)** (powered by OpenAI) can generate content, answer questions about your database, and summarize documents. It's functional and integrated well, but not groundbreaking.
 
 **Coda AI** is more ambitious. It helps you write formulas, suggests pack-based automations, and integrates AI reasoning into your workflows. Coda's AI feels more like a copilot; Notion's feels more like a convenience feature.
 
 **Winner**: Coda for AI-driven workflows; Notion for basic content help.
 
 #### Templates & Community
-**Notion has the thriving template ecosystem**. Browse thousands of community templates, or buy premium templates from creators on Gumroad. This makes onboarding fast if you're looking for a pre-built solution (budget planners, project trackers, CRMs).
+**Notion has the thriving template ecosystem**. Browse thousands of community templates, or buy premium templates from creators on [Gumroad](/tools/gumroad/). This makes onboarding fast if you're looking for a pre-built solution (budget planners, project trackers, CRMs).
 
 **Coda has a smaller template library**, but their templates tend to be more sophisticated—they often demonstrate Packs, formulas, and advanced automation.
 
@@ -77,7 +77,7 @@ For teams needing automation-heavy workflows—customer databases with triggered
 #### Integrations
 **Notion integrations** are limited compared to competitors. You can zapier (via Zapier/Make), webhook into Slack, or use a few native integrations. This is Notion's weakest point.
 
-**Coda Packs** are Notion's answer to this, but more powerful. With Packs, you can embed external data directly into Coda—pull live data from Stripe, HubSpot, Airtable, and build on it without leaving Coda.
+**Coda Packs** are Notion's answer to this, but more powerful. With Packs, you can embed external data directly into Coda—pull live data from Stripe, HubSpot, [Airtable](/tools/airtable/), and build on it without leaving Coda.
 
 **Winner**: Coda for integration depth.
 
@@ -87,7 +87,7 @@ For teams needing automation-heavy workflows—customer databases with triggered
 
 **Coda** collaboration is good, but slightly less intuitive. Sharing is at the doc level, and the UI for permissions is less polished than Notion's.
 
-For remote teams that need to collaborate heavily, **Notion wins**.
+For [remote teams](/best-for/remote-teams/) that need to collaborate heavily, **Notion wins**.
 
 ### Best For: Use Cases
 
@@ -108,7 +108,7 @@ For remote teams that need to collaborate heavily, **Notion wins**.
 
 ### The Verdict: Notion for Most, Coda for Specialists
 
-In 2026, **Notion remains the better all-in-one workspace for the majority of users**. It's cheaper, has more templates, better community support, and a less intimidating learning curve. If you want a single tool to replace Asana, Confluence, Slack threads, and your Google Drive, Notion delivers.
+In 2026, **Notion remains the better all-in-one workspace for the majority of users**. It's cheaper, has more templates, better community support, and a less intimidating learning curve. If you want a single tool to replace Asana, Confluence, Slack threads, and your [Google Drive](/tools/google-drive/), Notion delivers.
 
 **However, Coda is the better choice if:**
 - Your team works with complex data transformations (think: data analysts, ops teams, finance)

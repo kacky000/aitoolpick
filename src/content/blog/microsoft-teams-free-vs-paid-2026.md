@@ -35,7 +35,7 @@ The free tier is surprisingly capable for basic team communication:
 - **300+ app integrations** from the marketplace
 - **5 GB cloud storage per user**
 
-For small teams that primarily need chat and occasional short video calls, the free plan works.
+For [small teams](/best-for/small-teams/) that primarily need chat and occasional short video calls, the free plan works.
 
 ## Where the Free Plan Falls Short
 

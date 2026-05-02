@@ -25,7 +25,7 @@ Here's when to use each — and when you might need both.
 ## When to Choose Miro
 
 ### 1. Team Brainstorming and Workshops
-Miro's infinite canvas is built for collaborative thinking. Sticky notes, voting, timers, and facilitation tools make remote workshops feel productive.
+Miro's infinite canvas is built for collaborative thinking. Sticky notes, voting, timers, and facilitation tools [make](/tools/make/) remote workshops feel productive.
 
 ### 2. Process Mapping and Diagrams
 Flowcharts, user journey maps, system architecture diagrams — Miro has purpose-built shapes and connectors that Canva can't match.
@@ -65,7 +65,7 @@ Canva Pro lets you save brand colors, fonts, and logos. Apply them consistently 
 
 ### Collaboration
 Both tools support real-time collaboration, but the experience differs:
-- **Miro:** Cursor tracking, voting, timer, presentation mode, video chat — optimized for *working together* in real-time
+- **Miro:** [Cursor](/tools/cursor/) tracking, voting, timer, presentation mode, video chat — optimized for *working together* in real-time
 - **Canva:** Comments, shared folders, brand kit — optimized for *creating together* asynchronously
 
 ### Templates
@@ -78,7 +78,7 @@ Both tools support real-time collaboration, but the experience differs:
 
 ### Integrations
 - **Miro:** Slack, Jira, Asana, [Notion](/tools/notion), Google Workspace, Microsoft Teams
-- **Canva:** Google Drive, Dropbox, social media platforms, Mailchimp, HubSpot
+- **Canva:** [Google Drive](/tools/google-drive/), Dropbox, social media platforms, Mailchimp, HubSpot
 
 ## Can You Use Both?
 

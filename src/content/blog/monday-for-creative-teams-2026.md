@@ -7,7 +7,7 @@ tags: ["monday", "project-management", "creative-teams", "design"]
 
 # Monday.com for Creative Teams: Setup, Workflows & Tips (2026)
 
-Creative teams have unique project management needs. Unlike software engineers tracking code, designers and marketers juggle campaigns, brand assets, client approvals, and shifting deadlines — often across multiple clients at once.
+Creative teams have unique [project management](/category/project-management/) needs. Unlike software engineers tracking code, designers and marketers juggle campaigns, brand assets, client approvals, and shifting deadlines — often across multiple clients at once.
 
 Monday.com has become one of the most popular tools for creative teams precisely because of its visual flexibility. Here's how to get the most out of it.
 
@@ -17,7 +17,7 @@ Monday's visual boards map naturally to creative workflows. A campaign doesn't j
 
 Key reasons creative teams stick with Monday:
 
-**Visual clarity.** Color-coded boards make it easy to see at a glance what's in progress, what's stuck, and what's done. In a creative department managing 20+ active projects, this matters.
+**Visual clarity.** Color-coded boards [make](/tools/make/) it easy to see at a glance what's in progress, what's stuck, and what's done. In a creative department managing 20+ active projects, this matters.
 
 **File management.** Monday allows file attachments directly on items and updates. Designers can attach mockups, copy docs, and client briefs to the relevant project item.
 
@@ -76,7 +76,7 @@ This keeps the main board readable (one row per campaign) while letting team mem
 
 Monday's automation builder is powerful for creative workflows. Useful automations for creative teams:
 
-**Brief to Design Handoff:** When status changes to "Concept Development," notify the design team in Slack.
+**Brief to Design Handoff:** When status changes to "Concept Development," notify the design team in [Slack](/tools/slack/).
 
 **Review Reminders:** When an item has been in "Client Review" for 3+ days, send an automatic follow-up reminder.
 
@@ -98,13 +98,13 @@ This eliminates the approval chaos that happens in long email chains or scattere
 
 Creative teams typically use Monday alongside:
 
-**Figma or Adobe Creative Cloud** — Link to design files directly from Monday items. Install the Monday-Figma integration to see Figma frames previewed within Monday.
+**[Figma](/tools/figma/) or Adobe Creative Cloud** — Link to design files directly from Monday items. Install the Monday-Figma integration to see Figma frames previewed within Monday.
 
 **Slack** — Receive notifications in relevant channels. Create Monday items from Slack messages (the "create item" shortcut saves time).
 
-**Google Drive or Dropbox** — Attach linked folders to items so the whole team can access creative assets without hunting for them.
+**[Google Drive](/tools/google-drive/) or Dropbox** — Attach linked folders to items so the whole team can access creative assets without hunting for them.
 
-**Zoom or Google Meet** — Schedule kickoff calls or review meetings directly from Monday's calendar view.
+**[Zoom](/tools/zoom/) or Google Meet** — Schedule kickoff calls or review meetings directly from Monday's calendar view.
 
 ## Common Creative Team Challenges (and Monday Solutions)
 
@@ -128,7 +128,7 @@ Creative teams typically use Monday alongside:
 
 For small agencies (3–15 people), the **Basic or Standard plans** ($9–12/user/month) cover most needs. The Standard plan adds timeline view, guest access, and automations — worth it for client-facing work.
 
-The **Pro plan** ($19/user/month) adds Workload view, time tracking, and chart view. For agencies managing resource allocation across multiple accounts, Pro is usually worth it.
+The **Pro plan** ($19/user/month) adds Workload view, [time tracking](/category/time-tracking/), and chart view. For agencies managing resource allocation across multiple accounts, Pro is usually worth it.
 
 For a full breakdown, see our [Monday.com review for 2026](/blog/monday-review-2026) or compare it with competitors in our [best project management tools guide](/blog/best-project-management-tools-2026).
 

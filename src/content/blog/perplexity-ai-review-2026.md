@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Perplexity Ai** is a popular software tool used by individuals and teams for productivity and collaboration. In this review, we evaluate its features, pricing, pros, cons, and alternatives for 2026.
 
-Perplexity AI has quietly become one of the most useful AI tools available. While ChatGPT and Claude dominate the chatbot space, Perplexity carved out its own niche as an AI-powered search engine that actually cites its sources. But is it worth paying for? Here's our honest review.
+Perplexity AI has quietly become one of the most useful AI tools available. While [ChatGPT](/tools/chatgpt/) and Claude dominate the chatbot space, Perplexity carved out its own niche as an AI-powered search engine that actually cites its sources. But is it worth paying for? Here's our honest review.
 
 ## What Is Perplexity AI?
 
@@ -68,7 +68,7 @@ While citations are great, Perplexity sometimes pulls from low-quality or outdat
 
 ## Perplexity vs ChatGPT vs Claude
 
-| Feature | Perplexity | ChatGPT | Claude |
+| Feature | Perplexity | ChatGPT | [Claude](/tools/claude/) |
 |---------|-----------|---------|--------|
 | Source citations | ✅ Best | ⚠️ Basic | ⚠️ Basic |
 | Real-time search | ✅ Core feature | ✅ Available | ✅ Available |

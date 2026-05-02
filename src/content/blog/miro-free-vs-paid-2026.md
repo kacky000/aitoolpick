@@ -17,7 +17,7 @@ The free tier includes:
 - **3 editable boards** — the biggest limitation
 - **Unlimited team members** — anyone can view and comment
 - **Core templates** — flowcharts, mind maps, wireframes
-- **Basic integrations** — Slack, Google Drive, Jira
+- **Basic integrations** — Slack, [Google Drive](/tools/google-drive/), Jira
 - **Sticky notes, shapes, and drawing** — the whiteboard essentials
 
 **What's missing:** Unlimited boards, advanced templates, voting, timer, video chat, custom templates, and most admin controls.

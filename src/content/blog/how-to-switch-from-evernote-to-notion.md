@@ -10,7 +10,7 @@ Evernote has steadily tightened its free plan and raised prices over the past fe
 
 ## Why People Are Leaving Evernote
 
-The migration wave is largely driven by Evernote's 2023–2026 changes:
+The migration [wave](/tools/wave/) is largely driven by Evernote's 2023–2026 changes:
 
 - **Free plan limited to 1 notebook and 50 notes**
 - **Offline access locked to paid plans**
@@ -120,7 +120,7 @@ Better than Evernote's tags for building a searchable knowledge base.
 
 ## Step 5: Rebuild Your Workflow
 
-The biggest adjustment isn't the data migration — it's the workflow shift. Evernote is "capture first, organize later." Notion rewards "structure first, capture into structure."
+The biggest adjustment isn't the data migration — it's the workflow shift. Evernote is "capture first, organize [later](/tools/later/)." Notion rewards "structure first, capture into structure."
 
 **Quick capture**: Use Notion's mobile app or Web Clipper (browser extension). It's not as seamless as Evernote's clipper, but it works reliably.
 
@@ -137,7 +137,7 @@ Once you've verified your data is in Notion and your workflow is running smoothl
 Before cancelling:
 - Confirm all notebooks exported correctly
 - Spot-check 20–30 notes at random in Notion
-- Make sure any shared notebooks have been re-shared in Notion with relevant collaborators
+- [Make](/tools/make/) sure any shared notebooks have been re-shared in Notion with relevant collaborators
 - Download a final `.enex` backup just in case
 
 For those exploring other options, see our [best Evernote alternatives for 2026](/blog/evernote-alternatives-2026) — Obsidian and Notion are the top two, with different strengths.

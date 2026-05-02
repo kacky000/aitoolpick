@@ -23,7 +23,7 @@ Perplexity is the gold standard for AI-powered research. Every answer comes with
 - Focus modes (Academic, Writing, Math, Wolfram)
 - Collections for organizing research
 - File upload and analysis (Pro)
-- API access for developers
+- API access for [developers](/best-for/developers/)
 
 **Why it's #1:** No other tool matches Perplexity's combination of speed, accuracy, and citation quality.
 

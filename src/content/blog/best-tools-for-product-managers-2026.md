@@ -18,7 +18,7 @@ Here are the best tools for product managers in 2026, organized by the job they 
 
 **Price:** Free (up to 250 issues) / $8/user/mo (Standard) / $14/user/mo (Plus)
 
-Linear is the fastest project management tool on the market. Its keyboard-first design means PMs can triage issues, update roadmaps, and assign sprints without touching the mouse. The product roadmap view connects initiatives to cycles and individual issues, giving you a clean top-down view of what's shipping.
+Linear is the fastest [project management](/category/project-management/) tool on the market. Its keyboard-first design means PMs can triage issues, update roadmaps, and assign sprints without touching the mouse. The product roadmap view connects initiatives to cycles and individual issues, giving you a clean top-down view of what's shipping.
 
 **Why PMs love it:** It matches how engineering teams actually work — cycles, triage, and velocity tracking built in.
 
@@ -44,7 +44,7 @@ Dive deeper in our [Notion review](/blog/notion-review-2026).
 
 **Price:** Free / $7/user/mo (Unlimited) / $12/user/mo (Business)
 
-ClickUp tries to replace every tool in your stack: project management, docs, whiteboards, goals, time tracking, and dashboards. For PMs managing cross-functional teams, having everything in one place eliminates context-switching.
+ClickUp tries to replace every tool in your stack: project management, docs, whiteboards, goals, [time tracking](/category/time-tracking/), and dashboards. For PMs managing cross-functional teams, having everything in one place eliminates context-switching.
 
 **Why PMs love it:** Custom fields and multiple views (list, board, Gantt, calendar) mean you can show engineers a sprint board while stakeholders see a timeline.
 
@@ -56,7 +56,7 @@ ClickUp tries to replace every tool in your stack: project management, docs, whi
 
 Asana shines when multiple teams need to coordinate. Its portfolio view lets PMs track the status of every project at a glance. Timeline view shows dependencies clearly, and the rules engine automates status updates and assignments.
 
-**Why PMs love it:** Portfolios and goals make it easy to align day-to-day tasks with company objectives.
+**Why PMs love it:** Portfolios and goals [make](/tools/make/) it easy to align day-to-day tasks with company objectives.
 
 **Verdict:** Best for PMs at mid-to-large companies where multiple teams need visibility into each other's work.
 
@@ -68,7 +68,7 @@ Asana shines when multiple teams need to coordinate. Its portfolio view lets PMs
 
 Slack is where product decisions actually happen in most companies. Channels organize conversations by team, project, or topic. Huddles enable quick voice calls. Canvas lets you pin living documents right in a channel. The free plan now includes 90 days of message history.
 
-**Why PMs love it:** Integration with Jira, Linear, Figma, and 2,400+ apps means you can get notifications, approve requests, and update statuses without leaving Slack.
+**Why PMs love it:** Integration with Jira, Linear, [Figma](/tools/figma/), and 2,400+ apps means you can get notifications, approve requests, and update statuses without leaving Slack.
 
 **Verdict:** Non-negotiable for most PM workflows. The question is which plan, not whether to use it.
 
@@ -88,7 +88,7 @@ Teams dominates in enterprise environments where compliance, security, and Micro
 
 **Price:** Free (3 files) / $15/editor/mo (Professional) / $45/editor/mo (Organization)
 
-Figma is where your designers live, and smart PMs live there too. Dev Mode translates designs into specs, measurements, and code snippets. FigJam boards are perfect for brainstorming sessions and user flow mapping. Comments let you provide feedback directly on designs.
+Figma is where your designers live, and smart PMs live there too. Dev Mode translates designs into specs, measurements, and code snippets. [FigJam](/tools/figjam/) boards are perfect for brainstorming sessions and user flow mapping. Comments let you provide feedback directly on designs.
 
 **Why PMs love it:** You can review designs, leave comments, and inspect specs without ever asking a designer to "export that screen for me."
 
@@ -127,7 +127,7 @@ Most product managers don't need ten tools. Here's a practical stack:
 | Roadmapping + Tasks | Linear or Notion | Free–$14/user |
 | Communication | Slack | Free–$8.75/user |
 | Design Review | Figma | Free (viewer) |
-| Analytics | Amplitude or Mixpanel | Free |
+| Analytics | Amplitude or [Mixpanel](/tools/mixpanel/) | Free |
 | User Research | Hotjar | Free–$32 |
 
 **Total cost for a solo PM:** $0–$55/month, depending on team size and plan choices.

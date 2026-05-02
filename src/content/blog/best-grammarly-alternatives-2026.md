@@ -22,13 +22,13 @@ ProWritingAid goes deeper than grammar checking. It analyzes readability, senten
 
 Integrates with Word, Google Docs, Scrivener, and browsers.
 
-**Best for**: Authors, bloggers, and anyone who wants to improve their writing craft.
+**Best for**: Authors, bloggers, and anyone who wants to improve their writing [craft](/tools/craft/).
 
 ## 2. Hemingway Editor — Best for Clarity
 
 **Pricing**: Free (web), $19.99 (desktop app, one-time)
 
-Hemingway focuses on readability. It highlights complex sentences, passive voice, adverbs, and hard-to-read passages with color coding. It won't catch every grammar error, but it'll make your writing clearer and more direct.
+Hemingway focuses on readability. It highlights complex sentences, passive voice, adverbs, and hard-to-read passages with color coding. It won't catch every grammar error, but it'll [make](/tools/make/) your writing clearer and more direct.
 
 The one-time pricing for the desktop app is refreshing in a subscription-heavy market.
 

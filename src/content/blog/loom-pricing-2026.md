@@ -30,7 +30,7 @@ Loom's free plan is genuinely useful for occasional use, but it comes with meani
 - **5-minute recording limit** per video
 - Unlimited viewers (anyone with the link can watch)
 - Basic editing: trim, chapters, CTAs
-- Slack and Notion integration
+- Slack and [Notion](/tools/notion/) integration
 - Auto-generated transcripts
 
 **Verdict:** The free plan works well for one-off demos or simple team updates. Once you hit 25 videos or need longer recordings, you'll need to upgrade.
@@ -60,8 +60,8 @@ Business+ adds enterprise-grade features:
 
 - Everything in Business
 - **Advanced analytics** (funnel-style drop-off data)
-- CRM integrations (HubSpot, Salesforce)
-- Salesforce activity logging
+- [CRM](/category/crm/) integrations (HubSpot, Salesforce)
+- [Salesforce](/tools/salesforce/) activity logging
 - Custom video pages
 - SSO (SAML)
 - Advanced admin controls
@@ -72,7 +72,7 @@ Business+ adds enterprise-grade features:
 
 ## Is Loom Worth It in 2026?
 
-Loom's biggest value is **reducing unnecessary meetings**. A 2-minute Loom can replace a 30-minute Zoom call for the right type of communication.
+Loom's biggest value is **reducing unnecessary meetings**. A 2-minute Loom can replace a 30-minute [Zoom](/tools/zoom/) call for the right type of communication.
 
 **When Loom is worth paying for:**
 - You record demos, walkthroughs, or feedback regularly

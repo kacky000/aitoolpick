@@ -134,9 +134,9 @@ Before paying for any ChatGPT plan, these free options might cover your needs:
 
 **Perplexity Free** — If you mainly use ChatGPT for research, Perplexity offers AI-powered search with source citations. More focused, but exceptional at what it does. Check out our [Perplexity vs ChatGPT breakdown](/blog/perplexity-vs-chatgpt-2026/).
 
-**Google Gemini** — Free and deeply integrated with Google Workspace. Handles email drafting, document analysis, and search-related tasks well if you're in the Google ecosystem.
+**[Google Gemini](/tools/gemini/)** — Free and deeply integrated with Google Workspace. Handles email drafting, document analysis, and search-related tasks well if you're in the Google ecosystem.
 
-A strategic combination — ChatGPT Free for general tasks, Claude Free for writing, Perplexity Free for research — gives you premium-level AI capabilities at zero cost.
+A strategic combination — ChatGPT Free for general tasks, [Claude](/tools/claude/) Free for writing, Perplexity Free for research — gives you premium-level AI capabilities at zero cost.
 
 ## Tips for Maximizing the Free Plan
 

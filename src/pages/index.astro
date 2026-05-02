@@ -29,7 +29,7 @@ const popularComparisons = [
   <!-- Hero -->
   <section class="hero">
     <h1>Find the <span class="highlight">Perfect Tool</span> for Your Workflow</h1>
-    <p>Compare features, pricing, and reviews across 100+ top productivity and AI tools.</p>
+    <p>Compare features, pricing, and reviews across {tools.length}+ top productivity and AI tools.</p>
     <div class="hero-search">
       <input type="text" placeholder="Search tools... (e.g., Notion, ChatGPT)" id="hero-search-input" />
       <span class="hero-search-icon">&#128269;</span>
@@ -52,6 +52,46 @@ const popularComparisons = [
             </a>
           );
         })}
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Rated Tools -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Top Rated Tools</h2>
+      <p class="section-subtitle">The highest-rated tools across all categories.</p>
+      <div class="top-tools-grid">
+        {tools.sort((a, b) => b.rating - a.rating).slice(0, 8).map((tool, i) => (
+          <a href={`/tools/${tool.slug}/`} class="top-tool-card">
+            <span class="top-tool-rank">#{i + 1}</span>
+            {tool.icon && <img src={tool.icon} alt={tool.name} width="32" height="32" style="border-radius: 8px;" />}
+            <div class="top-tool-info">
+              <strong>{tool.name}</strong>
+              <span>{'★'.repeat(Math.round(tool.rating))} {tool.rating}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Best For Role -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Find Tools for Your Role</h2>
+      <p class="section-subtitle">Curated tool recommendations based on what you do.</p>
+      <div class="role-grid">
+        <a href="/best-for/developers/" class="role-card"><span class="role-icon">👨‍💻</span><span>Developers</span></a>
+        <a href="/best-for/designers/" class="role-card"><span class="role-icon">🎨</span><span>Designers</span></a>
+        <a href="/best-for/marketers/" class="role-card"><span class="role-icon">📈</span><span>Marketers</span></a>
+        <a href="/best-for/freelancers/" class="role-card"><span class="role-icon">💼</span><span>Freelancers</span></a>
+        <a href="/best-for/startups/" class="role-card"><span class="role-icon">🚀</span><span>Startups</span></a>
+        <a href="/best-for/students/" class="role-card"><span class="role-icon">🎓</span><span>Students</span></a>
+        <a href="/best-for/content-creators/" class="role-card"><span class="role-icon">✏️</span><span>Creators</span></a>
+        <a href="/best-for/remote-teams/" class="role-card"><span class="role-icon">🌍</span><span>Remote Teams</span></a>
+        <a href="/best-for/solopreneurs/" class="role-card"><span class="role-icon">🧑‍💻</span><span>Solopreneurs</span></a>
+        <a href="/best-for/product-managers/" class="role-card"><span class="role-icon">📋</span><span>PMs</span></a>
       </div>
     </div>
   </section>
@@ -119,7 +159,10 @@ const popularComparisons = [
       <div class="cta-section">
         <h2>Ready to Find Your Perfect Tool?</h2>
         <p>Compare features, pricing, and reviews side by side to make the right choice.</p>
-        <a href="/compare/" class="btn-primary">Start Comparing &rarr;</a>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="/tools/" class="btn-primary">Browse All {tools.length} Tools &rarr;</a>
+          <a href="/compare/" class="btn-secondary">Start Comparing &rarr;</a>
+        </div>
       </div>
     </div>
   </section>
@@ -145,7 +188,7 @@ const popularComparisons = [
         searchResults.innerHTML = '<div class="search-empty">No tools found</div>';
       } else {
         searchResults.innerHTML = matches.map(t =>
-          `<a href="/alternatives/${t.slug}/" class="search-item">
+          `<a href="/tools/${t.slug}/" class="search-item">
             <img src="${t.icon}" alt="${t.name}" width="24" height="24" />
             <div>
               <strong>${t.name}</strong>
@@ -209,6 +252,87 @@ const popularComparisons = [
       color: var(--gray-500);
       text-align: center;
       font-size: 0.9rem;
+    }
+
+    /* Top Tools */
+    .top-tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .top-tool-card {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.85rem 1rem;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      text-decoration: none;
+      transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+    }
+
+    .top-tool-card:hover {
+      border-color: var(--primary);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-1px);
+    }
+
+    .top-tool-rank {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+      min-width: 28px;
+    }
+
+    .top-tool-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .top-tool-info strong {
+      font-size: 0.92rem;
+      color: var(--dark);
+    }
+
+    .top-tool-info span {
+      font-size: 0.78rem;
+      color: var(--warning);
+    }
+
+    /* Role Grid */
+    .role-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .role-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1.25rem 0.75rem;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      text-decoration: none;
+      color: var(--dark);
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+    }
+
+    .role-card:hover {
+      border-color: var(--primary);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+
+    .role-icon {
+      font-size: 1.75rem;
     }
   </style>
 </BaseLayout>

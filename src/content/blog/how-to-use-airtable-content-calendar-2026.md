@@ -41,7 +41,7 @@ Create one primary table: **Content**
 | Reviewer | Collaborator | Who approves it |
 | Tags | Multiple select | Topics, campaigns, content pillars |
 | Word Count / Length | Number | Target length |
-| Content URL | URL | Link to Google Doc, Notion page, or published URL |
+| Content URL | URL | Link to Google Doc, [Notion](/tools/notion/) page, or published URL |
 | Notes | Long text | Context, brief, or special instructions |
 | Created | Created time | Auto-populated |
 
@@ -66,7 +66,7 @@ Campaign table fields:
 - Status
 - Linked Content (linked records)
 
-Now you can filter all content for a given campaign instantly.
+Now you can filter all content for a given campaign [instantly](/tools/instantly/).
 
 ## Step 3: Set Up Views
 
@@ -132,11 +132,11 @@ Airtable's **Automations** (formerly "Airtable Automations") are no-code trigger
 | Integration | Purpose |
 |------------|---------|
 | **Slack** | Auto-post to #content-team when status changes |
-| **Google Drive** | Attach Google Docs to records automatically |
-| **Zapier / Make** | Connect to Buffer, Hootsuite, or WordPress for publishing |
+| **[Google Drive](/tools/google-drive/)** | Attach Google Docs to records automatically |
+| **Zapier / Make** | Connect to Buffer, [Hootsuite](/tools/hootsuite/), or WordPress for publishing |
 | **Notion** | Sync content briefs between Airtable and Notion |
 
-For direct social publishing: connect Airtable to **Buffer** via Zapier. When a record reaches "Scheduled" status with a Publish Date, Zapier creates a Buffer post automatically.
+For direct social publishing: connect Airtable to **Buffer** via [Zapier](/tools/zapier/). When a record reaches "Scheduled" status with a Publish Date, Zapier creates a Buffer post automatically.
 
 ## Step 6: Editorial Calendar Best Practices
 

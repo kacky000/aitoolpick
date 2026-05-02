@@ -10,7 +10,7 @@ lastModified: "2026-04-26"
 
 Perplexity AI has become one of the most popular AI search tools in 2026. It answers questions with cited sources, making it a powerful alternative to traditional search engines. But is the Pro plan worth $20 per month when the free version is already impressive?
 
-This guide breaks down every difference between Perplexity Free and Pro so you can make an informed decision.
+This guide breaks down every difference between Perplexity Free and Pro so you can [make](/tools/make/) an informed decision.
 
 ## Perplexity AI Pricing Overview
 
@@ -32,7 +32,7 @@ The free plan is genuinely useful — not a crippled trial version. Here is what
 - **Source citations** — Every answer links to its sources so you can verify claims
 - **Follow-up questions** — Continue conversations to dig deeper into topics
 - **Basic Focus modes** — Search the web, academic papers, YouTube, or Reddit specifically
-- **Limited Pro searches** — You get around 5 Pro-level searches per day for free
+- **Limited Pro searches** — You get [around](/tools/around/) 5 Pro-level searches per day for free
 
 For casual users who ask a few questions per day, the free plan covers most needs. The answers are accurate, the citations are helpful, and the interface is fast.
 
@@ -42,7 +42,7 @@ The $20/month Pro plan unlocks significant upgrades:
 
 ### Unlimited Pro Searches
 
-This is the headline feature. Pro searches use advanced AI models (including GPT-4, Claude, and Perplexity's own models) to generate deeper, more nuanced answers. Free users get roughly 5 of these per day. Pro users get unlimited access.
+This is the headline feature. Pro searches use advanced AI models (including GPT-4, [Claude](/tools/claude/), and Perplexity's own models) to generate deeper, more nuanced answers. Free users get roughly 5 of these per day. Pro users get unlimited access.
 
 The difference in quality is noticeable. Pro searches analyze more sources, provide longer answers, and handle complex multi-part questions better.
 
@@ -67,7 +67,7 @@ While free users get basic Focus modes, Pro unlocks deeper searches across acade
 
 ### API Credits
 
-Pro subscribers receive $5 in monthly API credits, useful for developers who want to integrate Perplexity's search capabilities into their own applications.
+Pro subscribers receive $5 in monthly API credits, useful for [developers](/best-for/developers/) who want to integrate Perplexity's search capabilities into their own applications.
 
 ## Free vs Pro: Head-to-Head
 
@@ -97,7 +97,7 @@ It depends on how you use AI search. Here is a simple framework:
 ### Free Is Enough If You:
 
 - **Ask occasional questions** — A few simple queries per day
-- **Use it alongside other tools** — Perplexity supplements ChatGPT or Claude
+- **Use it alongside other tools** — Perplexity supplements [ChatGPT](/tools/chatgpt/) or Claude
 - **Do casual browsing** — Looking for quick answers, not deep research
 - **Are budget-conscious** — $20/month is significant for light usage
 
@@ -119,7 +119,7 @@ Whether free or Pro, these tips help you get better results:
 
 1. **Use Focus modes** — Narrow your search to Academic, YouTube, or Reddit for more relevant results
 2. **Ask follow-up questions** — Perplexity's conversational search improves with context
-3. **Be specific** — "Best CRM for 5-person sales teams under $50/month" beats "best CRM"
+3. **Be specific** — "Best [CRM](/category/crm/) for 5-person sales teams under $50/month" beats "best CRM"
 4. **Check sources** — Always click through citations for important decisions
 5. **Try the annual plan** — Save $40/year if you commit to Pro
 

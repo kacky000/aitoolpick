@@ -37,7 +37,7 @@ The ChatGPT Code Interpreter (in Plus) can also analyze uploaded spreadsheets, r
 
 **Price**: Free / $20/month (Pro)
 
-Where ChatGPT is the most versatile, Claude is the best at reading and analyzing long documents. Accountants handling:
+Where ChatGPT is the most versatile, [Claude](/tools/claude/) is the best at reading and analyzing long documents. Accountants handling:
 
 - **Multi-year financial statements** — upload a 100-page annual report and ask specific questions
 - **Contracts and agreements** — extract payment terms, penalty clauses, revenue recognition triggers
@@ -55,7 +55,7 @@ Accounting firms generate enormous amounts of institutional knowledge: client no
 
 - **Search across all documents** using natural language
 - **Auto-summarize meeting notes** from client calls
-- **Draft SOPs** for recurring processes (month-end close, tax preparation workflows)
+- **Draft SOPs** for recurring processes (month-end [close](/tools/close/), tax preparation workflows)
 - **Create templates** for engagement letters and proposals
 
 For solo CPAs and small firms, Notion as a CRM + knowledge base + AI assistant in one platform is genuinely compelling.
@@ -83,7 +83,7 @@ The Business plan adds a team-level style guide, useful for firms that want cons
 Many accounting workflows involve moving data between tools — from invoice software to spreadsheets, from CRMs to billing systems. Zapier automates these without code:
 
 - Auto-create Notion tasks when a new client invoice is generated
-- Send Slack alerts when a payment is overdue
+- Send [Slack](/tools/slack/) alerts when a payment is overdue
 - Log new expenses to a Google Sheet automatically
 - Sync client data between your CRM and accounting software
 

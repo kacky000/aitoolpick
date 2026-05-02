@@ -16,7 +16,7 @@ AI tools have moved beyond novelty — they're now essential for getting more do
 
 Notion already combines notes, databases, tasks, and wikis. Adding Notion AI on top lets you:
 
-- Summarize meeting notes instantly
+- Summarize meeting notes [instantly](/tools/instantly/)
 - Generate action items from documents
 - Write and edit content within your workspace
 - Ask questions about your entire workspace
@@ -74,7 +74,7 @@ Perplexity combines AI with real-time web search, giving you answers with citati
 
 **Price**: Free (AI add-on $9/member/month) | **Rating**: 4.5/5
 
-ClickUp Brain adds AI directly into your project management workflow:
+[ClickUp](/tools/clickup/) Brain adds AI directly into your project management workflow:
 
 - Auto-generate task descriptions and subtasks
 - Summarize project updates
@@ -104,7 +104,7 @@ Grammarly has evolved from a grammar checker into a full AI writing assistant:
 
 **Price**: Free / Pro $29.99/month | **Rating**: 4.5/5
 
-Zapier connects 6,000+ apps and now uses AI to make automation easier:
+Zapier connects 6,000+ apps and now uses AI to [make](/tools/make/) automation easier:
 
 - Natural language automation creation
 - AI-powered actions within workflows

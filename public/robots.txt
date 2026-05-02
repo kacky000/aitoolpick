@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
+Disallow: /_astro/
+Disallow: /api/
+
+# Crawl-delay for polite bots
+User-agent: AhrefsBot
+Crawl-delay: 1
+
+User-agent: SemrushBot
+Crawl-delay: 1
 
 Sitemap: https://aitoolpick.org/sitemap-index.xml

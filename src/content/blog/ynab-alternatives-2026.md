@@ -32,7 +32,7 @@ For full context on what you'd be giving up, read our [complete YNAB review for 
 **Free trial:** 7 days
 **Best for:** Couples and households, comprehensive financial overview
 
-Monarch Money has emerged as the top YNAB alternative for people who want a full-featured personal finance platform. It tracks spending, investments, net worth, and budgets in a single clean interface. The collaboration features make it especially good for couples managing shared finances.
+Monarch Money has emerged as the top YNAB alternative for people who want a full-featured personal finance platform. It tracks spending, investments, net worth, and budgets in a single clean interface. The collaboration features [make](/tools/make/) it especially good for couples managing shared finances.
 
 **Why it beats YNAB for some users:**
 - Simpler onboarding — less philosophy, more practical tracking
@@ -107,7 +107,7 @@ Copilot is an Apple-exclusive budgeting app (iOS and Mac only) known for its bea
 ## 5. Actual Budget — Best Free and Open-Source Option
 
 **Price:** Completely free (self-hosted) / $4/month for hosted cloud sync
-**Best for:** Privacy-focused users, developers, YNAB power users
+**Best for:** Privacy-focused users, [developers](/best-for/developers/), YNAB power users
 
 Actual Budget started as a paid app and went fully open-source in 2022. It's now one of the most powerful free budgeting tools available — with a methodology very similar to YNAB (zero-based, envelope-style, forward-looking). You can self-host it for complete privacy and zero cost.
 
@@ -118,7 +118,7 @@ Actual Budget started as a paid app and went fully open-source in 2022. It's now
 - Growing community of plugins and integrations
 - The cloud-hosted version is only $4/month
 
-**Limitations:** Self-hosting requires some technical comfort (Docker or local server setup). The UI is functional but not as polished as commercial alternatives. Smaller feature set than YNAB's current version.
+**Limitations:** Self-hosting requires some technical comfort ([Docker](/tools/docker/) or local server setup). The UI is functional but not as polished as commercial alternatives. Smaller feature set than YNAB's current version.
 
 **Verdict:** For technically comfortable users who are frustrated paying $99/year for YNAB, Actual Budget is the most direct replacement available. The methodology is nearly identical and the price is right.
 

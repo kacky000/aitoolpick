@@ -30,7 +30,7 @@ What salespeople actually use it for:
 
 **Price**: Free / $20/month (Pro)
 
-Where ChatGPT is fast and punchy, Claude is better for longer, more structured work. If you're writing an RFP response, a detailed proposal, or analyzing a 40-page prospect contract before a big call, Claude handles the context better.
+Where ChatGPT is fast and punchy, [Claude](/tools/claude/) is better for longer, more structured work. If you're writing an RFP response, a detailed proposal, or analyzing a 40-page prospect contract before a big call, Claude handles the context better.
 
 Sales-specific strengths:
 - **Proposal drafting**: Give Claude your prospect's stated requirements, your product capabilities, and a competitor's known weaknesses. It produces well-structured, coherent proposals faster than starting from scratch.
@@ -44,10 +44,10 @@ Sales-specific strengths:
 
 **Price**: Free / $19.99/month (Professional)
 
-The biggest time drain for salespeople isn't selling — it's the admin work around it. Zapier connects the tools in your stack so that manual tasks happen automatically.
+The biggest time drain for salespeople isn't selling — it's the admin work [around](/tools/around/) it. Zapier connects the tools in your stack so that manual tasks happen automatically.
 
 High-value sales automations:
-- **New lead to CRM**: When a form fills on your website, automatically create a contact in your CRM, assign it to the right rep based on territory, and send a Slack notification.
+- **New lead to CRM**: When a form fills on your website, automatically create a contact in your CRM, assign it to the right rep based on territory, and send a [Slack](/tools/slack/) notification.
 - **Meeting booked → prep task**: When a calendar event is created with a prospect, automatically create a research task in your project management tool.
 - **Email reply tracking**: When a prospect replies to a cold email campaign, create a follow-up task and log the activity in your CRM.
 - **Won deal → onboarding trigger**: When a deal is marked Closed Won, kick off the onboarding sequence in your customer success tool.
@@ -80,7 +80,7 @@ Where it helps most:
 - **Cold emails**: Catches awkward phrasing and suggests more confident, direct alternatives.
 - **LinkedIn messages**: Tone detection flags messages that read as too pushy or too passive.
 - **Proposal documents**: Catches inconsistencies, passive voice, and unclear sentences in longer documents before they reach the prospect.
-- **Browser integration**: Works in Gmail, LinkedIn, Salesforce — wherever reps actually write.
+- **Browser integration**: Works in Gmail, LinkedIn, [Salesforce](/tools/salesforce/) — wherever reps actually write.
 
 → [Grammarly vs ChatGPT for writing](/blog/grammarly-vs-chatgpt-for-writing/)
 

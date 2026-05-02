@@ -53,7 +53,7 @@ Here's how task counting works in practice:
 
 **Example 1: Simple 2-Step Zap**
 - Trigger: New email arrives in Gmail (0 tasks—triggers are free)
-- Action: Send message in Slack (1 task)
+- Action: Send message in [Slack](/tools/slack/) (1 task)
 - **Total: 1 task per email**
 
 **Example 2: Multi-Step Zap with Filter**
@@ -61,7 +61,7 @@ Here's how task counting works in practice:
 - Filter: Only if submission contains "urgent" (0 tasks—filters are free)
 - Action 1: Create row in Google Sheets (1 task)
 - Action 2: Send Slack notification (1 task)
-- Action 3: Create task in Asana (1 task)
+- Action 3: Create task in [Asana](/tools/asana/) (1 task)
 - **Total: 3 tasks per submission**
 
 **Important**: Filters and conditional logic don't consume tasks. Only action steps that actually execute count toward your monthly limit.
@@ -92,7 +92,7 @@ If you exceed your monthly task limit, Zapier charges $0.99-$2.00 per 100 additi
 
 ### Premium App Connectors
 
-Some integrations charge additional fees. Apps like Salesforce, HubSpot, and advanced CRM connectors may require higher plans or add-on fees ranging from $5-$50/month.
+Some integrations charge additional fees. Apps like Salesforce, HubSpot, and advanced [CRM](/category/crm/) connectors may require higher plans or add-on fees ranging from $5-$50/month.
 
 ### Multi-Step Zaps
 
@@ -166,7 +166,7 @@ Instead of triggering on every single event, use scheduled checks to process bat
 
 ## Is Zapier Worth the Cost?
 
-For small businesses and startups, Zapier typically pays for itself within the first month. A Professional plan at $29.99/month saves roughly 3-5 hours weekly in manual data entry and task switching. At $25/hour labor, you're looking at $300-500 monthly savings.
+For small businesses and [startups](/best-for/startups/), Zapier typically pays for itself within the first month. A Professional plan at $29.99/month saves roughly 3-5 hours weekly in manual data entry and task switching. At $25/hour labor, you're looking at $300-500 monthly savings.
 
 However, if you only need 1-2 simple automations, the Free tier or [alternative solutions](/blog/best-zapier-alternatives-2026) might be sufficient.
 

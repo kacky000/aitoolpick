@@ -4,7 +4,7 @@ description: "An honest review of Perplexity AI in 2026 — covering Free vs Pro
 pubDate: "2026-04-29"
 tags: ["perplexity", "ai", "review", "search", "research"]
 ---
-Perplexity AI has carved out a distinct niche: an AI-powered search engine that answers questions with cited sources. Unlike ChatGPT, which generates answers from training data, Perplexity searches the web in real time and links you to the pages it pulled information from.
+Perplexity AI has carved out a distinct niche: an AI-powered search engine that answers questions with cited sources. Unlike [ChatGPT](/tools/chatgpt/), which generates answers from training data, Perplexity searches the web in real time and links you to the pages it pulled information from.
 
 After using Perplexity daily for over six months — on both the Free and Pro plans — here's what works, what doesn't, and who should pay the $20/month.
 
@@ -20,7 +20,7 @@ The core experience is closer to "Google Search with an AI summary built in" tha
 |---------|------|-----|
 | Standard searches | Unlimited | Unlimited |
 | Pro searches (advanced AI) | 5/day | 600+/day |
-| AI model | Default only | GPT-4o, Claude, Sonar Large |
+| AI model | Default only | GPT-4o, [Claude](/tools/claude/), Sonar Large |
 | File analysis | ❌ | ✅ (PDFs, images, CSVs) |
 | Focus modes | Basic | All (Academic, YouTube, Reddit, etc.) |
 | Collections | ❌ | ✅ |
@@ -88,7 +88,7 @@ The two tools serve different purposes:
 - **Use Perplexity** when you need current, cited information. Factual questions, research, news, data lookups.
 - **Use ChatGPT** when you need content generation, code writing, brainstorming, or creative work.
 
-There's overlap in the middle — both can summarize topics, explain concepts, and draft text. But Perplexity's citation model makes it more trustworthy for factual claims, while ChatGPT's conversational depth and plugin ecosystem make it more versatile for creative and technical tasks.
+There's overlap in the middle — both can summarize topics, explain concepts, and draft text. But Perplexity's citation model makes it more trustworthy for factual claims, while ChatGPT's conversational depth and plugin ecosystem [make](/tools/make/) it more versatile for creative and technical tasks.
 
 For a detailed breakdown, read our [Perplexity vs ChatGPT comparison](/blog/perplexity-vs-chatgpt-2026).
 

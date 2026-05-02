@@ -10,9 +10,9 @@ Discord started as a gaming chat app and became one of the most popular communit
 
 ## What Is Discord?
 
-Discord is a free communication platform combining text chat, voice channels, and video calls. Unlike Slack (which is primarily workplace-focused), Discord is designed for communities — groups of people with shared interests who want to hang out, collaborate, or build something together.
+Discord is a free communication platform combining text chat, voice channels, and video calls. Unlike [Slack](/tools/slack/) (which is primarily workplace-focused), Discord is designed for communities — groups of people with shared interests who want to hang out, collaborate, or build something together.
 
-In 2026, Discord has over 500 million registered users and hosts communities for everything from crypto traders and indie game developers to book clubs, study groups, and brand communities.
+In 2026, Discord has over 500 million registered users and hosts communities for everything from crypto traders and indie game [developers](/best-for/developers/) to book clubs, study groups, and brand communities.
 
 ## Discord vs Alternatives
 
@@ -37,7 +37,7 @@ Before diving in, a quick orientation:
 
 ## Understanding Discord's Structure
 
-Discord is organized around three levels:
+Discord is organized [around](/tools/around/) three levels:
 
 ### Servers
 A server is a community space — think of it like a website or a club. Each server has its own members, channels, and rules. You can join up to 100 servers on a free account.
@@ -52,7 +52,7 @@ Within each server, conversations happen in channels. There are two types:
 
 **Text channels** (#general, #announcements, #off-topic): Persistent text conversations. Messages stay until deleted.
 
-**Voice channels**: Join to talk by voice or video. Unlike Zoom or Teams, voice channels are always open — you just click to join, like walking into a room.
+**Voice channels**: Join to talk by voice or video. Unlike [Zoom](/tools/zoom/) or Teams, voice channels are always open — you just click to join, like walking into a room.
 
 ### Categories
 Channels are grouped into categories. A typical server might have:
@@ -81,7 +81,7 @@ Channels are grouped into categories. A typical server might have:
 ## Messaging Basics
 
 ### Sending Messages
-Type in the message box at the bottom and press `Enter` to send. `Shift+Enter` creates a new line without sending.
+Type in the message [box](/tools/box/) at the bottom and press `Enter` to send. `Shift+Enter` creates a new line without sending.
 
 ### Formatting
 Discord supports Markdown:
@@ -121,7 +121,7 @@ Bots are automated accounts that add features to servers. Server admins add them
 **Common bots you'll encounter:**
 - **MEE6 / Dyno**: Moderation bots (give warnings, mute rule-breakers, manage roles)
 - **Carl-bot**: Role assignment, reaction roles, welcome messages
-- **Midjourney Bot**: AI image generation (in the Midjourney server)
+- **[Midjourney](/tools/midjourney/) Bot**: AI image generation (in the Midjourney server)
 - **Ticket Tool**: Support ticket systems for communities
 
 You interact with bots using slash commands: type `/` in any message box to see available commands.

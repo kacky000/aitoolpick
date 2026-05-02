@@ -14,9 +14,9 @@ This is the most important question. Different design work requires fundamentall
 
 | Design Type | Best Tool | Why |
 |------------|-----------|-----|
-| UI/UX interfaces | Figma | Vector editing, prototyping, component systems |
-| Marketing graphics | Canva | Templates, Brand Kit, quick output |
-| Diagrams & workshops | Miro | Infinite canvas, collaboration features |
+| UI/UX interfaces | [Figma](/tools/figma/) | Vector editing, prototyping, component systems |
+| Marketing graphics | [Canva](/tools/canva/) | Templates, Brand Kit, quick output |
+| Diagrams & workshops | [Miro](/tools/miro/) | Infinite canvas, collaboration features |
 | Print materials | Canva | Print-ready exports, template library |
 | Icon/illustration | Figma | Precise vector control |
 
@@ -45,8 +45,8 @@ This is the most important question. Different design work requires fundamentall
 
 Your design tool doesn't exist in isolation. Consider what it needs to connect with:
 
-- **Project management** → Figma integrates deeply with Linear, Jira, and Asana
-- **Communication** → Both Figma and Canva have Slack integrations
+- **[Project management](/category/project-management/)** → Figma integrates deeply with Linear, Jira, and Asana
+- **Communication** → Both Figma and Canva have [Slack](/tools/slack/) integrations
 - **Development** → Figma's Dev Mode is built for developer handoff
 - **Content management** → Canva exports directly to social platforms
 
@@ -60,7 +60,7 @@ Be honest about your team's skill level:
 | Miro | Low-Medium | 1 hour |
 | Figma | Medium-High | 1-2 weeks |
 
-If your team doesn't have design experience, forcing them into Figma will waste time. Canva's templates get non-designers producing quality work in minutes.
+If your team doesn't have design experience, forcing them into Figma will waste time. Canva's templates get non-[designers](/best-for/designers/) producing quality work in minutes.
 
 ## Step 5: Start Free, Then Upgrade
 
@@ -88,7 +88,7 @@ Try them with your actual workflow before paying. A tool that looks perfect in a
 
 ## Bottom Line
 
-Match the tool to the work, not the other way around. Most teams end up with Figma for product design and Canva for everything else — and that's perfectly fine.
+Match the tool to the work, not the other way [around](/tools/around/). Most teams end up with Figma for product design and Canva for everything else — and that's perfectly fine.
 
 Compare options side by side: [Canva vs Figma](/compare/canva-vs-figma/) or [Miro vs Figma](/compare/figma-vs-miro/).
 

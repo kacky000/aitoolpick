@@ -34,11 +34,11 @@ Google Chat is now a genuinely capable team messaging tool. For Google Workspace
 
 Slack has been the category leader for over a decade, and for good reason:
 
-- **App ecosystem** — 2,600+ integrations, including deep integrations with GitHub, Jira, Salesforce, PagerDuty, and hundreds of developer tools
+- **App ecosystem** — 2,600+ integrations, including deep integrations with GitHub, Jira, [Salesforce](/tools/salesforce/), PagerDuty, and hundreds of developer tools
 - **Workflow Builder** — No-code automation directly within Slack
 - **Huddles** — Lightweight audio and video calls that feel more natural than scheduled Meet calls
 - **Canvas** — Collaborative documents embedded in channels
-- **Lists** — Task management built into Slack conversations
+- **Lists** — [Task management](/category/task-management/) built into Slack conversations
 - **Better threading** — Slack's threaded replies are more consistently used and cleaner than Chat's implementation
 
 Slack is particularly strong for engineering, sales, and operations teams who rely on many external tool integrations sending notifications into Slack.
@@ -74,11 +74,11 @@ Slack Pro at $7.25/user/month is a real cost. For a team of 20, that is $1,740/y
 
 ## Where Slack Clearly Wins
 
-**Third-party integrations** — If your team's workflow involves receiving GitHub PR notifications, PagerDuty alerts, Salesforce deal updates, or AWS CloudWatch alarms in your messaging tool, Slack's integration quality is dramatically better. Google Chat integrations exist but are fewer, less polished, and less deeply configured.
+**Third-party integrations** — If your team's workflow involves receiving [GitHub](/tools/github/) PR notifications, PagerDuty alerts, Salesforce deal updates, or AWS CloudWatch alarms in your messaging tool, Slack's integration quality is dramatically better. Google Chat integrations exist but are fewer, less polished, and less deeply configured.
 
 **Workflow automation** — Slack's Workflow Builder allows non-technical users to create complex automations: onboarding workflows, approval chains, ticket routing. Chat's automation capabilities are more limited.
 
-**Developer culture fit** — In engineering-heavy organizations, Slack is culturally embedded. GitHub, GitLab, Jira, and most developer tools have first-class Slack integrations. Chat integrations for developer tools are available but feel secondary.
+**Developer culture fit** — In engineering-heavy organizations, Slack is culturally embedded. GitHub, [GitLab](/tools/gitlab/), Jira, and most developer tools have first-class Slack integrations. Chat integrations for developer tools are available but feel secondary.
 
 **Notification control** — Slack's notification customization is more granular and more reliable than Chat's.
 
@@ -95,7 +95,7 @@ Slack Pro at $7.25/user/month is a real cost. For a team of 20, that is $1,740/y
 ## Who Should Use Each Tool
 
 **Use Slack when:**
-- Your team uses many developer tools (GitHub, Jira, PagerDuty, AWS)
+- Your team uses many developer tools (GitHub, [Jira](/tools/jira/), PagerDuty, AWS)
 - You need sophisticated workflow automations
 - Your team culture has adopted Slack
 - You value the best-in-class messaging UX regardless of cost
