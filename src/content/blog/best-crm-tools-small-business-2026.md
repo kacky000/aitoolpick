@@ -163,7 +163,7 @@ ClickUp has been expanding aggressively into CRM territory. Its CRM view lets yo
 
 - **Start with HubSpot Free** if you want a real CRM without paying anything upfront. It's purpose-built, does the job, and scales.
 - **Choose Monday.com CRM** if your team already works in Monday and you want everything in one place.
-- **Use Notion or Airtable** if you have simple needs, a small deal volume, and want maximum flexibility over structure.
+- **Use Notion or [Airtable](/tools/airtable/)** if you have simple needs, a small deal volume, and want maximum flexibility over structure.
 - **Go with ClickUp** if you want to consolidate CRM + project management into one affordable tool.
 
 For more context on how these tools compare in a broader work management context, see our [best project management tools guide](/blog/best-project-management-tools-2026/).

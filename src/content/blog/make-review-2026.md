@@ -43,12 +43,12 @@ Unlike [Zapier](/tools/zapier/)'s basic retry logic, Make offers sophisticated e
 | Teams | $34.12 | Custom | Team roles, AI agents, shared templates |
 | Enterprise | Custom | Custom | SSO, SCIM, audit logs |
 
-Make's credit-based pricing is more cost-effective than Zapier's task-based model for complex, multi-step workflows.
+Make's credit-based pricing is more cost-effective than [Zapier](/tools/zapier/)'s task-based model for complex, multi-step workflows.
 
 ## Pros
 
 - **Visual workflow builder** — see your entire automation at a glance
-- **Much cheaper than Zapier** — especially for complex workflows (up to 13x cost advantage)
+- **Much cheaper than [Zapier](/tools/zapier/)** — especially for complex workflows (up to 13x cost advantage)
 - **Powerful branching logic** — routers, filters, and error handlers
 - **HTTP modules** — connect any API without waiting for native integrations
 - **Data stores** — built-in simple database for persistent data
@@ -79,7 +79,7 @@ Make's credit-based pricing is more cost-effective than Zapier's task-based mode
 
 | Feature | Make | Zapier |
 |---------|------|--------|
-| Visual Builder | ✅ Branching | Linear only |
+| Visual Builder | ✅ Branching | [Linear](/tools/linear/) only |
 | App Count | 3,000+ | 7,000+ |
 | Starting Price | $10.59/mo | $29.99/mo |
 | Complex Logic | Excellent | Basic |

@@ -137,7 +137,7 @@ For a 10-person team: ClickUp Unlimited + AI = $140/month. Monday.com Pro (with 
 
 Monday.com has more native integrations and a more mature app ecosystem. ClickUp is catching up but still trails in this area.
 
-**Winner:** Monday.com for out-of-the-box integrations.
+**Winner:** Monday.com for out-of-the-[box](/tools/box/) integrations.
 
 ---
 
@@ -175,7 +175,7 @@ For most teams, the decision comes down to one question: **Do you prioritize fea
 
 If your team is technical, enjoys configuring tools, and wants every possible feature at the lowest price — **ClickUp is the better value**.
 
-If your team needs something that works out of the box, looks great in stakeholder demos, and won't require weeks of setup — **Monday.com is the safer choice**.
+If your team needs something that works out of the [box](/tools/box/), looks great in stakeholder demos, and won't require weeks of setup — **Monday.com is the safer choice**.
 
 Both are excellent tools. Neither is a wrong choice. The wrong choice is picking a tool your team won't use.
 

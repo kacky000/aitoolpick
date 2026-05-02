@@ -75,7 +75,7 @@ If you work at a brokerage with other agents and support staff, Slack channels k
 Real estate marketing demands great visuals: listing flyers, social media graphics, open house announcements, and neighborhood guides. Canva's real estate templates [make](/tools/make/) professional-looking materials accessible to non-designers.
 
 - **Price:** Free, $15/month (Pro)
-- **Why agents love it:** Real estate-specific templates, brand kit for consistent branding, easy resize for different platforms, presentation mode
+- **Why agents love it:** Real estate-specific templates, brand [kit](/tools/kit/) for consistent branding, easy resize for different platforms, presentation mode
 - **Best for:** Agents who create their own marketing materials
 
 [Read our Canva review →](/blog/canva-review-2026)

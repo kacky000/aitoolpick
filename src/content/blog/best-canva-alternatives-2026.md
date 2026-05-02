@@ -53,9 +53,9 @@ Adobe Express is Adobe's answer to Canva — a simplified design tool that bring
 **Why choose Adobe Express over Canva:**
 - **Adobe Fonts access** — thousands of premium typefaces included
 - **Creative Cloud integration** — import assets from Photoshop, Illustrator, and Lightroom
-- **Adobe Firefly AI** — generate and edit images with Adobe's AI, trained on licensed content
+- **[Adobe Firefly](/tools/adobe-firefly/) AI** — generate and edit images with Adobe's AI, trained on licensed content
 - **Remove Background** — one-click background removal powered by Photoshop's engine
-- **Brand Kit** — centralized brand management with logos, colors, and fonts
+- **Brand [Kit](/tools/kit/)** — centralized brand management with logos, colors, and fonts
 
 **Where Canva still wins:** Template variety and community-created designs. Canva's template ecosystem is significantly larger than Adobe Express's library.
 
@@ -106,7 +106,7 @@ VistaCreate (formerly Crello) is the closest direct competitor to Canva. The int
 - **Unique template styles** — different design aesthetic from Canva's library
 - **Object removal** — AI-powered background and object removal included in Pro
 
-**Where Canva still wins:** Larger template library, more integrations, better brand kit management, and a more polished mobile app.
+**Where Canva still wins:** Larger template library, more integrations, better brand [kit](/tools/kit/) management, and a more polished mobile app.
 
 **Best for:** Budget-conscious designers, social media managers who want animated content, Canva users looking for fresh template styles.
 

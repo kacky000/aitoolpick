@@ -17,7 +17,7 @@ Figma is a browser-based design tool used to create:
 - **Website and app designs** (UI/UX design)
 - **Wireframes and prototypes**
 - **Design systems and component libraries**
-- **Presentations** (via Figma Slides)
+- **Presentations** (via Figma [Slides](/tools/slides-com/))
 - **Diagrams and brainstorming** (via [FigJam](/tools/figjam/))
 
 It's used by designers at companies like Airbnb, Uber, Google, and Spotify. But it's also free for individuals, making it accessible to students, [freelancers](/best-for/freelancers/), and hobbyists.
@@ -128,7 +128,7 @@ Instead of remembering hex codes, create named color styles:
 
 ### Text Styles
 Same concept for typography:
-1. Style your text (font, size, weight, line height)
+1. Style your text (font, size, weight, line [height](/tools/height/))
 2. Click the **4-dot icon** next to the text properties → "+" → name it (e.g., "Heading/H1")
 
 ### Variables (Advanced)
@@ -201,7 +201,7 @@ Your prototype now feels like a real app. Share the prototype link with stakehol
 
 - **Figma Community**: Thousands of free templates, UI kits, and icons at [figma.com/community](https://figma.com/community)
 - **Figma YouTube channel**: Official tutorials for every feature
-- **UI kits**: Search the community for "iOS Design Kit" or "Material Design" for pre-built components
+- **UI kits**: Search the community for "iOS Design [Kit](/tools/kit/)" or "Material Design" for pre-built components
 
 ## What's Next?
 

@@ -16,7 +16,7 @@ Notion and Google Docs both handle documents, but they solve fundamentally diffe
 | **Primary Use** | Workspace + docs + databases | Word processing + collaboration |
 | **Real-time Editing** | ✅ | ✅ (best-in-class) |
 | **Offline Mode** | Limited | ✅ Full offline editing |
-| **Databases** | ✅ Native | ❌ (use Google Sheets) |
+| **Databases** | ✅ Native | ❌ (use [Google Sheets](/tools/google-sheets/)) |
 | **Templates** | ✅ Marketplace | ✅ Basic |
 | **API** | ✅ Powerful | ✅ Google Docs API |
 | **Learning Curve** | Moderate | Nearly zero |
@@ -29,7 +29,7 @@ Google Docs pioneered real-time collaborative editing, and it's still the best. 
 Notion supports real-time editing too, but it can lag with multiple simultaneous editors on large pages. Google Docs handles this flawlessly.
 
 ### Ease of Use
-Google Docs looks and feels like a word processor. Anyone who has used Microsoft Word can start immediately. There's no setup, no configuration, no learning curve.
+Google Docs looks and feels like a word processor. Anyone who has used [Microsoft Word](/tools/microsoft-word/) can start immediately. There's no setup, no configuration, no learning curve.
 
 Notion requires time to learn its block-based editor, database concepts, and page hierarchy. The flexibility is powerful once mastered, but the initial investment is real.
 

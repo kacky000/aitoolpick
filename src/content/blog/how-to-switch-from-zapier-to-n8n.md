@@ -35,7 +35,7 @@ Before you touch n8n, get a complete picture of your current Zapier setup.
 
 - **Simple** (2-3 steps, no filters): Migrate first. These take 10-15 minutes each in n8n.
 - **Medium** (4-7 steps, with filters or formatters): Budget 30-60 minutes per workflow.
-- **Complex** (8+ steps, Paths, webhooks, code steps): These need careful planning. Budget 1-2 hours each.
+- **Complex** (8+ steps, Paths, webhooks, code steps): These need careful planning. Budget 1-2 [hours](/tools/hours-tracker/) each.
 
 ### Identify Integration Gaps
 
@@ -50,7 +50,7 @@ Understanding the terminology difference makes the transition much smoother:
 | Zap | Workflow | The entire automation |
 | Trigger | Trigger Node | The event that starts the workflow |
 | Action | Action Node | Each step that does something |
-| Filter | IF Node | Conditional logic to stop or continue |
+| Filter | IF Node | Conditional logic to stop or [continue](/tools/continue/) |
 | Paths | IF / Switch Node | Branching logic for multiple outcomes |
 | Formatter | Function / Code Node | Data transformation (n8n uses real code) |
 | Multi-Step Zap | Multi-node Workflow | Sequential or parallel execution |
@@ -76,7 +76,7 @@ For most migrations, start with n8n Cloud so you can focus on rebuilding workflo
 Pick your simplest, least critical Zap and rebuild it in n8n:
 
 1. Open the n8n editor and create a new workflow
-2. Add the **Trigger node** that matches your Zap's trigger (e.g., "Google Sheets — Row Added")
+2. Add the **Trigger node** that matches your Zap's trigger (e.g., "[Google Sheets](/tools/google-sheets/) — Row Added")
 3. Add **Action nodes** for each subsequent step
 4. Use the **test** button on each node to verify data flows correctly
 5. Activate the workflow
@@ -131,7 +131,7 @@ Don't flip the switch all at once:
 
 1. Activate the n8n workflow alongside the existing Zap
 2. Run both for 3-7 days and compare outputs
-3. Check for data discrepancies, timing issues, or missed executions
+3. Check for data discrepancies, [timing](/tools/timing/) issues, or missed executions
 4. Once confident, deactivate the Zap in Zapier
 5. Move on to the next workflow
 
@@ -139,7 +139,7 @@ Don't flip the switch all at once:
 
 - **Webhook URLs change** — If your Zap uses a Zapier webhook trigger, every service sending data to that URL needs to be updated to the new n8n webhook URL.
 - **App behavior differences** — The same integration can work slightly differently. Google Sheets in Zapier might return data as strings, while n8n returns typed values.
-- **Polling vs. webhooks** — Zapier polls some apps every 1-15 minutes. n8n nodes may use webhooks for instant triggers. This is usually better, but test the timing.
+- **Polling vs. webhooks** — Zapier polls some apps every 1-15 minutes. n8n nodes may use webhooks for instant triggers. This is usually better, but test the [timing](/tools/timing/).
 - **Date/time formats** — Zapier's Formatter handles timezone conversion automatically. In n8n, use Luxon (built-in) or a Code node for timezone-aware date handling.
 - **OAuth tokens** — You'll need to re-authenticate every connected app in n8n. Credentials don't transfer.
 - **Rate limits** — n8n workflows can execute faster than Zapier Zaps. If an API has rate limits, add Wait nodes or configure batch sizes.
@@ -148,7 +148,7 @@ Don't flip the switch all at once:
 
 - **JavaScript and Python code nodes** — Write real logic, not string-based formatters
 - **Self-hosting** — Full data sovereignty with zero per-execution costs
-- **AI agent workflows** — n8n's AI nodes (LangChain integration) make it the better platform for building AI-powered automations
+- **AI agent workflows** — n8n's AI nodes (LangChain integration) [make](/tools/make/) it the better platform for building AI-powered automations
 - **Visual debugging** — See data at every node in real time during test runs
 - **Sub-workflows** — Call one workflow from another, enabling modular automation design
 - **Community nodes** — Install custom integrations built by the community

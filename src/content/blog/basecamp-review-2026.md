@@ -55,7 +55,7 @@ The flat pricing model is Basecamp's single biggest differentiator in 2026. As y
 
 ## Pros
 
-**Genuinely simple to adopt.** New team members are productive in Basecamp within hours, not days. There are no complex workflows to configure, no permission hierarchies to set up, no dashboards to build.
+**Genuinely simple to adopt.** New team members are productive in Basecamp within [hours](/tools/hours-tracker/), not days. There are no complex workflows to configure, no permission hierarchies to set up, no dashboards to build.
 
 **Flat pricing scales beautifully.** If you have more than 20-25 users and do not need enterprise features, Basecamp's flat $299/month beats every major competitor on price.
 
@@ -97,7 +97,7 @@ The flat pricing model is Basecamp's single biggest differentiator in 2026. As y
 
 **Basecamp vs [Notion](/tools/notion/):** Notion is more flexible and can replicate many Basecamp features with databases and linked pages, but it requires much more setup. Basecamp is ready to use immediately; Notion rewards investment.
 
-**Basecamp vs Slack + project tools:** Many teams use Slack for communication and a separate tool for tasks. Basecamp combines both with less noise. If Slack pings are drowning your team, Basecamp's message-board model is worth serious consideration.
+**Basecamp vs [Slack](/tools/slack/) + project tools:** Many teams use Slack for communication and a separate tool for tasks. Basecamp combines both with less noise. If Slack pings are drowning your team, Basecamp's message-board model is worth serious consideration.
 
 Explore the full competitive landscape in our guide to the [best project management tools in 2026](/blog/best-project-management-tools-2026).
 
@@ -105,7 +105,7 @@ Explore the full competitive landscape in our guide to the [best project managem
 
 Basecamp occupies a specific niche in 2026, and it occupies it well. For remote teams that value async communication and transparent work coordination over feature depth, Basecamp delivers a genuinely excellent experience. The flat pricing model becomes a serious financial advantage once your team grows past 20-25 people.
 
-The honest limitation: Basecamp's simplicity is a feature for some teams and a dealbreaker for others. If you need Gantt charts, time tracking, or advanced reporting, look elsewhere. If you are drowning in Slack noise and scattered project information, Basecamp might be exactly the cure.
+The honest limitation: Basecamp's simplicity is a feature for some teams and a dealbreaker for others. If you need Gantt charts, time tracking, or advanced reporting, look elsewhere. If you are drowning in [Slack](/tools/slack/) noise and scattered project information, Basecamp might be exactly the cure.
 
 ---
 

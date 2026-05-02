@@ -6,7 +6,7 @@ tags: ["linear", "asana", "migration", "project-management", "developers"]
 heroImage: "/thumbs/how-to-switch-from-asana-to-linear.jpg"
 lastModified: "2026-04-26"
 ---
-If your engineering team has outgrown Asana — or just wants a faster, more developer-centric tool — Linear is the obvious next step. The migration itself isn't complicated, but it requires some deliberate planning to avoid losing context or disrupting active projects.
+If your engineering team has outgrown Asana — or just wants a faster, more developer-centric tool — [Linear](/tools/linear-app/) is the obvious next step. The migration itself isn't complicated, but it requires some deliberate planning to avoid losing context or disrupting active projects.
 
 This guide covers exactly how to [make](/tools/make/) the switch.
 

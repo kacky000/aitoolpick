@@ -103,9 +103,9 @@ This is a flat, per-seat fee with no tiered pricing or enterprise negotiations. 
 
 ## Obsidian vs. Notion Pricing: A Direct Comparison
 
-Many users choose between Obsidian and Notion. Here's how the pricing models compare:
+Many users choose between Obsidian and [Notion](/tools/notion/). Here's how the pricing models compare:
 
-| | Obsidian | Notion |
+| | Obsidian | [Notion](/tools/notion/) |
 |---|---|---|
 | **Free tier** | Full app, unlimited notes, local only | Unlimited personal pages, limited team features |
 | **Basic paid tier** | Sync $4/mo | Plus $10/mo |
@@ -143,7 +143,7 @@ The tradeoff is the learning curve. Obsidian is more powerful and more flexible 
 
 **[Download Obsidian Free](https://obsidian.md)** — no account, no credit card, no expiration.
 
-If you're already sold on the app and want to decide whether Sync is worth it for your workflow, start by using the free iCloud or Dropbox sync method for a month. If the friction bothers you, $4/month for native Sync is an easy call.
+If you're already sold on the app and want to decide whether Sync is worth it for your workflow, start by using the free iCloud or [Dropbox](/tools/dropbox/) sync method for a month. If the friction bothers you, $4/month for native Sync is an easy call.
 
 Want to see how Obsidian stacks up in real-world use? Read the full [Obsidian Review 2026](/blog/obsidian-review-2026), or compare it to the top competitors in [Best Obsidian Alternatives 2026](/blog/best-obsidian-alternatives-2026).
 

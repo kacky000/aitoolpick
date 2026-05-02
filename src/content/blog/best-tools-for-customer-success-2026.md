@@ -51,9 +51,9 @@ Customer success involves a lot of writing: renewal emails, QBR summaries, execu
 
 Where Claude helps most for CS:
 - **QBR preparation**: "Here are this customer's last three months of usage metrics and their stated goals from onboarding. Write a QBR executive summary that connects their usage to their business outcomes."
-- **Renewal email sequences**: Draft personalized renewal outreach that references specific value the customer has gotten, rather than generic reminders.
+- **Renewal email sequences**: Draft personalized renewal [outreach](/tools/outreach/) that references specific value the customer has gotten, rather than generic reminders.
 - **Escalation communications**: For difficult situations, Claude helps draft the right tone — acknowledging the issue, taking ownership, and communicating the resolution path clearly.
-- **Feature adoption outreach**: "This customer has never used [Feature X], which usually solves [Problem Y]. Write a short email that introduces the feature in terms of their use case."
+- **Feature adoption [outreach](/tools/outreach/)**: "This customer has never used [Feature X], which usually solves [Problem Y]. Write a short email that introduces the feature in terms of their use case."
 - **Churn save conversations**: Role-play a churn conversation before it happens. Feed in the customer's concerns and ask Claude to play the customer while you practice your response.
 
 → [Claude review 2026](/blog/claude-review-2026/) | [Best AI tools for productivity](/blog/best-ai-tools-for-productivity-2026/)
@@ -62,7 +62,7 @@ Where Claude helps most for CS:
 
 **Price**: Free / $19.99/month (Professional)
 
-CSMs have high administrative overhead. Automating the routine parts frees time for the high-touch work that actually drives retention.
+CSMs have high administrative overhead. Automating the [routine](/tools/routine/) parts frees time for the high-touch work that actually drives retention.
 
 High-value CS automations with Zapier:
 - **Onboarding kickoff**: When a deal is marked Closed Won → Create the customer in your CS platform → Assign a CSM → Create the onboarding task list → Send the welcome email.
@@ -81,7 +81,7 @@ One-to-many customer communication is a core CS challenge: how do you educate a 
 
 CS use cases for Loom:
 - **Onboarding walkthroughs**: Screen recording of the key product flows, narrated specifically for the customer's use case. More personal than generic help documentation.
-- **Feature announcement videos**: Record a 2-minute overview of a new feature with specific examples relevant to the customer segment. Higher engagement than email.
+- **Feature announcement videos**: Record a 2-minute overview of a new feature with specific examples relevant to the customer [segment](/tools/segment/). Higher engagement than email.
 - **QBR substitutes for smaller accounts**: A 5-minute Loom walkthrough of their usage data and recommendations is faster for CSMs to produce than a full slide deck and more engaging for the customer than a spreadsheet.
 - **Async troubleshooting**: Record a screen share showing how to solve a common issue. Send once, reuse for every customer with the same problem.
 

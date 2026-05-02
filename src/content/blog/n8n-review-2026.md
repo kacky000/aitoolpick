@@ -41,7 +41,7 @@ Cloud plans are for teams that don't want to manage infrastructure. The executio
 The typical setup:
 
 ```bash
-docker run -it --rm \
+[docker](/tools/docker/) run -it --rm \
   --name n8n \
   -p 5678:5678 \
   -v ~/.n8n:/home/node/.n8n \
@@ -74,7 +74,7 @@ n8n's AI agent nodes let you build workflows that:
 
 The practical result: you can build AI agents that automatically respond to customer emails, triage support tickets, generate reports from database queries, or run multi-step research workflows — all without writing backend code.
 
-For teams building AI-native processes, n8n's agent workflow builder is ahead of what Zapier and Make offer.
+For teams building AI-native processes, n8n's agent workflow builder is ahead of what [Zapier](/tools/zapier/) and Make offer.
 
 ## Error Handling and Reliability
 
@@ -86,11 +86,11 @@ n8n has strong error handling for technical users:
 
 The caveat: debugging n8n workflows requires technical comfort. You read JSON data structures, inspect HTTP responses, and write conditional logic in code nodes. For non-technical users, this is a significant barrier.
 
-Zapier's error handling is simpler — alerts in plain English, automatic retries, and basic error routing. n8n's is more powerful but requires more skill.
+[Zapier](/tools/zapier/)'s error handling is simpler — alerts in plain English, automatic retries, and basic error routing. n8n's is more powerful but requires more skill.
 
 ## What n8n Doesn't Do Well
 
-**Non-technical onboarding**: The learning curve is real. Zapier users can build automations in 10 minutes. n8n users typically spend hours learning the data model before building their first useful workflow.
+**Non-technical onboarding**: The learning curve is real. Zapier users can build automations in 10 minutes. n8n users typically spend [hours](/tools/hours-tracker/) learning the data model before building their first useful workflow.
 
 **Integration breadth**: If you need a niche SaaS tool that doesn't have an API, n8n can't help more than Zapier can. The HTTP Request node only works if the tool has an accessible API.
 
@@ -114,7 +114,7 @@ Zapier's error handling is simpler — alerts in plain English, automatic retrie
 
 ## n8n vs Zapier vs Make
 
-| Factor | n8n | Zapier | Make |
+| Factor | n8n | Zapier | [Make](/tools/make/) |
 |--------|-----|--------|------|
 | Free option | Self-hosted (unlimited) | 100 tasks/month | 1,000 ops/month |
 | Cheapest paid | $24/month (cloud) | $19.99/month | $10.59/month |
@@ -129,9 +129,9 @@ Zapier's error handling is simpler — alerts in plain English, automatic retrie
 
 n8n is the best choice for technical teams who run meaningful automation volume and want the power of a real programming environment without the per-task pricing that makes Zapier expensive at scale.
 
-If you can set up a Docker container and manage a VPS, n8n is almost certainly cheaper and more powerful than your current Zapier or Make setup. The transition takes time, but the long-term economics and capability ceiling justify it for technical teams.
+If you can set up a [Docker](/tools/docker/) container and manage a VPS, n8n is almost certainly cheaper and more powerful than your current Zapier or Make setup. The transition takes time, but the long-term economics and capability ceiling justify it for technical teams.
 
-If you can't or don't want to manage infrastructure, n8n Cloud is an option — but at that point, Make offers more integrations at a lower cloud price point.
+If you can't or don't want to manage infrastructure, n8n Cloud is an option — but at that point, [Make](/tools/make/) offers more integrations at a lower cloud price point.
 
 **Recommendation:** Start with n8n Cloud's free trial. If the interface fits your needs, deploy self-hosted. If you hate managing servers, compare Make and Zapier instead.
 

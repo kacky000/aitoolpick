@@ -20,7 +20,7 @@ This guide covers the best Gantt chart software in 2026, from dedicated tools to
 | [Asana](/tools/asana) | No | $10.99/user/month | Mid-size teams needing robust timelines |
 | [Monday.com](/tools/monday) | No | $9/seat/month | Visual teams and client projects |
 | [Notion](/tools/notion) | No (via timelines) | $10/user/month | Teams already in Notion |
-| Teamgantt | Yes (1 user) | $24/month | Dedicated Gantt users |
+| [Teamgantt](/tools/teamgantt/) | Yes (1 user) | $24/month | Dedicated Gantt users |
 | GanttPro | No | $7.99/user/month | Standalone Gantt focus |
 | [Trello](/tools/trello) | No (Power-Up) | $5/user/month | Simple projects only |
 
@@ -90,7 +90,7 @@ Like Asana, it doesn't offer Gantt on the free plan. The Standard plan ($12/seat
 
 [Notion](/tools/notion/) doesn't have a traditional Gantt chart, but its Timeline view (available on the Plus plan at $10/user/month) provides similar functionality for teams who don't need heavy PM features.
 
-If your team already uses Notion for documentation, adding a timeline database is a natural extension. The limitation is that Notion's timeline is relatively simple — no resource allocation, no critical path, no milestones in the traditional sense.
+If your team already uses [Notion](/tools/notion/) for documentation, adding a timeline database is a natural extension. The limitation is that Notion's timeline is relatively simple — no resource allocation, no critical path, no milestones in the traditional sense.
 
 **What it does well:**
 - Integrated with your docs and wikis
@@ -126,7 +126,7 @@ If you manage complex multi-project timelines and don't need the full suite of a
 
 **Choose Asana or Monday.com** if your team is large, you manage complex dependencies, and you can afford a paid plan.
 
-**Choose Notion** if your team already lives in Notion and you need light timeline tracking.
+**Choose [Notion](/tools/notion/)** if your team already lives in Notion and you need light timeline tracking.
 
 **Choose TeamGantt or GanttPro** if you specifically want a Gantt-first tool, not a full PM platform.
 

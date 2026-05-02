@@ -80,7 +80,7 @@ Monday.com's visual, no-code approach makes it accessible to HR, operations, and
 - **Limitation:** Expensive at scale, minimum 3 seats
 
 ### 10. Google Tasks — Best Free Minimalist Option
-Built into Gmail and Google Calendar, Google Tasks is the simplest option for people who just need a basic to-do list without another app to manage.
+Built into Gmail and [Google Calendar](/tools/google-calendar/), Google Tasks is the simplest option for people who just need a basic to-do list without another app to manage.
 
 - **Price:** Free
 - **Standout:** Zero friction if you use Google Workspace

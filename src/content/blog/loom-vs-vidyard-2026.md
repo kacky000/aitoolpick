@@ -41,7 +41,7 @@ Both tools cover the basics: screen-only, camera-only, or screen-plus-camera rec
 
 Vidyard also integrates into email clients. You can record and embed videos directly in Gmail, Outlook, Outreach, and [SalesLoft](/tools/salesloft/) sequences without leaving your inbox.
 
-**Winner: Vidyard** for sales outreach. **Loom** for internal team communication.
+**Winner: Vidyard** for sales [outreach](/tools/outreach/). **Loom** for internal team communication.
 
 ## Analytics
 
@@ -63,8 +63,8 @@ For sales teams, this changes the workflow. Instead of guessing whether a prospe
 
 - **[Salesforce](/tools/salesforce/)**: Auto-logs video views as activities on contact/lead records
 - **[HubSpot](/tools/hubspot/)**: Tracks video engagement in the contact timeline
-- **Outreach**: Embeds video in sequences with tracking
-- **SalesLoft**: Same as Outreach
+- **[Outreach](/tools/outreach/)**: Embeds video in sequences with tracking
+- **[SalesLoft](/tools/salesloft/)**: Same as Outreach
 - **[Gong](/tools/gong/)**: Links video engagement to deal intelligence
 
 This integration depth means sales managers can see video engagement alongside call data, email opens, and meeting history — all in one pipeline view.
@@ -106,7 +106,7 @@ Vidyard is the right choice if:
 
 - You're on a **sales or customer success team** that uses video for prospecting, demos, or follow-ups
 - You need to know **exactly who watched** your videos and **how they engaged** — and you need that data in your CRM
-- You use **Salesforce, HubSpot, Outreach, or SalesLoft** and want native integrations
+- You use **[Salesforce](/tools/salesforce/), HubSpot, Outreach, or SalesLoft** and want native integrations
 - **ROI tracking** matters more than per-seat cost
 
 ## Can You Use Both?

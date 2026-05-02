@@ -38,7 +38,7 @@ The free tier gives you access to Gemini's base model with daily usage limits. Y
 - No access to Gemini 3 or Gemini 3 Pro models
 - No AI credits for advanced features
 - No expanded Google Workspace integration
-- Stricter rate limits during peak hours
+- Stricter rate limits during peak [hours](/tools/hours-tracker/)
 
 The free plan handles casual use well but you'll hit walls fast if you try to use it as a daily productivity tool.
 
@@ -71,7 +71,7 @@ This is Google's answer to [ChatGPT Plus ($20)](/blog/chatgpt-vs-gemini-2026/) a
 - 1 million token context window
 - Advanced image generation
 - Voice conversation mode (Gemini Live)
-- Deep Google Workspace integration (Gmail, Docs, Sheets, Slides)
+- Deep Google Workspace integration (Gmail, Docs, Sheets, [Slides](/tools/slides-com/))
 - Web search with citations
 - Advanced file analysis and code execution
 
@@ -95,7 +95,7 @@ The 25x credit jump over Pro targets developers and researchers who use AI inten
 
 ## Business ($20/user/mo) and Enterprise ($30/user/mo)
 
-Both Workspace plans add Gemini AI directly into Gmail, Docs, Sheets, Slides, and Meet. The difference is compliance.
+Both Workspace plans add Gemini AI directly into Gmail, Docs, Sheets, [Slides](/tools/slides-com/), and Meet. The difference is compliance.
 
 **Business** includes AI-assisted email drafting, document generation, formula writing in Sheets, presentation creation, meeting summaries, and admin controls. It's a per-user add-on to your existing Workspace subscription.
 

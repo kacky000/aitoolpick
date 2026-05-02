@@ -60,7 +60,7 @@ For freelancers managing 3-5 active clients, the difference matters.
 
 This is where ClickUp has a clear advantage. **ClickUp includes native time tracking** on every task — start a timer, log hours, and generate reports. For freelancers billing hourly, this eliminates the need for a separate tool like Toggl or [Harvest](/tools/harvest/).
 
-**Notion has no built-in time tracking.** You'd need a third-party integration or manually log hours in a database.
+**Notion has no built-in time tracking.** You'd need a third-party integration or manually log [hours](/tools/hours-tracker/) in a database.
 
 ## Note-Taking and Knowledge Base
 

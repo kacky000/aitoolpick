@@ -99,7 +99,7 @@ At 100 users on Business, you're looking at nearly $20K/year — significant eno
 
 ## Is Miro Worth the Price?
 
-**Yes, if** your team regularly runs workshops, brainstorming sessions, or visual planning exercises. Miro's facilitation tools (voting, timers, templates) are unmatched and save hours of meeting time.
+**Yes, if** your team regularly runs workshops, brainstorming sessions, or visual planning exercises. Miro's facilitation tools (voting, timers, templates) are unmatched and save [hours](/tools/hours-tracker/) of meeting time.
 
 **Consider alternatives if** you only need occasional whiteboarding, your team already uses [Figma](/tools/figma/) (FigJam is included), or per-user pricing doesn't fit your budget.
 

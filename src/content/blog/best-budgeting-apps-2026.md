@@ -17,8 +17,8 @@ Managing money shouldn't require a finance degree. The right budgeting app can a
 | [YNAB](/tools/ynab/) | Proactive budgeting | $99/year | Yes |
 | Monarch Money | Couples & families | $99/year | Yes |
 | [Notion](/tools/notion/) Budget Templates | DIY customizers | Free-$10/mo | No |
-| Copilot Money | Apple users | $69.99/year | Yes |
-| Goodbudget | Envelope method (free) | Free/$70/yr | No |
+| [Copilot Money](/tools/copilot-money/) | Apple users | $69.99/year | Yes |
+| [Goodbudget](/tools/goodbudget/) | Envelope method (free) | Free/$70/yr | No |
 
 ## 1. YNAB — Best Overall Budgeting App
 

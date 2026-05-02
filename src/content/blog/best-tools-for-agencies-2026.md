@@ -53,7 +53,7 @@ ClickUp's flexibility lets you set up different workflows per client without buy
 
 ### Canva — Best for Rapid Content Creation
 - **Price:** Free / $15/user/month
-- **Why agencies love it:** Brand Kit per client, Magic Resize for multi-platform content, team libraries
+- **Why agencies love it:** Brand [Kit](/tools/kit/) per client, Magic Resize for multi-platform content, team libraries
 - **Best for:** Social media agencies, content agencies producing high-volume visual assets
 
 ### Figma — Best for Product Design Agencies

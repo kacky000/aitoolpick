@@ -42,7 +42,7 @@ The free plan is more capable than many people expect. OpenAI has steadily expan
 - DALL-E restricted to a handful of images per day
 - No advanced data analysis (Code Interpreter)
 - No custom GPT creation
-- Deprioritized during peak hours
+- Deprioritized during peak [hours](/tools/hours-tracker/)
 - Limited conversation memory
 
 **Verdict:** Genuinely useful for casual tasks. Students and occasional users can get real value here. For more free options, see our [best free AI tools roundup](/blog/best-free-ai-tools-2026/).

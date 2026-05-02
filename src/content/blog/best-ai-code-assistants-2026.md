@@ -131,7 +131,7 @@ The best approach? Most of these offer free trials. Spend a week with your top t
 For most professional developers, yes. Studies show 30-55% productivity gains, which easily justifies $10-20/month.
 
 ### Will AI replace programmers?
-No. AI assistants handle routine coding tasks, but architecture, design, and problem-solving remain human skills.
+No. AI assistants handle [routine](/tools/routine/) coding tasks, but architecture, design, and problem-solving remain human skills.
 
 ### Is my code safe with these tools?
 Copilot, Cody, and Tabnine all offer enterprise plans with data privacy guarantees. Read the terms of service carefully for your specific needs.

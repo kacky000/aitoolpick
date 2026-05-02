@@ -88,7 +88,7 @@ The **Advanced plan** at $14.99/month adds 10GB of monthly uploads, offline acce
 
 **The interface feels dated.** Despite updates, Evernote's design still feels like a product from a previous era. It lacks the modern, clean aesthetic of Notion, [Craft](/tools/craft/), or Bear. The editor is functional but not enjoyable.
 
-**Limited collaboration.** Evernote's sharing and collaboration features are basic compared to Notion or Google Docs. You can share notebooks and notes, but real-time co-editing is limited.
+**Limited collaboration.** Evernote's sharing and collaboration features are basic compared to [Notion](/tools/notion/) or Google Docs. You can share notebooks and notes, but real-time co-editing is limited.
 
 **No meaningful free tier for evaluation.** Most competing apps let you use them fully before asking for payment. Evernote's restrictions [make](/tools/make/) it hard for new users to commit.
 
@@ -100,7 +100,7 @@ The **Advanced plan** at $14.99/month adds 10GB of monthly uploads, offline acce
 - Heavy web clipper users who save dozens of articles weekly
 - People who regularly scan and search paper documents (OCR)
 - Long-time users with years of notes already in Evernote who do not want to migrate
-- Users who value simplicity and do not want the complexity of Notion-style tools
+- Users who value simplicity and do not want the complexity of [Notion](/tools/notion/)-style tools
 
 **Not recommended for:**
 - New users looking for a note-taking app (too many better free options)
@@ -118,7 +118,7 @@ For a full list of options, see our guide to [Evernote alternatives in 2026](/bl
 
 ## The Verdict
 
-Evernote is not a bad app in 2026 — it is a dated, overpriced one. The core technology (Web Clipper, OCR, cross-platform sync) still works well, but the gutted free plan and premium pricing make it nearly impossible to recommend to new users when free alternatives cover 90% of the same use cases.
+Evernote is not a bad app in 2026 — it is a dated, overpriced one. The core technology (Web Clipper, OCR, cross-platform sync) still works well, but the gutted free plan and premium pricing [make](/tools/make/) it nearly impossible to recommend to new users when free alternatives cover 90% of the same use cases.
 
 If you are already paying for Evernote and it works for you, there is no urgent reason to leave. But if you are choosing a note-taking app today, start with the free options first. Check out our roundup of the [best note-taking apps in 2026](/blog/best-note-taking-apps-2026) to find the right fit.
 

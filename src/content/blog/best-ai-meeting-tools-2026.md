@@ -67,13 +67,13 @@ Otter's AI Chat feature lets you ask questions about your meeting after it ends:
 
 **Pricing:** Included with [Zoom](/tools/zoom/) paid plans (starting at $15.99/month)
 
-If your organization already pays for Zoom, the AI Companion is worth enabling immediately. It generates meeting summaries, captures action items, and can answer questions mid-meeting ("What did we decide about the rollout timeline?") — all without leaving Zoom.
+If your organization already pays for [Zoom](/tools/zoom/), the AI Companion is worth enabling immediately. It generates meeting summaries, captures action items, and can answer questions mid-meeting ("What did we decide about the rollout timeline?") — all without leaving Zoom.
 
-The quality has improved significantly since its 2024 launch. Summaries are accurate, action items are well-identified, and the integration with Zoom's chat and scheduling features is seamless.
+The quality has improved significantly since its 2024 launch. Summaries are accurate, action items are well-identified, and the integration with [Zoom](/tools/zoom/)'s chat and scheduling features is seamless.
 
-The limitation: it only works in Zoom. If your team uses Google Meet for external calls, you need a supplementary tool.
+The limitation: it only works in Zoom. If your team uses [Google Meet](/tools/google-meet/) for external calls, you need a supplementary tool.
 
-**Best for:** Organizations already deeply invested in Zoom's ecosystem.
+**Best for:** Organizations already deeply invested in [Zoom](/tools/zoom-meetings/)'s ecosystem.
 
 ### 5. Microsoft Copilot in Teams — Best for Enterprise Microsoft Users
 

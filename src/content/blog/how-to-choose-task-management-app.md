@@ -68,11 +68,11 @@ Admin controls, reporting, and scalability matter. Budget for proper onboarding.
 
 Every major task management app offers a free tier. Here's what you actually get:
 
-- **Todoist Free**: 5 projects, 5 collaborators
-- **Trello Free**: Unlimited boards, 10 Power-Ups per workspace
+- **[Todoist](/tools/todoist/) Free**: 5 projects, 5 collaborators
+- **[Trello](/tools/trello/) Free**: Unlimited boards, 10 Power-Ups per workspace
 - **Asana Free**: Up to 10 teammates, list/board/calendar views
-- **ClickUp Free**: Unlimited members, 100MB storage
-- **Monday.com Free**: Up to 2 seats, 3 boards
+- **[ClickUp](/tools/clickup/) Free**: Unlimited members, 100MB storage
+- **[Monday.com](/tools/monday/) Free**: Up to 2 seats, 3 boards
 - **[Notion](/tools/notion/) Free**: Unlimited pages, 10 guest collaborators
 
 **Pro tip**: Use free plans for at least 2 weeks before deciding. Day-one impressions don't capture friction points that show up over time.
@@ -81,10 +81,10 @@ Every major task management app offers a free tier. Here's what you actually get
 
 The best task management app integrates with tools you already use:
 
-- **Google Workspace users**: Asana and ClickUp have deep Google integration
-- **Microsoft 365 users**: Monday.com and Asana sync well with Outlook and Teams
+- **Google Workspace users**: Asana and [ClickUp](/tools/clickup/) have deep Google integration
+- **Microsoft 365 users**: [Monday.com](/tools/monday/) and Asana sync well with Outlook and Teams
 - **Slack users**: Nearly all apps integrate with Slack, but Asana's integration is particularly strong
-- **Developers**: Linear integrates with GitHub/GitLab; ClickUp has Git integration
+- **Developers**: [Linear](/tools/linear/) integrates with GitHub/GitLab; ClickUp has Git integration
 
 ## Common Mistakes to Avoid
 
@@ -100,12 +100,12 @@ The best task management app integrates with tools you already use:
 
 ## Decision Flowchart
 
-- **Need it simple?** → Todoist or Trello
+- **Need it simple?** → [Todoist](/tools/todoist/) or Trello
 - **Need it powerful but affordable?** → ClickUp
 - **Need it for a structured team?** → Asana
-- **Need everything in one place?** → Notion or ClickUp
+- **Need everything in one place?** → [Notion](/tools/notion/) or ClickUp
 - **Need visual dashboards?** → Monday.com
-- **Building software?** → Linear
+- **Building software?** → [Linear](/tools/linear-app/)
 
 ## Bottom Line
 

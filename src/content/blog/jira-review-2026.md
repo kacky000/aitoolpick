@@ -14,7 +14,7 @@ Here is an honest review of Jira in 2026 — what's still great, what's fallen b
 
 ## The Short Answer
 
-**Choose Jira if:** You run a large engineering organization (100+ devs), your workflows are complex with multiple teams and stakeholders, or you already live inside the Atlassian ecosystem (Confluence, Bitbucket, Compass).
+**Choose Jira if:** You run a large engineering organization (100+ devs), your workflows are complex with multiple teams and stakeholders, or you already live inside the Atlassian ecosystem ([Confluence](/tools/confluence/), Bitbucket, Compass).
 
 **Skip Jira if:** You are a startup, an early-stage team under 50 engineers, or you find yourself fighting the tool more than using it.
 
@@ -55,7 +55,7 @@ Jira also sells **Jira Product Discovery** ($10/creator/month), **Jira Service M
 
 | Feature | Jira | Linear | [ClickUp](/tools/clickup/) |
 |---------|------|--------|---------|
-| Setup time | Days | Minutes | Hours |
+| Setup time | Days | Minutes | [Hours](/tools/hours-tracker/) |
 | Speed | Slow | Instant | Medium |
 | Workflow flexibility | Unlimited | Opinionated | Very flexible |
 | Scale (10,000+ issues) | Excellent | Good | Good |
@@ -73,7 +73,7 @@ However, at $10/creator/month on top of Jira itself, the full stack gets expensi
 ## Who Should Still Use Jira
 
 1. **Enterprise engineering orgs** — The flexibility and scale are load-bearing.
-2. **Teams already on Confluence and Bitbucket** — The integration payoff is real.
+2. **Teams already on Confluence and [Bitbucket](/tools/bitbucket/)** — The integration payoff is real.
 3. **Regulated industries** — Audit logs, compliance features, and workflow enforcement matter.
 4. **Complex SAFe or scaled agile implementations** — Jira Align is the only product that handles this well.
 5. **Teams that need deep customization** — If you truly have unusual workflows, nothing else scales.
@@ -86,7 +86,7 @@ However, at $10/creator/month on top of Jira itself, the full stack gets expensi
 
 ## Verdict
 
-Jira remains the dominant choice for large engineering organizations, and Atlassian Intelligence has genuinely reduced the daily friction. But for teams under ~50 engineers, Linear is now the better answer. The signal to switch is simple: if your engineers talk about Jira as a tax rather than a tool, it is time to go.
+Jira remains the dominant choice for large engineering organizations, and Atlassian Intelligence has genuinely reduced the daily friction. But for teams under ~50 engineers, [Linear](/tools/linear/) is now the better answer. The signal to switch is simple: if your engineers talk about Jira as a tax rather than a tool, it is time to go.
 
 ## Related Comparisons
 

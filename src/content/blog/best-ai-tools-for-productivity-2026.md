@@ -136,7 +136,7 @@ Zapier connects 6,000+ apps and now uses AI to [make](/tools/make/) automation e
 
 ## Bottom Line
 
-The best AI productivity tool depends on your workflow. For general AI tasks, ChatGPT and Claude lead the pack. For domain-specific work, Notion AI, ClickUp AI, and Grammarly integrate AI where you already work.
+The best AI productivity tool depends on your workflow. For general AI tasks, ChatGPT and Claude lead the pack. For domain-specific work, Notion AI, [ClickUp](/tools/clickup/) AI, and Grammarly integrate AI where you already work.
 
 Start with one tool, master it, then expand. The productivity gain compounds over time.
 

@@ -24,7 +24,7 @@ Google Meet's free tier (available to any Google account holder) includes:
 - Chat during meetings
 - Hand raise, reactions
 - Tiled layout / spotlighting
-- Google Calendar integration
+- [Google Calendar](/tools/google-calendar/) integration
 - Works on web, iOS, Android
 
 Honestly? This is more than enough for most personal and small business use cases.

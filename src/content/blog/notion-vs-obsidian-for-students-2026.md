@@ -58,7 +58,7 @@ This core difference drives every other comparison point.
 
 **Notion**: Good for outlining and drafting. Collect sources in databases. Collaborate with group project members. Export to Markdown for formatting elsewhere.
 
-**Obsidian**: Excellent for research with the Zotero plugin. Link sources to notes, build argument chains, and use the canvas feature for visual planning. Write in Markdown and export to any format via Pandoc.
+**Obsidian**: Excellent for research with the [Zotero](/tools/zotero/) plugin. Link sources to notes, build argument chains, and use the canvas feature for visual planning. Write in Markdown and export to any format via Pandoc.
 
 **Winner**: Obsidian for solo research. Notion for group projects.
 

@@ -130,7 +130,7 @@ Be aware of what Monday.com does not replicate:
 | Phase | Time |
 |-------|------|
 | Audit and documentation | 1–2 days |
-| CSV export and import | 1–2 hours |
+| CSV export and import | 1–2 [hours](/tools/hours-tracker/) |
 | Rebuild linked records | 1–3 days (depends on complexity) |
 | Rebuild automations | 2–4 hours |
 | Team training | 1–2 days |

@@ -30,7 +30,7 @@ When a lead fills out a form (Typeform, Google Forms, website form) → Create a
 
 This eliminates manual CRM entry and ensures no lead sits unclaimed.
 
-**Build it**: Trigger = New form submission. Action 1 = Create contact in CRM. Action 2 = Send Slack message to #new-leads with the contact details.
+**Build it**: Trigger = New form submission. Action 1 = Create contact in CRM. Action 2 = Send [Slack](/tools/slack/) message to #new-leads with the contact details.
 
 ### New Blog Post → Social Announcements
 When a new article is published in your CMS (WordPress, Webflow) → Post an announcement to Slack → Create a draft in Buffer or [Hootsuite](/tools/hootsuite/) for social promotion.
@@ -47,7 +47,7 @@ Gives sales reps real-time signals about which leads are engaged without manual 
 ## Sales Team Automations Worth Building
 
 ### New Deal Won → Onboarding Kickoff
-When a deal is marked Closed Won in your CRM → Send a welcome email to the new customer → Create an onboarding task list in your project management tool → Notify the customer success team in Slack.
+When a deal is marked Closed Won in your CRM → Send a welcome email to the new customer → Create an onboarding task list in your project management tool → Notify the customer success team in [Slack](/tools/slack/).
 
 This eliminates the handoff gap between sales and customer success that loses momentum post-[close](/tools/close/).
 
@@ -81,7 +81,7 @@ Zapier's filter and path features let you route "billing" tickets to finance and
 
 **Building Zaps before the manual process is stable.** If you don't fully understand each step of the manual process, your automation will have gaps or handle edge cases wrong. Document the manual workflow first, then automate.
 
-**Automating everything at once.** Start with the highest-frequency, lowest-complexity workflows. The Zap that runs 50 times a day and takes 2 minutes to build pays off immediately. The Zap that runs twice a month and takes 4 hours to build probably isn't worth it.
+**Automating everything at once.** Start with the highest-frequency, lowest-complexity workflows. The Zap that runs 50 times a day and takes 2 minutes to build pays off immediately. The Zap that runs twice a month and takes 4 [hours](/tools/hours-tracker/) to build probably isn't worth it.
 
 **Not testing with real data.** Zapier's test mode often works with sample data that doesn't reflect edge cases in real data. Test with actual live examples before turning a Zap on at full volume.
 

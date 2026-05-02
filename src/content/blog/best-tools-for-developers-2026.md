@@ -94,7 +94,7 @@ Claude excels at handling large codebases and long-context tasks. ChatGPT has br
 
 Developers often build custom scripts to automate repetitive tasks. But for connecting SaaS tools together, dedicated automation platforms save significant time.
 
-**Zapier** is the easier option — connect two or more apps with a trigger-action model. It supports 6,000+ apps and requires no code. Use it for straightforward automations like "when a GitHub issue is labeled 'urgent', send a Slack message to #incidents."
+**Zapier** is the easier option — connect two or more apps with a trigger-action model. It supports 6,000+ apps and requires no code. Use it for straightforward automations like "when a [GitHub](/tools/github/) issue is labeled 'urgent', send a Slack message to #incidents."
 
 **Make** (formerly Integromat) is more powerful. It offers visual workflow building with branching logic, [loops](/tools/loops/), error handling, and data transformation. Developers tend to prefer Make because it feels more like programming and handles complex multi-step workflows better.
 
@@ -124,7 +124,7 @@ Total cost for a single developer: roughly $47-67/month depending on plan choice
 A few anti-patterns we see in developer tool stacks:
 
 - **Using [Jira](/tools/jira/) when your team is under 20 people.** The overhead is not worth it. Use Linear or GitHub Issues.
-- **Running Notion and Confluence simultaneously.** Pick one wiki. Two creates confusion.
+- **Running Notion and [Confluence](/tools/confluence/) simultaneously.** Pick one wiki. Two creates confusion.
 - **Paying for AI tools you do not use daily.** If you are not using ChatGPT or Claude every day, the free tiers are probably enough.
 - **Automating things that should be eliminated.** Before building a Zapier workflow, ask if the process should exist at all.
 

@@ -45,7 +45,7 @@ Bolt.new runs entirely in your browser using WebContainers — no local setup re
 - Good for demos and proof-of-concepts
 - Supports React, Next.js, and other frameworks
 
-**Pricing:** Pro at $20/month includes 10 million tokens, Git integration, and Supabase support.
+**Pricing:** Pro at $20/month includes 10 million tokens, Git integration, and [Supabase](/tools/supabase/) support.
 
 **Limitations:** Token consumption can spike on complex projects. Limited backend capabilities compared to [Lovable](/tools/lovable/).
 
@@ -53,11 +53,11 @@ Bolt.new runs entirely in your browser using WebContainers — no local setup re
 
 **Best for: UI components and frontend design**
 
-V0 started as a UI component generator and has expanded into full-stack development. It excels at creating polished React/Tailwind components and supports Figma-to-code workflows.
+V0 started as a UI component generator and has expanded into full-stack development. It excels at creating polished React/Tailwind components and supports [Figma](/tools/figma/)-to-code workflows.
 
 **What makes it stand out:**
 - Best-in-class UI component generation
-- Figma-to-code support
+- [Figma](/tools/figma/)-to-code support
 - Tight Vercel integration for deployment
 - Clean, production-quality code output
 
@@ -99,7 +99,7 @@ Replit Agent combines an [AI coding](/category/ai-coding/) assistant with a full
 
 ## How to Choose
 
-**Pick Lovable if:** You want a working app with database and auth, deployed to production, with minimal coding.
+**Pick [Lovable](/tools/lovable/) if:** You want a working app with database and auth, deployed to production, with minimal coding.
 
 **Pick Bolt.new if:** You need a quick prototype or demo and don't want to install anything locally.
 

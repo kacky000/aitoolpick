@@ -173,7 +173,7 @@ For more AI developer tools, check our [best AI code assistants guide](/blog/bes
 
 **Choose ChatGPT alone** if you're learning to code, frequently debug complex issues, or need architectural guidance.
 
-**Choose both** if coding is your primary job — the $30/month investment pays for itself within hours of saved development time.
+**Choose both** if coding is your primary job — the $30/month investment pays for itself within [hours](/tools/hours-tracker/) of saved development time.
 
 ## FAQ
 

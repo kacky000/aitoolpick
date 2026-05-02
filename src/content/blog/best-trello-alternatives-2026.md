@@ -38,7 +38,7 @@ Notion combines project management with docs, wikis, and databases. Its board vi
 
 **Pricing**: Free / $10/user/mo
 
-**Why switch**: If you're using Trello + Google Docs + Confluence, Notion replaces all three. The database system lets you build custom views that go far beyond what Trello offers.
+**Why switch**: If you're using Trello + [Google Docs](/tools/google-docs/) + Confluence, Notion replaces all three. The database system lets you build custom views that go far beyond what Trello offers.
 
 **Trade-off**: Notion isn't a dedicated PM tool, so features like dependencies and resource management are limited compared to purpose-built alternatives.
 

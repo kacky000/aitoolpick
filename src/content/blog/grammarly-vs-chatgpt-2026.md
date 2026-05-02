@@ -93,8 +93,8 @@ Grammarly is cheaper at every tier. But that's partly because it does less — i
 | Browser extension | Chrome, Safari, Firefox, Edge | No native extension |
 | Desktop apps | Windows, macOS | macOS, Windows |
 | Mobile | iOS, Android keyboards | iOS, Android apps |
-| Google Docs | Yes | No (standalone) |
-| Microsoft Word | Yes | No (Copilot is separate) |
+| [Google Docs](/tools/google-docs/) | Yes | No (standalone) |
+| [Microsoft Word](/tools/microsoft-word/) | Yes | No (Copilot is separate) |
 | Gmail | Yes | No |
 | [Slack](/tools/slack/) | Yes | No |
 | API | No (consumer product) | Yes (developer API) |
@@ -123,7 +123,7 @@ Grammarly is cheaper at every tier. But that's partly because it does less — i
 | Social media captions | ChatGPT | Fast generation with variations |
 | Professional email communication | Grammarly | Tone + clarity + formality checks |
 | Translate content | ChatGPT | Multilingual generation |
-| Maintain brand voice across team | Grammarly Business | Shared style guides |
+| Maintain brand voice across team | [Grammarly Business](/tools/grammarly-business/) | Shared style guides |
 
 ---
 
@@ -142,7 +142,7 @@ This workflow costs $32/month total ($12 Grammarly Premium + $20 ChatGPT Plus) a
 ## Who Should Choose Grammarly Only?
 
 - You write your own content and just need a proofreader
-- You want corrections embedded in every app — Gmail, Docs, Slack, everywhere
+- You want corrections embedded in every app — Gmail, Docs, [Slack](/tools/slack/), everywhere
 - You're a non-native English speaker who needs grammar confidence
 - You care about tone and formality in professional communication
 - You need plagiarism detection for academic or editorial work

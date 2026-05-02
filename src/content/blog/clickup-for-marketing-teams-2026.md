@@ -36,7 +36,7 @@ You can save your preferred view per project, so your content team sees the cale
 
 ### 2. ClickUp Docs for Creative Briefs
 
-Instead of creating briefs in Google Docs and losing track of versions, ClickUp Docs lives directly inside your workspace. You can:
+Instead of creating briefs in [Google Docs](/tools/google-docs/) and losing track of versions, ClickUp Docs lives directly inside your workspace. You can:
 
 - Create a campaign brief template with required fields
 - Link the brief to the associated task or project
@@ -130,14 +130,14 @@ Build a template for your most common campaign type. Include:
 - Standard due date offsets (e.g., brief due 3 weeks before launch)
 - Checklist items for quality control
 
-Once you save it as a template, spinning up a new campaign takes 2 minutes instead of 2 hours.
+Once you save it as a template, spinning up a new campaign takes 2 minutes instead of 2 [hours](/tools/hours-tracker/).
 
 ### Step 4: Set Up Automations
 
 Key automations for marketing teams:
 
 - **When task status = "In Review" → assign to Creative Director**
-- **When due date passes with status = "Draft" → send Slack alert**
+- **When due date passes with status = "Draft" → send [Slack](/tools/slack/) alert**
 - **When campaign status = "Live" → notify stakeholders**
 - **When content is published → move to "Archive" folder**
 

@@ -43,7 +43,7 @@ TickTick Premium's habit tracker with heatmap visualization is genuinely excelle
 TickTick's mobile apps are polished and fast. Widgets, reminders with location triggers, and smooth offline access [make](/tools/make/) it a superior daily driver on your phone.
 
 ### Calendar Integration
-With Premium, TickTick syncs directly with Google Calendar, showing your events and tasks in a unified view. Notion has no native calendar sync.
+With Premium, TickTick syncs directly with [Google Calendar](/tools/google-calendar/), showing your events and tasks in a unified view. Notion has no native calendar sync.
 
 ## Where Notion Wins
 
@@ -70,7 +70,7 @@ Notion's databases let you connect tasks to projects, clients, meeting notes, an
 **Use Notion when:**
 - You're managing a team's knowledge and projects
 - You need to link tasks to documentation, meeting notes, or databases
-- You want one tool to replace Confluence, Google Docs, and a simple PM tool
+- You want one tool to replace Confluence, [Google Docs](/tools/google-docs/), and a simple PM tool
 - You're building a complex personal knowledge management system
 
 **Use both when:**

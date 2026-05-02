@@ -33,11 +33,11 @@ For a general comparison, see our [Notion vs Obsidian overview](/compare/notion-
 Obsidian excels here with community plugins:
 
 - **Citations plugin**: Imports BibTeX/Zotero libraries directly into your vault. Each paper becomes a note with metadata, and you can link papers to your own analysis notes.
-- **Zotero Integration**: The Zotero plugin syncs annotations and highlights from PDFs into Obsidian notes automatically.
+- **[Zotero](/tools/zotero/) Integration**: The Zotero plugin syncs annotations and highlights from PDFs into Obsidian notes automatically.
 - **Dataview plugin**: Query your literature database using SQL-like syntax. "Show all papers tagged #machine-learning published after 2024 that I haven't read yet."
 - **Graph View**: See connections between papers, concepts, and your own ideas visually. This is genuinely useful for literature reviews.
 
-The setup takes 1-2 hours, but once configured, the workflow is powerful.
+The setup takes 1-2 [hours](/tools/hours-tracker/), but once configured, the workflow is powerful.
 
 ### Notion
 
@@ -86,7 +86,7 @@ Notion's recent AI features can suggest connections, but it's not the same as Ob
 
 ### Collaboration on Papers
 
-**Obsidian**: Not built for real-time collaboration. You can share vaults via Git or Obsidian Sync, but simultaneous editing is limited. For collaborative writing, most researchers switch to Google Docs or Overleaf.
+**Obsidian**: Not built for real-time collaboration. You can share vaults via Git or Obsidian Sync, but simultaneous editing is limited. For collaborative writing, most researchers switch to [Google Docs](/tools/google-docs/) or Overleaf.
 
 **Notion**: Real-time collaboration works well. Multiple researchers can edit the same document, leave comments, and assign tasks. For research groups managing shared literature reviews or project documentation, this is a significant advantage.
 

@@ -55,7 +55,7 @@ At $8/month, Plus pays for itself quickly if you're generating more than 4-5 pre
 **Who should get Plus:**
 - [Marketers](/best-for/marketers/) who build decks regularly for internal and external audiences
 - Consultants who create client presentations
-- Founders who iterate on pitch decks frequently
+- Founders who iterate on [pitch](/tools/pitch/) decks frequently
 - Educators building course materials
 
 ## Pro Plan: $15/month (Annual)
@@ -103,9 +103,9 @@ Annual billing saves 20% for both plans. The savings are modest in absolute term
 | **Gamma** | 400 credits | $8/month | AI-first presentations |
 | **[Canva](/tools/canva/)** | Generous | $15/month (Pro) | Design-first, broad use |
 | **[Beautiful.ai](/tools/beautiful-ai/)** | No | $12/month | Design automation |
-| **Tome** | Limited | $16/month | AI narrative decks |
+| **[Tome](/tools/tome/)** | Limited | $16/month | AI narrative decks |
 | **PowerPoint** | Via Microsoft 365 | $6/month | Traditional slide work |
-| **Google Slides** | Free (unlimited) | Free | Basic, real-time collab |
+| **Google [Slides](/tools/slides-com/)** | Free (unlimited) | Free | Basic, real-time collab |
 
 Gamma is the most affordable dedicated AI presentation tool. For generating polished decks quickly, it costs less than [Canva](/tools/canva/) Pro while being purpose-built for presentations.
 
@@ -113,7 +113,7 @@ Gamma is the most affordable dedicated AI presentation tool. For generating poli
 
 **Stick with free if:** You build presentations occasionally (a few per year) and don't mind regenerating from your credit pool or finishing editing manually after generation.
 
-**Get Plus at $8/month if:** You build presentations more than once or twice a month. The unlimited generation removes friction, and the analytics tell you which slides your audience actually reads.
+**Get Plus at $8/month if:** You build presentations more than once or twice a month. The unlimited generation removes friction, and the analytics tell you which [slides](/tools/slides-com/) your audience actually reads.
 
 **Get Pro at $15/month if:** You work for a brand with specific typography requirements, or you're building presentations professionally for multiple clients.
 

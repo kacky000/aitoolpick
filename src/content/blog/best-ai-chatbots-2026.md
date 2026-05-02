@@ -67,7 +67,7 @@ For a deeper comparison, see our [ChatGPT vs Perplexity AI breakdown](/blog/chat
 
 ## 4. Google Gemini — Best for Google Workspace Users
 
-Gemini (formerly Bard) integrates deeply with Google Workspace, making it the natural choice if your team lives in Google Docs, Sheets, and Gmail.
+Gemini (formerly Bard) integrates deeply with Google Workspace, making it the natural choice if your team lives in [Google Docs](/tools/google-docs/), Sheets, and Gmail.
 
 **Key strengths:**
 - Native Google Workspace integration
@@ -95,7 +95,7 @@ If your organization runs on Microsoft 365, Copilot embeds AI directly into Word
 
 **Choose ChatGPT if** you want the most versatile all-rounder with the largest ecosystem.
 
-**Choose Claude if** you work with long documents, need excellent writing, or prioritize thoughtful analysis.
+**Choose [Claude](/tools/claude/) if** you work with long documents, need excellent writing, or prioritize thoughtful analysis.
 
 **Choose Perplexity if** research accuracy and source citations matter most to you.
 
@@ -107,7 +107,7 @@ If your organization runs on Microsoft 365, Copilot embeds AI directly into Word
 
 Absolutely — and many professionals do. A common setup is:
 
-- **Claude** for writing and document analysis
+- **[Claude](/tools/claude/)** for writing and document analysis
 - **Perplexity** for research and fact-checking
 - **ChatGPT** for creative tasks and image generation
 

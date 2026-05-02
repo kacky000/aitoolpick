@@ -90,7 +90,7 @@ Quick competitive analysis, industry benchmarking, and trend research — Perple
 
 ### 8. Canva — Best for Client Presentations
 
-Not every consultant has design skills, but every consultant needs professional-looking deliverables. Canva's presentation templates and brand kit solve this.
+Not every consultant has design skills, but every consultant needs professional-looking deliverables. Canva's presentation templates and brand [kit](/tools/kit/) solve this.
 
 - **Price:** Free, $15/user/month (Pro)
 - **Why consultants love it:** Professional templates, brand consistency, easy collaboration
@@ -115,7 +115,7 @@ Not every consultant has design skills, but every consultant needs professional-
 
 1. **Match your client's ecosystem** — If clients use Microsoft, lean into Teams. If they're startups, use Slack.
 2. **Keep it lean** — A solo consultant needs 3-4 tools max. Don't over-tool.
-3. **Invest in AI** — Claude or Perplexity pay for themselves in hours saved on research and document analysis.
+3. **Invest in AI** — Claude or Perplexity pay for themselves in [hours](/tools/hours-tracker/) saved on research and document analysis.
 
 [Compare all tools side by side →](/compare)
 

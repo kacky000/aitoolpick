@@ -41,7 +41,7 @@ This fundamental difference makes Perplexity dramatically better for:
 ## Where Google Still Wins
 
 **1. Local and contextual search**
-"Pizza near me" or "bank hours today" — Google's local index and real-time data are unmatched. Perplexity doesn't have this.
+"Pizza near me" or "bank [hours](/tools/hours-tracker/) today" — Google's local index and real-time data are unmatched. Perplexity doesn't have this.
 
 **2. Shopping and e-commerce**
 Google Shopping integrates product listings, prices, and reviews. Perplexity isn't a shopping tool.

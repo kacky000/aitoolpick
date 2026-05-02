@@ -80,7 +80,7 @@ Notion works well as a personal knowledge system for executives:
 
 **Price**: $15/user/month (Business)
 
-Executive communication is high-stakes. An ambiguous phrase in a shareholder letter, a passive sentence in a critical memo, or an inconsistent tone in a board presentation can affect how leadership is perceived. Grammarly catches these issues before they matter.
+Executive communication is high-stakes. An ambiguous [phrase](/tools/phrase/) in a shareholder letter, a passive sentence in a critical memo, or an inconsistent tone in a board presentation can affect how leadership is perceived. Grammarly catches these issues before they matter.
 
 For executives specifically:
 - **Tone calibration**: Ensures communications land as confident and direct, not hedged or defensive.
@@ -101,7 +101,7 @@ For executives specifically:
 
 Most executives who use AI productively started with one use case: typically either document analysis (Claude) or fast research (Perplexity). Build the habit in one specific context before expanding.
 
-The second use case that sticks is usually communication drafting — not for routine emails, but for the important, difficult communications where spending 20 minutes iterating with AI produces a significantly better first draft than starting from scratch.
+The second use case that sticks is usually communication drafting — not for [routine](/tools/routine/) emails, but for the important, difficult communications where spending 20 minutes iterating with AI produces a significantly better first draft than starting from scratch.
 
 *Compare AI tools side by side → [AI Tools Comparison](/compare/)*
 

@@ -32,7 +32,7 @@ In 2026, Miro's AI can generate sticky notes from prompts, cluster ideas automat
 Miro connects with Jira, Asana, Slack, [Microsoft Teams](/tools/microsoft-teams/), Google Workspace, and 100+ other tools. You can embed Miro boards directly in other platforms.
 
 ### Presentation Mode
-Turn any section of your board into a presentation — no need to switch to PowerPoint or Google Slides for workshop readouts.
+Turn any section of your board into a presentation — no need to switch to PowerPoint or Google [Slides](/tools/slides-com/) for workshop readouts.
 
 ## Pricing (2026)
 

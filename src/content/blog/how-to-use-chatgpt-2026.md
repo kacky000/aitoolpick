@@ -52,7 +52,7 @@ ChatGPT generates ideas without the social friction of a meeting. Use it to surf
 
 > "Give me 15 names for a newsletter about productivity tools for remote workers. Range from professional to playful."
 
-Then filter the list yourself. You'll almost never use one verbatim, but they'll spark the right idea.
+Then filter the list yourself. You'll almost never use one verbatim, but they'll [spark](/tools/spark-email/) the right idea.
 
 ### 3. Summarize Long Content
 

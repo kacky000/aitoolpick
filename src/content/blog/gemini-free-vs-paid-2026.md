@@ -51,7 +51,7 @@ This is paid-only and Gemini's strongest differentiator.
 - **Gmail**: Summarize threads, draft replies, search your inbox with natural language
 - **Docs**: Rewrite, expand, summarize highlighted text; generate sections from prompts
 - **Sheets**: Describe what you want in plain English and get formulas; analyze data; generate charts
-- **Slides**: Generate outlines and create slides from documents
+- **[Slides](/tools/slides-com/)**: Generate outlines and create slides from documents
 
 Free users get none of this. For Workspace-heavy users, this integration eliminates constant app-switching.
 
@@ -110,7 +110,7 @@ AI Plus is a niche option. It gives you expanded usage limits and 2TB Google One
 
 - Already pay for Google One 2TB ($9.99/mo) and want to save money by bundling
 - Need slightly more AI access than free but don't need premium features
-- Want priority access during peak hours
+- Want priority access during peak [hours](/tools/hours-tracker/)
 
 For most users, it's either Free or AI Pro. The middle tier is a storage deal with a small AI bonus.
 

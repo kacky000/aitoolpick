@@ -31,7 +31,7 @@ In 2026, Canva has expanded far beyond static graphics. It now competes with too
 | Canva for Teams | $14.99/user/month (min 2 users) | [Small teams](/best-for/small-teams/) |
 | Canva Enterprise | Custom | Large organizations |
 
-The Free plan is genuinely useful — you get access to 250,000+ templates and a massive library of stock photos. But you'll hit limits quickly if you're using Canva professionally. The Pro plan unlocks the Brand Kit, 100GB of storage, background remover, Magic Resize, and 100+ million premium stock assets.
+The Free plan is genuinely useful — you get access to 250,000+ templates and a massive library of stock photos. But you'll hit limits quickly if you're using Canva professionally. The Pro plan unlocks the Brand [Kit](/tools/kit/), 100GB of storage, background remover, Magic Resize, and 100+ million premium stock assets.
 
 ---
 
@@ -43,9 +43,9 @@ Canva has been aggressive about adding AI features. The standout additions inclu
 - **Magic Design** — Input a prompt and get a full presentation or document generated automatically
 - **Magic Animate** — Add animations to presentations in one click
 - **Canva AI Image Generator** — Create original images from text prompts (powered by [Stable Diffusion](/tools/stable-diffusion/) and Canva's own models)
-- **Docs with AI** — A Google Docs competitor with AI writing assistance built in
+- **Docs with AI** — A [Google Docs](/tools/google-docs/) competitor with AI writing assistance built in
 
-These aren't gimmicks. Magic Resize alone saves hours if you're repurposing content across multiple social platforms.
+These aren't gimmicks. Magic Resize alone saves [hours](/tools/hours-tracker/) if you're repurposing content across multiple social platforms.
 
 ---
 

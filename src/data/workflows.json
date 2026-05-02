@@ -1,0 +1,98 @@
+[
+  {
+    "id": "content-creation",
+    "name": "Content Creation Workflow",
+    "description": "Complete toolkit for creating blog posts, videos, social media content, and marketing materials.",
+    "steps": ["Research & Planning", "Writing & Drafting", "Design & Visuals", "Editing & Review", "Publishing & Distribution"],
+    "categories": ["ai-writing", "writing", "design", "image-generation", "video-editing", "social-media"],
+    "keywords": ["content creation tools", "content workflow", "blogging tools"]
+  },
+  {
+    "id": "software-development",
+    "name": "Software Development Workflow",
+    "description": "Essential tools for building, testing, deploying, and monitoring software applications.",
+    "steps": ["Planning & Design", "Coding & Development", "Testing & QA", "Deployment & CI/CD", "Monitoring & Maintenance"],
+    "categories": ["ai-coding", "devops", "issue-tracking", "database", "api", "cybersecurity"],
+    "keywords": ["developer tools", "software development workflow", "devops tools"]
+  },
+  {
+    "id": "marketing-automation",
+    "name": "Marketing Automation Workflow",
+    "description": "Tools for automating email campaigns, social media, SEO, analytics, and ad management.",
+    "steps": ["Audience Research", "Content Strategy", "Campaign Creation", "Distribution & Automation", "Analytics & Optimization"],
+    "categories": ["email-marketing", "social-media", "seo", "analytics", "advertising", "automation"],
+    "keywords": ["marketing automation tools", "digital marketing workflow", "marketing stack"]
+  },
+  {
+    "id": "project-management",
+    "name": "Project Management Workflow",
+    "description": "Organize teams, track tasks, manage timelines, and collaborate effectively on any project.",
+    "steps": ["Project Planning", "Task Assignment", "Time Tracking", "Collaboration", "Reporting & Review"],
+    "categories": ["project-management", "task-management", "time-tracking", "collaboration", "communication"],
+    "keywords": ["project management tools", "team collaboration", "task management workflow"]
+  },
+  {
+    "id": "customer-success",
+    "name": "Customer Success Workflow",
+    "description": "Tools for support, CRM, feedback collection, and customer relationship management.",
+    "steps": ["Customer Onboarding", "Support & Help Desk", "Relationship Management", "Feedback & Surveys", "Retention & Growth"],
+    "categories": ["customer-support", "crm", "sales", "communication", "analytics"],
+    "keywords": ["customer success tools", "CRM workflow", "support tools"]
+  },
+  {
+    "id": "data-analytics",
+    "name": "Data Analytics Workflow",
+    "description": "Collect, analyze, visualize, and act on data to make better business decisions.",
+    "steps": ["Data Collection", "Data Cleaning", "Analysis & Modeling", "Visualization", "Reporting & Action"],
+    "categories": ["analytics", "database", "spreadsheet", "research", "automation"],
+    "keywords": ["data analytics tools", "business intelligence", "data visualization"]
+  },
+  {
+    "id": "remote-team",
+    "name": "Remote Team Workflow",
+    "description": "Everything remote teams need for communication, collaboration, file sharing, and virtual meetings.",
+    "steps": ["Daily Standup", "Async Communication", "Video Meetings", "Document Collaboration", "Social Connection"],
+    "categories": ["video-conferencing", "communication", "file-sharing", "collaboration", "whiteboard"],
+    "keywords": ["remote work tools", "virtual team tools", "work from home software"]
+  },
+  {
+    "id": "ecommerce-operations",
+    "name": "E-commerce Operations Workflow",
+    "description": "Build, manage, and grow an online store with tools for every stage of e-commerce.",
+    "steps": ["Store Setup", "Product Management", "Marketing & SEO", "Order Fulfillment", "Customer Service"],
+    "categories": ["ecommerce", "website-builder", "email-marketing", "analytics", "customer-support"],
+    "keywords": ["ecommerce tools", "online store software", "ecommerce workflow"]
+  },
+  {
+    "id": "design-production",
+    "name": "Design Production Workflow",
+    "description": "From wireframes to final deliverables — tools for every design stage.",
+    "steps": ["Research & Moodboard", "Wireframing", "Visual Design", "Prototyping", "Handoff & Assets"],
+    "categories": ["design", "whiteboard", "image-generation", "presentation", "collaboration"],
+    "keywords": ["design workflow tools", "UI/UX tools", "graphic design software"]
+  },
+  {
+    "id": "hr-recruiting",
+    "name": "HR & Recruiting Workflow",
+    "description": "Streamline hiring, onboarding, payroll, and employee management.",
+    "steps": ["Job Posting", "Candidate Screening", "Interviews", "Onboarding", "Performance Management"],
+    "categories": ["hr", "communication", "video-conferencing", "documents", "calendar"],
+    "keywords": ["HR tools", "recruiting software", "hiring workflow"]
+  },
+  {
+    "id": "ai-powered-business",
+    "name": "AI-Powered Business Workflow",
+    "description": "Leverage AI across your entire business — from chatbots to coding to content generation.",
+    "steps": ["AI Strategy", "AI Content Creation", "AI Development", "AI Customer Service", "AI Analytics"],
+    "categories": ["ai-chatbot", "ai-coding", "ai-writing", "ai-agents", "ai-search"],
+    "keywords": ["AI tools for business", "AI workflow", "enterprise AI tools"]
+  },
+  {
+    "id": "financial-management",
+    "name": "Financial Management Workflow",
+    "description": "Tools for budgeting, accounting, invoicing, and financial planning.",
+    "steps": ["Budget Planning", "Expense Tracking", "Invoicing", "Tax Preparation", "Financial Reporting"],
+    "categories": ["accounting", "budgeting", "personal-finance", "spreadsheet", "automation"],
+    "keywords": ["financial management tools", "accounting software", "budgeting workflow"]
+  }
+]

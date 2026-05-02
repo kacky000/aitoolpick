@@ -54,7 +54,7 @@ The limitations become apparent quickly for regular users:
 
 **Image generation is minimal.** Free users can generate a handful of DALL-E images per day at most. If you need images regularly for content creation or presentations, this limit is frustrating.
 
-**Peak-hour degradation.** During busy times (typically US business hours), free users experience slower responses and may temporarily lose GPT-4o access entirely.
+**Peak-hour degradation.** During busy times (typically US business [hours](/tools/hours-tracker/)), free users experience slower responses and may temporarily lose GPT-4o access entirely.
 
 ## What Plus Actually Adds
 

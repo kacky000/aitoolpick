@@ -87,7 +87,7 @@ For a deeper comparison, check our [ChatGPT vs Claude comparison](/blog/chatgpt-
 **Worth it if you**:
 - Do research daily (journalists, academics, analysts)
 - Need cited sources for your work
-- Currently spend hours on Google searching and synthesizing
+- Currently spend [hours](/tools/hours-tracker/) on Google searching and synthesizing
 - Want a faster alternative to traditional search
 
 **Skip it if you**:
@@ -99,7 +99,7 @@ For a deeper comparison, check our [ChatGPT vs Claude comparison](/blog/chatgpt-
 
 Perplexity AI is the best AI search tool available in 2026. The citation system is genuinely useful, Focus modes add real value, and the free plan is generous enough to try before committing.
 
-It's not trying to replace ChatGPT or Claude — it's filling a different need. If you value accuracy and sources in your AI interactions, Perplexity is worth every penny.
+It's not trying to replace ChatGPT or [Claude](/tools/claude/) — it's filling a different need. If you value accuracy and sources in your AI interactions, Perplexity is worth every penny.
 
 Explore more AI tools in our [best free AI tools guide](/blog/best-free-ai-tools-2026) or compare options on our [comparison page](/compare/chatgpt-vs-perplexity/).
 

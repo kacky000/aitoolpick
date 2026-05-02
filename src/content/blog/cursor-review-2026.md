@@ -25,7 +25,7 @@ This is Cursor's headline feature. You describe what you want in natural languag
 - Runs terminal commands (tests, builds, linting)
 - Iterates on errors automatically
 
-For tasks like "add error handling to all API endpoints" or "refactor this module to use the repository pattern," Agent mode saves hours.
+For tasks like "add error handling to all API endpoints" or "refactor this module to use the repository pattern," Agent mode saves [hours](/tools/hours-tracker/).
 
 ### Inline Editing (Cmd+K)
 

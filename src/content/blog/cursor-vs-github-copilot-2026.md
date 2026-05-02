@@ -6,7 +6,7 @@ tags: ["ai", "coding", "developer-tools", "comparison"]
 heroImage: "/thumbs/cursor-vs-github-copilot-2026.jpg"
 lastModified: "2026-04-26"
 ---
-**Cursor** and **Github Copilot** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
+**Cursor** and **[Github Copilot](/tools/github-copilot-x/)** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
 [AI coding](/category/ai-coding/) assistants have become standard tools for developers. GitHub Copilot was the pioneer, but Cursor has emerged as a serious competitor with an AI-first editor approach that many developers now prefer over VS Code + Copilot.
 
@@ -97,12 +97,12 @@ Both tools give you access to leading AI models:
 
 **GitHub Copilot Pro** includes:
 - GPT-4o (OpenAI)
-- Claude 3.5 Sonnet and Claude 3.7 Sonnet (Anthropic)
+- [Claude](/tools/claude/) 3.5 Sonnet and Claude 3.7 Sonnet (Anthropic)
 - Gemini 2.0 Flash (Google)
 - o3-mini for reasoning
 
 **Cursor Pro** includes:
-- Claude 3.5 Sonnet, Claude 3.7 Sonnet, and Claude Sonnet 4
+- [Claude](/tools/claude/) 3.5 Sonnet, Claude 3.7 Sonnet, and Claude Sonnet 4
 - GPT-4o, GPT-4.5
 - Gemini 2.5 Pro
 - Custom model support via API key

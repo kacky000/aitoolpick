@@ -107,7 +107,7 @@ You will overspend a category. Everyone does, especially in the first month. YNA
 
 The response is simple: move money from a category you haven't spent yet.
 
-Overspent $30 on dining out? Move $30 from your entertainment category (or anywhere with a balance). The numbers balance, and you continue. This is "rolling with the punches."
+Overspent $30 on dining out? Move $30 from your entertainment category (or anywhere with a balance). The numbers balance, and you [continue](/tools/continue/). This is "rolling with the punches."
 
 What you don't do: feel guilty, give up, or ignore the red. Acknowledge it, adjust, move on.
 
@@ -130,7 +130,7 @@ The goal is to stop being surprised by expenses you could have seen coming.
 
 ## Step 7: Build the Daily YNAB Habit
 
-YNAB works best when you use it regularly — ideally every day or at minimum a few times per week. Here's a sustainable routine:
+YNAB works best when you use it regularly — ideally every day or at minimum a few times per week. Here's a sustainable [routine](/tools/routine/):
 
 **Daily (2 minutes):** Enter any purchases from the previous day before you forget. If you have bank sync enabled, just approve or categorize the imported transactions.
 

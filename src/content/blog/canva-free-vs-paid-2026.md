@@ -34,7 +34,7 @@ Canva Pro adds:
 - **100M+ premium photos, videos, audio, graphics**
 - **610,000+ premium templates**
 - **1 TB cloud storage** (up from 5 GB)
-- **Brand Kit** (logos, colors, fonts)
+- **Brand [Kit](/tools/kit/)** (logos, colors, fonts)
 - **Magic Resize** — resize designs for any platform [instantly](/tools/instantly/)
 - **Background Remover** — one-click background removal
 - **Magic [Eraser](/tools/eraser-io/)** and **Magic Edit**
@@ -80,7 +80,7 @@ Need a logo or graphic without a background? Free plan doesn't support transpare
 
 **Yes, if you:**
 - Create content for a brand or business (Brand Kit is essential)
-- Post on multiple social platforms (Magic Resize saves hours)
+- Post on multiple social platforms (Magic Resize saves [hours](/tools/hours-tracker/))
 - Need product photos with removed backgrounds
 - Want access to premium templates and stock photos
 - Export transparent PNGs regularly

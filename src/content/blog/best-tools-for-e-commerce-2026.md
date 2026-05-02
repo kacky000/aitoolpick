@@ -29,10 +29,10 @@ Here are the tools that have proven most valuable for e-commerce operators in 20
 
 **Best for:** Connecting [Shopify](/tools/shopify/)/WooCommerce to your other tools
 
-Manual e-commerce operations don't scale. Zapier connects your store platform to everything else:
+Manual e-commerce operations don't scale. [Zapier](/tools/zapier/) connects your store platform to everything else:
 
 - New order → update inventory spreadsheet + send [Slack](/tools/slack/) alert
-- New customer email signup → add to Klaviyo list + create CRM contact
+- New customer email signup → add to [Klaviyo](/tools/klaviyo/) list + create CRM contact
 - Negative review posted → create [Notion](/tools/notion/) task for response
 - New product added → post to social media channels
 
@@ -44,14 +44,14 @@ The free plan handles 100 tasks/month. Most growing stores need the $19.99/month
 
 **Best for:** Product feature graphics, social ads, email headers, seasonal campaigns
 
-E-commerce businesses produce an enormous volume of visual content. Canva's template library includes:
+E-commerce businesses produce an enormous volume of visual content. [Canva](/tools/canva/)'s template library includes:
 
 - Social media ads (Facebook, Instagram, Pinterest)
 - Email newsletter headers
 - Product comparison graphics
 - Promotional banners and sale announcements
 
-Canva Pro at $15/month adds brand kits, bulk image resize, and background removal — all essential for e-commerce. The background removal tool alone saves hours on product photo editing.
+[Canva](/tools/canva/) Pro at $15/month adds brand kits, bulk image resize, and background removal — all essential for e-commerce. The background removal tool alone saves hours on product photo editing.
 
 ---
 
@@ -121,8 +121,8 @@ If you're starting out, this minimal stack covers the essentials for under $50/m
 
 1. **Canva Free** — visual content
 2. **ChatGPT Free** — copy and communication
-3. **Notion Free** — operations hub
-4. **Zapier Free** (100 tasks/mo) — basic automations
+3. **[Notion](/tools/notion/) Free** — operations hub
+4. **[Zapier](/tools/zapier/) Free** (100 tasks/mo) — basic automations
 5. **Google Analytics 4** (free) — analytics
 
 Upgrade individual tools only when you hit specific limits. Most early-stage stores don't need paid tools until revenue justifies the expense.

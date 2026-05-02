@@ -24,7 +24,7 @@ Here is exactly where the line is between Jira Free and paid plans in 2026.
 | Advanced Roadmaps | No | No | Yes |
 | Atlassian Intelligence | Limited | Limited | Full |
 | Data residency | No | Yes | Yes |
-| Support | Community | Business hours | 24/7 premium |
+| Support | Community | Business [hours](/tools/hours-tracker/) | 24/7 premium |
 | Price | $0 | $8.60/user/month | $17/user/month |
 
 ## Where Free Falls Short

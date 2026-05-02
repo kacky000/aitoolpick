@@ -43,7 +43,7 @@ Notion is cheaper at every tier. However, price alone should not decide this —
 
 **Notion wins by a mile.** Notion was built for documents. Its block-based editor supports rich text, embedded databases, toggles, callouts, code blocks, mathematical equations, and synced blocks that update across pages. Building a team wiki in Notion is genuinely enjoyable.
 
-**Asana** added project briefs and basic document features, but they are limited. Most Asana teams still rely on Google Docs or Confluence for documentation and link back to Asana tasks.
+**Asana** added project briefs and basic document features, but they are limited. Most Asana teams still rely on [Google Docs](/tools/google-docs/) or Confluence for documentation and link back to Asana tasks.
 
 **Verdict:** If your team needs a single source of truth for documentation and project management, Notion is the clear winner.
 

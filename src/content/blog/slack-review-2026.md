@@ -95,7 +95,7 @@ While 90 messages might be enough for testing, small teams quickly hit this ceil
 By default, Slack sends notifications for everything. Teams often struggle with notification fatigue, especially when channels have high message volume.
 
 **3. Can Be Distracting**
-The always-on nature of Slack can hurt deep work. Some organizations have implemented "No Slack hours" to combat this.
+The always-on nature of Slack can hurt deep work. Some organizations have implemented "No Slack [hours](/tools/hours-tracker/)" to combat this.
 
 **4. No Native [Task Management](/category/task-management/)**
 While Slack Workflows exist, true task management requires integration with third-party tools like Asana or [Monday.com](/tools/monday/).
@@ -108,7 +108,7 @@ Workflows, Slack Apps, and custom integrations require technical knowledge. Non-
 
 ## Slack vs. The Competition
 
-**Slack vs. Microsoft Teams**
+**Slack vs. [Microsoft Teams](/tools/microsoft-teams/)**
 Teams is bundled with Microsoft 365, making it significantly cheaper for organizations already invested in Microsoft's ecosystem. However, Teams' interface is less polished, and its integration ecosystem is smaller. [Slack vs Microsoft Teams](/blog/slack-vs-microsoft-teams-2026) covers this comparison in depth.
 
 **Slack vs. [Discord](/tools/discord/)**
@@ -154,7 +154,7 @@ Slack remains one of the best team communication platforms in 2026, but it's no 
 
 ## The Bottom Line
 
-In 2026, Slack's dominance is less absolute, but its quality is undeniable. For teams that depend on integrations and value excellent user experience, Slack remains the gold standard. However, Microsoft Teams has closed the gap significantly, and smaller organizations might find better value elsewhere.
+In 2026, Slack's dominance is less absolute, but its quality is undeniable. For teams that depend on integrations and value excellent user experience, Slack remains the gold standard. However, [Microsoft Teams](/tools/microsoft-teams/) has closed the gap significantly, and smaller organizations might find better value elsewhere.
 
 The question isn't whether Slack is the best team chat anymore—it's whether Slack is the best fit for *your* team. For most growing organizations with multiple integrations, the answer is yes.
 

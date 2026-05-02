@@ -94,13 +94,13 @@ For most teams, the 90-day history limit is the forcing function. Once you start
 
 ## Team Size Recommendations
 
-**1–3 people (solo founder, co-founder duo):** Free plan is fine indefinitely. The tools in those 10 integrations cover most needs, and 90 days of history is workable when the whole team has full context.
+**1–3 people (solo founder, co-founder duo):** Free plan is fine indefinitely. The tools in those 10 integrations cover most needs, and 90 days of history is [workable](/tools/workable/) when the whole team has full context.
 
 **4–10 people (early startup, small agency):** Upgrade to Pro as soon as message history starts to hurt — usually within the first few months. At $7.25/user, a 5-person team pays $36.25/month. That's a cheap price for searchable institutional knowledge.
 
 **11–50 people (growing startup, mid-size team):** Pro is the baseline. Consider Business+ only if you have compliance requirements or IT manages identities centrally.
 
-**50+ people:** Business+ or Enterprise Grid. At this scale, SCIM provisioning alone saves hours of admin work every month.
+**50+ people:** Business+ or Enterprise Grid. At this scale, SCIM provisioning alone saves [hours](/tools/hours-tracker/) of admin work every month.
 
 ## Is the Upgrade Worth It?
 

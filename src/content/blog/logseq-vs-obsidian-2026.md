@@ -56,7 +56,7 @@ If you want to build your knowledge system [around](/tools/around/) daily captur
 
 ### Plugin Ecosystem
 
-Obsidian's plugin library is significantly larger and more mature. There are plugins for Spaced Repetition flashcards, citation management (Zotero integration), Kanban boards, canvas mapping, and hundreds of other use cases. If you have a specific workflow need, there's almost certainly an Obsidian plugin for it.
+Obsidian's plugin library is significantly larger and more mature. There are plugins for Spaced Repetition flashcards, citation management ([Zotero](/tools/zotero/) integration), Kanban boards, canvas mapping, and hundreds of other use cases. If you have a specific workflow need, there's almost certainly an Obsidian plugin for it.
 
 ### Flexibility
 

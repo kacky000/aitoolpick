@@ -42,13 +42,13 @@ The Pro plan is a significant step up:
 
 ### Pro Searches
 
-Pro searches use more powerful reasoning models — specifically GPT-4o or Claude 3.5 Sonnet — to answer complex queries. The difference shows most on multi-step research questions, technical topics, and nuanced analysis. Standard searches are fast but shallow. Pro searches go deeper, synthesize better, and handle ambiguous questions more reliably.
+Pro searches use more powerful reasoning models — specifically GPT-4o or [Claude](/tools/claude/) 3.5 Sonnet — to answer complex queries. The difference shows most on multi-step research questions, technical topics, and nuanced analysis. Standard searches are fast but shallow. Pro searches go deeper, synthesize better, and handle ambiguous questions more reliably.
 
 600+ Pro searches per day is effectively unlimited for any normal user. Even heavy research workflows rarely exceed 100 Pro queries in a day.
 
 ### Model Selection
 
-Pro users can switch between models for each query. If you want Claude's careful reasoning for a legal question, GPT-4o's breadth for a technical question, or Perplexity's Sonar for a news-heavy query, you can choose. This flexibility is genuinely useful when different models perform differently on different tasks.
+Pro users can switch between models for each query. If you want [Claude](/tools/claude/)'s careful reasoning for a legal question, GPT-4o's breadth for a technical question, or Perplexity's Sonar for a news-heavy query, you can choose. This flexibility is genuinely useful when different models perform differently on different tasks.
 
 ### File Uploads
 

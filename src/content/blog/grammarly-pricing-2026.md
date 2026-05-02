@@ -24,7 +24,7 @@ Grammarly's Premium plan is $12/month when billed annually ($144/year). If you p
 
 ## Free Plan: Solid Baseline, Real Limitations
 
-The Grammarly Free plan covers the fundamentals well. You get real-time spelling and grammar corrections, basic punctuation checks, and conciseness suggestions. It integrates with browsers, Google Docs, Microsoft Word, and most desktop apps through the Grammarly desktop app.
+The Grammarly Free plan covers the fundamentals well. You get real-time spelling and grammar corrections, basic punctuation checks, and conciseness suggestions. It integrates with browsers, Google Docs, [Microsoft Word](/tools/microsoft-word/), and most desktop apps through the Grammarly desktop app.
 
 For casual use — writing emails, filling out forms, or drafting quick messages — the Free plan is genuinely useful. It catches obvious errors and prevents embarrassing typos.
 

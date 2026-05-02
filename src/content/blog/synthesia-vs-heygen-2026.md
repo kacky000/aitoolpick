@@ -10,7 +10,7 @@ lastModified: "2026-04-26"
 
 ## Quick Overview
 
-| Feature | Synthesia | HeyGen |
+| Feature | [Synthesia](/tools/synthesia-video/) | HeyGen |
 |---------|-----------|--------|
 | Founded | 2017 | 2020 |
 | Focus | Corporate training & L&D | Marketing & sales |
@@ -93,7 +93,7 @@ HeyGen's editor is functional but less polished for complex productions.
 - **Large teams**: Better collaboration and approval workflows
 
 ### Choose HeyGen for:
-- **Marketing videos**: Personalized outreach at scale
+- **Marketing videos**: Personalized [outreach](/tools/outreach/) at scale
 - **Video translation**: Localizing existing content preserving original speaker
 - **Sales prospecting**: Personalized video messages via API
 - **Social media**: Quick talking-head content

@@ -39,7 +39,7 @@ This is Copilot's defining advantage. If you're already paying for Microsoft 365
 
 **In Teams**: Meeting summaries, action item extraction, catch-up summaries if you missed a meeting. Teams Copilot is one of the more genuinely useful enterprise AI features.
 
-**In PowerPoint**: Generate presentation slides from a Word document or a text prompt. The output needs heavy editing for anything client-facing, but the scaffolding is fast.
+**In PowerPoint**: Generate presentation [slides](/tools/slides-com/) from a Word document or a text prompt. The output needs heavy editing for anything client-facing, but the scaffolding is fast.
 
 ### Microsoft Graph Context
 
@@ -105,7 +105,7 @@ The cost comparison matters a lot: ChatGPT Plus costs less than a third of what 
 
 ## The Bottom Line
 
-The question isn't which AI is better in the abstract — it's where your work actually happens. Microsoft Copilot's value is almost entirely about Microsoft 365 integration. If you're not deep in that ecosystem, the $30/month premium isn't justified.
+The question isn't which AI is better in the [abstract](/tools/abstract-design/) — it's where your work actually happens. Microsoft Copilot's value is almost entirely about Microsoft 365 integration. If you're not deep in that ecosystem, the $30/month premium isn't justified.
 
 ChatGPT remains the more flexible, widely applicable AI assistant for individuals and teams who need versatility across different tools and tasks.
 

@@ -112,15 +112,15 @@ Contact Toggl's sales team for pricing — typically negotiated based on team si
 | 25 users | $225/mo | $99.75/mo | $270/mo |
 | 50 users | $450/mo | $199.50/mo | $540/mo |
 
-Toggl Track sits in the middle — more expensive than Clockify but cheaper than Harvest. The trade-off is UX quality (Toggl wins) vs feature inclusion (Clockify includes scheduling, Harvest includes invoicing).
+Toggl Track sits in the middle — more expensive than [Clockify](/tools/clockify/) but cheaper than Harvest. The trade-off is UX quality (Toggl wins) vs feature inclusion (Clockify includes scheduling, Harvest includes invoicing).
 
 ## Which Plan Should You Choose?
 
-**Choose Free if**: You're a solo user or team under 5 who just needs to log hours without billing calculations.
+**Choose Free if**: You're a solo user or team under 5 who just needs to log [hours](/tools/hours-tracker/) without billing calculations.
 
 **Choose Starter if**: You bill clients and need rate calculations, project estimates, and professional reporting. This covers 80% of freelancer and small agency needs.
 
-**Choose Premium if**: You manage a team of 10+ and need profitability insights, time audits, and forecasting to make informed business decisions.
+**Choose Premium if**: You manage a team of 10+ and need profitability insights, time audits, and forecasting to [make](/tools/make/) informed business decisions.
 
 **Choose Enterprise if**: You have 50+ users with SSO requirements, compliance needs, or want dedicated support.
 

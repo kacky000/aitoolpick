@@ -87,7 +87,7 @@ Many accounting workflows involve moving data between tools — from invoice sof
 - Log new expenses to a Google Sheet automatically
 - Sync client data between your CRM and accounting software
 
-For accountants who use multiple SaaS tools (common in modern practices), Zapier eliminates hours of manual data entry each week.
+For accountants who use multiple SaaS tools (common in modern practices), Zapier eliminates [hours](/tools/hours-tracker/) of manual data entry each week.
 
 → [Zapier review 2026](/blog/zapier-review-2026/) | [Best Zapier alternatives](/blog/best-zapier-alternatives-2026/)
 
@@ -111,7 +111,7 @@ The Pro plan allows file uploads, so you can attach a client's documents and ask
 | Tool | Best For | Free Plan | Paid Starting |
 |------|----------|-----------|---------------|
 | ChatGPT | Drafting, formulas, analysis | Yes | $20/mo |
-| Claude | Document analysis, long reports | Yes | $20/mo |
+| [Claude](/tools/claude/) | Document analysis, long reports | Yes | $20/mo |
 | Notion AI | Firm knowledge management | No (AI add-on) | $10/user/mo |
 | Grammarly | Client communication | Yes | $12/mo |
 | Zapier | Workflow automation | Yes (limited) | $19.99/mo |
@@ -121,7 +121,7 @@ The Pro plan allows file uploads, so you can attach a client's documents and ask
 
 You don't need all of these at once. A practical starting point:
 
-1. **Use ChatGPT or Claude** for one week on client emails and document summarization
+1. **Use ChatGPT or [Claude](/tools/claude/)** for one week on client emails and document summarization
 2. **Add Grammarly** if client communication is a pain point
 3. **Explore Zapier** once you've identified a manual handoff that wastes more than 2 hours per week
 

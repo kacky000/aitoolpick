@@ -14,7 +14,7 @@ Here's our honest assessment after extensive testing.
 
 ## What Is Google Gemini in 2026?
 
-Gemini is Google's AI assistant, powered by the Gemini 3 family of models. It's available as a chatbot, mobile app, and integrated into Google Workspace (Gmail, Docs, Sheets, Slides, Meet). The key models are Gemini 3 (AI Pro, $19.99/mo), Gemini 3 Pro (AI Ultra, ~$42/mo), and a lighter base model for free users.
+Gemini is Google's AI assistant, powered by the Gemini 3 family of models. It's available as a chatbot, mobile app, and integrated into Google Workspace (Gmail, Docs, Sheets, [Slides](/tools/slides-com/), Meet). The key models are Gemini 3 (AI Pro, $19.99/mo), Gemini 3 Pro (AI Ultra, ~$42/mo), and a lighter base model for free users.
 
 ## Key Features
 
@@ -31,7 +31,7 @@ This is where Gemini genuinely pulls ahead of every competitor. When you use Gem
 - **Gmail**: Summarize email threads, draft replies, find specific information across your inbox
 - **Docs**: Generate content, rewrite sections, summarize documents
 - **Sheets**: Write formulas, analyze data, create charts from natural language
-- **Slides**: Generate presentation outlines, create slides from documents
+- **[Slides](/tools/slides-com/)**: Generate presentation outlines, create slides from documents
 - **Meet**: Real-time meeting summaries, action items, follow-up drafts
 
 The integration is native — not a plugin or sidebar extension. Highlight text in Docs and ask Gemini to rewrite it. Type a formula description in Sheets and Gemini writes it. Seamless in a way bolt-on tools can't replicate.
@@ -118,9 +118,9 @@ Google's ad-based business model creates trust friction. While Google states Wor
 
 ## Cons
 
-- **Writing quality lags behind Claude** — Generic tone, needs heavy editing
+- **Writing quality lags behind [Claude](/tools/claude/)** — Generic tone, needs heavy editing
 - **Hallucinations persist** — Verify all unsourced claims
-- **Coding is adequate, not exceptional** — Falls behind Claude and Copilot
+- **Coding is adequate, not exceptional** — Falls behind [Claude](/tools/claude/) and Copilot
 - **Credit system is opaque** — Unclear what consumes credits and how many
 - **Privacy concerns** — Google's data practices create trust issues
 - **Free tier is limited** — Daily caps hit quickly for regular users

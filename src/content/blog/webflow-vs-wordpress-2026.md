@@ -20,7 +20,7 @@ Webflow and WordPress are two of the most capable website platforms available, b
 
 ### WordPress
 
-WordPress.org (self-hosted) is free as software, but you'll pay for:
+[WordPress.org](/tools/wordpress-org/) (self-hosted) is free as software, but you'll pay for:
 - **Hosting**: $3–$50/month depending on provider and performance needs
 - **Domain**: ~$15/year
 - **Premium themes**: $0–$100 one-time
@@ -105,9 +105,9 @@ Webflow pricing is higher per site but includes hosting, CDN, and SSL.
 
 **WordPress + [WooCommerce](/tools/woocommerce/)** is the most powerful e-commerce platform in this comparison. WooCommerce supports unlimited products, complex shipping rules, subscriptions, multi-vendor marketplaces, and hundreds of payment gateways. The plugin ecosystem extends it further.
 
-**Webflow E-commerce** supports standard product catalogs, digital downloads, and custom checkout pages with excellent design control. However, it lacks the depth of WooCommerce for complex inventory management, and the pricing tiers are expensive.
+**Webflow E-commerce** supports standard product catalogs, digital downloads, and custom checkout pages with excellent design control. However, it lacks the depth of [WooCommerce](/tools/woocommerce/) for complex inventory management, and the pricing tiers are expensive.
 
-**Winner: WordPress + WooCommerce** (for anything beyond a simple store)
+**Winner: WordPress + [WooCommerce](/tools/woocommerce/)** (for anything beyond a simple store)
 
 ## Who Should Choose Webflow?
 

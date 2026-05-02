@@ -20,15 +20,15 @@ This is the most important question. Different design work requires fundamentall
 | Print materials | [Canva](/tools/canva/) | Print-ready exports, template library |
 | Icon/illustration | [Figma](/tools/figma/) | Precise vector control |
 
-**If you're doing UI/UX design,** the answer is almost always Figma. Its prototyping, component system, and developer handoff features are unmatched.
+**If you're doing UI/UX design,** the answer is almost always [Figma](/tools/figma/). Its prototyping, component system, and developer handoff features are unmatched.
 
-**If you're doing marketing/social media design,** Canva wins on speed and template quality. You don't need Figma's power for Instagram posts.
+**If you're doing marketing/social media design,** [Canva](/tools/canva/) wins on speed and template quality. You don't need Figma's power for Instagram posts.
 
 ## Step 2: Consider Your Team
 
 ### Solo Designer
-- **Figma Free** handles most UI/UX work for individuals
-- **Canva Free** covers marketing needs
+- **[Figma](/tools/figma/) Free** handles most UI/UX work for individuals
+- **[Canva](/tools/canva/) Free** covers marketing needs
 - Cost: $0
 
 ### Small Team (2-5 people)
@@ -68,7 +68,7 @@ Every major design tool offers a free tier:
 
 - **Figma Free:** 3 projects, unlimited personal files
 - **Canva Free:** 250,000+ templates, 5GB storage
-- **Miro Free:** 3 editable boards
+- **[Miro](/tools/miro/) Free:** 3 editable boards
 
 Try them with your actual workflow before paying. A tool that looks perfect in a demo might not fit how your team actually works.
 
@@ -76,7 +76,7 @@ Try them with your actual workflow before paying. A tool that looks perfect in a
 
 1. **Are you designing user interfaces?** → Figma
 2. **Are you creating marketing content fast?** → Canva
-3. **Are you facilitating workshops or brainstorming?** → Miro
+3. **Are you facilitating workshops or brainstorming?** → [Miro](/tools/miro/)
 4. **Do you need all three?** → That's normal. Most teams use 2-3 design tools.
 
 ## Common Mistakes to Avoid

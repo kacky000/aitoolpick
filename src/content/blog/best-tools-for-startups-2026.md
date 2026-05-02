@@ -98,9 +98,9 @@ Figma is non-negotiable if you're building a digital product. It's where your de
 
 Figma is for product design; Canva is for everything else. [Pitch](/tools/pitch/) decks, social media graphics, blog header images, email banners — Canva's drag-and-drop interface lets non-designers produce professional-looking assets in minutes. The Brand Kit feature keeps your colors, fonts, and logos consistent across everything.
 
-**Why it suits startups**: The free tier is surprisingly capable. Upgrade to Pro ($15/month) when you need the Brand Kit, background removal, and Magic Resize for resizing designs across platforms.
+**Why it suits startups**: The free tier is surprisingly capable. Upgrade to Pro ($15/month) when you need the Brand [Kit](/tools/kit/), background removal, and Magic Resize for resizing designs across platforms.
 
-**Free tier**: 1 Brand Kit (limited), 5GB cloud storage, access to thousands of templates
+**Free tier**: 1 Brand [Kit](/tools/kit/) (limited), 5GB cloud storage, access to thousands of templates
 
 **Pricing**: Free / $15/month for Canva Pro (up to 5 people)
 
@@ -126,7 +126,7 @@ Every hour your team spends on repetitive data entry is an hour not spent buildi
 
 [Make](/tools/make/) (formerly Integromat) handles more complex automation logic than Zapier at a significantly lower price point. Where Zapier excels at simple linear automations, Make lets you build branching workflows with conditional logic, data transformation, and API calls — all in a visual canvas.
 
-**Why it suits startups**: If you need sophisticated automation and have a technical co-founder, Make can replace workflows that would otherwise require custom code. The free tier gives you 1,000 operations per month.
+**Why it suits startups**: If you need sophisticated automation and have a technical co-founder, [Make](/tools/make/) can replace workflows that would otherwise require custom code. The free tier gives you 1,000 operations per month.
 
 **Free tier**: 1,000 operations/month, unlimited scenarios (inactive), 2 active scenarios
 
@@ -166,7 +166,7 @@ Claude complements ChatGPT rather than replacing it. Its 200K token context wind
 |-------|----------------|------------------------------|
 | Pre-seed | Linear (free), Notion (free), Slack (free), Figma (free), ChatGPT (free) | $0 |
 | Seed | Linear Standard + Notion Plus + Slack Pro + Figma Pro + ChatGPT Plus | ~$350/month |
-| Series A | Add Zapier Starter + Make Core + Canva Pro | ~$400/month |
+| Series A | Add [Zapier](/tools/zapier/) Starter + Make Core + Canva Pro | ~$400/month |
 
 Start with the free tiers. They're not crippled versions — they're genuinely useful for teams under 10. Upgrade when you hit specific pain points, not because you think you should.
 

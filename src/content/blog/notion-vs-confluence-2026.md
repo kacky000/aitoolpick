@@ -66,7 +66,7 @@ Both tools have improved search significantly. Confluence's search is comprehens
 - Non-technical teams who need beautiful documentation
 
 **Confluence is best for:**
-- Engineering-heavy organizations already using Jira
+- Engineering-heavy organizations already using [Jira](/tools/jira/)
 - Large enterprises with structured documentation requirements
 - Teams that need advanced permissions and compliance features
 - Organizations that prefer a dedicated wiki, separate from project management
@@ -77,7 +77,7 @@ Switching between tools is possible but time-consuming. Notion has a Confluence 
 
 ## The Bottom Line
 
-In 2026, Notion is the better choice for most teams under 500 people who want a modern, flexible workspace. Confluence remains the stronger choice for large engineering organizations where Jira integration is essential and where structured, compliance-ready documentation is required.
+In 2026, Notion is the better choice for most teams under 500 people who want a modern, flexible workspace. Confluence remains the stronger choice for large engineering organizations where [Jira](/tools/jira/) integration is essential and where structured, compliance-ready documentation is required.
 
 The price difference matters for large teams: Confluence's lower per-user cost can represent significant savings at enterprise scale.
 

@@ -22,7 +22,7 @@ Todoist's free plan gives you:
 - Priority levels (P1–P4)
 - Quick Add from any screen
 - Cross-platform sync (all devices)
-- Basic integrations (Google Calendar, etc.)
+- Basic integrations ([Google Calendar](/tools/google-calendar/), etc.)
 
 That's genuinely useful for personal task management. The 5-project limit is the main constraint.
 

@@ -15,7 +15,7 @@ The right note-taking app can transform how you think, learn, and work. But with
 - **Best all-around**: [Notion](/tools/notion/)
 - **Best for privacy & power users**: [Obsidian](/tools/obsidian/)
 - **Best for quick capture**: Google Keep
-- **Best for Apple users**: Apple Notes / Bear
+- **Best for Apple users**: [Apple Notes](/tools/apple-notes/) / Bear
 - **Best for researchers**: [Logseq](/tools/logseq/)
 - **Best legacy option**: [Evernote](/tools/evernote/)
 
@@ -130,7 +130,7 @@ Google Keep isn't trying to be a full note-taking system. It's a fast, lightweig
 
 ## 6. Bear — Best Writing Experience on Apple
 
-**Pricing**: Free (basic) / Bear Pro $2.99/mo or $29.99/year
+**Pricing**: Free (basic) / [Bear](/tools/bear-notes/) Pro $2.99/mo or $29.99/year
 
 Bear is a beautiful, Markdown-based note-taking app exclusive to Apple platforms. If you care about the writing experience, Bear is hard to beat.
 
@@ -203,7 +203,7 @@ Logseq is an open-source, privacy-first outliner with powerful bidirectional lin
 
 ## Our Final Recommendation
 
-If you want one note-taking app that does everything, **Notion is the best choice in 2026**. It's the most versatile tool on this list, and the AI features make it even more powerful.
+If you want one note-taking app that does everything, **Notion is the best choice in 2026**. It's the most versatile tool on this list, and the AI features [make](/tools/make/) it even more powerful.
 
 If privacy and data ownership matter most, **Obsidian is the way to go**. Your notes stay on your device, in plain Markdown files that will be readable decades from now.
 

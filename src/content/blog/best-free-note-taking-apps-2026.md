@@ -36,7 +36,7 @@ Notion isn't just a note-taking app — it's a full workspace that combines note
 
 Obsidian is unlike any other app on this list. All your notes are stored as plain Markdown files on your device — no cloud lock-in, no proprietary format. The magic is in the connections: every note can link to other notes, and the Graph View visually maps how your ideas relate to each other.
 
-**Why it stands out in 2026:** The plugin ecosystem has matured enormously. There are hundreds of community plugins covering everything from spaced repetition (Anki-style) to canvas-based mind mapping to AI summarization via local models. Obsidian Copilot lets you chat with your notes using your own API key.
+**Why it stands out in 2026:** The plugin ecosystem has matured enormously. There are hundreds of community plugins covering everything from spaced repetition ([Anki](/tools/anki/)-style) to canvas-based mind mapping to AI summarization via local models. Obsidian Copilot lets you chat with your notes using your own API key.
 
 **Best for:** Researchers, writers, and knowledge workers who want to build a personal knowledge base (PKM). Anyone who values data ownership and portability.
 
@@ -68,7 +68,7 @@ Apple Notes is easy to dismiss as basic, but it has quietly become one of the mo
 
 Google Keep is the scratchpad of note-taking apps. It's designed for speed: open the app, type your thought, [close](/tools/close/) the app. Color-coded sticky notes, labels, reminders, and list-making make it ideal for capturing quick ideas and to-dos.
 
-**Why it stands out in 2026:** Deep integration with Google Workspace means your Keep notes show up in Gmail, Google Docs, and Google Assistant. The Gemini AI integration now lets you interact with your notes using natural language.
+**Why it stands out in 2026:** Deep integration with Google Workspace means your Keep notes show up in Gmail, [Google Docs](/tools/google-docs/), and Google Assistant. The Gemini AI integration now lets you interact with your notes using natural language.
 
 **Best for:** Casual note-takers, Google Workspace users, and anyone who primarily captures short snippets rather than long documents.
 

@@ -44,7 +44,7 @@ Write clear instructions inside each frame before participants join. Use colored
 
 ### 4. Share Access Before the Session
 
-Send the board link 24 hours before. Ask participants to:
+Send the board link 24 [hours](/tools/hours-tracker/) before. Ask participants to:
 1. Create a free Miro account if they don't have one
 2. Add their name to the "Who's here?" sticky in the welcome frame
 3. Try the sticky note and drawing tools

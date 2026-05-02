@@ -83,11 +83,11 @@ The navigation redesign in late 2025 helped, but Teams remains more complex than
 
 ### Performance
 
-Teams is a resource-heavy application. On older hardware, it can be slow to launch, consume significant RAM, and occasionally lag during screen sharing. The new Teams client (rebuilt on WebView2) improved performance dramatically, but it still feels heavier than Slack or Google Meet.
+Teams is a resource-heavy application. On older hardware, it can be slow to launch, consume significant RAM, and occasionally lag during screen sharing. The new Teams client (rebuilt on WebView2) improved performance dramatically, but it still feels heavier than [Slack](/tools/slack/) or Google Meet.
 
 ### Search
 
-Finding old messages and files in Teams remains frustrating. Search results often surface irrelevant content, and filtering by date, person, or channel requires extra clicks. Slack's search is notably superior.
+Finding old messages and files in Teams remains frustrating. Search results often surface irrelevant content, and filtering by date, person, or channel requires extra clicks. [Slack](/tools/slack/)'s search is notably superior.
 
 ### Notifications
 

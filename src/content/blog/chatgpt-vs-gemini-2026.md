@@ -63,7 +63,7 @@ Both have strong mobile apps. The Gemini app on Android is deeply integrated at 
 - You want the most consistent, predictable AI responses
 
 **Choose Gemini if:**
-- Your work is primarily in Gmail, Google Docs, or Drive
+- Your work is primarily in Gmail, [Google Docs](/tools/google-docs/), or Drive
 - You use an Android phone and want OS-level AI integration
 - You want the strongest real-time web search
 - You're already paying for Google One (Gemini Advanced is included)

@@ -38,7 +38,7 @@ This makes V0 a component generator with full-stack aspirations, not a true full
 ### Best For
 - [Designers](/best-for/designers/) converting designs to code
 - Frontend [developers](/best-for/developers/) building UI components
-- Vercel users who want tight platform integration
+- [Vercel](/tools/vercel/) users who want tight platform integration
 - [Figma](/tools/figma/)-to-code workflows
 
 ## Bolt.new
@@ -51,7 +51,7 @@ It hit $40M ARR in six months, largely because the zero-friction experience make
 
 ### Where It Falls Short
 
-Token consumption can be aggressive on complex projects. You might burn through your monthly allocation building a single non-trivial app. Backend support exists through integrations but isn't as seamless as Lovable's built-in Supabase.
+Token consumption can be aggressive on complex projects. You might burn through your monthly allocation building a single non-trivial app. Backend support exists through integrations but isn't as seamless as Lovable's built-in [Supabase](/tools/supabase/).
 
 ### Best For
 - Rapid prototyping and proof-of-concepts
@@ -84,7 +84,7 @@ The generated code isn't always as clean as V0's UI output. Complex business log
 | **Free tier** | Yes (limited) | No | Yes (limited) |
 | **Base paid** | Varies | $20/mo | $20/mo |
 | **Billing model** | Token-based | Token-based | Usage-based |
-| **Team plans** | Via Vercel | Available | Available |
+| **Team plans** | Via [Vercel](/tools/vercel/) | Available | Available |
 
 All three use consumption-based pricing, meaning heavy usage costs more than the base plan. Budget for 2-3x the base price if you're building intensively.
 
@@ -94,7 +94,7 @@ All three use consumption-based pricing, meaning heavy usage costs more than the
 
 **Bolt.new** generates functional code quickly but sometimes takes shortcuts that you'd refactor in production — inconsistent naming, some inline styles mixed with Tailwind, occasional redundant components.
 
-**Lovable** generates solid full-stack code but the frontend isn't as polished as V0. The Supabase integration code is clean and follows best practices.
+**Lovable** generates solid full-stack code but the frontend isn't as polished as V0. The [Supabase](/tools/supabase/) integration code is clean and follows best practices.
 
 ## Decision Matrix
 
@@ -103,10 +103,10 @@ All three use consumption-based pricing, meaning heavy usage costs more than the
 | Beautiful UI components | V0 |
 | Fastest prototype | Bolt.new |
 | Working app with database | Lovable |
-| Figma-to-code | V0 |
+| [Figma](/tools/figma/)-to-code | V0 |
 | Zero setup | Bolt.new |
 | One-click deployment | Lovable |
-| Continue in VS Code/Cursor | Lovable (GitHub export) |
+| [Continue](/tools/continue/) in VS Code/Cursor | Lovable (GitHub export) |
 | Best code quality | V0 |
 
 ## The Verdict

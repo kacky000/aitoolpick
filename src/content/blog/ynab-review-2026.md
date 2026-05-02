@@ -47,7 +47,7 @@ This method is fundamentally different from apps like [Mint](/tools/mint/) (now 
 
 ### Bank Sync
 
-YNAB connects to 12,000+ financial institutions for automatic transaction import. Transactions appear within a few hours (sometimes minutes) and you approve/categorize them. You can also enter transactions manually for real-time tracking — many power users do both.
+YNAB connects to 12,000+ financial institutions for automatic transaction import. Transactions appear within a few [hours](/tools/hours-tracker/) (sometimes minutes) and you approve/categorize them. You can also enter transactions manually for real-time tracking — many power users do both.
 
 Bank sync works well in the US, Canada, and parts of Europe. Coverage is thinner in other regions, though YNAB supports manual import via CSV/OFX files as a fallback.
 

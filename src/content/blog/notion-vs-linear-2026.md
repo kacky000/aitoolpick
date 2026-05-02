@@ -12,7 +12,7 @@ Many teams actually use both. But if you're choosing one, here's how to think ab
 
 ## Quick Verdict
 
-**Choose Notion** if you need a single workspace for documentation, knowledge management, and project tracking. **Choose Linear** if your team ships software and needs the fastest possible issue-tracking workflow.
+**Choose Notion** if you need a single workspace for documentation, knowledge management, and project tracking. **Choose [Linear](/tools/linear-app/)** if your team ships software and needs the fastest possible issue-tracking workflow.
 
 ## Pricing Comparison
 

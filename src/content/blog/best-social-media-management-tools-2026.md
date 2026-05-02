@@ -18,8 +18,8 @@ Here are the best options available in 2026, covering everything from solo creat
 | [Hootsuite](/tools/hootsuite/) | Teams and agencies | $99/month |
 | [Sprout Social](/tools/sprout-social/) | Enterprise and data-driven teams | $249/seat/month |
 | [Later](/tools/later/) | Visual content and Instagram | Free / $16.67/month |
-| Metricool | Affordable all-in-one option | Free / $22/month |
-| Publer | Budget-conscious teams | $12/month |
+| [Metricool](/tools/metricool/) | Affordable all-in-one option | Free / $22/month |
+| [Publer](/tools/publer/) | Budget-conscious teams | $12/month |
 | Iconosquare | Analytics-heavy users | $49/month |
 | Planable | Content approval workflows | $33/month |
 

@@ -17,7 +17,7 @@ AI has turned data analysis from a specialist skill into something anyone with a
 | **[ChatGPT](/tools/chatgpt/)** | General-purpose analysis | Free / $20/mo | Run Python on uploaded files |
 | **[Claude](/tools/claude/)** | Document + data analysis | Free / $20/mo | 200K context, excellent reasoning |
 | **Julius AI** | No-code data analysis | Free / $20/mo | Purpose-built for data workflows |
-| **Google Sheets AI** | Spreadsheet users | Free with Workspace | Native Sheets integration |
+| **[Google Sheets](/tools/google-sheets/) AI** | Spreadsheet users | Free with Workspace | Native Sheets integration |
 | **Perplexity** | Research + data context | Free / $20/mo | Real-time data sourcing |
 | **[Rows](/tools/rows/)** | Spreadsheet + AI hybrid | Free / $59/mo | AI-powered spreadsheet |
 | **[Airtable](/tools/airtable/)** | No-code databases | Free / $20/user/mo | Structured data with AI fields |
@@ -51,7 +51,7 @@ Interactive charts can be modified without code. Non-technical users get a compl
 
 Google has added AI features directly into Sheets that are genuinely useful. The "Help me organize" sidebar suggests formulas, creates pivot tables, builds charts, and cleans data via natural language. The biggest advantage is zero friction: if your data is already in Sheets, there is nothing to install.
 
-It modifies your spreadsheet directly, with no copy-paste from a chatbot. Native integration with Google Forms, Looker Studio, and BigQuery makes it part of a complete Google data stack.
+It modifies your spreadsheet directly, with no copy-paste from a chatbot. Native integration with Google Forms, [Looker Studio](/tools/looker-studio/), and BigQuery makes it part of a complete Google data stack.
 
 **Best for:** Teams already in Google Workspace who want AI without leaving their spreadsheet.
 

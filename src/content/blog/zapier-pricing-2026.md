@@ -59,7 +59,7 @@ Here's how task counting works in practice:
 **Example 2: Multi-Step Zap with Filter**
 - Trigger: New form submission (0 tasks)
 - Filter: Only if submission contains "urgent" (0 tasks—filters are free)
-- Action 1: Create row in Google Sheets (1 task)
+- Action 1: Create row in [Google Sheets](/tools/google-sheets/) (1 task)
 - Action 2: Send [Slack](/tools/slack/) notification (1 task)
 - Action 3: Create task in [Asana](/tools/asana/) (1 task)
 - **Total: 3 tasks per submission**
@@ -120,7 +120,7 @@ For most small teams starting out, Make edges out Zapier on price. However, Zapi
 
 **Choose Free** if:
 - You're testing automation before committing financially
-- You have fewer than 5 routine tasks monthly
+- You have fewer than 5 [routine](/tools/routine/) tasks monthly
 - You're learning no-code automation basics
 
 **Choose Professional** if:
@@ -146,7 +146,7 @@ Instead of creating separate Zaps for different scenarios, use filters to handle
 
 ### 2. **Optimize Multi-Step Zaps**
 
-Combine related actions into fewer steps. For example, batch multiple Slack notifications into one message instead of sending three separate notifications.
+Combine related actions into fewer steps. For example, batch multiple [Slack](/tools/slack/) notifications into one message instead of sending three separate notifications.
 
 ### 3. **Set Longer Check Frequencies**
 

@@ -109,7 +109,7 @@ This gives you a genuinely functional business toolkit for zero dollars.
 When revenue justifies spending:
 
 1. **Claude Pro ($20/mo)** — The biggest productivity multiplier. Unlimited AI assistance.
-2. **Canva Pro ($15/mo)** — Brand kit, background remover, premium templates.
+2. **Canva Pro ($15/mo)** — Brand [kit](/tools/kit/), background remover, premium templates.
 3. **Zapier Professional ($29.99/mo)** — More zaps, multi-step automations.
 4. **Notion Plus ($10/mo)** — Unlimited file uploads, better version history.
 

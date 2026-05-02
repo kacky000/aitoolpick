@@ -117,7 +117,7 @@ See the [full pricing breakdown →](/blog/hubspot-pricing-2026)
 | Tool | Best For | Starting Price |
 |------|----------|---------------|
 | **HubSpot** | All-in-one CRM + marketing | Free / $800/month (Professional) |
-| **Salesforce** | Enterprise CRM, complex sales | $25/user/month |
+| **[Salesforce](/tools/salesforce/)** | Enterprise CRM, complex sales | $25/user/month |
 | **[Pipedrive](/tools/pipedrive/)** | Sales-focused, simple CRM | $14/user/month |
 | **[ActiveCampaign](/tools/activecampaign/)** | Email marketing + basic CRM | $15/month |
 | **Monday CRM** | Visual pipeline management | $12/user/month |

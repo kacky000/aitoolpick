@@ -17,7 +17,7 @@ Marketing teams often face a choice: Canva's ease of use or Figma's design power
 | Learning curve | Very easy | Moderate |
 | Template library | Massive (millions) | Smaller (community-driven) |
 | Collaboration | Real-time | Real-time |
-| Brand consistency tools | Strong (Brand Kit) | Excellent (Design Systems) |
+| Brand consistency tools | Strong (Brand [Kit](/tools/kit/)) | Excellent (Design Systems) |
 | Price (paid) | $15/user/mo | $15/editor/mo |
 | Best for | Non-[designers](/best-for/designers/), social content | Designer-marketer hybrids, complex assets |
 
@@ -42,7 +42,7 @@ Canva handles print-ready exports, business cards, flyers, and presentations sea
 ## Where Figma Wins for Marketing
 
 **1. Brand consistency at scale**
-Figma's design system with shared components means any team member who updates a color or logo automatically updates it across all files. Canva's Brand Kit does this too, but Figma's version is more powerful for complex brands.
+Figma's design system with shared components means any team member who updates a color or logo automatically updates it across all files. Canva's Brand [Kit](/tools/kit/) does this too, but Figma's version is more powerful for complex brands.
 
 **2. Landing pages and UI assets**
 If your marketing team creates web assets (hero images, email templates, landing page wireframes), Figma's pixel-precise controls and developer handoff mode are essential.

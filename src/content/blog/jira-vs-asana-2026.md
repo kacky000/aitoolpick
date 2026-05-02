@@ -33,7 +33,7 @@ Jira is Atlassian's issue and project tracking platform, purpose-built for softw
 - Engineering and QA teams
 - Agile/Scrum practitioners
 - Teams that track bugs, features, and sprints
-- Organizations already using Confluence, Bitbucket, or other Atlassian tools
+- Organizations already using [Confluence](/tools/confluence/), Bitbucket, or other Atlassian tools
 
 ## What Is Asana?
 
@@ -107,7 +107,7 @@ Choose Jira if your team:
 - Is primarily engineers, [developers](/best-for/developers/), or QA professionals
 - Practices Scrum or Kanban with formal sprints
 - Needs detailed velocity and burndown reporting
-- Already uses Atlassian products (Confluence, Bitbucket)
+- Already uses Atlassian products (Confluence, [Bitbucket](/tools/bitbucket/))
 - Tracks bugs and software releases as primary workflows
 
 ## Who Should Choose Asana?

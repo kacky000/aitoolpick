@@ -10,9 +10,9 @@ lastModified: "2026-04-15"
 
 ## What Is Clockify?
 
-Clockify is a time tracking application that lets you and your team log hours on projects and tasks. It offers timer-based tracking, manual time entry, and timesheet modes. Beyond basic tracking, paid plans add invoicing, scheduling, expense tracking, and advanced reporting.
+Clockify is a time tracking application that lets you and your team log [hours](/tools/hours-tracker/) on projects and tasks. It offers timer-based tracking, manual time entry, and timesheet modes. Beyond basic tracking, paid plans add invoicing, scheduling, expense tracking, and advanced reporting.
 
-Founded in 2017 by the CAKE.com team (who also make Pumble), Clockify has grown to over 4 million users making it one of the most widely-used time trackers globally.
+Founded in 2017 by the CAKE.com team (who also [make](/tools/make/) Pumble), Clockify has grown to over 4 million users making it one of the most widely-used time trackers globally.
 
 ## Clockify Pricing 2026
 

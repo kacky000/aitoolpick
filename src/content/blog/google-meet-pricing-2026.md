@@ -31,7 +31,7 @@ Google Meet doesn't have standalone paid plans — it's bundled into **Google Wo
 | Plan | Price | Meet Limits | Key Features |
 |------|-------|-------------|--------------|
 | **Free (Google Account)** | $0 | 100 participants, 60 min groups | Basic Meet |
-| **Workspace Starter** | $6/user/month | 100 participants, 24 hours | 30 GB storage, Gmail custom domain |
+| **Workspace Starter** | $6/user/month | 100 participants, 24 [hours](/tools/hours-tracker/) | 30 GB storage, Gmail custom domain |
 | **Workspace Standard** | $12/user/month | 150 participants, 24 hours | 2 TB storage, noise cancellation, breakout rooms |
 | **Workspace Business Plus** | $18/user/month | 500 participants, 24 hours | Attendance tracking, polls |
 | **Workspace Enterprise** | Custom | 1,000 participants | Recording, streaming, advanced security |

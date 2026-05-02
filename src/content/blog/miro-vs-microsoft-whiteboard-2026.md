@@ -136,7 +136,7 @@ For a deeper look at Miro's capabilities, check out our [Miro review for 2026](/
 
 ## The Verdict
 
-**Miro wins on features, templates, and facilitation.** If your team runs structured workshops, design sprints, or needs integrations beyond the Microsoft ecosystem, Miro is worth the investment. The template library alone saves hours of setup time.
+**Miro wins on features, templates, and facilitation.** If your team runs structured workshops, design sprints, or needs integrations beyond the Microsoft ecosystem, Miro is worth the investment. The template library alone saves [hours](/tools/hours-tracker/) of setup time.
 
 **Microsoft Whiteboard wins on price and ecosystem fit.** If your organization already pays for Microsoft 365 and your whiteboarding needs are moderate (quick brainstorms, simple diagrams, meeting sketches), Microsoft Whiteboard delivers solid value at zero additional cost.
 

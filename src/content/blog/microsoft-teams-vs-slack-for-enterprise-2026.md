@@ -109,7 +109,7 @@ The strength is depth within the Microsoft stack. The weakness is that non-Micro
 
 Slack's integration philosophy is breadth and developer-friendliness:
 - **2,600+ integrations**: The largest app directory in the communication space
-- **Developer tools**: Bolt SDK, Block Kit, slash commands, webhooks — building custom integrations is straightforward
+- **Developer tools**: Bolt SDK, Block [Kit](/tools/kit/), slash commands, webhooks — building custom integrations is straightforward
 - **Workflow Builder**: No-code automations triggered by messages, forms, or schedules
 - **Key enterprise integrations**: Salesforce (owned by same parent company), Jira, GitHub, PagerDuty, [Datadog](/tools/datadog/)
 - **Slack Connect**: Communicate with external organizations in shared channels

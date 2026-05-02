@@ -6,7 +6,7 @@ tags: ["notion", "students", "productivity", "note-taking", "study"]
 heroImage: "/thumbs/notion-for-students-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Students who figure out Notion early have a significant advantage over those still juggling a mix of paper notes, Google Docs folders, Reminders, and a physical planner. Notion can replace all of those with a single system that keeps everything connected.
+Students who figure out Notion early have a significant advantage over those still juggling a mix of paper notes, [Google Docs](/tools/google-docs/) folders, Reminders, and a physical planner. Notion can replace all of those with a single system that keeps everything connected.
 
 Here's how to set it up for academic use.
 
@@ -48,7 +48,7 @@ Create a database called "Courses" with properties:
 - Grade (fill in as you get it)
 
 Each course is a page containing:
-- **Course info**: Syllabus link, office hours, grading breakdown
+- **Course info**: Syllabus link, office [hours](/tools/hours-tracker/), grading breakdown
 - **Weekly notes**: Dated lecture notes
 - **Key concepts**: A running glossary of important terms
 - **Resources**: Required readings, useful links

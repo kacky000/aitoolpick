@@ -81,7 +81,7 @@ For a head-to-head comparison of these two, see our detailed [Notion vs Obsidian
 
 ### Evernote — Best for Web Clipping and Quick Capture
 
-Evernote was the original note-taking app, and while it has lost market share to Notion and Obsidian, it still does certain things better than anyone else.
+Evernote was the original note-taking app, and while it has lost market share to [Notion](/tools/notion/) and Obsidian, it still does certain things better than anyone else.
 
 **Strengths:**
 - Web Clipper is the best in the business — save full articles, simplified versions, or selections
@@ -91,7 +91,7 @@ Evernote was the original note-taking app, and while it has lost market share to
 - Quick capture is frictionless — open the app, type, done
 
 **Weaknesses:**
-- The interface feels dated compared to Notion and Obsidian
+- The interface feels dated compared to [Notion](/tools/notion/) and Obsidian
 - Free plan is severely limited (1 device, 60 MB uploads/month)
 - Pricing increased significantly — Personal plan is $14.99/month
 - No bidirectional linking or knowledge graph features
@@ -123,7 +123,7 @@ Apple Notes is the most underrated note-taking app available. It is free, pre-in
 
 **Pricing:** Free.
 
-**Choose Apple Notes if:** You use Apple devices, want zero setup, and your notes are relatively simple.
+**Choose [Apple Notes](/tools/apple-notes/) if:** You use Apple devices, want zero setup, and your notes are relatively simple.
 
 ## Decision Matrix
 

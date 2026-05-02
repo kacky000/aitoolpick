@@ -132,4 +132,4 @@ Yes. Eligible nonprofits get 85% off the Pro plan. Apply through Slack's nonprof
 Yes. Upgrades are prorated. Downgrades take effect at the next billing cycle.
 
 ### Is Slack AI worth the extra $10/user/month?
-For teams that spend significant time searching through Slack history, the AI summaries can save hours weekly. Try the free trial before committing.
+For teams that spend significant time searching through Slack history, the AI summaries can save [hours](/tools/hours-tracker/) weekly. Try the free trial before committing.

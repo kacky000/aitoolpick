@@ -120,7 +120,7 @@ Whatever your reason, here are the 7 best Notion alternatives worth considering 
 **Why switch**: If Notion's flexibility is overkill and you just want drag-and-drop Kanban boards, Trello's simplicity is its superpower.
 
 **Key advantages over Notion**:
-- Dead simple to learn (minutes, not hours)
+- Dead simple to learn (minutes, not [hours](/tools/hours-tracker/))
 - Best-in-class Kanban experience
 - Power-Ups ecosystem for extending functionality
 - Excellent mobile app

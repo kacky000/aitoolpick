@@ -36,7 +36,7 @@ Filters let you create custom views using query syntax. Want to see all high-pri
 
 ### Cross-Platform Sync
 
-Todoist syncs near-instantly across all platforms. Changes on your phone appear on desktop within seconds. The apps feel native on every platform rather than being web wrappers — the macOS app integrates with system notifications, widgets, and Shortcuts.
+Todoist syncs near-[instantly](/tools/instantly/) across all platforms. Changes on your phone appear on desktop within seconds. The apps feel native on every platform rather than being web wrappers — the macOS app integrates with system notifications, widgets, and Shortcuts.
 
 ### Todoist AI Assistant
 
@@ -44,7 +44,7 @@ New in 2025-2026, the AI assistant helps break down complex tasks into subtasks,
 
 ### Integrations
 
-Todoist connects with 70+ tools including Google Calendar, Slack, Zapier, and IFTTT. The Google Calendar two-way sync is particularly useful — tasks with due dates appear as calendar events and vice versa.
+Todoist connects with 70+ tools including Google Calendar, Slack, [Zapier](/tools/zapier/), and IFTTT. The Google Calendar two-way sync is particularly useful — tasks with due dates appear as calendar events and vice versa.
 
 ## Pros
 
@@ -56,7 +56,7 @@ Todoist connects with 70+ tools including Google Calendar, Slack, Zapier, and IF
 
 ## Cons
 
-- **No built-in calendar view**: You need Pro and Google Calendar integration for calendar visualization
+- **No built-in calendar view**: You need Pro and [Google Calendar](/tools/google-calendar/) integration for calendar visualization
 - **Limited project views**: No kanban, Gantt, or timeline views (just list)
 - **Basic free plan**: 5 active projects is restrictive
 - **No time tracking**: You'll need a separate tool like [Toggl Track](/tools/toggl-track/) or [Clockify](/tools/clockify/)

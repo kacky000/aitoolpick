@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 Looking for the best ai tools for designers? We tested and compared the top options available in 2026, evaluating features, pricing, ease of use, and real-world performance.
 
-AI isn't replacing designers — it's eliminating the tedious parts of the job. Background removal that used to take 10 minutes now takes 2 seconds. Generating 20 layout variations for A/B testing happens in minutes instead of hours. Writing microcopy for 50 UI states no longer requires a copywriter.
+AI isn't replacing designers — it's eliminating the tedious parts of the job. Background removal that used to take 10 minutes now takes 2 seconds. Generating 20 layout variations for A/B testing happens in minutes instead of [hours](/tools/hours-tracker/). Writing microcopy for 50 UI states no longer requires a copywriter.
 
 Here are the AI tools that actually matter for designers in 2026, organized by workflow stage.
 
@@ -22,7 +22,7 @@ Here are the AI tools that actually matter for designers in 2026, organized by w
 | Background removal | Remove.bg / [Canva](/tools/canva/) | Free – $15/mo |
 | AI copywriting for UI | [Claude](/tools/claude/) | Free – $20/mo |
 | Design-to-code | [Figma](/tools/figma/) Dev Mode | $15/mo |
-| Stock photo alternative | Adobe Firefly | Included with CC |
+| Stock photo alternative | [Adobe Firefly](/tools/adobe-firefly/) | Included with CC |
 
 ## 1. Figma — AI-Powered UI/UX Design
 

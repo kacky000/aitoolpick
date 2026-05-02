@@ -18,7 +18,7 @@ ClickUp and Jira are both powerful [project management](/category/project-manage
 | **Free Plan** | Yes (100MB storage) | Yes (10 users) |
 | **Best For** | All team types | Software development |
 | **Views** | 15+ (Board, List, Gantt, etc.) | Board, Timeline, Calendar |
-| **Built-in Docs** | ✅ | ❌ (needs Confluence) |
+| **Built-in Docs** | ✅ | ❌ (needs [Confluence](/tools/confluence/)) |
 | **Time Tracking** | ✅ Built-in | ❌ (needs plugin) |
 | **Sprints** | ✅ | ✅ (native) |
 | **Git Integration** | Basic | Deep (Bitbucket, [GitHub](/tools/github/)) |
@@ -84,7 +84,7 @@ ClickUp is cheaper at every tier, and the gap widens when you factor in Confluen
 - Your team is primarily software development
 - You need deep Git integration and CI/CD connections
 - Sprint management and velocity tracking are critical
-- You're already invested in the Atlassian ecosystem (Confluence, Bitbucket)
+- You're already invested in the Atlassian ecosystem (Confluence, [Bitbucket](/tools/bitbucket/))
 
 ## The Verdict
 

@@ -25,7 +25,7 @@ OpenAI's multimodal model handles text, images, audio, and video. It's fast, cap
 Build your own AI assistants with custom instructions, knowledge files, and API integrations. The GPT Store has thousands of community-created GPTs for everything from coding to cooking.
 
 ### Canvas
-An interactive workspace for writing and coding projects. Think Google Docs meets AI — you can highlight sections and ask ChatGPT to edit specific parts.
+An interactive workspace for writing and coding projects. Think [Google Docs](/tools/google-docs/) meets AI — you can highlight sections and ask ChatGPT to edit specific parts.
 
 ### Image Generation (DALL-E 3)
 Generate images directly in chat. Quality has improved significantly, though it still struggles with text in images and precise layouts.

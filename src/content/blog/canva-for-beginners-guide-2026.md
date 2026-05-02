@@ -25,7 +25,7 @@ Canva Pro ($14.99/month for one person, $29.99/month for up to 5 users) adds:
 
 - 140M+ premium stock photos, videos, and graphics
 - Background Remover (one-click)
-- Brand Kit (logo, colors, fonts locked to your brand)
+- Brand [Kit](/tools/kit/) (logo, colors, fonts locked to your brand)
 - Magic Resize (resize a design to 40+ formats [instantly](/tools/instantly/))
 - Unlimited AI credits (Magic Design, Magic Write, Magic Media)
 - 1 TB cloud storage
@@ -134,7 +134,7 @@ With Canva Pro, Magic Resize converts any design to any platform automatically.
 
 **Using only free stock photos.** If you are posting a lot of content, the same free photos appear everywhere. Either upload your own or upgrade to Pro for premium stock.
 
-**Ignoring alignment.** Use the align tools (center, left, right, distribute) to make designs look polished.
+**Ignoring alignment.** Use the align tools (center, left, right, distribute) to [make](/tools/make/) designs look polished.
 
 ## Canva vs. Alternatives: When to Consider Switching
 

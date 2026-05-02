@@ -72,7 +72,7 @@ Paste survey responses, NPS comments, or support tickets and ask Claude to:
 - Generate a structured report for stakeholders
 - Flag urgent issues that need immediate attention
 
-This reduces hours of manual tagging to minutes.
+This reduces [hours](/tools/hours-tracker/) of manual tagging to minutes.
 
 ## Claude Plans for Business
 

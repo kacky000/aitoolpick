@@ -46,7 +46,7 @@ Free tiers are surprisingly capable in 2026, but paid plans unlock meaningful fe
 | **Max participants (paid)** | 300-1,000 | 150-500 | 300-1,000 | N/A (async) |
 | **Cloud recording** | Pro and above | Business Starter and above | Essentials and above | All plans (core feature) |
 | **E2E encryption** | Available (optional) | Available | Available | N/A |
-| **Calendar integration** | Google, Outlook, others | Google Calendar (native) | Outlook (native) | Google, Outlook |
+| **Calendar integration** | Google, Outlook, others | [Google Calendar](/tools/google-calendar/) (native) | Outlook (native) | Google, Outlook |
 | **Breakout rooms** | Yes | Yes | Yes | No |
 | **Live transcription** | Yes (paid) | Yes (paid) | Yes (paid) | Yes (all plans) |
 
@@ -60,19 +60,19 @@ Work through these questions in order. Each one eliminates options.
 
 If your primary use case is replacing meetings — sending screen recordings, video updates, or walkthroughs that people watch on their own time — **Loom** is the right tool. It's not a video conferencing platform; it's an async video platform, and it's excellent at that specific job.
 
-If you need live, real-time meetings, continue to Question 2.
+If you need live, real-time meetings, [continue](/tools/continue/) to Question 2.
 
 ### Question 2: Which ecosystem does your team already use?
 
-- **Google Workspace** (Gmail, Google Docs, Google Calendar) → **Google Meet** is the path of least resistance. It's already in your calendar invites, already in your browser, and requires zero additional software.
+- **Google Workspace** (Gmail, [Google Docs](/tools/google-docs/), Google Calendar) → **Google Meet** is the path of least resistance. It's already in your calendar invites, already in your browser, and requires zero additional software.
 - **Microsoft 365** (Outlook, Word, Excel, SharePoint) → **Microsoft Teams** is pre-installed and deeply integrated. Calendar invites, file sharing, and chat all live in one place.
-- **Neither / Mixed** → Continue to Question 3.
+- **Neither / Mixed** → [Continue](/tools/continue/) to Question 3.
 
 ### Question 3: What's your primary meeting type?
 
-- **External meetings** (client calls, sales demos, interviews, webinars): **Zoom** remains the default. It has the highest brand recognition — "I'll send you a Zoom link" requires zero explanation. External participants don't need an account, the join flow is smooth, and the webinar features are best-in-class.
+- **External meetings** (client calls, sales demos, interviews, webinars): **[Zoom](/tools/zoom/)** remains the default. It has the highest brand recognition — "I'll send you a Zoom link" requires zero explanation. External participants don't need an account, the join flow is smooth, and the webinar features are best-in-class.
 - **Internal team meetings only**: **Microsoft Teams** at $4/user/month offers the best value for pure internal communication, especially with the integrated chat and file sharing.
-- **Mix of internal and external**: **Zoom** handles both well, though it's the most expensive option at scale.
+- **Mix of internal and external**: **[Zoom](/tools/zoom/)** handles both well, though it's the most expensive option at scale.
 
 ---
 
@@ -80,7 +80,7 @@ If you need live, real-time meetings, continue to Question 2.
 
 Video conferencing security is non-negotiable in 2026. Here are the key areas to evaluate:
 
-**End-to-end encryption (E2EE)**: All three live platforms offer E2EE, but implementation varies. Zoom's is opt-in and disables cloud recording. Google Meet's E2EE is available for Workspace users. Teams provides E2EE for 1:1 calls.
+**End-to-end encryption (E2EE)**: All three live platforms offer E2EE, but implementation varies. [Zoom](/tools/zoom-meetings/)'s is opt-in and disables cloud recording. Google Meet's E2EE is available for Workspace users. Teams provides E2EE for 1:1 calls.
 
 **Compliance**: If your industry requires HIPAA, SOC 2, or GDPR compliance, verify your chosen tool meets those standards — typically at the Business or Enterprise tier.
 

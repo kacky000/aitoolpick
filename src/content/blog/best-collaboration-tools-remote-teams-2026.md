@@ -78,7 +78,7 @@ Miro's infinite whiteboard enables brainstorming, planning, and workshopping as 
 
 ## 7. Google Workspace — Best for Document Collaboration
 
-Google Docs, Sheets, and Slides remain unmatched for real-time document collaboration. Multiple people editing the same document simultaneously with commenting and suggestion modes.
+Google Docs, Sheets, and [Slides](/tools/slides-com/) remain unmatched for real-time document collaboration. Multiple people editing the same document simultaneously with commenting and suggestion modes.
 
 **Pricing**: Free (personal) / $7.20/user/mo (Business)
 
@@ -153,7 +153,7 @@ You don't need all 10 tools. Here's a lean stack for different team sizes:
 
 ## Final Thoughts
 
-The right collaboration tools make remote work feel effortless. The wrong ones create friction and frustration. Start with the essentials — communication, project management, and documentation — and add specialized tools as your team's needs grow.
+The right collaboration tools [make](/tools/make/) remote work feel effortless. The wrong ones create friction and frustration. Start with the essentials — communication, project management, and documentation — and add specialized tools as your team's needs grow.
 
 For more tool recommendations, check out our [best project management tools guide](/blog/best-project-management-tools-2026/) or explore the [best free AI tools](/blog/best-free-ai-tools-2026/) that can boost your remote team's productivity.
 

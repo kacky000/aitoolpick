@@ -22,7 +22,7 @@ This fundamental difference affects everything — from the interface to the int
 
 ### Issue & Task Management
 
-Linear's issue tracking is purpose-built for development. Issues have statuses (Backlog, Todo, In Progress, Done, Canceled), priorities, labels, and cycle assignments. The keyboard-driven interface lets developers create, assign, and triage issues without touching the mouse. Sub-issues, relations, and duplicate detection keep backlogs clean.
+[Linear](/tools/linear-app/)'s issue tracking is purpose-built for development. Issues have statuses (Backlog, Todo, In Progress, Done, Canceled), priorities, labels, and cycle assignments. The keyboard-driven interface lets developers create, assign, and triage issues without touching the mouse. Sub-issues, relations, and duplicate detection keep backlogs clean.
 
 Monday.com uses a board-based system where tasks live in groups with customizable columns. You can add status, people, date, timeline, numbers, formulas, and 30+ column types. It is incredibly flexible but requires manual setup for development-specific workflows.
 
@@ -95,7 +95,7 @@ For more on what Linear offers, see our [Linear review for 2026](/blog/linear-re
 
 - **Software development teams** that want a fast, opinionated issue tracker
 - **Startups** building product with small, focused engineering teams
-- **Teams using GitHub/GitLab** that want deep, native integration
+- **Teams using [GitHub](/tools/github/)/GitLab** that want deep, native integration
 - **Developers** who prefer keyboard-driven workflows
 - **Engineering managers** who want clean cycle metrics and backlog management
 - **Teams frustrated with [Jira](/tools/jira/)** who want something faster and simpler

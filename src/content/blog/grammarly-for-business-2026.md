@@ -75,7 +75,7 @@ The style guide alone is worth the upgrade for teams. Without it, you're relying
 
 ### Build Your Style Guide First
 
-Before rolling out Grammarly to your team, spend a few hours in the style guide settings. Add:
+Before rolling out Grammarly to your team, spend a few [hours](/tools/hours-tracker/) in the style guide settings. Add:
 
 - **Banned words**: competitors' names, internal jargon you want to avoid externally, outdated product names
 - **Preferred terms**: the correct version of any word your team gets wrong (e.g., "login" vs "log in")
@@ -109,7 +109,7 @@ Start with one team (customer support or marketing works well). Collect feedback
 
 Grammarly for Business isn't the only option. Before committing, consider:
 
-**ProWritingAid** — More depth for professional writers; lower cost than Grammarly Business. Less polished interface.
+**ProWritingAid** — More depth for professional writers; lower cost than [Grammarly Business](/tools/grammarly-business/). Less polished interface.
 
 **Microsoft Editor** — Included in Microsoft 365. Weaker than Grammarly for tone and style, but zero incremental cost if you're already in the Microsoft ecosystem.
 

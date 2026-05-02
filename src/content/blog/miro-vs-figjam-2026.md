@@ -14,11 +14,11 @@ Online whiteboards have become essential for remote and hybrid teams. Miro and F
 |---------|------|--------|
 | **Starting Price** | Free (3 boards) | Free for all [Figma](/tools/figma/) users |
 | **Paid Plans** | $8–$20/user/mo | $3/editor/mo (standalone) |
-| **Best For** | Workshops, strategy, all teams | Design teams on Figma |
+| **Best For** | Workshops, strategy, all teams | Design teams on [Figma](/tools/figma/) |
 | **Canvas Size** | Infinite | Infinite |
 | **Templates** | 2,500+ community templates | 300+ templates |
 | **Widgets** | ✅ Extensive marketplace | ✅ Built-in + community |
-| **AI Features** | Miro AI (summarize, generate) | Figma AI (auto-layout, generate) |
+| **AI Features** | Miro AI (summarize, generate) | [Figma](/tools/figma/) AI (auto-layout, generate) |
 | **Voting/Timer** | ✅ Native | ✅ Via widgets |
 | **Video Chat** | ✅ Built-in | ❌ (use Figma's multiplayer cursors) |
 

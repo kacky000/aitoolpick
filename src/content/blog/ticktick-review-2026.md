@@ -47,13 +47,13 @@ It's not as feature-rich as dedicated habit apps, but it's good enough to elimin
 
 ### Pomodoro Timer
 
-The focus timer integrates directly with tasks. Select a task, start a Pomodoro session, and TickTick logs how much time you've spent. Premium users get detailed focus statistics showing productive hours by day, week, and month.
+The focus timer integrates directly with tasks. Select a task, start a Pomodoro session, and TickTick logs how much time you've spent. Premium users get detailed focus statistics showing productive [hours](/tools/hours-tracker/) by day, week, and month.
 
 ### Task Management
 
 Core task management is solid:
 
-- Natural language input (less advanced than Todoist but functional)
+- Natural language input (less advanced than [Todoist](/tools/todoist/) but functional)
 - Subtasks, priorities, and tags
 - Kanban board view
 - Smart lists with auto-grouping
@@ -67,7 +67,7 @@ TickTick supports shared lists and task assignment, though it's designed primari
 ## Pros
 
 - **All-in-one value**: Calendar + tasks + habits + timer in one app for $3.99
-- **Built-in calendar**: No need for Google Calendar integration
+- **Built-in calendar**: No need for [Google Calendar](/tools/google-calendar/) integration
 - **Affordable**: Cheapest full-featured task manager available
 - **Clean interface**: Well-designed without feeling cluttered despite feature density
 - **Cross-platform**: Available on iOS, Android, Mac, Windows, Web, Apple Watch
@@ -75,7 +75,7 @@ TickTick supports shared lists and task assignment, though it's designed primari
 
 ## Cons
 
-- **Smaller ecosystem**: Fewer integrations than Todoist (no Zapier triggers)
+- **Smaller ecosystem**: Fewer integrations than Todoist (no [Zapier](/tools/zapier/) triggers)
 - **Some features need Premium**: Habit tracker and calendar are limited on free
 - **Occasional sync delays**: Usually seconds, but noticeable on rare occasions
 - **Less refined natural language**: Works for basics but struggles with complex queries

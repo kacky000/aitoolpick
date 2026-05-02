@@ -88,7 +88,7 @@ Monday.com's kanban view is one of many views in a comprehensive work management
 
 **Choose ClickUp** if you want the most powerful customization and many view types.
 
-**Choose Linear** if you're an engineering or product team that wants speed and GitHub integration.
+**Choose Linear** if you're an engineering or product team that wants speed and [GitHub](/tools/github/) integration.
 
 **Choose Monday.com** if you need enterprise-grade reporting and wide integrations.
 

@@ -46,7 +46,7 @@ The **Relation** property is key — it links each task to its parent project, e
 
 ## Step 3: Set Up Multiple Views
 
-Notion databases support multiple views of the same data. Create these views for your task database:
+[Notion databases](/tools/notion-database/) support multiple views of the same data. Create these views for your task database:
 
 **Kanban Board View** — drag-and-drop task management by status. Best for daily standup visibility.
 
@@ -110,7 +110,7 @@ Access templates from any new page by clicking "Templates" in the sidebar.
 | Feature | Notion | Asana | [Jira](/tools/jira/) |
 |---------|--------|-------|------|
 | Setup time | High | Low | Medium |
-| Documentation integration | Native | Requires add-ons | Confluence (extra cost) |
+| Documentation integration | Native | Requires add-ons | [Confluence](/tools/confluence/) (extra cost) |
 | Advanced reporting | Limited | Good | Excellent |
 | Price | Free–$20/user | Free–$25/user | Free–$17.60/user |
 | Best for | Small-medium teams, knowledge work | Any team size | Engineering teams |

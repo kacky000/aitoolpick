@@ -101,7 +101,7 @@ For a deeper dive into which plan makes sense for your situation, see our [Notio
 - Teams that need robust offline access
 - Users who want a simple, opinionated tool (Notion requires setup and customization)
 - Large enterprises with strict compliance needs (though the Enterprise plan addresses some of this)
-- People who just want to take quick notes (Apple Notes or Google Keep is faster)
+- People who just want to take quick notes ([Apple Notes](/tools/apple-notes/) or Google Keep is faster)
 
 ## How Notion Compares to Alternatives
 

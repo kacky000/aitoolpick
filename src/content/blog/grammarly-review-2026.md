@@ -27,7 +27,7 @@ Grammarly has been the default writing assistant for over a decade, but with [AI
 Grammarly's killer feature isn't its grammar engine — it's the distribution. The browser extension works in:
 
 - Gmail and Outlook
-- Google Docs and Microsoft Word
+- Google Docs and [Microsoft Word](/tools/microsoft-word/)
 - [Slack](/tools/slack/) and Teams messages
 - Social media posts
 - Any text field on any website

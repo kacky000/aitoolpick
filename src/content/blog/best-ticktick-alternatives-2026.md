@@ -72,7 +72,7 @@ Notion doesn't replace TickTick — it's a different kind of tool. But if you fe
 **What it has over TickTick:** Team collaboration, project-level organization, custom workflows  
 **What it lacks:** TickTick's simplicity and personal focus ([ClickUp](/tools/clickup/) can be overwhelming)
 
-**Choose ClickUp if** you're managing projects with a team, not just personal tasks.
+**Choose [ClickUp](/tools/clickup/) if** you're managing projects with a team, not just personal tasks.
 
 → [Full ClickUp Review](/blog/clickup-review-2026) | [ClickUp vs Asana](/blog/clickup-vs-asana-2026)
 
@@ -108,7 +108,7 @@ Microsoft To Do is dead simple and completely free. It syncs with Outlook tasks,
 | Todoist Pro | $48 | ❌ | ❌ | ❌ | ✅ |
 | Things 3 | $50 (one-time) | ✅ | ❌ | ❌ | ❌ |
 | Notion Plus | $120 | ❌ (separate) | ❌ | ❌ | ✅ |
-| ClickUp Unlimited | $84 | ✅ | ❌ | ❌ | ✅✅ |
+| [ClickUp](/tools/clickup/) Unlimited | $84 | ✅ | ❌ | ❌ | ✅✅ |
 | Microsoft To Do | $0 | ❌ | ❌ | ❌ | Basic |
 
 ## The Honest Take

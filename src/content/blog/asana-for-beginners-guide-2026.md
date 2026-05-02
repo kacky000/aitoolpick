@@ -33,7 +33,7 @@ For solo users, Asana's free plan is usable but it's somewhat overbuilt — [Tod
 - Comments
 - Custom fields (statuses, priority, etc.)
 
-**Sections**: Dividers inside projects to organize tasks by phase, category, or status. Sections are what make your project readable.
+**Sections**: Dividers inside projects to organize tasks by phase, category, or status. Sections are what [make](/tools/make/) your project readable.
 
 ## Setting Up Your First Project
 
@@ -139,7 +139,7 @@ Most individuals and small teams get significant value from the free plan before
 
 **Creating too many projects**: Every initiative becomes a project, and you end up with 40 projects nobody maintains. Consolidate: use sections within a project instead of separate projects for related work.
 
-**Not using due dates**: Asana without due dates is just a list. Due dates trigger the notification system, keep timelines visible, and make the Calendar and Timeline views useful.
+**Not using due dates**: Asana without due dates is just a list. Due dates trigger the notification system, keep timelines visible, and [make](/tools/make/) the Calendar and Timeline views useful.
 
 **Using Asana for personal task management on a team tool**: The overhead of formal projects and tasks doesn't make sense for quick personal to-dos. Keep Asana for collaborative, project-based work; use a lighter tool for personal quick captures.
 

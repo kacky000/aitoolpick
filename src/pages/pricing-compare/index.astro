@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+const catStats = categories.map((cat) => {
+  const catTools = tools.filter((t) => t.category.includes(cat.id));
+  const freeCount = catTools.filter((t) => t.pricing.free).length;
+  return { ...cat, toolCount: catTools.length, freeCount };
+}).filter((c) => c.toolCount >= 3).sort((a, b) => b.toolCount - a.toolCount);
+
+const pageTitle = `Pricing Comparison by Category — Compare ${tools.length} Tool Prices | AIToolPick`;
+const pageDescription = `Compare pricing across ${catStats.length} software categories. Find the cheapest tools, free alternatives, and best value for every use case.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Pricing Comparison' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Pricing Comparison by Category</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        Compare pricing across {catStats.length} categories. Click any category to see a detailed price breakdown.
+      </p>
+
+      <div class="pci-grid">
+        {catStats.map((cat) => (
+          <a href={`/pricing-compare/${cat.slug}/`} class="pci-card">
+            <span class="pci-icon">{cat.icon}</span>
+            <h2>{cat.name}</h2>
+            <div class="pci-meta">
+              <span>{cat.toolCount} tools</span>
+              <span class="pci-free">{cat.freeCount} free</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .pci-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .pci-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.25rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .pci-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+  }
+
+  .pci-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .pci-card h2 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem;
+  }
+
+  .pci-meta {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--gray-500);
+  }
+
+  .pci-free {
+    color: var(--success);
+    font-weight: 600;
+  }
+</style>

@@ -82,7 +82,7 @@ Monday's automation builder is powerful for creative workflows. Useful automatio
 
 **Approval Celebration:** When status changes to "Approved," send a congratulations notification to the team channel. (Small wins matter in creative work.)
 
-**Deadline Alerts:** 48 hours before a due date, notify the assigned person automatically.
+**Deadline Alerts:** 48 [hours](/tools/hours-tracker/) before a due date, notify the assigned person automatically.
 
 ## Managing Client Approvals in Monday
 

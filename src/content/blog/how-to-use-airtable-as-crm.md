@@ -82,7 +82,7 @@ Log every meaningful interaction here. Over time, this becomes a complete histor
 In your **Deals** table, create a **Kanban view** grouped by Stage. This gives you a visual pipeline that works like [Trello](/tools/trello/) — drag deals from column to column as they progress.
 
 Add these additional views:
-- **Closing This Month** — filter Close Date = This Month
+- **Closing This Month** — filter [Close](/tools/close/) Date = This Month
 - **High Value Deals** — filter Value > $[your threshold]
 - **My Deals** — filter Owner = Me
 
@@ -101,7 +101,7 @@ Airtable's built-in automation (free tier allows 100 automation runs/month) can 
 
 - **When Stage changes to "Customer" → Send a [Slack](/tools/slack/) notification** to your team
 - **When a new Contact is created → Send a welcome email** via Gmail
-- **When Close Date is tomorrow → Create a reminder record** in Activities
+- **When [Close](/tools/close/) Date is tomorrow → Create a reminder record** in Activities
 
 For more complex automation (email sequences, lead scoring), [Zapier connects Airtable to most CRM-adjacent tools](/blog/zapier-vs-make-automation-comparison).
 

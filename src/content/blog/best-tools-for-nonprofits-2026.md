@@ -49,9 +49,9 @@ Every nonprofit needs compelling visuals, and Canva makes design accessible:
 - **Social media templates**: Consistent branding across platforms
 - **Event materials**: Flyers, posters, and invitations
 - **Annual reports**: Professional layouts without a designer
-- **Brand kit**: Keep logos, colors, and fonts consistent
+- **Brand [kit](/tools/kit/)**: Keep logos, colors, and fonts consistent
 
-**Why nonprofits love it**: Canva for Nonprofits gives qualifying organizations free access to Canva Pro — including premium templates, brand kit, and background remover.
+**Why nonprofits love it**: Canva for Nonprofits gives qualifying organizations free access to Canva Pro — including premium templates, brand [kit](/tools/kit/), and background remover.
 
 [Canva free vs paid →](/blog/canva-free-vs-paid-2026)
 

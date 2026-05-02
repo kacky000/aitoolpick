@@ -46,7 +46,7 @@ AI picks from the same three fonts: Inter, Roboto, Open Sans. All fine fonts —
 - Inter/Roboto/Open Sans everywhere
 - Same font family for headings and body
 - Uniform size increments (16px → 24px → 32px)
-- line-height: 1.5 on everything
+- line-[height](/tools/height/): 1.5 on everything
 - Default letter-spacing on everything
 
 **What to do instead:**
@@ -54,7 +54,7 @@ AI picks from the same three fonts: Inter, Roboto, Open Sans. All fine fonts —
 - Use Noto Sans JP or BIZ UDGothic for Japanese
 - Different font families (or at least weights and spacing) for headings vs body
 - [Make](/tools/make/) hero titles dramatically larger — not incremental
-- Headings: line-height 1.1–1.3. Body: 1.6–1.8.
+- Headings: line-[height](/tools/height/) 1.1–1.3. Body: 1.6–1.8.
 - Tighten letter-spacing on large headings (-0.02em)
 
 ### 3. Layout
@@ -90,7 +90,7 @@ AI copy is vague, uses buzzwords, and avoids specifics. This is where text and d
 - Concrete verbs: calculate, compare, find, build, track
 - Japanese: 何ができるかを書く（「旅行費用を計算する」）
 - Specific CTAs: "Calculate your budget" / "Compare 3 tools side by side"
-- Specific headings: "What you can track" / "How it saves you 3 hours/week"
+- Specific headings: "What you can track" / "How it saves you 3 [hours](/tools/hours-tracker/)/week"
 - Subtitles: 1 sentence max. If you need more, it's body text.
 
 ### 5. Images & Icons
@@ -180,7 +180,7 @@ Overall score = average of all 6 category scores.
 - [ ] No AI buzzwords: unlock, empower, seamless, leverage, streamline, robust, cutting-edge, elevate, harness, delve
 - [ ] No "[X] を、もっと [Y] に" pattern (Japanese AI copy tell)
 - [ ] CTAs are specific ("Calculate your budget") not generic ("Learn more")
-- [ ] Section headings use concrete words, not abstract ones (Features → What you can track)
+- [ ] Section headings use concrete words, not [abstract](/tools/abstract-design/) ones (Features → What you can track)
 - [ ] Subtitles are 1 sentence max, not multi-sentence paragraphs
 
 ### 5. Images & Icons (5 checks)

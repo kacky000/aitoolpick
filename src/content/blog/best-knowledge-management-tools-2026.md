@@ -82,9 +82,9 @@ Tettra turns your team's frequently asked questions into a structured knowledge 
 
 **Best for:** Growing teams where the same questions keep getting asked across channels
 
-**Key feature:** Slack integration captures questions, suggests answers, and creates new knowledge base entries — all without leaving Slack.
+**Key feature:** [Slack](/tools/slack/) integration captures questions, suggests answers, and creates new knowledge base entries — all without leaving Slack.
 
-**Pricing note:** The free plan covers up to 10 users and includes Slack integration, making it a real option for small teams.
+**Pricing note:** The free plan covers up to 10 users and includes [Slack](/tools/slack/) integration, making it a real option for small teams.
 
 ## 7. GitBook — Best for Technical Documentation
 
@@ -122,7 +122,7 @@ Curious how these two compare head-to-head? Read our [Notion vs Obsidian compari
 
 ## Best for Developers
 
-**GitBook** for external documentation (API docs, developer portals) and **Obsidian** for personal developer notes. If your team uses GitHub, GitBook's Git Sync is a game-changer — docs live alongside code.
+**GitBook** for external documentation (API docs, developer portals) and **Obsidian** for personal developer notes. If your team uses [GitHub](/tools/github/), GitBook's Git Sync is a game-changer — docs live alongside code.
 
 ## How to Choose
 

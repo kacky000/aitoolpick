@@ -37,7 +37,7 @@ Obsidian is primarily a solo tool. While Obsidian Publish lets you share notes a
 Obsidian works 100% offline since your files are local. Notion requires an internet connection for most features, though it has improved offline support recently.
 
 ### Customization
-Obsidian's plugin ecosystem is extraordinary — over 1,500 community plugins for everything from Kanban boards to spaced repetition. You can make Obsidian do almost anything.
+Obsidian's plugin ecosystem is extraordinary — over 1,500 community plugins for everything from Kanban boards to spaced repetition. You can [make](/tools/make/) Obsidian do almost anything.
 
 Notion is customizable through its block system and database templates, but you can't extend its core functionality the way you can with Obsidian.
 

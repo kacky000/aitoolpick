@@ -14,7 +14,7 @@ We tested both platforms with real sales workflows to give you a clear-eyed comp
 
 ## Quick Comparison
 
-| Feature | Pipedrive | HubSpot |
+| Feature | [Pipedrive](/tools/pipedrive-crm/) | HubSpot |
 |---------|-----------|---------|
 | Best for | Sales-focused teams | Marketing + sales alignment |
 | Starting price | $14/user/month | Free CRM, paid from $15/month |
@@ -88,7 +88,7 @@ The free CRM is genuinely useful. Professional tier is where the automation and 
 
 **Winner: Pipedrive**
 
-Pipedrive can be set up and used productively within a few hours. The interface is intuitive, the pipeline is visual, and the learning curve is low. HubSpot's free CRM is also easy, but as you add hubs and features, configuration complexity grows significantly.
+Pipedrive can be set up and used productively within a few [hours](/tools/hours-tracker/). The interface is intuitive, the pipeline is visual, and the learning curve is low. HubSpot's free CRM is also easy, but as you add hubs and features, configuration complexity grows significantly.
 
 ### Pipeline Management
 

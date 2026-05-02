@@ -38,7 +38,7 @@ Claude's free tier gives you genuine access to the platform — enough to evalua
 **Limitations:**
 - No access to Claude Opus (most powerful model)
 - No extended thinking mode
-- Reduced availability during peak hours
+- Reduced availability during peak [hours](/tools/hours-tracker/)
 - Shorter effective context window
 - No Projects feature
 
@@ -69,7 +69,7 @@ Pro is Claude's core offering and where the platform genuinely shines. It unlock
 
 **2. Extended thinking.** Claude can "think" through problems step by step before responding. For math, logic, coding, and analysis, this dramatically improves accuracy and depth. It's one of Claude's genuine differentiators versus the competition.
 
-**3. 200K token context.** You can upload entire documents, codebases, or research papers and have meaningful, detailed conversations about them. This is roughly enough to process a full-length novel in a single conversation — significantly more than ChatGPT's 128K limit.
+**3. 200K token context.** You can upload entire documents, codebases, or research papers and have meaningful, detailed conversations about them. This is roughly enough to process a full-length novel in a single conversation — significantly more than [ChatGPT](/tools/chatgpt/)'s 128K limit.
 
 **Best for:** Writers, [developers](/best-for/developers/), researchers, analysts — anyone who uses AI daily and values quality over flash.
 
@@ -166,7 +166,7 @@ API access is separate from consumer plans. For personal or professional use (no
 Both charge $20/month for their core paid plans, but the value proposition differs:
 
 - **Claude Pro** excels at writing quality, 200K context, extended thinking, and document analysis
-- **ChatGPT Plus** leads with image generation (DALL-E), plugin ecosystem, voice mode, and multimodal features
+- **[ChatGPT](/tools/chatgpt/) Plus** leads with image generation (DALL-E), plugin ecosystem, voice mode, and multimodal features
 
 At the team level, Claude Team ($25/user/month annual) undercuts ChatGPT Team ($30/user/month monthly), though ChatGPT also offers $25/user on annual billing.
 

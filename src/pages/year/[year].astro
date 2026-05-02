@@ -1,0 +1,164 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+export function getStaticPaths() {
+  const yearMap = new Map<number, typeof tools>();
+  for (const tool of tools) {
+    const y = tool.yearFounded;
+    if (y && y >= 2000 && y <= 2026) {
+      if (!yearMap.has(y)) yearMap.set(y, []);
+      yearMap.get(y)!.push(tool);
+    }
+  }
+  return Array.from(yearMap.entries())
+    .filter(([, list]) => list.length >= 2)
+    .map(([year, list]) => ({
+      params: { year: String(year) },
+      props: { year, yearTools: list.sort((a, b) => b.rating - a.rating) },
+    }));
+}
+
+const { year, yearTools } = Astro.props;
+
+function formatPrice(pricing: Record<string, any>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+const freeCount = yearTools.filter((t) => t.pricing.free).length;
+const avgRating = (yearTools.reduce((sum, t) => sum + t.rating, 0) / yearTools.length).toFixed(1);
+
+const pageTitle = `Best Tools Founded in ${year} — ${yearTools.length} Products Reviewed`;
+const pageDescription = `Discover ${yearTools.length} tools and software founded in ${year}. ${freeCount} offer free plans. Average rating: ${avgRating}/5.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Tools Founded in ${year}`,
+  description: pageDescription,
+  numberOfItems: yearTools.length,
+  itemListElement: yearTools.slice(0, 20).map((tool, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'SoftwareApplication',
+      name: tool.name,
+      url: `https://aitoolpick.org/tools/${tool.slug}/`,
+    },
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'New Tools', href: '/new/' },
+        { label: `Founded in ${year}` },
+      ]} />
+
+      <div class="year-header">
+        <h1>Tools Founded in {year}</h1>
+        <p>{yearTools.length} tools launched in {year}. {freeCount} with free plans. Average rating: {avgRating}/5.</p>
+      </div>
+
+      <div class="year-stats">
+        <div class="year-stat"><span class="year-stat-num">{yearTools.length}</span><span>Tools</span></div>
+        <div class="year-stat"><span class="year-stat-num">{freeCount}</span><span>Free Plans</span></div>
+        <div class="year-stat"><span class="year-stat-num">{avgRating}</span><span>Avg Rating</span></div>
+      </div>
+
+      <div class="year-table-wrap">
+        <table class="year-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Tool</th>
+              <th>Category</th>
+              <th>Rating</th>
+              <th>Free?</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {yearTools.map((tool, i) => (
+              <tr>
+                <td class="year-rank">{i + 1}</td>
+                <td>
+                  <a href={`/tools/${tool.slug}/`}>{tool.name}</a>
+                </td>
+                <td class="year-cat">{tool.category[0].replace(/-/g, ' ')}</td>
+                <td class="year-rating">★ {tool.rating}</td>
+                <td class={tool.pricing.free ? 'year-yes' : 'year-no'}>{tool.pricing.free ? '✓' : '✗'}</td>
+                <td class="year-price">{formatPrice(tool.pricing)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="year-grid">
+        {yearTools.map((tool, i) => (
+          <a href={`/tools/${tool.slug}/`} class="year-card">
+            <div class="year-card-top">
+              <span class="year-card-rank">#{i + 1}</span>
+              {tool.icon && <img src={tool.icon} alt={tool.name} width="28" height="28" style="border-radius: 6px;" loading="lazy" />}
+              <h2>{tool.name}</h2>
+              <span class="year-card-rating">★ {tool.rating}</span>
+            </div>
+            <p>{tool.description.slice(0, 90)}{tool.description.length > 90 ? '...' : ''}</p>
+            <div class="year-card-footer">
+              <span class="year-card-price">{formatPrice(tool.pricing)}</span>
+              {tool.pricing.free && <span class="year-card-free">Free</span>}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .year-header { margin-bottom: 1.5rem; }
+  .year-header h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.4rem; }
+  .year-header p { color: var(--gray-600); }
+
+  .year-stats { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+  .year-stat { display: flex; flex-direction: column; align-items: center; padding: 0.8rem 1.2rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); }
+  .year-stat-num { font-size: 1.3rem; font-weight: 800; color: var(--primary-dark); }
+  .year-stat span:last-child { font-size: 0.75rem; color: var(--gray-500); }
+
+  .year-table-wrap { overflow-x: auto; border: 1px solid var(--gray-200); border-radius: var(--radius-lg); margin-bottom: 2.5rem; }
+  .year-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  .year-table th { background: var(--gray-50); padding: 0.7rem; text-align: left; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; color: var(--gray-600); border-bottom: 1px solid var(--gray-200); }
+  .year-table td { padding: 0.6rem 0.7rem; border-bottom: 1px solid var(--gray-100); }
+  .year-table a { font-weight: 600; color: var(--dark); text-decoration: none; }
+  .year-table a:hover { color: var(--primary-dark); }
+  .year-rank { font-weight: 700; color: var(--primary-dark); }
+  .year-cat { font-size: 0.78rem; color: var(--gray-500); text-transform: capitalize; }
+  .year-rating { color: var(--warning); font-weight: 600; }
+  .year-yes { color: var(--success); font-weight: 600; }
+  .year-no { color: var(--gray-400); }
+  .year-price { font-weight: 600; font-size: 0.82rem; }
+
+  .year-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+  .year-card { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); text-decoration: none; color: inherit; transition: border-color 0.15s, box-shadow 0.15s; }
+  .year-card:hover { border-color: var(--primary); box-shadow: var(--shadow-md); }
+  .year-card-top { display: flex; align-items: center; gap: 0.5rem; }
+  .year-card-rank { font-size: 0.7rem; font-weight: 800; color: var(--primary-dark); }
+  .year-card-top h2 { font-size: 0.88rem; font-weight: 700; margin: 0; }
+  .year-card-rating { margin-left: auto; font-size: 0.72rem; color: var(--warning); font-weight: 600; }
+  .year-card p { font-size: 0.78rem; color: var(--gray-600); line-height: 1.4; margin: 0; }
+  .year-card-footer { display: flex; gap: 0.5rem; align-items: center; margin-top: auto; }
+  .year-card-price { font-size: 0.75rem; font-weight: 600; color: var(--primary-dark); }
+  .year-card-free { font-size: 0.65rem; padding: 0.1rem 0.35rem; background: var(--success-light, #d1fae5); color: var(--success); border-radius: 6px; }
+
+  @media (max-width: 600px) { .year-grid { grid-template-columns: 1fr; } }
+</style>

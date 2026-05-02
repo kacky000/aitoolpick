@@ -144,7 +144,7 @@ Teams can feel overwhelming at first. The interface packs a lot of functionality
 
 For most teams already invested in Microsoft 365, **Teams is the practical choice** — you're likely already paying for it, and the integrated video conferencing alone justifies the switch.
 
-For everyone else — startups, agencies, tech teams, and organizations using Google Workspace — **Slack remains the gold standard** for team messaging. The superior UX, better integrations, and Slack Connect make it worth the premium.
+For everyone else — startups, agencies, tech teams, and organizations using Google Workspace — **Slack remains the gold standard** for team messaging. The superior UX, better integrations, and Slack Connect [make](/tools/make/) it worth the premium.
 
 Whichever you choose, pair it with the right [project management tool](/blog/best-free-project-management-tools-2026) to keep your team organized beyond just chat.
 

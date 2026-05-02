@@ -75,7 +75,7 @@ For bootstrapped startups, this difference matters.
 ### Monday.com: ~30 minutes to productive
 
 Monday wins on first impressions. The interface is immediately intuitive:
-- Color-coded statuses make boards visually scannable
+- Color-coded statuses [make](/tools/make/) boards visually scannable
 - Drag-and-drop everything
 - Templates for startups, software development, marketing, etc.
 - Non-technical team members "get it" without training
@@ -108,7 +108,7 @@ If your startup is all engineers, ClickUp's complexity is fine — they'll appre
 | Automations | ✅ Business plan | ✅ Standard plan |
 | AI features | ✅ ClickUp Brain | ✅ Monday AI |
 | [GitHub](/tools/github/) integration | ✅ | ✅ |
-| Slack integration | ✅ | ✅ |
+| [Slack](/tools/slack/) integration | ✅ | ✅ |
 
 ### ClickUp's Advantage: All-in-One
 
@@ -157,8 +157,8 @@ Both tools integrate with the startup stack:
 | Integration | ClickUp | Monday.com |
 |-------------|---------|-----------|
 | [GitHub](/tools/github/)/GitLab | ✅ | ✅ |
-| Slack | ✅ | ✅ |
-| Figma | ✅ | ✅ |
+| [Slack](/tools/slack/) | ✅ | ✅ |
+| [Figma](/tools/figma/) | ✅ | ✅ |
 | Google Workspace | ✅ | ✅ |
 | [Zapier](/tools/zapier/)/Make | ✅ | ✅ |
 | [HubSpot](/tools/hubspot/) | ✅ | ✅ |

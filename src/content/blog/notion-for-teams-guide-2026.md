@@ -31,7 +31,7 @@ Notion's most powerful team use case is building a **company wiki**. You can cre
 - **Product specs** linked directly to project tasks
 - **Meeting notes** with action items that become tasks
 
-Unlike Confluence, Notion wikis are genuinely pleasant to read and easy to update. The drag-and-drop editor and slash command interface mean team members actually maintain documentation instead of letting it rot.
+Unlike [Confluence](/tools/confluence/), Notion wikis are genuinely pleasant to read and easy to update. The drag-and-drop editor and slash command interface mean team members actually maintain documentation instead of letting it rot.
 
 ### Databases for Project Management
 
@@ -172,7 +172,7 @@ For teams that want docs + databases + AI in one place, Notion is hard to beat. 
 1. **Over-engineering the structure** — Start simple. Build more complexity only when you hit real friction.
 2. **No page ownership** — Assign every important page to a specific person.
 3. **Treating it like a file system** — Use databases and linked views instead of nested folders.
-4. **Skipping templates** — Build templates for recurring document types. It takes 30 minutes and saves hours every week.
+4. **Skipping templates** — Build templates for recurring document types. It takes 30 minutes and saves [hours](/tools/hours-tracker/) every week.
 5. **Not using the search bar** — Notion's search is fast and powerful. Train your team to search before asking on [Slack](/tools/slack/).
 
 ## Getting Started with Notion for Your Team

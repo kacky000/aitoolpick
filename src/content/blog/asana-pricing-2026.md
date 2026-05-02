@@ -60,7 +60,7 @@ The Starter plan is where Asana becomes a real team tool. It unlocks Timeline vi
 - **Timeline view** — Gantt-style chart with task dependencies
 - **Custom fields** — Add priority, status, cost, or any custom data to tasks
 - **Forms** — Create intake forms for requests and submissions
-- **Rules (basic)** — Automate routine actions (move task, assign, change status)
+- **Rules (basic)** — Automate [routine](/tools/routine/) actions (move task, assign, change status)
 - **Milestones** — Mark key deliverables and deadlines
 - **Start dates** — Plan task durations, not just deadlines
 - **Admin console** — Manage team settings and permissions
@@ -170,7 +170,7 @@ If you need SSO, SCIM, compliance certifications, or dedicated support, you'll n
 
 **Yes, if** you value clean UI, structured project management, and portfolio-level visibility. Asana's interface is the most intuitive in the category, and features like Portfolios and Workload are best-in-class.
 
-**No, if** you're on a tight budget and need maximum features per dollar. ClickUp offers more functionality at lower prices, though with a more complex interface.
+**No, if** you're on a tight budget and need maximum features per dollar. [ClickUp](/tools/clickup/) offers more functionality at lower prices, though with a more complex interface.
 
 Asana occupies the premium-but-polished position in project management. You're paying for simplicity, reliability, and an interface your team will actually enjoy using. For many teams, that's worth the premium.
 

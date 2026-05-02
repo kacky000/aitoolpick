@@ -25,7 +25,7 @@ If you just need "when X happens in App A, do Y in App B," almost any tool works
 If your workflows involve conditional logic, multiple branches, or data transformation, [Make](/tools/make/)'s visual scenario builder shines. You can see the entire flow and debug individual steps.
 
 ### Enterprise-Grade Automation
-**Best picks:** Workato, Tray.io, Microsoft Power Automate
+**Best picks:** Workato, Tray.io, [Microsoft Power Automate](/tools/power-automate/)
 
 Large organizations with compliance requirements, SSO needs, and hundreds of workflows should look at enterprise platforms. These cost significantly more but offer governance and audit features.
 
@@ -45,11 +45,11 @@ Automation tools charge differently, and costs can surprise you.
 
 The most powerful automation tool is useless if it doesn't connect to your apps.
 
-- **Zapier:** 6,000+ app integrations — the largest library by far
-- **Make:** 1,800+ integrations with deeper API access
+- **[Zapier](/tools/zapier/):** 6,000+ app integrations — the largest library by far
+- **[Make](/tools/make/):** 1,800+ integrations with deeper API access
 - **[n8n](/tools/n8n/):** 400+ built-in nodes plus custom API support
 
-If you use niche or industry-specific tools, check Zapier first. If you work primarily with popular SaaS apps, Make likely has everything you need at a lower price.
+If you use niche or industry-specific tools, check [Zapier](/tools/zapier/) first. If you work primarily with popular SaaS apps, Make likely has everything you need at a lower price.
 
 ## Step 4: Consider Your Technical Comfort
 
@@ -76,7 +76,7 @@ Make offers better error handling out of the [box](/tools/box/). Zapier has bett
 |---------------|------------|
 | Just getting started with automation | [Zapier](/tools/zapier) |
 | Budget-conscious with complex workflows | [Make](/tools/make) |
-| Developer wanting full control | n8n |
+| Developer wanting full control | [n8n](/tools/n8n/) |
 | Enterprise with compliance needs | Power Automate / Workato |
 | Already in Microsoft ecosystem | Power Automate |
 

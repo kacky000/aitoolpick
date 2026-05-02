@@ -64,7 +64,7 @@ Notion is not built for serious sprint management. The database system is powerf
 | Git integration | ✅ Deep | ❌ |
 | Documentation | ⚠️ Limited | ✅ Excellent |
 | Custom databases | ❌ | ✅ |
-| Wikis | ❌ (needs Confluence) | ✅ |
+| Wikis | ❌ (needs [Confluence](/tools/confluence/)) | ✅ |
 | AI writing assistant | ⚠️ Limited | ✅ Business+ |
 | Free plan | ✅ 10 users | ✅ Unlimited |
 | Mobile app | ✅ Good | ⚠️ Slow on large pages |
@@ -72,7 +72,7 @@ Notion is not built for serious sprint management. The database system is powerf
 ## Who Should Use Jira
 
 - **Engineering teams of 10+** running formal agile sprints
-- **Organizations already in the Atlassian ecosystem** (Confluence, Bitbucket, Statuspage)
+- **Organizations already in the Atlassian ecosystem** (Confluence, Bitbucket, [Statuspage](/tools/statuspage/))
 - **Regulated industries** needing audit logs and detailed reporting
 - **Teams with a dedicated Scrum Master or PM** who can manage Jira's complexity
 

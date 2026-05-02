@@ -9,7 +9,7 @@ GitHub Copilot was the first mainstream AI coding assistant, and it's still the 
 
 ## What Is GitHub Copilot?
 
-GitHub Copilot is an AI coding assistant that runs as an extension in VS Code, JetBrains IDEs, Neovim, and directly on GitHub.com. It offers code completions, chat, multi-file editing (Copilot Edits), and an Agent mode for autonomous coding tasks.
+[GitHub Copilot](/tools/github-copilot-x/) is an AI coding assistant that runs as an extension in VS Code, JetBrains IDEs, Neovim, and directly on GitHub.com. It offers code completions, chat, multi-file editing (Copilot Edits), and an Agent mode for autonomous coding tasks.
 
 ## Key Features
 
@@ -64,7 +64,7 @@ See our [complete GitHub Copilot pricing breakdown](/blog/github-copilot-pricing
 
 **Use Copilot if:**
 - You want AI completions in your existing editor without switching
-- You use JetBrains IDEs (where Cursor/Windsurf aren't available)
+- You use JetBrains IDEs (where [Cursor](/tools/cursor/)/Windsurf aren't available)
 - You want the cheapest paid option at $10/month
 - GitHub integration (PR reviews, issue triage) matters to your workflow
 - Your company already has a GitHub Enterprise agreement

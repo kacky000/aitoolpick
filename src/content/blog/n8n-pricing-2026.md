@@ -67,7 +67,7 @@ For most teams choosing Cloud Pro over Starter: the 15-workflow limit is the rea
 ## What You Should Actually Do
 
 **Start here:**
-1. Deploy n8n locally with Docker for free: `docker run -p 5678:5678 n8nio/n8n`
+1. Deploy n8n locally with [Docker](/tools/docker/) for free: `docker run -p 5678:5678 n8nio/n8n`
 2. Build your workflows in the free local environment
 3. If you like it, deploy to a $5-12/month VPS for production
 

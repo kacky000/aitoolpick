@@ -20,7 +20,7 @@ Writing product requirements documents is one of the most time-consuming parts o
 
 First, Claude's writing is cleaner and less "AI-sounding" than most alternatives. PRDs written with Claude assistance require less editing.
 
-Second, Claude can hold an entire product context in memory during a conversation — upload your existing specs, user research notes, and competitive analysis, then write a new PRD that's informed by all of it. For complex products, this saves hours.
+Second, Claude can hold an entire product context in memory during a conversation — upload your existing specs, user research notes, and competitive analysis, then write a new PRD that's informed by all of it. For complex products, this saves [hours](/tools/hours-tracker/).
 
 **Specific PM use cases:**
 - Write first drafts of PRDs from bullet-point outlines
@@ -116,8 +116,8 @@ You don't need all six of these. A practical starting PM AI stack:
 - Notion AI if already in Notion — included
 
 **PM at a larger company**:
-- Claude or ChatGPT for writing
-- Notion AI or Confluence AI (if using Atlassian)
+- Claude or [ChatGPT](/tools/chatgpt/) for writing
+- Notion AI or [Confluence](/tools/confluence/) AI (if using Atlassian)
 - Linear for engineering handoff
 - Grammarly for stakeholder communication
 

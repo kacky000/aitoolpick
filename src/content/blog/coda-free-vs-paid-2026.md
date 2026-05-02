@@ -7,7 +7,7 @@ heroImage: "/thumbs/coda-free-vs-paid-2026.jpg"
 lastModified: "2026-05-01"
 ---
 
-**Coda** is a document platform that combines docs, databases, and automation in one tool. Its free vs paid split is one of the more nuanced in the productivity space — the free tier is generous but has a specific limitation that pushes many teams to upgrade sooner than expected.
+**[Coda](/tools/notion-alternative-coda/)** is a document platform that combines docs, databases, and automation in one tool. Its free vs paid split is one of the more nuanced in the productivity space — the free tier is generous but has a specific limitation that pushes many teams to upgrade sooner than expected.
 
 ## Coda Plans Overview
 
@@ -40,7 +40,7 @@ Free also restricts:
 
 ## When You'll Hit the Free Tier Limit
 
-The 1,000-object limit sounds abstract. Here's when it matters in practice:
+The 1,000-object limit sounds [abstract](/tools/abstract-design/). Here's when it matters in practice:
 
 | Use Case | Objects Used | Hits Limit? |
 |----------|-------------|-------------|

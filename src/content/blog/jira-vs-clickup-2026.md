@@ -22,7 +22,7 @@ If you're choosing between them, this guide breaks down exactly when each one wi
 | **Paid from** | $7.75/user/month | $7/user/month |
 | **Agile support** | Excellent (native) | Good (with setup) |
 | **Non-technical users** | Difficult | Manageable |
-| **Docs feature** | Confluence (separate) | Built-in |
+| **Docs feature** | [Confluence](/tools/confluence/) (separate) | Built-in |
 | **Customization** | Deep but complex | Deep and accessible |
 
 ## What Is Jira?
@@ -31,7 +31,7 @@ Jira is Atlassian's purpose-built issue tracking and [project management](/categ
 
 **Jira is ideal for:**
 - Engineering and QA teams running Agile sprints
-- Organizations using Atlassian's ecosystem (Confluence, Bitbucket, PagerDuty)
+- Organizations using Atlassian's ecosystem (Confluence, [Bitbucket](/tools/bitbucket/), PagerDuty)
 - Teams that need detailed velocity and burndown reporting
 - DevOps pipelines with CI/CD integrations
 

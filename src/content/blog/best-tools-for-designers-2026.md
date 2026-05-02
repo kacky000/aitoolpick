@@ -23,7 +23,7 @@ Figma dominates collaborative interface design. If you work with developers, the
 
 ### Canva — Best for Marketing Design
 - **Price:** Free / $15/user/month (Pro)
-- **Why designers love it:** 500K+ templates, drag-and-drop simplicity, Brand Kit, Magic Resize
+- **Why designers love it:** 500K+ templates, drag-and-drop simplicity, Brand [Kit](/tools/kit/), Magic Resize
 - **Best for:** Social media managers, marketers, non-designers who need quality output
 
 Canva won't replace Figma for product design, but for marketing materials, presentations, and social posts, it's unbeatable.

@@ -52,8 +52,8 @@ For writers actively trying to improve their [craft](/tools/craft/), ProWritingA
 
 Grammarly integrates with essentially everything:
 - Gmail, Outlook
-- Google Docs
-- Microsoft Word
+- [Google Docs](/tools/google-docs/)
+- [Microsoft Word](/tools/microsoft-word/)
 - Chrome, Firefox, Edge, Safari (browser extension)
 - Slack, [Notion](/tools/notion/), LinkedIn
 - Desktop app for macOS and Windows
@@ -61,7 +61,7 @@ Grammarly integrates with essentially everything:
 ProWritingAid integrates well but with a narrower range:
 - Microsoft Word and Outlook (native add-in)
 - Google Docs
-- Scrivener (popular with fiction writers)
+- [Scrivener](/tools/scrivener/) (popular with fiction writers)
 - Chrome and Firefox extensions
 
 If you need AI writing assistance everywhere — including [Slack](/tools/slack/) messages, browser forms, and social media — Grammarly is more comprehensive. ProWritingAid is better when your writing happens in a dedicated tool like Word or Scrivener.

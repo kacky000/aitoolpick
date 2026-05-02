@@ -6,7 +6,7 @@ tags: ["zoom", "review", "video-conferencing", "remote-work"]
 heroImage: "/thumbs/zoom-review-2026.jpg"
 lastModified: "2026-04-26"
 ---
-**Zoom** is a popular software tool used by individuals and teams for productivity and collaboration. In this review, we evaluate its features, pricing, pros, cons, and alternatives for 2026.
+**[Zoom](/tools/zoom-meetings/)** is a popular software tool used by individuals and teams for productivity and collaboration. In this review, we evaluate its features, pricing, pros, cons, and alternatives for 2026.
 
 Zoom became a household name in 2020 and has been the default [video conferencing](/category/video-conferencing/) tool for many companies ever since. But the competition has caught up fast. Microsoft Teams now ships bundled with Microsoft 365, Google Meet has matured significantly, and a new wave of AI-first meeting tools is pressuring the category.
 
@@ -36,7 +36,7 @@ Compared to [Microsoft Teams](/tools/microsoft-teams/) (bundled with $12.50/user
 
 **Webinars and large events.** Zoom Events and Zoom Webinars remain the gold standard for external-facing events up to 10,000 attendees. The attendee experience, registration workflows, and monetization features are more mature than competitors.
 
-**AI Companion 2.0.** Zoom's AI assistant has improved substantially since launch. It now generates meeting summaries, action items, follow-up emails, and can answer questions about past meetings. Crucially, AI Companion is included in paid plans at no extra charge — Microsoft charges $30/user/month for Copilot in Teams, and Gemini in Google Meet is limited to higher-tier plans.
+**AI Companion 2.0.** Zoom's AI assistant has improved substantially since launch. It now generates meeting summaries, action items, follow-up emails, and can answer questions about past meetings. Crucially, AI Companion is included in paid plans at no extra charge — Microsoft charges $30/user/month for Copilot in Teams, and Gemini in [Google Meet](/tools/google-meet/) is limited to higher-tier plans.
 
 **Meeting features.** Breakout rooms, polling, Q&A, immersive view, and studio effects remain more polished than competing products.
 

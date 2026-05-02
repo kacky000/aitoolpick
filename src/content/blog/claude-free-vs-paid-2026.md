@@ -15,7 +15,7 @@ Claude by Anthropic has quickly become one of the most popular AI assistants alo
 The free tier gives you access to Claude's core capabilities:
 
 - **Model access**: Claude 3.5 Sonnet (not the most powerful model)
-- **Daily message limit**: Roughly 20-30 messages during peak hours, more during off-peak
+- **Daily message limit**: Roughly 20-30 messages during peak [hours](/tools/hours-tracker/), more during off-peak
 - **Context window**: Standard context window
 - **File uploads**: Limited file uploads and analysis
 - **Basic features**: Text generation, coding help, writing assistance, and Q&A

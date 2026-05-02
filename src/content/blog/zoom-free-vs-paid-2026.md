@@ -6,7 +6,7 @@ tags: ["zoom", "free-vs-paid", "video-conferencing", "remote-work"]
 heroImage: "/thumbs/zoom-free-vs-paid-2026.jpg"
 lastModified: "2026-04-26"
 ---
-**Zoom Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
+**[Zoom](/tools/zoom-meetings/) Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
 Zoom's free plan is famous for one thing: the 40-minute cutoff on group calls. But beyond that, most people aren't sure what they're actually missing by staying on the free tier — or whether the $13.32/month Pro upgrade is worth it.
 
@@ -17,7 +17,7 @@ Here is the real comparison.
 | Feature | Free | Pro | Business |
 |---------|------|-----|---------|
 | 1:1 meetings | Unlimited | Unlimited | Unlimited |
-| Group meeting limit | 40 minutes | 30 hours | 30 hours |
+| Group meeting limit | 40 minutes | 30 [hours](/tools/hours-tracker/) | 30 hours |
 | Participants | 100 | 100 | 300 |
 | Cloud recording | No | 5 GB | 5 GB |
 | Local recording | Yes | Yes | Yes |
@@ -66,7 +66,7 @@ Before upgrading, consider whether Zoom is the right tool:
 
 | Tool | Free Limit | Notes |
 |------|-----------|-------|
-| Google Meet | 60 minutes (with Google account) | Included in free Google accounts |
+| [Google Meet](/tools/google-meet/) | 60 minutes (with Google account) | Included in free Google accounts |
 | [Microsoft Teams](/tools/microsoft-teams/) | Unlimited (basic) | Included in free Microsoft accounts |
 | [Discord](/tools/discord/) | Unlimited | Better for casual/community calls |
 | Jitsi Meet | Unlimited | Open source, no account required |

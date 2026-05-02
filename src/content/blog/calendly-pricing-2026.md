@@ -109,7 +109,7 @@ Annual billing is clearly better if you plan to use Calendly long-term. The brea
 | **Calendly** | 1 event type | $10/month | Most polished |
 | **[Cal.com](/tools/cal-com/)** | Unlimited (open-source) | $12/month (teams) | Self-hostable |
 | **TidyCal** | Limited | $29 one-time lifetime | Lifetime deal |
-| **Google Calendar** | Built-in | Free | No booking pages |
+| **[Google Calendar](/tools/google-calendar/)** | Built-in | Free | No booking pages |
 | **[Acuity Scheduling](/tools/acuity-scheduling/)** | No free tier | $16/month | Better for services |
 
 [See full comparison →](/blog/best-calendly-alternatives-2026)

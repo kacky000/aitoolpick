@@ -46,7 +46,7 @@ GitHub is replacing "premium requests" with **AI Credits**. The plan prices stay
 
 ### Free ($0/month)
 
-GitHub Copilot Free gives everyone a taste:
+[GitHub Copilot](/tools/github-copilot-x/) Free gives everyone a taste:
 - 2,000 code completions per month
 - 50 chat requests per month (including Copilot Edits)
 - Limited model selection

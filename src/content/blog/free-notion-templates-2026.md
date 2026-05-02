@@ -159,6 +159,6 @@ Track recurring SaaS and subscription costs:
 
 ## The Bottom Line
 
-The right Notion template eliminates hours of setup and gives you a proven structure to start from. The categories above cover the most common use cases — pick the one closest to your problem, duplicate it into your workspace, and adapt it to fit.
+The right Notion template eliminates [hours](/tools/hours-tracker/) of setup and gives you a proven structure to start from. The categories above cover the most common use cases — pick the one closest to your problem, duplicate it into your workspace, and adapt it to fit.
 
 **Already using Notion and want to level up?** [See how Notion compares to other tools →](/tools/notion)

@@ -26,7 +26,7 @@ The right choice depends on what you're actually doing with your data.
 
 **You're collaborating on live data with many editors.** Google Sheets handles simultaneous multi-user editing extremely well. It's real-time and free.
 
-**You need to connect to other Google Workspace tools.** Google Sheets integrates natively with Google Forms, Looker Studio (for dashboards), and Apps Script (for automation). If your organization lives in Google Workspace, Sheets is the natural choice.
+**You need to connect to other Google Workspace tools.** Google Sheets integrates natively with Google Forms, [Looker Studio](/tools/looker-studio/) (for dashboards), and Apps Script (for automation). If your organization lives in Google Workspace, Sheets is the natural choice.
 
 **You're working with free tools.** Google Sheets is free for individuals and Google Workspace users. Airtable's free plan is limited to 1,000 records per base.
 

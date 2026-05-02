@@ -44,7 +44,7 @@ Canva's AI features let you generate design suggestions, resize graphics for dif
 
 **Pricing:** Free version with limited features; Canva Pro at $15/month or $180/year.
 
-**Best for small business:** Social media graphics, email headers, product mockups, presentation slides, and printed materials. Canva AI reduces design time from hours to minutes.
+**Best for small business:** Social media graphics, email headers, product mockups, presentation [slides](/tools/slides-com/), and printed materials. Canva AI reduces design time from hours to minutes.
 
 ## 5. Zapier — Automate Repetitive Tasks Between Apps
 

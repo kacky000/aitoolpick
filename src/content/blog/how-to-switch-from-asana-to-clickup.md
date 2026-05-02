@@ -14,7 +14,7 @@ Before diving into the how, here's why teams typically [make](/tools/make/) this
 
 - **Price:** ClickUp Unlimited ($7/user/mo) vs Asana Starter ($10.99/user/mo)
 - **Features:** ClickUp includes docs, whiteboards, [time tracking](/category/time-tracking/), and goals at lower tiers
-- **Consolidation:** Replace Asana + Google Docs + Toggl with one tool
+- **Consolidation:** Replace Asana + [Google Docs](/tools/google-docs/) + Toggl with one tool
 - **Free plan:** ClickUp's free plan is more generous
 
 → [Full ClickUp vs Asana comparison](/blog/clickup-vs-asana-2026)

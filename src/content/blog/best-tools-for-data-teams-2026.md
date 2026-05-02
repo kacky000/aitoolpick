@@ -32,7 +32,7 @@ Here are the best productivity and collaboration tools for data teams in 2026.
 **Why data teams love it:**
 - Blazing fast interface with keyboard shortcuts
 - Cycles (sprints) for organizing data project work
-- Git integration for tracking dbt/analytics repo changes
+- Git integration for tracking [dbt](/tools/dbt/)/analytics repo changes
 - Roadmaps for communicating data team priorities to stakeholders
 
 **Pricing:** Free for small teams. Basic at $10/user/month.
@@ -74,7 +74,7 @@ Here are the best productivity and collaboration tools for data teams in 2026.
 **Why data teams love it:**
 - Dedicated channels for data alerts, pipeline failures, and requests
 - Workflow Builder for automated data request intake
-- Integration with monitoring tools (PagerDuty, Monte Carlo, etc.)
+- Integration with monitoring tools ([PagerDuty](/tools/pagerduty/), Monte Carlo, etc.)
 - Huddles for quick screen-sharing during debugging sessions
 
 **Pricing:** Free with limits. Pro at $7.25/user/month.

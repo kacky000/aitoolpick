@@ -69,7 +69,7 @@ Legal ops teams spend significant time on repetitive workflows: contract request
 
 Common legal automations with Zapier:
 - **Contract request intake**: When a business unit submits a contract request via a form, automatically create a matter in your tracking system, notify the relevant attorney, and set a due date.
-- **Signature completion triggers**: When a contract is executed in DocuSign, automatically file the signed copy in the right folder, update the contract tracker, and notify legal ops.
+- **Signature completion triggers**: When a contract is executed in [DocuSign](/tools/docusign/), automatically file the signed copy in the right folder, update the contract tracker, and notify legal ops.
 - **Renewal reminders**: Pull contract expiration dates and trigger reminders 90, 60, and 30 days in advance.
 - **New matter onboarding**: When a matter is created, automatically generate the folder structure, create the initial task list, and assign based on matter type.
 

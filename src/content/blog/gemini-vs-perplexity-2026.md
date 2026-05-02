@@ -99,7 +99,7 @@ For the best research workflows, you might benefit from using both — but for a
 
 You need to research a topic and then write about it.
 
-**Gemini wins.** Perplexity is a research tool, not a writing tool. Gemini can search, synthesize, and then help you draft content — all in one conversation. The Google Docs integration means you can go from research to a finished document without leaving the Google ecosystem.
+**Gemini wins.** Perplexity is a research tool, not a writing tool. Gemini can search, synthesize, and then help you draft content — all in one conversation. The [Google Docs](/tools/google-docs/) integration means you can go from research to a finished document without leaving the Google ecosystem.
 
 ### Coding and Technical Questions
 

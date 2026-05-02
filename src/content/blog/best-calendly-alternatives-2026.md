@@ -122,9 +122,9 @@ SavvyCal takes a different philosophical approach: instead of just showing your 
 
 **What [HubSpot](/tools/hubspot/) Meetings does better:** Native CRM integration means meetings, contacts, and deals are linked automatically. If you're already paying for HubSpot, this may eliminate the need for Calendly entirely.
 
-**What it lacks:** The booking UX isn't as polished as Calendly's. Group features like round-robin require Teams plan. Overkill if you don't use HubSpot.
+**What it lacks:** The booking UX isn't as polished as Calendly's. Group features like round-robin require Teams plan. Overkill if you don't use [HubSpot](/tools/hubspot/).
 
-**Verdict:** If you use HubSpot, try HubSpot Meetings before paying for Calendly.
+**Verdict:** If you use [HubSpot](/tools/hubspot/), try HubSpot Meetings before paying for Calendly.
 
 ## 7. Chili Piper — Best for B2B Sales Teams
 

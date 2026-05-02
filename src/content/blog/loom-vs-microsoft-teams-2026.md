@@ -58,7 +58,7 @@ The main case for Loom inside a Teams-heavy organization is **reducing synchrono
 - A manager needs to give feedback on a presentation → Loom comments vs scheduling a feedback session
 - A customer success rep needs to walk a client through new features → Loom video vs screen-share meeting
 
-Research consistently shows that knowledge workers spend 40-60% of their week in meetings. Async video tools like Loom can reclaim meaningful hours by replacing meetings that do not require real-time interaction.
+Research consistently shows that knowledge workers spend 40-60% of their week in meetings. Async video tools like Loom can reclaim meaningful [hours](/tools/hours-tracker/) by replacing meetings that do not require real-time interaction.
 
 ## Where Teams Wins
 

@@ -59,7 +59,7 @@ If you're making an Instagram post, opening Figma would be absurd. If you're des
 
 **Magic Studio (AI Features)**: Canva has invested heavily in AI — background removal, text-to-image generation, Magic Resize (adapt one design to multiple formats), and Magic Write for copy suggestions.
 
-**Brand Kit**: Pro users can save brand colors, fonts, and logos, then apply them across all designs with one click. This is surprisingly powerful for maintaining brand consistency without a designer.
+**Brand [Kit](/tools/kit/)**: Pro users can save brand colors, fonts, and logos, then apply them across all designs with one click. This is surprisingly powerful for maintaining brand consistency without a designer.
 
 **Print and Export**: Canva can print directly (business cards, posters, t-shirts) and export in virtually any format including video.
 

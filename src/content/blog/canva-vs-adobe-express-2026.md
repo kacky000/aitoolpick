@@ -69,7 +69,7 @@ Both tools have invested heavily in AI. Here is where things stand in 2026.
 - **Text to Image** — generate original images from text prompts
 - **Magic Resize** — [instantly](/tools/instantly/) reformat a design for different platforms (Instagram, Facebook, LinkedIn, etc.)
 
-**Adobe Express's AI toolkit (Adobe Firefly):**
+**Adobe Express's AI toolkit ([Adobe Firefly](/tools/adobe-firefly/)):**
 - **Firefly Image Generation** — create images from text prompts, trained exclusively on licensed content (important for commercial use)
 - **Generative Fill** — add or replace elements in photos using AI
 - **Text Effects** — apply AI-generated textures and styles to text
@@ -130,7 +130,7 @@ Video editing in a design tool used to be an afterthought. In 2026, both Canva a
 Canva's editor is famously intuitive. Drag elements onto the canvas, click to edit text, use the sidebar to browse templates and assets. The learning curve is nearly flat — most people figure it out within minutes. The interface has gotten busier over time as features have been added, but the core workflow remains simple.
 
 **Adobe Express:**
-Adobe Express is also easy to use, but it carries some of Adobe's traditional complexity. The interface is clean, but navigation between features (quick actions, templates, brand kit, assets) can feel fragmented. Adobe has improved this significantly from the old Spark days, but Canva still feels more cohesive.
+Adobe Express is also easy to use, but it carries some of Adobe's traditional complexity. The interface is clean, but navigation between features (quick actions, templates, brand kit, assets) can feel fragmented. Adobe has improved this significantly from the old [Spark](/tools/spark-email/) days, but Canva still feels more cohesive.
 
 **Winner: Canva.** Both tools are designed for non-[designers](/best-for/designers/), but Canva's editor is smoother and more intuitive. Adobe Express is not difficult — it is just not quite as polished.
 

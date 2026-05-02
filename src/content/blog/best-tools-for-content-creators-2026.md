@@ -30,7 +30,7 @@ ChatGPT is still the go-to AI writing companion for most content creators. GPT-4
 
 ### 2. Grammarly — Best for Polishing Your Writing
 
-Grammarly has evolved well beyond a spell-checker. In 2026, it functions as a full writing assistant — catching tone issues, restructuring awkward sentences, and even flagging when your draft sounds off-brand. The browser extension works seamlessly across Gmail, Google Docs, WordPress, and social platforms.
+Grammarly has evolved well beyond a spell-checker. In 2026, it functions as a full writing assistant — catching tone issues, restructuring awkward sentences, and even flagging when your draft sounds off-brand. The browser extension works seamlessly across Gmail, [Google Docs](/tools/google-docs/), WordPress, and social platforms.
 
 **Best for**: Writers who want to publish confidently, non-native English speakers, anyone writing for professional audiences
 
@@ -150,7 +150,7 @@ You don't need all 9 tools immediately. Here's a practical starting point:
 | Organization | Notion (free) | $0 |
 | Automation | Zapier (free) | $0 |
 
-You can run a full content creation operation for $0/month to start. Upgrade Canva Pro when you need more templates and brand kit features, and ChatGPT Plus when you're hitting free tier limits.
+You can run a full content creation operation for $0/month to start. Upgrade Canva Pro when you need more templates and brand [kit](/tools/kit/) features, and ChatGPT Plus when you're hitting free tier limits.
 
 ---
 

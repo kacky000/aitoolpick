@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 Slack is where most [remote teams](/best-for/remote-teams/) communicate. It's also where productivity goes to die when implemented poorly.
 
-The difference between a Slack workspace that accelerates teamwork and one that creates constant interruptions comes down to configuration, norms, and habits — not features. Here's what actually works in 2026.
+The difference between a Slack workspace that accelerates [teamwork](/tools/teamwork/) and one that creates constant interruptions comes down to configuration, norms, and habits — not features. Here's what actually works in 2026.
 
 ## Channel Architecture: The Foundation
 
@@ -113,7 +113,7 @@ This eliminates the "I'll come back to this" problem where you lose track of mes
 ## The Slash Commands Most People Don't Use
 
 - `/remind @channel [message] in [time]` — Schedule a reminder for the whole channel
-- `/dnd [time]` — Enable Do Not Disturb for X hours from the command line
+- `/dnd [time]` — Enable Do Not Disturb for X [hours](/tools/hours-tracker/) from the command line
 - `/status [emoji] [message]` — Set status quickly
 - `/shrug` — Inserts ¯\_(ツ)_/¯ (useful more often than expected)
 - `/collapse` — Collapses all inline images (useful in image-heavy channels)

@@ -39,7 +39,7 @@ Canva's free plan isn't a stripped-down trial — it's a genuinely useful design
 **What's missing from Free:**
 
 - No background remover (one-click removal is Pro only)
-- No Brand Kit (custom fonts, colors, logos)
+- No Brand [Kit](/tools/kit/) (custom fonts, colors, logos)
 - No Magic Resize for reformatting designs across platforms
 - Limited premium template and asset access
 - No scheduled social media publishing
@@ -59,14 +59,14 @@ Pro is where Canva becomes a serious creative tool. The jump from Free to Pro is
 
 - **100+ million premium stock photos, videos, audio, and graphics** — this library is massive and constantly growing
 - **Background Remover** — one click to remove backgrounds from any image
-- **Brand Kit** — store your brand colors, fonts, and logos for one-click consistency
+- **Brand [Kit](/tools/kit/)** — store your brand colors, fonts, and logos for one-click consistency
 - **Magic Resize** — [instantly](/tools/instantly/) reformat any design for Instagram, Facebook, LinkedIn, Twitter, print, and more
 - **1 TB cloud storage** (200x the free plan)
 - **Content Planner** — schedule social media posts directly from Canva
 - **Expanded AI tools:**
   - Magic Write — AI copywriting for any text field
   - Magic Edit — describe changes and AI applies them
-  - Magic Eraser — remove unwanted objects from photos
+  - Magic [Eraser](/tools/eraser-io/) — remove unwanted objects from photos
   - Dream Lab — generate AI images from text prompts
 - **Unlimited folders** for organizing designs
 - **Premium animations and transitions** for video and presentations
@@ -75,7 +75,7 @@ Pro is where Canva becomes a serious creative tool. The jump from Free to Pro is
 
 **Who it's for:** Freelancers, [content creators](/best-for/content-creators/), solopreneurs, and small business owners who produce visual content regularly. If you create more than a handful of designs per month, Pro pays for itself in time savings alone.
 
-**Is the annual plan worth it?** At $120/year ($10/month effective), yes. That's a 33% discount over monthly billing. If you've used Canva for even a month and plan to continue, lock in the annual rate.
+**Is the annual plan worth it?** At $120/year ($10/month effective), yes. That's a 33% discount over monthly billing. If you've used Canva for even a month and plan to [continue](/tools/continue/), lock in the annual rate.
 
 ---
 

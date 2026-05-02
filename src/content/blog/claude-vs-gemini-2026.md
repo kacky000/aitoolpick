@@ -86,7 +86,7 @@ On Android devices, Gemini functions as a Google Assistant replacement with deep
 - Use Microsoft 365, not Google Workspace
 
 **Choose Gemini if you:**
-- Live in Gmail, Google Docs, and Drive
+- Live in Gmail, [Google Docs](/tools/google-docs/), and Drive
 - Use Android as your primary device
 - Need real-time multimodal capabilities
 - Already subscribe to Google One

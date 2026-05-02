@@ -105,7 +105,7 @@ The Starter bundle is the best value for small businesses that want all hubs at 
 | **[Salesforce](/tools/salesforce/) Essentials** | $25/user/month | More powerful, steeper learning curve |
 | **[Monday.com](/tools/monday/) CRM** | $12/user/month | Simpler, less CRM-native features |
 | **[Pipedrive](/tools/pipedrive/)** | $14/user/month | Sales-focused, easier to use |
-| **Zoho CRM** | $14/user/month | Strong value, complex setup |
+| **[Zoho CRM](/tools/zoho-crm/)** | $14/user/month | Strong value, complex setup |
 
 For small businesses, HubSpot's free tier often beats paid tiers of competitors. For mid-market, the Professional pricing ($800-1,600/month) becomes a major decision point.
 

@@ -44,10 +44,10 @@ Miro is the industry standard for online whiteboarding. With 2,500+ templates, f
 
 **Price:** Free with [Figma](/tools/figma/) | Included in Figma Professional ($15/editor/mo)
 
-FigJam is Figma's collaborative whiteboard tool. If your team already uses Figma for design, FigJam is a no-brainer — it's included in your subscription and lives right alongside your design files.
+FigJam is [Figma](/tools/figma/)'s collaborative whiteboard tool. If your team already uses Figma for design, FigJam is a no-brainer — it's included in your subscription and lives right alongside your design files.
 
 **Strengths:**
-- Seamless Figma integration
+- Seamless [Figma](/tools/figma/) integration
 - Clean, fun interface with stamps and stickers
 - Great for design critiques and brainstorming
 - No additional cost for Figma users
@@ -109,8 +109,8 @@ Whimsical combines whiteboards with wireframing, flowcharts, mind maps, and docs
 [Canva's](/tools/canva) whiteboard feature brings its drag-and-drop simplicity to visual collaboration. It's especially good for teams that already use Canva for marketing materials.
 
 **Strengths:**
-- Familiar Canva interface
-- Access to Canva's massive asset library
+- Familiar [Canva](/tools/canva/) interface
+- Access to [Canva](/tools/canva/)'s massive asset library
 - Easy to create polished presentations from boards
 - Free plan is generous
 - Great for marketing and content teams
@@ -123,7 +123,7 @@ Whimsical combines whiteboards with wireframing, flowcharts, mind maps, and docs
 
 **Choose FigJam if:** Your team uses Figma and you want a whiteboard that lives alongside your design files.
 
-**Choose Lucidspark if:** You already use Lucidchart and want brainstorming tools that integrate with your diagramming workflow.
+**Choose Lucidspark if:** You already use [Lucidchart](/tools/lucidchart/) and want brainstorming tools that integrate with your diagramming workflow.
 
 **Choose Microsoft Whiteboard if:** You use Microsoft 365 and want a free, no-friction whiteboard in Teams.
 

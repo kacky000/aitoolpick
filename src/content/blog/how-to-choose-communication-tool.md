@@ -18,7 +18,7 @@ This is the single biggest factor most people overlook.
 | Google Workspace | [Slack](/tools/slack/) or Teams | Both integrate well, but Slack is more popular here |
 | Neither / Mixed | [Slack](/tools/slack/) | Most flexible, best third-party integrations |
 
-**If you're already paying for Microsoft 365,** Teams is essentially free. Starting with Slack means paying twice for communication tools.
+**If you're already paying for Microsoft 365,** Teams is essentially free. Starting with [Slack](/tools/slack/) means paying twice for communication tools.
 
 ## Step 2: Understand What You Actually Need
 
@@ -42,7 +42,7 @@ Teams is built [around](/tools/around/) **video meetings with chat**. It excels 
 
 ## Step 3: Evaluate Key Differences
 
-| Feature | Slack | Microsoft Teams |
+| Feature | [Slack](/tools/slack/) | Microsoft Teams |
 |---------|-------|----------------|
 | Message UX | Excellent — clean, fast, threaded | Good — can feel cluttered |
 | Video Calls | Huddles (informal, good) | Meetings (formal, feature-rich) |
@@ -87,7 +87,7 @@ Before committing:
 ## Common Mistakes
 
 - **Running both Slack AND Teams** — pick one. Having two chat tools fragments communication
-- **Choosing based on price alone** — Slack's integrations can save hours that offset the cost difference
+- **Choosing based on price alone** — Slack's integrations can save [hours](/tools/hours-tracker/) that offset the cost difference
 - **Ignoring the free tier** — both free plans are functional for [small teams](/best-for/small-teams/)
 - **Over-customizing channels** — start simple, add structure as needed
 

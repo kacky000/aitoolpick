@@ -18,7 +18,7 @@ You don't need expensive software to create professional designs. These free des
 | **[Figma](/tools/figma/)** | UI/UX design | 3 projects, unlimited editors | $15/editor/month |
 | **Photopea** | Photo editing | Full features, ad-supported | $5/month (ad-free) |
 | **[Penpot](/tools/penpot/)** | Open-source design | Unlimited, self-hostable | Free forever |
-| **Pixlr** | Quick photo edits | Basic tools, watermark on exports | $5/month |
+| **[Pixlr](/tools/pixlr/)** | Quick photo edits | Basic tools, watermark on exports | $5/month |
 | **Lunacy** | Desktop design | Full features, built-in assets | Free forever |
 
 ## 1. Canva — Best for Non-Designers
@@ -29,10 +29,10 @@ Canva democratized design, and its free plan remains incredibly generous:
 - **Drag-and-drop editor** that anyone can use
 - **5 GB cloud storage** for your designs
 - **Thousands of free photos**, icons, and illustrations
-- **Brand Kit** (limited on free — 1 brand)
+- **Brand [Kit](/tools/kit/)** (limited on free — 1 brand)
 - **Real-time collaboration** with team members
 
-**Free plan limitations**: No background remover, no brand kit expansion, no Magic Resize, limited premium templates.
+**Free plan limitations**: No background remover, no brand [kit](/tools/kit/) expansion, no Magic Resize, limited premium templates.
 
 **Who it's for**: Content creators, marketers, small business owners who need quick, professional-looking graphics.
 
@@ -104,7 +104,7 @@ Lunacy by Icons8 is a full-featured desktop design application:
 - **Completely free** — no limits, no watermarks
 - **Built-in assets**: photos, illustrations, icons (from Icons8)
 - **AI-powered tools**: text generation, image upscaling, background removal
-- **Sketch file compatibility**
+- **[Sketch](/tools/sketch/) file compatibility**
 - **Available on** Windows, macOS, and Linux
 - **Works offline** — no internet required
 

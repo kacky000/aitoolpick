@@ -52,7 +52,7 @@ Premium adds:
 
 **Custom Filters** are the biggest premium differentiator. Being able to save queries like "high priority + due this week + tagged #work" transforms how you use TickTick. Power users who manage multiple projects will feel this limitation hard on the free plan.
 
-**Calendar integration** — Premium lets you subscribe to Google Calendar, Outlook, or iCal inside TickTick. For people who live in their calendar, this alone justifies the upgrade.
+**Calendar integration** — Premium lets you subscribe to [Google Calendar](/tools/google-calendar/), Outlook, or iCal inside TickTick. For people who live in their calendar, this alone justifies the upgrade.
 
 **Habit tracking with heatmaps** is genuinely best-in-class for a task app. If you're working on building streaks (exercise, reading, writing), the visual heatmap is highly motivating.
 

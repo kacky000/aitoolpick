@@ -25,7 +25,7 @@ This philosophical difference shapes every feature decision. Todoist integrates 
 | Habit tracking | No | No | Limited | Full |
 | Filters | 3 | Unlimited | Limited | Unlimited |
 
-TickTick Premium is slightly cheaper at $3.99/month vs Todoist Pro at $5/month. Both offer generous free tiers, though TickTick's free plan includes more features out of the box.
+TickTick Premium is slightly cheaper at $3.99/month vs Todoist Pro at $5/month. Both offer generous free tiers, though TickTick's free plan includes more features out of the [box](/tools/box/).
 
 ## Task Management
 
@@ -33,7 +33,7 @@ TickTick Premium is slightly cheaper at $3.99/month vs Todoist Pro at $5/month. 
 
 **Winner: Todoist**
 
-Todoist's natural language parsing is the best in the business. "Call dentist next Tuesday at 2pm #health p1" creates a perfectly configured task instantly. TickTick has natural language too, but it's less reliable with complex inputs and doesn't support as many languages.
+Todoist's natural language parsing is the best in the business. "Call dentist next Tuesday at 2pm #health p1" creates a perfectly configured task [instantly](/tools/instantly/). TickTick has natural language too, but it's less reliable with complex inputs and doesn't support as many languages.
 
 ### Task Views
 
@@ -51,7 +51,7 @@ Both handle subtasks, priorities, labels/tags, and project organization well. To
 
 **Winner: TickTick**
 
-This is TickTick's biggest advantage. It has a full built-in calendar view that shows tasks alongside calendar events (synced from Google Calendar or Outlook). You can drag tasks to reschedule them, see your week at a glance, and plan time blocks visually.
+This is TickTick's biggest advantage. It has a full built-in calendar view that shows tasks alongside calendar events (synced from [Google Calendar](/tools/google-calendar/) or Outlook). You can drag tasks to reschedule them, see your week at a glance, and plan time blocks visually.
 
 Todoist requires a separate Google Calendar sync (Pro only) and still doesn't show a calendar within the app itself. For visual planners, this alone might be the deciding factor.
 
@@ -77,7 +77,7 @@ Both work on all major platforms, but Todoist's apps feel more polished and cons
 
 **Winner: Todoist**
 
-Todoist integrates with 70+ services and has excellent Zapier/IFTTT support. TickTick has fewer native integrations, though it covers the essentials (Google Calendar, Outlook, Alexa). If your workflow depends on connecting tools, Todoist is more flexible.
+Todoist integrates with 70+ services and has excellent [Zapier](/tools/zapier/)/IFTTT support. TickTick has fewer native integrations, though it covers the essentials (Google Calendar, Outlook, Alexa). If your workflow depends on connecting tools, Todoist is more flexible.
 
 ## AI Features
 

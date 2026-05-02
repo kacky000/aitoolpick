@@ -6,7 +6,7 @@ tags: ["linear", "github", "issue-tracking", "developers"]
 heroImage: "/thumbs/linear-vs-github-projects-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Engineering teams have a real choice between two fundamentally different approaches to issue tracking. Linear is a dedicated, opinionated tool built for speed. GitHub Projects is a flexible layer on top of the platform your code already lives on. Both have improved dramatically, making this comparison closer than ever.
+Engineering teams have a real choice between two fundamentally different approaches to issue tracking. [Linear](/tools/linear-app/) is a dedicated, opinionated tool built for speed. GitHub Projects is a flexible layer on top of the platform your code already lives on. Both have improved dramatically, making this comparison closer than ever.
 
 ## Quick Comparison Table
 

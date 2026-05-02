@@ -48,7 +48,7 @@ Everything in Free, plus:
 - **Custom automations**
 - **Bulk export**
 
-The biggest upgrades over Free are unlimited file uploads and full Notion AI access. If you're using Notion seriously for work or study, the $10/month is well worth it.
+The biggest upgrades over Free are unlimited file uploads and full [Notion AI](/tools/notion-ai/) access. If you're using Notion seriously for work or study, the $10/month is well worth it.
 
 **Who it's for**: Individual power users, freelancers, and small teams (2-5 people) who want the full Notion experience.
 
@@ -62,7 +62,7 @@ Everything in Plus, plus:
 - **90-day page history**
 - **Bulk PDF export**
 - **Advanced permissions and roles**
-- **Notion AI included**
+- **[Notion AI](/tools/notion-ai/) included**
 - **Audit log (basic)**
 
 The jump from Plus to Business is primarily about access control and security. If you're a team of 5 or fewer without strict security requirements, Plus is usually sufficient.

@@ -43,7 +43,7 @@ The free tier gives you access to Claude with daily usage limits. You can have c
 - Daily usage caps
 
 **Limitations:**
-- Reduced during peak hours
+- Reduced during peak [hours](/tools/hours-tracker/)
 - No access to the most powerful models
 - Limited context window
 - No priority access
@@ -131,7 +131,7 @@ Upload a 100-page PDF and ask Claude to summarize, compare, or extract specific 
 Unlike [ChatGPT](/tools/chatgpt/) (which has DALL-E), Claude cannot generate images. If image creation is part of your workflow, you'll need a separate tool.
 
 ### 2. Smaller Plugin Ecosystem
-ChatGPT has a massive library of GPTs and plugins. Claude's ecosystem is growing but significantly smaller. If you rely on third-party integrations, ChatGPT has the edge.
+[ChatGPT](/tools/chatgpt/) has a massive library of GPTs and plugins. Claude's ecosystem is growing but significantly smaller. If you rely on third-party integrations, ChatGPT has the edge.
 
 ### 3. Usage Limits Can Be Frustrating
 Even on the Pro plan, heavy users can hit rate limits during peak hours. The Max plan addresses this, but at $100-200/month, it's a significant investment.
@@ -143,7 +143,7 @@ This isn't a technical weakness, but it matters. Fewer tutorials, community reso
 
 ## Claude vs ChatGPT: Quick Comparison
 
-| Feature | Claude | ChatGPT |
+| Feature | Claude | [ChatGPT](/tools/chatgpt/) |
 |---------|--------|---------|
 | Writing quality | Excellent | Very good |
 | Coding | Excellent | Excellent |

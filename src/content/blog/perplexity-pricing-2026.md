@@ -30,7 +30,7 @@ The free plan is genuinely useful — not a crippled trial version. Here is what
 - **Unlimited basic searches** — Ask any question and get AI-generated answers with source citations
 - **Standard AI model** — Uses a capable base model for generating responses
 - **Source citations** — Every answer links to its sources so you can verify claims
-- **Follow-up questions** — Continue conversations to dig deeper into topics
+- **Follow-up questions** — [Continue](/tools/continue/) conversations to dig deeper into topics
 - **Basic Focus modes** — Search the web, academic papers, YouTube, or Reddit specifically
 - **Limited Pro searches** — You get [around](/tools/around/) 5 Pro-level searches per day for free
 
@@ -55,7 +55,7 @@ Pro subscribers can choose which AI model powers their searches. Options typical
 - **[Claude](/tools/claude/)** — Anthropic's model, strong for analysis and reasoning
 - **Sonar Large** — Perplexity's own large language model
 
-This flexibility matters because different models excel at different tasks. Claude might handle a nuanced legal question better, while GPT-4o might be stronger for creative tasks.
+This flexibility matters because different models excel at different tasks. [Claude](/tools/claude/) might handle a nuanced legal question better, while GPT-4o might be stronger for creative tasks.
 
 ### File Upload & Analysis
 
@@ -75,7 +75,7 @@ Pro subscribers receive $5 in monthly API credits, useful for [developers](/best
 |---------|------|-------------|
 | Basic searches | Unlimited | Unlimited |
 | Pro searches | ~5/day | Unlimited |
-| AI model selection | Default only | GPT-4o, Claude, Sonar |
+| AI model selection | Default only | GPT-4o, [Claude](/tools/claude/), Sonar |
 | File uploads | No | Yes |
 | Image analysis | No | Yes |
 | API credits | No | $5/month |

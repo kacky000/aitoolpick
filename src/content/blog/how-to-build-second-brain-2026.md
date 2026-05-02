@@ -147,7 +147,7 @@ When you need to expand on a topic in your second brain, Perplexity provides cit
 | Purpose | Tool | Cost |
 |---------|------|------|
 | Primary second brain | Obsidian or Notion | Free |
-| Read-later & highlights | Readwise | $8/month |
+| Read-[later](/tools/later/) & highlights | Readwise | $8/month |
 | AI analysis | Claude or ChatGPT | $0–20/month |
 | Research expansion | Perplexity | $0–20/month |
 | Task management | [Todoist](/tools/todoist/) | Free |

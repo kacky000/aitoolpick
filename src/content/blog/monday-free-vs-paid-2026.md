@@ -111,7 +111,7 @@ For teams of 3+, Monday.com is competitive. For smaller teams, consider [ClickUp
 
 ## The Verdict
 
-Monday.com's free plan is basically a trial. If you're evaluating Monday.com, go straight to the Standard plan trial — that's where you'll see its real value. The automations and timeline views are what make Monday.com worth using, and those start at Standard ($12/seat/month, 3-seat minimum).
+Monday.com's free plan is basically a trial. If you're evaluating Monday.com, go straight to the Standard plan trial — that's where you'll see its real value. The automations and timeline views are what [make](/tools/make/) Monday.com worth using, and those start at Standard ($12/seat/month, 3-seat minimum).
 
 ---
 

@@ -56,7 +56,7 @@ Todoist tasks support comments and file attachments but lack the depth of Notion
 
 Both tools integrate with major services. Todoist connects with Google Calendar, Outlook, Slack, and 60+ other tools. Notion integrates with Slack, [GitHub](/tools/github/), Figma, and others.
 
-For the specific workflow of calendar + tasks, Todoist's Google Calendar sync (two-way) is more polished than Notion's calendar integrations.
+For the specific workflow of calendar + tasks, Todoist's [Google Calendar](/tools/google-calendar/) sync (two-way) is more polished than Notion's calendar integrations.
 
 ## Who Should Choose What
 

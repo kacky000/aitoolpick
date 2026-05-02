@@ -82,7 +82,7 @@ The downside: the learning curve is higher than Loom, and the collaboration feat
 
 **Price:** Free (10 clips) / $10/user/month (Starter) / $22/user/month (Pro)
 
-Claap positions itself as a meeting clip tool: record a meeting, mark key moments, and share the relevant segment rather than a full recording. Recipients see just the 3 minutes that matter, not the 45-minute meeting.
+Claap positions itself as a meeting clip tool: record a meeting, mark key moments, and share the relevant [segment](/tools/segment/) rather than a full recording. Recipients see just the 3 minutes that matter, not the 45-minute meeting.
 
 It also generates AI summaries, action items, and searchable transcripts — features that Loom, being primarily a message tool rather than a meeting tool, doesn't prioritize.
 

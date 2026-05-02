@@ -41,7 +41,7 @@ If data ownership and privacy are non-negotiable for you, Logseq wins before you
 
 Logseq is dramatically cheaper. For individual users, the core app is completely free. Even with Logseq Sync ($5/month), you're paying half what Notion Plus costs.
 
-For teams, the cost difference narrows — Notion's free plan is workable for small teams, and its pricing scales with users.
+For teams, the cost difference narrows — Notion's free plan is [workable](/tools/workable/) for small teams, and its pricing scales with users.
 
 ## Features Comparison
 

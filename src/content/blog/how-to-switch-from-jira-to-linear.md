@@ -13,7 +13,7 @@ Jira is the enterprise standard, but more and more engineering teams are switchi
 The most common reasons engineering teams migrate:
 
 - **Speed**: Linear is built for keyboard-first navigation. Everything loads [instantly](/tools/instantly/). Jira's page loads and JQL queries feel sluggish by comparison.
-- **Simplicity**: Linear ships with sensible defaults. Jira requires extensive configuration before it's useful.
+- **Simplicity**: [Linear](/tools/linear-app/) ships with sensible defaults. Jira requires extensive configuration before it's useful.
 - **Modern UX**: Linear's interface feels like a product built in 2024, not 2004.
 - **Focus on engineering**: Linear is purpose-built for software teams, while Jira tries to serve everyone from marketing to IT support.
 

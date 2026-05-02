@@ -48,7 +48,7 @@ For people who enjoy building systems and want budgeting integrated with the res
 
 ### YNAB
 
-YNAB connects to over 14,000 financial institutions worldwide. Once linked, your transactions import automatically (usually within a few hours). You then approve and categorize each transaction, which YNAB encourages as a mindfulness practice rather than a chore.
+YNAB connects to over 14,000 financial institutions worldwide. Once linked, your transactions import automatically (usually within a few [hours](/tools/hours-tracker/)). You then approve and categorize each transaction, which YNAB encourages as a mindfulness practice rather than a chore.
 
 The bank sync is reliable and covers most major banks, credit cards, and investment accounts. YNAB also supports manual transaction entry for accounts that cannot sync, and many users enter transactions at the point of sale using the mobile app.
 

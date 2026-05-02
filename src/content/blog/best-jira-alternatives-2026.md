@@ -38,7 +38,7 @@ Linear is what Jira would look like if rebuilt with speed as the top priority. E
 
 ClickUp tries to do everything — docs, whiteboards, goals, time tracking, sprints, and dashboards in one platform.
 
-**Standout features:** 15+ views (Board, List, Gantt, Timeline, Workload), built-in docs (no Confluence needed), native time tracking, affordable at scale.
+**Standout features:** 15+ views (Board, List, Gantt, Timeline, Workload), built-in docs (no [Confluence](/tools/confluence/) needed), native time tracking, affordable at scale.
 
 **Best for:** Cross-functional teams and agencies that need PM, docs, and collaboration in a single tool.
 

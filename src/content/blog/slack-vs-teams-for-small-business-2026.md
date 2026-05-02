@@ -25,7 +25,7 @@ Choosing between Slack and [Microsoft Teams](/tools/microsoft-teams/) is one of 
 | Mid-tier | $12.50/user/month | $6/user/month |
 | Full suite | — | $12.50/user/month (with Office apps) |
 
-**Winner: Microsoft Teams** — Significantly cheaper, especially if you need Office apps. Teams Essentials at $4/user/month is half the price of Slack Pro.
+**Winner: [Microsoft Teams](/tools/microsoft-teams/)** — Significantly cheaper, especially if you need Office apps. Teams Essentials at $4/user/month is half the price of Slack Pro.
 
 ## Feature Comparison
 
@@ -89,7 +89,7 @@ Already on one and thinking of switching? Consider these factors:
 | File management | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 | Small biz value | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 
-For most small businesses on a budget, **Microsoft Teams** offers better value. For small businesses that prioritize communication quality and use diverse SaaS tools, **Slack** is worth the premium.
+For most small businesses on a budget, **[Microsoft Teams](/tools/microsoft-teams/)** offers better value. For small businesses that prioritize communication quality and use diverse SaaS tools, **Slack** is worth the premium.
 
 [Read our full Slack review →](/blog/slack-review-2026) | [Read our full Teams review →](/blog/microsoft-teams-review-2026)
 

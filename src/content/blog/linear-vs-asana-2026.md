@@ -10,7 +10,7 @@ Linear and Asana are both excellent [project management](/category/project-manag
 
 ## Quick Comparison
 
-| Feature | Linear | Asana |
+| Feature | [Linear](/tools/linear-app/) | Asana |
 |---------|--------|-------|
 | Best For | Engineering teams | Cross-functional teams |
 | Free Plan | Yes (unlimited issues) | Yes (limited features) |
@@ -111,7 +111,7 @@ Asana's integration ecosystem is significantly larger, covering more business to
 - **Software engineering teams** who want the fastest issue tracker
 - **[Startups](/best-for/startups/)** that value speed and simplicity
 - **Product teams** managing sprints and roadmaps
-- Teams that live in **GitHub/GitLab** and want native integration
+- Teams that live in **[GitHub](/tools/github/)/GitLab** and want native integration
 - Developers who [prefer keyboard-driven tools](/blog/linear-review-2026)
 
 ## Who Should Choose Asana?

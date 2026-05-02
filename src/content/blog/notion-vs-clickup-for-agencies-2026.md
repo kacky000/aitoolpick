@@ -16,7 +16,7 @@ Here's an honest breakdown for agency owners and operations managers.
 
 **Choose Notion** if your agency is documentation-heavy — lots of client wikis, SOPs, content briefs, and knowledge management. Notion is the better *workspace*.
 
-**Choose ClickUp** if your agency runs tight project timelines, tracks billable hours, and needs multiple project views for different client types. ClickUp is the better *project management tool*.
+**Choose ClickUp** if your agency runs tight project timelines, tracks billable [hours](/tools/hours-tracker/), and needs multiple project views for different client types. ClickUp is the better *project management tool*.
 
 For a detailed feature comparison, see our [Notion vs ClickUp comparison](/compare/clickup-vs-notion/).
 
@@ -35,7 +35,7 @@ Before diving into tool specifics, let's define what agencies genuinely need fro
 
 ### Strengths
 
-**Client wikis are Notion's superpower.** You can create a dedicated workspace per client that contains their brand guidelines, project briefs, past work, notes, and files — all in one organized space. The flexibility of Notion databases means you can build exactly the structure your agency needs.
+**Client wikis are Notion's superpower.** You can create a dedicated workspace per client that contains their brand guidelines, project briefs, past work, notes, and files — all in one organized space. The flexibility of [Notion databases](/tools/notion-database/) means you can build exactly the structure your agency needs.
 
 The **template system** is also a significant advantage. Agencies that run the same type of engagement repeatedly (SEO audits, brand identity projects, monthly retainers) can templatize entire project structures and spin them up in minutes.
 

@@ -6,7 +6,7 @@ tags: ["linear", "startups", "project-management", "engineering", "how-to"]
 heroImage: "/thumbs/how-to-use-linear-for-startups-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Linear has become the go-to project management tool for startup engineering teams. It's fast, opinionated, and designed to get out of the way — which is exactly what a small team shipping quickly needs.
+[Linear](/tools/linear-app/) has become the go-to project management tool for startup engineering teams. It's fast, opinionated, and designed to get out of the way — which is exactly what a small team shipping quickly needs.
 
 This guide walks through setting up Linear from scratch and building a workflow that actually works.
 

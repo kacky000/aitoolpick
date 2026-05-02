@@ -168,7 +168,7 @@ If you only need the kanban board, the Free plan works. If you need a timeline, 
 
 4. **Excellent mobile apps.** Trello's iOS and Android apps are among the best in the category — fast, intuitive, and fully functional.
 
-5. **Atlassian ecosystem.** If your organization uses Jira, Confluence, or Bitbucket, Trello integrates seamlessly within the Atlassian ecosystem.
+5. **Atlassian ecosystem.** If your organization uses [Jira](/tools/jira/), Confluence, or Bitbucket, Trello integrates seamlessly within the Atlassian ecosystem.
 
 ---
 

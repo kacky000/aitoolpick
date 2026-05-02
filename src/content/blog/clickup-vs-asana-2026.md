@@ -29,7 +29,7 @@ Asana's UI is clean, intuitive, and easy to navigate. New users can get producti
 **Winner: Asana** — for simplicity and polish.
 
 ### Docs & Wikis
-ClickUp has built-in Docs with real-time collaboration. Asana doesn't have a native docs feature — you'll need to integrate with Google Docs or Confluence.
+ClickUp has built-in Docs with real-time collaboration. Asana doesn't have a native docs feature — you'll need to integrate with [Google Docs](/tools/google-docs/) or Confluence.
 
 **Winner: ClickUp** — built-in docs is a significant advantage.
 

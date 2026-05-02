@@ -71,7 +71,7 @@ But which works better? Here's a detailed comparison for anyone considering usin
 ### Notion's Limitations for CRM
 
 - **Formula system is weaker** — Complex calculations and rollups aren't as powerful as Airtable
-- **Performance with large datasets** — Notion databases with 1,000+ records can feel slow
+- **Performance with large datasets** — [Notion databases](/tools/notion-database/) with 1,000+ records can feel slow
 - **Less mature automations** — Notion's automation capabilities are less developed than Airtable
 - **Views are less flexible** — Airtable's view system has more options and is easier to navigate
 

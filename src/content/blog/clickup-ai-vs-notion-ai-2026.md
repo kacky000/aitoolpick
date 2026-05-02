@@ -6,7 +6,7 @@ tags: ["clickup", "notion", "ai", "productivity", "comparison"]
 heroImage: "/thumbs/clickup-ai-vs-notion-ai-2026.jpg"
 lastModified: "2026-04-26"
 ---
-**Clickup Ai** and **Notion Ai** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
+**Clickup Ai** and **[Notion Ai](/tools/notion-ai-writing/)** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
 Both [ClickUp](/tools/clickup) and [Notion](/tools/notion) have gone all-in on built-in AI. ClickUp calls theirs **ClickUp Brain**; Notion calls theirs **Notion AI**. Both cost extra on top of your base subscription, and both promise to help you work faster.
 

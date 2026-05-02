@@ -22,7 +22,7 @@ It launched in 2022 and quickly gained traction in the startup and marketing com
 
 ### AI Generation
 
-Type a topic or paste an outline, and Gamma generates a complete presentation with multiple slides, appropriate section structure, and a consistent design theme. The output quality is surprisingly high — generated decks look like something a decent designer spent a few hours on, not an AI output from five minutes ago.
+Type a topic or paste an outline, and Gamma generates a complete presentation with multiple [slides](/tools/slides-com/), appropriate section structure, and a consistent design theme. The output quality is surprisingly high — generated decks look like something a decent designer spent a few hours on, not an AI output from five minutes ago.
 
 You can also paste existing documents, meeting notes, or PDFs and have Gamma restructure them into presentation format automatically.
 
@@ -60,7 +60,7 @@ The **Pro plan** at $15/month adds custom branding, advanced analytics, and prio
 
 ## Pros
 
-**Dramatic speed advantage.** A usable first draft in under 60 seconds is not marketing — it is actually what happens. For anyone who has spent hours wrestling with slide layouts, Gamma's speed is a genuine quality-of-life improvement.
+**Dramatic speed advantage.** A usable first draft in under 60 seconds is not marketing — it is actually what happens. For anyone who has spent [hours](/tools/hours-tracker/) wrestling with slide layouts, Gamma's speed is a genuine quality-of-life improvement.
 
 **Consistent design out of the [box](/tools/box/).** Gamma's design system prevents the visual chaos that plagues DIY PowerPoint decks. The output looks professional without design skills.
 
@@ -80,12 +80,12 @@ The **Pro plan** at $15/month adds custom branding, advanced analytics, and prio
 
 **AI content needs review.** Generated content can be generic or slightly off-target for niche topics. Always read through what Gamma produces before presenting.
 
-**Card-based format is unfamiliar.** Teams used to traditional slides need adjustment time. Some stakeholders find the scrolling card format unexpected.
+**Card-based format is unfamiliar.** Teams used to traditional [slides](/tools/slides-com/) need adjustment time. Some stakeholders find the scrolling card format unexpected.
 
 ## Who Should Use Gamma?
 
 **Best for:**
-- Founders creating pitch decks or investor updates quickly
+- Founders creating [pitch](/tools/pitch/) decks or investor updates quickly
 - Marketers generating one-pagers, campaign decks, and client proposals
 - Consultants and [freelancers](/best-for/freelancers/) who need professional-looking presentations without a designer
 - Teams that share decks as links rather than presenting them in a room
@@ -102,7 +102,7 @@ The **Pro plan** at $15/month adds custom branding, advanced analytics, and prio
 
 **Gamma vs [Canva](/tools/canva/):** Canva has more templates, more design control, and better export options. Gamma has dramatically better AI generation and the card-based interactive format. For starting from scratch with AI help, Gamma wins; for polishing custom designs, Canva wins.
 
-**Gamma vs Google Slides:** Google Slides is free and excellent for collaboration on simple decks. Gamma is significantly better at design quality and speed for anything requiring a polished look.
+**Gamma vs [Google Slides](/tools/google-slides/):** Google Slides is free and excellent for collaboration on simple decks. Gamma is significantly better at design quality and speed for anything requiring a polished look.
 
 Explore more options in our guide to the [best AI tools for marketing in 2026](/blog/best-ai-tools-for-marketing-2026).
 

@@ -131,7 +131,7 @@ Airtable's **Automations** (formerly "Airtable Automations") are no-code trigger
 
 | Integration | Purpose |
 |------------|---------|
-| **Slack** | Auto-post to #content-team when status changes |
+| **[Slack](/tools/slack/)** | Auto-post to #content-team when status changes |
 | **[Google Drive](/tools/google-drive/)** | Attach Google Docs to records automatically |
 | **Zapier / Make** | Connect to Buffer, [Hootsuite](/tools/hootsuite/), or WordPress for publishing |
 | **[Notion](/tools/notion/)** | Sync content briefs between Airtable and Notion |

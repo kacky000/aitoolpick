@@ -16,7 +16,7 @@ Choosing between them is not about which is "better" — it is about which match
 - You run Scrum sprints with story points and velocity tracking
 - You have 5+ engineers with complex workflows
 - You need advanced reporting, burndown charts, or custom issue types
-- You already use Confluence or other Atlassian tools
+- You already use [Confluence](/tools/confluence/) or other Atlassian tools
 
 **Choose Trello if:**
 - Your workflow is a simple Kanban board with 3-5 columns
@@ -65,7 +65,7 @@ Jira supports Epics → Stories → Tasks → Subtasks, letting engineering team
 Jira's built-in Agile reports are unmatched for software teams: cumulative flow diagrams, sprint burndown, velocity, and control charts. These reports directly feed Scrum ceremonies.
 
 ### Atlassian Ecosystem
-If you already use Confluence for docs and Bitbucket for code, Jira's integrations are seamless. Pull requests automatically link to Jira issues. Confluence pages embed live Jira boards. Trello has no equivalent ecosystem depth.
+If you already use Confluence for docs and [Bitbucket](/tools/bitbucket/) for code, Jira's integrations are seamless. Pull requests automatically link to Jira issues. Confluence pages embed live Jira boards. Trello has no equivalent ecosystem depth.
 
 ### Scale
 Jira handles millions of issues across hundreds of projects. Trello works best for teams under ~50 with focused, simple workflows.

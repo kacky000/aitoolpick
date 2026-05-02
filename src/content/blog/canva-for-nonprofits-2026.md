@@ -16,13 +16,13 @@ This guide covers how to apply, what you get, and how nonprofits are using Canva
 Through Canva's nonprofit program, qualifying organizations receive **Canva for Teams** at no cost. This includes:
 
 - **Canva Pro features**: 100+ million stock photos, videos, and elements; AI-powered design tools; premium templates; background remover; resize and translation tools
-- **Brand Kit**: Upload your logo, set brand colors, and save approved fonts — so every team member designs on-brand automatically
+- **Brand [Kit](/tools/kit/)**: Upload your logo, set brand colors, and save approved fonts — so every team member designs on-brand automatically
 - **Team collaboration**: Multiple team members can access and edit designs
 - **100GB storage**: Store all your organization's visual assets in one place
 - **Social media scheduler**: Schedule posts directly from Canva to Facebook, Instagram, LinkedIn, and Pinterest
 - **Version history**: Recover previous versions of any design
 
-For resource-constrained nonprofits, this eliminates the need for expensive design software and freelance design fees for routine materials.
+For resource-constrained nonprofits, this eliminates the need for expensive design software and freelance design fees for [routine](/tools/routine/) materials.
 
 ## How to Apply for Canva for Nonprofits
 
@@ -61,7 +61,7 @@ Use Canva's social media scheduler to batch-create and schedule a week of conten
 
 ### Event Graphics
 
-Gala invitations, event programs, sponsor recognition slides, event banners — Canva has templates for all of them. For nonprofits running annual fundraising events, having all event materials in one platform (and archived for next year) is a meaningful time saver.
+Gala invitations, event programs, sponsor recognition [slides](/tools/slides-com/), event banners — Canva has templates for all of them. For nonprofits running annual fundraising events, having all event materials in one platform (and archived for next year) is a meaningful time saver.
 
 ### Grant Applications
 
@@ -77,7 +77,7 @@ Job posting graphics, volunteer orientation guides, recognition certificates —
 
 ### Step 1: Upload Your Brand Kit
 
-Before your team starts creating anything, set up your Brand Kit:
+Before your team starts creating anything, set up your Brand [Kit](/tools/kit/):
 - Upload your logo in multiple formats (PNG with transparent background is most versatile)
 - Set your primary and secondary brand colors (hex codes)
 - Upload your approved fonts

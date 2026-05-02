@@ -22,10 +22,10 @@ Evernote was once the undisputed king of [note-taking](/category/note-taking/), 
 |------|----------|-----------|-----------|---------|
 | **[Notion](/tools/notion/)** | All-in-one workspace | Generous | $10/month | Yes |
 | **[Obsidian](/tools/obsidian/)** | Local-first markdown | Unlimited | $5/month (sync) | Yes |
-| **Apple Notes** | Apple ecosystem | Unlimited | Free | Yes |
-| **Joplin** | Open-source | Unlimited | Free | Yes |
+| **[Apple Notes](/tools/apple-notes/)** | Apple ecosystem | Unlimited | Free | Yes |
+| **[Joplin](/tools/joplin-notes/)** | Open-source | Unlimited | Free | Yes |
 | **Upnote** | Simple note-taking | 50 notes | $1/month | Yes |
-| **Capacities** | Object-based notes | Generous | $8/month | Partial |
+| **[Capacities](/tools/capacities/)** | Object-based notes | Generous | $8/month | Partial |
 | **Microsoft OneNote** | Office users | Unlimited | Free | Yes |
 
 ## 1. Notion — Best All-in-One Replacement

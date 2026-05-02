@@ -50,9 +50,9 @@ ChatGPT is the most widely used AI tool among HR teams because HR generates an e
 
 **Policy gap analysis**: Feed [Claude](/tools/claude/) your current HR policies and the employment laws for your state/country — ask what gaps exist.
 
-**Resume screening guidelines**: Paste a large batch of screener notes or profiles and ask Claude to identify patterns or summarize candidates against criteria.
+**Resume screening guidelines**: Paste a large batch of screener notes or profiles and ask [Claude](/tools/claude/) to identify patterns or summarize candidates against criteria.
 
-Claude's tendency to be careful and flag uncertainty is a feature for HR — you want an AI that says "I'm not sure about this employment law interpretation" rather than confidently giving wrong guidance.
+[Claude](/tools/claude/)'s tendency to be careful and flag uncertainty is a feature for HR — you want an AI that says "I'm not sure about this employment law interpretation" rather than confidently giving wrong guidance.
 
 → [Full Claude review](/blog/claude-review-2026/) | [Claude vs ChatGPT for research](/blog/chatgpt-vs-claude-for-research-2026/)
 

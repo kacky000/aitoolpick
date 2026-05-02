@@ -80,11 +80,11 @@ If your institution runs Microsoft 365, Teams is the obvious choice. Deep integr
 
 **Best for: Creating classroom materials, presentations, and parent communications**
 
-Canva is the most useful design tool for teachers who aren't designers. It includes thousands of education-specific templates: lesson slides, classroom posters, newsletters, rubrics, and more. The drag-and-drop editor requires no design experience, and outputs look professional.
+Canva is the most useful design tool for teachers who aren't designers. It includes thousands of education-specific templates: lesson [slides](/tools/slides-com/), classroom posters, newsletters, rubrics, and more. The drag-and-drop editor requires no design experience, and outputs look professional.
 
 Canva offers a **free Education plan** for teachers and students that unlocks premium templates and features. It's one of the most generous education discounts available.
 
-**Education tip**: Use Canva's "Brand Kit" (available on the free education plan) to create a consistent visual style for all your class materials. Set your school colors and logo once, and they apply automatically to new designs.
+**Education tip**: Use Canva's "Brand [Kit](/tools/kit/)" (available on the free education plan) to create a consistent visual style for all your class materials. Set your school colors and logo once, and they apply automatically to new designs.
 
 For a full breakdown of what's included, see our [Canva review](/blog/canva-review-2026).
 
@@ -145,7 +145,7 @@ Unlike ChatGPT, Perplexity cites its sources — making it far safer for researc
 
 Several of the best tools for teachers are fully free:
 
-- **Google Workspace for Education**: Docs, Sheets, Slides, Forms, Classroom — free for eligible institutions
+- **Google Workspace for Education**: Docs, Sheets, [Slides](/tools/slides-com/), Forms, Classroom — free for eligible institutions
 - **Canva Education**: Premium features free for verified teachers
 - **Notion Education**: Free personal plan plus education discount on team plans
 - **ChatGPT free tier**: Sufficient for most lesson planning and content generation

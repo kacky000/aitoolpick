@@ -16,7 +16,7 @@ Asana and Linear are both excellent [project management](/category/project-manag
 
 ## Side-by-Side Overview
 
-| Feature | Asana | Linear |
+| Feature | Asana | [Linear](/tools/linear-app/) |
 |---------|-------|--------|
 | Best for | Cross-functional teams | Engineering teams |
 | Free plan | Yes (generous) | Yes (up to 250 issues) |
@@ -60,7 +60,7 @@ Asana is designed for everyone, not just engineers. Marketing campaigns, HR onbo
 Asana's custom fields are significantly more powerful than Linear's. You can add any field type, build complex filtered views, and create portfolio dashboards showing progress across multiple projects. For teams with complex reporting requirements, Linear's limited customization can be a real constraint.
 
 ### Timeline (Gantt) Views
-Asana's Timeline view is a proper Gantt chart — tasks displayed over time with dependencies. Linear has Roadmaps (which show project progress over time) but they're more abstract than Asana's Timeline.
+Asana's Timeline view is a proper Gantt chart — tasks displayed over time with dependencies. Linear has Roadmaps (which show project progress over time) but they're more [abstract](/tools/abstract-design/) than Asana's Timeline.
 
 ### Forms and Intake
 Asana can accept work requests from outside the team via Forms. A design team can submit requests to engineering through an Asana form that creates tasks automatically. Linear has no equivalent.
@@ -86,11 +86,11 @@ Linear is modestly cheaper at paid tiers. But for teams that need Asana's Advanc
 - You need custom fields, portfolio views, or intake forms
 - Stakeholder reporting with visual dashboards matters
 - You need a generous free plan for large teams
-- Your team doesn't use GitHub/GitLab centrally
+- Your team doesn't use [GitHub](/tools/github/)/GitLab centrally
 
 ### Choose Linear if:
 - Your team is engineers-only (or engineering-led)
-- GitHub/GitLab integration is critical to your workflow
+- [GitHub](/tools/github/)/GitLab integration is critical to your workflow
 - You value keyboard shortcuts and speed above all else
 - You want an opinionated, focused tool without feature bloat
 - You're comfortable with the 250-issue free plan limit

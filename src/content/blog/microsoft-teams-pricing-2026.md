@@ -36,7 +36,7 @@ The main limitations are:
 
 ## Essentials ($4/user/month): Meetings Without Microsoft 365
 
-The Essentials plan is designed for organizations that want better meetings without buying into the full Microsoft 365 ecosystem. It lifts the meeting duration to 30 hours (effectively unlimited for practical purposes), increases the participant cap to 300, and doubles storage to 10 GB per user.
+The Essentials plan is designed for organizations that want better meetings without buying into the full Microsoft 365 ecosystem. It lifts the meeting duration to 30 [hours](/tools/hours-tracker/) (effectively unlimited for practical purposes), increases the participant cap to 300, and doubles storage to 10 GB per user.
 
 You also get:
 
@@ -79,7 +79,7 @@ For most businesses, this is the plan that makes the most sense. You get everyth
 
 The biggest competitor to Microsoft Teams is [Slack](/tools/slack/). Here is how pricing compares:
 
-| Feature | Teams Business Basic | Slack Pro |
+| Feature | Teams Business Basic | [Slack](/tools/slack/) Pro |
 |---------|---------------------|-----------|
 | Price | $6/user/month | $8.75/user/month |
 | Video meetings | Built-in, 300 participants | Huddles (50 people max) |

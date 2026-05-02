@@ -12,7 +12,7 @@ Switching from Trello to Notion is one of the most common tool migrations in 202
 
 Before diving into the how, here's why teams [make](/tools/make/) the move:
 
-- **All-in-one workspace** — Notion replaces Trello, Google Docs, and wikis
+- **All-in-one workspace** — Notion replaces Trello, [Google Docs](/tools/google-docs/), and wikis
 - **Database power** — views, filters, rollups, and relations go far beyond Trello cards
 - **Better documentation** — rich pages with nested content vs. Trello's limited card descriptions
 - **Cost** — Notion's free plan is more generous for [small teams](/best-for/small-teams/)
@@ -162,14 +162,14 @@ For more on Notion's capabilities, read our [Notion vs ClickUp comparison](/blog
 
 ## The Verdict
 
-Migrating from Trello to Notion takes 1-3 hours for a single board and up to a week for a full team migration. The investment pays off with a more flexible, powerful workspace that grows with your needs.
+Migrating from Trello to Notion takes 1-3 [hours](/tools/hours-tracker/) for a single board and up to a week for a full team migration. The investment pays off with a more flexible, powerful workspace that grows with your needs.
 
 Start with one board, prove the workflow, then expand. Most teams never look back.
 
 ## FAQ
 
 ### Can I use Trello and Notion together?
-Yes. Many teams use Trello for simple task boards and Notion for documentation. Zapier can sync data between them.
+Yes. Many teams use Trello for simple task boards and Notion for documentation. [Zapier](/tools/zapier/) can sync data between them.
 
 ### Will I lose any data during migration?
 Trello comments and attachments may not import perfectly. Export important attachments before migrating.

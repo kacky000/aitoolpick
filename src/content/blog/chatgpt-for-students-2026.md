@@ -61,7 +61,7 @@ Then choose the angle that genuinely interests you and write your own essay. You
 
 Research papers and dense textbook chapters take time to read carefully. ChatGPT can give you a useful orientation before you dive in.
 
-**Paste the abstract or first section and ask:**
+**Paste the [abstract](/tools/abstract-design/) or first section and ask:**
 > "Summarize the key argument, methodology, and conclusions of this paper in plain language. What are the 3 most important points?"
 
 This doesn't replace reading the source — especially if it's a primary source you'll cite — but it makes the reading faster and more focused.

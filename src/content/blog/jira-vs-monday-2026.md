@@ -66,7 +66,7 @@ Monday.com also charges separately for CRM, service desk, and some other "produc
 | Automations | ✅ Developer-grade | ✅ No-code |
 | Free plan | ✅ 10 users | ⚠️ 2 seats |
 | Mobile app | ✅ Good | ✅ Good |
-| Docs | ❌ (needs Confluence) | ✅ Workdocs |
+| Docs | ❌ (needs [Confluence](/tools/confluence/)) | ✅ Workdocs |
 
 ## The User Experience Gap
 
@@ -81,7 +81,7 @@ If your team has no technical PM or Scrum Master, Jira will quickly become a lia
 ## Who Should Use Jira
 
 - Software engineering teams doing formal agile
-- Organizations in the Atlassian ecosystem (Confluence, Bitbucket)
+- Organizations in the Atlassian ecosystem (Confluence, [Bitbucket](/tools/bitbucket/))
 - Teams with 10+ engineers and a dedicated PM
 - Companies that need audit trails and compliance reporting for development work
 
@@ -99,7 +99,7 @@ Many growing companies hit this wall: engineers want Jira (or Linear), while the
 Common resolution patterns:
 1. **Engineering uses Jira, business uses Monday** — with a shared integration to sync milestones
 2. **Everyone uses Monday** — engineering compromises on sprint management for simplicity
-3. **Everyone uses Jira** — non-engineers struggle and often create shadow systems in Google Sheets anyway
+3. **Everyone uses Jira** — non-engineers struggle and often create shadow systems in [Google Sheets](/tools/google-sheets/) anyway
 
 There is no perfect answer. The choice depends on which team's workflow you optimize for.
 

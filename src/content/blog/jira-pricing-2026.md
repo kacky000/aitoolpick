@@ -53,7 +53,7 @@ Jira's headline price is only part of the story. Most organizations end up payin
 
 | Add-On | Price |
 |--------|-------|
-| Confluence (wiki/docs) | $5.16/user/month (Standard) |
+| [Confluence](/tools/confluence/) (wiki/docs) | $5.16/user/month (Standard) |
 | Jira Product Discovery | $10/creator/month |
 | Jira Service Management | $22.05/agent/month (Standard) |
 | Atlassian Access (SSO) | $4/user/month |
@@ -77,7 +77,7 @@ Jira is mid-range on headline pricing but premium when add-ons are included.
 
 **Yes, if:**
 - You have 50+ engineers with complex workflows
-- You are already using Confluence and Bitbucket (the integration value is real)
+- You are already using Confluence and [Bitbucket](/tools/bitbucket/) (the integration value is real)
 - You need Atlassian Intelligence or Advanced Roadmaps
 - Compliance and audit logs are required
 

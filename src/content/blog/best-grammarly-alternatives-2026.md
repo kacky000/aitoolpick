@@ -20,7 +20,7 @@ For context, see our [Grammarly review](/blog/grammarly-review-2026) and [free v
 
 ProWritingAid goes deeper than grammar checking. It analyzes readability, sentence structure, overused words, pacing, and writing style. The detailed reports help you actually improve your writing over time, not just fix individual errors.
 
-Integrates with Word, Google Docs, Scrivener, and browsers.
+Integrates with Word, [Google Docs](/tools/google-docs/), Scrivener, and browsers.
 
 **Best for**: Authors, bloggers, and anyone who wants to improve their writing [craft](/tools/craft/).
 

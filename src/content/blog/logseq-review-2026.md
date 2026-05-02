@@ -42,7 +42,7 @@ Unlike [Obsidian](/tools/obsidian/) (which uses flat Markdown files), Logseq's b
 
 ### Bidirectional Linking and Graph View
 
-Like Obsidian, Logseq supports `[[wikilinks]]` to create connections between pages. These backlinks are bidirectional — when you link from Page A to Page B, Page B automatically shows "linked references" from Page A.
+Like [Obsidian](/tools/obsidian/), Logseq supports `[[wikilinks]]` to create connections between pages. These backlinks are bidirectional — when you link from Page A to Page B, Page B automatically shows "linked references" from Page A.
 
 The **graph view** visualizes all these connections as an interactive network map. It's especially useful for researchers and writers who want to see how ideas cluster and connect.
 
@@ -60,7 +60,7 @@ This database-like capability sets Logseq apart from simpler note apps.
 
 ### Plugins and Themes
 
-The plugin ecosystem is smaller than Obsidian's (which has 1,000+ community plugins) but covers the essentials: calendar views, custom themes, flashcard review (spaced repetition), whiteboards, and more.
+The plugin ecosystem is smaller than [Obsidian](/tools/obsidian/)'s (which has 1,000+ community plugins) but covers the essentials: calendar views, custom themes, flashcard review (spaced repetition), whiteboards, and more.
 
 ## Pros and Cons
 
@@ -117,7 +117,7 @@ The main barrier is the learning curve and less-polished mobile experience. If y
 
 **Rating: 4.4 / 5**
 
-For most casual users, **Notion** (for collaboration and flexibility) or **Obsidian** (for Markdown-first power users) might be more immediately accessible. But for the right user, Logseq is unmatched.
+For most casual users, **[Notion](/tools/notion/)** (for collaboration and flexibility) or **Obsidian** (for Markdown-first power users) might be more immediately accessible. But for the right user, Logseq is unmatched.
 
 Explore all options in our [best note-taking apps for 2026](/blog/best-note-taking-apps-2026) or [best free note-taking apps](/blog/best-free-note-taking-apps-2026) roundups.
 

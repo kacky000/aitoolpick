@@ -21,7 +21,7 @@ This guide compares the five best email marketing tools for small businesses in 
 | [Mailchimp](/tools/mailchimp/) | 500 contacts, 1,000 emails/mo | $13/month | Beginners, all-in-one |
 | ConvertKit | 10,000 subscribers | $25/month | Creators, bloggers |
 | [Brevo](/tools/brevo/) | 300 emails/day, unlimited contacts | $9/month | Budget-conscious |
-| MailerLite | 1,000 subscribers, 12,000 emails/mo | $10/month | Simplicity |
+| [MailerLite](/tools/mailerlite/) | 1,000 subscribers, 12,000 emails/mo | $10/month | Simplicity |
 | Constant Contact | 60-day trial | $12/month | Events, nonprofits |
 
 ---
@@ -54,7 +54,7 @@ Mailchimp is the most recognized email marketing tool in the world, and for good
 
 ## 2. ConvertKit — Best for Creators and Bloggers
 
-ConvertKit (now rebranding as Kit) was built specifically for content creators — bloggers, podcasters, YouTubers, and newsletter writers. Its approach to subscriber management using tags and sequences is more flexible than traditional list-based platforms.
+ConvertKit (now rebranding as [Kit](/tools/kit/)) was built specifically for content creators — bloggers, podcasters, YouTubers, and newsletter writers. Its approach to subscriber management using tags and sequences is more flexible than traditional list-based platforms.
 
 **Strengths:**
 - Tag-based subscriber management (no duplicate contacts across lists)

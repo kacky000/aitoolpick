@@ -86,7 +86,7 @@ Canva has become the default design tool for social media, and its AI features i
 
 **AI-powered design workflow:**
 
-1. **Magic Design:** Describe the visual you want in plain language, and Canva generates multiple design options. "Instagram post about morning workout routine, energetic colors, fitness theme" produces usable starting points.
+1. **Magic Design:** Describe the visual you want in plain language, and Canva generates multiple design options. "Instagram post about morning workout [routine](/tools/routine/), energetic colors, fitness theme" produces usable starting points.
 
 2. **Background removal and replacement:** Upload a product photo and [instantly](/tools/instantly/) swap backgrounds for different platforms or seasons.
 
@@ -94,7 +94,7 @@ Canva has become the default design tool for social media, and its AI features i
 
 4. **Text-to-image:** Generate custom illustrations and graphics from text descriptions when stock photos do not fit.
 
-5. **Brand Kit consistency:** Set up your brand colors, fonts, and logos once, and every design stays on-brand automatically.
+5. **Brand [Kit](/tools/kit/) consistency:** Set up your brand colors, fonts, and logos once, and every design stays on-brand automatically.
 
 **Batch production tip:** Design one "master" post, then use Magic Resize to create all platform variants. This produces 5-6 platform-specific graphics from a single design in under 2 minutes.
 
@@ -108,7 +108,7 @@ Once your content is created, you need to get it published at the right time on 
 
 Zapier connects your content creation tools to your publishing platforms. Example workflows:
 
-- **Google Sheets to social platforms:** Maintain a content calendar in Google Sheets. When a row's "Status" column changes to "Approved," Zapier automatically publishes the post to your connected social accounts at the scheduled time.
+- **[Google Sheets](/tools/google-sheets/) to social platforms:** Maintain a content calendar in Google Sheets. When a row's "Status" column changes to "Approved," Zapier automatically publishes the post to your connected social accounts at the scheduled time.
 
 - **RSS to social:** When you publish a new blog post, Zapier automatically creates social media posts promoting it across all your platforms.
 
@@ -186,7 +186,7 @@ Here is a realistic weekly workflow using this AI-powered system:
 | Daily | Review and respond to engagement | 15 min/day | ChatGPT drafts + manual review |
 | Friday | Review weekly analytics | 20 min | Claude + platform analytics |
 
-**Total weekly time: ~4-5 hours** (compared to 10-20 hours without AI tools)
+**Total weekly time: ~4-5 [hours](/tools/hours-tracker/)** (compared to 10-20 hours without AI tools)
 
 ## Common Mistakes to Avoid
 

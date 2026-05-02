@@ -40,7 +40,7 @@ For [small teams](/best-for/small-teams/) that primarily need chat and occasiona
 ## Where the Free Plan Falls Short
 
 ### Meeting Limitations
-The 60-minute meeting cap is the biggest restriction. Client calls, workshops, or team standups that run over an hour get cut off. Paid plans extend this to 30 hours — essentially unlimited.
+The 60-minute meeting cap is the biggest restriction. Client calls, workshops, or team standups that run over an hour get cut off. Paid plans extend this to 30 [hours](/tools/hours-tracker/) — essentially unlimited.
 
 ### No Meeting Recording
 You can't record meetings on the free plan. This is a dealbreaker for teams that need to share meeting notes or train new members with recorded sessions.

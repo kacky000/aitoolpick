@@ -37,7 +37,7 @@ But they're built for different users. Here's the definitive comparison.
 
 Both models are strong writers, but with different styles:
 
-**Gemini** tends to produce more creative, flowing prose. It handles tone variation well and excels at drafting blog posts, emails, and social copy. Integration with Google Docs lets you refine documents directly in your editor.
+**Gemini** tends to produce more creative, flowing prose. It handles tone variation well and excels at drafting blog posts, emails, and social copy. Integration with [Google Docs](/tools/google-docs/) lets you refine documents directly in your editor.
 
 **Copilot in Word** shines for business writing. The ability to summarize a long document, rewrite paragraphs in a meeting context, or generate a report from bullet points inside Word itself is genuinely useful. The interface is more constrained but more targeted.
 

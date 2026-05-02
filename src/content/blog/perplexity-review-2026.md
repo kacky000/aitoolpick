@@ -39,7 +39,7 @@ ChatGPT and [Claude](/tools/claude/) can provide sources when asked, but they fr
 
 ### Real-Time Web Access
 
-Perplexity searches the web for every query. Ask about something that happened an hour ago, and it will find coverage. This is table-stakes for a search engine but still an advantage over ChatGPT's training data cutoff (even with browsing enabled, ChatGPT's web access is less reliable).
+Perplexity searches the web for every query. Ask about something that happened an hour ago, and it will find coverage. This is table-stakes for a search engine but still an advantage over [ChatGPT](/tools/chatgpt/)'s training data cutoff (even with browsing enabled, ChatGPT's web access is less reliable).
 
 For financial data, breaking news, sports scores, or any time-sensitive query, Perplexity consistently returns current information.
 
@@ -50,10 +50,10 @@ Pro subscribers can narrow searches to specific sources:
 - **Academic**: Searches academic papers and journals
 - **YouTube**: Searches video transcripts
 - **Reddit**: Surfaces Reddit discussions
-- **Writing**: Generates text without web search (like ChatGPT)
+- **Writing**: Generates text without web search (like [ChatGPT](/tools/chatgpt/))
 - **Math**: Step-by-step problem solving
 
-Academic Focus is particularly strong. It pulls from PubMed, arXiv, and Google Scholar, returning answers with citations to peer-reviewed papers. For literature reviews and research summaries, this saves hours compared to manual searching.
+Academic Focus is particularly strong. It pulls from PubMed, arXiv, and Google Scholar, returning answers with citations to peer-reviewed papers. For literature reviews and research summaries, this saves [hours](/tools/hours-tracker/) compared to manual searching.
 
 ### Collections
 
@@ -75,7 +75,7 @@ Always click through to sources for anything important. Perplexity is a research
 
 ### Document Analysis Is Basic
 
-Pro subscribers can upload PDFs, images, and CSVs for analysis. The feature works, but it's less capable than ChatGPT's Advanced Data Analysis or Claude's document handling. Complex spreadsheets, multi-page PDFs, and nuanced image analysis are better handled by dedicated tools.
+Pro subscribers can upload PDFs, images, and CSVs for analysis. The feature works, but it's less capable than ChatGPT's Advanced Data Analysis or [Claude](/tools/claude/)'s document handling. Complex spreadsheets, multi-page PDFs, and nuanced image analysis are better handled by dedicated tools.
 
 ### No Offline Mode
 
@@ -100,7 +100,7 @@ The sweet spot for Perplexity: questions that would require reading 3-5 Google r
 
 ## Pricing: Is Pro Worth It?
 
-At $20/month, Perplexity Pro competes directly with ChatGPT Plus ($20/month) and Claude Pro ($20/month). The value depends on how you use AI:
+At $20/month, Perplexity Pro competes directly with ChatGPT Plus ($20/month) and [Claude](/tools/claude/) Pro ($20/month). The value depends on how you use AI:
 
 - **Primarily for research and fact-finding**: Perplexity Pro is the strongest option.
 - **Primarily for writing and coding**: ChatGPT Plus or Claude Pro are better choices.

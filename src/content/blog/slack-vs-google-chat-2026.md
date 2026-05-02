@@ -26,7 +26,7 @@ Google Chat has improved dramatically since it replaced Google Hangouts. In 2025
 - **Gemini AI integration** — AI-powered message summaries, smart replies, and Gemini chatbot in Chat
 - **Improved search** — Better search across messages and shared files
 - **Better mobile apps** — The mobile experience has closed the gap with Slack substantially
-- **Native integration with Google Meet** — One-click video calls from Chat conversations
+- **Native integration with [Google Meet](/tools/google-meet/)** — One-click video calls from Chat conversations
 
 Google Chat is now a genuinely capable team messaging tool. For Google Workspace organizations, it covers 80-90% of what Slack does at no additional cost.
 

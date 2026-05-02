@@ -84,7 +84,7 @@ The real power is template reuse. Build a template for recurring events and dupl
 
 Every event needs visual assets — save-the-dates, signage, name badges, social posts, and programs. Canva handles all of it without design skills. The event template library covers conference banners, invitations, flyers, and webinar graphics.
 
-Brand Kit locks in your colors and fonts so every team member's designs stay on-brand. Magic Resize takes a single flyer and generates versions for Instagram, Facebook, email, and print in one click.
+Brand [Kit](/tools/kit/) locks in your colors and fonts so every team member's designs stay on-brand. Magic Resize takes a single flyer and generates versions for Instagram, Facebook, email, and print in one click.
 
 **Best for**: Event marketers, teams without a dedicated designer, anyone creating event-day signage and printed materials
 

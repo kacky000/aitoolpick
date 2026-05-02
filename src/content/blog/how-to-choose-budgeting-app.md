@@ -48,14 +48,14 @@ This is the biggest decision point:
 | [YNAB](/tools/ynab) | $99/year | ✅ | Web, iOS, Android |
 | Monarch Money | $99/year | ✅ | Web, iOS, Android |
 | Copilot | $69/year | ✅ | iOS, Mac only |
-| Goodbudget | Free / $80/yr | ❌ | Web, iOS, Android |
+| [Goodbudget](/tools/goodbudget/) | Free / $80/yr | ❌ | Web, iOS, Android |
 | [Notion](/tools/notion) | Free | ❌ | All platforms |
-| Google Sheets | Free | ❌ | All platforms |
+| [Google Sheets](/tools/google-sheets/) | Free | ❌ | All platforms |
 
 ## Step 4: Consider Your Lifestyle
 
 ### Couples / Families
-Choose YNAB or Monarch Money — both support shared budgets where multiple people can categorize and track together.
+Choose [YNAB](/tools/ynab/) or Monarch Money — both support shared budgets where multiple people can categorize and track together.
 
 ### Students
 Start with a free [Notion budget template](/tools/notion) or Google Sheets. You probably don't need bank sync yet, and the manual entry habit builds financial awareness.
@@ -64,7 +64,7 @@ Start with a free [Notion budget template](/tools/notion) or Google Sheets. You 
 [YNAB](/tools/ynab) excels here because its "age your money" concept helps you buffer against irregular income. You budget based on money you *have*, not money you *expect*.
 
 ### Minimalists
-Goodbudget's free tier or a simple spreadsheet. You don't need 50 categories — sometimes 5 envelopes are enough.
+[Goodbudget](/tools/goodbudget/)'s free tier or a simple spreadsheet. You don't need 50 categories — sometimes 5 envelopes are enough.
 
 ## Quick Decision Framework
 
@@ -72,7 +72,7 @@ Goodbudget's free tier or a simple spreadsheet. You don't need 50 categories —
 |---------------|------------|
 | Want a proven system that works | [YNAB](/tools/ynab) |
 | Apple ecosystem, beautiful UI | Copilot |
-| Couples budgeting together | YNAB or Monarch Money |
+| Couples budgeting together | [YNAB](/tools/ynab/) or Monarch Money |
 | Full control, zero cost | [Notion](/tools/notion) or Google Sheets |
 | Debt payoff focus | YNAB |
 

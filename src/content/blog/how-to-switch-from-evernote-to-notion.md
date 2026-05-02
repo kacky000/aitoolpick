@@ -144,7 +144,7 @@ For those exploring other options, see our [best Evernote alternatives for 2026]
 
 ## Is the Switch Worth It?
 
-For most Evernote users, yes. The migration takes 2–4 hours depending on library size, and Notion's flexibility makes it a more durable long-term choice. The database-first approach has a learning curve, but it unlocks genuinely powerful ways to manage information that Evernote can't match.
+For most Evernote users, yes. The migration takes 2–4 [hours](/tools/hours-tracker/) depending on library size, and Notion's flexibility makes it a more durable long-term choice. The database-first approach has a learning curve, but it unlocks genuinely powerful ways to manage information that Evernote can't match.
 
 ---
 

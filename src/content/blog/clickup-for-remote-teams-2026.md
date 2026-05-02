@@ -95,7 +95,7 @@ This eliminates entire categories of sync meetings. The recording lives in conte
 
 | Integration | Why It Matters |
 |-------------|---------------|
-| **Slack** | Notifications, task creation from messages, status updates |
+| **[Slack](/tools/slack/)** | Notifications, task creation from messages, status updates |
 | **[Zoom](/tools/zoom/)/Google Meet** | Attach meeting links directly to tasks |
 | **[GitHub](/tools/github/)/GitLab** | Link PRs and commits to ClickUp tasks |
 | **[Google Drive](/tools/google-drive/)** | Attach Docs/Sheets to tasks without file duplication |

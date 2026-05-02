@@ -37,7 +37,7 @@ Notable dev communities on Discord in 2026:
 
 Discord's "voice channel" model is fundamentally different from Slack's. In Discord, you join a persistent voice channel and others can see you're there and join. In Slack, you have to initiate a Huddle explicitly.
 
-For dev teams that do a lot of informal pairing, quick voice check-ins, or "office hours" style availability, Discord's model is more natural. You can see that two engineers are already in the "debugging" voice channel and jump in without scheduling anything.
+For dev teams that do a lot of informal pairing, quick voice check-ins, or "office [hours](/tools/hours-tracker/)" style availability, Discord's model is more natural. You can see that two engineers are already in the "debugging" voice channel and jump in without scheduling anything.
 
 ### Cost for Larger Communities
 

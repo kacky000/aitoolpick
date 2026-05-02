@@ -62,7 +62,7 @@ Notion's search has improved but remains a weak point. Full-text search across y
 
 ## Reminders and Notifications
 
-Google Keep has native time and location-based reminders built in. Set a reminder on a note and it appears in Google Calendar and sends a phone notification. This is built for the "remember to buy milk when I'm near the grocery store" use case.
+Google Keep has native time and location-based reminders built in. Set a reminder on a note and it appears in [Google Calendar](/tools/google-calendar/) and sends a phone notification. This is built for the "remember to buy milk when I'm near the grocery store" use case.
 
 Notion has reminder features but they are less seamless on mobile. For task-based reminders tied to notes, Notion works — but it requires more setup.
 

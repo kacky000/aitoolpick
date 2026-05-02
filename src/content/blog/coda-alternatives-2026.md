@@ -6,7 +6,7 @@ heroImage: "/thumbs/coda-alternatives-2026.jpg"
 tags: ["coda", "alternatives", "productivity", "docs", "databases", "notion"]
 lastModified: "2026-04-26"
 ---
-Coda is powerful — but it's not for everyone. The price is higher than most alternatives, the learning curve is real, and for many teams, the unique features (interactive buttons, deep formula language) aren't what they actually need.
+[Coda](/tools/notion-alternative-coda/) is powerful — but it's not for everyone. The price is higher than most alternatives, the learning curve is real, and for many teams, the unique features (interactive buttons, deep formula language) aren't what they actually need.
 
 Here are the best Coda alternatives in 2026, organized by the specific reason you might be looking for something else.
 
@@ -75,7 +75,7 @@ It doesn't have Coda's interactive features, but it also doesn't need them. Conf
 **Price:** Free (included with Google Workspace)  
 **Best for:** Teams that need basic internal docs and already use Google Workspace
 
-For teams primarily using Coda as a documentation layer with some table data, Google Sites (for internal wikis) plus Google Sheets (for data) is a free alternative that covers 70% of use cases. No learning curve if you already use Google products.
+For teams primarily using Coda as a documentation layer with some table data, Google Sites (for internal wikis) plus [Google Sheets](/tools/google-sheets/) (for data) is a free alternative that covers 70% of use cases. No learning curve if you already use Google products.
 
 The obvious limitation: no interconnection between Sites and Sheets, no formulas spanning both, no interactive buttons. You're cobbling together separate tools rather than using an integrated platform.
 

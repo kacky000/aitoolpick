@@ -10,7 +10,7 @@ lastModified: "2026-04-28"
 
 ## What Is Harvest?
 
-Harvest is a time tracking and invoicing platform designed for teams that sell their time. It combines simple time tracking with project budgeting, expense management, team capacity analysis, and native invoicing — all in one tool. The idea is straightforward: track time, set budgets, invoice clients, get paid.
+[Harvest](/tools/harvest-time/) is a time tracking and invoicing platform designed for teams that sell their time. It combines simple time tracking with project budgeting, expense management, team capacity analysis, and native invoicing — all in one tool. The idea is straightforward: track time, set budgets, invoice clients, get paid.
 
 ## Harvest Pricing 2026
 
@@ -30,7 +30,7 @@ This flat pricing structure means you get invoicing, budgets, expense tracking, 
 Harvest offers multiple ways to log time:
 
 - **Timer**: One-click start/stop on any project and task
-- **Manual entry**: Type hours directly into timesheets
+- **Manual entry**: Type [hours](/tools/hours-tracker/) directly into timesheets
 - **Weekly timesheets**: Fill out an entire week at once
 - **Reminders**: Nudge team members who haven't logged time
 
@@ -43,7 +43,7 @@ This is where Harvest differentiates from [Toggl Track](/tools/toggl-track/) and
 - Generate invoices directly from tracked time and expenses
 - Customize invoice templates with your branding
 - Set different billable rates per person, project, or task
-- Accept online payments (via Stripe/PayPal integration)
+- Accept online payments (via [Stripe](/tools/stripe/)/PayPal integration)
 - Track invoice status (draft, sent, paid, overdue)
 - Set up recurring invoices for retainer clients
 
@@ -90,7 +90,7 @@ Log expenses against projects with receipt attachments. Expenses can be marked a
 - **Limited free plan**: Only 1 seat and 2 projects
 - **No scheduling**: Can't plan future resource allocation
 - **No project management**: Purely tracking and billing, no task boards or Gantt
-- **UI feels dated**: Functional but not as modern as Toggl Track
+- **UI feels dated**: Functional but not as modern as [Toggl Track](/tools/toggl-track/)
 - **No AI features**: No auto-categorization, predictions, or smart suggestions
 
 ## Who Should Use Harvest?

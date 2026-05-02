@@ -34,7 +34,7 @@ When your writing needs accurate citations and sourced facts, Perplexity combine
 
 ### Best Style Guide: Hemingway Editor
 **Price:** Free (web) / $19.99 one-time (desktop)  
-Hemingway highlights complex sentences, passive voice, and adverb overuse. It won't fix your grammar, but it will make your prose punchier.
+Hemingway highlights complex sentences, passive voice, and adverb overuse. It won't fix your grammar, but it will [make](/tools/make/) your prose punchier.
 
 ### Best for Academic Writing: ProWritingAid
 **Price:** Free / $10/mo  
@@ -66,7 +66,7 @@ No formatting menus, no distractions — just you and your words. Focus mode dim
 
 ### Best for Book-Length Projects: Scrivener
 **Price:** $49 one-time  
-Scrivener's binder lets you organize chapters, scenes, research, and character notes in one project. The corkboard view is perfect for plotting. Essential for novelists and non-fiction authors.
+[Scrivener](/tools/scrivener/)'s binder lets you organize chapters, scenes, research, and character notes in one project. The corkboard view is perfect for plotting. Essential for novelists and non-fiction authors.
 
 ### Best Free Option: Google Docs
 **Price:** Free  
@@ -108,7 +108,7 @@ Writers who create their own social graphics need [Canva](/tools/canva/). Turn b
 | [Obsidian](/tools/obsidian) | Research knowledge base | $0 |
 | [Perplexity](/tools/perplexity) Pro | Sourced research | $20/mo |
 | ProWritingAid | Academic writing analysis | $10/mo |
-| Zotero | Citation management | $0 |
+| [Zotero](/tools/zotero/) | Citation management | $0 |
 | **Total** | | **$30/month** |
 
 ---

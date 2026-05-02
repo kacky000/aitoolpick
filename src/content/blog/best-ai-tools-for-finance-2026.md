@@ -6,7 +6,7 @@ tags: ["ai-tools", "finance", "productivity", "best-of"]
 ---
 Looking for the best ai tools for finance professionals? We tested and compared the top options available in 2026, evaluating features, pricing, ease of use, and real-world performance.
 
-Finance professionals deal with numbers, deadlines, and regulations simultaneously. Whether you're building financial models, reviewing compliance documents, or tracking market movements, the right AI tool can cut hours off your week without sacrificing accuracy.
+Finance professionals deal with numbers, deadlines, and regulations simultaneously. Whether you're building financial models, reviewing compliance documents, or tracking market movements, the right AI tool can cut [hours](/tools/hours-tracker/) off your week without sacrificing accuracy.
 
 The challenge is picking the right tool for the right job. A chatbot that drafts emails well might be terrible at interpreting balance sheets. A research tool with real-time data might lack the depth you need for regulatory analysis. This guide covers eight AI tools that actually deliver value for finance work in 2026, with honest assessments of where each one falls short.
 
@@ -44,7 +44,7 @@ The 200K token context window is the key differentiator. Most finance documents 
 
 **Key benefit**: Deep reasoning on complex, lengthy financial documents without losing context.
 
-**Limitation**: Like ChatGPT, Claude doesn't connect to live data sources. Its knowledge has a training cutoff, so it won't know about regulatory changes from the past few months unless you provide the text directly.
+**Limitation**: Like ChatGPT, [Claude](/tools/claude/) doesn't connect to live data sources. Its knowledge has a training cutoff, so it won't know about regulatory changes from the past few months unless you provide the text directly.
 
 ## 3. Perplexity AI — Best for Real-Time Market Research
 
@@ -52,7 +52,7 @@ The 200K token context window is the key differentiator. Most finance documents 
 
 Perplexity fills a gap that general-purpose chatbots can't: real-time, citation-backed research. For finance professionals who need current information rather than training-data summaries, it's invaluable.
 
-- **Market research** — ask about a company's recent earnings, stock performance, or analyst consensus and get answers with linked sources
+- **Market research** — ask about a company's recent earnings, stock performance, or analyst [consensus](/tools/consensus/) and get answers with linked sources
 - **Competitive intelligence** — quickly compile what competitors are doing, with citations to news articles and filings
 - **Economic data** — get the latest CPI numbers, Fed rate decisions, or employment data with direct links to primary sources
 - **Due diligence** — research a company's recent news, lawsuits, and executive changes before a meeting
@@ -72,13 +72,13 @@ If your finance team lives in Google Sheets, Gmail, and [Google Drive](/tools/go
 - **Sheets integration** — generate formulas, create pivot tables, and analyze data without leaving your spreadsheet
 - **Gmail drafting** — compose professional financial communications with context from your inbox
 - **Drive search** — find that Q3 budget file buried somewhere in shared drives using natural language
-- **Slides** — turn financial data into presentation-ready charts and summaries
+- **[Slides](/tools/slides-com/)** — turn financial data into presentation-ready charts and summaries
 
-The real advantage is zero context-switching. When you're already in Google Sheets working on a budget model, having AI assistance built directly into the tool saves the copy-paste overhead of switching to a separate chatbot.
+The real advantage is zero context-switching. When you're already in [Google Sheets](/tools/google-sheets/) working on a budget model, having AI assistance built directly into the tool saves the copy-paste overhead of switching to a separate chatbot.
 
 **Key benefit**: Native integration with tools finance teams already use daily.
 
-**Limitation**: Gemini's analytical capabilities are a step behind ChatGPT and Claude for complex financial reasoning. It's better as a workflow accelerator within Google's ecosystem than as a standalone analysis tool.
+**Limitation**: Gemini's analytical capabilities are a step behind ChatGPT and [Claude](/tools/claude/) for complex financial reasoning. It's better as a workflow accelerator within Google's ecosystem than as a standalone analysis tool.
 
 ## 5. YNAB (You Need A Budget) — Best AI-Powered Personal Finance Budgeting
 

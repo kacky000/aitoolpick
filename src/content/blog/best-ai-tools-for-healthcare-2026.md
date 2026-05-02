@@ -90,7 +90,7 @@ Here are the best AI tools for healthcare professionals this year.
 **Why healthcare professionals love it:**
 - Summarizes lengthy email threads
 - Generates spreadsheet formulas for data analysis
-- Creates presentation slides from research data
+- Creates presentation [slides](/tools/slides-com/) from research data
 - 1M token context window for large documents
 
 **Pricing:** Free tier. Advanced at $19.99/month with Google One.

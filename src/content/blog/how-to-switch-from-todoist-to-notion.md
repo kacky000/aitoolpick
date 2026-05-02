@@ -57,7 +57,7 @@ Do not try to replicate Todoist's exact structure in Notion. Instead, design a s
 |---------|-------------------|
 | Projects | Database with "Project" property (Select or Relation) |
 | Sections | Database views filtered by group, or a separate "Section" property |
-| Tasks | Database rows |
+| Tasks | Database [rows](/tools/rows/) |
 | Sub-tasks | Sub-items in a database, or toggle blocks within a page |
 | Labels | Multi-select property called "Tags" |
 | Priorities (P1-P4) | Select property with 4 options |

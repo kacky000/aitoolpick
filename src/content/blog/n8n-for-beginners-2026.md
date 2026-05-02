@@ -107,10 +107,10 @@ Master the IF node and you can build workflows that handle exceptions gracefully
 
 | Situation | Choose |
 |-----------|--------|
-| Need to start immediately, no setup | Zapier |
+| Need to start immediately, no setup | [Zapier](/tools/zapier/) |
 | Running 1,000+ tasks/month | n8n (self-hosted) |
 | Need JavaScript inside workflows | n8n |
-| Want 7,000+ app integrations | Zapier |
+| Want 7,000+ app integrations | [Zapier](/tools/zapier/) |
 | Budget-conscious with technical skill | n8n |
 | Non-technical team | Zapier |
 

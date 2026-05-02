@@ -47,7 +47,7 @@ Create custom dashboards to visualize project status, team capacity, and progres
 Built-in time-tracking helps you understand where your team is actually spending time. Pair this with reporting, and you can identify bottlenecks and optimize capacity.
 
 ### ClickUp Brain (AI Features)
-The AI assistant can generate task summaries, write descriptions, and suggest automations. For knowledge work, this can save 5-10 hours per month per user—making the $9/month add-on worth the investment.
+The AI assistant can generate task summaries, write descriptions, and suggest automations. For knowledge work, this can save 5-10 [hours](/tools/hours-tracker/) per month per user—making the $9/month add-on worth the investment.
 
 ## Pros: Why People Love ClickUp
 
@@ -95,10 +95,10 @@ Agencies benefit from custom fields, client portals, and time-tracking. The abil
 ClickUp's collaboration features, docs, and dashboards help remote teams stay aligned without constant [Slack](/tools/slack/) messages.
 
 **Data-Driven Organizations**
-If your team loves dashboards, reporting, and metrics, ClickUp's analytics and custom reporting make it a natural fit.
+If your team loves dashboards, reporting, and metrics, ClickUp's analytics and custom reporting [make](/tools/make/) it a natural fit.
 
 **NOT the right fit for:**
-- Teams wanting dead-simple project management (try Asana or Monday.com instead)
+- Teams wanting dead-simple project management (try Asana or [Monday.com](/tools/monday/) instead)
 - Organizations with strict mobile-first workflows
 - Companies that need white-label solutions
 
@@ -106,7 +106,7 @@ If your team loves dashboards, reporting, and metrics, ClickUp's analytics and c
 
 **ClickUp vs Asana**: Asana is simpler and more intuitive, but ClickUp offers better value and more features. [ClickUp vs Asana](/blog/clickup-vs-asana-2026) for a detailed breakdown.
 
-**ClickUp vs Monday.com**: Monday is more polished and design-focused, but ClickUp is cheaper and more customizable. The choice depends on your budget and team preferences.
+**ClickUp vs [Monday.com](/tools/monday/)**: Monday is more polished and design-focused, but ClickUp is cheaper and more customizable. The choice depends on your budget and team preferences.
 
 **More options?** Check out [Best ClickUp Alternatives](/blog/best-clickup-alternatives-2026) for other tools to consider.
 

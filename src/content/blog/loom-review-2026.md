@@ -60,7 +60,7 @@ See who watched your video, how much they watched, and when they stopped. For sa
 Loom embeds natively in:
 - [Slack](/tools/slack/) (auto-previews in messages)
 - [Notion](/tools/notion/) (renders inline)
-- Jira and Confluence
+- [Jira](/tools/jira/) and Confluence
 - [Linear](/tools/linear/)
 - [GitHub](/tools/github/)
 
@@ -86,7 +86,7 @@ For [remote teams](/best-for/remote-teams/) already living in Slack and Notion, 
 | [Zoom](/tools/zoom/) clips | Existing Zoom users | Limited |
 | Scribe | Process docs (not video) | 10 docs |
 
-Loom's free plan is the most useful of the group. Vidyard's single-video free tier is nearly useless. Zoom Clips works if your org is all-in on Zoom, but the integration depth doesn't match Loom's.
+Loom's free plan is the most useful of the group. Vidyard's single-video free tier is nearly useless. [Zoom](/tools/zoom/) Clips works if your org is all-in on Zoom, but the integration depth doesn't match Loom's.
 
 ## What Loom Doesn't Do Well
 
@@ -94,7 +94,7 @@ Loom's free plan is the most useful of the group. Vidyard's single-video free ti
 
 **Complex editing**: You can trim and add chapters, but if you need captions, B-roll, or multi-track editing, you need dedicated software.
 
-**Large organizations without Atlassian**: The Atlassian acquisition benefits Atlassian customers specifically. If you're not using Jira or Confluence, the integration advantage disappears.
+**Large organizations without Atlassian**: The Atlassian acquisition benefits Atlassian customers specifically. If you're not using Jira or [Confluence](/tools/confluence/), the integration advantage disappears.
 
 ## Verdict
 

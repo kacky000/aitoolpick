@@ -65,7 +65,7 @@ For a full feature breakdown, see our [Miro review](/blog/miro-review-2026).
 
 **Specific use cases:**
 
-- **Client presentations** — Build decks with embedded renderings and diagrams. Multiple team members work on slides simultaneously with no version conflicts.
+- **Client presentations** — Build decks with embedded renderings and diagrams. Multiple team members work on [slides](/tools/slides-com/) simultaneously with no version conflicts.
 - **Concept diagrams** — Create parti diagrams, circulation studies, and massing diagrams with vector tools. Export as SVG for design documents.
 - **Competition boards** — Lay out panels with precise typography and image placement. Figma's auto-layout handles responsive arrangements.
 
@@ -103,7 +103,7 @@ For a full feature breakdown, see our [Miro review](/blog/miro-review-2026).
 
 ## Putting It Together
 
-No single tool covers everything. The full stack (Monday.com + Notion + Miro + Figma + Slack + Airtable) runs roughly $60-90 per user per month — less than a single hour of most principals' billable time. Not every firm needs all six. A five-person studio might use Notion for both project management and knowledge management, skip Airtable, and stick with Figma's free tier. Start with the tool that addresses your most acute pain point and layer in additional tools as workflows stabilize.
+No single tool covers everything. The full stack ([Monday.com](/tools/monday/) + Notion + Miro + Figma + Slack + Airtable) runs roughly $60-90 per user per month — less than a single hour of most principals' billable time. Not every firm needs all six. A five-person studio might use Notion for both project management and knowledge management, skip Airtable, and stick with Figma's free tier. Start with the tool that addresses your most acute pain point and layer in additional tools as workflows stabilize.
 
 Explore how these tools compare in our full [best project management tools](/blog/best-project-management-tools-2026) roundup.
 

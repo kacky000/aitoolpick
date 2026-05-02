@@ -12,7 +12,7 @@ If you're running a small team and need a [project management](/category/project
 
 ## Quick Verdict
 
-**Choose Trello** if your team thinks visually and wants the simplest possible Kanban board experience. Setup takes minutes, not hours.
+**Choose Trello** if your team thinks visually and wants the simplest possible Kanban board experience. Setup takes minutes, not [hours](/tools/hours-tracker/).
 
 **Choose Asana** if your team needs structured [task management](/category/task-management/) with multiple views, subtasks, and room to grow into more complex workflows.
 

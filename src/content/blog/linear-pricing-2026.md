@@ -6,7 +6,7 @@ heroImage: "/thumbs/linear-pricing-2026.jpg"
 tags: ["linear", "pricing", "project-management"]
 lastModified: "2026-04-26"
 ---
-**Linear** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
+**[Linear](/tools/linear-app/)** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
 Linear has become the go-to issue tracking tool for modern engineering teams. But is it worth the price? Here's a complete breakdown of Linear's pricing in 2026, including what you get at each tier and who each plan is designed for.
 
@@ -109,7 +109,7 @@ Read more: [Linear vs Asana comparison](/blog/linear-vs-asana-2026)
 ### It's worth it if:
 
 - Your team values **speed and keyboard-driven workflows**
-- You're tired of Jira's complexity and slow performance
+- You're tired of [Jira](/tools/jira/)'s complexity and slow performance
 - You need **tight Git integration** without configuration headaches
 - You want a tool that **developers actually enjoy using**
 - Your team is growing and needs better issue tracking
@@ -118,7 +118,7 @@ Read more: [Linear vs Asana comparison](/blog/linear-vs-asana-2026)
 
 - You need features beyond issue tracking (docs, wikis, CRM)
 - Your team isn't primarily engineering-focused
-- You need extensive customization (Jira's flexibility is unmatched)
+- You need extensive customization ([Jira](/tools/jira/)'s flexibility is unmatched)
 - Budget is extremely tight (the free plan covers most needs)
 
 ## Tips to Save on Linear

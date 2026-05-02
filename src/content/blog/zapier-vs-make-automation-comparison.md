@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Zapier** and **Make Automation Comparison** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-Automation tools save hours of repetitive work every week. Zapier and Make (formerly Integromat) are the two dominant players, but they take very different approaches. Zapier prioritizes simplicity and breadth, while Make offers raw power and flexibility at a lower price.
+Automation tools save [hours](/tools/hours-tracker/) of repetitive work every week. Zapier and Make (formerly Integromat) are the two dominant players, but they take very different approaches. Zapier prioritizes simplicity and breadth, while Make offers raw power and flexibility at a lower price.
 
 Here's our full comparison to help you pick the right one.
 
@@ -56,7 +56,7 @@ This is where Make pulls ahead. Zapier workflows (called "Zaps") are essentially
 Make scenarios support:
 
 - **Branching and merging** — split a workflow into parallel paths and rejoin them
-- **Loops and iterators** — process arrays of data item by item
+- **[Loops](/tools/loops/) and iterators** — process arrays of data item by item
 - **Error handling** — catch errors and define fallback routes
 - **Aggregators** — combine multiple items back into one
 - **Scheduling granularity** — run scenarios at specific intervals down to the minute

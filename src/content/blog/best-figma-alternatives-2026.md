@@ -24,7 +24,7 @@ Canva isn't a direct Figma competitor — it's a design tool built for everyone,
 - Extremely easy to use with drag-and-drop interface
 - Massive template library (250,000+ designs)
 - Built-in stock photos, videos, and illustrations
-- Brand kit for consistent visual identity
+- Brand [kit](/tools/kit/) for consistent visual identity
 - Magic Resize for adapting designs across platforms
 - AI-powered features (text-to-image, background removal)
 
@@ -46,7 +46,7 @@ Sketch was the design industry standard before Figma took the crown. It's still 
 
 **Pros:**
 - Lightning-fast native macOS performance
-- Mature plugin ecosystem (Sketch Cloud, Abstract, Zeplin)
+- Mature plugin ecosystem (Sketch Cloud, [Abstract](/tools/abstract-design/), Zeplin)
 - Clean, focused interface without bloat
 - Affordable at $12/month per editor
 - Robust symbol and component system

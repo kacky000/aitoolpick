@@ -14,7 +14,7 @@ Here are the best AI tools for lawyers in 2026, with specific use cases for each
 
 ## Why AI Now for Legal Work
 
-The legal industry's main bottleneck has always been time. Associates bill 60-80 hours per week. Much of that time goes to tasks that are systematic, not strategic: reviewing contracts, researching case law, drafting boilerplate, summarizing depositions.
+The legal industry's main bottleneck has always been time. Associates bill 60-80 [hours](/tools/hours-tracker/) per week. Much of that time goes to tasks that are systematic, not strategic: reviewing contracts, researching case law, drafting boilerplate, summarizing depositions.
 
 AI doesn't replace legal judgment. It removes the friction from the surrounding work so lawyers can focus on the parts that actually require expertise.
 
@@ -55,14 +55,14 @@ The ChatGPT Code Interpreter is also useful for analyzing data-heavy legal work 
 
 **Price**: Free / $20/month (Pro)
 
-Perplexity cites its sources, which makes it far safer than ChatGPT for research tasks. It won't give you the depth of Westlaw or LexisNexis, but it's excellent for:
+Perplexity cites its sources, which makes it far safer than ChatGPT for research tasks. It won't give you the depth of Westlaw or [LexisNexis](/tools/lexisnexis-legal/), but it's excellent for:
 
 - **Background research**: Understand a new practice area before a client meeting
 - **Regulatory landscape**: Get a quick overview of regulations in an unfamiliar jurisdiction
 - **Competitor intelligence**: Research a counterparty's public litigation history
 - **Current events**: Track recent legal developments in a specific area
 
-Pro tip: Use Perplexity to understand the landscape first, then use Westlaw/LexisNexis for authoritative citation work.
+Pro tip: Use Perplexity to understand the landscape first, then use [Westlaw](/tools/westlaw/)/LexisNexis for authoritative citation work.
 
 → [Perplexity AI review](/blog/perplexity-ai-review-2026/) | [Best Perplexity alternatives](/blog/best-perplexity-alternatives-2026/)
 
@@ -116,7 +116,7 @@ The time saved is often 5-10 hours per week for a mid-size firm. That's real bil
 | Tool | Best For | Free Plan | Paid Starting |
 |------|----------|-----------|---------------|
 | Claude | Long document analysis, contracts | Yes | $20/mo |
-| ChatGPT | Drafting, summaries, memos | Yes | $20/mo |
+| ChatGPT | Drafting, summaries, [memos](/tools/memos/) | Yes | $20/mo |
 | Perplexity AI | Research background, current law | Yes | $20/mo |
 | Notion AI | Knowledge base, firm processes | No (AI add-on) | $10/user/mo |
 | Grammarly | Legal writing quality | Yes | $12/mo |

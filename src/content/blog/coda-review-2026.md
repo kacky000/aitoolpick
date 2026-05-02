@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 Coda sits in an unusual position: it's been compared to [Notion](/tools/notion/) so often that people sometimes forget it's solving a different problem. Notion is a flexible workspace. Coda is a document that can do things.
 
-That distinction sounds subtle, but it shapes everything about how Coda works — and who it works well for.
+That distinction sounds subtle, but it shapes everything about how [Coda](/tools/notion-alternative-coda/) works — and who it works well for.
 
 ## What Coda Actually Is
 
@@ -26,7 +26,7 @@ Coda's tables function similarly to [Airtable](/tools/airtable/): structured row
 Views are flexible: grid, kanban, calendar, gallery, chart, detail. You build what makes sense for the workflow, not for what the tool defaults to.
 
 ### Formulas and Automation
-Coda's formula language is powerful — closer to a programming language than Notion's limited formula system. Experienced users can build complex logic (conditional branching, cross-table lookups, aggregations) without code.
+Coda's formula language is powerful — closer to a programming language than [Notion](/tools/notion/)'s limited formula system. Experienced users can build complex logic (conditional branching, cross-table lookups, aggregations) without code.
 
 Automations trigger on schedules or events: "when a row is added to this table, send a Slack notification." For teams running operational processes, this replaces a layer of [Zapier](/tools/zapier/) or Make integrations.
 
@@ -45,11 +45,11 @@ Coda AI (available on paid plans) can summarize documents, generate table data, 
 | Team | $30/month/user | Packs, admin controls, Coda AI |
 | Enterprise | Custom | SSO, advanced security, dedicated support |
 
-The free plan allows unlimited documents but limits the number of "objects" (rows, columns, etc.) per doc. For small personal projects, it's fine. For anything operational, you'll need Pro at minimum.
+The free plan allows unlimited documents but limits the number of "objects" ([rows](/tools/rows/), columns, etc.) per doc. For small personal projects, it's fine. For anything operational, you'll need Pro at minimum.
 
 ## How Coda Compares to Notion
 
-| Feature | Coda | Notion |
+| Feature | Coda | [Notion](/tools/notion/) |
 |---------|------|--------|
 | Document-first | ✅ | ✅ |
 | Built-in automations | ✅ | ❌ (needs [Notion AI](/tools/notion-ai/) or 3rd party) |
@@ -75,7 +75,7 @@ Coda is more powerful for operational workflows. Notion is more accessible for k
 
 ## Who Shouldn't Use Coda
 
-**Note-takers and personal knowledge management** — Notion's more established template ecosystem and better markdown support make it more suitable for personal use.
+**Note-takers and personal knowledge management** — Notion's more established template ecosystem and better markdown support [make](/tools/make/) it more suitable for personal use.
 
 **Simple project management needs** — If you just need tasks and timelines, [ClickUp](/blog/clickup-review-2026) or [Asana](/blog/asana-review-2026) are more purpose-built.
 

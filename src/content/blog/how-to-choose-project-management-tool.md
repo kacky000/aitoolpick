@@ -44,11 +44,11 @@ Not every feature matters equally. Rank these by importance for your team:
 | Customization | ClickUp, [Airtable](/tools/airtable/) |
 | Built-in Docs | Notion, [ClickUp](/tools/clickup/) |
 | Visual Boards | Trello, [Monday.com](/tools/monday/) |
-| Automations | Monday.com, Zapier |
-| Git Integration | Linear, ClickUp |
-| Time Tracking | ClickUp, Monday.com |
+| Automations | [Monday.com](/tools/monday/), Zapier |
+| Git Integration | Linear, [ClickUp](/tools/clickup/) |
+| Time Tracking | ClickUp, [Monday.com](/tools/monday/) |
 | Free Plan | ClickUp, Trello, [Notion](/tools/notion/) |
-| AI Features | Notion, Linear, ClickUp |
+| AI Features | [Notion](/tools/notion/), Linear, ClickUp |
 
 ## Step 3: Consider Your Budget
 
@@ -72,16 +72,16 @@ A powerful tool that nobody uses is worse than a simple tool everyone loves.
 
 **Easiest to learn:**
 - [Trello](/tools/trello/) — drag cards, done
-- Todoist — type tasks, done
+- [Todoist](/tools/todoist/) — type tasks, done
 - Monday.com — visual and intuitive
 
 **Moderate learning curve:**
-- Asana — clean but feature-rich
-- Linear — simple but opinionated
+- [Asana](/tools/asana/) — clean but feature-rich
+- [Linear](/tools/linear/) — simple but opinionated
 
 **Steeper learning curve:**
-- ClickUp — feature overload initially
-- Notion — too flexible (blank page syndrome)
+- [ClickUp](/tools/clickup/) — feature overload initially
+- [Notion](/tools/notion/) — too flexible (blank page syndrome)
 - [Airtable](/tools/airtable) — database concepts take time
 
 ## Step 5: Test Before You Commit
@@ -98,7 +98,7 @@ Here's our recommended evaluation process:
 ## Common Mistakes to Avoid
 
 ### 1. Choosing Based on Features Alone
-The tool with the most features isn't always the best. Trello with 3 features your team actually uses beats ClickUp with 50 features nobody touches.
+The tool with the most features isn't always the best. [Trello](/tools/trello/) with 3 features your team actually uses beats ClickUp with 50 features nobody touches.
 
 ### 2. Not Involving the Team
 A PM tool only works if the team uses it. Include key team members in the evaluation process.

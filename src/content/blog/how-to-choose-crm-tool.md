@@ -98,7 +98,7 @@ Every CRM looks good in a demo. Here's how to actually evaluate:
 ## Common Mistakes to Avoid
 
 ### 1. Buying More CRM Than You Need
-Enterprise features at enterprise prices make no sense for a 5-person team. Start with a free or starter plan and upgrade when you hit real limitations—not theoretical ones.
+Enterprise features at enterprise prices [make](/tools/make/) no sense for a 5-person team. Start with a free or starter plan and upgrade when you hit real limitations—not theoretical ones.
 
 ### 2. Ignoring Data Migration
 Switching CRMs [later](/tools/later/) is painful. Before choosing, check: Can you export all your data? What format? Are relationships and notes preserved?

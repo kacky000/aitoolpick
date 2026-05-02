@@ -19,7 +19,7 @@ Agencies juggle multiple clients, tight deadlines, and cross-functional teams. B
 Before comparing features, let's define what matters for agencies:
 
 1. **Multi-client management**: Separate workspaces per client without chaos
-2. **Time tracking**: Bill hours accurately (or at least track them)
+2. **Time tracking**: Bill [hours](/tools/hours-tracker/) accurately (or at least track them)
 3. **Templates**: Reuse project structures across similar client engagements
 4. **Client visibility**: Share progress without exposing internal work
 5. **Workload management**: Prevent team burnout across client projects

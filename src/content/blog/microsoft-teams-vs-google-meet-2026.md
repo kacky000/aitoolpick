@@ -49,7 +49,7 @@ This is where **Microsoft Teams pulls significantly ahead**:
 - **Channels** — Teams has persistent channels that function as mini-Slacks, with meeting recordings stored in context
 - **Tasks** — Direct integration with Microsoft Planner and To Do
 
-Google Meet is primarily a video call tool. It does well at that core function, but collaboration during calls means switching to Google Docs, Slides, or Jamboard in separate tabs.
+Google Meet is primarily a video call tool. It does well at that core function, but collaboration during calls means switching to Google Docs, [Slides](/tools/slides-com/), or Jamboard in separate tabs.
 
 **Winner:** Microsoft Teams (significantly)
 
@@ -90,7 +90,7 @@ Pricing is comparable at the base level. The key question is whether you are alr
 
 **Microsoft Teams:** Excel, Word, PowerPoint, SharePoint, Outlook, OneNote, Planner, Azure DevOps, and 700+ third-party apps.
 
-**Google Meet:** Google Docs, Sheets, Slides, Calendar, Drive, Gmail, and Google Chat. Third-party integrations exist but are more limited than Teams.
+**Google Meet:** [Google Docs](/tools/google-docs/), Sheets, Slides, Calendar, Drive, Gmail, and Google Chat. Third-party integrations exist but are more limited than Teams.
 
 If your workflow is Microsoft-centric, Teams integrations are unmatched. If your workflow is Google-centric, Meet keeps everything inside the ecosystem.
 

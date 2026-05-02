@@ -68,7 +68,7 @@ Monday CRM's automation builder handles repetitive sales tasks:
 | Deal moves to "Proposal" | Create follow-up task due in 3 days |
 | Contact added with no owner | Assign to next rep in rotation |
 | Deal closed won | Notify customer success team |
-| Close date passes (open deal) | Change status to "At Risk" |
+| [Close](/tools/close/) date passes (open deal) | Change status to "At Risk" |
 
 These automations run without any code and reduce the administrative burden on sales reps.
 
@@ -77,7 +77,7 @@ These automations run without any code and reduce the administrative burden on s
 Monday CRM's forecast dashboard shows:
 
 - Total pipeline value by stage
-- Weighted forecast (deal value × close probability)
+- Weighted forecast (deal value × [close](/tools/close/) probability)
 - Monthly/quarterly revenue projections
 - Win rate by rep or deal type
 
@@ -121,7 +121,7 @@ Note: Monday CRM is priced separately from Monday Work Management. The free tier
 
 **Choose Monday CRM if**: You need sales + operations in one platform, or your team finds [HubSpot](/tools/hubspot/)'s free tier too limited but HubSpot Pro too expensive.
 
-**Choose HubSpot if**: You need email sequences, marketing automation, or deep reporting.
+**Choose [HubSpot](/tools/hubspot/) if**: You need email sequences, marketing automation, or deep reporting.
 
 ### Monday CRM vs Salesforce
 
@@ -132,7 +132,7 @@ Monday CRM is not a [Salesforce](/tools/salesforce/) replacement for enterprise 
 - Reporting depth
 
 But Monday CRM wins on:
-- Setup time (hours vs weeks)
+- Setup time ([hours](/tools/hours-tracker/) vs weeks)
 - Interface simplicity
 - Collaboration with non-sales teams
 - Price (significantly cheaper)
@@ -151,7 +151,7 @@ Resist the urge to add 10 stages. You can always add more [later](/tools/later/)
 
 Monday CRM supports import from:
 - CSV/Excel files
-- HubSpot
+- [HubSpot](/tools/hubspot/)
 - [Salesforce](/tools/salesforce/)
 - [Pipedrive](/tools/pipedrive/)
 
@@ -189,7 +189,7 @@ Share this dashboard with leadership to replace the weekly "what's in the pipeli
 
 ## Verdict
 
-Monday CRM is a genuinely capable sales tool for small and mid-sized teams in 2026. It strikes a balance between the simplicity of a spreadsheet and the power of a dedicated CRM—without the learning curve of Salesforce or the cost of HubSpot Pro.
+Monday CRM is a genuinely capable sales tool for small and mid-sized teams in 2026. It strikes a balance between the simplicity of a spreadsheet and the power of a dedicated CRM—without the learning curve of [Salesforce](/tools/salesforce/) or the cost of HubSpot Pro.
 
 The biggest advantage is cross-team collaboration: your sales, marketing, and customer success teams can all work in the same workspace, eliminating handoff friction.
 

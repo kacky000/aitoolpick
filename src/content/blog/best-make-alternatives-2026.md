@@ -14,8 +14,8 @@ If you're evaluating alternatives, here are seven platforms worth considering in
 |------|----------|-----------|----------------|
 | [Zapier](/tools/zapier/) | Beginners, app breadth | ✅ (100 tasks/mo) | $19.99/mo |
 | [n8n](/tools/n8n/) | Developers, self-hosting | ✅ (self-hosted) | $20/mo (cloud) |
-| Pipedream | Developers, code-first | ✅ (generous) | $19/mo |
-| Activepieces | Open-source simplicity | ✅ (self-hosted) | $10/mo (cloud) |
+| [Pipedream](/tools/pipedream/) | Developers, code-first | ✅ (generous) | $19/mo |
+| [Activepieces](/tools/activepieces/) | Open-source simplicity | ✅ (self-hosted) | $10/mo (cloud) |
 | Tray.io | Enterprise automation | ❌ | Custom pricing |
 | Workato | Enterprise iPaaS | ❌ | Custom pricing |
 | Power Automate | Microsoft ecosystem | ❌ | $15/user/mo |

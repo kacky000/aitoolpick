@@ -5,7 +5,7 @@ pubDate: "2026-05-02"
 tags: ["ai-coding", "guide", "productivity"]
 ---
 
-There are now dozens of AI coding tools, and they all claim to make you 10x more productive. But picking the wrong one wastes money and disrupts your workflow. Here's a framework for choosing the right AI coding assistant based on what actually matters.
+There are now dozens of AI coding tools, and they all claim to [make](/tools/make/) you 10x more productive. But picking the wrong one wastes money and disrupts your workflow. Here's a framework for choosing the right AI coding assistant based on what actually matters.
 
 ## The Three Questions That Matter
 
@@ -27,28 +27,28 @@ Before comparing features and pricing, answer these:
 
 ### 3. How much are you willing to spend?
 
-- **$0** → GitHub Copilot Free or Windsurf Free
-- **$10/month** → GitHub Copilot Pro (best value)
-- **$15-20/month** → Windsurf Pro or Cursor Pro (more Agent capability)
-- **$40+/month** → Cursor Pro+ / Ultra or Copilot Pro+ (heavy usage)
+- **$0** → [GitHub Copilot](/tools/github-copilot/) Free or Windsurf Free
+- **$10/month** → [GitHub](/tools/github/) Copilot Pro (best value)
+- **$15-20/month** → [Windsurf](/tools/windsurf/) Pro or Cursor Pro (more Agent capability)
+- **$40+/month** → [Cursor](/tools/cursor/) Pro+ / Ultra or Copilot Pro+ (heavy usage)
 
 ## The Main Contenders
 
 ### GitHub Copilot — The Safe Default
 
-GitHub Copilot works in the most editors, has the largest user base, and costs the least at $10/month. Its completions are excellent. Agent mode and Copilot Edits are improving but still trail Cursor.
+GitHub Copilot works in the most editors, has the largest user base, and costs the least at $10/month. Its completions are excellent. Agent mode and Copilot Edits are improving but still trail [Cursor](/tools/cursor/).
 
 **Choose Copilot if:** You want reliable autocomplete in your existing editor without changing anything else. [Full review](/blog/github-copilot-review-2026) | [Pricing](/blog/github-copilot-pricing-2026)
 
 ### Cursor — The Power Tool
 
-Cursor is a VS Code fork built around AI. Agent mode can autonomously navigate your codebase, make multi-file changes, run tests, and iterate. Tab completions are excellent. The credit-based system means power users may need the $60 Pro+ plan.
+Cursor is a VS Code fork built [around](/tools/around/) AI. Agent mode can autonomously navigate your codebase, make multi-file changes, run tests, and iterate. Tab completions are excellent. The credit-based system means power users may need the $60 Pro+ plan.
 
 **Choose Cursor if:** You want the most capable Agent and don't mind switching editors. [Full review](/blog/cursor-review-2026) | [Pricing](/blog/cursor-pricing-2026)
 
 ### Windsurf — The Value Pick
 
-Windsurf offers Agent capabilities (Cascade) at a lower price than Cursor, with daily quota resets that prevent mid-month burnout. Tab autocomplete is free on all tiers.
+[Windsurf](/tools/windsurf/) offers Agent capabilities (Cascade) at a lower price than Cursor, with daily quota resets that prevent mid-month burnout. Tab autocomplete is free on all tiers.
 
 **Choose Windsurf if:** You want Agent features on a tighter budget. [Windsurf vs Cursor](/blog/windsurf-vs-cursor-2026)
 

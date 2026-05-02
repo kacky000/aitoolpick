@@ -14,7 +14,7 @@ Miro is the leading online whiteboard, but its free plan limits you to 3 boards,
 FigJam is [Figma](/tools/figma/)'s whiteboard tool, built directly into the Figma ecosystem. If your team already uses Figma for design, FigJam provides seamless brainstorming alongside your design files.
 
 - **Price:** Free (unlimited FigJam files) / Included with [Figma](/tools/figma/) ($15/editor/mo)
-- **Best for:** Design teams already using Figma
+- **Best for:** Design teams already using [Figma](/tools/figma/)
 - **vs Miro:** More focused, less feature-heavy, free for unlimited boards
 
 ### 2. Excalidraw — Best Free Open-Source Option
@@ -73,7 +73,7 @@ tldraw is an open-source, developer-friendly whiteboard that can be embedded in 
 
 ## How to Choose
 
-- **Design team using Figma?** FigJam is the natural choice
+- **Design team using [Figma](/tools/figma/)?** FigJam is the natural choice
 - **Just need quick sketches?** Excalidraw — free, no signup, instant
 - **Want polished outputs?** Canva Whiteboard has the best templates
 - **Already on ClickUp?** Use the built-in Whiteboards

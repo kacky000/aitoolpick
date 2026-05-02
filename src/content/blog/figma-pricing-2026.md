@@ -98,7 +98,7 @@ AI features are included in Professional and above plans at no extra cost as of 
 |------|-----------|-------------------|
 | Figma | Yes (3 files) | $15/editor/mo |
 | [Canva](/blog/canva-vs-figma-which-design-tool) | Yes | $12.99/user/mo |
-| Adobe XD | No | $22.99/mo |
+| [Adobe XD](/tools/adobe-xd/) | No | $22.99/mo |
 | [Sketch](/tools/sketch/) | No | $10/editor/mo |
 
 Figma's per-editor model means viewers cost nothing, which can significantly reduce your total bill compared to per-seat pricing.

@@ -84,7 +84,7 @@ Google Gemini (formerly Bard) combines AI with Google's search index — the lar
 - **Real-time data** — Access to Google's search index means fresher results
 - **Multimodal** — Strong image understanding and generation
 - **Free tier** — More generous than Perplexity's free plan for advanced queries
-- **Google Workspace** — AI features built into Docs, Sheets, and Slides
+- **Google Workspace** — AI features built into Docs, Sheets, and [Slides](/tools/slides-com/)
 
 ### Where Perplexity Wins
 

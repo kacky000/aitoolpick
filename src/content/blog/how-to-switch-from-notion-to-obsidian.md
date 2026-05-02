@@ -22,7 +22,7 @@ Not everything survives the move cleanly. Set realistic expectations before you 
 - Tags stored as page properties
 
 **Transfers poorly or not at all:**
-- Notion databases with formulas, rollups, and relations — these become flat Markdown files
+- [Notion databases](/tools/notion-database/) with formulas, rollups, and relations — these become flat Markdown files
 - Linked databases and filtered views
 - Comments and page history
 - Embedded files other than images (PDFs, videos need manual re-linking)
@@ -63,7 +63,7 @@ done
 
 **Flatten or keep hierarchy.** Decide now whether you want your Obsidian vault to mirror Notion's folder structure or use a flatter approach with tags and links. Restructuring is easier before you import than after.
 
-**Time estimate:** 30 minutes to 2 hours depending on workspace size and how much cleanup is needed.
+**Time estimate:** 30 minutes to 2 [hours](/tools/hours-tracker/) depending on workspace size and how much cleanup is needed.
 
 ## Step 3: Create Your Obsidian Vault
 

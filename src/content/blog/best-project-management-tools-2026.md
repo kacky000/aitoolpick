@@ -86,11 +86,11 @@ Linear has earned a devoted following among engineering teams for its speed and 
 
 | Tool | Free Plan | Starting Price | Best For | Rating |
 |------|-----------|---------------|----------|--------|
-| Notion | Yes | $10/mo | All-in-one teams | 4.6/5 |
+| [Notion](/tools/notion/) | Yes | $10/mo | All-in-one teams | 4.6/5 |
 | [Asana](/tools/asana/) | Yes | $10.99/mo | Structured teams | 4.4/5 |
-| ClickUp | Yes | $7/mo | Feature seekers | 4.5/5 |
+| [ClickUp](/tools/clickup/) | Yes | $7/mo | Feature seekers | 4.5/5 |
 | Monday.com | Yes | $9/mo | Visual teams | 4.5/5 |
-| Trello | Yes | $5/mo | Simple Kanban | 4.3/5 |
+| [Trello](/tools/trello/) | Yes | $5/mo | Simple Kanban | 4.3/5 |
 | Linear | Yes | $8/mo | Dev teams | 4.8/5 |
 
 ## Which Tool Should You Pick?
@@ -113,11 +113,11 @@ Price matters, especially for growing teams. Here's how the costs scale:
 
 | Tool | 5 Users/mo | 15 Users/mo | 50 Users/mo |
 |------|-----------|------------|------------|
-| Notion | $50 | $150 | $500 |
-| Asana | $55 | $165 | $550 |
-| ClickUp | $35 | $105 | $350 |
+| [Notion](/tools/notion/) | $50 | $150 | $500 |
+| [Asana](/tools/asana/) | $55 | $165 | $550 |
+| [ClickUp](/tools/clickup/) | $35 | $105 | $350 |
 | Monday.com | $45 | $135 | $450 |
-| Trello | $25 | $75 | $250 |
+| [Trello](/tools/trello/) | $25 | $75 | $250 |
 | Linear | $40 | $120 | $400 |
 
 For a deeper dive into specific pricing, check out [ClickUp Pricing 2026](/blog/clickup-pricing-2026/) and [Notion Pricing 2026](/blog/notion-pricing-2026/).

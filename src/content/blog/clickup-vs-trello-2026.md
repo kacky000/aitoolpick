@@ -109,7 +109,7 @@ Trello's Free plan is limited to 10 boards per workspace and 250 automation runs
 
 Trello wins this category decisively. You can set up a board, invite a teammate, and start moving cards within five minutes. There's virtually no learning curve.
 
-ClickUp is a different story. The interface is powerful but dense. New users often feel overwhelmed by the number of settings, views, and options. The onboarding flow has improved significantly in 2026, but expect to invest a few hours before feeling comfortable.
+ClickUp is a different story. The interface is powerful but dense. New users often feel overwhelmed by the number of settings, views, and options. The onboarding flow has improved significantly in 2026, but expect to invest a few [hours](/tools/hours-tracker/) before feeling comfortable.
 
 ---
 

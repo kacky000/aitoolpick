@@ -22,7 +22,7 @@ Here's a breakdown of the best survey tools available in 2026, from free options
 | [Tally](/tools/tally/) | Clean forms with a generous free tier | Free / $29/month |
 | Jotform | Complex forms with integrations | Free / $34/month |
 | Qualtrics | Academic and enterprise research | Custom |
-| Tally | Developer-friendly free tier | Free |
+| [Tally](/tools/tally/) | Developer-friendly free tier | Free |
 | Pollfish | Market research with audience panel | Custom |
 
 ## 1. Typeform — Best for Engagement
@@ -71,7 +71,7 @@ SurveyMonkey is the most established name in online surveys, with over 20 millio
 
 ## 3. Google Forms — Best Free Option
 
-For straightforward surveys where budget is a constraint, Google Forms remains hard to beat. It's free, unlimited, collaborative, and integrates directly with Google Sheets for data analysis.
+For straightforward surveys where budget is a constraint, Google Forms remains hard to beat. It's free, unlimited, collaborative, and integrates directly with [Google Sheets](/tools/google-sheets/) for data analysis.
 
 **Pricing:** Free with a Google account
 

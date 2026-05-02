@@ -150,7 +150,7 @@ Notion isn't a CRM, but many small teams use it as one by building custom databa
 - **Email marketing is the priority →** ActiveCampaign
 - **Want everything HubSpot offers, at lower cost →** Zoho CRM
 - **Enterprise sales with complex requirements →** Salesforce
-- **Already use Monday.com →** Monday CRM
+- **Already use [Monday.com](/tools/monday/) →** Monday CRM
 - **Small business, just need email →** Mailchimp
 - **Tiny team, flexible workflow →** Notion
 

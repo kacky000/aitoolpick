@@ -59,7 +59,7 @@ GitHub Copilot remains the most widely used AI coding tool in 2026. It works ins
 
 ### 3. Codeium — Best Free Copilot Alternative
 
-Codeium offers AI code completion that's free for individual developers. In benchmark comparisons, it performs comparably to GitHub Copilot for routine completion tasks.
+Codeium offers AI code completion that's free for individual developers. In benchmark comparisons, it performs comparably to GitHub Copilot for [routine](/tools/routine/) completion tasks.
 
 **Best for**: Engineers who want Copilot-level suggestions without the subscription fee.
 

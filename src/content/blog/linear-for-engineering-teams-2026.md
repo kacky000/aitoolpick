@@ -98,7 +98,7 @@ Connect Linear to Slack. Set up automated Slack messages when issues move to spe
 
 The most common question: should we switch from [Jira](/tools/jira/) to Linear?
 
-| Feature | Linear | Jira |
+| Feature | Linear | [Jira](/tools/jira/) |
 |---------|--------|------|
 | Speed | Very fast | Often slow |
 | Setup complexity | Low | High |

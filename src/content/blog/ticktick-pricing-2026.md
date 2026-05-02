@@ -58,14 +58,14 @@ At $35.99/year ($2.99/month billed annually or $5.99 billed monthly), Premium un
 - Task activity history
 
 **Views:**
-- **Calendar view** — Your tasks overlaid on a weekly/monthly calendar. Google Calendar sync included.
+- **Calendar view** — Your tasks overlaid on a weekly/monthly calendar. [Google Calendar](/tools/google-calendar/) sync included.
 - **Board view** — Kanban-style columns for visual project tracking
 - **Timeline view** — Gantt-style view for planning projects across time
 
 **Productivity Features:**
 - **Habit Tracker** — Define habits, track streaks, view completion history
 - **Pomodoro Timer** — Built into each task; sessions auto-record
-- **Focus statistics** — Total focus time, sessions per day, productive hours
+- **Focus statistics** — Total focus time, sessions per day, productive [hours](/tools/hours-tracker/)
 
 **Collaboration (limited):**
 - Share lists with up to 5 members
@@ -78,7 +78,7 @@ At $35.99/year ($2.99/month billed annually or $5.99 billed monthly), Premium un
 |------|-------------|---------------|---------------|---------|
 | TickTick Premium | $35.99 | ✅ | ✅ | ✅ |
 | [Todoist](/tools/todoist/) Pro | $48/year | ❌ | ❌ | ❌ |
-| Things 3 (one-time) | $49.99 | ✅ | ❌ | ❌ |
+| [Things 3](/tools/things3/) (one-time) | $49.99 | ✅ | ❌ | ❌ |
 | [Notion](/tools/notion/) Personal | $192/year | ❌ (separate) | ❌ | ❌ |
 
 At $35.99/year, TickTick is the cheapest of these options — and it includes more built-in productivity features than any of them. [Todoist](/tools/todoist/) costs 33% more for fewer features. Things 3 is macOS only. Notion is 5x more expensive and doesn't replace a dedicated task manager.
@@ -88,12 +88,12 @@ At $35.99/year, TickTick is the cheapest of these options — and it includes mo
 **Yes, if:**
 - You want tasks, habits, and Pomodoro in one app (saves paying for separate apps)
 - You manage your schedule by calendar view
-- You're already paying for Todoist Pro — TickTick gives more for less
+- You're already paying for [Todoist](/tools/todoist/) Pro — TickTick gives more for less
 
 **No, if:**
 - You need team project management → [ClickUp](/blog/clickup-review-2026) or [Asana](/blog/asana-review-2026) are better suited
 - You want tasks integrated with docs and databases → [Notion](/blog/notion-review-2026)
-- You're Apple-only and want native design → Things 3 may fit better
+- You're Apple-only and want native design → [Things 3](/tools/things3/) may fit better
 
 ## The Monthly vs Annual Calculation
 
