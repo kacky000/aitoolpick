@@ -1,0 +1,298 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+const osTools = tools
+  .filter((t) => t.category.includes('open-source'))
+  .sort((a, b) => b.rating - a.rating);
+
+// Group by primary category (excluding open-source)
+const grouped = new Map<string, typeof tools>();
+for (const tool of osTools) {
+  const primaryCat = tool.category.find((c: string) => c !== 'open-source') || 'open-source';
+  if (!grouped.has(primaryCat)) grouped.set(primaryCat, []);
+  grouped.get(primaryCat)!.push(tool);
+}
+
+function getCategoryName(catId: string): string {
+  const cat = categories.find((c) => c.id === catId);
+  return cat ? cat.name : catId.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
+}
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  if (pricing.free) return 'Free';
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return 'Free';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return `Free / $${lowest}+ (hosted)`;
+}
+
+const pageTitle = 'Best Open Source Tools in 2026 — Self-Hosted & Free Alternatives';
+const pageDescription = `${osTools.length} open source tools you can self-host for free. Replace expensive SaaS with community-driven alternatives.`;
+
+const faqJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What are the best open source productivity tools in 2026?',
+      acceptedAnswer: { '@type': 'Answer', text: `Top-rated open source tools include ${osTools.slice(0, 5).map((t) => t.name).join(', ')}. These can be self-hosted for free or used via hosted plans.` },
+    },
+    {
+      '@type': 'Question',
+      name: 'Are open source tools really free?',
+      acceptedAnswer: { '@type': 'Answer', text: 'The software itself is free and open source. However, self-hosting requires server infrastructure. Many open source tools also offer paid hosted versions for convenience.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can open source tools replace enterprise software?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes. Many open source tools like GitLab, Mattermost, and Appwrite provide enterprise-grade features with the added benefits of data ownership and customizability.' },
+    },
+  ],
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={faqJsonLd} />
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Open Source Tools' },
+      ]} />
+
+      <div class="os-header">
+        <h1>Open Source Tools</h1>
+        <p>{osTools.length} free & open source tools you can self-host. Own your data, avoid vendor lock-in.</p>
+      </div>
+
+      <div class="os-stats">
+        <div class="os-stat">
+          <strong>{osTools.length}</strong>
+          <span>Tools</span>
+        </div>
+        <div class="os-stat">
+          <strong>{grouped.size}</strong>
+          <span>Categories</span>
+        </div>
+        <div class="os-stat">
+          <strong>{osTools.filter((t) => t.pricing.free).length}</strong>
+          <span>100% Free</span>
+        </div>
+      </div>
+
+      {[...grouped.entries()].sort((a, b) => b[1].length - a[1].length).map(([catId, catTools]) => (
+        <div class="os-section">
+          <h2>{getCategoryName(catId)} <span class="os-count">({catTools.length})</span></h2>
+          <div class="os-grid">
+            {catTools.map((tool) => (
+              <a href={`/tools/${tool.slug}/`} class="os-card">
+                <div class="os-card-top">
+                  {tool.icon && <img src={tool.icon} alt={tool.name} width="32" height="32" style="border-radius: 8px;" loading="lazy" />}
+                  <h3>{tool.name}</h3>
+                  <span class="os-rating">★ {tool.rating}</span>
+                </div>
+                <p>{tool.description.slice(0, 100)}{tool.description.length > 100 ? '...' : ''}</p>
+                <div class="os-card-meta">
+                  <span class="os-price">{formatPrice(tool.pricing)}</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+
+      <!-- FAQ -->
+      <div class="os-faq">
+        <h2>Frequently Asked Questions</h2>
+        <details class="faq-item">
+          <summary>What are the best open source productivity tools in 2026?</summary>
+          <p>Top-rated open source tools include {osTools.slice(0, 5).map((t) => t.name).join(', ')}. These can be self-hosted for free or used via hosted plans.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Are open source tools really free?</summary>
+          <p>The software itself is free and open source. However, self-hosting requires server infrastructure. Many open source tools also offer paid hosted versions for convenience.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can open source tools replace enterprise software?</summary>
+          <p>Yes. Many open source tools like GitLab, Mattermost, and Appwrite provide enterprise-grade features with the added benefits of data ownership and customizability.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .os-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .os-header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .os-header p {
+    color: var(--gray-600);
+    font-size: 1.05rem;
+  }
+
+  .os-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--gray-50);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--gray-200);
+  }
+
+  .os-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .os-stat strong {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-dark);
+  }
+
+  .os-stat span {
+    font-size: 0.78rem;
+    color: var(--gray-500);
+  }
+
+  .os-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .os-section h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .os-count {
+    font-weight: 400;
+    color: var(--gray-400);
+    font-size: 0.9rem;
+  }
+
+  .os-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .os-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1.1rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.2s;
+  }
+
+  .os-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+  }
+
+  .os-card-top {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .os-card-top h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .os-rating {
+    margin-left: auto;
+    font-size: 0.78rem;
+    color: var(--warning);
+    font-weight: 600;
+  }
+
+  .os-card p {
+    font-size: 0.8rem;
+    color: var(--gray-600);
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .os-card-meta {
+    margin-top: auto;
+  }
+
+  .os-price {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--success, #059669);
+  }
+
+  .os-faq {
+    margin-top: 3rem;
+    max-width: 700px;
+  }
+
+  .os-faq h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .faq-item {
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg, 12px);
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+  }
+
+  .faq-item summary {
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.92rem;
+    list-style: none;
+  }
+
+  .faq-item summary::after {
+    content: ' +';
+    color: var(--gray-400);
+  }
+
+  .faq-item[open] summary::after {
+    content: ' -';
+  }
+
+  .faq-item p {
+    padding: 0 1.25rem 1rem;
+    font-size: 0.88rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    .os-grid {
+      grid-template-columns: 1fr;
+    }
+    .os-stats {
+      gap: 1.5rem;
+    }
+  }
+</style>

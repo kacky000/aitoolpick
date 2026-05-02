@@ -1,0 +1,185 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+// Newest tools = highest IDs (most recently added) with good ratings
+const newTools = [...tools]
+  .sort((a, b) => {
+    // Sort by yearFounded desc, then rating desc
+    if (b.yearFounded !== a.yearFounded) return b.yearFounded - a.yearFounded;
+    return b.rating - a.rating;
+  })
+  .slice(0, 60);
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+function getCategoryName(catId: string): string {
+  const cat = categories.find((c) => c.id === catId);
+  return cat ? cat.name : catId.replace(/-/g, ' ');
+}
+
+const pageTitle = 'Newest AI & Productivity Tools — Recently Launched 2026';
+const pageDescription = `Explore ${newTools.length} of the newest AI and productivity tools. Discover cutting-edge solutions launched recently.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'New Tools' },
+      ]} />
+
+      <div class="new-header">
+        <h1>Newest Tools</h1>
+        <p>The latest AI and productivity tools, sorted by launch year. Be an early adopter.</p>
+      </div>
+
+      <div class="new-grid">
+        {newTools.map((tool) => (
+          <a href={`/tools/${tool.slug}/`} class="new-card">
+            <div class="new-card-top">
+              {tool.icon && <img src={tool.icon} alt={tool.name} width="32" height="32" style="border-radius: 8px;" loading="lazy" />}
+              <div>
+                <h2>{tool.name}</h2>
+                <span class="new-cat">{getCategoryName(tool.category[0])}</span>
+              </div>
+              <div class="new-card-right">
+                <span class="new-year">{tool.yearFounded}</span>
+                <span class="new-rating">★ {tool.rating}</span>
+              </div>
+            </div>
+            <p>{tool.description.slice(0, 110)}{tool.description.length > 110 ? '...' : ''}</p>
+            <div class="new-card-footer">
+              <span class="new-price">{formatPrice(tool.pricing)}</span>
+              {tool.pricing.free && <span class="new-free">Free</span>}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .new-header {
+    margin-bottom: 2rem;
+  }
+
+  .new-header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .new-header p {
+    color: var(--gray-600);
+    font-size: 1.05rem;
+  }
+
+  .new-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+  }
+
+  .new-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.25rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.2s;
+  }
+
+  .new-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+  }
+
+  .new-card-top {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .new-card-top h2 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .new-cat {
+    font-size: 0.72rem;
+    color: var(--gray-500);
+  }
+
+  .new-card-right {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.2rem;
+  }
+
+  .new-year {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    background: var(--accent-light, #e0e7ff);
+    color: var(--accent-dark, #4338ca);
+    border-radius: 6px;
+  }
+
+  .new-rating {
+    font-size: 0.75rem;
+    color: var(--warning);
+    font-weight: 600;
+  }
+
+  .new-card p {
+    font-size: 0.82rem;
+    color: var(--gray-600);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .new-card-footer {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: auto;
+  }
+
+  .new-price {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+  }
+
+  .new-free {
+    font-size: 0.68rem;
+    padding: 0.1rem 0.4rem;
+    background: var(--success-light, #d1fae5);
+    color: var(--success, #059669);
+    border-radius: 8px;
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .new-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

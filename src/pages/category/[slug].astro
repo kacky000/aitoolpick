@@ -27,23 +27,64 @@ function formatPrice(pricing: Record<string, number | boolean | null>): string {
 const pageTitle = `Best ${category.name} Tools in 2026 — Compare & Choose`;
 const pageDescription = `Compare the ${categoryTools.length} best ${category.name.toLowerCase()} tools in 2026. Find pricing, features, pros & cons to pick the right one.`;
 
+// Sort by rating for display
+const sortedTools = [...categoryTools].sort((a, b) => b.rating - a.rating);
+const topTool = sortedTools[0];
+const freeTools = categoryTools.filter((t) => t.pricing.free);
+const avgRating = categoryTools.length > 0
+  ? (categoryTools.reduce((s, t) => s + t.rating, 0) / categoryTools.length).toFixed(1)
+  : '0';
+
+// Generate FAQ
+const faqs = [
+  {
+    q: `What is the best ${category.name.toLowerCase()} tool in 2026?`,
+    a: topTool ? `Based on our ratings, ${topTool.name} (${topTool.rating}/5) is the top-rated ${category.name.toLowerCase()} tool in 2026. It stands out for ${topTool.pros[0].toLowerCase()} and ${topTool.pros[1].toLowerCase()}.` : `We're still evaluating the best ${category.name.toLowerCase()} tools.`,
+  },
+  {
+    q: `Are there free ${category.name.toLowerCase()} tools?`,
+    a: freeTools.length > 0
+      ? `Yes! ${freeTools.length} out of ${categoryTools.length} ${category.name.toLowerCase()} tools offer free plans, including ${freeTools.slice(0, 3).map((t) => t.name).join(', ')}.`
+      : `Currently, most ${category.name.toLowerCase()} tools require a paid subscription. Check individual tool pages for trial options.`,
+  },
+  {
+    q: `How do I choose the right ${category.name.toLowerCase()} tool?`,
+    a: `Consider your team size, budget, and key features you need. Our comparison pages and quiz can help narrow down the best fit. Key factors include pricing (free vs paid), integrations, and ease of use.`,
+  },
+  {
+    q: `How many ${category.name.toLowerCase()} tools does AIToolPick compare?`,
+    a: `We currently compare ${categoryTools.length} ${category.name.toLowerCase()} tools with detailed reviews, pricing breakdowns, and head-to-head comparisons.`,
+  },
+];
+
 const jsonLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: `Best ${category.name} Tools`,
   description: pageDescription,
   numberOfItems: categoryTools.length,
-  itemListElement: categoryTools.map((tool, index) => ({
+  itemListElement: sortedTools.map((tool, index) => ({
     '@type': 'ListItem',
     position: index + 1,
     name: tool.name,
     url: `https://aitoolpick.org/tools/${tool.slug}/`,
   })),
 });
+
+const faqJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: { '@type': 'Answer', text: faq.a },
+  })),
+});
 ---
 
 <BaseLayout title={pageTitle} description={pageDescription}>
   <script type="application/ld+json" set:html={jsonLd} slot="head" />
+  <script type="application/ld+json" set:html={faqJsonLd} slot="head" />
 
   <!-- Breadcrumb -->
   <nav class="breadcrumb" style="max-width: var(--max-width); padding-top: 1.5rem;">
@@ -118,6 +159,21 @@ const jsonLd = JSON.stringify({
     </div>
   </section>
 
+  <!-- FAQ Section -->
+  <section class="section">
+    <div class="container" style="max-width: 800px;">
+      <h2 style="margin-bottom: 1.5rem;">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <details class="faq-item">
+            <summary>{faq.q}</summary>
+            <p>{faq.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <!-- CTA -->
   <section class="section">
     <div class="container">
@@ -183,6 +239,48 @@ const jsonLd = JSON.stringify({
     gap: 0.75rem;
     margin-top: 1rem;
     flex-wrap: wrap;
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .faq-item {
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg, 12px);
+    overflow: hidden;
+  }
+
+  .faq-item summary {
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.95rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .faq-item summary::after {
+    content: '+';
+    font-size: 1.25rem;
+    color: var(--gray-400);
+    font-weight: 300;
+  }
+
+  .faq-item[open] summary::after {
+    content: '-';
+  }
+
+  .faq-item p {
+    padding: 0 1.25rem 1rem;
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin: 0;
   }
 
   @media (max-width: 768px) {

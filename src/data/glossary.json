@@ -1,53 +1,646 @@
 [
-  {"term": "SaaS", "slug": "saas", "definition": "Software as a Service — cloud-based software delivered via the internet on a subscription basis, eliminating the need for local installation.", "related": ["cloud-computing", "paas", "subscription-model"]},
-  {"term": "API", "slug": "api", "definition": "Application Programming Interface — a set of protocols and tools that allows different software applications to communicate with each other.", "related": ["rest-api", "webhook", "sdk"]},
-  {"term": "AI", "slug": "ai", "definition": "Artificial Intelligence — technology that enables machines to simulate human intelligence, including learning, reasoning, and problem-solving.", "related": ["machine-learning", "llm", "neural-network"]},
-  {"term": "LLM", "slug": "llm", "definition": "Large Language Model — an AI model trained on massive amounts of text data that can understand and generate human-like text.", "related": ["ai", "gpt", "neural-network"]},
-  {"term": "GPT", "slug": "gpt", "definition": "Generative Pre-trained Transformer — a type of large language model developed by OpenAI that generates text based on patterns learned during training.", "related": ["llm", "ai", "chatgpt"]},
-  {"term": "CRM", "slug": "crm", "definition": "Customer Relationship Management — software that helps businesses manage interactions with current and potential customers, tracking sales and communications.", "related": ["sales-pipeline", "lead-management", "customer-data"]},
-  {"term": "No-Code", "slug": "no-code", "definition": "A development approach that allows users to build applications without writing traditional programming code, using visual interfaces and drag-and-drop tools.", "related": ["low-code", "visual-development", "citizen-developer"]},
-  {"term": "Low-Code", "slug": "low-code", "definition": "A development approach that requires minimal hand-coding, using visual interfaces with the option to add custom code for advanced functionality.", "related": ["no-code", "rapid-development", "citizen-developer"]},
-  {"term": "Webhook", "slug": "webhook", "definition": "An automated message sent from one application to another when a specific event occurs, enabling real-time data synchronization between systems.", "related": ["api", "automation", "event-driven"]},
-  {"term": "OAuth", "slug": "oauth", "definition": "An open standard authorization protocol that allows third-party applications to access user data without exposing passwords.", "related": ["authentication", "sso", "api"]},
-  {"term": "SSO", "slug": "sso", "definition": "Single Sign-On — an authentication method that allows users to log in to multiple applications with one set of credentials.", "related": ["oauth", "authentication", "identity-management"]},
-  {"term": "CI/CD", "slug": "ci-cd", "definition": "Continuous Integration/Continuous Deployment — practices that automate the building, testing, and deployment of software changes.", "related": ["devops", "automation", "pipeline"]},
-  {"term": "DevOps", "slug": "devops", "definition": "A set of practices combining software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver updates more frequently.", "related": ["ci-cd", "infrastructure-as-code", "sre"]},
-  {"term": "Kanban", "slug": "kanban", "definition": "A visual project management method using boards and cards to track work items as they move through stages of a workflow.", "related": ["agile", "scrum", "project-management"]},
-  {"term": "Agile", "slug": "agile", "definition": "A project management methodology emphasizing iterative development, collaboration, and flexibility to adapt to changing requirements.", "related": ["scrum", "kanban", "sprint"]},
-  {"term": "Scrum", "slug": "scrum", "definition": "An agile framework for managing work through fixed-length iterations called sprints, with defined roles and ceremonies.", "related": ["agile", "sprint", "kanban"]},
-  {"term": "Freemium", "slug": "freemium", "definition": "A pricing model offering a free tier with basic features, with paid plans available for advanced functionality.", "related": ["saas", "pricing-model", "free-trial"]},
-  {"term": "ARR", "slug": "arr", "definition": "Annual Recurring Revenue — the total predictable revenue a subscription business expects to generate in a year.", "related": ["mrr", "saas", "revenue-metrics"]},
-  {"term": "MRR", "slug": "mrr", "definition": "Monthly Recurring Revenue — the predictable revenue a subscription business generates each month from active subscriptions.", "related": ["arr", "saas", "churn"]},
-  {"term": "Churn Rate", "slug": "churn-rate", "definition": "The percentage of customers who cancel their subscription or stop using a service within a given time period.", "related": ["retention", "mrr", "customer-lifetime-value"]},
-  {"term": "SEO", "slug": "seo", "definition": "Search Engine Optimization — the practice of improving a website's visibility in search engine results through content, technical, and link-building strategies.", "related": ["serp", "keywords", "backlinks"]},
-  {"term": "SERP", "slug": "serp", "definition": "Search Engine Results Page — the page displayed by a search engine in response to a user's query.", "related": ["seo", "organic-traffic", "featured-snippet"]},
-  {"term": "CTR", "slug": "ctr", "definition": "Click-Through Rate — the ratio of users who click on a link compared to the total number of users who view it.", "related": ["conversion-rate", "impressions", "analytics"]},
-  {"term": "Conversion Rate", "slug": "conversion-rate", "definition": "The percentage of visitors who complete a desired action, such as making a purchase or signing up for a service.", "related": ["ctr", "landing-page", "a-b-testing"]},
-  {"term": "A/B Testing", "slug": "a-b-testing", "definition": "A method of comparing two versions of a webpage or feature to determine which performs better based on user behavior data.", "related": ["conversion-rate", "analytics", "optimization"]},
-  {"term": "Machine Learning", "slug": "machine-learning", "definition": "A subset of AI where systems learn and improve from data without being explicitly programmed, identifying patterns and making decisions.", "related": ["ai", "deep-learning", "neural-network"]},
-  {"term": "Neural Network", "slug": "neural-network", "definition": "A computing system inspired by biological neural networks that can learn to perform tasks by analyzing training data.", "related": ["machine-learning", "deep-learning", "ai"]},
-  {"term": "RAG", "slug": "rag", "definition": "Retrieval-Augmented Generation — an AI technique that enhances LLM responses by retrieving relevant information from external knowledge sources.", "related": ["llm", "ai", "vector-database"]},
-  {"term": "Vector Database", "slug": "vector-database", "definition": "A database optimized for storing and querying high-dimensional vector embeddings, used in AI similarity search and recommendation systems.", "related": ["rag", "embeddings", "ai"]},
-  {"term": "ETL", "slug": "etl", "definition": "Extract, Transform, Load — a data integration process that extracts data from sources, transforms it into a usable format, and loads it into a destination system.", "related": ["data-pipeline", "data-warehouse", "analytics"]},
-  {"term": "Microservices", "slug": "microservices", "definition": "An architectural approach where an application is built as a collection of small, independent services that communicate over APIs.", "related": ["api", "containerization", "scalability"]},
-  {"term": "Containerization", "slug": "containerization", "definition": "A method of packaging software with all its dependencies into isolated units (containers) that can run consistently across environments.", "related": ["docker", "kubernetes", "microservices"]},
-  {"term": "Serverless", "slug": "serverless", "definition": "A cloud execution model where the provider manages server infrastructure, allowing developers to focus on code that runs in response to events.", "related": ["cloud-computing", "faas", "scalability"]},
-  {"term": "CDN", "slug": "cdn", "definition": "Content Delivery Network — a distributed network of servers that delivers web content to users based on their geographic location for faster load times.", "related": ["performance", "caching", "edge-computing"]},
-  {"term": "UX", "slug": "ux", "definition": "User Experience — the overall experience a user has when interacting with a product, encompassing usability, accessibility, and satisfaction.", "related": ["ui", "user-research", "design-thinking"]},
-  {"term": "UI", "slug": "ui", "definition": "User Interface — the visual elements and interactive components through which users interact with a software application.", "related": ["ux", "design-system", "frontend"]},
-  {"term": "ROI", "slug": "roi", "definition": "Return on Investment — a measure of the profitability of an investment, calculated as net profit divided by the cost of investment.", "related": ["kpi", "analytics", "business-metrics"]},
-  {"term": "KPI", "slug": "kpi", "definition": "Key Performance Indicator — a measurable value that demonstrates how effectively a company is achieving its business objectives.", "related": ["roi", "okr", "analytics"]},
-  {"term": "OKR", "slug": "okr", "definition": "Objectives and Key Results — a goal-setting framework that defines objectives and tracks measurable key results to achieve them.", "related": ["kpi", "goal-setting", "performance-management"]},
-  {"term": "MVP", "slug": "mvp", "definition": "Minimum Viable Product — the most basic version of a product that includes only essential features needed to validate an idea with early users.", "related": ["lean-startup", "iteration", "product-development"]},
-  {"term": "DAU/MAU", "slug": "dau-mau", "definition": "Daily Active Users / Monthly Active Users — metrics measuring the number of unique users who engage with a product within a given timeframe.", "related": ["engagement", "retention", "product-metrics"]},
-  {"term": "NPS", "slug": "nps", "definition": "Net Promoter Score — a metric measuring customer loyalty by asking how likely they are to recommend a product on a 0-10 scale.", "related": ["customer-satisfaction", "retention", "feedback"]},
-  {"term": "SDK", "slug": "sdk", "definition": "Software Development Kit — a collection of tools, libraries, and documentation that developers use to build applications for a specific platform.", "related": ["api", "framework", "developer-tools"]},
-  {"term": "REST API", "slug": "rest-api", "definition": "Representational State Transfer API — an architectural style for building web services that use HTTP methods to access and manipulate resources.", "related": ["api", "graphql", "http"]},
-  {"term": "GraphQL", "slug": "graphql", "definition": "A query language for APIs that allows clients to request exactly the data they need, reducing over-fetching and under-fetching of data.", "related": ["rest-api", "api", "data-fetching"]},
-  {"term": "Headless CMS", "slug": "headless-cms", "definition": "A content management system that stores and delivers content via APIs without a built-in frontend, allowing flexibility in how content is displayed.", "related": ["cms", "api", "jamstack"]},
-  {"term": "JAMstack", "slug": "jamstack", "definition": "A web architecture using JavaScript, APIs, and Markup to build fast, secure, and scalable static websites with dynamic functionality.", "related": ["static-site", "headless-cms", "cdn"]},
-  {"term": "Automation", "slug": "automation-term", "definition": "The use of technology to perform tasks with minimal human intervention, connecting different tools and triggering actions based on events.", "related": ["workflow", "integration", "rpa"]},
-  {"term": "Workflow", "slug": "workflow", "definition": "A sequence of steps or tasks that data or work items follow to complete a business process, often automated for efficiency.", "related": ["automation", "bpm", "process-optimization"]},
-  {"term": "Integration", "slug": "integration", "definition": "The process of connecting different software systems so they can share data and work together seamlessly.", "related": ["api", "webhook", "middleware"]},
-  {"term": "Data Lake", "slug": "data-lake", "definition": "A centralized repository that stores large volumes of raw data in its native format until needed for analytics or processing.", "related": ["data-warehouse", "big-data", "etl"]}
+  {
+    "term": "SaaS",
+    "slug": "saas",
+    "definition": "Software as a Service — cloud-based software delivered via the internet on a subscription basis, eliminating the need for local installation.",
+    "related": [
+      "cloud-computing",
+      "paas",
+      "subscription-model"
+    ]
+  },
+  {
+    "term": "API",
+    "slug": "api",
+    "definition": "Application Programming Interface — a set of protocols and tools that allows different software applications to communicate with each other.",
+    "related": [
+      "rest-api",
+      "webhook",
+      "sdk"
+    ]
+  },
+  {
+    "term": "AI",
+    "slug": "ai",
+    "definition": "Artificial Intelligence — technology that enables machines to simulate human intelligence, including learning, reasoning, and problem-solving.",
+    "related": [
+      "machine-learning",
+      "llm",
+      "neural-network"
+    ]
+  },
+  {
+    "term": "LLM",
+    "slug": "llm",
+    "definition": "Large Language Model — an AI model trained on massive amounts of text data that can understand and generate human-like text.",
+    "related": [
+      "ai",
+      "gpt",
+      "neural-network"
+    ]
+  },
+  {
+    "term": "GPT",
+    "slug": "gpt",
+    "definition": "Generative Pre-trained Transformer — a type of large language model developed by OpenAI that generates text based on patterns learned during training.",
+    "related": [
+      "llm",
+      "ai",
+      "chatgpt"
+    ]
+  },
+  {
+    "term": "CRM",
+    "slug": "crm",
+    "definition": "Customer Relationship Management — software that helps businesses manage interactions with current and potential customers, tracking sales and communications.",
+    "related": [
+      "sales-pipeline",
+      "lead-management",
+      "customer-data"
+    ]
+  },
+  {
+    "term": "No-Code",
+    "slug": "no-code",
+    "definition": "A development approach that allows users to build applications without writing traditional programming code, using visual interfaces and drag-and-drop tools.",
+    "related": [
+      "low-code",
+      "visual-development",
+      "citizen-developer"
+    ]
+  },
+  {
+    "term": "Low-Code",
+    "slug": "low-code",
+    "definition": "A development approach that requires minimal hand-coding, using visual interfaces with the option to add custom code for advanced functionality.",
+    "related": [
+      "no-code",
+      "rapid-development",
+      "citizen-developer"
+    ]
+  },
+  {
+    "term": "Webhook",
+    "slug": "webhook",
+    "definition": "An automated message sent from one application to another when a specific event occurs, enabling real-time data synchronization between systems.",
+    "related": [
+      "api",
+      "automation",
+      "event-driven"
+    ]
+  },
+  {
+    "term": "OAuth",
+    "slug": "oauth",
+    "definition": "An open standard authorization protocol that allows third-party applications to access user data without exposing passwords.",
+    "related": [
+      "authentication",
+      "sso",
+      "api"
+    ]
+  },
+  {
+    "term": "SSO",
+    "slug": "sso",
+    "definition": "Single Sign-On — an authentication method that allows users to log in to multiple applications with one set of credentials.",
+    "related": [
+      "oauth",
+      "authentication",
+      "identity-management"
+    ]
+  },
+  {
+    "term": "CI/CD",
+    "slug": "ci-cd",
+    "definition": "Continuous Integration/Continuous Deployment — practices that automate the building, testing, and deployment of software changes.",
+    "related": [
+      "devops",
+      "automation",
+      "pipeline"
+    ]
+  },
+  {
+    "term": "DevOps",
+    "slug": "devops",
+    "definition": "A set of practices combining software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver updates more frequently.",
+    "related": [
+      "ci-cd",
+      "infrastructure-as-code",
+      "sre"
+    ]
+  },
+  {
+    "term": "Kanban",
+    "slug": "kanban",
+    "definition": "A visual project management method using boards and cards to track work items as they move through stages of a workflow.",
+    "related": [
+      "agile",
+      "scrum",
+      "project-management"
+    ]
+  },
+  {
+    "term": "Agile",
+    "slug": "agile",
+    "definition": "A project management methodology emphasizing iterative development, collaboration, and flexibility to adapt to changing requirements.",
+    "related": [
+      "scrum",
+      "kanban",
+      "sprint"
+    ]
+  },
+  {
+    "term": "Scrum",
+    "slug": "scrum",
+    "definition": "An agile framework for managing work through fixed-length iterations called sprints, with defined roles and ceremonies.",
+    "related": [
+      "agile",
+      "sprint",
+      "kanban"
+    ]
+  },
+  {
+    "term": "Freemium",
+    "slug": "freemium",
+    "definition": "A pricing model offering a free tier with basic features, with paid plans available for advanced functionality.",
+    "related": [
+      "saas",
+      "pricing-model",
+      "free-trial"
+    ]
+  },
+  {
+    "term": "ARR",
+    "slug": "arr",
+    "definition": "Annual Recurring Revenue — the total predictable revenue a subscription business expects to generate in a year.",
+    "related": [
+      "mrr",
+      "saas",
+      "revenue-metrics"
+    ]
+  },
+  {
+    "term": "MRR",
+    "slug": "mrr",
+    "definition": "Monthly Recurring Revenue — the predictable revenue a subscription business generates each month from active subscriptions.",
+    "related": [
+      "arr",
+      "saas",
+      "churn"
+    ]
+  },
+  {
+    "term": "Churn Rate",
+    "slug": "churn-rate",
+    "definition": "The percentage of customers who cancel their subscription or stop using a service within a given time period.",
+    "related": [
+      "retention",
+      "mrr",
+      "customer-lifetime-value"
+    ]
+  },
+  {
+    "term": "SEO",
+    "slug": "seo",
+    "definition": "Search Engine Optimization — the practice of improving a website's visibility in search engine results through content, technical, and link-building strategies.",
+    "related": [
+      "serp",
+      "keywords",
+      "backlinks"
+    ]
+  },
+  {
+    "term": "SERP",
+    "slug": "serp",
+    "definition": "Search Engine Results Page — the page displayed by a search engine in response to a user's query.",
+    "related": [
+      "seo",
+      "organic-traffic",
+      "featured-snippet"
+    ]
+  },
+  {
+    "term": "CTR",
+    "slug": "ctr",
+    "definition": "Click-Through Rate — the ratio of users who click on a link compared to the total number of users who view it.",
+    "related": [
+      "conversion-rate",
+      "impressions",
+      "analytics"
+    ]
+  },
+  {
+    "term": "Conversion Rate",
+    "slug": "conversion-rate",
+    "definition": "The percentage of visitors who complete a desired action, such as making a purchase or signing up for a service.",
+    "related": [
+      "ctr",
+      "landing-page",
+      "a-b-testing"
+    ]
+  },
+  {
+    "term": "A/B Testing",
+    "slug": "a-b-testing",
+    "definition": "A method of comparing two versions of a webpage or feature to determine which performs better based on user behavior data.",
+    "related": [
+      "conversion-rate",
+      "analytics",
+      "optimization"
+    ]
+  },
+  {
+    "term": "Machine Learning",
+    "slug": "machine-learning",
+    "definition": "A subset of AI where systems learn and improve from data without being explicitly programmed, identifying patterns and making decisions.",
+    "related": [
+      "ai",
+      "deep-learning",
+      "neural-network"
+    ]
+  },
+  {
+    "term": "Neural Network",
+    "slug": "neural-network",
+    "definition": "A computing system inspired by biological neural networks that can learn to perform tasks by analyzing training data.",
+    "related": [
+      "machine-learning",
+      "deep-learning",
+      "ai"
+    ]
+  },
+  {
+    "term": "RAG",
+    "slug": "rag",
+    "definition": "Retrieval-Augmented Generation — an AI technique that enhances LLM responses by retrieving relevant information from external knowledge sources.",
+    "related": [
+      "llm",
+      "ai",
+      "vector-database"
+    ]
+  },
+  {
+    "term": "Vector Database",
+    "slug": "vector-database",
+    "definition": "A database optimized for storing and querying high-dimensional vector embeddings, used in AI similarity search and recommendation systems.",
+    "related": [
+      "rag",
+      "embeddings",
+      "ai"
+    ]
+  },
+  {
+    "term": "ETL",
+    "slug": "etl",
+    "definition": "Extract, Transform, Load — a data integration process that extracts data from sources, transforms it into a usable format, and loads it into a destination system.",
+    "related": [
+      "data-pipeline",
+      "data-warehouse",
+      "analytics"
+    ]
+  },
+  {
+    "term": "Microservices",
+    "slug": "microservices",
+    "definition": "An architectural approach where an application is built as a collection of small, independent services that communicate over APIs.",
+    "related": [
+      "api",
+      "containerization",
+      "scalability"
+    ]
+  },
+  {
+    "term": "Containerization",
+    "slug": "containerization",
+    "definition": "A method of packaging software with all its dependencies into isolated units (containers) that can run consistently across environments.",
+    "related": [
+      "docker",
+      "kubernetes",
+      "microservices"
+    ]
+  },
+  {
+    "term": "Serverless",
+    "slug": "serverless",
+    "definition": "A cloud execution model where the provider manages server infrastructure, allowing developers to focus on code that runs in response to events.",
+    "related": [
+      "cloud-computing",
+      "faas",
+      "scalability"
+    ]
+  },
+  {
+    "term": "CDN",
+    "slug": "cdn",
+    "definition": "Content Delivery Network — a distributed network of servers that delivers web content to users based on their geographic location for faster load times.",
+    "related": [
+      "performance",
+      "caching",
+      "edge-computing"
+    ]
+  },
+  {
+    "term": "UX",
+    "slug": "ux",
+    "definition": "User Experience — the overall experience a user has when interacting with a product, encompassing usability, accessibility, and satisfaction.",
+    "related": [
+      "ui",
+      "user-research",
+      "design-thinking"
+    ]
+  },
+  {
+    "term": "UI",
+    "slug": "ui",
+    "definition": "User Interface — the visual elements and interactive components through which users interact with a software application.",
+    "related": [
+      "ux",
+      "design-system",
+      "frontend"
+    ]
+  },
+  {
+    "term": "ROI",
+    "slug": "roi",
+    "definition": "Return on Investment — a measure of the profitability of an investment, calculated as net profit divided by the cost of investment.",
+    "related": [
+      "kpi",
+      "analytics",
+      "business-metrics"
+    ]
+  },
+  {
+    "term": "KPI",
+    "slug": "kpi",
+    "definition": "Key Performance Indicator — a measurable value that demonstrates how effectively a company is achieving its business objectives.",
+    "related": [
+      "roi",
+      "okr",
+      "analytics"
+    ]
+  },
+  {
+    "term": "OKR",
+    "slug": "okr",
+    "definition": "Objectives and Key Results — a goal-setting framework that defines objectives and tracks measurable key results to achieve them.",
+    "related": [
+      "kpi",
+      "goal-setting",
+      "performance-management"
+    ]
+  },
+  {
+    "term": "MVP",
+    "slug": "mvp",
+    "definition": "Minimum Viable Product — the most basic version of a product that includes only essential features needed to validate an idea with early users.",
+    "related": [
+      "lean-startup",
+      "iteration",
+      "product-development"
+    ]
+  },
+  {
+    "term": "DAU/MAU",
+    "slug": "dau-mau",
+    "definition": "Daily Active Users / Monthly Active Users — metrics measuring the number of unique users who engage with a product within a given timeframe.",
+    "related": [
+      "engagement",
+      "retention",
+      "product-metrics"
+    ]
+  },
+  {
+    "term": "NPS",
+    "slug": "nps",
+    "definition": "Net Promoter Score — a metric measuring customer loyalty by asking how likely they are to recommend a product on a 0-10 scale.",
+    "related": [
+      "customer-satisfaction",
+      "retention",
+      "feedback"
+    ]
+  },
+  {
+    "term": "SDK",
+    "slug": "sdk",
+    "definition": "Software Development Kit — a collection of tools, libraries, and documentation that developers use to build applications for a specific platform.",
+    "related": [
+      "api",
+      "framework",
+      "developer-tools"
+    ]
+  },
+  {
+    "term": "REST API",
+    "slug": "rest-api",
+    "definition": "Representational State Transfer API — an architectural style for building web services that use HTTP methods to access and manipulate resources.",
+    "related": [
+      "api",
+      "graphql",
+      "http"
+    ]
+  },
+  {
+    "term": "GraphQL",
+    "slug": "graphql",
+    "definition": "A query language for APIs that allows clients to request exactly the data they need, reducing over-fetching and under-fetching of data.",
+    "related": [
+      "rest-api",
+      "api",
+      "data-fetching"
+    ]
+  },
+  {
+    "term": "Headless CMS",
+    "slug": "headless-cms",
+    "definition": "A content management system that stores and delivers content via APIs without a built-in frontend, allowing flexibility in how content is displayed.",
+    "related": [
+      "cms",
+      "api",
+      "jamstack"
+    ]
+  },
+  {
+    "term": "JAMstack",
+    "slug": "jamstack",
+    "definition": "A web architecture using JavaScript, APIs, and Markup to build fast, secure, and scalable static websites with dynamic functionality.",
+    "related": [
+      "static-site",
+      "headless-cms",
+      "cdn"
+    ]
+  },
+  {
+    "term": "Automation",
+    "slug": "automation-term",
+    "definition": "The use of technology to perform tasks with minimal human intervention, connecting different tools and triggering actions based on events.",
+    "related": [
+      "workflow",
+      "integration",
+      "rpa"
+    ]
+  },
+  {
+    "term": "Workflow",
+    "slug": "workflow",
+    "definition": "A sequence of steps or tasks that data or work items follow to complete a business process, often automated for efficiency.",
+    "related": [
+      "automation",
+      "bpm",
+      "process-optimization"
+    ]
+  },
+  {
+    "term": "Integration",
+    "slug": "integration",
+    "definition": "The process of connecting different software systems so they can share data and work together seamlessly.",
+    "related": [
+      "api",
+      "webhook",
+      "middleware"
+    ]
+  },
+  {
+    "term": "Data Lake",
+    "slug": "data-lake",
+    "definition": "A centralized repository that stores large volumes of raw data in its native format until needed for analytics or processing.",
+    "related": [
+      "data-warehouse",
+      "big-data",
+      "etl"
+    ]
+  },
+  {
+    "term": "Embeddings",
+    "slug": "embeddings",
+    "definition": "Numerical representations of data (text, images, etc.) in high-dimensional space that capture semantic meaning and relationships.",
+    "related": [
+      "vector-database",
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "term": "Fine-Tuning",
+    "slug": "fine-tuning",
+    "definition": "The process of further training a pre-trained AI model on specific data to adapt it for a particular task or domain.",
+    "related": [
+      "llm",
+      "ai",
+      "transfer-learning"
+    ]
+  },
+  {
+    "term": "Prompt Engineering",
+    "slug": "prompt-engineering",
+    "definition": "The practice of crafting effective inputs (prompts) to get desired outputs from AI language models.",
+    "related": [
+      "llm",
+      "ai",
+      "gpt"
+    ]
+  },
+  {
+    "term": "Token",
+    "slug": "token",
+    "definition": "The basic unit of text processed by language models. Roughly 4 characters or 0.75 words in English.",
+    "related": [
+      "llm",
+      "gpt",
+      "context-window"
+    ]
+  },
+  {
+    "term": "Context Window",
+    "slug": "context-window",
+    "definition": "The maximum amount of text (measured in tokens) that a language model can process in a single interaction.",
+    "related": [
+      "token",
+      "llm",
+      "ai"
+    ]
+  },
+  {
+    "term": "Hallucination",
+    "slug": "hallucination",
+    "definition": "When an AI model generates plausible-sounding but factually incorrect or fabricated information.",
+    "related": [
+      "llm",
+      "ai",
+      "rag"
+    ]
+  },
+  {
+    "term": "Data Pipeline",
+    "slug": "data-pipeline",
+    "definition": "An automated series of data processing steps that moves data from source systems through transformation to destination storage.",
+    "related": [
+      "etl",
+      "automation"
+    ]
+  },
+  {
+    "term": "Edge Computing",
+    "slug": "edge-computing",
+    "definition": "Processing data closer to where it is generated rather than in a centralized data center, reducing latency and bandwidth usage.",
+    "related": [
+      "cdn",
+      "cloud-computing",
+      "serverless"
+    ]
+  },
+  {
+    "term": "A/B Testing",
+    "slug": "ab-testing",
+    "definition": "A method of comparing two versions of a webpage, email, or feature to determine which one performs better with users.",
+    "related": [
+      "conversion-rate",
+      "analytics"
+    ]
+  },
+  {
+    "term": "CAC",
+    "slug": "cac",
+    "definition": "Customer Acquisition Cost - the total cost of acquiring a new customer, including marketing and sales expenses.",
+    "related": [
+      "ltv",
+      "saas"
+    ]
+  },
+  {
+    "term": "LTV",
+    "slug": "ltv",
+    "definition": "Lifetime Value - the total revenue a business can expect from a single customer over the entire duration of their relationship.",
+    "related": [
+      "cac",
+      "churn-rate",
+      "saas"
+    ]
+  },
+  {
+    "term": "PLG",
+    "slug": "plg",
+    "definition": "Product-Led Growth - a business strategy where the product itself drives user acquisition, expansion, and retention.",
+    "related": [
+      "freemium",
+      "saas"
+    ]
+  },
+  {
+    "term": "WYSIWYG",
+    "slug": "wysiwyg",
+    "definition": "What You See Is What You Get - an editing interface where content appears during editing exactly as it will look when published.",
+    "related": [
+      "no-code",
+      "cms"
+    ]
+  },
+  {
+    "term": "CMS",
+    "slug": "cms",
+    "definition": "Content Management System - software that allows users to create, manage, and modify digital content without specialized technical knowledge.",
+    "related": [
+      "wysiwyg",
+      "headless-cms"
+    ]
+  }
 ]

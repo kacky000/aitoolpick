@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+// Collect features with counts
+const featureMap = new Map<string, number>();
+for (const tool of tools) {
+  for (const feature of tool.features) {
+    featureMap.set(feature, (featureMap.get(feature) || 0) + 1);
+  }
+}
+
+// Only features with 3+ tools
+const features = Array.from(featureMap.entries())
+  .filter(([, count]) => count >= 3)
+  .sort((a, b) => b[1] - a[1]);
+
+function formatFeature(slug: string): string {
+  return slug.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
+}
+
+const pageTitle = `Browse Tools by Feature — ${features.length} Features Compared | AIToolPick`;
+const pageDescription = `Find the perfect tool by feature. Browse ${features.length} features and see which tools support each one.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Features' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Browse by Feature</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        {features.length} features across {tools.length} tools. Click a feature to see all tools that support it.
+      </p>
+
+      <div class="features-cloud">
+        {features.map(([feature, count]) => (
+          <a href={`/features/${feature}/`} class="feature-chip" style={`font-size: ${Math.max(0.75, Math.min(1.2, 0.7 + count / 30))}rem;`}>
+            {formatFeature(feature)} <span class="chip-count">({count})</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .features-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .feature-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 500;
+    transition: border-color 0.15s, background 0.15s;
+  }
+
+  .feature-chip:hover {
+    border-color: var(--primary);
+    background: var(--primary-light);
+  }
+
+  .chip-count {
+    font-size: 0.7em;
+    color: var(--gray-500);
+    font-weight: 400;
+  }
+</style>

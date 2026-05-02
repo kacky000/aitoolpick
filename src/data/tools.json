@@ -238,7 +238,8 @@
       "calendar",
       "power-ups",
       "automations",
-      "templates"
+      "templates",
+      "due-dates-and-labels"
     ],
     "website": "https://trello.com",
     "affiliateUrl": "",
@@ -371,7 +372,8 @@
     "bestFor": [
       "note-takers",
       "researchers",
-      "professionals"
+      "professionals",
+      "knowledge-workers"
     ],
     "features": [
       "notes",
@@ -418,7 +420,8 @@
     "bestFor": [
       "developers",
       "engineering-teams",
-      "startups"
+      "startups",
+      "product-managers"
     ],
     "features": [
       "issues",
@@ -904,7 +907,8 @@
       "integrations",
       "tables",
       "interfaces",
-      "ai-actions"
+      "ai-actions",
+      "multi-step-workflows"
     ],
     "website": "https://zapier.com",
     "affiliateUrl": "https://zapier.com/platform/partner-program",
@@ -1091,7 +1095,8 @@
     "bestFor": [
       "google-workspace-users",
       "android-users",
-      "research-tasks"
+      "research-tasks",
+      "content-creators"
     ],
     "features": [
       "chat",
@@ -17190,5 +17195,433 @@
     "rating": 4.5,
     "yearFounded": 2022,
     "icon": "/icons/arc-browser.svg"
+  },
+  {
+    "id": "youtrack",
+    "name": "YouTrack",
+    "slug": "youtrack",
+    "category": [
+      "issue-tracking",
+      "project-management"
+    ],
+    "pricing": {
+      "free": true,
+      "team": 3.67,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Issue tracking and project management tool by JetBrains with agile boards, time tracking, and deep IDE integration for software development teams.",
+    "pros": [
+      "Free for up to 10 users",
+      "Powerful query language for filtering",
+      "Seamless JetBrains IDE integration",
+      "Highly customizable workflows"
+    ],
+    "cons": [
+      "Steep learning curve",
+      "UI can feel dated compared to Linear",
+      "Self-hosted version requires maintenance"
+    ],
+    "bestFor": [
+      "software-developers",
+      "agile-teams",
+      "jetbrains-users",
+      "medium-teams"
+    ],
+    "features": [
+      "agile-boards",
+      "time-tracking",
+      "gantt-charts",
+      "knowledge-base",
+      "custom-workflows",
+      "reports-dashboards"
+    ],
+    "website": "https://www.jetbrains.com/youtrack/",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2010,
+    "icon": null
+  },
+  {
+    "id": "shortcut",
+    "name": "Shortcut",
+    "slug": "shortcut",
+    "category": [
+      "issue-tracking",
+      "project-management"
+    ],
+    "pricing": {
+      "free": true,
+      "team": 8.5,
+      "business": 12.0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "freemium",
+    "description": "Project management built for software teams with stories, epics, and iterations.",
+    "pros": [
+      "Intuitive UI for engineering teams",
+      "Great API and integrations",
+      "Flexible iteration planning",
+      "Excellent GitHub integration"
+    ],
+    "cons": [
+      "Limited reporting on free plan",
+      "No time tracking built-in",
+      "Smaller ecosystem than Jira"
+    ],
+    "bestFor": [
+      "software-teams",
+      "startups",
+      "engineering-managers",
+      "product-teams"
+    ],
+    "features": [
+      "stories",
+      "epics",
+      "iterations",
+      "milestones",
+      "api",
+      "integrations"
+    ],
+    "website": "https://shortcut.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2016,
+    "icon": null
+  },
+  {
+    "id": "plane",
+    "name": "Plane",
+    "slug": "plane",
+    "category": [
+      "issue-tracking",
+      "project-management",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 7.0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "freemium",
+    "description": "Open-source project tracking that serves as a modern alternative to Jira.",
+    "pros": [
+      "Open source and self-hostable",
+      "Modern clean interface",
+      "Jira-like power without complexity",
+      "Active community"
+    ],
+    "cons": [
+      "Relatively new",
+      "Smaller integration ecosystem",
+      "Documentation still maturing"
+    ],
+    "bestFor": [
+      "developers",
+      "open-source-advocates",
+      "startups",
+      "engineering-teams"
+    ],
+    "features": [
+      "cycles",
+      "modules",
+      "views",
+      "pages",
+      "self-hostable",
+      "analytics"
+    ],
+    "website": "https://plane.so",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2022,
+    "icon": null
+  },
+  {
+    "id": "rows",
+    "name": "Rows",
+    "slug": "rows",
+    "category": [
+      "spreadsheet",
+      "analytics"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 59.0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "freemium",
+    "description": "Spreadsheet with built-in integrations to databases, APIs, and 50+ data sources.",
+    "pros": [
+      "Built-in data integrations",
+      "Modern clean interface",
+      "Powerful AI features",
+      "Great for data analysis"
+    ],
+    "cons": [
+      "Limited free plan",
+      "Smaller community",
+      "Some integrations require paid plan"
+    ],
+    "bestFor": [
+      "data-analysts",
+      "marketers",
+      "startups",
+      "growth-teams"
+    ],
+    "features": [
+      "integrations",
+      "ai-assistant",
+      "charts",
+      "sharing",
+      "templates",
+      "api-connections"
+    ],
+    "website": "https://rows.com",
+    "affiliateUrl": null,
+    "rating": 4.2,
+    "yearFounded": 2016,
+    "icon": null
+  },
+  {
+    "id": "weglot",
+    "name": "Weglot",
+    "slug": "weglot",
+    "category": [
+      "ai-translation",
+      "website-builder"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 15.0,
+      "business": 29.0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "freemium",
+    "description": "Website translation that automatically translates your site into multiple languages.",
+    "pros": [
+      "One-click website translation",
+      "SEO-friendly subdirectories",
+      "Works with any CMS",
+      "Visual editor"
+    ],
+    "cons": [
+      "Per-word pricing adds up",
+      "Limited free plan",
+      "Quality varies by language"
+    ],
+    "bestFor": [
+      "website-owners",
+      "ecommerce-stores",
+      "marketing-teams",
+      "international-businesses"
+    ],
+    "features": [
+      "auto-translation",
+      "visual-editor",
+      "seo-optimization",
+      "multi-language",
+      "glossary",
+      "api"
+    ],
+    "website": "https://weglot.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2016,
+    "icon": null
+  },
+  {
+    "id": "kagi",
+    "name": "Kagi",
+    "slug": "kagi",
+    "category": [
+      "ai-search",
+      "productivity"
+    ],
+    "pricing": {
+      "free": false,
+      "starter": 5.0,
+      "professional": 10.0,
+      "ultimate": 25.0
+    },
+    "currency": "USD",
+    "pricingModel": "subscription",
+    "description": "Ad-free, privacy-focused search engine with AI summaries and customizable results.",
+    "pros": [
+      "No ads or tracking",
+      "Customizable results",
+      "AI-powered summaries",
+      "Fast and accurate"
+    ],
+    "cons": [
+      "No free plan",
+      "Requires subscription",
+      "Smaller index than Google"
+    ],
+    "bestFor": [
+      "privacy-conscious-users",
+      "developers",
+      "researchers",
+      "power-users"
+    ],
+    "features": [
+      "ad-free-search",
+      "ai-summaries",
+      "personalization",
+      "domain-blocking",
+      "lenses",
+      "privacy"
+    ],
+    "website": "https://kagi.com",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2022,
+    "icon": null
+  },
+  {
+    "id": "ticktick",
+    "name": "TickTick",
+    "slug": "ticktick",
+    "category": [
+      "task-management",
+      "productivity",
+      "calendar"
+    ],
+    "pricing": {
+      "free": true,
+      "premium": 3.99,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "freemium",
+    "description": "All-in-one task manager with calendar, habit tracker, and Pomodoro timer.",
+    "pros": [
+      "Built-in calendar and habits",
+      "Pomodoro included",
+      "Affordable premium",
+      "Clean interface"
+    ],
+    "cons": [
+      "Some features need premium",
+      "Smaller ecosystem",
+      "Occasional sync delays"
+    ],
+    "bestFor": [
+      "students",
+      "individuals",
+      "habit-builders",
+      "productivity-enthusiasts"
+    ],
+    "features": [
+      "tasks",
+      "calendar",
+      "habits",
+      "pomodoro",
+      "collaboration",
+      "widgets"
+    ],
+    "website": "https://ticktick.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2013,
+    "icon": null
+  },
+  {
+    "id": "warp",
+    "name": "Warp",
+    "slug": "warp",
+    "category": [
+      "ai-coding",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "team": 22.0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "freemium",
+    "description": "AI-powered terminal with command suggestions and modern editing for developers.",
+    "pros": [
+      "AI command suggestions",
+      "Modern UI",
+      "Collaborative features",
+      "GPU-accelerated"
+    ],
+    "cons": [
+      "Mac/Linux only",
+      "Requires account",
+      "AI not always accurate"
+    ],
+    "bestFor": [
+      "developers",
+      "devops-engineers",
+      "data-scientists",
+      "sysadmins"
+    ],
+    "features": [
+      "ai-assistant",
+      "command-palette",
+      "blocks",
+      "workflows",
+      "themes",
+      "collaboration"
+    ],
+    "website": "https://www.warp.dev",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2020,
+    "icon": null
+  },
+  {
+    "id": "guru",
+    "name": "Guru",
+    "slug": "guru",
+    "category": [
+      "knowledge-management",
+      "collaboration"
+    ],
+    "pricing": {
+      "free": true,
+      "builder": 10.0,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "freemium",
+    "description": "AI-powered company wiki with verified knowledge cards surfacing info in workflows.",
+    "pros": [
+      "Knowledge verification",
+      "Browser extension",
+      "AI-powered search",
+      "Slack/Teams integration"
+    ],
+    "cons": [
+      "Unwieldy at scale",
+      "Verification overhead",
+      "Limited formatting"
+    ],
+    "bestFor": [
+      "support-teams",
+      "sales-teams",
+      "hr-teams",
+      "growing-companies"
+    ],
+    "features": [
+      "knowledge-cards",
+      "verification",
+      "ai-search",
+      "browser-extension",
+      "analytics",
+      "integrations"
+    ],
+    "website": "https://www.getguru.com",
+    "affiliateUrl": null,
+    "rating": 4.4,
+    "yearFounded": 2015,
+    "icon": null
   }
 ]
