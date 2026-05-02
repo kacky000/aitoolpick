@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+function formatPrice(pricing: Record<string, any>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Custom';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+const sortedTools = [...tools].sort((a, b) => b.rating - a.rating);
+const freeTools = tools.filter((t) => t.pricing.free);
+
+const pageTitle = `Pricing Directory — Compare ${tools.length} Tool Prices | AIToolPick`;
+const pageDescription = `Compare pricing for ${tools.length}+ tools. ${freeTools.length} offer free plans. Find detailed pricing breakdowns and plan comparisons.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Pricing' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Pricing Directory</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        Detailed pricing breakdowns for {tools.length}+ tools. {freeTools.length} have free plans.
+      </p>
+
+      <div class="price-grid">
+        {sortedTools.slice(0, 120).map((tool) => (
+          <a href={`/pricing/${tool.slug}/`} class="price-card">
+            {tool.icon && <img src={tool.icon} alt={tool.name} width="24" height="24" style="border-radius: 6px;" loading="lazy" />}
+            <div class="price-card-info">
+              <strong>{tool.name}</strong>
+              <span class="price-card-price">{formatPrice(tool.pricing)}</span>
+            </div>
+            {tool.pricing.free && <span class="price-card-free">Free</span>}
+          </a>
+        ))}
+      </div>
+
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="/pricing-compare/" class="btn-secondary">Compare Pricing by Category &rarr;</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .price-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.6rem; }
+  .price-card { display: flex; align-items: center; gap: 0.6rem; padding: 0.7rem 0.9rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); text-decoration: none; color: inherit; transition: border-color 0.15s; }
+  .price-card:hover { border-color: var(--primary); }
+  .price-card-info { flex: 1; display: flex; flex-direction: column; }
+  .price-card-info strong { font-size: 0.85rem; }
+  .price-card-price { font-size: 0.75rem; color: var(--primary-dark); font-weight: 600; }
+  .price-card-free { font-size: 0.65rem; padding: 0.15rem 0.4rem; background: var(--success-light, #d1fae5); color: var(--success); border-radius: 6px; font-weight: 600; }
+</style>

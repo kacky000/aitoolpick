@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+// Get top tools by rating for the alternatives directory
+const topTools = [...tools].sort((a, b) => b.rating - a.rating).slice(0, 100);
+
+const pageTitle = `Find Alternatives to Any Tool — ${tools.length} Tools Compared | AIToolPick`;
+const pageDescription = `Looking for an alternative? Browse alternatives to ${tools.length}+ popular tools. Compare features, pricing, and ratings to find your perfect match.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Alternatives' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Find Alternatives</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        Explore alternatives to {tools.length}+ tools. Click any tool to see its top competitors.
+      </p>
+
+      <div class="alt-index-grid">
+        {topTools.map((tool) => (
+          <a href={`/alternatives/${tool.slug}/`} class="alt-index-card">
+            {tool.icon && <img src={tool.icon} alt={tool.name} width="24" height="24" style="border-radius: 6px;" loading="lazy" />}
+            <span class="alt-index-name">{tool.name}</span>
+            <span class="alt-index-rating">★ {tool.rating}</span>
+          </a>
+        ))}
+      </div>
+
+      <div style="text-align: center; margin-top: 2rem;">
+        <p style="color: var(--gray-500); font-size: 0.85rem;">
+          Can't find what you're looking for? <a href="/tools/">Browse all {tools.length} tools</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .alt-index-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.6rem;
+  }
+
+  .alt-index-card {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 0.9rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s;
+  }
+
+  .alt-index-card:hover {
+    border-color: var(--primary);
+  }
+
+  .alt-index-name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    flex: 1;
+  }
+
+  .alt-index-rating {
+    font-size: 0.72rem;
+    color: var(--warning);
+    font-weight: 600;
+  }
+</style>

@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+const sortedTools = [...tools].sort((a, b) => b.rating - a.rating);
+
+const pageTitle = `Setup Checklists — ${tools.length} Interactive Guides | AIToolPick`;
+const pageDescription = `Interactive setup checklists for ${tools.length}+ tools. Track your progress as you set up each tool step by step.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Setup Checklists' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Setup Checklists</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        Interactive setup guides for {tools.length}+ tools. Track your progress with checkboxes.
+      </p>
+
+      <div class="cl-grid">
+        {sortedTools.slice(0, 100).map((tool) => (
+          <a href={`/checklist/${tool.slug}/`} class="cl-card">
+            {tool.icon && <img src={tool.icon} alt={tool.name} width="24" height="24" style="border-radius: 6px;" loading="lazy" />}
+            <span>{tool.name} Setup</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .cl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.5rem; }
+  .cl-card { display: flex; align-items: center; gap: 0.6rem; padding: 0.7rem 0.9rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); text-decoration: none; color: var(--dark); font-size: 0.85rem; font-weight: 500; transition: border-color 0.15s; }
+  .cl-card:hover { border-color: var(--primary); }
+</style>
