@@ -1,0 +1,82 @@
+[
+  {
+    "id": "startup-founder",
+    "title": "Startup Founder Stack",
+    "slug": "startup-founder",
+    "description": "Essential tools every startup founder needs to build, launch, and grow their business in 2026.",
+    "tools": ["notion", "slack", "figma", "vercel", "stripe", "linear", "github-copilot", "chatgpt"],
+    "categories": ["Communication", "Project Management", "Design", "Development", "Payments", "AI"]
+  },
+  {
+    "id": "freelance-designer",
+    "title": "Freelance Designer Stack",
+    "slug": "freelance-designer",
+    "description": "The complete toolkit for freelance designers managing clients, projects, and creative work.",
+    "tools": ["figma", "canva", "notion", "loom", "stripe", "calendly", "grammarly", "midjourney"],
+    "categories": ["Design", "Productivity", "Communication", "Payments", "AI"]
+  },
+  {
+    "id": "content-creator",
+    "title": "Content Creator Stack",
+    "slug": "content-creator",
+    "description": "Tools for creating, editing, and distributing content across platforms.",
+    "tools": ["canva", "grammarly", "chatgpt", "loom", "buffer", "notion", "descript", "midjourney"],
+    "categories": ["Design", "Writing", "Video", "Social Media", "AI", "Organization"]
+  },
+  {
+    "id": "remote-team",
+    "title": "Remote Team Stack",
+    "slug": "remote-team",
+    "description": "Collaboration tools that keep distributed teams productive and connected.",
+    "tools": ["slack", "notion", "loom", "miro", "zoom", "linear", "github", "figma"],
+    "categories": ["Communication", "Documentation", "Video", "Whiteboard", "Project Management"]
+  },
+  {
+    "id": "marketing-team",
+    "title": "Marketing Team Stack",
+    "slug": "marketing-team",
+    "description": "End-to-end marketing tools from research to execution and analytics.",
+    "tools": ["ahrefs", "canva", "buffer", "mailchimp", "google-analytics", "chatgpt", "notion", "zapier"],
+    "categories": ["SEO", "Design", "Social Media", "Email", "Analytics", "AI", "Automation"]
+  },
+  {
+    "id": "developer",
+    "title": "Developer Stack",
+    "slug": "developer",
+    "description": "Modern development tools for building, testing, and deploying software.",
+    "tools": ["github-copilot", "cursor", "vercel", "linear", "notion", "slack", "postman", "docker"],
+    "categories": ["AI Coding", "Hosting", "Issue Tracking", "Documentation", "API"]
+  },
+  {
+    "id": "solopreneur",
+    "title": "Solopreneur Stack",
+    "slug": "solopreneur",
+    "description": "All-in-one tools for solo entrepreneurs managing every aspect of their business.",
+    "tools": ["notion", "canva", "chatgpt", "zapier", "stripe", "calendly", "mailchimp", "buffer"],
+    "categories": ["Productivity", "Design", "AI", "Automation", "Payments", "Scheduling", "Marketing"]
+  },
+  {
+    "id": "student",
+    "title": "Student Stack",
+    "slug": "student",
+    "description": "Free and affordable tools for students to study, organize, and collaborate.",
+    "tools": ["notion", "obsidian", "chatgpt", "canva", "grammarly", "todoist", "google-docs", "perplexity"],
+    "categories": ["Notes", "AI", "Writing", "Design", "Organization", "Research"]
+  },
+  {
+    "id": "sales-team",
+    "title": "Sales Team Stack",
+    "slug": "sales-team",
+    "description": "CRM and sales enablement tools to close more deals and grow revenue.",
+    "tools": ["hubspot", "slack", "loom", "calendly", "notion", "chatgpt", "zapier", "zoom"],
+    "categories": ["CRM", "Communication", "Video", "Scheduling", "AI", "Automation"]
+  },
+  {
+    "id": "ecommerce",
+    "title": "E-commerce Stack",
+    "slug": "ecommerce",
+    "description": "Tools for building and scaling online stores from inventory to customer support.",
+    "tools": ["shopify", "canva", "mailchimp", "zapier", "chatgpt", "google-analytics", "stripe", "zendesk"],
+    "categories": ["Store", "Design", "Email", "Automation", "AI", "Analytics", "Payments", "Support"]
+  }
+]
