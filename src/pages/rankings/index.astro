@@ -1,0 +1,205 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+// Sort by rating descending, take top 100
+const rankedTools = [...tools]
+  .sort((a, b) => b.rating - a.rating)
+  .slice(0, 100);
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(
+    ([key, val]) => key !== 'free' && val !== null && typeof val === 'number'
+  );
+  if (entries.length === 0) {
+    return pricing.free ? 'Free' : 'Contact sales';
+  }
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+function getCategoryName(catId: string): string {
+  const cat = categories.find((c) => c.id === catId);
+  return cat ? cat.name : catId.replace(/-/g, ' ');
+}
+---
+
+<BaseLayout
+  title="Top 100 AI & Productivity Tools Ranked by Rating — 2026"
+  description="The definitive ranking of the best AI and productivity tools in 2026, sorted by user rating. Compare the top 100 tools across all categories."
+>
+  <section class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Rankings</span>
+      </nav>
+
+      <h1 class="section-title">Top 100 AI & Productivity Tools Ranked by Rating — 2026</h1>
+      <p class="section-subtitle">
+        The definitive ranking based on user ratings across {tools.length} tools and {categories.length} categories.
+      </p>
+
+      <div class="rankings-table-wrapper">
+        <table class="rankings-table">
+          <thead>
+            <tr>
+              <th class="col-rank">#</th>
+              <th class="col-name">Tool</th>
+              <th class="col-rating">Rating</th>
+              <th class="col-category">Category</th>
+              <th class="col-price">Price</th>
+              <th class="col-desc">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rankedTools.map((tool, index) => (
+              <tr>
+                <td class="col-rank">
+                  <span class={`rank-badge ${index < 3 ? 'rank-top3' : index < 10 ? 'rank-top10' : ''}`}>
+                    {index + 1}
+                  </span>
+                </td>
+                <td class="col-name">
+                  <strong>{tool.name}</strong>
+                </td>
+                <td class="col-rating">
+                  <span class="rating-star">&#9733;</span> {tool.rating}
+                </td>
+                <td class="col-category">
+                  {tool.category.slice(0, 2).map((catId) => (
+                    <span class="card-tag">{getCategoryName(catId)}</span>
+                  ))}
+                </td>
+                <td class="col-price">{formatPrice(tool.pricing)}</td>
+                <td class="col-desc">{tool.description}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .breadcrumb {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted, #6b7280);
+  }
+  .breadcrumb a {
+    color: var(--primary, #6366f1);
+    text-decoration: none;
+  }
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  .breadcrumb-sep {
+    margin: 0 0.5rem;
+    color: var(--text-muted, #9ca3af);
+  }
+  .section-subtitle {
+    color: var(--text-muted, #6b7280);
+    margin-bottom: 2rem;
+  }
+  .rankings-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .rankings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .rankings-table thead {
+    background: var(--bg-card, #f9fafb);
+    position: sticky;
+    top: 0;
+  }
+  .rankings-table th {
+    text-align: left;
+    padding: 0.75rem 0.5rem;
+    border-bottom: 2px solid var(--border, #e5e7eb);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .rankings-table td {
+    padding: 0.75rem 0.5rem;
+    border-bottom: 1px solid var(--border, #e5e7eb);
+    vertical-align: middle;
+  }
+  .rankings-table tbody tr:hover {
+    background: var(--bg-hover, #f3f4f6);
+  }
+  .col-rank {
+    width: 50px;
+    text-align: center;
+  }
+  .col-name {
+    min-width: 120px;
+    white-space: nowrap;
+  }
+  .col-rating {
+    width: 80px;
+    white-space: nowrap;
+  }
+  .col-category {
+    min-width: 150px;
+  }
+  .col-price {
+    width: 100px;
+    white-space: nowrap;
+  }
+  .col-desc {
+    min-width: 200px;
+    color: var(--text-muted, #6b7280);
+  }
+  .rank-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 0.8rem;
+    background: var(--bg-card, #f3f4f6);
+    color: var(--text, #374151);
+  }
+  .rank-top3 {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: #fff;
+  }
+  .rank-top10 {
+    background: var(--primary, #6366f1);
+    color: #fff;
+  }
+  .rating-star {
+    color: #f59e0b;
+  }
+  .card-tag {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    background: var(--bg-card, #f3f4f6);
+    border-radius: 12px;
+    font-size: 0.75rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 768px) {
+    .col-desc {
+      display: none;
+    }
+    .rankings-table {
+      font-size: 0.82rem;
+    }
+    .col-category .card-tag {
+      font-size: 0.7rem;
+    }
+  }
+</style>

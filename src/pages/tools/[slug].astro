@@ -1,0 +1,556 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  return tools.map((tool) => ({
+    params: { slug: tool.slug },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+
+// Get category details
+const toolCategories = categories.filter((c) => tool.category.includes(c.id));
+
+// Find alternative tools (same categories, max 6)
+const alternatives = tools
+  .filter((t) => t.id !== tool.id && t.category.some((c: string) => tool.category.includes(c)))
+  .slice(0, 6);
+
+// Find related blog posts by tag matching
+const allPosts = await getCollection('blog');
+const toolKeywords = [
+  tool.slug,
+  tool.name.toLowerCase(),
+  ...tool.category,
+  ...tool.features.slice(0, 5),
+];
+const relatedPosts = allPosts
+  .map((post) => {
+    const postTags = (post.data.tags || []).map((t: string) => t.toLowerCase());
+    const overlap = toolKeywords.filter((kw) => postTags.includes(kw.toLowerCase())).length;
+    return { post, overlap };
+  })
+  .filter((r) => r.overlap > 0)
+  .sort((a, b) => b.overlap - a.overlap)
+  .slice(0, 4)
+  .map((r) => r.post);
+
+// Format price helper
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(
+    ([key, val]) => key !== 'free' && val !== null && typeof val === 'number'
+  );
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+// Determine CTA URL
+const ctaUrl = tool.affiliateUrl || tool.website;
+
+const pageTitle = `${tool.name} Review 2026 — Pricing, Features, Pros & Cons`;
+const pageDescription = `${tool.name} review: ${tool.description} Compare pricing, features, pros & cons. Rating: ${tool.rating}/5.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: tool.name,
+  description: tool.description,
+  url: tool.website,
+  applicationCategory: toolCategories.map((c) => c.name).join(', '),
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: tool.rating,
+    bestRating: 5,
+    worstRating: 1,
+  },
+  offers: {
+    '@type': 'Offer',
+    price: tool.pricing.free ? '0' : Object.values(tool.pricing).find((v) => typeof v === 'number') || '0',
+    priceCurrency: tool.currency || 'USD',
+  },
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} slot="head" />
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" style="max-width: var(--max-width); padding-top: 1.5rem;">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/#categories">Tools</a></li>
+      <li>{tool.name}</li>
+    </ol>
+  </nav>
+
+  <!-- Tool Header -->
+  <section class="tool-hero">
+    <div class="container">
+      <div class="tool-hero-inner">
+        <div class="tool-hero-identity">
+          {tool.icon && (
+            <img src={tool.icon} alt={`${tool.name} icon`} width="64" height="64" class="tool-hero-icon" />
+          )}
+          <div>
+            <h1>{tool.name}</h1>
+            <div class="tool-hero-rating">
+              <span class="stars">{'★'.repeat(Math.round(tool.rating))}{'☆'.repeat(5 - Math.round(tool.rating))}</span>
+              <span class="rating-value">{tool.rating} / 5</span>
+            </div>
+            <div class="tool-hero-categories">
+              {toolCategories.map((cat) => (
+                <a href={`/category/${cat.slug}/`} class="card-tag">{cat.icon} {cat.name}</a>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div class="tool-hero-cta">
+          <a href={ctaUrl} target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Visit Website &rarr;
+          </a>
+          <span class="tool-hero-price">{formatPrice(tool.pricing)}</span>
+        </div>
+      </div>
+      <p class="tool-hero-description">{tool.description}</p>
+    </div>
+  </section>
+
+  <!-- Pricing Table -->
+  <section class="section">
+    <div class="container">
+      <h2 style="margin-bottom: 1.5rem;">Pricing Plans</h2>
+      <div class="pricing-grid">
+        {Object.entries(tool.pricing).map(([plan, value]) => {
+          const isFree = plan === 'free';
+          const priceDisplay = isFree
+            ? (value ? 'Free' : 'No Free Plan')
+            : value === null
+              ? 'Custom'
+              : `$${value}/mo`;
+          const isAvailable = isFree ? value : true;
+          return (
+            <div class={`pricing-card ${isFree && value ? 'pricing-card--free' : ''}`}>
+              <h3 class="pricing-plan-name">{plan.charAt(0).toUpperCase() + plan.slice(1).replace(/([A-Z])/g, ' $1')}</h3>
+              <div class="pricing-amount">{priceDisplay}</div>
+              {isAvailable && (
+                <span class="pricing-badge">Available</span>
+              )}
+            </div>
+          );
+        })}
+      </div>
+      {tool.pricingModel && (
+        <p class="pricing-note">Pricing model: {tool.pricingModel.replace(/-/g, ' ')}</p>
+      )}
+    </div>
+  </section>
+
+  <!-- Pros & Cons -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 style="margin-bottom: 1.5rem;">Pros & Cons</h2>
+      <div class="pros-cons">
+        <div class="pros-list">
+          <h3>Pros</h3>
+          <ul>
+            {tool.pros.map((pro: string) => (
+              <li>{pro}</li>
+            ))}
+          </ul>
+        </div>
+        <div class="cons-list">
+          <h3>Cons</h3>
+          <ul>
+            {tool.cons.map((con: string) => (
+              <li>{con}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section">
+    <div class="container">
+      <h2 style="margin-bottom: 1.5rem;">Features</h2>
+      <div class="features-grid">
+        {tool.features.map((feature: string) => (
+          <span class="feature-badge">{feature}</span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Best For -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 style="margin-bottom: 1.5rem;">Best For</h2>
+      <div class="best-for-grid">
+        {tool.bestFor.map((audience: string) => (
+          <div class="best-for-item">
+            <span class="best-for-icon">👤</span>
+            <span>{audience.replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase())}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Comparisons -->
+  {alternatives.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2 style="margin-bottom: 1.5rem;">Compare {tool.name}</h2>
+        <div class="comparison-links">
+          {alternatives.slice(0, 6).map((alt) => {
+            const compareSlug = [tool.slug, alt.slug].sort().join('-vs-');
+            return (
+              <a href={`/compare/${compareSlug}/`} class="comparison-link">
+                <span>{tool.name} vs {alt.name}</span>
+                <span class="arrow">&rarr;</span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Alternative Tools -->
+  {alternatives.length > 0 && (
+    <section class="section section-alt">
+      <div class="container">
+        <h2 style="margin-bottom: 1.5rem;">{tool.name} Alternatives</h2>
+        <div class="alternatives-grid-detail">
+          {alternatives.map((alt) => (
+            <a href={`/tools/${alt.slug}/`} class="alt-card">
+              <div class="alt-card-header">
+                {alt.icon && (
+                  <img src={alt.icon} alt={`${alt.name} icon`} width="32" height="32" style="border-radius: 8px;" />
+                )}
+                <div>
+                  <h3>{alt.name}</h3>
+                  <span class="alt-card-rating">{'★'.repeat(Math.round(alt.rating))} {alt.rating}</span>
+                </div>
+              </div>
+              <p class="alt-card-desc">{alt.description}</p>
+              <span class="alt-card-price">{formatPrice(alt.pricing)}</span>
+            </a>
+          ))}
+        </div>
+        <div style="text-align: center; margin-top: 1.5rem;">
+          <a href={`/alternatives/${tool.slug}/`} class="btn-secondary">
+            See all {tool.name} alternatives &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Related Blog Posts -->
+  {relatedPosts.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2 style="margin-bottom: 1.5rem;">Related Articles</h2>
+        <div class="related-grid" style="max-width: 100%;">
+          {relatedPosts.map((post) => (
+            <a href={`/blog/${post.id}/`} class="related-card">
+              <h3>{post.data.title}</h3>
+              <p>{post.data.description}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Ready to try {tool.name}?</h2>
+        <p>{tool.pricing.free ? 'Start with the free plan and upgrade when you need more.' : 'Check out their pricing plans and find the right fit.'}</p>
+        <a href={ctaUrl} target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Visit {tool.name} &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .tool-hero {
+    padding: 1.5rem 0 2.5rem;
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .tool-hero-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .tool-hero-identity {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .tool-hero-icon {
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+
+  .tool-hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .tool-hero-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .tool-hero-rating .stars {
+    color: var(--warning);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+  }
+
+  .tool-hero-rating .rating-value {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    font-weight: 600;
+  }
+
+  .tool-hero-categories {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .tool-hero-categories .card-tag {
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  .tool-hero-categories .card-tag:hover {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+  }
+
+  .tool-hero-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
+  .tool-hero-price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+  }
+
+  .tool-hero-description {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--gray-600);
+    line-height: 1.7;
+    max-width: 700px;
+  }
+
+  /* Pricing Grid */
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+
+  .pricing-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.2s;
+  }
+
+  .pricing-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+  }
+
+  .pricing-card--free {
+    border-color: var(--success);
+    background: #F0FDF4;
+  }
+
+  .pricing-plan-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--gray-600);
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+  }
+
+  .pricing-amount {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 0.5rem;
+  }
+
+  .pricing-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    background: var(--primary-light);
+    color: var(--primary-dark);
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+
+  .pricing-note {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: var(--gray-500);
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  /* Features */
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .feature-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--accent-light);
+    color: var(--accent-dark);
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  /* Best For */
+  .best-for-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .best-for-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+
+  .best-for-icon {
+    font-size: 1.25rem;
+  }
+
+  /* Alternatives Grid */
+  .alternatives-grid-detail {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .alt-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+  }
+
+  .alt-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .alt-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .alt-card-header h3 {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .alt-card-rating {
+    font-size: 0.78rem;
+    color: var(--warning);
+  }
+
+  .alt-card-desc {
+    font-size: 0.88rem;
+    color: var(--gray-600);
+    line-height: 1.5;
+    flex: 1;
+    margin: 0 0 0.75rem;
+  }
+
+  .alt-card-price {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+  }
+
+  @media (max-width: 768px) {
+    .tool-hero-inner {
+      flex-direction: column;
+    }
+
+    .tool-hero-cta {
+      align-items: flex-start;
+    }
+
+    .tool-hero h1 {
+      font-size: 1.5rem;
+    }
+
+    .pricing-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .alternatives-grid-detail {
+      grid-template-columns: 1fr;
+    }
+
+    .best-for-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

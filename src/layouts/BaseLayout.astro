@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Newsletter from '../components/Newsletter.astro';
 
 interface Props {
   title: string;
@@ -77,6 +78,9 @@ const jsonLd = JSON.stringify({
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/about/">About</a></li>
       </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span id="theme-icon">&#9728;&#65039;</span>
+      </button>
     </div>
   </nav>
 
@@ -84,11 +88,16 @@ const jsonLd = JSON.stringify({
     <slot />
   </main>
 
+  <Newsletter />
+
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
         <h3>AI<span>ToolPick</span></h3>
         <p>Helping you find the perfect tools for your workflow. Honest comparisons, no fluff.</p>
+        <div class="footer-social">
+          <a href="https://x.com/AIToolPick" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X (Twitter)">&#120143;</a>
+        </div>
       </div>
       <div class="footer-col">
         <h4>Compare</h4>
@@ -122,10 +131,40 @@ const jsonLd = JSON.stringify({
     </div>
   </footer>
 
-  <script>
-    document.getElementById('nav-toggle')?.addEventListener('click', () => {
-      document.getElementById('nav-links')?.classList.toggle('open');
-    });
+  <script is:inline>
+    // Theme toggle
+    (function() {
+      const savedTheme = localStorage.getItem('aitoolpick-theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+      function updateIcon() {
+        const icon = document.getElementById('theme-icon');
+        if (icon) {
+          const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          icon.innerHTML = isDark ? '&#9728;&#65039;' : '&#127769;';
+        }
+      }
+      document.addEventListener('DOMContentLoaded', function() {
+        updateIcon();
+        document.getElementById('theme-toggle')?.addEventListener('click', function() {
+          const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          if (isDark) {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.setItem('aitoolpick-theme', 'light');
+          } else {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('aitoolpick-theme', 'dark');
+          }
+          updateIcon();
+        });
+        document.getElementById('nav-toggle')?.addEventListener('click', function() {
+          document.getElementById('nav-links')?.classList.toggle('open');
+        });
+      });
+    })();
   </script>
 </body>
 </html>

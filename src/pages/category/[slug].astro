@@ -1,0 +1,197 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  return categories.map((cat) => ({
+    params: { slug: cat.slug },
+    props: { category: cat },
+  }));
+}
+
+const { category } = Astro.props;
+
+// Filter tools belonging to this category
+const categoryTools = tools.filter((t) => t.category.includes(category.id));
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(
+    ([key, val]) => key !== 'free' && val !== null && typeof val === 'number'
+  );
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+const pageTitle = `Best ${category.name} Tools in 2026 — Compare & Choose`;
+const pageDescription = `Compare the ${categoryTools.length} best ${category.name.toLowerCase()} tools in 2026. Find pricing, features, pros & cons to pick the right one.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Best ${category.name} Tools`,
+  description: pageDescription,
+  numberOfItems: categoryTools.length,
+  itemListElement: categoryTools.map((tool, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: tool.name,
+    url: `https://aitoolpick.org/tools/${tool.slug}/`,
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} slot="head" />
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" style="max-width: var(--max-width); padding-top: 1.5rem;">
+    <ol>
+      <li><a href="/">Home</a></li>
+      <li><a href="/#categories">Categories</a></li>
+      <li>{category.name}</li>
+    </ol>
+  </nav>
+
+  <!-- Header -->
+  <div class="category-header">
+    <span class="category-header-icon">{category.icon}</span>
+    <h1>Best {category.name} Tools</h1>
+    <p class="category-header-subtitle">
+      Compare {categoryTools.length} top {category.name.toLowerCase()} tools. Find the perfect solution for your workflow.
+    </p>
+  </div>
+
+  <!-- Tools Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="category-tools-grid">
+        {categoryTools.map((tool) => {
+          const compareSlug = categoryTools.length > 1
+            ? [tool.slug, categoryTools.find((t) => t.id !== tool.id)?.slug].filter(Boolean).sort().join('-vs-')
+            : '';
+          return (
+            <div class="card category-tool-card">
+              <div class="card-header">
+                {tool.icon && (
+                  <img src={tool.icon} alt={`${tool.name} icon`} width="40" height="40" style="border-radius: 10px;" />
+                )}
+                <div>
+                  <a href={`/tools/${tool.slug}/`} class="card-title-link">
+                    <h3 class="card-title">{tool.name}</h3>
+                  </a>
+                  <div class="card-rating">
+                    <span>{'★'.repeat(Math.round(tool.rating))}</span>
+                    <span>{tool.rating}</span>
+                  </div>
+                </div>
+              </div>
+
+              <p class="card-description">{tool.description}</p>
+
+              <div class="card-meta">
+                <span class="card-price">{formatPrice(tool.pricing)}</span>
+                {tool.pricing.free && <span class="card-tag">Free Plan</span>}
+              </div>
+
+              <div class="category-tool-actions">
+                <a href={`/tools/${tool.slug}/`} class="btn-primary" style="font-size: 0.85rem; padding: 0.5rem 1.25rem;">
+                  View Details
+                </a>
+                {compareSlug && (
+                  <a href={`/compare/${compareSlug}/`} class="btn-secondary" style="font-size: 0.85rem; padding: 0.5rem 1.25rem;">
+                    Compare
+                  </a>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {categoryTools.length === 0 && (
+        <div style="text-align: center; padding: 3rem; color: var(--gray-500);">
+          <p>No tools found in this category yet. Check back soon!</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Not sure which {category.name.toLowerCase()} tool to pick?</h2>
+        <p>Take our quiz to find the best tool for your specific needs.</p>
+        <a href="/quiz/" class="btn-primary">Find My Tool &rarr;</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .category-header {
+    text-align: center;
+    padding: 2.5rem 1.5rem 1.5rem;
+  }
+
+  .category-header-icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .category-header h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .category-header-subtitle {
+    color: var(--gray-600);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .category-tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .category-tool-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .category-tool-card .card-description {
+    flex: 1;
+  }
+
+  .card-title-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-title-link:hover .card-title {
+    color: var(--primary);
+  }
+
+  .category-tool-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 768px) {
+    .category-tools-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .category-header h1 {
+      font-size: 1.75rem;
+    }
+  }
+</style>

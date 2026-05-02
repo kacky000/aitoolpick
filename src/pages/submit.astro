@@ -1,0 +1,377 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import categories from '../data/categories.json';
+---
+
+<BaseLayout
+  title="Submit Your AI Tool — Get Listed on AIToolPick"
+  description="Submit your AI tool to AIToolPick and get exposure to thousands of monthly visitors looking for the best AI and productivity tools."
+>
+  <div class="submit-page">
+    <!-- Hero Section -->
+    <section class="submit-hero">
+      <h1>Submit Your AI Tool</h1>
+      <p class="hero-subtitle">Get your tool discovered by thousands of professionals searching for the right AI solution.</p>
+      <div class="benefits">
+        <div class="benefit-card">
+          <span class="benefit-icon">👥</span>
+          <h3>Exposure</h3>
+          <p>Reach thousands of monthly visitors actively looking for AI tools.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🔗</span>
+          <h3>SEO Boost</h3>
+          <p>Get a dofollow backlink from our high-authority domain.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">⚔️</span>
+          <h3>Comparison Pages</h3>
+          <p>Automatically included in relevant comparison and alternative pages.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="submit-steps">
+      <h2>How It Works</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Submit</h3>
+          <p>Fill out the form below with your tool details.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Review</h3>
+          <p>Our team reviews your submission within 24-48 hours.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Listed</h3>
+          <p>Your tool goes live on AIToolPick with its own page.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Submission Form -->
+    <section class="submit-form-section">
+      <h2>Tool Submission Form</h2>
+      <form class="submit-form" action="https://formspree.io/f/placeholder" method="POST">
+        <div class="form-group">
+          <label for="tool-name">Tool Name <span class="required">*</span></label>
+          <input type="text" id="tool-name" name="tool_name" required placeholder="e.g. ChatGPT, Notion, Figma" />
+        </div>
+
+        <div class="form-group">
+          <label for="tool-url">Website URL <span class="required">*</span></label>
+          <input type="url" id="tool-url" name="tool_url" required placeholder="https://yourtool.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="tool-category">Category</label>
+          <select id="tool-category" name="category">
+            <option value="">Select a category...</option>
+            {categories.map((cat) => (
+              <option value={cat.id}>{cat.icon} {cat.name}</option>
+            ))}
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="pricing-model">Pricing Model</label>
+          <select id="pricing-model" name="pricing_model">
+            <option value="">Select pricing...</option>
+            <option value="free">Free</option>
+            <option value="freemium">Freemium</option>
+            <option value="paid">Paid</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="tool-description">Short Description <span class="char-hint">(200 characters max)</span></label>
+          <textarea id="tool-description" name="description" maxlength="200" rows="3" placeholder="Briefly describe what your tool does and who it's for..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-email">Contact Email <span class="required">*</span></label>
+          <input type="email" id="contact-email" name="email" required placeholder="you@company.com" />
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Tool for Review</button>
+      </form>
+    </section>
+
+    <!-- FAQ -->
+    <section class="submit-faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>Is it free to submit my tool?</h3>
+          <p>Yes, submitting your tool to AIToolPick is completely free. We believe in giving every tool a fair chance to be discovered.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What are the listing criteria?</h3>
+          <p>We accept tools that are publicly accessible, have a working website, and provide genuine value to users. We do not list tools that are in private beta without a waitlist, or tools that appear to be spam.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How long until my tool appears on the site?</h3>
+          <p>We review all submissions within 24-48 hours. Once approved, your tool will appear on the site within a few business days, complete with its own dedicated page and inclusion in relevant comparison lists.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .submit-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  /* Hero */
+  .submit-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .submit-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-muted, #64748b);
+    margin-bottom: 2rem;
+  }
+
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .benefit-card {
+    background: var(--card-bg, #f8fafc);
+    border: 1px solid var(--border, #e2e8f0);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  [data-theme="dark"] .benefit-card {
+    background: var(--card-bg, #1e293b);
+    border-color: var(--border, #334155);
+  }
+
+  .benefit-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .benefit-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .benefit-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted, #64748b);
+    margin: 0;
+  }
+
+  /* Steps */
+  .submit-steps {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .submit-steps h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .step {
+    position: relative;
+    padding: 1.5rem 1rem;
+  }
+
+  .step-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #10b981;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 auto 0.75rem;
+  }
+
+  .step h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .step p {
+    font-size: 0.9rem;
+    color: var(--text-muted, #64748b);
+    margin: 0;
+  }
+
+  /* Form */
+  .submit-form-section {
+    margin-bottom: 3rem;
+  }
+
+  .submit-form-section h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .submit-form {
+    background: var(--card-bg, #f8fafc);
+    border: 1px solid var(--border, #e2e8f0);
+    border-radius: 12px;
+    padding: 2rem;
+  }
+
+  [data-theme="dark"] .submit-form {
+    background: var(--card-bg, #1e293b);
+    border-color: var(--border, #334155);
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .required {
+    color: #ef4444;
+  }
+
+  .char-hint {
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: var(--text-muted, #64748b);
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border, #e2e8f0);
+    border-radius: 8px;
+    font-size: 1rem;
+    background: var(--bg, #ffffff);
+    color: var(--text, #1e293b);
+    transition: border-color 0.2s;
+  }
+
+  [data-theme="dark"] .form-group input,
+  [data-theme="dark"] .form-group select,
+  [data-theme="dark"] .form-group textarea {
+    background: var(--bg, #0f172a);
+    color: var(--text, #e2e8f0);
+    border-color: var(--border, #475569);
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #10b981;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #10b981;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+  }
+
+  .submit-btn:hover {
+    background: #059669;
+    transform: translateY(-1px);
+  }
+
+  .submit-btn:active {
+    transform: translateY(0);
+  }
+
+  /* FAQ */
+  .submit-faq h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .faq-item {
+    background: var(--card-bg, #f8fafc);
+    border: 1px solid var(--border, #e2e8f0);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+
+  [data-theme="dark"] .faq-item {
+    background: var(--card-bg, #1e293b);
+    border-color: var(--border, #334155);
+  }
+
+  .faq-item h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .faq-item p {
+    font-size: 0.95rem;
+    color: var(--text-muted, #64748b);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+    .submit-hero h1 {
+      font-size: 1.8rem;
+    }
+
+    .steps-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .submit-form {
+      padding: 1.25rem;
+    }
+  }
+</style>
