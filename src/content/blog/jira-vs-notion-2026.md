@@ -16,7 +16,7 @@ Here is a direct comparison of Jira vs Notion in 2026, covering real use cases, 
 
 **Choose Jira** if your primary job is shipping software and you need sprint tracking, burndown charts, and deep Git integration.
 
-**Choose Notion** if your team needs a flexible workspace for docs, wikis, lightweight task management, and cross-functional collaboration.
+**Choose Notion** if your team needs a flexible workspace for docs, wikis, lightweight [task management](/category/task-management/), and cross-functional collaboration.
 
 They are not direct competitors. Many teams use both.
 
@@ -27,7 +27,7 @@ Jira is purpose-built for software development workflows:
 - **Scrum and Kanban boards** with sprint planning and backlog management
 - **Issue tracking** with custom workflows (e.g., Open → In Review → Done → Released)
 - **Burndown and velocity charts** to measure sprint health
-- **Git integration** with GitHub, GitLab, and Bitbucket — see commits and PRs directly on issues
+- **Git integration** with [GitHub](/tools/github/), GitLab, and Bitbucket — see commits and PRs directly on issues
 - **JQL (Jira Query Language)** for complex filtering and reporting
 
 Jira is the standard at mid-to-large engineering organizations. If your team runs agile sprints, does two-week cycles, and needs a PM to track 200 open bugs — Jira is built for exactly this.
@@ -37,7 +37,7 @@ Jira is the standard at mid-to-large engineering organizations. If your team run
 Notion is a flexible "second brain" for teams:
 
 - **Wikis and documentation** — product specs, engineering runbooks, onboarding docs
-- **Lightweight databases** — feature request trackers, content calendars, CRM-lite setups
+- **Lightweight databases** — feature request trackers, content calendars, [CRM](/category/crm/)-lite setups
 - **Connected notes and tasks** — write a meeting note, turn action items into tasks in the same doc
 - **Cross-functional visibility** — PMs, designers, marketers, and engineers can all live in one workspace
 
@@ -64,7 +64,7 @@ Notion is not built for serious sprint management. The database system is powerf
 | Git integration | ✅ Deep | ❌ |
 | Documentation | ⚠️ Limited | ✅ Excellent |
 | Custom databases | ❌ | ✅ |
-| Wikis | ❌ (needs Confluence) | ✅ |
+| Wikis | ❌ (needs [Confluence](/tools/confluence/)) | ✅ |
 | AI writing assistant | ⚠️ Limited | ✅ Business+ |
 | Free plan | ✅ 10 users | ✅ Unlimited |
 | Mobile app | ✅ Good | ⚠️ Slow on large pages |
@@ -72,7 +72,7 @@ Notion is not built for serious sprint management. The database system is powerf
 ## Who Should Use Jira
 
 - **Engineering teams of 10+** running formal agile sprints
-- **Organizations already in the Atlassian ecosystem** (Confluence, Bitbucket, Statuspage)
+- **Organizations already in the Atlassian ecosystem** (Confluence, Bitbucket, [Statuspage](/tools/statuspage/))
 - **Regulated industries** needing audit logs and detailed reporting
 - **Teams with a dedicated Scrum Master or PM** who can manage Jira's complexity
 
@@ -83,7 +83,7 @@ Jira's learning curve is real. Non-technical users often find it overwhelming. I
 - **Early-stage startups** that need one tool for everything
 - **Cross-functional teams** — product, design, ops, and marketing working together
 - **Documentation-heavy workflows** — maintaining a living product wiki
-- **Teams replacing Google Docs + Trello** with something more unified
+- **Teams replacing Google Docs + [Trello](/tools/trello/)** with something more unified
 
 Notion's weakness shows when you try to run serious agile. Its databases are flexible but lack the opinionated structure that sprint-based development needs.
 

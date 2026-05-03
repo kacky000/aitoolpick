@@ -48,7 +48,7 @@ The linked records feature is what sets Airtable apart. Connect a guest to their
 
 ### 3. Trello — Best for Simple Event Task Tracking
 
-Not every event needs enterprise project management. Trello's kanban boards are perfect for smaller events — create columns for each phase (Research, Booked, Confirmed, Complete) and drag cards as things get locked down.
+Not every event needs enterprise [project management](/category/project-management/). Trello's kanban boards are perfect for smaller events — create columns for each phase (Research, Booked, Confirmed, Complete) and drag cards as things get locked down.
 
 Butler automation lets you set rules like "when a card moves to Confirmed, add a final logistics checklist." It's lightweight enough that volunteers can jump in without training.
 
@@ -84,7 +84,7 @@ The real power is template reuse. Build a template for recurring events and dupl
 
 Every event needs visual assets — save-the-dates, signage, name badges, social posts, and programs. Canva handles all of it without design skills. The event template library covers conference banners, invitations, flyers, and webinar graphics.
 
-Brand Kit locks in your colors and fonts so every team member's designs stay on-brand. Magic Resize takes a single flyer and generates versions for Instagram, Facebook, email, and print in one click.
+Brand [Kit](/tools/kit/) locks in your colors and fonts so every team member's designs stay on-brand. Magic Resize takes a single flyer and generates versions for Instagram, Facebook, email, and print in one click.
 
 **Best for**: Event marketers, teams without a dedicated designer, anyone creating event-day signage and printed materials
 
@@ -116,7 +116,7 @@ Miro's infinite whiteboard is surprisingly powerful for event planning. Map out 
 
 For hybrid events, Miro lets remote and in-person team members contribute equally. Presentation mode walks stakeholders through your event concept visually.
 
-**Best for**: Event designers, conference organizers mapping floor plans, teams brainstorming event concepts
+**Best for**: Event [designers](/best-for/designers/), conference organizers mapping floor plans, teams brainstorming event concepts
 
 **Pricing**: Free (3 editable boards) / Starter $10/member/month / Business $20/member/month
 

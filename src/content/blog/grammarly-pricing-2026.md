@@ -17,14 +17,14 @@ Grammarly offers three plans in 2026. Here is the quick comparison before we get
 | Plan | Price | Best For |
 |------|-------|---------|
 | Free | $0/month | Casual writers, basic grammar checks |
-| Premium | $12/month (billed annually) | Students, freelancers, power writers |
+| Premium | $12/month (billed annually) | Students, [freelancers](/best-for/freelancers/), power writers |
 | Business | $15/seat/month (billed annually) | Teams of 3 or more |
 
 Grammarly's Premium plan is $12/month when billed annually ($144/year). If you pay monthly, the price rises to $30/month — two and a half times more. The Business plan runs $15/seat/month annually, which includes centralized billing and team management features.
 
 ## Free Plan: Solid Baseline, Real Limitations
 
-The Grammarly Free plan covers the fundamentals well. You get real-time spelling and grammar corrections, basic punctuation checks, and conciseness suggestions. It integrates with browsers, Google Docs, Microsoft Word, and most desktop apps through the Grammarly desktop app.
+The Grammarly Free plan covers the fundamentals well. You get real-time spelling and grammar corrections, basic punctuation checks, and conciseness suggestions. It integrates with browsers, Google Docs, [Microsoft Word](/tools/microsoft-word/), and most desktop apps through the Grammarly desktop app.
 
 For casual use — writing emails, filling out forms, or drafting quick messages — the Free plan is genuinely useful. It catches obvious errors and prevents embarrassing typos.
 
@@ -93,7 +93,7 @@ For a deeper look at the feature differences, check out our [Grammarly Free vs P
 
 ## How Grammarly Compares to Alternatives
 
-Grammarly's $12/month Premium price is mid-range for writing tools. ProWritingAid offers similar functionality for $10/month or a one-time lifetime purchase around $400. Wordtune is cheaper at around $8.33/month but lacks the depth of Grammarly's grammar engine.
+Grammarly's $12/month Premium price is mid-range for writing tools. ProWritingAid offers similar functionality for $10/month or a one-time lifetime purchase [around](/tools/around/) $400. Wordtune is cheaper at around $8.33/month but lacks the depth of Grammarly's grammar engine.
 
 The free tiers differ significantly. Grammarly Free is more capable than most alternatives for basic grammar correction, but it locks more advanced features behind Premium than competitors do.
 

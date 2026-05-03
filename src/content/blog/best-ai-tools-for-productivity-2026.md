@@ -16,7 +16,7 @@ AI tools have moved beyond novelty — they're now essential for getting more do
 
 Notion already combines notes, databases, tasks, and wikis. Adding Notion AI on top lets you:
 
-- Summarize meeting notes instantly
+- Summarize meeting notes [instantly](/tools/instantly/)
 - Generate action items from documents
 - Write and edit content within your workspace
 - Ask questions about your entire workspace
@@ -74,7 +74,7 @@ Perplexity combines AI with real-time web search, giving you answers with citati
 
 **Price**: Free (AI add-on $9/member/month) | **Rating**: 4.5/5
 
-ClickUp Brain adds AI directly into your project management workflow:
+[ClickUp](/tools/clickup/) Brain adds AI directly into your project management workflow:
 
 - Auto-generate task descriptions and subtasks
 - Summarize project updates
@@ -104,7 +104,7 @@ Grammarly has evolved from a grammar checker into a full AI writing assistant:
 
 **Price**: Free / Pro $29.99/month | **Rating**: 4.5/5
 
-Zapier connects 6,000+ apps and now uses AI to make automation easier:
+Zapier connects 6,000+ apps and now uses AI to [make](/tools/make/) automation easier:
 
 - Natural language automation creation
 - AI-powered actions within workflows
@@ -123,7 +123,7 @@ Zapier connects 6,000+ apps and now uses AI to make automation easier:
 | ChatGPT | General AI tasks | Yes | $20/mo |
 | Claude | Long docs & writing | Yes | $20/mo |
 | Perplexity | Research | Yes | $20/mo |
-| ClickUp AI | Project management | Yes | $9/mo add-on |
+| [ClickUp](/tools/clickup/) AI | Project management | Yes | $9/mo add-on |
 | Grammarly | Writing quality | Yes | $12/mo |
 | Zapier AI | Automation | Yes | $29.99/mo |
 
@@ -136,7 +136,7 @@ Zapier connects 6,000+ apps and now uses AI to make automation easier:
 
 ## Bottom Line
 
-The best AI productivity tool depends on your workflow. For general AI tasks, ChatGPT and Claude lead the pack. For domain-specific work, Notion AI, ClickUp AI, and Grammarly integrate AI where you already work.
+The best AI productivity tool depends on your workflow. For general AI tasks, ChatGPT and Claude lead the pack. For domain-specific work, Notion AI, [ClickUp](/tools/clickup/) AI, and Grammarly integrate AI where you already work.
 
 Start with one tool, master it, then expand. The productivity gain compounds over time.
 

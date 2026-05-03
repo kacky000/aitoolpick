@@ -38,16 +38,16 @@ YNAB's core method is **envelope budgeting** (also called zero-based budgeting).
 
 1. **Every dollar gets a job.** When money comes in, you assign it to specific categories (rent, groceries, entertainment, savings) until your balance hits zero.
 2. **You only budget money you actually have.** No forecasting future income — you work with real dollars in your account right now.
-3. **When a category runs out, you make a trade-off.** Want to eat out? Move money from another category. This forces intentional spending decisions.
+3. **When a category runs out, you [make](/tools/make/) a trade-off.** Want to eat out? Move money from another category. This forces intentional spending decisions.
 4. **Roll with the punches.** Overspending isn't failure — it's information. Adjust your budget and move on.
 
-This method is fundamentally different from apps like Mint (now Credit Karma) that categorize past spending. YNAB is forward-looking: it changes your behavior *before* you spend, not after.
+This method is fundamentally different from apps like [Mint](/tools/mint/) (now Credit Karma) that categorize past spending. YNAB is forward-looking: it changes your behavior *before* you spend, not after.
 
 ## Key Features
 
 ### Bank Sync
 
-YNAB connects to 12,000+ financial institutions for automatic transaction import. Transactions appear within a few hours (sometimes minutes) and you approve/categorize them. You can also enter transactions manually for real-time tracking — many power users do both.
+YNAB connects to 12,000+ financial institutions for automatic transaction import. Transactions appear within a few [hours](/tools/hours-tracker/) (sometimes minutes) and you approve/categorize them. You can also enter transactions manually for real-time tracking — many power users do both.
 
 Bank sync works well in the US, Canada, and parts of Europe. Coverage is thinner in other regions, though YNAB supports manual import via CSV/OFX files as a fallback.
 
@@ -67,7 +67,7 @@ YNAB tracks the "age" of your money — how many days pass between receiving a d
 
 ### Multi-Device Sync
 
-YNAB runs on web, iOS, and Android with real-time sync. Enter a transaction on your phone at the grocery store, and it appears on your laptop instantly. The mobile app is well-designed and fast.
+YNAB runs on web, iOS, and Android with real-time sync. Enter a transaction on your phone at the grocery store, and it appears on your laptop [instantly](/tools/instantly/). The mobile app is well-designed and fast.
 
 ### Reports
 

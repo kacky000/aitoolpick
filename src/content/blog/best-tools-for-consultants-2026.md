@@ -14,7 +14,7 @@ Whether you're an independent consultant or running a small consulting firm, you
 
 ### 1. Monday.com — Best for Client-Facing Dashboards
 
-Monday.com's visual boards make it easy to share project progress with clients. The guest access feature lets clients view dashboards without a paid seat.
+Monday.com's visual boards [make](/tools/make/) it easy to share project progress with clients. The guest access feature lets clients view dashboards without a paid seat.
 
 - **Price:** Free (2 seats), $9/seat/month (Basic)
 - **Why consultants love it:** Client-facing views, CRM features, automations
@@ -90,7 +90,7 @@ Quick competitive analysis, industry benchmarking, and trend research — Perple
 
 ### 8. Canva — Best for Client Presentations
 
-Not every consultant has design skills, but every consultant needs professional-looking deliverables. Canva's presentation templates and brand kit solve this.
+Not every consultant has design skills, but every consultant needs professional-looking deliverables. Canva's presentation templates and brand [kit](/tools/kit/) solve this.
 
 - **Price:** Free, $15/user/month (Pro)
 - **Why consultants love it:** Professional templates, brand consistency, easy collaboration
@@ -107,7 +107,7 @@ Not every consultant has design skills, but every consultant needs professional-
 | AI assistant | Claude | $0–$20 |
 | Research | Perplexity | $0–$20 |
 | Presentations | Canva | $0–$15/user |
-| Task tracking | Todoist | $0–$4/user |
+| Task tracking | [Todoist](/tools/todoist/) | $0–$4/user |
 
 **Total estimated cost:** $0–$76/month for a complete consulting stack.
 
@@ -115,7 +115,7 @@ Not every consultant has design skills, but every consultant needs professional-
 
 1. **Match your client's ecosystem** — If clients use Microsoft, lean into Teams. If they're startups, use Slack.
 2. **Keep it lean** — A solo consultant needs 3-4 tools max. Don't over-tool.
-3. **Invest in AI** — Claude or Perplexity pay for themselves in hours saved on research and document analysis.
+3. **Invest in AI** — Claude or Perplexity pay for themselves in [hours](/tools/hours-tracker/) saved on research and document analysis.
 
 [Compare all tools side by side →](/compare)
 

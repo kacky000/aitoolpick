@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Clickup** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
-ClickUp is known for offering one of the most feature-packed free plans in the productivity space. But when you need more, which paid plan makes sense? In this guide, we break down every ClickUp pricing tier so you can make an informed decision.
+ClickUp is known for offering one of the most feature-packed free plans in the productivity space. But when you need more, which paid plan makes sense? In this guide, we break down every ClickUp pricing tier so you can [make](/tools/make/) an informed decision.
 
 ## ClickUp Pricing Overview (2026)
 
@@ -44,7 +44,7 @@ This is where ClickUp becomes a serious contender. The Unlimited plan adds:
 - **Agile reporting**
 - **1,000 automations per month**
 
-For most small to mid-size teams, this plan hits the sweet spot. At $7/user/month, it undercuts both Asana ($10.99) and Monday.com ($9) while offering comparable or superior features.
+For most small to mid-size teams, this plan hits the sweet spot. At $7/user/month, it undercuts both Asana ($10.99) and [Monday.com](/tools/monday/) ($9) while offering comparable or superior features.
 
 ## Business Plan ($12/user/month)
 
@@ -71,7 +71,7 @@ For large organizations, the Enterprise plan includes:
 - **API access with higher rate limits**
 - **MSA and SAML SSO**
 
-You'll need to contact ClickUp's sales team for pricing, which typically starts around $20-25/user/month based on team size and requirements.
+You'll need to contact ClickUp's sales team for pricing, which typically starts [around](/tools/around/) $20-25/user/month based on team size and requirements.
 
 ## ClickUp AI Add-On
 
@@ -89,10 +89,10 @@ Whether the AI add-on is worth it depends on how heavily you use ClickUp Docs. I
 | Tool | Free Plan | Starting Paid | Storage | Automations |
 |------|-----------|--------------|---------|-------------|
 | ClickUp | Generous | $7/mo | Unlimited (paid) | 1,000/mo |
-| Asana | Basic | $10.99/mo | Unlimited | 250 rules |
-| Monday.com | 2 seats max | $9/mo | 5GB | 250/mo |
-| Notion | Generous | $10/mo | Unlimited | N/A |
-| Trello | Good | $5/mo | Unlimited | Limited |
+| [Asana](/tools/asana/) | Basic | $10.99/mo | Unlimited | 250 rules |
+| [Monday.com](/tools/monday/) | 2 seats max | $9/mo | 5GB | 250/mo |
+| [Notion](/tools/notion/) | Generous | $10/mo | Unlimited | N/A |
+| [Trello](/tools/trello/) | Good | $5/mo | Unlimited | Limited |
 
 ClickUp consistently offers more features at lower price points than most competitors. The main trade-off is that the platform can feel overwhelming due to the sheer number of options.
 

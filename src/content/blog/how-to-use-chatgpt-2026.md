@@ -42,7 +42,7 @@ Don't try to get a perfect output in one shot. Use ChatGPT to generate a first d
 
 1. "Write a rough draft of a LinkedIn post about [topic]."
 2. Read it. Identify what's wrong or missing.
-3. "The draft is too generic. Make it more specific to [detail], add a concrete example, and cut it to 150 words."
+3. "The draft is too generic. [Make](/tools/make/) it more specific to [detail], add a concrete example, and cut it to 150 words."
 
 Iteration produces far better results than hoping the first prompt nails it.
 
@@ -52,7 +52,7 @@ ChatGPT generates ideas without the social friction of a meeting. Use it to surf
 
 > "Give me 15 names for a newsletter about productivity tools for remote workers. Range from professional to playful."
 
-Then filter the list yourself. You'll almost never use one verbatim, but they'll spark the right idea.
+Then filter the list yourself. You'll almost never use one verbatim, but they'll [spark](/tools/spark-email/) the right idea.
 
 ### 3. Summarize Long Content
 
@@ -88,7 +88,7 @@ For serious coding work, dedicated tools like [GitHub Copilot](https://github.co
 
 Or for sales meetings:
 
-> "I'm meeting with a CFO at a 200-person manufacturing company to pitch our inventory management software. What are the 3 most likely objections I'll face, and how should I address each one?"
+> "I'm meeting with a CFO at a 200-person manufacturing company to [pitch](/tools/pitch/) our inventory management software. What are the 3 most likely objections I'll face, and how should I address each one?"
 
 ### 7. Translate and Reformat
 
@@ -114,7 +114,7 @@ Every new conversation will have this context automatically.
 **ChatGPT Free (GPT-4o)** handles most use cases: writing, brainstorming, coding, summarizing, learning. The free tier now includes GPT-4o with some rate limits.
 
 **ChatGPT Plus ($20/month)** adds:
-- Higher rate limits (fewer "try again later" moments)
+- Higher rate limits (fewer "try again [later](/tools/later/)" moments)
 - Advanced research mode (deep web search with citations)
 - File and image analysis
 - Faster response times

@@ -44,17 +44,17 @@ ChatGPT is the most widely adopted AI tool in education, and for good reason. Fo
 
 **Price**: Free / $20/month (Pro)
 
-Claude's strengths align well with specific teacher workflows:
+[Claude](/tools/claude/)'s strengths align well with specific teacher workflows:
 
-**Assignment feedback**: Upload a student essay (remove the student's name first) and ask "Provide constructive written feedback on this essay, focusing on argument structure and evidence use, appropriate for a 10th-grade student." Claude gives nuanced, developmentally appropriate feedback quickly.
+**Assignment feedback**: Upload a student essay (remove the student's name first) and ask "Provide constructive written feedback on this essay, focusing on argument structure and evidence use, appropriate for a 10th-grade student." [Claude](/tools/claude/) gives nuanced, developmentally appropriate feedback quickly.
 
-**IEP and accommodation support**: Paste the accommodations from an IEP and ask Claude to help you modify a specific lesson to meet those requirements.
+**IEP and accommodation support**: Paste the accommodations from an IEP and ask [Claude](/tools/claude/) to help you modify a specific lesson to meet those requirements.
 
 **Curriculum analysis**: Upload your curriculum documents and ask what skill gaps exist or where you might add cross-curricular connections.
 
 **Long reading materials**: Summarize academic articles about pedagogy so you can stay current with research without reading every paper in full.
 
-Claude is generally more careful than ChatGPT about flagging uncertainty, which matters when you're generating educational content.
+[Claude](/tools/claude/) is generally more careful than ChatGPT about flagging uncertainty, which matters when you're generating educational content.
 
 → [Full Claude review](/blog/claude-review-2026/)
 
@@ -83,7 +83,7 @@ Teachers accumulate enormous amounts of resources: lesson plans, worksheets, ass
 - **Student tracking**: Track assignments, interventions, and observations in a structured format
 - **Unit planning**: Plan backwards from assessments using a structured template
 
-The free Notion plan is sufficient for individual teachers. Notion AI (paid add-on) can help draft content within your workspace.
+The free Notion plan is sufficient for individual teachers. [Notion AI](/tools/notion-ai/) (paid add-on) can help draft content within your workspace.
 
 → [Best Notion alternatives](/blog/best-notion-alternatives-2026/)
 
@@ -110,7 +110,7 @@ Many teachers don't think of themselves as automation candidates, but repetitive
 - Log student behavior incidents automatically from a form to a spreadsheet
 - Remind yourself before parent-teacher conferences with preparation notes
 
-For tech-comfortable teachers managing multiple digital tools, Zapier can reclaim 2-4 hours per week.
+For tech-comfortable teachers managing multiple digital tools, Zapier can reclaim 2-4 [hours](/tools/hours-tracker/) per week.
 
 → [Zapier review](/blog/zapier-review-2026/)
 

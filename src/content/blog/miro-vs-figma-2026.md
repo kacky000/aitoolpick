@@ -19,7 +19,7 @@ When it comes to visual collaboration tools, Miro and Figma are two of the most 
 | Pro Plan | $8/user/month | $15/user/month |
 | Business Plan | $16/user/month | $45/user/month |
 | Real-time Collaboration | Yes | Yes |
-| Best For | Teams, facilitators, PMs | Designers, developers |
+| Best For | Teams, facilitators, PMs | Designers, [developers](/best-for/developers/) |
 
 ## What Is Miro?
 
@@ -34,11 +34,11 @@ Miro's infinite canvas approach makes it ideal for:
 ### Miro Pricing
 - **Free**: 3 editable boards, unlimited team members
 - **Starter ($8/user/month)**: Unlimited boards, private boards, advanced collaboration features
-- **Business ($16/user/month)**: SSO, advanced admin controls, Jira/Azure DevOps integrations
+- **Business ($16/user/month)**: SSO, advanced admin controls, [Jira](/tools/jira/)/Azure DevOps integrations
 
 ## What Is Figma?
 
-Figma is a professional UI/UX design tool that runs entirely in the browser. It's the industry standard for designing websites, mobile apps, and digital products. Figma has always emphasized collaboration — multiple designers can work on the same file in real time.
+Figma is a professional UI/UX design tool that runs entirely in the browser. It's the industry standard for designing websites, mobile apps, and digital products. Figma has always emphasized collaboration — multiple [designers](/best-for/designers/) can work on the same file in real time.
 
 Figma excels at:
 - **UI/UX design**: High-fidelity mockups, prototypes, design systems
@@ -47,7 +47,7 @@ Figma excels at:
 - **Prototyping**: Interactive prototypes with transitions and animations
 
 ### Figma Pricing
-- **Free**: 3 Figma files, 3 FigJam files, unlimited personal files
+- **Free**: 3 Figma files, 3 [FigJam](/tools/figjam/) files, unlimited personal files
 - **Professional ($15/user/month)**: Unlimited files, version history, team libraries
 - **Organization ($45/user/month)**: Design systems, SSO, advanced permissions, analytics
 
@@ -76,7 +76,7 @@ Both tools support:
 - Real-time multiplayer collaboration
 - Comments and async feedback
 - Presentation mode
-- Integrations with Slack, Jira, and other productivity tools
+- Integrations with [Slack](/tools/slack/), Jira, and other productivity tools
 - Embed features for sharing work in documents
 
 The overlap has grown over time. Miro now supports basic wireframing, and Figma's FigJam supports more workshop formats. However, neither tool has replaced the other at their core.

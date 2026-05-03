@@ -52,7 +52,7 @@ Users who want one AI tool for everything — search, writing, coding, and analy
 
 **Pricing:** Free / Pro $20/mo
 
-Claude is Anthropic's AI assistant, known for thoughtful reasoning and handling long documents. While not a dedicated search engine, Claude's analysis capabilities make it a strong alternative for users who care more about answer quality than real-time web data.
+Claude is Anthropic's AI assistant, known for thoughtful reasoning and handling long documents. While not a dedicated search engine, Claude's analysis capabilities [make](/tools/make/) it a strong alternative for users who care more about answer quality than real-time web data.
 
 ### Where Claude Beats Perplexity
 
@@ -84,7 +84,7 @@ Google Gemini (formerly Bard) combines AI with Google's search index — the lar
 - **Real-time data** — Access to Google's search index means fresher results
 - **Multimodal** — Strong image understanding and generation
 - **Free tier** — More generous than Perplexity's free plan for advanced queries
-- **Google Workspace** — AI features built into Docs, Sheets, and Slides
+- **Google Workspace** — AI features built into Docs, Sheets, and [Slides](/tools/slides-com/)
 
 ### Where Perplexity Wins
 

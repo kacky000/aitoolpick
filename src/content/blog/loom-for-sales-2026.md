@@ -16,7 +16,7 @@ The core insight is simple: video is more personal than text, and async video is
 
 A sales email says "I can help you with X." A Loom says "I noticed your team is using Y, here's exactly how we'd solve that problem for you" — while showing your face, your screen, and demonstrating genuine understanding.
 
-Studies consistently show personalized video outreach generates 2-3x higher reply rates than text-only emails. Loom is the fastest way to create that personalized video at scale.
+Studies consistently show personalized video [outreach](/tools/outreach/) generates 2-3x higher reply rates than text-only emails. Loom is the fastest way to create that personalized video at scale.
 
 ## Use Case 1: Personalized Prospecting Videos
 
@@ -62,7 +62,7 @@ Sending a PDF proposal and waiting 3 days for feedback is dead. Instead, record 
 
 Benefits:
 - Prospects understand the proposal (instead of skimming it)
-- You control the narrative around pricing
+- You control the narrative [around](/tools/around/) pricing
 - Analytics show you who watched and how far they got
 - It's a natural conversation starter ("Did you have questions about section 3?")
 
@@ -81,7 +81,7 @@ This is dramatically more effective than a text email with a competitor comparis
 
 **Watch the analytics.** Loom shows you exactly when prospects stop watching. If everyone drops off at the 2-minute mark, you have too much preamble. If they watch 100% and don't reply, your CTA needs work.
 
-**CTAs matter.** Loom's Business plan lets you add clickable CTA buttons to the video player. Use them. "Book 15 minutes" with a Calendly link embedded in the video player removes a step from the process.
+**CTAs matter.** Loom's Business plan lets you add clickable CTA buttons to the video player. Use them. "Book 15 minutes" with a [Calendly](/tools/calendly/) link embedded in the video player removes a step from the process.
 
 **Name your Looms properly.** "[YourName] — Demo for [Company]" is professional. "Untitled Loom" is not.
 
@@ -93,11 +93,11 @@ Sales teams sometimes debate Loom vs. Vidyard. The honest answer:
 |--------|------|---------|
 | Recording speed | Faster | Slower |
 | Analytics | Good | More detailed |
-| CRM integration | Manual | Salesforce-native |
+| [CRM](/category/crm/) integration | Manual | Salesforce-native |
 | Price | $15/month | $80/month (paid) |
 | Free plan | 25 videos | 1 video |
 
-For most sales reps, Loom's Business plan at $15/month is the better value. Vidyard's Salesforce integration is the only reason to pay the premium — and only if your team actively uses Salesforce's video analytics.
+For most sales reps, Loom's Business plan at $15/month is the better value. Vidyard's [Salesforce](/tools/salesforce/) integration is the only reason to pay the premium — and only if your team actively uses Salesforce's video analytics.
 
 ## Getting Started: 3 Videos to Record This Week
 

@@ -21,7 +21,7 @@ Here's a no-fluff breakdown of what you get at each Notion pricing tier in 2026,
 | Guests | 10 | 100 | 250 | Custom |
 | Version history | 7 days | 30 days | 90 days | Unlimited |
 | API integrations | ✅ | ✅ | ✅ | ✅ |
-| Notion AI | Add-on ($10/mo) | Add-on ($10/mo) | Add-on ($10/mo) | Included |
+| [Notion AI](/tools/notion-ai/) | Add-on ($10/mo) | Add-on ($10/mo) | Add-on ($10/mo) | Included |
 | SAML SSO | ❌ | ❌ | ✅ | ✅ |
 | Bulk export | ❌ | ❌ | ✅ | ✅ |
 | Admin tools | Basic | Basic | Advanced | Full |

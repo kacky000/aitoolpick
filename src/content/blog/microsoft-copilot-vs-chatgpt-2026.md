@@ -39,7 +39,7 @@ This is Copilot's defining advantage. If you're already paying for Microsoft 365
 
 **In Teams**: Meeting summaries, action item extraction, catch-up summaries if you missed a meeting. Teams Copilot is one of the more genuinely useful enterprise AI features.
 
-**In PowerPoint**: Generate presentation slides from a Word document or a text prompt. The output needs heavy editing for anything client-facing, but the scaffolding is fast.
+**In PowerPoint**: Generate presentation [slides](/tools/slides-com/) from a Word document or a text prompt. The output needs heavy editing for anything client-facing, but the scaffolding is fast.
 
 ### Microsoft Graph Context
 
@@ -55,17 +55,17 @@ For organizations in regulated industries, Copilot's data handling is inside the
 
 ### Versatility and Depth
 
-ChatGPT handles a wider range of tasks without requiring specific software context. Writers, researchers, developers, and marketers use it for tasks that don't fit neatly into a productivity suite.
+ChatGPT handles a wider range of tasks without requiring specific software context. Writers, researchers, [developers](/best-for/developers/), and marketers use it for tasks that don't fit neatly into a productivity suite.
 
 **Code Interpreter (Advanced Data Analysis)**: Upload a CSV and ask ChatGPT to analyze it, build charts, or run statistical calculations. The code execution environment is far more capable than Copilot's Excel formulas.
 
 **Custom GPTs**: Build purpose-specific AI tools (a brand voice assistant, a research synthesizer, a customer email responder) with custom instructions. No equivalent in Copilot.
 
-**Image editing**: ChatGPT Plus can edit uploaded images, not just generate them — useful for designers and marketers who need quick visual adjustments.
+**Image editing**: ChatGPT Plus can edit uploaded images, not just generate them — useful for [designers](/best-for/designers/) and marketers who need quick visual adjustments.
 
 ### Better for Non-Microsoft Workflows
 
-If your work lives in Google Workspace, Notion, Slack, or other non-Microsoft tools, Copilot offers almost no integration value. ChatGPT is tool-agnostic.
+If your work lives in Google Workspace, [Notion](/tools/notion/), Slack, or other non-Microsoft tools, Copilot offers almost no integration value. ChatGPT is tool-agnostic.
 
 ### API and Developer Access
 
@@ -94,7 +94,7 @@ The cost comparison matters a lot: ChatGPT Plus costs less than a third of what 
 - You want AI embedded in your existing tools rather than a separate app
 
 **Use ChatGPT if:**
-- You work outside Microsoft 365 (Google Workspace, Notion, Slack-first)
+- You work outside Microsoft 365 (Google Workspace, Notion, [Slack](/tools/slack/)-first)
 - You need more versatile AI for writing, coding, analysis, and research
 - You want to build custom AI workflows and GPTs
 - Budget is a consideration and you need per-person cost efficiency
@@ -105,7 +105,7 @@ The cost comparison matters a lot: ChatGPT Plus costs less than a third of what 
 
 ## The Bottom Line
 
-The question isn't which AI is better in the abstract — it's where your work actually happens. Microsoft Copilot's value is almost entirely about Microsoft 365 integration. If you're not deep in that ecosystem, the $30/month premium isn't justified.
+The question isn't which AI is better in the [abstract](/tools/abstract-design/) — it's where your work actually happens. Microsoft Copilot's value is almost entirely about Microsoft 365 integration. If you're not deep in that ecosystem, the $30/month premium isn't justified.
 
 ChatGPT remains the more flexible, widely applicable AI assistant for individuals and teams who need versatility across different tools and tasks.
 

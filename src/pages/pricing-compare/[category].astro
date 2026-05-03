@@ -1,0 +1,334 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  function getLowest(pricing: Record<string, any>): number {
+    if (pricing.free) return 0;
+    const prices = Object.entries(pricing)
+      .filter(([key, val]) => key !== 'free' && typeof val === 'number')
+      .map(([, val]) => val as number);
+    return prices.length > 0 ? Math.min(...prices) : 9999;
+  }
+
+  return categories.map((cat) => {
+    const catTools = tools
+      .filter((t) => t.category.includes(cat.id))
+      .sort((a, b) => getLowest(a.pricing) - getLowest(b.pricing));
+    return {
+      params: { category: cat.slug },
+      props: { category: cat, catTools },
+    };
+  });
+}
+
+function getLowestPrice(pricing: Record<string, any>): number {
+  if (pricing.free) return 0;
+  const prices = Object.entries(pricing)
+    .filter(([key, val]) => key !== 'free' && typeof val === 'number')
+    .map(([, val]) => val as number);
+  return prices.length > 0 ? Math.min(...prices) : 9999;
+}
+
+function formatAllPlans(pricing: Record<string, any>): string[] {
+  const plans: string[] = [];
+  for (const [key, val] of Object.entries(pricing)) {
+    if (key === 'free') {
+      if (val) plans.push('Free: $0');
+    } else if (typeof val === 'number') {
+      const label = key.charAt(0).toUpperCase() + key.slice(1).replace(/([A-Z])/g, ' $1');
+      plans.push(`${label}: $${val}/mo`);
+    } else if (val === null) {
+      const label = key.charAt(0).toUpperCase() + key.slice(1).replace(/([A-Z])/g, ' $1');
+      plans.push(`${label}: Custom`);
+    }
+  }
+  return plans;
+}
+
+const { category, catTools } = Astro.props;
+const freeTools = catTools.filter((t) => t.pricing.free);
+const paidOnly = catTools.filter((t) => !t.pricing.free);
+
+const pageTitle = `${category.name} Pricing Comparison 2026 — ${catTools.length} Tools Compared`;
+const pageDescription = `Compare pricing of ${catTools.length} ${category.name.toLowerCase()} tools side by side. ${freeTools.length} free options available. Find the best value for your budget.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${category.name} Pricing Comparison`,
+  description: pageDescription,
+  numberOfItems: catTools.length,
+  itemListElement: catTools.slice(0, 20).map((tool, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'SoftwareApplication',
+      name: tool.name,
+      url: `https://aitoolpick.org/tools/${tool.slug}/`,
+      offers: {
+        '@type': 'Offer',
+        price: tool.pricing.free ? '0' : getLowestPrice(tool.pricing).toString(),
+        priceCurrency: 'USD',
+      },
+    },
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: category.name, href: `/category/${category.slug}/` },
+        { label: 'Pricing Comparison' },
+      ]} />
+
+      <div class="pc-header">
+        <h1>{category.icon} {category.name} Pricing Comparison</h1>
+        <p>Compare pricing across {catTools.length} {category.name.toLowerCase()} tools. {freeTools.length} offer free plans.</p>
+      </div>
+
+      <!-- Summary Stats -->
+      <div class="pc-stats">
+        <div class="pc-stat">
+          <span class="pc-stat-num">{catTools.length}</span>
+          <span class="pc-stat-label">Tools Compared</span>
+        </div>
+        <div class="pc-stat">
+          <span class="pc-stat-num">{freeTools.length}</span>
+          <span class="pc-stat-label">Free Plans</span>
+        </div>
+        <div class="pc-stat">
+          <span class="pc-stat-num">${paidOnly.length > 0 ? getLowestPrice(paidOnly[0]?.pricing || {free: false}) : 0}</span>
+          <span class="pc-stat-label">Lowest Paid</span>
+        </div>
+      </div>
+
+      <!-- Free Tools Section -->
+      {freeTools.length > 0 && (
+        <div class="pc-section">
+          <h2>Free {category.name} Tools ({freeTools.length})</h2>
+          <div class="pc-table-wrap">
+            <table class="pc-table">
+              <thead>
+                <tr>
+                  <th>Tool</th>
+                  <th>Rating</th>
+                  <th>Free Plan</th>
+                  <th>Paid Plans</th>
+                  <th>Best For</th>
+                </tr>
+              </thead>
+              <tbody>
+                {freeTools.map((tool) => (
+                  <tr>
+                    <td><a href={`/tools/${tool.slug}/`}>{tool.name}</a></td>
+                    <td class="pc-rating">★ {tool.rating}</td>
+                    <td class="pc-free">✓ Free</td>
+                    <td class="pc-plans">{formatAllPlans(tool.pricing).filter(p => !p.startsWith('Free')).join(', ') || 'Free only'}</td>
+                    <td class="pc-bestfor">{tool.bestFor.slice(0, 2).map(b => b.replace(/-/g, ' ')).join(', ')}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      <!-- All Tools Pricing Table -->
+      <div class="pc-section">
+        <h2>Full Pricing Comparison</h2>
+        <div class="pc-table-wrap">
+          <table class="pc-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Tool</th>
+                <th>Rating</th>
+                <th>Free?</th>
+                <th>Plans & Pricing</th>
+              </tr>
+            </thead>
+            <tbody>
+              {catTools.map((tool, i) => (
+                <tr>
+                  <td class="pc-rank">{i + 1}</td>
+                  <td><a href={`/tools/${tool.slug}/`}>{tool.name}</a></td>
+                  <td class="pc-rating">★ {tool.rating}</td>
+                  <td class={tool.pricing.free ? 'pc-yes' : 'pc-no'}>{tool.pricing.free ? '✓' : '✗'}</td>
+                  <td class="pc-plans">{formatAllPlans(tool.pricing).join(' | ')}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Pricing Tips -->
+      <div class="pc-tips">
+        <h2>How to Choose the Right {category.name} Tool</h2>
+        <ul>
+          <li><strong>Start free:</strong> {freeTools.length > 0 ? `${freeTools.length} tools offer free plans — try before you commit.` : 'Most tools offer free trials even without a free plan.'}</li>
+          <li><strong>Consider team size:</strong> Pricing often scales with users. A tool cheap for 1 person may be expensive for 50.</li>
+          <li><strong>Check annual discounts:</strong> Most tools offer 15-30% off when paying annually vs monthly.</li>
+          <li><strong>Compare features at each tier:</strong> The cheapest plan may lack the feature you need most.</li>
+        </ul>
+      </div>
+
+      <!-- Related Links -->
+      <div class="pc-related">
+        <a href={`/category/${category.slug}/`} class="btn-secondary">All {category.name} Tools</a>
+        <a href={`/free/?category=${category.slug}`} class="btn-secondary">Free {category.name} Tools</a>
+        <a href="/compare/" class="btn-secondary">Compare Tools</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .pc-header {
+    margin-bottom: 2rem;
+  }
+
+  .pc-header h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .pc-header p {
+    color: var(--gray-600);
+  }
+
+  .pc-stats {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .pc-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    min-width: 120px;
+  }
+
+  .pc-stat-num {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-dark);
+  }
+
+  .pc-stat-label {
+    font-size: 0.78rem;
+    color: var(--gray-500);
+    font-weight: 500;
+  }
+
+  .pc-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .pc-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .pc-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+  }
+
+  .pc-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  .pc-table th {
+    background: var(--gray-50);
+    padding: 0.7rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--gray-600);
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .pc-table td {
+    padding: 0.6rem 0.7rem;
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  .pc-table a {
+    font-weight: 600;
+    color: var(--dark);
+    text-decoration: none;
+  }
+
+  .pc-table a:hover {
+    color: var(--primary-dark);
+  }
+
+  .pc-rank { font-weight: 700; color: var(--primary-dark); width: 35px; }
+  .pc-rating { color: var(--warning); font-weight: 600; white-space: nowrap; }
+  .pc-yes { color: var(--success); font-weight: 600; }
+  .pc-no { color: var(--gray-400); }
+  .pc-free { color: var(--success); font-weight: 600; }
+  .pc-plans { font-size: 0.8rem; color: var(--gray-600); }
+  .pc-bestfor { font-size: 0.8rem; color: var(--gray-500); }
+
+  .pc-tips {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .pc-tips h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .pc-tips ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .pc-tips li {
+    padding: 0.4rem 0;
+    font-size: 0.88rem;
+    color: var(--gray-700);
+  }
+
+  .pc-related {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gray-200);
+  }
+
+  @media (max-width: 600px) {
+    .pc-stats {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  }
+</style>

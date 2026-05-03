@@ -59,7 +59,7 @@ The free plan works well if you:
 - Are using Loom for internal use only (branding doesn't matter)
 - Are just evaluating whether async video fits your workflow
 
-Many solo users and freelancers stay on free indefinitely by managing their 25-video library carefully — deleting old videos as they add new ones.
+Many solo users and [freelancers](/best-for/freelancers/) stay on free indefinitely by managing their 25-video library carefully — deleting old videos as they add new ones.
 
 ---
 

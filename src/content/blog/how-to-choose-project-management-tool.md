@@ -17,22 +17,22 @@ The most important factor in choosing a PM tool is **who will use it**.
 ### Software Development Teams
 **Top picks:** [Linear](/tools/linear), [ClickUp](/tools/clickup), [Asana](/tools/asana)
 
-Dev teams need Git integration, sprint/cycle management, and issue tracking. Linear is the fastest and most developer-focused. ClickUp offers more flexibility if your team includes non-developers.
+Dev teams need Git integration, sprint/cycle management, and issue tracking. Linear is the fastest and most developer-focused. [ClickUp](/tools/clickup/) offers more flexibility if your team includes non-developers.
 
 ### Marketing and Creative Teams
 **Top picks:** [Monday.com](/tools/monday), [Asana](/tools/asana), [Notion](/tools/notion)
 
-Marketing teams need campaign tracking, content calendars, and approval workflows. Monday.com's visual boards and automations excel here. Asana's portfolio view helps manage multiple campaigns.
+Marketing teams need campaign tracking, content calendars, and approval workflows. [Monday.com](/tools/monday/)'s visual boards and automations excel here. Asana's portfolio view helps manage multiple campaigns.
 
 ### Cross-Functional Teams
 **Top picks:** [ClickUp](/tools/clickup), [Notion](/tools/notion), [Monday.com](/tools/monday)
 
-If engineers, designers, marketers, and PMs all need to collaborate, you need a flexible tool. ClickUp and Notion both offer enough customization to serve diverse workflows.
+If engineers, designers, marketers, and PMs all need to collaborate, you need a flexible tool. ClickUp and [Notion](/tools/notion/) both offer enough customization to serve diverse workflows.
 
 ### Solo and Small Teams
 **Top picks:** [Todoist](/tools/todoist), [Trello](/tools/trello), [Notion](/tools/notion)
 
-Don't over-engineer it. Simple tools like Todoist and Trello keep small teams focused without the overhead of enterprise features you'll never use.
+Don't over-engineer it. Simple tools like [Todoist](/tools/todoist/) and Trello keep small teams focused without the overhead of enterprise features you'll never use.
 
 ## Step 2: Prioritize Your Must-Have Features
 
@@ -40,15 +40,15 @@ Not every feature matters equally. Rank these by importance for your team:
 
 | Feature | Best Tools |
 |---------|-----------|
-| Speed & Performance | Linear, Todoist |
-| Customization | ClickUp, Airtable |
-| Built-in Docs | Notion, ClickUp |
-| Visual Boards | Trello, Monday.com |
-| Automations | Monday.com, Zapier |
-| Git Integration | Linear, ClickUp |
-| Time Tracking | ClickUp, Monday.com |
-| Free Plan | ClickUp, Trello, Notion |
-| AI Features | Notion, Linear, ClickUp |
+| Speed & Performance | Linear, [Todoist](/tools/todoist/) |
+| Customization | ClickUp, [Airtable](/tools/airtable/) |
+| Built-in Docs | Notion, [ClickUp](/tools/clickup/) |
+| Visual Boards | Trello, [Monday.com](/tools/monday/) |
+| Automations | [Monday.com](/tools/monday/), Zapier |
+| Git Integration | Linear, [ClickUp](/tools/clickup/) |
+| Time Tracking | ClickUp, [Monday.com](/tools/monday/) |
+| Free Plan | ClickUp, Trello, [Notion](/tools/notion/) |
+| AI Features | [Notion](/tools/notion/), Linear, ClickUp |
 
 ## Step 3: Consider Your Budget
 
@@ -71,17 +71,17 @@ PM tool pricing varies dramatically. Here's what you'll pay for a 10-person team
 A powerful tool that nobody uses is worse than a simple tool everyone loves.
 
 **Easiest to learn:**
-- Trello — drag cards, done
-- Todoist — type tasks, done
+- [Trello](/tools/trello/) — drag cards, done
+- [Todoist](/tools/todoist/) — type tasks, done
 - Monday.com — visual and intuitive
 
 **Moderate learning curve:**
-- Asana — clean but feature-rich
-- Linear — simple but opinionated
+- [Asana](/tools/asana/) — clean but feature-rich
+- [Linear](/tools/linear/) — simple but opinionated
 
 **Steeper learning curve:**
-- ClickUp — feature overload initially
-- Notion — too flexible (blank page syndrome)
+- [ClickUp](/tools/clickup/) — feature overload initially
+- [Notion](/tools/notion/) — too flexible (blank page syndrome)
 - [Airtable](/tools/airtable) — database concepts take time
 
 ## Step 5: Test Before You Commit
@@ -98,7 +98,7 @@ Here's our recommended evaluation process:
 ## Common Mistakes to Avoid
 
 ### 1. Choosing Based on Features Alone
-The tool with the most features isn't always the best. Trello with 3 features your team actually uses beats ClickUp with 50 features nobody touches.
+The tool with the most features isn't always the best. [Trello](/tools/trello/) with 3 features your team actually uses beats ClickUp with 50 features nobody touches.
 
 ### 2. Not Involving the Team
 A PM tool only works if the team uses it. Include key team members in the evaluation process.

@@ -6,15 +6,15 @@ heroImage: "/thumbs/how-to-switch-from-asana-to-clickup.jpg"
 tags: ["asana", "clickup", "migration", "how-to"]
 lastModified: "2026-04-26"
 ---
-Switching from Asana to ClickUp? You're not alone. ClickUp's lower pricing and all-in-one approach attract many teams looking to consolidate tools. Here's how to make the switch without losing data or momentum.
+Switching from Asana to ClickUp? You're not alone. ClickUp's lower pricing and all-in-one approach attract many teams looking to consolidate tools. Here's how to [make](/tools/make/) the switch without losing data or momentum.
 
 ## Why Teams Switch from Asana to ClickUp
 
-Before diving into the how, here's why teams typically make this move:
+Before diving into the how, here's why teams typically [make](/tools/make/) this move:
 
 - **Price:** ClickUp Unlimited ($7/user/mo) vs Asana Starter ($10.99/user/mo)
-- **Features:** ClickUp includes docs, whiteboards, time tracking, and goals at lower tiers
-- **Consolidation:** Replace Asana + Google Docs + Toggl with one tool
+- **Features:** ClickUp includes docs, whiteboards, [time tracking](/category/time-tracking/), and goals at lower tiers
+- **Consolidation:** Replace Asana + [Google Docs](/tools/google-docs/) + Toggl with one tool
 - **Free plan:** ClickUp's free plan is more generous
 
 → [Full ClickUp vs Asana comparison](/blog/clickup-vs-asana-2026)
@@ -135,7 +135,7 @@ Asana custom fields need to be recreated in ClickUp before import. Plan this ahe
 ClickUp's Space → Folder → List structure is different from Asana's flat project layout. Take time to design your hierarchy.
 
 **4. Forgetting integrations**
-Check which Asana integrations you use and verify ClickUp alternatives exist. Most major tools (Slack, GitHub, Google Drive) connect to both.
+Check which Asana integrations you use and verify ClickUp alternatives exist. Most major tools (Slack, GitHub, [Google Drive](/tools/google-drive/)) connect to both.
 
 ## Tips for Success
 

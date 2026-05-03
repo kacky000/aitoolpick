@@ -72,7 +72,7 @@ Google's AI Overviews appear at the top of search results for many queries. You 
 You.com offers AI search with customizable modes: Smart (AI summary), Research (deep dive with citations), and Create (content generation). The interface is clean, and it supports multiple AI models.
 
 **Strengths:**
-- Choose your AI model (GPT-4, Claude, etc.)
+- Choose your AI model (GPT-4, [Claude](/tools/claude/), etc.)
 - Research mode with academic paper access
 - Code mode for developers
 - Privacy-focused options
@@ -87,7 +87,7 @@ You.com offers AI search with customizable modes: Smart (AI summary), Research (
 
 ## 5. Brave Search with Leo AI — Best for Privacy
 
-Brave Search offers AI answers (via Leo) while maintaining strong privacy. No tracking, no profile building, no ads following you around.
+Brave Search offers AI answers (via Leo) while maintaining strong privacy. No tracking, no profile building, no ads following you [around](/tools/around/).
 
 **Strengths:**
 - Strong privacy guarantees

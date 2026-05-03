@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **N8N** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
-n8n's pricing structure is unusual: the most powerful version is free. Here's what you actually pay for — and when cloud plans make sense over self-hosting.
+n8n's pricing structure is unusual: the most powerful version is free. Here's what you actually pay for — and when cloud plans [make](/tools/make/) sense over self-hosting.
 
 ## n8n Pricing Plans (2026)
 
@@ -26,20 +26,20 @@ There's also a **Community Cloud** option: a free hosted tier with limited execu
 Self-hosted n8n is completely free. You pay for your server infrastructure — nothing else.
 
 Typical server costs:
-- **Hetzner CX21** (2 vCPU, 4 GB RAM): €4.35/month (~$5 USD) — handles 10-100 daily automations comfortably
+- **[Hetzner](/tools/hetzner/) CX21** (2 vCPU, 4 GB RAM): €4.35/month (~$5 USD) — handles 10-100 daily automations comfortably
 - **DigitalOcean Droplet (2 GB)**: $12/month — reliable, well-documented
-- **Fly.io hobby tier**: Free for low-traffic instances
+- **[Fly.io](/tools/fly-io/) hobby tier**: Free for low-traffic instances
 
-A $5-12/month server running Docker can handle thousands of workflow executions per month. There's no task-based billing and no workflow limit.
+A $5-12/month server running [Docker](/tools/docker/) can handle thousands of workflow executions per month. There's no task-based billing and no workflow limit.
 
-Compare that to Zapier Professional at $49/month with a 2,000 task limit. For teams with meaningful automation volume, the math is decisive.
+Compare that to [Zapier](/tools/zapier/) Professional at $49/month with a 2,000 task limit. For teams with meaningful automation volume, the math is decisive.
 
 ## What Cloud Plans Add
 
 Cloud plans aren't about features — n8n self-hosted and cloud have identical functionality. Cloud plans are about not managing infrastructure:
 
 - **No server setup**: Login and start building
-- **Automatic updates**: n8n stays current without manual Docker pulls
+- **Automatic updates**: n8n stays current without manual [Docker](/tools/docker/) pulls
 - **Managed backups**: Your workflows are backed up by n8n
 - **Technical support**: Email support on paid plans
 
@@ -60,14 +60,14 @@ The limit is 5 *active* workflows — you can have unlimited inactive workflows.
 
 15 active workflows and 10,000 executions/month. The better comparison point is a team that runs medium-volume automations and doesn't want infrastructure overhead.
 
-At $60/month, you're spending more than Zapier Professional ($49/month) for fewer executions. The advantage is n8n's superior code support, AI agent capabilities, and no-per-task-pricing philosophy.
+At $60/month, you're spending more than [Zapier](/tools/zapier/) Professional ($49/month) for fewer executions. The advantage is n8n's superior code support, AI agent capabilities, and no-per-task-pricing philosophy.
 
 For most teams choosing Cloud Pro over Starter: the 15-workflow limit is the real driver, not execution count.
 
 ## What You Should Actually Do
 
 **Start here:**
-1. Deploy n8n locally with Docker for free: `docker run -p 5678:5678 n8nio/n8n`
+1. Deploy n8n locally with [Docker](/tools/docker/) for free: `docker run -p 5678:5678 n8nio/n8n`
 2. Build your workflows in the free local environment
 3. If you like it, deploy to a $5-12/month VPS for production
 

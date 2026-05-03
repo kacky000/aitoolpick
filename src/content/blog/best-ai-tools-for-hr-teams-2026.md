@@ -42,17 +42,17 @@ ChatGPT is the most widely used AI tool among HR teams because HR generates an e
 
 **Price**: Free / $20/month (Pro)
 
-Claude's strength in analyzing long documents makes it particularly useful for HR work involving:
+[Claude](/tools/claude/)'s strength in analyzing long documents makes it particularly useful for HR work involving:
 
 **Employee handbook reviews**: Upload your current handbook and ask "What sections are unclear, outdated, or potentially inconsistent with each other?"
 
 **Benefits comparison**: Upload competing benefit plan documents and get a structured comparison.
 
-**Policy gap analysis**: Feed Claude your current HR policies and the employment laws for your state/country — ask what gaps exist.
+**Policy gap analysis**: Feed [Claude](/tools/claude/) your current HR policies and the employment laws for your state/country — ask what gaps exist.
 
-**Resume screening guidelines**: Paste a large batch of screener notes or profiles and ask Claude to identify patterns or summarize candidates against criteria.
+**Resume screening guidelines**: Paste a large batch of screener notes or profiles and ask [Claude](/tools/claude/) to identify patterns or summarize candidates against criteria.
 
-Claude's tendency to be careful and flag uncertainty is a feature for HR — you want an AI that says "I'm not sure about this employment law interpretation" rather than confidently giving wrong guidance.
+[Claude](/tools/claude/)'s tendency to be careful and flag uncertainty is a feature for HR — you want an AI that says "I'm not sure about this employment law interpretation" rather than confidently giving wrong guidance.
 
 → [Full Claude review](/blog/claude-review-2026/) | [Claude vs ChatGPT for research](/blog/chatgpt-vs-claude-for-research-2026/)
 
@@ -70,7 +70,7 @@ HR generates institutional knowledge that should be accessible to employees, man
 
 **Meeting notes and performance review templates**: Structured templates that ensure consistency across managers and departments.
 
-Notion AI can also help: summarizing meeting notes, answering questions about your HR policies in natural language, and drafting responses to common requests.
+[Notion AI](/tools/notion-ai/) can also help: summarizing meeting notes, answering questions about your HR policies in natural language, and drafting responses to common requests.
 
 → [Notion alternatives](/blog/best-notion-alternatives-2026/) | [Notion pricing](/blog/notion-pricing-2026/)
 
@@ -95,10 +95,10 @@ The Business plan's inclusion checker is specifically valuable for HR — it fla
 
 HR involves a lot of data moving between systems: an offer accepted in your ATS needs to trigger IT provisioning, a new hire survey response needs to go to the manager, an anniversary date needs to trigger a recognition message. Zapier automates these handoffs:
 
-- **New hire provisioning**: When ATS marks candidate as hired → create accounts in Slack, Gmail, Notion
+- **New hire provisioning**: When ATS marks candidate as hired → create accounts in [Slack](/tools/slack/), Gmail, Notion
 - **Onboarding scheduling**: Automatically schedule 30/60/90-day check-in meetings
 - **Survey automation**: Send engagement survey 90 days after start date
-- **Birthday/anniversary recognition**: Pull dates from HRIS and post to Slack
+- **Birthday/anniversary recognition**: Pull dates from HRIS and post to [Slack](/tools/slack/)
 - **Offboarding checklists**: When HRIS marks employee as departing → trigger IT deprovisioning tasks
 
 For HR teams without engineering resources, Zapier's no-code interface is genuinely accessible.
@@ -138,7 +138,7 @@ AI tools should augment HR, not replace judgment on:
 - **Termination and PIPs**: These require human judgment, empathy, and legal review
 - **Compensation decisions**: AI can give data; the decision belongs to humans
 - **Culture and conflict**: HR's value in sensitive situations is irreplaceable
-- **Final resume screening**: Use AI to surface candidates, not to make final calls
+- **Final resume screening**: Use AI to surface candidates, not to [make](/tools/make/) final calls
 
 The risk of over-automating HR is real — employees notice when they feel processed rather than heard.
 

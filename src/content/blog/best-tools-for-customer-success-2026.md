@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 Looking for the best tools for customer success? We tested and compared the top options available in 2026, evaluating features, pricing, ease of use, and real-world performance.
 
-Customer success teams are measured on retention and expansion. The tools they use need to support proactive outreach, early churn detection, structured onboarding, and efficient account management — often across hundreds or thousands of accounts simultaneously.
+Customer success teams are measured on retention and expansion. The tools they use need to support proactive [outreach](/tools/outreach/), early churn detection, structured onboarding, and efficient account management — often across hundreds or thousands of accounts simultaneously.
 
 Here's what's worth using in 2026.
 
@@ -16,12 +16,12 @@ Here's what's worth using in 2026.
 
 **Price**: Free / $10/month (Plus) / $20/month (Business)
 
-Before anything else, customer success teams need a structured knowledge base: onboarding playbooks, QBR templates, escalation procedures, and product education materials. This content exists in most companies — in someone's head, scattered across Google Drive, or embedded in email threads.
+Before anything else, customer success teams need a structured knowledge base: onboarding playbooks, QBR templates, escalation procedures, and product education materials. This content exists in most companies — in someone's head, scattered across [Google Drive](/tools/google-drive/), or embedded in email threads.
 
 Notion works well for centralizing this because it's flexible enough to hold different content types (structured databases, documents, checklists) and searchable enough for CSMs to actually use it.
 
 High-value CS use cases in Notion:
-- **Onboarding playbooks**: Structured checklists and guides for each customer segment, with task ownership and milestone timelines.
+- **Onboarding playbooks**: Structured checklists and guides for each customer [segment](/tools/segment/), with task ownership and milestone timelines.
 - **QBR templates**: Standard Quarterly Business Review decks with sections for value delivered, upcoming roadmap, success metrics, and next steps. CSMs copy and customize per account.
 - **Escalation runbooks**: Step-by-step procedures for common customer issues, including who to loop in and what to communicate at each stage.
 - **Product update library**: Searchable database of all recent product releases, organized by feature area, with talking points for customer conversations.
@@ -51,9 +51,9 @@ Customer success involves a lot of writing: renewal emails, QBR summaries, execu
 
 Where Claude helps most for CS:
 - **QBR preparation**: "Here are this customer's last three months of usage metrics and their stated goals from onboarding. Write a QBR executive summary that connects their usage to their business outcomes."
-- **Renewal email sequences**: Draft personalized renewal outreach that references specific value the customer has gotten, rather than generic reminders.
+- **Renewal email sequences**: Draft personalized renewal [outreach](/tools/outreach/) that references specific value the customer has gotten, rather than generic reminders.
 - **Escalation communications**: For difficult situations, Claude helps draft the right tone — acknowledging the issue, taking ownership, and communicating the resolution path clearly.
-- **Feature adoption outreach**: "This customer has never used [Feature X], which usually solves [Problem Y]. Write a short email that introduces the feature in terms of their use case."
+- **Feature adoption [outreach](/tools/outreach/)**: "This customer has never used [Feature X], which usually solves [Problem Y]. Write a short email that introduces the feature in terms of their use case."
 - **Churn save conversations**: Role-play a churn conversation before it happens. Feed in the customer's concerns and ask Claude to play the customer while you practice your response.
 
 → [Claude review 2026](/blog/claude-review-2026/) | [Best AI tools for productivity](/blog/best-ai-tools-for-productivity-2026/)
@@ -62,7 +62,7 @@ Where Claude helps most for CS:
 
 **Price**: Free / $19.99/month (Professional)
 
-CSMs have high administrative overhead. Automating the routine parts frees time for the high-touch work that actually drives retention.
+CSMs have high administrative overhead. Automating the [routine](/tools/routine/) parts frees time for the high-touch work that actually drives retention.
 
 High-value CS automations with Zapier:
 - **Onboarding kickoff**: When a deal is marked Closed Won → Create the customer in your CS platform → Assign a CSM → Create the onboarding task list → Send the welcome email.
@@ -81,7 +81,7 @@ One-to-many customer communication is a core CS challenge: how do you educate a 
 
 CS use cases for Loom:
 - **Onboarding walkthroughs**: Screen recording of the key product flows, narrated specifically for the customer's use case. More personal than generic help documentation.
-- **Feature announcement videos**: Record a 2-minute overview of a new feature with specific examples relevant to the customer segment. Higher engagement than email.
+- **Feature announcement videos**: Record a 2-minute overview of a new feature with specific examples relevant to the customer [segment](/tools/segment/). Higher engagement than email.
 - **QBR substitutes for smaller accounts**: A 5-minute Loom walkthrough of their usage data and recommendations is faster for CSMs to produce than a full slide deck and more engaging for the customer than a spreadsheet.
 - **Async troubleshooting**: Record a screen share showing how to solve a common issue. Send once, reuse for every customer with the same problem.
 
@@ -91,9 +91,9 @@ CS use cases for Loom:
 
 **Price**: Free / $20/user/month (Team)
 
-For CS teams that need more database power than Notion offers — complex filtering, rollup formulas, automation within the database, or integration with BI tools — Airtable is the stronger choice.
+For CS teams that need more database power than Notion offers — complex filtering, rollup formulas, automation within the database, or integration with BI tools — [Airtable](/tools/airtable/) is the stronger choice.
 
-The primary CS use case in Airtable is account health tracking: a database where each customer is a record with health scores, renewal dates, tier, assigned CSM, NPS scores, product adoption metrics, and current status. The formula and automation features let you build calculated health scores and trigger alerts automatically.
+The primary CS use case in [Airtable](/tools/airtable/) is account health tracking: a database where each customer is a record with health scores, renewal dates, tier, assigned CSM, NPS scores, product adoption metrics, and current status. The formula and automation features let you build calculated health scores and trigger alerts automatically.
 
 → [Airtable review 2026](/blog/airtable-review-2026/) | [Notion vs Airtable 2026](/blog/notion-vs-airtable-2026/)
 

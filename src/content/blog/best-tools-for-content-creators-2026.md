@@ -30,7 +30,7 @@ ChatGPT is still the go-to AI writing companion for most content creators. GPT-4
 
 ### 2. Grammarly — Best for Polishing Your Writing
 
-Grammarly has evolved well beyond a spell-checker. In 2026, it functions as a full writing assistant — catching tone issues, restructuring awkward sentences, and even flagging when your draft sounds off-brand. The browser extension works seamlessly across Gmail, Google Docs, WordPress, and social platforms.
+Grammarly has evolved well beyond a spell-checker. In 2026, it functions as a full writing assistant — catching tone issues, restructuring awkward sentences, and even flagging when your draft sounds off-brand. The browser extension works seamlessly across Gmail, [Google Docs](/tools/google-docs/), WordPress, and social platforms.
 
 **Best for**: Writers who want to publish confidently, non-native English speakers, anyone writing for professional audiences
 
@@ -58,13 +58,13 @@ Claude (from Anthropic) excels at tasks that require deep reasoning and long con
 
 ### 4. Canva — Best for Non-Designers
 
-Canva is the undisputed king of accessible design. In 2026, it's packed with AI features — Magic Studio generates images, removes backgrounds, and resizes designs for every platform automatically. The template library is enormous, and the collaboration features make it practical for teams.
+Canva is the undisputed king of accessible design. In 2026, it's packed with AI features — Magic Studio generates images, removes backgrounds, and resizes designs for every platform automatically. The template library is enormous, and the collaboration features [make](/tools/make/) it practical for teams.
 
 **Best for**: Social media creators, course creators, bloggers who need quick graphics, small teams without a dedicated designer
 
 **Pricing**: Free (solid feature set) / $15/month for Canva Pro per person
 
-**Standout feature**: Magic Resize instantly adapts a single design to Instagram post, Story, YouTube thumbnail, and Pinterest pin — all in one click.
+**Standout feature**: Magic Resize [instantly](/tools/instantly/) adapts a single design to Instagram post, Story, YouTube thumbnail, and Pinterest pin — all in one click.
 
 > Check out our full [Canva review for 2026](/blog/canva-review-2026) for a complete breakdown of features.
 
@@ -78,7 +78,7 @@ Figma is the industry standard for UI/UX design and increasingly popular with co
 
 **Pricing**: Free (1 project) / $15/month per editor for the Professional plan
 
-**Standout feature**: Dev Mode and component libraries make it easy to build a design system you can reuse across hundreds of pieces of content.
+**Standout feature**: Dev Mode and component libraries [make](/tools/make/) it easy to build a design system you can reuse across hundreds of pieces of content.
 
 ---
 
@@ -106,7 +106,7 @@ Trello remains the easiest project management tool to pick up and start using in
 
 **Pricing**: Free (unlimited cards, 10 boards) / $5/month for Standard per user
 
-**Standout feature**: Power-Ups integrate with Google Drive, Slack, and calendar apps so your content workflow connects with tools you already use.
+**Standout feature**: Power-Ups integrate with [Google Drive](/tools/google-drive/), Slack, and calendar apps so your content workflow connects with tools you already use.
 
 ---
 
@@ -114,7 +114,7 @@ Trello remains the easiest project management tool to pick up and start using in
 
 ### 8. Zapier — Best for Connecting Your Entire Creator Stack
 
-Zapier sits in the background connecting all your other tools. When a new blog post is published, Zapier can automatically tweet it, add it to your Notion database, and send you a Slack notification — without you lifting a finger. In 2026, the AI features let you build more complex workflows with natural language.
+Zapier sits in the background connecting all your other tools. When a new blog post is published, Zapier can automatically tweet it, add it to your Notion database, and send you a [Slack](/tools/slack/) notification — without you lifting a finger. In 2026, the AI features let you build more complex workflows with natural language.
 
 **Best for**: Creators managing multiple platforms, anyone tired of repetitive manual tasks
 
@@ -150,7 +150,7 @@ You don't need all 9 tools immediately. Here's a practical starting point:
 | Organization | Notion (free) | $0 |
 | Automation | Zapier (free) | $0 |
 
-You can run a full content creation operation for $0/month to start. Upgrade Canva Pro when you need more templates and brand kit features, and ChatGPT Plus when you're hitting free tier limits.
+You can run a full content creation operation for $0/month to start. Upgrade Canva Pro when you need more templates and brand [kit](/tools/kit/) features, and ChatGPT Plus when you're hitting free tier limits.
 
 ---
 

@@ -12,7 +12,7 @@ Most people who sign up for Zapier set up one automation, then stop. The initial
 
 Zapier connects apps using a Trigger → Action structure. When something happens in App A (the trigger), Zapier does something in App B (the action).
 
-Example: When a new row is added to Google Sheets (trigger) → Send a Slack message with that row's data (action).
+Example: When a new row is added to Google Sheets (trigger) → Send a [Slack](/tools/slack/) message with that row's data (action).
 
 Zaps can have multiple steps. A trigger can kick off 3-4 actions in sequence, and you can add logic (filters, paths) to handle different conditions.
 
@@ -26,19 +26,19 @@ Zaps can have multiple steps. A trigger can kick off 3-4 actions in sequence, an
 ## Marketing Team Automations Worth Building
 
 ### Lead Capture → CRM
-When a lead fills out a form (Typeform, Google Forms, website form) → Create a contact in your CRM (HubSpot, Salesforce, Pipedrive) → Notify the assigned rep in Slack.
+When a lead fills out a form (Typeform, Google Forms, website form) → Create a contact in your CRM (HubSpot, [Salesforce](/tools/salesforce/), Pipedrive) → Notify the assigned rep in Slack.
 
 This eliminates manual CRM entry and ensures no lead sits unclaimed.
 
-**Build it**: Trigger = New form submission. Action 1 = Create contact in CRM. Action 2 = Send Slack message to #new-leads with the contact details.
+**Build it**: Trigger = New form submission. Action 1 = Create contact in CRM. Action 2 = Send [Slack](/tools/slack/) message to #new-leads with the contact details.
 
 ### New Blog Post → Social Announcements
-When a new article is published in your CMS (WordPress, Webflow) → Post an announcement to Slack → Create a draft in Buffer or Hootsuite for social promotion.
+When a new article is published in your CMS (WordPress, Webflow) → Post an announcement to Slack → Create a draft in Buffer or [Hootsuite](/tools/hootsuite/) for social promotion.
 
 This closes the gap between publishing and promotion without extra manual steps.
 
 ### Email Open/Click → CRM Activity Logging
-When a marketing email is opened or clicked (Mailchimp, ActiveCampaign) → Update the contact's record in your CRM with the engagement activity.
+When a marketing email is opened or clicked ([Mailchimp](/tools/mailchimp/), ActiveCampaign) → Update the contact's record in your CRM with the engagement activity.
 
 Gives sales reps real-time signals about which leads are engaged without manual monitoring.
 
@@ -47,12 +47,12 @@ Gives sales reps real-time signals about which leads are engaged without manual 
 ## Sales Team Automations Worth Building
 
 ### New Deal Won → Onboarding Kickoff
-When a deal is marked Closed Won in your CRM → Send a welcome email to the new customer → Create an onboarding task list in your project management tool → Notify the customer success team in Slack.
+When a deal is marked Closed Won in your CRM → Send a welcome email to the new customer → Create an onboarding task list in your project management tool → Notify the customer success team in [Slack](/tools/slack/).
 
-This eliminates the handoff gap between sales and customer success that loses momentum post-close.
+This eliminates the handoff gap between sales and customer success that loses momentum post-[close](/tools/close/).
 
 ### Meeting Scheduled → Prep Checklist
-When a meeting is created in Google Calendar with a prospect → Create a research task in Asana or Notion → Send a Slack reminder to the rep 30 minutes before the meeting.
+When a meeting is created in Google Calendar with a prospect → Create a research task in Asana or [Notion](/tools/notion/) → Send a Slack reminder to the rep 30 minutes before the meeting.
 
 ### Form to Proposal
 When a discovery call notes form is submitted → Use Zapier's formatting tools to populate a proposal template → Send the draft to the rep's email.
@@ -68,7 +68,7 @@ When a new employee record is created in HR software → Create accounts in the 
 This is a multi-step Zap with paths for different roles (engineering vs. marketing vs. sales has different tool sets).
 
 ### Invoice and Payment Tracking
-When a new invoice is created in your accounting tool (QuickBooks, FreshBooks) → Add a row to a Google Sheet for tracking → Send a Slack notification to finance → Set a reminder for 30 days out if unpaid.
+When a new invoice is created in your accounting tool (QuickBooks, [FreshBooks](/tools/freshbooks/)) → Add a row to a Google Sheet for tracking → Send a Slack notification to finance → Set a reminder for 30 days out if unpaid.
 
 ### Support Ticket Routing
 When a new support ticket arrives → Categorize based on keywords → Assign to the right team → Send an acknowledgment email to the customer → Create a tracking task internally.
@@ -81,7 +81,7 @@ Zapier's filter and path features let you route "billing" tickets to finance and
 
 **Building Zaps before the manual process is stable.** If you don't fully understand each step of the manual process, your automation will have gaps or handle edge cases wrong. Document the manual workflow first, then automate.
 
-**Automating everything at once.** Start with the highest-frequency, lowest-complexity workflows. The Zap that runs 50 times a day and takes 2 minutes to build pays off immediately. The Zap that runs twice a month and takes 4 hours to build probably isn't worth it.
+**Automating everything at once.** Start with the highest-frequency, lowest-complexity workflows. The Zap that runs 50 times a day and takes 2 minutes to build pays off immediately. The Zap that runs twice a month and takes 4 [hours](/tools/hours-tracker/) to build probably isn't worth it.
 
 **Not testing with real data.** Zapier's test mode often works with sample data that doesn't reflect edge cases in real data. Test with actual live examples before turning a Zap on at full volume.
 

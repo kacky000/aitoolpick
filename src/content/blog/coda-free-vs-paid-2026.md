@@ -7,7 +7,7 @@ heroImage: "/thumbs/coda-free-vs-paid-2026.jpg"
 lastModified: "2026-05-01"
 ---
 
-**Coda** is a document platform that combines docs, databases, and automation in one tool. Its free vs paid split is one of the more nuanced in the productivity space — the free tier is generous but has a specific limitation that pushes many teams to upgrade sooner than expected.
+**[Coda](/tools/notion-alternative-coda/)** is a document platform that combines docs, databases, and automation in one tool. Its free vs paid split is one of the more nuanced in the productivity space — the free tier is generous but has a specific limitation that pushes many teams to upgrade sooner than expected.
 
 ## Coda Plans Overview
 
@@ -27,7 +27,7 @@ Coda's free tier is genuinely capable for getting started:
 - **All core formulas**: Access to Coda's full formula library
 - **Basic automations**: Simple automated actions within docs
 - **All views**: Tables, kanban boards, calendar, timeline, and card views
-- **Basic integrations**: Slack, GitHub, and others at a basic level
+- **Basic integrations**: Slack, [GitHub](/tools/github/), and others at a basic level
 - **Unlimited viewers**: Anyone with a link can view for free
 
 **The key free-tier limitation**: The **"doc size" limit**. Free docs can only have 1,000 objects total. An "object" is any row in a table, any page, any image, or any section. For simple docs, this is plenty. For complex Coda databases — tracking projects, leads, inventory, or content — 1,000 objects fills up quickly.
@@ -40,13 +40,13 @@ Free also restricts:
 
 ## When You'll Hit the Free Tier Limit
 
-The 1,000-object limit sounds abstract. Here's when it matters in practice:
+The 1,000-object limit sounds [abstract](/tools/abstract-design/). Here's when it matters in practice:
 
 | Use Case | Objects Used | Hits Limit? |
 |----------|-------------|-------------|
 | Personal task tracker (50 tasks) | ~100 | No |
 | Team wiki with 30 pages | ~150 | No |
-| CRM tracker (500 contacts) | ~1,500+ | Yes |
+| [CRM](/category/crm/) tracker (500 contacts) | ~1,500+ | Yes |
 | Content calendar (200 entries + columns) | ~1,200+ | Yes |
 | Project tracker for 20 projects | ~400 | Borderline |
 
@@ -73,7 +73,7 @@ Team adds collaborative and administrative features:
 - Everything in Pro
 - Granular permissions (who can edit what within a doc)
 - Team-level admin controls
-- Enhanced Slack integration
+- Enhanced [Slack](/tools/slack/) integration
 - Advanced automations with cross-doc workflows
 - Priority support
 
@@ -100,7 +100,7 @@ Notion's free plan has no block limit, making it more accessible for teams explo
 ## Who Should Stay on Free?
 
 **Free is sufficient if you:**
-- Use Coda as a personal note-taking and wiki tool
+- Use Coda as a personal [note-taking](/category/note-taking/) and wiki tool
 - Have docs with fewer than 10 tables and minimal data
 - Are evaluating Coda before committing
 - Run simple team wikis with mostly static content

@@ -90,7 +90,7 @@ Useful for: Approval workflows, editorial calendars, code review tracking
 **Condition**: Due date is before today AND Status is not "Done"
 **Action**: Post to #team channel with a list of overdue items
 
-Useful for: Project management, sprint tracking
+Useful for: [Project management](/category/project-management/), sprint tracking
 
 ### 4. New Client Onboarding
 
@@ -115,7 +115,7 @@ If you need more complex logic — like creating Airtable records from Slack mes
 
 - **Zapier**: Drag-and-drop multi-step workflows between Airtable and Slack
 - **Make (formerly Integromat)**: More powerful routing and conditional logic
-- **n8n**: Self-hostable, free for many use cases
+- **[n8n](/tools/n8n/)**: Self-hostable, free for many use cases
 
 → [See Airtable pricing to understand automation run limits](/blog/airtable-pricing-2026/)
 → [Compare Airtable alternatives if you need more flexibility](/blog/best-airtable-alternatives-2026/)

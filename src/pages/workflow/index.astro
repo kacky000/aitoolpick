@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import workflows from '../../data/workflows.json';
+
+const wfData = workflows.map((wf) => {
+  const count = tools.filter((t) => t.category.some((c: string) => wf.categories.includes(c))).length;
+  return { ...wf, toolCount: Math.min(count, 30) };
+});
+
+const pageTitle = `Workflow Guides — Build Your Perfect Tool Stack | AIToolPick`;
+const pageDescription = `Discover the best tools for ${workflows.length} common workflows. From content creation to software development, find the right stack for your team.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Workflows' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Workflow Guides</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        Find the best tools for every step of your workflow. {workflows.length} workflows, hundreds of curated tools.
+      </p>
+
+      <div class="wfi-grid">
+        {wfData.map((wf) => (
+          <a href={`/workflow/${wf.id}/`} class="wfi-card">
+            <h2>{wf.name.replace(' Workflow', '')}</h2>
+            <p>{wf.description}</p>
+            <div class="wfi-meta">
+              <span>{wf.toolCount} tools</span>
+              <span>{wf.steps.length} steps</span>
+            </div>
+            <div class="wfi-steps">
+              {wf.steps.map((step, i) => (
+                <span class="wfi-step">{i + 1}. {step}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .wfi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .wfi-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .wfi-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+  }
+
+  .wfi-card h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem;
+  }
+
+  .wfi-card p {
+    font-size: 0.85rem;
+    color: var(--gray-600);
+    line-height: 1.4;
+    margin: 0 0 0.75rem;
+  }
+
+  .wfi-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin-bottom: 0.75rem;
+  }
+
+  .wfi-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  .wfi-step {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    background: var(--gray-50);
+    border-radius: 10px;
+    color: var(--gray-600);
+  }
+
+  @media (max-width: 600px) {
+    .wfi-grid { grid-template-columns: 1fr; }
+  }
+</style>

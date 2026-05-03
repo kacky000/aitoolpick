@@ -14,7 +14,7 @@ Make (formerly Integromat) and Microsoft Power Automate are both serious workflo
 
 **Choose Make if:**
 - You need complex, multi-step workflows with precise data transformation
-- Your stack includes non-Microsoft tools (HubSpot, Airtable, Slack, Notion, Shopify)
+- Your stack includes non-Microsoft tools (HubSpot, [Airtable](/tools/airtable/), Slack, Notion, Shopify)
 - You want visual scenario building with clear data flow visibility
 - You are a freelancer, agency, or small team building automations for multiple clients
 
@@ -43,10 +43,10 @@ Make (formerly Integromat) and Microsoft Power Automate are both serious workflo
 ### Visual Clarity
 Make's canvas shows every module, every data path, and every transformation in a single view. When a scenario breaks, you can see exactly where in the flow the error occurred and what data was flowing at that point.
 
-Power Automate's list-based interface obscures complex flows — nested conditions and loops become difficult to debug as workflows grow.
+Power Automate's list-based interface obscures complex flows — nested conditions and [loops](/tools/loops/) become difficult to debug as workflows grow.
 
 ### Non-Microsoft Integration Depth
-Make has native integrations for 1,800+ apps, with dedicated modules for most popular SaaS tools. Integrations with Notion, Airtable, HubSpot, Shopify, and Webflow are first-class, not afterthoughts.
+Make has native integrations for 1,800+ apps, with dedicated modules for most popular SaaS tools. Integrations with Notion, Airtable, HubSpot, Shopify, and [Webflow](/tools/webflow/) are first-class, not afterthoughts.
 
 Power Automate's non-Microsoft connectors often use generic HTTP calls or "premium connectors" that require higher licensing tiers.
 

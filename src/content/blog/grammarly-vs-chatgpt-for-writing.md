@@ -19,7 +19,7 @@ Grammarly and ChatGPT both help you write better, but they work in fundamentally
 ## How They Work
 
 ### Grammarly
-A browser extension and desktop app that checks your writing everywhere — Gmail, Google Docs, Slack, social media, and more. It catches grammar mistakes, suggests tone adjustments, and improves clarity in real time.
+A browser extension and desktop app that checks your writing everywhere — Gmail, Google Docs, [Slack](/tools/slack/), social media, and more. It catches grammar mistakes, suggests tone adjustments, and improves clarity in real time.
 
 ### ChatGPT
 A conversational AI that generates text from prompts. You describe what you want, and it writes drafts, rewrites content, translates, summarizes, and answers questions.
@@ -56,7 +56,7 @@ A conversational AI that generates text from prompts. You describe what you want
 
 ### Integration
 - **Grammarly:** Works everywhere — browsers, desktop apps, mobile keyboards.
-- **ChatGPT:** Standalone interface, plus API for developers.
+- **ChatGPT:** Standalone interface, plus API for [developers](/best-for/developers/).
 
 **Winner:** Grammarly for everyday use.
 

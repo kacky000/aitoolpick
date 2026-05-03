@@ -12,7 +12,7 @@ Marketing teams have unique needs — campaign tracking, content calendars, crea
 
 ## Quick Verdict
 
-**Choose Monday.com** if your marketing team values visual dashboards, built-in CRM, and client-facing project views.
+**Choose Monday.com** if your marketing team values visual dashboards, built-in [CRM](/category/crm/), and client-facing project views.
 
 **Choose Asana** if your team needs structured workflows, advanced automations, and deep integration with marketing tools.
 
@@ -68,7 +68,7 @@ Asana's proofing feature is more mature. You can annotate images, PDFs, and even
 ## Reporting & Analytics
 
 ### Monday.com
-Monday's dashboards are its crown jewel. Drag-and-drop widgets, chart types, and cross-board reporting make it easy to build marketing performance dashboards.
+Monday's dashboards are its crown jewel. Drag-and-drop widgets, chart types, and cross-board reporting [make](/tools/make/) it easy to build marketing performance dashboards.
 
 ### Asana
 Asana's reporting is functional but less visual. Custom dashboards exist in Advanced plans, but they don't match Monday's dashboard flexibility.
@@ -79,13 +79,13 @@ Asana's reporting is functional but less visual. Custom dashboards exist in Adva
 
 | Integration | Monday.com | Asana |
 |------------|-----------|-------|
-| HubSpot | ✅ | ✅ |
-| Mailchimp | ✅ | ✅ |
+| [HubSpot](/tools/hubspot/) | ✅ | ✅ |
+| [Mailchimp](/tools/mailchimp/) | ✅ | ✅ |
 | Google Analytics | ✅ | ✅ |
-| Slack | ✅ | ✅ |
-| Figma | ✅ | ✅ |
+| [Slack](/tools/slack/) | ✅ | ✅ |
+| [Figma](/tools/figma/) | ✅ | ✅ |
 | Adobe Creative Cloud | ❌ | ✅ |
-| Salesforce | ✅ | ✅ |
+| [Salesforce](/tools/salesforce/) | ✅ | ✅ |
 
 Both integrate with major marketing tools. Asana has a slight edge with Adobe Creative Cloud integration for design-heavy teams.
 

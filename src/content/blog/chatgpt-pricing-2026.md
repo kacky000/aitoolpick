@@ -42,7 +42,7 @@ The free plan is more capable than many people expect. OpenAI has steadily expan
 - DALL-E restricted to a handful of images per day
 - No advanced data analysis (Code Interpreter)
 - No custom GPT creation
-- Deprioritized during peak hours
+- Deprioritized during peak [hours](/tools/hours-tracker/)
 - Limited conversation memory
 
 **Verdict:** Genuinely useful for casual tasks. Students and occasional users can get real value here. For more free options, see our [best free AI tools roundup](/blog/best-free-ai-tools-2026/).
@@ -176,7 +176,7 @@ A simple decision framework:
 
 2. **Compare before committing.** At $20/month, Plus competes directly with [Claude Pro](/blog/claude-pricing-2026/) — same price, different strengths. Claude wins on writing quality and context length; ChatGPT wins on multimodal features and ecosystem.
 
-3. **Use free tools strategically.** Combine ChatGPT Free with Claude Free and Perplexity Free for a powerful zero-cost setup.
+3. **Use free tools strategically.** Combine ChatGPT Free with [Claude](/tools/claude/) Free and Perplexity Free for a powerful zero-cost setup.
 
 4. **Annual billing saves money** on Team plans — $5/user/month savings adds up fast.
 

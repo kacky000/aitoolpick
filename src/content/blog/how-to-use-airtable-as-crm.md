@@ -6,11 +6,11 @@ tags: ["airtable", "crm", "how-to", "small-business", "tutorial"]
 heroImage: "/thumbs/how-to-use-airtable-as-crm.jpg"
 lastModified: "2026-04-26"
 ---
-Airtable makes an excellent lightweight CRM for small businesses, freelancers, and startups that don't need the complexity of Salesforce or HubSpot. With the right structure, you can track contacts, manage your sales pipeline, and log all client interactions — for free or near-free.
+Airtable makes an excellent lightweight CRM for small businesses, freelancers, and startups that don't need the complexity of [Salesforce](/tools/salesforce/) or HubSpot. With the right structure, you can track contacts, manage your sales pipeline, and log all client interactions — for free or near-free.
 
 ## Why Airtable for CRM?
 
-Dedicated CRMs like HubSpot charge $45-800/month for business plans. Airtable Free gives you the core database functionality to build a functional CRM at no cost.
+Dedicated CRMs like [HubSpot](/tools/hubspot/) charge $45-800/month for business plans. Airtable Free gives you the core database functionality to build a functional CRM at no cost.
 
 The tradeoff: Airtable doesn't have built-in email tracking, call logging, or deal forecasting. You build these features yourself. For teams with 1-5 people managing < 500 contacts, this is the right trade.
 
@@ -35,7 +35,7 @@ Create your base and add a table called **Contacts** with these fields:
 | Email | Email | |
 | Phone | Phone number | |
 | Stage | Single select | Lead / Prospect / Customer / Churned |
-| Source | Single select | Website / Referral / Cold Outreach / Event |
+| Source | Single select | Website / Referral / Cold [Outreach](/tools/outreach/) / Event |
 | Last Contacted | Date | Update manually or via automation |
 | Notes | Long text | Freeform context |
 | Tags | Multiple select | Industry, region, etc. |
@@ -53,7 +53,7 @@ Create a **Deals** table with:
 | Contact | Link to Contacts | Main contact for this deal |
 | Value | Currency | Expected deal value |
 | Stage | Single select | Qualified / Proposal / Negotiating / Closed Won / Closed Lost |
-| Close Date | Date | Expected or actual close date |
+| [Close](/tools/close/) Date | Date | Expected or actual close date |
 | Probability | Percent | Likelihood of winning |
 | Notes | Long text | |
 | Created | Created time | Auto-filled |
@@ -79,10 +79,10 @@ Log every meaningful interaction here. Over time, this becomes a complete histor
 
 ## Step 4: Set Up Pipeline Views
 
-In your **Deals** table, create a **Kanban view** grouped by Stage. This gives you a visual pipeline that works like Trello — drag deals from column to column as they progress.
+In your **Deals** table, create a **Kanban view** grouped by Stage. This gives you a visual pipeline that works like [Trello](/tools/trello/) — drag deals from column to column as they progress.
 
 Add these additional views:
-- **Closing This Month** — filter Close Date = This Month
+- **Closing This Month** — filter [Close](/tools/close/) Date = This Month
 - **High Value Deals** — filter Value > $[your threshold]
 - **My Deals** — filter Owner = Me
 
@@ -99,15 +99,15 @@ The "Follow Up Needed" view is especially useful — it automatically surfaces c
 
 Airtable's built-in automation (free tier allows 100 automation runs/month) can handle basic CRM workflows:
 
-- **When Stage changes to "Customer" → Send a Slack notification** to your team
+- **When Stage changes to "Customer" → Send a [Slack](/tools/slack/) notification** to your team
 - **When a new Contact is created → Send a welcome email** via Gmail
-- **When Close Date is tomorrow → Create a reminder record** in Activities
+- **When [Close](/tools/close/) Date is tomorrow → Create a reminder record** in Activities
 
 For more complex automation (email sequences, lead scoring), [Zapier connects Airtable to most CRM-adjacent tools](/blog/zapier-vs-make-automation-comparison).
 
 ## Airtable CRM vs Dedicated CRMs
 
-| Feature | Airtable (free) | HubSpot Free | Notion CRM |
+| Feature | Airtable (free) | HubSpot Free | [Notion](/tools/notion/) CRM |
 |---------|----------------|-------------|------------|
 | Contacts | Unlimited | Unlimited | Unlimited |
 | Pipeline views | Yes (Kanban) | Yes | Yes |
@@ -126,8 +126,8 @@ Airtable's template gallery has pre-built CRM templates at airtable.com/template
 ## Limitations to Know
 
 Before committing to Airtable CRM:
-- No native email sending (you'll need Zapier or Make integrations)
-- No call recording or VoIP integration out of the box
+- No native email sending (you'll need [Zapier](/tools/zapier/) or Make integrations)
+- No call recording or VoIP integration out of the [box](/tools/box/)
 - Reporting is limited on the free plan
 - At 500+ contacts, Airtable's performance can slow down
 

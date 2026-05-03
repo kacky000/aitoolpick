@@ -12,7 +12,7 @@ Monday.com's pricing can be confusing — especially the minimum seat requiremen
 
 ## Free Plan: What's Included
 
-Monday.com's free plan is one of the most limited in the project management space:
+Monday.com's free plan is one of the most limited in the [project management](/category/project-management/) space:
 
 - **Up to 2 users only**
 - Up to 3 boards
@@ -58,7 +58,7 @@ Pro adds advanced features for larger teams:
 - **25,000 automations/month**
 - **25,000 integrations/month**
 - Private boards
-- Time tracking
+- [Time tracking](/category/time-tracking/)
 - Formula column
 - Chart view
 - Dashboard (20 boards)
@@ -95,23 +95,23 @@ If you're a solo user or a team of 2, you're overpaying by 33–50%.
 
 **Basic is only worth it if** you just need a shared task board without automations. Most teams skip Basic entirely.
 
-**Standard is the sweet spot** for most teams. Automations, timeline views, and integrations make Monday.com actually powerful.
+**Standard is the sweet spot** for most teams. Automations, timeline views, and integrations [make](/tools/make/) Monday.com actually powerful.
 
 **Pro makes sense if** you need time tracking, private boards, or heavy automation usage.
 
 ## How It Compares to Competitors
 
-Monday.com's pricing is mid-range but the seat minimums make it expensive for small teams:
+Monday.com's pricing is mid-range but the seat minimums [make](/tools/make/) it expensive for small teams:
 
-- **ClickUp**: Free plan supports unlimited users, paid starts at $7/user with no minimums
-- **Asana**: Free plan supports up to 10 users
-- **Notion**: Free plan is generous for individuals, $10/user for teams
+- **[ClickUp](/tools/clickup/)**: Free plan supports unlimited users, paid starts at $7/user with no minimums
+- **[Asana](/tools/asana/)**: Free plan supports up to 10 users
+- **[Notion](/tools/notion/)**: Free plan is generous for individuals, $10/user for teams
 
 For teams of 3+, Monday.com is competitive. For smaller teams, consider [ClickUp](/blog/clickup-vs-monday-2026) or [Notion](/blog/notion-vs-monday-2026) instead.
 
 ## The Verdict
 
-Monday.com's free plan is basically a trial. If you're evaluating Monday.com, go straight to the Standard plan trial — that's where you'll see its real value. The automations and timeline views are what make Monday.com worth using, and those start at Standard ($12/seat/month, 3-seat minimum).
+Monday.com's free plan is basically a trial. If you're evaluating Monday.com, go straight to the Standard plan trial — that's where you'll see its real value. The automations and timeline views are what [make](/tools/make/) Monday.com worth using, and those start at Standard ($12/seat/month, 3-seat minimum).
 
 ---
 

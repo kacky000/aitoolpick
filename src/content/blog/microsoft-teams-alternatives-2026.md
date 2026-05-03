@@ -28,7 +28,7 @@ Zoom expanded beyond video calls into a full collaboration suite with chat, whit
 
 ### 3. Google Workspace — Best for Google-Native Teams
 
-If your company already uses Gmail, Google Drive, and Google Calendar, Google Chat and Meet are built right in. No extra app to install — everything lives in your browser.
+If your company already uses Gmail, [Google Drive](/tools/google-drive/), and Google Calendar, Google Chat and Meet are built right in. No extra app to install — everything lives in your browser.
 
 - **Price:** $7/user/mo (Business Starter) / $14/user/mo (Business Standard)
 - **Best for:** Organizations already using Google services
@@ -52,7 +52,7 @@ Mattermost is an open-source, self-hosted alternative that gives you full contro
 
 ### 6. Webex — Best for Enterprise
 
-Cisco Webex offers enterprise-grade video conferencing, messaging, and calling. Its AI features and hardware integration make it a strong Teams alternative for large organizations.
+Cisco Webex offers enterprise-grade [video conferencing](/category/video-conferencing/), messaging, and calling. Its AI features and hardware integration make it a strong Teams alternative for large organizations.
 
 - **Price:** Free / $14.50/user/mo (Meet)
 - **Best for:** Large enterprises with existing Cisco infrastructure
@@ -60,7 +60,7 @@ Cisco Webex offers enterprise-grade video conferencing, messaging, and calling. 
 
 ### 7. Lark — Best All-in-One for Asia-Pacific Teams
 
-Lark by ByteDance combines messaging, video, docs, and project management in a single app. It's particularly popular in Asia-Pacific markets and offers a generous free plan.
+Lark by ByteDance combines messaging, video, docs, and [project management](/category/project-management/) in a single app. It's particularly popular in Asia-Pacific markets and offers a generous free plan.
 
 - **Price:** Free (up to 50 users) / $12/user/mo (Pro)
 - **Best for:** Startups and SMBs wanting an all-in-one solution

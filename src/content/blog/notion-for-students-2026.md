@@ -6,7 +6,7 @@ tags: ["notion", "students", "productivity", "note-taking", "study"]
 heroImage: "/thumbs/notion-for-students-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Students who figure out Notion early have a significant advantage over those still juggling a mix of paper notes, Google Docs folders, Reminders, and a physical planner. Notion can replace all of those with a single system that keeps everything connected.
+Students who figure out Notion early have a significant advantage over those still juggling a mix of paper notes, [Google Docs](/tools/google-docs/) folders, Reminders, and a physical planner. Notion can replace all of those with a single system that keeps everything connected.
 
 Here's how to set it up for academic use.
 
@@ -48,7 +48,7 @@ Create a database called "Courses" with properties:
 - Grade (fill in as you get it)
 
 Each course is a page containing:
-- **Course info**: Syllabus link, office hours, grading breakdown
+- **Course info**: Syllabus link, office [hours](/tools/hours-tracker/), grading breakdown
 - **Weekly notes**: Dated lecture notes
 - **Key concepts**: A running glossary of important terms
 - **Resources**: Required readings, useful links
@@ -132,9 +132,9 @@ For active study sessions:
 
 ## Notion vs. Other Student Tools
 
-**Notion vs. Obsidian**: Obsidian is better for deep note-linking and works offline. Notion wins for the database/task integration and collaboration.
+**Notion vs. [Obsidian](/tools/obsidian/)**: Obsidian is better for deep note-linking and works offline. Notion wins for the database/task integration and collaboration.
 
-**Notion vs. Evernote**: Notion's databases and free plan are significantly better for students in 2026. Evernote's free plan is very limited (50 notes).
+**Notion vs. [Evernote](/tools/evernote/)**: Notion's databases and free plan are significantly better for students in 2026. Evernote's free plan is very limited (50 notes).
 
 **Notion vs. Google Docs**: Google Docs is better for collaborative writing (real-time co-editing). Notion is better for organization. Most students use both: Google Docs for writing assignments that need peer review, Notion for everything else.
 

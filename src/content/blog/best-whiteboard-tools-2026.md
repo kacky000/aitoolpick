@@ -16,12 +16,12 @@ Here are the best whiteboard tools for teams in 2026, ranked by features, pricin
 
 | Tool | Best For | Free Plan | Paid From | Rating |
 |------|---------|-----------|-----------|--------|
-| Miro | Workshops & facilitation | 3 boards | $8/user/mo | 4.5/5 |
-| FigJam | Design teams | 3 files | Free w/Figma | 4.4/5 |
+| [Miro](/tools/miro/) | Workshops & facilitation | 3 boards | $8/user/mo | 4.5/5 |
+| [FigJam](/tools/figjam/) | Design teams | 3 files | Free w/Figma | 4.4/5 |
 | Lucidspark | Visual brainstorming | 3 boards | $7.95/user/mo | 4.3/5 |
 | Microsoft Whiteboard | Microsoft 365 users | Unlimited | Free w/M365 | 4.0/5 |
-| Whimsical | Wireframes + docs | Limited | $10/user/mo | 4.3/5 |
-| Canva Whiteboard | Non-designers | Unlimited | Free | 4.2/5 |
+| [Whimsical](/tools/whimsical/) | Wireframes + docs | Limited | $10/user/mo | 4.3/5 |
+| Canva Whiteboard | Non-[designers](/best-for/designers/) | Unlimited | Free | 4.2/5 |
 
 ## 1. Miro — Best Overall Whiteboard
 
@@ -32,7 +32,7 @@ Miro is the industry standard for online whiteboarding. With 2,500+ templates, f
 **Why it's #1:**
 - Most extensive template library (2,500+)
 - Best facilitation tools for running workshops
-- Strong integrations with Jira, Asana, Slack
+- Strong integrations with Jira, [Asana](/tools/asana/), Slack
 - AI-powered clustering and summarization
 - Excellent for large, distributed teams
 
@@ -42,12 +42,12 @@ Miro is the industry standard for online whiteboarding. With 2,500+ templates, f
 
 ## 2. FigJam — Best for Design Teams
 
-**Price:** Free with Figma | Included in Figma Professional ($15/editor/mo)
+**Price:** Free with [Figma](/tools/figma/) | Included in Figma Professional ($15/editor/mo)
 
-FigJam is Figma's collaborative whiteboard tool. If your team already uses Figma for design, FigJam is a no-brainer — it's included in your subscription and lives right alongside your design files.
+FigJam is [Figma](/tools/figma/)'s collaborative whiteboard tool. If your team already uses Figma for design, FigJam is a no-brainer — it's included in your subscription and lives right alongside your design files.
 
 **Strengths:**
-- Seamless Figma integration
+- Seamless [Figma](/tools/figma/) integration
 - Clean, fun interface with stamps and stickers
 - Great for design critiques and brainstorming
 - No additional cost for Figma users
@@ -61,11 +61,11 @@ FigJam is Figma's collaborative whiteboard tool. If your team already uses Figma
 
 **Price:** Free (3 boards) | $7.95/user/mo (Individual) | $9/user/mo (Team)
 
-Lucidspark is the whiteboard component of the Lucid suite (alongside Lucidchart for diagramming). It excels at structured brainstorming with features like idea voting, breakout boards, and automatic grouping.
+Lucidspark is the whiteboard component of the Lucid suite (alongside [Lucidchart](/tools/lucidchart/) for diagramming). It excels at structured brainstorming with features like idea voting, breakout boards, and automatic grouping.
 
 **Strengths:**
 - Excellent brainstorming features
-- Pairs perfectly with Lucidchart
+- Pairs perfectly with [Lucidchart](/tools/lucidchart/)
 - Collaborative sorting and voting
 - Breakout boards for group exercises
 - Good integration ecosystem
@@ -104,13 +104,13 @@ Whimsical combines whiteboards with wireframing, flowcharts, mind maps, and docs
 
 ## 6. Canva Whiteboard — Best for Non-Designers
 
-**Price:** Free (with Canva) | $15/user/mo (Canva Pro)
+**Price:** Free (with [Canva](/tools/canva/)) | $15/user/mo (Canva Pro)
 
 [Canva's](/tools/canva) whiteboard feature brings its drag-and-drop simplicity to visual collaboration. It's especially good for teams that already use Canva for marketing materials.
 
 **Strengths:**
-- Familiar Canva interface
-- Access to Canva's massive asset library
+- Familiar [Canva](/tools/canva/) interface
+- Access to [Canva](/tools/canva/)'s massive asset library
 - Easy to create polished presentations from boards
 - Free plan is generous
 - Great for marketing and content teams
@@ -123,7 +123,7 @@ Whimsical combines whiteboards with wireframing, flowcharts, mind maps, and docs
 
 **Choose FigJam if:** Your team uses Figma and you want a whiteboard that lives alongside your design files.
 
-**Choose Lucidspark if:** You already use Lucidchart and want brainstorming tools that integrate with your diagramming workflow.
+**Choose Lucidspark if:** You already use [Lucidchart](/tools/lucidchart/) and want brainstorming tools that integrate with your diagramming workflow.
 
 **Choose Microsoft Whiteboard if:** You use Microsoft 365 and want a free, no-friction whiteboard in Teams.
 
@@ -133,7 +133,7 @@ Whimsical combines whiteboards with wireframing, flowcharts, mind maps, and docs
 
 ## Final Recommendation
 
-For most teams, **Miro** remains the best all-around choice in 2026. Its depth of features, template library, and facilitation tools justify the per-user cost — especially if you run regular collaborative sessions.
+For most teams, **Miro** remains the best all-[around](/tools/around/) choice in 2026. Its depth of features, template library, and facilitation tools justify the per-user cost — especially if you run regular collaborative sessions.
 
 If budget is a concern, **FigJam** (for Figma users) or **Microsoft Whiteboard** (for M365 users) offer excellent value at no additional cost.
 

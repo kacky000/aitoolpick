@@ -25,7 +25,7 @@ For a detailed comparison, see our [Logseq vs Obsidian](/blog/logseq-vs-obsidian
 
 **Pricing:** Free | $10/month Plus | $20/month Business | Custom Enterprise
 
-Notion is the opposite end of the spectrum: cloud-first, team-oriented, and built around databases rather than outliners. It offers shared workspaces, real-time co-editing, relational databases, Kanban boards, and a polished UI with almost no learning curve.
+Notion is the opposite end of the spectrum: cloud-first, team-oriented, and built [around](/tools/around/) databases rather than outliners. It offers shared workspaces, real-time co-editing, relational databases, Kanban boards, and a polished UI with almost no learning curve.
 
 **Why choose it:** Real-time collaboration, powerful relational databases, built-in project management, and an extensive template gallery. Ideal if you need a single platform for docs, projects, and knowledge bases.
 
@@ -67,7 +67,7 @@ Tana combines the outliner model with structured data through its "supertag" sys
 
 **Pricing:** Free | $9.99/month Pro
 
-Capacities organizes knowledge around objects (a person, a book, a meeting, a project) rather than pages or outlines. Objects have properties and relations that create a structured knowledge graph without manual linking. The interface is clean and visual, with daily notes, tags, and a graph view included.
+Capacities organizes knowledge [around](/tools/around/) objects (a person, a book, a meeting, a project) rather than pages or outlines. Objects have properties and relations that create a structured knowledge graph without manual linking. The interface is clean and visual, with daily notes, tags, and a graph view included.
 
 **Why choose it:** Object-based model for organizing diverse information, beautiful minimal UI, built-in daily notes and reflection prompts, media-rich notes, and good mobile experience.
 
@@ -77,7 +77,7 @@ Capacities organizes knowledge around objects (a person, a book, a meeting, a pr
 
 **Pricing:** Free (self-sync) | $3.49/month Joplin Cloud (1 GB) | $5.99/month (10 GB)
 
-Joplin is an open-source note-taking app focused on simplicity and privacy. It supports Markdown, end-to-end encryption, and sync through Joplin Cloud, Dropbox, OneDrive, or your own WebDAV server. Unlike Logseq's outliner model, Joplin uses a traditional notebook-and-note structure closer to Evernote.
+Joplin is an open-source note-taking app focused on simplicity and privacy. It supports Markdown, end-to-end encryption, and sync through Joplin Cloud, Dropbox, OneDrive, or your own WebDAV server. Unlike Logseq's outliner model, Joplin uses a traditional notebook-and-note structure closer to [Evernote](/tools/evernote/).
 
 **Why choose it:** Simpler mental model for traditional note-taking, a web clipper for saving web pages, encrypted sync at a lower price ($3.49/month), lighter resource usage, and faster startup.
 

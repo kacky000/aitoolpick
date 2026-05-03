@@ -1,0 +1,232 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+export function getStaticPaths() {
+  // Only generate for tools that have enough related tools
+  return tools
+    .filter((tool) => {
+      const related = tools.filter(
+        (t) => t.id !== tool.id && t.category.some((c: string) => tool.category.includes(c))
+      );
+      return related.length >= 3;
+    })
+    .map((tool) => ({
+      params: { slug: tool.slug },
+      props: { tool },
+    }));
+}
+
+const { tool } = Astro.props;
+
+// Find tools that "integrate" (share categories or bestFor audiences)
+const sameCategory = tools
+  .filter((t) => t.id !== tool.id && t.category.some((c: string) => tool.category.includes(c)))
+  .sort((a, b) => b.rating - a.rating)
+  .slice(0, 10);
+
+// Group by integration type
+const complementary = tools
+  .filter((t) => t.id !== tool.id && !t.category.some((c: string) => tool.category.includes(c)))
+  .filter((t) => t.bestFor.some((b: string) => tool.bestFor.includes(b)))
+  .sort((a, b) => b.rating - a.rating)
+  .slice(0, 8);
+
+import categories from '../../data/categories.json';
+
+function getCategoryName(catId: string): string {
+  const cat = categories.find((c) => c.id === catId);
+  return cat ? cat.name : catId.replace(/-/g, ' ');
+}
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+const pageTitle = `${tool.name} Integrations — Best Tools That Work With ${tool.name}`;
+const pageDescription = `Discover ${sameCategory.length + complementary.length} tools that integrate and work well with ${tool.name}. Build your perfect workflow stack.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container" style="max-width: 900px;">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Tools', href: '/tools/' },
+        { label: tool.name, href: `/tools/${tool.slug}/` },
+        { label: 'Integrations' },
+      ]} />
+
+      <div class="int-header">
+        <div class="int-header-top">
+          {tool.icon && <img src={tool.icon} alt={tool.name} width="48" height="48" style="border-radius: 12px;" />}
+          <div>
+            <h1>{tool.name} Integrations</h1>
+            <p>Tools that complement and work alongside {tool.name} in your workflow.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Same Category Tools -->
+      <div class="int-section">
+        <h2>Similar Tools (Same Category)</h2>
+        <p class="int-section-desc">These tools operate in the same space as {tool.name} and can be used alongside or as alternatives.</p>
+        <div class="int-grid">
+          {sameCategory.map((t) => (
+            <a href={`/tools/${t.slug}/`} class="int-card">
+              <div class="int-card-top">
+                {t.icon && <img src={t.icon} alt={t.name} width="28" height="28" style="border-radius: 6px;" loading="lazy" />}
+                <h3>{t.name}</h3>
+                <span class="int-rating">★ {t.rating}</span>
+              </div>
+              <span class="int-cat">{getCategoryName(t.category[0])}</span>
+              <span class="int-price">{formatPrice(t.pricing)}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Complementary Tools -->
+      {complementary.length > 0 && (
+        <div class="int-section">
+          <h2>Complementary Tools</h2>
+          <p class="int-section-desc">Different category tools often used by the same audience as {tool.name}.</p>
+          <div class="int-grid">
+            {complementary.map((t) => (
+              <a href={`/tools/${t.slug}/`} class="int-card">
+                <div class="int-card-top">
+                  {t.icon && <img src={t.icon} alt={t.name} width="28" height="28" style="border-radius: 6px;" loading="lazy" />}
+                  <h3>{t.name}</h3>
+                  <span class="int-rating">★ {t.rating}</span>
+                </div>
+                <span class="int-cat">{getCategoryName(t.category[0])}</span>
+                <span class="int-price">{formatPrice(t.pricing)}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Quick Links -->
+      <div class="int-links">
+        <a href={`/tools/${tool.slug}/`} class="btn-secondary">Full {tool.name} Review</a>
+        <a href={`/alternatives/${tool.slug}/`} class="btn-secondary">{tool.name} Alternatives</a>
+        <a href={`/pricing/${tool.slug}/`} class="btn-secondary">{tool.name} Pricing</a>
+        <a href={`/stacks/`} class="btn-secondary">Tool Stacks</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .int-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .int-header-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .int-header h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+  }
+
+  .int-header p {
+    color: var(--gray-600);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .int-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .int-section h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+
+  .int-section-desc {
+    font-size: 0.88rem;
+    color: var(--gray-500);
+    margin-bottom: 1rem;
+  }
+
+  .int-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .int-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.2s;
+  }
+
+  .int-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+  }
+
+  .int-card-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .int-card-top h3 {
+    font-size: 0.88rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .int-rating {
+    margin-left: auto;
+    font-size: 0.72rem;
+    color: var(--warning);
+    font-weight: 600;
+  }
+
+  .int-cat {
+    font-size: 0.7rem;
+    color: var(--gray-500);
+  }
+
+  .int-price {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+  }
+
+  .int-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--gray-200);
+  }
+
+  @media (max-width: 600px) {
+    .int-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -12,16 +12,16 @@ Grammarly is used by millions of students worldwide, but most of them are on the
 
 Yes — with caveats.
 
-Grammarly is genuinely useful for catching errors you would otherwise miss after hours of staring at a paper. It catches:
+Grammarly is genuinely useful for catching errors you would otherwise miss after [hours](/tools/hours-tracker/) of staring at a paper. It catches:
 
 - Grammar and punctuation mistakes that spell-check misses
 - Awkward phrasing and wordy sentences
 - Inconsistent tone and passive voice overuse
-- Basic clarity issues that make your writing harder to follow
+- Basic clarity issues that [make](/tools/make/) your writing harder to follow
 
-What Grammarly does **not** do: make your arguments better. It cannot tell you whether your thesis is strong, whether your evidence is convincing, or whether your structure makes sense. It polishes surface-level writing.
+What Grammarly does **not** do: [make](/tools/make/) your arguments better. It cannot tell you whether your thesis is strong, whether your evidence is convincing, or whether your structure makes sense. It polishes surface-level writing.
 
-If your paper has fundamental argument or structure problems, Grammarly's suggestions will not save you. But if your ideas are solid and your writing is rough around the edges, it can meaningfully improve the final product.
+If your paper has fundamental argument or structure problems, Grammarly's suggestions will not save you. But if your ideas are solid and your writing is rough [around](/tools/around/) the edges, it can meaningfully improve the final product.
 
 ## Free vs Premium: What You Actually Get
 
@@ -45,8 +45,8 @@ The free plan is genuinely useful for grammar and spelling. Premium adds the hig
 Grammarly offers a student pricing discount, but it is not automatically applied. Here is how to get it:
 
 1. **Grammarly Student Plan**: Available through many universities that partner with Grammarly. Check if your school provides access through your student email.
-2. **Annual billing**: Premium costs around $12/month when billed monthly, but drops to approximately $6-7/month on an annual plan.
-3. **Free trials**: Grammarly occasionally offers free Premium trials — typically around back-to-school periods (August-September) and exam seasons.
+2. **Annual billing**: Premium costs [around](/tools/around/) $12/month when billed monthly, but drops to approximately $6-7/month on an annual plan.
+3. **Free trials**: Grammarly occasionally offers free Premium trials — typically [around](/tools/around/) back-to-school periods (August-September) and exam seasons.
 4. **Check your university**: Many US universities provide Grammarly Premium for free to enrolled students through institutional licenses. Ask your writing center or IT helpdesk.
 
 ## Is the Plagiarism Checker Reliable?
@@ -54,7 +54,7 @@ Grammarly offers a student pricing discount, but it is not automatically applied
 Grammarly Premium includes a plagiarism checker that compares your work against a database of billions of web pages and academic papers. It is useful for:
 
 - Checking if you forgot to cite a source
-- Catching paraphrases that are too close to the original
+- Catching paraphrases that are too [close](/tools/close/) to the original
 - Reviewing your paper before submission
 
 **Important limitation**: Grammarly's plagiarism checker is not the same tool your professor uses. Most universities use Turnitin, iThenticate, or Unicheck. These tools have access to institutional databases (other students' submitted papers, licensed journal articles) that Grammarly cannot see. A 0% similarity score in Grammarly does not guarantee 0% in Turnitin.
@@ -66,17 +66,17 @@ Use Grammarly's plagiarism checker as a self-check, not as a guarantee.
 | Tool | Best For | Price |
 |------|----------|-------|
 | **Grammarly** | Grammar, style, plagiarism | Free / ~$12/mo |
-| **ProWritingAid** | Deep style analysis, fiction | ~$10/mo |
-| **Hemingway Editor** | Readability, sentence length | Free web / $19.99 desktop |
-| **Claude / ChatGPT** | Rewriting, feedback, ideas | Free / $20/mo |
+| **[ProWritingAid](/tools/prowritingaid/)** | Deep style analysis, fiction | ~$10/mo |
+| **[Hemingway Editor](/tools/hemingway-editor/)** | Readability, sentence length | Free web / $19.99 desktop |
+| **Claude / [ChatGPT](/tools/chatgpt/)** | Rewriting, feedback, ideas | Free / $20/mo |
 
-**Grammarly vs Claude/ChatGPT**: This is the more interesting 2026 comparison. AI chatbots can now give feedback that goes deeper than Grammarly — explaining *why* a paragraph is unclear, suggesting structural changes, and even rewriting sections. However, many universities now have AI use policies that prohibit or restrict using ChatGPT to rewrite academic work.
+**Grammarly vs Claude/ChatGPT**: This is the more interesting 2026 comparison. [AI chatbots](/category/ai-chatbot/) can now give feedback that goes deeper than Grammarly — explaining *why* a paragraph is unclear, suggesting structural changes, and even rewriting sections. However, many universities now have AI use policies that prohibit or restrict using ChatGPT to rewrite academic work.
 
 Grammarly has been careful to position itself as a grammar tool (not an AI content generator), which puts it in a grayer zone at most institutions. Always check your university's academic integrity policy before using any AI tool on graded work.
 
 ## The Honest Verdict for Students
 
-**Use Grammarly free** if you want a basic proofreader on top of your browser or Google Docs. It will catch real mistakes and it is genuinely better than relying on built-in spell check.
+**Use Grammarly free** if you want a basic proofreader on top of your browser or [Google Docs](/tools/google-docs/). It will catch real mistakes and it is genuinely better than relying on built-in spell check.
 
 **Upgrade to Premium** if:
 - You write a lot of papers (10+ per semester)

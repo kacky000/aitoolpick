@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Chatgpt** and **Claude** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-ChatGPT and Claude are the two leading AI assistants in 2026. Both are incredibly capable, but they have distinct strengths that make each better suited for different use cases. Here's our honest comparison.
+ChatGPT and Claude are the two leading AI assistants in 2026. Both are incredibly capable, but they have distinct strengths that [make](/tools/make/) each better suited for different use cases. Here's our honest comparison.
 
 ## Quick Verdict
 

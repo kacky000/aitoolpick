@@ -11,7 +11,7 @@ This guide walks you through the full migration process, from auditing your exis
 
 ## Why Switch from Zapier to n8n?
 
-There are four main reasons teams make the move:
+There are four main reasons teams [make](/tools/make/) the move:
 
 - **Cost savings** — Zapier's per-task pricing adds up quickly. A workflow that runs 1,000 times a month costs real money on Zapier but is essentially free on n8n self-hosted.
 - **Self-hosting option** — Run n8n on your own server and keep all data in-house. No third-party processing, no vendor lock-in.
@@ -35,7 +35,7 @@ Before you touch n8n, get a complete picture of your current Zapier setup.
 
 - **Simple** (2-3 steps, no filters): Migrate first. These take 10-15 minutes each in n8n.
 - **Medium** (4-7 steps, with filters or formatters): Budget 30-60 minutes per workflow.
-- **Complex** (8+ steps, Paths, webhooks, code steps): These need careful planning. Budget 1-2 hours each.
+- **Complex** (8+ steps, Paths, webhooks, code steps): These need careful planning. Budget 1-2 [hours](/tools/hours-tracker/) each.
 
 ### Identify Integration Gaps
 
@@ -50,14 +50,14 @@ Understanding the terminology difference makes the transition much smoother:
 | Zap | Workflow | The entire automation |
 | Trigger | Trigger Node | The event that starts the workflow |
 | Action | Action Node | Each step that does something |
-| Filter | IF Node | Conditional logic to stop or continue |
+| Filter | IF Node | Conditional logic to stop or [continue](/tools/continue/) |
 | Paths | IF / Switch Node | Branching logic for multiple outcomes |
 | Formatter | Function / Code Node | Data transformation (n8n uses real code) |
 | Multi-Step Zap | Multi-node Workflow | Sequential or parallel execution |
 | Task | Execution | One complete workflow run |
 | Zapier Tables | n8n's internal data (or external DB) | Zapier Tables has no direct equivalent |
 
-The biggest mental shift: in Zapier, everything is linear. In n8n, workflows are visual graphs — nodes can branch, merge, and loop. This is more powerful but takes getting used to.
+The biggest mental shift: in Zapier, everything is [linear](/tools/linear/). In n8n, workflows are visual graphs — nodes can branch, merge, and loop. This is more powerful but takes getting used to.
 
 ## Step-by-Step Migration Process
 
@@ -66,7 +66,7 @@ The biggest mental shift: in Zapier, everything is linear. In n8n, workflows are
 Choose your deployment:
 
 - **n8n Cloud** — Fastest start. Sign up at n8n.io, and you're running in minutes. Starts at EUR 24/month.
-- **Self-hosted (Docker)** — Run `docker run -it --rm -p 5678:5678 n8nio/n8n` to test locally. For production, use Docker Compose with a PostgreSQL database.
+- **Self-hosted (Docker)** — Run `docker run -it --rm -p 5678:5678 n8nio/n8n` to test locally. For production, use Docker Compose with a [PostgreSQL](/tools/postgresql/) database.
 - **Self-hosted (npm)** — `npm install n8n -g && n8n start` for a quick local instance.
 
 For most migrations, start with n8n Cloud so you can focus on rebuilding workflows without worrying about infrastructure.
@@ -76,7 +76,7 @@ For most migrations, start with n8n Cloud so you can focus on rebuilding workflo
 Pick your simplest, least critical Zap and rebuild it in n8n:
 
 1. Open the n8n editor and create a new workflow
-2. Add the **Trigger node** that matches your Zap's trigger (e.g., "Google Sheets — Row Added")
+2. Add the **Trigger node** that matches your Zap's trigger (e.g., "[Google Sheets](/tools/google-sheets/) — Row Added")
 3. Add **Action nodes** for each subsequent step
 4. Use the **test** button on each node to verify data flows correctly
 5. Activate the workflow
@@ -123,7 +123,7 @@ Zapier retries failed steps automatically. In n8n, you have more control:
 - **Retry on Fail** — configure per-node retry behavior in node settings
 - **Error Workflow** — designate a separate workflow to handle failures globally
 
-Set up an error notification workflow early. Route errors to Slack or email so nothing fails silently.
+Set up an error notification workflow early. Route errors to [Slack](/tools/slack/) or email so nothing fails silently.
 
 ### Step 7: Run Both Systems in Parallel
 
@@ -131,7 +131,7 @@ Don't flip the switch all at once:
 
 1. Activate the n8n workflow alongside the existing Zap
 2. Run both for 3-7 days and compare outputs
-3. Check for data discrepancies, timing issues, or missed executions
+3. Check for data discrepancies, [timing](/tools/timing/) issues, or missed executions
 4. Once confident, deactivate the Zap in Zapier
 5. Move on to the next workflow
 
@@ -139,7 +139,7 @@ Don't flip the switch all at once:
 
 - **Webhook URLs change** — If your Zap uses a Zapier webhook trigger, every service sending data to that URL needs to be updated to the new n8n webhook URL.
 - **App behavior differences** — The same integration can work slightly differently. Google Sheets in Zapier might return data as strings, while n8n returns typed values.
-- **Polling vs. webhooks** — Zapier polls some apps every 1-15 minutes. n8n nodes may use webhooks for instant triggers. This is usually better, but test the timing.
+- **Polling vs. webhooks** — Zapier polls some apps every 1-15 minutes. n8n nodes may use webhooks for instant triggers. This is usually better, but test the [timing](/tools/timing/).
 - **Date/time formats** — Zapier's Formatter handles timezone conversion automatically. In n8n, use Luxon (built-in) or a Code node for timezone-aware date handling.
 - **OAuth tokens** — You'll need to re-authenticate every connected app in n8n. Credentials don't transfer.
 - **Rate limits** — n8n workflows can execute faster than Zapier Zaps. If an API has rate limits, add Wait nodes or configure batch sizes.
@@ -148,11 +148,11 @@ Don't flip the switch all at once:
 
 - **JavaScript and Python code nodes** — Write real logic, not string-based formatters
 - **Self-hosting** — Full data sovereignty with zero per-execution costs
-- **AI agent workflows** — n8n's AI nodes (LangChain integration) make it the better platform for building AI-powered automations
+- **AI agent workflows** — n8n's AI nodes (LangChain integration) [make](/tools/make/) it the better platform for building AI-powered automations
 - **Visual debugging** — See data at every node in real time during test runs
 - **Sub-workflows** — Call one workflow from another, enabling modular automation design
 - **Community nodes** — Install custom integrations built by the community
-- **No task counting** — A 20-step workflow is one execution, not twenty tasks
+- **No task counting** — A 20-step workflow is one execution, not [twenty](/tools/twenty/) tasks
 
 For teams building AI automations, see our [Make vs n8n](/blog/make-vs-n8n-2026) comparison to understand how n8n stacks up in that space.
 
@@ -161,9 +161,9 @@ For teams building AI automations, see our [Make vs n8n](/blog/make-vs-n8n-2026)
 Be honest about the trade-offs:
 
 - **Larger app library** — Zapier supports 7,000+ apps vs. n8n's 400+. Niche SaaS tools may not have native n8n nodes.
-- **Simpler interface** — Zapier's linear step-by-step builder is easier for non-technical users. n8n's canvas can overwhelm beginners.
+- **Simpler interface** — Zapier's [linear](/tools/linear/) step-by-step builder is easier for non-technical users. n8n's canvas can overwhelm beginners.
 - **Better support for non-technical teams** — Zapier's guided setup and templates require less technical knowledge.
-- **Zapier Tables** — Built-in lightweight database. n8n doesn't have an equivalent; you'll need an external database or Airtable.
+- **Zapier Tables** — Built-in lightweight database. n8n doesn't have an equivalent; you'll need an external database or [Airtable](/tools/airtable/).
 - **AI-powered Zap builder** — Zapier's natural language workflow builder is ahead of n8n's current AI features.
 - **Mature error recovery** — Zapier's automatic retry and replay system requires less configuration than n8n's.
 
@@ -194,7 +194,7 @@ Don't rush it. A botched migration costs more than an extra month of Zapier bill
 
 ## Final Recommendations
 
-- Start with n8n Cloud even if you plan to self-host later — learn the platform first
+- Start with n8n Cloud even if you plan to self-host [later](/tools/later/) — learn the platform first
 - Migrate simple workflows first to build confidence
 - Set up error handling before migrating critical workflows
 - Run both platforms in parallel during transition

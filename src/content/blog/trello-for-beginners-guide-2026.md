@@ -12,7 +12,7 @@ Here's what beginners need to know.
 
 ## Trello's Core Concept: Boards, Lists, and Cards
 
-Everything in Trello revolves around three building blocks:
+Everything in Trello revolves [around](/tools/around/) three building blocks:
 
 **Boards** are workspaces for a project or area of work. Think of a board as a physical corkboard — it contains everything related to one topic.
 
@@ -106,8 +106,8 @@ Trello's "Power-Ups" are integrations and feature extensions. The free plan allo
 **Useful Power-Ups for beginners:**
 - **Calendar**: View all cards with due dates in a monthly calendar view
 - **Card Aging**: Cards that haven't been touched fade visually — useful for spotting stale tasks
-- **Google Drive**: Attach Google Docs, Sheets, and Slides directly to cards
-- **Slack**: Get Trello notifications in Slack channels
+- **[Google Drive](/tools/google-drive/)**: Attach Google Docs, Sheets, and Slides directly to cards
+- **[Slack](/tools/slack/)**: Get Trello notifications in Slack channels
 
 To add a Power-Up: Open your board → Click "Power-Ups" in the right panel → Browse and enable.
 
@@ -137,9 +137,9 @@ The Standard plan ($5/user/month) adds unlimited boards, unlimited Power-Ups, an
 ## Trello vs. Other Tools
 
 Trello is best for visual, Kanban-style task management. It's not great for:
-- **Gantt charts and timelines**: Use Asana or Monday.com for deadline-heavy projects
-- **Document management**: Use Notion for notes and wikis alongside tasks
-- **Complex reporting**: Use ClickUp for dashboards and reporting
+- **Gantt charts and timelines**: Use Asana or [Monday.com](/tools/monday/) for deadline-heavy projects
+- **Document management**: Use [Notion](/tools/notion/) for notes and wikis alongside tasks
+- **Complex reporting**: Use [ClickUp](/tools/clickup/) for dashboards and reporting
 
 → [Best Trello alternatives 2026](/blog/best-trello-alternatives-2026/) | [Trello vs Asana 2026](/blog/asana-vs-trello-2026/)
 

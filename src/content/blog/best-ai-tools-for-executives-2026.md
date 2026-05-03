@@ -33,12 +33,12 @@ High-value executive use cases:
 
 **Price**: Free / $20/month (Plus)
 
-ChatGPT is faster and more iterative than Claude for back-and-forth strategic discussions. When you want to think through a decision by talking it out with an AI, ChatGPT's conversational style and broad knowledge work well.
+[ChatGPT](/tools/chatgpt/) is faster and more iterative than Claude for back-and-forth strategic discussions. When you want to think through a decision by talking it out with an AI, ChatGPT's conversational style and broad knowledge work well.
 
 Where executives get the most value:
 - **Competitive landscape summaries**: "Summarize how companies in enterprise SaaS typically respond when a hyperscaler enters their market. What strategies tend to work, and what fails?"
 - **Scenario planning**: "Here's our current business model. Walk me through three scenarios for how the next 18 months might unfold if inflation stays elevated, and what we should prepare for in each."
-- **First-draft communications**: Quick drafts of investor emails, press releases, internal memos. Still needs your voice and judgment, but faster to refine than to start from scratch.
+- **First-draft communications**: Quick drafts of investor emails, press releases, internal [memos](/tools/memos/). Still needs your voice and judgment, but faster to refine than to start from scratch.
 - **Executive briefings**: "Explain [complex regulatory change] in plain language and tell me what the material implications are for a $200M professional services firm."
 
 The key for executives: treat AI like a smart, well-read analyst who needs direction but can quickly synthesize large amounts of information.
@@ -80,7 +80,7 @@ Notion works well as a personal knowledge system for executives:
 
 **Price**: $15/user/month (Business)
 
-Executive communication is high-stakes. An ambiguous phrase in a shareholder letter, a passive sentence in a critical memo, or an inconsistent tone in a board presentation can affect how leadership is perceived. Grammarly catches these issues before they matter.
+Executive communication is high-stakes. An ambiguous [phrase](/tools/phrase/) in a shareholder letter, a passive sentence in a critical memo, or an inconsistent tone in a board presentation can affect how leadership is perceived. Grammarly catches these issues before they matter.
 
 For executives specifically:
 - **Tone calibration**: Ensures communications land as confident and direct, not hedged or defensive.
@@ -101,7 +101,7 @@ For executives specifically:
 
 Most executives who use AI productively started with one use case: typically either document analysis (Claude) or fast research (Perplexity). Build the habit in one specific context before expanding.
 
-The second use case that sticks is usually communication drafting — not for routine emails, but for the important, difficult communications where spending 20 minutes iterating with AI produces a significantly better first draft than starting from scratch.
+The second use case that sticks is usually communication drafting — not for [routine](/tools/routine/) emails, but for the important, difficult communications where spending 20 minutes iterating with AI produces a significantly better first draft than starting from scratch.
 
 *Compare AI tools side by side → [AI Tools Comparison](/compare/)*
 

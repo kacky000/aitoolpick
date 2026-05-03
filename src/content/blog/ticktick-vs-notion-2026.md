@@ -18,7 +18,7 @@ Here's when each wins.
 
 | | TickTick | Notion |
 |--|---------|--------|
-| **Best for** | Daily task management | Team wikis, notes, projects |
+| **Best for** | Daily [task management](/category/task-management/) | Team wikis, notes, projects |
 | **Learning curve** | Low | Medium-High |
 | **Mobile experience** | Excellent | Good |
 | **Free plan** | Generous | Generous |
@@ -31,7 +31,7 @@ Here's when each wins.
 ## Where TickTick Wins
 
 ### Speed of Capture
-TickTick is built for the "capture it now, organize later" workflow. You can add a task in 2 seconds from any screen — widget, Siri shortcut, or quick-add popup. Notion requires opening the app, navigating to the right database, and creating a new entry. That friction adds up.
+TickTick is built for the "capture it now, organize [later](/tools/later/)" workflow. You can add a task in 2 seconds from any screen — widget, Siri shortcut, or quick-add popup. Notion requires opening the app, navigating to the right database, and creating a new entry. That friction adds up.
 
 ### Pomodoro & Focus Tools
 TickTick has a built-in Pomodoro timer with focus statistics. If you use time-blocking or Pomodoro for deep work, TickTick integrates this natively. Notion has no time-tracking features.
@@ -40,10 +40,10 @@ TickTick has a built-in Pomodoro timer with focus statistics. If you use time-bl
 TickTick Premium's habit tracker with heatmap visualization is genuinely excellent. Notion can replicate this with a database, but it takes significant setup.
 
 ### Mobile-First Design
-TickTick's mobile apps are polished and fast. Widgets, reminders with location triggers, and smooth offline access make it a superior daily driver on your phone.
+TickTick's mobile apps are polished and fast. Widgets, reminders with location triggers, and smooth offline access [make](/tools/make/) it a superior daily driver on your phone.
 
 ### Calendar Integration
-With Premium, TickTick syncs directly with Google Calendar, showing your events and tasks in a unified view. Notion has no native calendar sync.
+With Premium, TickTick syncs directly with [Google Calendar](/tools/google-calendar/), showing your events and tasks in a unified view. Notion has no native calendar sync.
 
 ## Where Notion Wins
 
@@ -51,7 +51,7 @@ With Premium, TickTick syncs directly with Google Calendar, showing your events 
 Notion can be anything: a CRM, a wiki, a project tracker, a personal journal, a product roadmap. TickTick is only a task manager. If you need to connect your tasks to notes, documentation, and knowledge, Notion is unmatched.
 
 ### Team Collaboration
-Notion is built for teams. Real-time collaborative editing, comments, mentions, shared workspaces, and permission controls make it a natural fit for team knowledge management. TickTick's collaboration features are limited to shared task lists.
+Notion is built for teams. Real-time collaborative editing, comments, mentions, shared workspaces, and permission controls [make](/tools/make/) it a natural fit for team knowledge management. TickTick's collaboration features are limited to shared task lists.
 
 ### Long-form Note-Taking
 Writing a meeting note, project brief, or documentation in TickTick is awkward — it's not built for it. Notion's editor handles long-form content beautifully.
@@ -70,7 +70,7 @@ Notion's databases let you connect tasks to projects, clients, meeting notes, an
 **Use Notion when:**
 - You're managing a team's knowledge and projects
 - You need to link tasks to documentation, meeting notes, or databases
-- You want one tool to replace Confluence, Google Docs, and a simple PM tool
+- You want one tool to replace Confluence, [Google Docs](/tools/google-docs/), and a simple PM tool
 - You're building a complex personal knowledge management system
 
 **Use both when:**
@@ -91,7 +91,7 @@ TickTick Premium is dramatically cheaper. If you just need task management, you'
 
 **Choose TickTick** if your primary need is managing your personal tasks, daily routines, and habits efficiently. It's faster, simpler, and purpose-built for what it does.
 
-**Choose Notion** if you need an all-in-one workspace that handles documentation, collaboration, and flexible project management alongside tasks.
+**Choose Notion** if you need an all-in-one workspace that handles documentation, collaboration, and flexible [project management](/category/project-management/) alongside tasks.
 
 For more on Notion pricing, see our [Notion Pricing 2026 guide](/blog/notion-pricing-2026). For TickTick's full feature breakdown, read our [TickTick review](/blog/ticktick-review-2026).
 

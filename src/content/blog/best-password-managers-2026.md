@@ -48,7 +48,7 @@ Bitwarden is the gold standard for free password management. It's open-source (c
 
 ### 2. 1Password — Best for Families & Teams
 
-1Password is the premium choice for households and small teams. The Travel Mode feature hides sensitive vaults at border crossings — a unique feature for frequent travelers. Team vaults with granular access controls make it excellent for businesses.
+1Password is the premium choice for households and [small teams](/best-for/small-teams/). The Travel Mode feature hides sensitive vaults at border crossings — a unique feature for frequent travelers. Team vaults with granular access controls make it excellent for businesses.
 
 - **Price:** $2.99/month (Individual), $4.99/month (Families, 5 users), $7.99/user/month (Teams)
 - **Encryption:** AES-256, zero-knowledge, secret key architecture
@@ -105,7 +105,7 @@ Keeper is the enterprise-grade option with role-based access controls, complianc
 
 ### 5. NordPass — Best Budget Premium Option
 
-From the makers of NordVPN, NordPass offers solid security at competitive pricing. It uses XChaCha20 encryption (more modern than AES-256) and includes data breach scanning and a password health report.
+From the makers of [NordVPN](/tools/nordvpn/), NordPass offers solid security at competitive pricing. It uses XChaCha20 encryption (more modern than AES-256) and includes data breach scanning and a password health report.
 
 - **Price:** Free, $1.49/month (Premium), $4.99/month (Family, 6 users)
 - **Encryption:** XChaCha20, zero-knowledge

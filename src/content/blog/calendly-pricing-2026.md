@@ -31,14 +31,14 @@ Calendly's free plan gives you a working scheduling solution with these features
 - Calendly-branded booking page
 - Unlimited meeting bookings
 
-The free plan is genuinely useful for one specific use case — sharing a single booking link for one meeting type. Freelancers who need a "Book a discovery call" link and nothing else can run on free indefinitely.
+The free plan is genuinely useful for one specific use case — sharing a single booking link for one meeting type. [Freelancers](/best-for/freelancers/) who need a "Book a discovery call" link and nothing else can run on free indefinitely.
 
 What you cannot do on free:
 - Create a second event type (e.g., separate 60-minute consultation link)
 - Connect multiple calendars
 - Remove Calendly branding
 - Set up workflows or automated follow-ups
-- Collect payments via Stripe
+- Collect payments via [Stripe](/tools/stripe/)
 
 ## Standard Plan: $10/month
 
@@ -47,7 +47,7 @@ Standard unlocks most of what makes Calendly genuinely powerful:
 - **Unlimited event types** (15-min calls, 30-min demos, 60-min strategy sessions)
 - 2 calendar connections
 - **Workflows**: Automated email and SMS reminders, follow-ups, and no-show sequences
-- **Payment collection** via Stripe (charge for consultations, workshops, or coaching sessions)
+- **Payment collection** via [Stripe](/tools/stripe/) (charge for consultations, workshops, or coaching sessions)
 - Embed in your website
 - Group events (multiple people booking the same slot)
 - Remove Calendly branding
@@ -64,7 +64,7 @@ Teams adds collaborative features that sales and customer success teams need:
 - **Round-robin scheduling**: Distribute inbound meetings evenly across your team
 - **Collective scheduling**: Require multiple team members to be available for a meeting
 - Team admin controls and managed events
-- Salesforce and HubSpot CRM integration (auto-log meetings)
+- Salesforce and HubSpot [CRM](/category/crm/) integration (auto-log meetings)
 - Interchangeable links (reassign event types between team members)
 - Advanced reporting and analytics
 
@@ -107,10 +107,10 @@ Annual billing is clearly better if you plan to use Calendly long-term. The brea
 | Tool | Free Tier | Starting Price | Notable |
 |------|-----------|---------------|---------|
 | **Calendly** | 1 event type | $10/month | Most polished |
-| **Cal.com** | Unlimited (open-source) | $12/month (teams) | Self-hostable |
+| **[Cal.com](/tools/cal-com/)** | Unlimited (open-source) | $12/month (teams) | Self-hostable |
 | **TidyCal** | Limited | $29 one-time lifetime | Lifetime deal |
-| **Google Calendar** | Built-in | Free | No booking pages |
-| **Acuity Scheduling** | No free tier | $16/month | Better for services |
+| **[Google Calendar](/tools/google-calendar/)** | Built-in | Free | No booking pages |
+| **[Acuity Scheduling](/tools/acuity-scheduling/)** | No free tier | $16/month | Better for services |
 
 [See full comparison →](/blog/best-calendly-alternatives-2026)
 
@@ -118,6 +118,6 @@ Annual billing is clearly better if you plan to use Calendly long-term. The brea
 
 Calendly's Standard plan at $10/month is easy to recommend for anyone sharing scheduling links professionally. The Teams plan at $16/month has a clear ROI for sales teams through routing and round-robin alone.
 
-The main question is whether you need Calendly's ecosystem (Zoom, HubSpot, Salesforce integrations) or whether a simpler, cheaper alternative like Cal.com covers your needs.
+The main question is whether you need Calendly's ecosystem (Zoom, HubSpot, [Salesforce](/tools/salesforce/) integrations) or whether a simpler, cheaper alternative like Cal.com covers your needs.
 
 **Read more →** [Calendly Review 2026](/blog/calendly-review-2026) | [Best Calendly Alternatives](/blog/best-calendly-alternatives-2026)

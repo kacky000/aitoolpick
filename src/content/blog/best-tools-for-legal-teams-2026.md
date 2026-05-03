@@ -69,7 +69,7 @@ Legal ops teams spend significant time on repetitive workflows: contract request
 
 Common legal automations with Zapier:
 - **Contract request intake**: When a business unit submits a contract request via a form, automatically create a matter in your tracking system, notify the relevant attorney, and set a due date.
-- **Signature completion triggers**: When a contract is executed in DocuSign, automatically file the signed copy in the right folder, update the contract tracker, and notify legal ops.
+- **Signature completion triggers**: When a contract is executed in [DocuSign](/tools/docusign/), automatically file the signed copy in the right folder, update the contract tracker, and notify legal ops.
 - **Renewal reminders**: Pull contract expiration dates and trigger reminders 90, 60, and 30 days in advance.
 - **New matter onboarding**: When a matter is created, automatically generate the folder structure, create the initial task list, and assign based on matter type.
 
@@ -105,9 +105,9 @@ For legal teams specifically:
 
 ## What Legal-Specific Software Gets Wrong
 
-Dedicated legal practice management platforms (Clio, MyCase, etc.) are better for law firms billing by the hour. For in-house legal teams, they're often overkill — you pay for matter billing and client portal features you don't need.
+Dedicated legal practice management platforms ([Clio](/tools/clio/), MyCase, etc.) are better for law firms billing by the hour. For in-house legal teams, they're often overkill — you pay for matter billing and client portal features you don't need.
 
-The more practical approach for in-house teams: use general-purpose tools for communication, project tracking, and knowledge management, and add AI (Claude, ChatGPT) for document work. The total cost is lower and the tools integrate better with the rest of the business.
+The more practical approach for in-house teams: use general-purpose tools for communication, project tracking, and knowledge management, and add AI (Claude, [ChatGPT](/tools/chatgpt/)) for document work. The total cost is lower and the tools integrate better with the rest of the business.
 
 ## The Stack That Works
 

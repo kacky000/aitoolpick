@@ -11,7 +11,7 @@ ClickUp is packed with features — sometimes too many. Teams that find themselv
 ## Why Teams Switch from ClickUp to Notion
 
 - **Simplicity**: ClickUp's feature density can feel overwhelming. Notion lets you build exactly what you need, nothing more.
-- **Documentation**: Notion's docs and wikis are best-in-class. ClickUp Docs exist but feel secondary to task management.
+- **Documentation**: Notion's docs and wikis are best-in-class. ClickUp Docs exist but feel secondary to [task management](/category/task-management/).
 - **Knowledge management**: Notion excels as a company wiki and knowledge base.
 - **Aesthetics**: Notion's clean, minimal design appeals to teams that value a polished workspace.
 - **Cost alignment**: If you're paying for ClickUp features you don't use, Notion's simpler pricing may fit better.
@@ -20,7 +20,7 @@ ClickUp is packed with features — sometimes too many. Teams that find themselv
 
 Be aware of features Notion can't fully replace:
 
-- **Time tracking**: ClickUp has built-in time tracking. Notion doesn't.
+- **[Time tracking](/category/time-tracking/)**: ClickUp has built-in time tracking. Notion doesn't.
 - **Goals/OKRs**: ClickUp's Goals feature is more structured than anything Notion offers natively.
 - **Sprint management**: ClickUp's Sprints are purpose-built. Notion requires manual setup.
 - **Automations**: ClickUp's automation engine is significantly more powerful.
@@ -122,7 +122,7 @@ Replace ClickUp automations with:
 - **Zapier or Make**: For complex workflows. See our [Zapier vs Make comparison](/blog/zapier-vs-make-automation-comparison) to choose.
 
 Common automations to recreate:
-- New task created → Slack notification
+- New task created → [Slack](/tools/slack/) notification
 - Status changed to "Done" → Update related project progress
 - Due date approaching → Email reminder
 
@@ -151,7 +151,7 @@ Common automations to recreate:
 - **Don't over-engineer**: Start simple. Add complexity only when the team requests it.
 - **Use Notion templates**: Create templates for recurring items (project briefs, meeting notes, bug reports).
 - **Embrace the wiki**: Build the documentation hub you always wished ClickUp had.
-- **Set up a feedback channel**: Let the team report friction points in a shared Notion page or Slack channel.
+- **Set up a feedback channel**: Let the team report friction points in a shared Notion page or [Slack](/tools/slack/) channel.
 
 ## Next Steps
 

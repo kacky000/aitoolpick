@@ -14,13 +14,13 @@ AI has turned data analysis from a specialist skill into something anyone with a
 
 | Tool | Best For | Pricing | Key Strength |
 |------|----------|---------|-------------|
-| **ChatGPT** | General-purpose analysis | Free / $20/mo | Run Python on uploaded files |
-| **Claude** | Document + data analysis | Free / $20/mo | 200K context, excellent reasoning |
+| **[ChatGPT](/tools/chatgpt/)** | General-purpose analysis | Free / $20/mo | Run Python on uploaded files |
+| **[Claude](/tools/claude/)** | Document + data analysis | Free / $20/mo | 200K context, excellent reasoning |
 | **Julius AI** | No-code data analysis | Free / $20/mo | Purpose-built for data workflows |
-| **Google Sheets AI** | Spreadsheet users | Free with Workspace | Native Sheets integration |
+| **[Google Sheets](/tools/google-sheets/) AI** | Spreadsheet users | Free with Workspace | Native Sheets integration |
 | **Perplexity** | Research + data context | Free / $20/mo | Real-time data sourcing |
-| **Rows** | Spreadsheet + AI hybrid | Free / $59/mo | AI-powered spreadsheet |
-| **Airtable** | No-code databases | Free / $20/user/mo | Structured data with AI fields |
+| **[Rows](/tools/rows/)** | Spreadsheet + AI hybrid | Free / $59/mo | AI-powered spreadsheet |
+| **[Airtable](/tools/airtable/)** | No-code databases | Free / $20/user/mo | Structured data with AI fields |
 | **Coefficient** | Live data pipelines | Free / $49/mo | Connect live sources to Sheets |
 
 ## 1. ChatGPT (Code Interpreter)
@@ -41,7 +41,7 @@ Where Claude truly shines is document-heavy analysis. Upload a 100-page financia
 
 ## 3. Julius AI
 
-Julius is built specifically for data analysis, and the specialization shows. Upload a dataset, and it suggests relevant analyses, identifies column types, and proposes visualizations. The interface is designed around data workflows: import, clean, analyze, visualize, export.
+Julius is built specifically for data analysis, and the specialization shows. Upload a dataset, and it suggests relevant analyses, identifies column types, and proposes visualizations. The interface is designed [around](/tools/around/) data workflows: import, clean, analyze, visualize, export.
 
 Interactive charts can be modified without code. Non-technical users get a complete analysis tool without the intimidation factor. Free tier offers 15 analyses per month; Pro at $20/month is unlimited.
 
@@ -51,7 +51,7 @@ Interactive charts can be modified without code. Non-technical users get a compl
 
 Google has added AI features directly into Sheets that are genuinely useful. The "Help me organize" sidebar suggests formulas, creates pivot tables, builds charts, and cleans data via natural language. The biggest advantage is zero friction: if your data is already in Sheets, there is nothing to install.
 
-It modifies your spreadsheet directly, with no copy-paste from a chatbot. Native integration with Google Forms, Looker Studio, and BigQuery makes it part of a complete Google data stack.
+It modifies your spreadsheet directly, with no copy-paste from a chatbot. Native integration with Google Forms, [Looker Studio](/tools/looker-studio/), and BigQuery makes it part of a complete Google data stack.
 
 **Best for:** Teams already in Google Workspace who want AI without leaving their spreadsheet.
 
@@ -65,7 +65,7 @@ This is ideal for the research phase: gathering industry averages, competitor da
 
 ## 6. Rows
 
-Rows is a modern spreadsheet with AI as a first-class feature. Ask AI to analyze data in natural language, and it creates formulas, summaries, and charts directly in your sheet. What sets Rows apart is built-in data integrations: pull live data from APIs, Google Analytics, Stripe, and 50+ other sources.
+Rows is a modern spreadsheet with AI as a first-class feature. Ask AI to analyze data in natural language, and it creates formulas, summaries, and charts directly in your sheet. What sets Rows apart is built-in data integrations: pull live data from APIs, Google Analytics, [Stripe](/tools/stripe/), and 50+ other sources.
 
 The AI assistant understands spreadsheet context and generates shareable dashboards. Free tier has limited AI credits; Pro at $59/month unlocks everything.
 
@@ -73,7 +73,7 @@ The AI assistant understands spreadsheet context and generates shareable dashboa
 
 ## 7. Airtable
 
-Airtable combines database structure with spreadsheet accessibility. AI fields auto-categorize, summarize, and compute values based on natural language descriptions. For teams managing CRM records, project tracking, or inventory, Airtable turns every database into an analytics-ready platform.
+Airtable combines database structure with spreadsheet accessibility. AI fields auto-categorize, summarize, and compute values based on natural language descriptions. For teams managing [CRM](/category/crm/) records, project tracking, or inventory, Airtable turns every database into an analytics-ready platform.
 
 Powerful views (Kanban, calendar, Gantt) offer different analysis angles, and automations trigger AI analysis on new records. Free tier supports 1,000 records; Team at $20/user/month is 50,000. Explore more in our [Airtable alternatives guide](/alternatives/airtable/).
 
@@ -83,7 +83,7 @@ Powerful views (Kanban, calendar, Gantt) offer different analysis angles, and au
 
 Coefficient supercharges Google Sheets and Excel with live data connections. Connect your CRM, database, or analytics platform, and it pulls live data into your existing spreadsheet with scheduled refreshes. Then use its AI features to analyze and visualize.
 
-This is valuable for teams with standardized reporting templates. Two-way sync with 40+ sources (Salesforce, HubSpot, databases) keeps data fresh. Free tier has limited connections; Starter at $49/month adds more.
+This is valuable for teams with standardized reporting templates. Two-way sync with 40+ sources ([Salesforce](/tools/salesforce/), HubSpot, databases) keeps data fresh. Free tier has limited connections; Starter at $49/month adds more.
 
 **Best for:** Revenue operations and finance teams needing live multi-source data in existing spreadsheets.
 

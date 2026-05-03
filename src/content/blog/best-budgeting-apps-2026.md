@@ -14,11 +14,11 @@ Managing money shouldn't require a finance degree. The right budgeting app can a
 
 | App | Best For | Price | Bank Sync |
 |-----|----------|-------|-----------|
-| YNAB | Proactive budgeting | $99/year | Yes |
+| [YNAB](/tools/ynab/) | Proactive budgeting | $99/year | Yes |
 | Monarch Money | Couples & families | $99/year | Yes |
-| Notion Budget Templates | DIY customizers | Free-$10/mo | No |
-| Copilot Money | Apple users | $69.99/year | Yes |
-| Goodbudget | Envelope method (free) | Free/$70/yr | No |
+| [Notion](/tools/notion/) Budget Templates | DIY customizers | Free-$10/mo | No |
+| [Copilot Money](/tools/copilot-money/) | Apple users | $69.99/year | Yes |
+| [Goodbudget](/tools/goodbudget/) | Envelope method (free) | Free/$70/yr | No |
 
 ## 1. YNAB — Best Overall Budgeting App
 
@@ -40,7 +40,7 @@ Read our full [YNAB review](/blog/ynab-review-2026) for a detailed breakdown.
 
 ## 2. Monarch Money — Best for Couples & Families
 
-After Mint shut down in 2024, Monarch Money became the top recommendation for households that want shared financial visibility.
+After [Mint](/tools/mint/) shut down in 2024, Monarch Money became the top recommendation for households that want shared financial visibility.
 
 **Key features:**
 - **Household accounts** for shared budgeting
@@ -74,7 +74,7 @@ If you want total control over your budget layout, Notion budget templates offer
 Copilot Money is an iOS and Mac exclusive that combines beautiful design with smart automation. It's the premium choice for Apple ecosystem users.
 
 **Key features:**
-- **Automatic bank sync** via Plaid
+- **Automatic bank sync** via [Plaid](/tools/plaid/)
 - **AI-powered categorization**
 - **Subscription tracking**
 - **Investment portfolio view**

@@ -129,9 +129,9 @@ Enterprise adds organization-wide controls, advanced security, and features desi
 
 Trello made a smart move by making Power-Ups unlimited on all plans — including Free. Power-Ups are integrations that extend Trello's functionality:
 
-- **Slack** — get Trello notifications in Slack channels
-- **Google Drive** — attach Drive files to cards
-- **Jira** — sync with Jira issues
+- **[Slack](/tools/slack/)** — get Trello notifications in Slack channels
+- **[Google Drive](/tools/google-drive/)** — attach Drive files to cards
+- **[Jira](/tools/jira/)** — sync with Jira issues
 - **Custom Fields** — add structured data to cards (Standard+)
 - **Calendar** — view cards with dates in calendar format (Premium+)
 - **Voting** — let team members vote on cards
@@ -168,7 +168,7 @@ If you only need the kanban board, the Free plan works. If you need a timeline, 
 
 4. **Excellent mobile apps.** Trello's iOS and Android apps are among the best in the category — fast, intuitive, and fully functional.
 
-5. **Atlassian ecosystem.** If your organization uses Jira, Confluence, or Bitbucket, Trello integrates seamlessly within the Atlassian ecosystem.
+5. **Atlassian ecosystem.** If your organization uses [Jira](/tools/jira/), Confluence, or Bitbucket, Trello integrates seamlessly within the Atlassian ecosystem.
 
 ---
 
@@ -191,10 +191,10 @@ If you only need the kanban board, the Free plan works. If you need a timeline, 
 | Tool | Free Plan | Entry Paid | Mid Tier |
 |------|----------|------------|----------|
 | **Trello** | Generous (unlimited cards) | $5/user/mo | $10/user/mo |
-| **Asana** | Good (up to 10 users) | $10.99/user/mo | $24.99/user/mo |
-| **ClickUp** | Very generous | $7/user/mo | $12/user/mo |
-| **Monday.com** | Limited (2 users) | $9/seat/mo | $12/seat/mo |
-| **Notion** | Generous | $8/user/mo | $15/user/mo |
+| **[Asana](/tools/asana/)** | Good (up to 10 users) | $10.99/user/mo | $24.99/user/mo |
+| **[ClickUp](/tools/clickup/)** | Very generous | $7/user/mo | $12/user/mo |
+| **[Monday.com](/tools/monday/)** | Limited (2 users) | $9/seat/mo | $12/seat/mo |
+| **[Notion](/tools/notion/)** | Generous | $8/user/mo | $15/user/mo |
 
 Trello is the most affordable option for teams that primarily need kanban boards with basic project management. For a deeper comparison, see our [Trello vs Asana breakdown](/compare/trello-vs-asana/).
 

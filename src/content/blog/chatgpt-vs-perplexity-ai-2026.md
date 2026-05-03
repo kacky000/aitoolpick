@@ -10,7 +10,7 @@ ChatGPT and Perplexity AI are two of the most popular AI tools in 2026, but they
 
 ## What They Do
 
-**ChatGPT** (by OpenAI) is a general-purpose AI chatbot. It writes, codes, analyzes files, generates images, and browses the web. Think of it as an AI Swiss Army knife.
+**ChatGPT** (by OpenAI) is a general-purpose [AI chatbot](/category/ai-chatbot/). It writes, codes, analyzes files, generates images, and browses the web. Think of it as an AI Swiss Army knife.
 
 **Perplexity AI** is an AI search engine. It answers questions with real-time web data and cites its sources. Think of it as Google meets AI.
 
@@ -45,7 +45,7 @@ ChatGPT includes DALL·E for image generation directly in the chat. Perplexity d
 ### Accuracy & Citations
 Perplexity's citation system is its killer feature. Every claim links to a source, making fact-checking easy. ChatGPT can hallucinate confidently without sources.
 
-**Winner: Perplexity** — citations make it significantly more trustworthy for research.
+**Winner: Perplexity** — citations [make](/tools/make/) it significantly more trustworthy for research.
 
 ## Pricing
 

@@ -40,9 +40,9 @@ Each step in a scenario = 1 operation. Examples:
 
 | Scenario | Ops per Run | Monthly Runs at 1,000 Ops |
 |----------|------------|--------------------------|
-| Gmail → Slack notification (2 steps) | 2 | 500 runs |
-| RSS → filter → Notion (3 steps) | 3 | 333 runs |
-| Typeform → Google Sheets → Email (3 steps) | 3 | 333 runs |
+| Gmail → [Slack](/tools/slack/) notification (2 steps) | 2 | 500 runs |
+| RSS → filter → [Notion](/tools/notion/) (3 steps) | 3 | 333 runs |
+| [Typeform](/tools/typeform/) → Google Sheets → Email (3 steps) | 3 | 333 runs |
 | Complex 10-step workflow | 10 | 100 runs |
 
 For a personal automation that runs a few times a day, 1,000 ops is plenty.
@@ -53,7 +53,7 @@ For a personal automation that runs a few times a day, 1,000 ops is plenty.
 This is the biggest constraint. You can *create* unlimited scenarios but only have 2 running at once. If you need a third automation, you must deactivate one.
 
 ### 2. 15-Minute Minimum Interval
-Free scenarios check for new data every 15 minutes at most. If you need faster triggers (e.g., instant Slack notifications), you need Core.
+Free scenarios check for new data every 15 minutes at most. If you need faster triggers (e.g., instant [Slack](/tools/slack/) notifications), you need Core.
 
 ### 3. 5-Day Scenario Logs
 Debugging becomes harder when logs disappear after 5 days. On paid plans, you get 15-30 days.

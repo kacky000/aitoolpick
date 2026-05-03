@@ -23,7 +23,7 @@ Perplexity is the gold standard for AI-powered research. Every answer comes with
 - Focus modes (Academic, Writing, Math, Wolfram)
 - Collections for organizing research
 - File upload and analysis (Pro)
-- API access for developers
+- API access for [developers](/best-for/developers/)
 
 **Why it's #1:** No other tool matches Perplexity's combination of speed, accuracy, and citation quality.
 
@@ -91,7 +91,7 @@ Consensus searches peer-reviewed studies and synthesizes scientific consensus on
 
 **Price:** Free
 
-Google's NotebookLM lets you upload your own sources — PDFs, Google Docs, URLs — and creates an AI that's grounded in your specific documents. It generates summaries, answers questions, and even creates podcast-style audio overviews of your research.
+Google's NotebookLM lets you upload your own sources — PDFs, [Google Docs](/tools/google-docs/), URLs — and creates an AI that's grounded in your specific documents. It generates summaries, answers questions, and even creates podcast-style audio overviews of your research.
 
 **Best for:** Researchers who need to organize and synthesize multiple sources.
 

@@ -6,9 +6,9 @@ tags: ["linear", "project-management", "pricing", "free-vs-paid"]
 heroImage: "/thumbs/linear-free-vs-paid-2026.jpg"
 lastModified: "2026-04-26"
 ---
-**Linear Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
+**[Linear](/tools/linear-app/) Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-Linear has quietly become the project management tool of choice for engineering teams and startups who find Jira too bloated and Asana too generic. But with a genuinely capable free plan, the question is always: do you actually need to pay?
+Linear has quietly become the [project management](/category/project-management/) tool of choice for engineering teams and startups who find Jira too bloated and Asana too generic. But with a genuinely capable free plan, the question is always: do you actually need to pay?
 
 Here is a complete breakdown of what Linear's free plan includes in 2026 and when it makes sense to upgrade.
 
@@ -22,7 +22,7 @@ Linear's free plan is more generous than most tools in the project management sp
 - **250 documents** — built-in documentation included
 - **Cycles** (sprints) — full sprint planning included free
 - **Roadmaps** — available on free
-- **GitHub, GitLab, Figma integrations** — core dev integrations included
+- **[GitHub](/tools/github/), GitLab, Figma integrations** — core dev integrations included
 
 For a solo developer or a small startup team under 10 people, the free plan covers the vast majority of what you need.
 
@@ -59,13 +59,13 @@ The gaps become visible as teams scale or need administrative control:
 
 **Small dev teams (under 5-8 people)** — The free plan was clearly designed with small teams in mind. You get cycles, roadmaps, and integrations. That is the core product.
 
-**Solo freelancers or indie hackers** — If you are managing your own backlog and side projects, free is more than sufficient.
+**Solo [freelancers](/best-for/freelancers/) or indie hackers** — If you are managing your own backlog and side projects, free is more than sufficient.
 
 ## When to Upgrade to Pro
 
 **Your team is scaling past 10 people** — Once you have multiple squads, teams, or business units, you need proper admin controls and private teams.
 
-**Engineering managers need reporting** — If someone is asking "how many issues did we close last sprint" and eyeballing is not good enough, you need the analytics dashboard.
+**Engineering managers need reporting** — If someone is asking "how many issues did we [close](/tools/close/) last sprint" and eyeballing is not good enough, you need the analytics dashboard.
 
 **You want SLA support** — If Linear is mission-critical infrastructure, the community support on free is a risk. Pro gives you email support.
 
@@ -77,9 +77,9 @@ The general rule: if you are asking whether to upgrade, you are probably still f
 
 At $8/user/month, Linear Pro competes with:
 
-- **Asana Starter (~$10.99/user/month)** — Asana is broader but slower and more generic. Linear Pro is faster and purpose-built for engineering.
-- **ClickUp Unlimited ($7/user/month)** — ClickUp has more features but significantly more complexity. Linear is intentionally minimal.
-- **Jira Standard (~$7.75/user/month)** — Jira is more customizable but notoriously complex. Linear is faster to set up and use day-to-day.
+- **[Asana](/tools/asana/) Starter (~$10.99/user/month)** — Asana is broader but slower and more generic. Linear Pro is faster and purpose-built for engineering.
+- **[ClickUp](/tools/clickup/) Unlimited ($7/user/month)** — ClickUp has more features but significantly more complexity. Linear is intentionally minimal.
+- **[Jira](/tools/jira/) Standard (~$7.75/user/month)** — Jira is more customizable but notoriously complex. Linear is faster to set up and use day-to-day.
 
 See our [Linear vs Jira 2026 comparison](/blog/linear-vs-jira-2026) and [Linear vs ClickUp comparison](/blog/linear-vs-clickup-2026) for detailed breakdowns.
 

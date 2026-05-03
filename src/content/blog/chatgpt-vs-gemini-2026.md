@@ -38,17 +38,17 @@ For research tasks involving current events, Gemini has a structural advantage f
 
 ### Code Generation
 
-ChatGPT (GPT-4o) remains the stronger coding assistant. It explains code clearly, handles debugging well, and produces cleaner, more production-ready code. Gemini's coding is capable but occasionally produces more verbose output. For serious developers, ChatGPT is the better daily driver.
+ChatGPT (GPT-4o) remains the stronger coding assistant. It explains code clearly, handles debugging well, and produces cleaner, more production-ready code. Gemini's coding is capable but occasionally produces more verbose output. For serious [developers](/best-for/developers/), ChatGPT is the better daily driver.
 
 ### Google Workspace Integration
 
-Gemini is unbeatable here. Gemini Advanced integrates directly with Gmail (draft emails from context), Google Docs (summarize and edit documents), Google Drive (search and understand files), and Google Meet (meeting summaries). If your work lives in Google Workspace, this alone makes Gemini worth considering.
+Gemini is unbeatable here. Gemini Advanced integrates directly with Gmail (draft emails from context), Google Docs (summarize and edit documents), [Google Drive](/tools/google-drive/) (search and understand files), and Google Meet (meeting summaries). If your work lives in Google Workspace, this alone makes Gemini worth considering.
 
 ChatGPT integrates with far more third-party apps through its plugin ecosystem, but the depth of Google-native integration that Gemini offers is hard to replicate.
 
 ## Image Generation
 
-ChatGPT includes DALL-E 3 for image generation. Gemini Advanced includes Imagen 3, Google's image generation model. Both produce high-quality images. DALL-E 3 tends to better follow detailed text prompts; Imagen 3 produces more photorealistic results for certain subjects.
+ChatGPT includes [DALL-E 3](/tools/dall-e/) for image generation. Gemini Advanced includes Imagen 3, Google's image generation model. Both produce high-quality images. DALL-E 3 tends to better follow detailed text prompts; Imagen 3 produces more photorealistic results for certain subjects.
 
 ## Mobile Experience
 
@@ -63,7 +63,7 @@ Both have strong mobile apps. The Gemini app on Android is deeply integrated at 
 - You want the most consistent, predictable AI responses
 
 **Choose Gemini if:**
-- Your work is primarily in Gmail, Google Docs, or Drive
+- Your work is primarily in Gmail, [Google Docs](/tools/google-docs/), or Drive
 - You use an Android phone and want OS-level AI integration
 - You want the strongest real-time web search
 - You're already paying for Google One (Gemini Advanced is included)

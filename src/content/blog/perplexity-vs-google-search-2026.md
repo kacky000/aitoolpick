@@ -28,7 +28,7 @@ Perplexity AI launched as an "answer engine" and has steadily eaten into Google'
 
 Google returns a list of links. Perplexity reads those links and synthesizes an answer — with citations.
 
-For a query like *"What are the pros and cons of YNAB vs Mint?"*, Google gives you 10 blue links. Perplexity gives you a structured answer with pros, cons, and sources you can verify.
+For a query like *"What are the pros and cons of [YNAB](/tools/ynab/) vs Mint?"*, Google gives you 10 blue links. Perplexity gives you a structured answer with pros, cons, and sources you can verify.
 
 This fundamental difference makes Perplexity dramatically better for:
 - Research questions requiring synthesis
@@ -41,13 +41,13 @@ This fundamental difference makes Perplexity dramatically better for:
 ## Where Google Still Wins
 
 **1. Local and contextual search**
-"Pizza near me" or "bank hours today" — Google's local index and real-time data are unmatched. Perplexity doesn't have this.
+"Pizza near me" or "bank [hours](/tools/hours-tracker/) today" — Google's local index and real-time data are unmatched. Perplexity doesn't have this.
 
 **2. Shopping and e-commerce**
 Google Shopping integrates product listings, prices, and reviews. Perplexity isn't a shopping tool.
 
 **3. Navigational searches**
-If you're searching for a specific website (e.g., "Notion login"), Google is the right tool. Perplexity isn't a directory.
+If you're searching for a specific website (e.g., "[Notion](/tools/notion/) login"), Google is the right tool. Perplexity isn't a directory.
 
 **4. Image and video search**
 Google Images and YouTube integration are irreplaceable for visual searches.
@@ -56,7 +56,7 @@ Google Images and YouTube integration are irreplaceable for visual searches.
 
 ## Accuracy: Can You Trust Perplexity?
 
-Perplexity cites its sources, which lets you verify claims. This is a major advantage over ChatGPT, which can confidently state wrong information without attribution.
+Perplexity cites its sources, which lets you verify claims. This is a major advantage over [ChatGPT](/tools/chatgpt/), which can confidently state wrong information without attribution.
 
 That said, Perplexity still makes errors. Always verify important claims against primary sources. The citation system makes this easier than with other AI tools — you can see exactly which source made a claim.
 
@@ -70,13 +70,13 @@ Both offer paid tiers with advanced AI:
 
 | Feature | Perplexity Pro ($20/mo) | Google One AI ($19.99/mo) |
 |---------|-------------------------|---------------------------|
-| Advanced AI model | Yes (GPT-4o, Claude) | Gemini Advanced |
-| Image generation | Yes (DALL-E 3) | Imagen 3 |
+| Advanced AI model | Yes (GPT-4o, [Claude](/tools/claude/)) | Gemini Advanced |
+| Image generation | Yes ([DALL-E 3](/tools/dall-e/)) | Imagen 3 |
 | File upload analysis | Yes | Yes |
 | Sources with answers | Yes | Partial (AI Overviews) |
 | Gmail/Docs integration | No | Yes |
 
-If you're heavily invested in Google Workspace, Google One AI integrates across Gmail, Docs, and Drive — something Perplexity can't match. For pure research, Perplexity Pro's multi-model access (GPT-4o + Claude) is a stronger value.
+If you're heavily invested in Google Workspace, Google One AI integrates across Gmail, Docs, and Drive — something Perplexity can't match. For pure research, Perplexity Pro's multi-model access (GPT-4o + [Claude](/tools/claude/)) is a stronger value.
 
 See our [Perplexity review](/blog/perplexity-ai-review-2026) and [best AI search engines 2026](/blog/best-ai-search-engines-2026) for more options.
 

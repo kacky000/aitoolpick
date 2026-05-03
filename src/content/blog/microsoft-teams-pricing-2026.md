@@ -32,11 +32,11 @@ The main limitations are:
 - **No recording or transcription.** You cannot record meetings or get AI-generated meeting notes.
 - **No admin tools.** There is no centralized user management, compliance features, or security policies.
 
-**Best for:** Very small teams (under 10 people), freelancers collaborating with clients, or organizations that just need basic chat and occasional video calls.
+**Best for:** Very small teams (under 10 people), [freelancers](/best-for/freelancers/) collaborating with clients, or organizations that just need basic chat and occasional video calls.
 
 ## Essentials ($4/user/month): Meetings Without Microsoft 365
 
-The Essentials plan is designed for organizations that want better meetings without buying into the full Microsoft 365 ecosystem. It lifts the meeting duration to 30 hours (effectively unlimited for practical purposes), increases the participant cap to 300, and doubles storage to 10 GB per user.
+The Essentials plan is designed for organizations that want better meetings without buying into the full Microsoft 365 ecosystem. It lifts the meeting duration to 30 [hours](/tools/hours-tracker/) (effectively unlimited for practical purposes), increases the participant cap to 300, and doubles storage to 10 GB per user.
 
 You also get:
 
@@ -71,15 +71,15 @@ Business Standard adds desktop versions of all Microsoft 365 apps — Word, Exce
 - **Microsoft Bookings.** Appointment scheduling tool for customer-facing teams.
 - **Advanced webinar features.** Attendee registration, custom branding, and reporting.
 
-For most businesses, this is the plan that makes the most sense. You get everything: full Office suite, 1 TB storage, enterprise-grade meetings, and collaboration tools. The $12.50/user/month price is competitive when you consider that Slack alone costs $8.75/user/month for its Pro plan — and Slack does not include any office productivity tools.
+For most businesses, this is the plan that makes the most sense. You get everything: full Office suite, 1 TB storage, enterprise-grade meetings, and collaboration tools. The $12.50/user/month price is competitive when you consider that [Slack](/tools/slack/) alone costs $8.75/user/month for its Pro plan — and Slack does not include any office productivity tools.
 
 **Best for:** Businesses that want a single vendor solution for communication, productivity, and collaboration.
 
 ## Microsoft Teams vs Slack: The Pricing Angle
 
-The biggest competitor to Microsoft Teams is Slack. Here is how pricing compares:
+The biggest competitor to Microsoft Teams is [Slack](/tools/slack/). Here is how pricing compares:
 
-| Feature | Teams Business Basic | Slack Pro |
+| Feature | Teams Business Basic | [Slack](/tools/slack/) Pro |
 |---------|---------------------|-----------|
 | Price | $6/user/month | $8.75/user/month |
 | Video meetings | Built-in, 300 participants | Huddles (50 people max) |

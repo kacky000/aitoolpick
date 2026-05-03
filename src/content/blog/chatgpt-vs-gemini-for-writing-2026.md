@@ -14,7 +14,7 @@ Both ChatGPT and Gemini can write. But "writing" covers everything from email re
 
 **Choose ChatGPT** if you need versatile, polished writing with custom instructions, consistent style across sessions, and a mature plugin ecosystem for writing workflows.
 
-**Choose Gemini** if you're deep in the Google ecosystem, need real-time web research integrated into your writing, or want to draft directly in Google Docs.
+**Choose Gemini** if you're deep in the Google ecosystem, need real-time web research integrated into your writing, or want to draft directly in [Google Docs](/tools/google-docs/).
 
 For a broader comparison, see our [ChatGPT vs Gemini overview](/compare/chatgpt-vs-gemini).
 
@@ -134,7 +134,7 @@ ChatGPT requires copy-pasting between the chat interface and your document. Ther
 
 ### Output Length and Consistency
 
-**ChatGPT** handles long-form content better. It can maintain consistent tone, structure, and detail across 2,000+ word articles. When you say "write a 1,500-word guide," you get something close to 1,500 words.
+**ChatGPT** handles long-form content better. It can maintain consistent tone, structure, and detail across 2,000+ word articles. When you say "write a 1,500-word guide," you get something [close](/tools/close/) to 1,500 words.
 
 **Gemini** sometimes loses steam in longer pieces, becoming repetitive or shifting tone midway. It's better for shorter content (emails, social posts, paragraphs) than full articles.
 
@@ -152,7 +152,7 @@ ChatGPT requires copy-pasting between the chat interface and your document. Ther
 2. Let Gemini pull in current research automatically
 3. Generate sections inline
 4. Refine and expand directly in the document
-5. Continue editing in the same document
+5. [Continue](/tools/continue/) editing in the same document
 
 Gemini's workflow has fewer steps and less context-switching. ChatGPT's workflow offers more control over output quality.
 

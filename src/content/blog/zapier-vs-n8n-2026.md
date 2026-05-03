@@ -23,11 +23,11 @@ Zapier and n8n are two of the most widely used automation platforms, but they se
 | Pricing model | Per task | Per user (cloud) / Free (self-hosted) |
 | Free plan | 100 tasks/month | Yes (cloud) / Unlimited (self-hosted) |
 | App integrations | 7,000+ | 400+ (growing fast) |
-| Self-hosting | No | Yes (Docker, free) |
+| Self-hosting | No | Yes ([Docker](/tools/docker/), free) |
 | Code support | No (only filters/formatters) | Yes (JavaScript nodes) |
 | AI integrations | Yes (AI by Zapier) | Yes (OpenAI, Anthropic, local LLMs) |
 | Learning curve | Minimal | Medium-high |
-| Best for | Non-technical teams | Developers and technical teams |
+| Best for | Non-technical teams | [Developers](/best-for/developers/) and technical teams |
 
 ## Pricing Breakdown (2026)
 
@@ -63,7 +63,7 @@ Both platforms have added AI-native features in 2025-2026.
 
 **Zapier AI**: "AI by Zapier" lets you add AI steps to workflows — summarizing emails, generating content, routing tasks. Powered by OpenAI models. Works without coding, but limited customization.
 
-**n8n AI**: Integrates with OpenAI, Anthropic, Google Gemini, and locally-hosted LLMs (Ollama). You can build full AI agent workflows — chains, memory, tool use — with JavaScript for custom logic. This is where n8n has a significant edge for AI builders.
+**n8n AI**: Integrates with OpenAI, Anthropic, [Google Gemini](/tools/gemini/), and locally-hosted LLMs (Ollama). You can build full AI agent workflows — chains, memory, tool use — with JavaScript for custom logic. This is where n8n has a significant edge for AI builders.
 
 ## Error Handling & Reliability
 

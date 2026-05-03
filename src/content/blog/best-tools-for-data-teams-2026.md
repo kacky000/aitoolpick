@@ -19,7 +19,7 @@ Here are the best productivity and collaboration tools for data teams in 2026.
 - Database views for tracking data requests and pipeline status
 - Embedded code blocks for SQL snippets and Python examples
 - Wiki pages for metric definitions and data dictionaries
-- API for automated updates from dbt, Airflow, or custom scripts
+- API for automated updates from [dbt](/tools/dbt/), Airflow, or custom scripts
 
 **Pricing:** Free for personal. Plus at $10/user/month. Business at $20/user/month.
 
@@ -32,7 +32,7 @@ Here are the best productivity and collaboration tools for data teams in 2026.
 **Why data teams love it:**
 - Blazing fast interface with keyboard shortcuts
 - Cycles (sprints) for organizing data project work
-- Git integration for tracking dbt/analytics repo changes
+- Git integration for tracking [dbt](/tools/dbt/)/analytics repo changes
 - Roadmaps for communicating data team priorities to stakeholders
 
 **Pricing:** Free for small teams. Basic at $10/user/month.
@@ -74,7 +74,7 @@ Here are the best productivity and collaboration tools for data teams in 2026.
 **Why data teams love it:**
 - Dedicated channels for data alerts, pipeline failures, and requests
 - Workflow Builder for automated data request intake
-- Integration with monitoring tools (PagerDuty, Monte Carlo, etc.)
+- Integration with monitoring tools ([PagerDuty](/tools/pagerduty/), Monte Carlo, etc.)
 - Huddles for quick screen-sharing during debugging sessions
 
 **Pricing:** Free with limits. Pro at $7.25/user/month.
@@ -142,6 +142,6 @@ The best tool for your data team depends on your biggest pain point:
 - **SQL/analysis help** → Use [Claude](/tools/claude)
 - **Communication gaps** → Optimize [Slack](/tools/slack) workflows
 
-Most data teams benefit from combining 2-3 tools rather than trying to make one tool do everything. Start with documentation (Notion) and communication (Slack), then add project management as the team grows.
+Most data teams benefit from combining 2-3 tools rather than trying to [make](/tools/make/) one tool do everything. Start with documentation (Notion) and communication (Slack), then add project management as the team grows.
 
 Explore more → [Best Project Management Tools](/blog/best-project-management-tools-2026) | [Linear Review](/blog/linear-review-2026) | [Notion for Beginners](/blog/notion-for-beginners-guide-2026)

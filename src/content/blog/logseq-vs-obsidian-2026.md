@@ -14,7 +14,7 @@ But they have meaningfully different approaches. Choosing between them comes dow
 
 ## The Core Difference: Outliner vs. Linked Notes
 
-**Logseq** is an **outliner first**. Every note is a bulleted list. Thoughts live in nested hierarchies of bullets, and you write in a daily journal by default. It's inspired by tools like Roam Research.
+**Logseq** is an **outliner first**. Every note is a bulleted list. Thoughts live in nested hierarchies of bullets, and you write in a daily journal by default. It's inspired by tools like [Roam Research](/tools/roam-research/).
 
 **Obsidian** is a **document editor first**. Notes are free-form Markdown files. You can structure them however you want, and the system grows through bidirectional links between pages.
 
@@ -40,7 +40,7 @@ This distinction matters a lot in practice. If you think in lists and nested hie
 
 ### Block-Level References
 
-Logseq's block-level reference system is more powerful than Obsidian's out of the box. You can reference a single bullet from one note inside another note, and changes sync in both directions.
+Logseq's block-level reference system is more powerful than Obsidian's out of the [box](/tools/box/). You can reference a single bullet from one note inside another note, and changes sync in both directions.
 
 This is extremely useful for daily journaling that feeds into project notes. You capture a task or idea in today's journal, reference it in the relevant project page, and it stays connected without any manual copying.
 
@@ -50,13 +50,13 @@ Logseq is fully open source — anyone can inspect the codebase. Obsidian's core
 
 ### Daily Journal as Core Workflow
 
-If you want to build your knowledge system around daily capture, Logseq is designed for this. The journal view is the default entry point, and every daily page becomes a node in your knowledge graph automatically.
+If you want to build your knowledge system [around](/tools/around/) daily capture, Logseq is designed for this. The journal view is the default entry point, and every daily page becomes a node in your knowledge graph automatically.
 
 ## Where Obsidian Wins
 
 ### Plugin Ecosystem
 
-Obsidian's plugin library is significantly larger and more mature. There are plugins for Spaced Repetition flashcards, citation management (Zotero integration), Kanban boards, canvas mapping, and hundreds of other use cases. If you have a specific workflow need, there's almost certainly an Obsidian plugin for it.
+Obsidian's plugin library is significantly larger and more mature. There are plugins for Spaced Repetition flashcards, citation management ([Zotero](/tools/zotero/) integration), Kanban boards, canvas mapping, and hundreds of other use cases. If you have a specific workflow need, there's almost certainly an Obsidian plugin for it.
 
 ### Flexibility
 
@@ -76,7 +76,7 @@ Obsidian's mobile app is noticeably more polished than Logseq's. If you capture 
 - Daily journalers who want all notes to flow from a journal
 - Researchers who want deep block-level referencing
 - Users who prioritize fully open-source software
-- People who came from Roam Research
+- People who came from [Roam Research](/tools/roam-research/)
 
 ## Who Should Use Obsidian
 

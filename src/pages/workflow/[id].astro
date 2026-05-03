@@ -1,0 +1,201 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import workflows from '../../data/workflows.json';
+
+export function getStaticPaths() {
+  return workflows.map((wf) => {
+    const wfTools = tools
+      .filter((t) => t.category.some((c: string) => wf.categories.includes(c)))
+      .sort((a, b) => b.rating - a.rating)
+      .slice(0, 30);
+    return {
+      params: { id: wf.id },
+      props: { workflow: wf, wfTools },
+    };
+  });
+}
+
+const { workflow, wfTools } = Astro.props;
+
+function formatPrice(pricing: Record<string, any>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+const freeTools = wfTools.filter((t) => t.pricing.free);
+
+const pageTitle = `${workflow.name} — Best ${wfTools.length} Tools for 2026`;
+const pageDescription = `${workflow.description} Compare ${wfTools.length} top-rated tools for your ${workflow.name.toLowerCase().replace(' workflow', '')} workflow.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: workflow.name,
+  description: pageDescription,
+  numberOfItems: wfTools.length,
+  itemListElement: wfTools.slice(0, 15).map((tool, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: { '@type': 'SoftwareApplication', name: tool.name, url: `https://aitoolpick.org/tools/${tool.slug}/` },
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Workflows', href: '/workflow/' },
+        { label: workflow.name.replace(' Workflow', '') },
+      ]} />
+
+      <div class="wf-header">
+        <h1>{workflow.name}</h1>
+        <p>{workflow.description}</p>
+      </div>
+
+      <!-- Workflow Steps -->
+      <div class="wf-steps">
+        {workflow.steps.map((step, i) => (
+          <div class="wf-step">
+            <span class="wf-step-num">{i + 1}</span>
+            <span class="wf-step-label">{step}</span>
+            {i < workflow.steps.length - 1 && <span class="wf-step-arrow">→</span>}
+          </div>
+        ))}
+      </div>
+
+      <!-- Stats -->
+      <div class="wf-stats">
+        <div class="wf-stat"><span class="wf-stat-num">{wfTools.length}</span><span>Tools</span></div>
+        <div class="wf-stat"><span class="wf-stat-num">{freeTools.length}</span><span>Free Options</span></div>
+        <div class="wf-stat"><span class="wf-stat-num">{workflow.categories.length}</span><span>Categories</span></div>
+      </div>
+
+      <!-- Top Tools Table -->
+      <div class="wf-section">
+        <h2>Top Tools for This Workflow</h2>
+        <div class="wf-table-wrap">
+          <table class="wf-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Tool</th>
+                <th>Category</th>
+                <th>Rating</th>
+                <th>Price</th>
+                <th>Free?</th>
+              </tr>
+            </thead>
+            <tbody>
+              {wfTools.slice(0, 20).map((tool, i) => (
+                <tr>
+                  <td class="wf-rank">{i + 1}</td>
+                  <td><a href={`/tools/${tool.slug}/`}>{tool.name}</a></td>
+                  <td class="wf-cat">{tool.category[0].replace(/-/g, ' ')}</td>
+                  <td class="wf-rating">★ {tool.rating}</td>
+                  <td class="wf-price">{formatPrice(tool.pricing)}</td>
+                  <td class={tool.pricing.free ? 'wf-yes' : 'wf-no'}>{tool.pricing.free ? '✓' : '✗'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tool Cards Grid -->
+      <div class="wf-section">
+        <h2>All Recommended Tools</h2>
+        <div class="wf-grid">
+          {wfTools.map((tool, i) => (
+            <a href={`/tools/${tool.slug}/`} class="wf-card">
+              <div class="wf-card-top">
+                {tool.icon && <img src={tool.icon} alt={tool.name} width="28" height="28" style="border-radius: 6px;" loading="lazy" />}
+                <h3>{tool.name}</h3>
+                <span class="wf-card-rating">★ {tool.rating}</span>
+              </div>
+              <p>{tool.description.slice(0, 80)}...</p>
+              <div class="wf-card-footer">
+                <span class="wf-card-price">{formatPrice(tool.pricing)}</span>
+                {tool.pricing.free && <span class="wf-card-free">Free Plan</span>}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Related Categories -->
+      <div class="wf-related">
+        <h2>Related Categories</h2>
+        <div class="wf-cats">
+          {workflow.categories.map((cat) => (
+            <a href={`/category/${cat}/`} class="wf-cat-link">{cat.replace(/-/g, ' ')}</a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .wf-header { margin-bottom: 2rem; }
+  .wf-header h1 { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; }
+  .wf-header p { color: var(--gray-600); font-size: 1rem; }
+
+  .wf-steps { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem; margin-bottom: 2rem; padding: 1.25rem; background: var(--gray-50); border-radius: var(--radius-lg); border: 1px solid var(--gray-200); }
+  .wf-step { display: flex; align-items: center; gap: 0.4rem; }
+  .wf-step-num { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: var(--primary); color: white; border-radius: 50%; font-size: 0.7rem; font-weight: 700; }
+  .wf-step-label { font-size: 0.82rem; font-weight: 600; color: var(--dark); }
+  .wf-step-arrow { color: var(--gray-400); font-size: 1rem; margin: 0 0.3rem; }
+
+  .wf-stats { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+  .wf-stat { display: flex; flex-direction: column; align-items: center; padding: 0.8rem 1.2rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); }
+  .wf-stat-num { font-size: 1.3rem; font-weight: 800; color: var(--primary-dark); }
+  .wf-stat span:last-child { font-size: 0.72rem; color: var(--gray-500); }
+
+  .wf-section { margin-bottom: 2.5rem; }
+  .wf-section h2 { font-size: 1.2rem; font-weight: 700; margin-bottom: 1rem; }
+
+  .wf-table-wrap { overflow-x: auto; border: 1px solid var(--gray-200); border-radius: var(--radius-lg); }
+  .wf-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  .wf-table th { background: var(--gray-50); padding: 0.7rem; text-align: left; font-weight: 600; font-size: 0.73rem; text-transform: uppercase; color: var(--gray-600); border-bottom: 1px solid var(--gray-200); }
+  .wf-table td { padding: 0.6rem 0.7rem; border-bottom: 1px solid var(--gray-100); }
+  .wf-table a { font-weight: 600; color: var(--dark); text-decoration: none; }
+  .wf-table a:hover { color: var(--primary-dark); }
+  .wf-rank { font-weight: 700; color: var(--primary-dark); }
+  .wf-cat { font-size: 0.78rem; color: var(--gray-500); text-transform: capitalize; }
+  .wf-rating { color: var(--warning); font-weight: 600; }
+  .wf-price { font-weight: 600; font-size: 0.82rem; }
+  .wf-yes { color: var(--success); font-weight: 600; }
+  .wf-no { color: var(--gray-400); }
+
+  .wf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
+  .wf-card { display: flex; flex-direction: column; gap: 0.3rem; padding: 1rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); text-decoration: none; color: inherit; transition: border-color 0.15s, box-shadow 0.15s; }
+  .wf-card:hover { border-color: var(--primary); box-shadow: var(--shadow-md); }
+  .wf-card-top { display: flex; align-items: center; gap: 0.5rem; }
+  .wf-card-top h3 { font-size: 0.88rem; font-weight: 700; margin: 0; }
+  .wf-card-rating { margin-left: auto; font-size: 0.72rem; color: var(--warning); font-weight: 600; }
+  .wf-card p { font-size: 0.78rem; color: var(--gray-600); line-height: 1.4; margin: 0; }
+  .wf-card-footer { display: flex; gap: 0.5rem; align-items: center; margin-top: auto; }
+  .wf-card-price { font-size: 0.75rem; font-weight: 600; color: var(--primary-dark); }
+  .wf-card-free { font-size: 0.65rem; padding: 0.1rem 0.35rem; background: var(--success-light, #d1fae5); color: var(--success); border-radius: 6px; }
+
+  .wf-related { padding-top: 1.5rem; border-top: 1px solid var(--gray-200); }
+  .wf-related h2 { font-size: 1rem; font-weight: 700; margin-bottom: 0.75rem; }
+  .wf-cats { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .wf-cat-link { padding: 0.4rem 0.8rem; background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: 20px; text-decoration: none; color: var(--dark); font-size: 0.82rem; font-weight: 500; text-transform: capitalize; transition: border-color 0.15s; }
+  .wf-cat-link:hover { border-color: var(--primary); }
+
+  @media (max-width: 600px) {
+    .wf-steps { flex-direction: column; align-items: flex-start; }
+    .wf-step-arrow { display: none; }
+    .wf-grid { grid-template-columns: 1fr; }
+  }
+</style>

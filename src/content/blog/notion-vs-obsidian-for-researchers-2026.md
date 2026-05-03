@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Notion** and **Obsidian** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-Researchers have unique note-taking needs: managing hundreds of paper references, building interconnected knowledge graphs, writing long-form content, and occasionally collaborating with lab members. Both Notion and Obsidian can work, but they approach the problem from fundamentally different philosophies.
+Researchers have unique [note-taking](/category/note-taking/) needs: managing hundreds of paper references, building interconnected knowledge graphs, writing long-form content, and occasionally collaborating with lab members. Both Notion and Obsidian can work, but they approach the problem from fundamentally different philosophies.
 
 This guide compares them specifically through the lens of academic and professional research work.
 
@@ -16,7 +16,7 @@ This guide compares them specifically through the lens of academic and professio
 
 **Choose Obsidian** if you're a solo researcher who values data ownership, offline access, and building a personal knowledge graph with backlinks and graph view. It's the better "second brain" tool.
 
-**Choose Notion** if you're leading a research group, need shared databases for literature tracking, or want one tool for notes, project management, and collaboration.
+**Choose Notion** if you're leading a research group, need shared databases for literature tracking, or want one tool for notes, [project management](/category/project-management/), and collaboration.
 
 For a general comparison, see our [Notion vs Obsidian overview](/compare/notion-vs-obsidian).
 
@@ -33,11 +33,11 @@ For a general comparison, see our [Notion vs Obsidian overview](/compare/notion-
 Obsidian excels here with community plugins:
 
 - **Citations plugin**: Imports BibTeX/Zotero libraries directly into your vault. Each paper becomes a note with metadata, and you can link papers to your own analysis notes.
-- **Zotero Integration**: The Zotero plugin syncs annotations and highlights from PDFs into Obsidian notes automatically.
+- **[Zotero](/tools/zotero/) Integration**: The Zotero plugin syncs annotations and highlights from PDFs into Obsidian notes automatically.
 - **Dataview plugin**: Query your literature database using SQL-like syntax. "Show all papers tagged #machine-learning published after 2024 that I haven't read yet."
 - **Graph View**: See connections between papers, concepts, and your own ideas visually. This is genuinely useful for literature reviews.
 
-The setup takes 1-2 hours, but once configured, the workflow is powerful.
+The setup takes 1-2 [hours](/tools/hours-tracker/), but once configured, the workflow is powerful.
 
 ### Notion
 
@@ -45,7 +45,7 @@ Notion's approach is more structured:
 
 - **Literature Database**: Create a database with fields for title, authors, year, journal, status (to-read, reading, read, cited), tags, and your notes.
 - **Linked Databases**: Reference the same paper across multiple project pages.
-- **Notion AI**: Summarize papers or generate literature review drafts from your notes.
+- **[Notion AI](/tools/notion-ai/)**: Summarize papers or generate literature review drafts from your notes.
 - **Templates**: Create a "Paper Review" template with sections for summary, methodology, key findings, and relevance to your work.
 
 The setup is faster (30 minutes), but the connections between ideas are more manual than Obsidian's backlink system.
@@ -86,7 +86,7 @@ Notion's recent AI features can suggest connections, but it's not the same as Ob
 
 ### Collaboration on Papers
 
-**Obsidian**: Not built for real-time collaboration. You can share vaults via Git or Obsidian Sync, but simultaneous editing is limited. For collaborative writing, most researchers switch to Google Docs or Overleaf.
+**Obsidian**: Not built for real-time collaboration. You can share vaults via Git or Obsidian Sync, but simultaneous editing is limited. For collaborative writing, most researchers switch to [Google Docs](/tools/google-docs/) or Overleaf.
 
 **Notion**: Real-time collaboration works well. Multiple researchers can edit the same document, leave comments, and assign tasks. For research groups managing shared literature reviews or project documentation, this is a significant advantage.
 
@@ -106,7 +106,7 @@ This matters more for researchers than most users. Your research notes may need 
 
 **Obsidian**: 100% offline by default. Everything works without internet. Sync is optional (via Obsidian Sync at $4/mo, or free via iCloud/Dropbox/Git).
 
-**Notion**: Requires internet for full functionality. Offline mode exists but is limited — you can view cached pages and make edits that sync later, but creating new pages or searching the full workspace needs connectivity.
+**Notion**: Requires internet for full functionality. Offline mode exists but is limited — you can view cached pages and make edits that sync [later](/tools/later/), but creating new pages or searching the full workspace needs connectivity.
 
 For researchers who work on flights, in remote field locations, or in buildings with unreliable WiFi, this matters.
 
@@ -117,7 +117,7 @@ For researchers who work on flights, in remote field locations, or in buildings 
 | Feature | Obsidian | Notion |
 |---------|----------|--------|
 | Personal use | Free | Free |
-| Sync across devices | $4/mo (Sync) or free via Dropbox/Git | Included |
+| Sync across devices | $4/mo (Sync) or free via [Dropbox](/tools/dropbox/)/Git | Included |
 | Publish online | $8/mo (Publish) | Built-in sharing |
 | Team/lab use | Free (local) | $10/user/mo (Plus) |
 | Student discount | N/A (already free) | Free Plus plan for students (.edu email) |
@@ -130,12 +130,12 @@ For researchers who work on flights, in remote field locations, or in buildings 
 - **Zotero Integration**: Import annotations and highlights
 - **Citations**: BibTeX reference management
 - **Dataview**: Query notes like a database
-- **Excalidraw**: Sketch diagrams within notes
+- **[Excalidraw](/tools/excalidraw/)**: Sketch diagrams within notes
 - **Templater**: Advanced note templates
 - **Pandoc Plugin**: Export to any format
 
 ### Notion Features for Researchers
-- **Notion AI**: Summarize, translate, brainstorm
+- **[Notion AI](/tools/notion-ai/)**: Summarize, translate, brainstorm
 - **Database templates**: Standardized paper review formats
 - **API**: Build custom integrations with Python
 - **Embeds**: Embed PDFs, videos, and external content directly

@@ -33,7 +33,7 @@ Think of it this way: Perplexity replaces Google. ChatGPT replaces a human assis
 
 ## Research Accuracy
 
-Perplexity wins here, and it's not close. Every answer includes numbered source citations. You can verify claims immediately. The Focus modes let you restrict sources — Academic mode uses peer-reviewed papers, for example.
+Perplexity wins here, and it's not [close](/tools/close/). Every answer includes numbered source citations. You can verify claims immediately. The Focus modes let you restrict sources — Academic mode uses peer-reviewed papers, for example.
 
 ChatGPT's web browsing can find information, but it doesn't consistently cite sources. You'll sometimes get a mix of its training data and web results without clear attribution.
 
@@ -43,7 +43,7 @@ ChatGPT's web browsing can find information, but it doesn't consistently cite so
 
 ChatGPT is far more capable at generating content. Blog posts, emails, marketing copy, code, creative writing — ChatGPT handles all of these. Perplexity can write but it's not its strength.
 
-**Winner: ChatGPT** — not even close for content creation.
+**Winner: ChatGPT** — not even [close](/tools/close/) for content creation.
 
 ## Coding
 
@@ -64,7 +64,7 @@ Perplexity's interface is clean and search-focused. ChatGPT's interface is conve
 Both offer $20/month pro plans, but you get very different things:
 
 **Perplexity Pro ($20/month):**
-- Unlimited Pro searches (uses Claude, GPT-4, etc.)
+- Unlimited Pro searches (uses [Claude](/tools/claude/), GPT-4, etc.)
 - File upload and analysis
 - API access
 - Higher usage limits
@@ -113,7 +113,7 @@ The free tiers of both are useful enough that you might not need to pay for both
 
 **Choose ChatGPT if** you need a versatile AI assistant for writing, coding, and creative tasks that can also do research.
 
-**Use both if** you do research-heavy work AND need content creation capabilities. The free tiers make this easy to try.
+**Use both if** you do research-heavy work AND need content creation capabilities. The free tiers [make](/tools/make/) this easy to try.
 
 ---
 

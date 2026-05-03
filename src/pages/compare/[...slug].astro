@@ -6,17 +6,24 @@ import { getCollection } from 'astro:content';
 
 export function getStaticPaths() {
   const paths = [];
+  const seen = new Set();
 
   for (let i = 0; i < tools.length; i++) {
     for (let j = i + 1; j < tools.length; j++) {
       const toolA = tools[i];
       const toolB = tools[j];
 
-      // toolA.id < toolB.id (alphabetical) for canonical URL
+      // 同じカテゴリを共有するペアのみ生成
+      const hasCommonCategory = toolA.category.some(c => toolB.category.includes(c));
+      if (!hasCommonCategory) continue;
+
       const [first, second] = toolA.id < toolB.id ? [toolA, toolB] : [toolB, toolA];
+      const key = `${first.slug}-vs-${second.slug}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
 
       paths.push({
-        params: { slug: `${first.slug}-vs-${second.slug}` },
+        params: { slug: key },
         props: { toolA: first, toolB: second },
       });
     }

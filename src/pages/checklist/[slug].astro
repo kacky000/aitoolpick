@@ -1,0 +1,281 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  return tools.map((tool) => ({
+    params: { slug: tool.slug },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+
+function getCategoryName(catId: string): string {
+  const cat = categories.find((c) => c.id === catId);
+  return cat ? cat.name : catId.replace(/-/g, ' ');
+}
+
+// Generate checklist items from tool features and best practices
+const setupSteps = [
+  `Create your ${tool.name} account${tool.pricing.free ? ' (start with the free plan)' : ''}`,
+  `Complete your profile and workspace setup`,
+  `Explore the ${tool.features[0] || 'main'} feature`,
+  `Configure ${tool.features[1] || 'your preferences'}`,
+  `Set up ${tool.features[2] || 'integrations'} for your workflow`,
+  `Invite team members or collaborators`,
+  `Import existing data or projects`,
+  `Customize notifications and settings`,
+  `Try ${tool.features[3] || 'advanced features'} for power usage`,
+  `Review ${tool.name} keyboard shortcuts and tips`,
+];
+
+const weeklyChecklist = [
+  `Review your ${getCategoryName(tool.category[0]).toLowerCase()} workflow efficiency`,
+  `Check for new ${tool.name} updates and features`,
+  `Clean up unused projects or items`,
+  `Backup important data`,
+  `Evaluate if your current plan meets your needs`,
+];
+
+const pageTitle = `${tool.name} Setup Checklist — Get Started in 10 Steps`;
+const pageDescription = `Complete ${tool.name} setup checklist. 10 essential steps to get started, plus weekly maintenance tips for maximizing your productivity.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: `How to Set Up ${tool.name}`,
+  description: pageDescription,
+  step: setupSteps.map((step, i) => ({
+    '@type': 'HowToStep',
+    position: i + 1,
+    text: step,
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container" style="max-width: 760px;">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Tools', href: '/tools/' },
+        { label: tool.name, href: `/tools/${tool.slug}/` },
+        { label: 'Setup Checklist' },
+      ]} />
+
+      <div class="checklist-header">
+        <div class="checklist-header-top">
+          {tool.icon && <img src={tool.icon} alt={tool.name} width="44" height="44" style="border-radius: 10px;" />}
+          <div>
+            <h1>{tool.name} Setup Checklist</h1>
+            <p>Get up and running in {setupSteps.length} steps. Track your progress below.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Setup Steps -->
+      <div class="checklist-section">
+        <h2>Initial Setup ({setupSteps.length} steps)</h2>
+        <div class="checklist-items" id="setup-checklist">
+          {setupSteps.map((step, i) => (
+            <label class="checklist-item">
+              <input type="checkbox" data-key={`${tool.slug}-setup-${i}`} />
+              <span class="checkmark"></span>
+              <span class="step-num">{i + 1}.</span>
+              <span class="step-text">{step}</span>
+            </label>
+          ))}
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="setup-progress" style="width: 0%"></div>
+        </div>
+        <span class="progress-label" id="setup-label">0/{setupSteps.length} completed</span>
+      </div>
+
+      <!-- Weekly Maintenance -->
+      <div class="checklist-section">
+        <h2>Weekly Maintenance</h2>
+        <div class="checklist-items" id="weekly-checklist">
+          {weeklyChecklist.map((step, i) => (
+            <label class="checklist-item">
+              <input type="checkbox" data-key={`${tool.slug}-weekly-${i}`} />
+              <span class="checkmark"></span>
+              <span class="step-text">{step}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="checklist-links">
+        <a href={`/tools/${tool.slug}/`} class="btn-secondary">Full Review</a>
+        <a href={`/how-to/${tool.slug}/`} class="btn-secondary">Getting Started Guide</a>
+        <a href={`/pricing/${tool.slug}/`} class="btn-secondary">Pricing Details</a>
+        <a href={tool.website} target="_blank" rel="noopener noreferrer" class="btn-primary">Visit {tool.name} &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', function() {
+      const checkboxes = document.querySelectorAll('.checklist-item input[type="checkbox"]');
+      const progressBar = document.getElementById('setup-progress');
+      const progressLabel = document.getElementById('setup-label');
+      const setupTotal = document.querySelectorAll('#setup-checklist input[type="checkbox"]').length;
+
+      // Restore state
+      checkboxes.forEach(cb => {
+        const key = cb.getAttribute('data-key');
+        if (localStorage.getItem(key) === 'true') {
+          cb.checked = true;
+          cb.closest('.checklist-item').classList.add('completed');
+        }
+      });
+
+      function updateProgress() {
+        const setupChecked = document.querySelectorAll('#setup-checklist input:checked').length;
+        const pct = (setupChecked / setupTotal) * 100;
+        if (progressBar) progressBar.style.width = pct + '%';
+        if (progressLabel) progressLabel.textContent = setupChecked + '/' + setupTotal + ' completed';
+      }
+
+      checkboxes.forEach(cb => {
+        cb.addEventListener('change', function() {
+          const key = this.getAttribute('data-key');
+          localStorage.setItem(key, this.checked);
+          this.closest('.checklist-item').classList.toggle('completed', this.checked);
+          updateProgress();
+        });
+      });
+
+      updateProgress();
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .checklist-header {
+    margin-bottom: 2rem;
+  }
+
+  .checklist-header-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .checklist-header h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+  }
+
+  .checklist-header p {
+    color: var(--gray-600);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .checklist-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .checklist-section h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .checklist-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .checklist-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+  }
+
+  .checklist-item:hover {
+    border-color: var(--primary-light);
+  }
+
+  .checklist-item.completed {
+    background: var(--gray-50);
+    border-color: var(--success, #10b981);
+  }
+
+  .checklist-item.completed .step-text {
+    text-decoration: line-through;
+    color: var(--gray-400);
+  }
+
+  .checklist-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary);
+    cursor: pointer;
+  }
+
+  .step-num {
+    font-weight: 600;
+    color: var(--gray-400);
+    font-size: 0.82rem;
+    min-width: 1.5rem;
+  }
+
+  .step-text {
+    font-size: 0.9rem;
+    color: var(--dark);
+  }
+
+  .progress-bar {
+    height: 6px;
+    background: var(--gray-200);
+    border-radius: 3px;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--primary);
+    border-radius: 3px;
+    transition: width 0.3s;
+  }
+
+  .progress-label {
+    font-size: 0.78rem;
+    color: var(--gray-500);
+    display: block;
+    margin-top: 0.4rem;
+  }
+
+  .checklist-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--gray-200);
+  }
+
+  @media (max-width: 600px) {
+    .checklist-header-top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>

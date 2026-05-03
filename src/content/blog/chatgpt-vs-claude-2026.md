@@ -56,7 +56,7 @@ Claude consistently produces more natural, less formulaic writing. In blind test
 - More willing to take creative risks when asked
 - Clearer in structure without defaulting to endless bullet lists
 
-ChatGPT writes competently and is faster at producing structured outputs like outlines, summaries, and templates. But the "ChatGPT voice" — heavy on transition phrases, bullet points, and a certain upbeat tone — is instantly recognizable.
+ChatGPT writes competently and is faster at producing structured outputs like outlines, summaries, and templates. But the "ChatGPT voice" — heavy on transition phrases, bullet points, and a certain upbeat tone — is [instantly](/tools/instantly/) recognizable.
 
 **Bottom line**: Claude for quality writing. ChatGPT for fast, structured content generation.
 
@@ -68,13 +68,13 @@ Both models are strong coders in 2026, but they have different strengths:
 - Generating boilerplate and starter code quickly
 - Working with mainstream frameworks (React, Django, etc.)
 - Step-by-step explanations for learning
-- Integration with GitHub Copilot ecosystem
+- Integration with [GitHub Copilot](/tools/github-copilot/) ecosystem
 
 **Claude excels at:**
 - Understanding and refactoring large codebases
 - Debugging complex, multi-file issues
 - Writing cleaner, more idiomatic code
-- Claude Code CLI for terminal-based development workflows
+- [Claude Code](/tools/claude-code/) CLI for terminal-based development workflows
 
 Claude's 200K context window is particularly valuable for coding — you can paste an entire project and ask for architectural feedback, something that's harder to do with ChatGPT's 128K limit.
 

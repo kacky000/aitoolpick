@@ -52,7 +52,7 @@ Canva claims over 250,000 templates on its free plan alone, with millions more o
 - **Adobe Fonts** — thousands of premium typefaces included (a $25+/mo value separately)
 - **Creative Cloud libraries** — import assets from Photoshop, Illustrator, and Lightroom
 
-**Winner: Canva.** Template quantity and variety are not close. If you need a starting point for almost any design, Canva will have something relevant. Adobe Express is catching up, but the gap remains wide.
+**Winner: Canva.** Template quantity and variety are not [close](/tools/close/). If you need a starting point for almost any design, Canva will have something relevant. Adobe Express is catching up, but the gap remains wide.
 
 ---
 
@@ -62,18 +62,18 @@ Both tools have invested heavily in AI. Here is where things stand in 2026.
 
 **Canva's AI toolkit (Magic Studio):**
 - **Magic Design** — describe what you need and get a complete design generated automatically
-- **Magic Eraser** — remove unwanted objects from photos
+- **Magic [Eraser](/tools/eraser-io/)** — remove unwanted objects from photos
 - **Magic Expand** — extend image backgrounds beyond the original frame
 - **Magic Write** — AI text generation for captions, headlines, and body copy
 - **Magic Animate** — add animations to any element in one click
 - **Text to Image** — generate original images from text prompts
-- **Magic Resize** — instantly reformat a design for different platforms (Instagram, Facebook, LinkedIn, etc.)
+- **Magic Resize** — [instantly](/tools/instantly/) reformat a design for different platforms (Instagram, Facebook, LinkedIn, etc.)
 
-**Adobe Express's AI toolkit (Adobe Firefly):**
+**Adobe Express's AI toolkit ([Adobe Firefly](/tools/adobe-firefly/)):**
 - **Firefly Image Generation** — create images from text prompts, trained exclusively on licensed content (important for commercial use)
 - **Generative Fill** — add or replace elements in photos using AI
 - **Text Effects** — apply AI-generated textures and styles to text
-- **Generative Recolor** — change the color palette of vector artwork instantly
+- **Generative Recolor** — change the color palette of vector artwork [instantly](/tools/instantly/)
 - **Remove Background** — one-click background removal powered by Photoshop's engine
 
 **Winner: Tie — but for different reasons.** Canva offers more AI features across a broader range of tasks. Adobe Firefly's image generation is arguably higher quality and is trained on licensed content, which matters if you worry about copyright in commercial projects. If you need general-purpose AI design help, Canva has more tools. If image generation quality and legal safety are your priority, Adobe wins.
@@ -96,7 +96,7 @@ Both tools offer brand management features that let you save logos, colors, and 
 - Sync with Creative Cloud libraries — pull in assets from Photoshop and Illustrator
 - Shared brand libraries across team members
 
-**Winner: Canva — slightly.** Both cover the basics well. Canva's Brand Templates with locked elements give design managers more control over what team members can and cannot change. Adobe's Creative Cloud sync is valuable if your brand assets live in Photoshop or Illustrator files, but most small teams will not need that.
+**Winner: Canva — slightly.** Both cover the basics well. Canva's Brand Templates with locked elements give design managers more control over what team members can and cannot change. Adobe's Creative Cloud sync is valuable if your brand assets live in Photoshop or Illustrator files, but most [small teams](/best-for/small-teams/) will not need that.
 
 ---
 
@@ -120,7 +120,7 @@ Video editing in a design tool used to be an afterthought. In 2026, both Canva a
 - Export up to 1080p
 - Merge and resize videos for different platforms
 
-**Winner: Canva.** The video editor is more capable, supports higher resolution output, and has more templates. Adobe Express's video tools feel like an add-on rather than a primary feature. If video editing is a major part of your workflow, neither tool replaces a dedicated editor like Premiere Pro or DaVinci Resolve — but Canva gets you further.
+**Winner: Canva.** The video editor is more capable, supports higher resolution output, and has more templates. Adobe Express's video tools feel like an add-on rather than a primary feature. If video editing is a major part of your workflow, neither tool replaces a dedicated editor like Premiere Pro or [DaVinci Resolve](/tools/davinci-resolve/) — but Canva gets you further.
 
 ---
 
@@ -130,9 +130,9 @@ Video editing in a design tool used to be an afterthought. In 2026, both Canva a
 Canva's editor is famously intuitive. Drag elements onto the canvas, click to edit text, use the sidebar to browse templates and assets. The learning curve is nearly flat — most people figure it out within minutes. The interface has gotten busier over time as features have been added, but the core workflow remains simple.
 
 **Adobe Express:**
-Adobe Express is also easy to use, but it carries some of Adobe's traditional complexity. The interface is clean, but navigation between features (quick actions, templates, brand kit, assets) can feel fragmented. Adobe has improved this significantly from the old Spark days, but Canva still feels more cohesive.
+Adobe Express is also easy to use, but it carries some of Adobe's traditional complexity. The interface is clean, but navigation between features (quick actions, templates, brand kit, assets) can feel fragmented. Adobe has improved this significantly from the old [Spark](/tools/spark-email/) days, but Canva still feels more cohesive.
 
-**Winner: Canva.** Both tools are designed for non-designers, but Canva's editor is smoother and more intuitive. Adobe Express is not difficult — it is just not quite as polished.
+**Winner: Canva.** Both tools are designed for non-[designers](/best-for/designers/), but Canva's editor is smoother and more intuitive. Adobe Express is not difficult — it is just not quite as polished.
 
 ---
 

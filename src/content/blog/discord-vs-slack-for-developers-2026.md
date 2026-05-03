@@ -14,7 +14,7 @@ Here's a direct comparison for developers specifically.
 
 ## The Core Difference
 
-**Slack** is built for work. It integrates with every SaaS tool in the enterprise stack, has a robust admin and compliance layer, and is designed around persistent workspace-based teams.
+**Slack** is built for work. It integrates with every SaaS tool in the enterprise stack, has a robust admin and compliance layer, and is designed [around](/tools/around/) persistent workspace-based teams.
 
 **Discord** is built for community. It started as a gaming platform and evolved into the preferred tool for open source projects, developer communities, and informal technical groups. The server model supports large, public-facing communities far better than Slack.
 
@@ -37,7 +37,7 @@ Notable dev communities on Discord in 2026:
 
 Discord's "voice channel" model is fundamentally different from Slack's. In Discord, you join a persistent voice channel and others can see you're there and join. In Slack, you have to initiate a Huddle explicitly.
 
-For dev teams that do a lot of informal pairing, quick voice check-ins, or "office hours" style availability, Discord's model is more natural. You can see that two engineers are already in the "debugging" voice channel and jump in without scheduling anything.
+For dev teams that do a lot of informal pairing, quick voice check-ins, or "office [hours](/tools/hours-tracker/)" style availability, Discord's model is more natural. You can see that two engineers are already in the "debugging" voice channel and jump in without scheduling anything.
 
 ### Cost for Larger Communities
 
@@ -51,7 +51,7 @@ For a 100-person developer community, Slack Pro would run $725/month. Discord is
 
 ### Enterprise Engineering Teams
 
-For a 50+ person product engineering team inside a company, Slack's enterprise feature set is better. IT admins get granular access controls, SSO integration with Okta or Azure AD, data retention policies, eDiscovery compliance, and audit logging.
+For a 50+ person product engineering team inside a company, Slack's enterprise feature set is better. IT admins get granular access controls, SSO integration with [Okta](/tools/okta/) or Azure AD, data retention policies, eDiscovery compliance, and audit logging.
 
 These aren't relevant for open source communities. But for engineering teams subject to SOC2, HIPAA, or regulatory audits, they matter significantly.
 
@@ -95,7 +95,7 @@ For bootstrapped projects, open source communities, and early-stage startups, Di
 ## The Verdict for Developers
 
 - **Building or contributing to an open source project or developer community?** Discord is the default choice and for good reason.
-- **Working on a product team inside a company?** Slack's integrations, compliance features, and threading model make it better for work.
+- **Working on a product team inside a company?** Slack's integrations, compliance features, and threading model [make](/tools/make/) it better for work.
 - **Running a small dev shop on a tight budget?** Discord works surprisingly well and costs nothing.
 
 The mistake is treating this as a universal question. Most experienced developers end up using both — Discord for community participation and Slack for work.

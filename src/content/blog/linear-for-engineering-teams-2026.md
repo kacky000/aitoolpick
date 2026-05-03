@@ -7,7 +7,7 @@ tags: ["linear", "project-management", "engineering", "software-development"]
 
 # Linear for Engineering Teams: The Complete 2026 Guide
 
-If you're an engineering leader tired of cluttered Jira boards and slow stand-ups, Linear might be the tool that changes your workflow. Built specifically for software teams, Linear has become the project management tool of choice for hundreds of fast-moving engineering organizations.
+If you're an engineering leader tired of cluttered Jira boards and slow stand-ups, Linear might be the tool that changes your workflow. Built specifically for software teams, Linear has become the [project management](/category/project-management/) tool of choice for hundreds of fast-moving engineering organizations.
 
 This guide covers everything you need to know about using Linear with your engineering team — from initial setup to advanced workflows.
 
@@ -15,11 +15,11 @@ This guide covers everything you need to know about using Linear with your engin
 
 Linear was designed with engineers in mind. Unlike general-purpose tools, every feature serves the software development lifecycle. Here's what makes it stand out:
 
-**Speed first.** Linear's interface loads in milliseconds. Keyboard shortcuts let you create, assign, and close issues without touching the mouse. Engineers who live in the terminal appreciate this.
+**Speed first.** Linear's interface loads in milliseconds. Keyboard shortcuts let you create, assign, and [close](/tools/close/) issues without touching the mouse. Engineers who live in the terminal appreciate this.
 
-**Git integration out of the box.** Linear connects directly to GitHub, GitLab, and Bitbucket. Pull requests automatically link to issues, and branches can be created from within Linear. When a PR merges, the issue status updates automatically.
+**Git integration out of the box.** Linear connects directly to [GitHub](/tools/github/), GitLab, and Bitbucket. Pull requests automatically link to issues, and branches can be created from within Linear. When a PR merges, the issue status updates automatically.
 
-**Cycles (sprints) that don't get in the way.** Linear's sprint system, called Cycles, is lightweight compared to Jira's sprint planning ceremony. You set a duration, add issues, and go. No points, no burn-down charts unless you want them.
+**Cycles (sprints) that don't get in the way.** Linear's sprint system, called Cycles, is lightweight compared to [Jira](/tools/jira/)'s sprint planning ceremony. You set a duration, add issues, and go. No points, no burn-down charts unless you want them.
 
 **Triage built-in.** Incoming bug reports land in a Triage queue. Engineers can accept, reject, or re-route issues before they pollute the main backlog. This keeps the board clean.
 
@@ -96,9 +96,9 @@ Connect Linear to Slack. Set up automated Slack messages when issues move to spe
 
 ## Linear vs Jira for Engineering Teams
 
-The most common question: should we switch from Jira to Linear?
+The most common question: should we switch from [Jira](/tools/jira/) to Linear?
 
-| Feature | Linear | Jira |
+| Feature | Linear | [Jira](/tools/jira/) |
 |---------|--------|------|
 | Speed | Very fast | Often slow |
 | Setup complexity | Low | High |
@@ -107,7 +107,7 @@ The most common question: should we switch from Jira to Linear?
 | Enterprise controls | Limited | Strong |
 | Cost | $8–14/user/month | $8.15–16/user/month |
 
-For small to mid-size engineering teams (5–50 engineers), Linear typically wins on speed and developer experience. Jira is worth keeping when you need complex workflows, advanced reporting, or deep enterprise integrations like Confluence or Salesforce.
+For small to mid-size engineering teams (5–50 engineers), Linear typically wins on speed and developer experience. Jira is worth keeping when you need complex workflows, advanced reporting, or deep enterprise integrations like Confluence or [Salesforce](/tools/salesforce/).
 
 For a detailed comparison, see our [Linear vs Jira 2026 guide](/blog/linear-vs-jira-2026).
 
@@ -119,11 +119,11 @@ For a detailed comparison, see our [Linear vs Jira 2026 guide](/blog/linear-vs-j
 
 **Not using Cycles.** Teams that skip sprints often struggle with prioritization. Even a lightweight two-week Cycle forces conversations about what matters now.
 
-**Using Linear like a task manager.** Linear is an engineering project management tool. It works best when issues map to code changes. Personal to-do items belong in Todoist or Notion, not Linear.
+**Using Linear like a task manager.** Linear is an engineering project management tool. It works best when issues map to code changes. Personal to-do items belong in [Todoist](/tools/todoist/) or Notion, not Linear.
 
 ## Getting Started Today
 
-Linear offers a free plan for small teams (up to 250 issues). Most engineering teams will need the Standard plan at $8/user/month for Cycles, GitHub integration, and team management features.
+Linear offers a free plan for [small teams](/best-for/small-teams/) (up to 250 issues). Most engineering teams will need the Standard plan at $8/user/month for Cycles, GitHub integration, and team management features.
 
 Start with a two-week trial: import your top 20 open bugs from whatever tool you use today, configure the GitHub integration, and run one Cycle. Most teams don't go back.
 

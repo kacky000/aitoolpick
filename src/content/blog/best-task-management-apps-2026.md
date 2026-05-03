@@ -43,7 +43,7 @@ ClickUp tries to replace everything: tasks, docs, goals, whiteboards, and time t
 - **Limitation:** Can feel overwhelming initially
 
 ### 5. Asana — Best for Marketing Teams
-Asana's clean interface, Timeline view, and powerful automations make it ideal for marketing teams managing campaigns, content calendars, and cross-functional projects.
+Asana's clean interface, Timeline view, and powerful automations [make](/tools/make/) it ideal for marketing teams managing campaigns, content calendars, and cross-functional projects.
 
 - **Price:** Free / $10.99/user/mo / $24.99/user/mo
 - **Standout:** Beautiful Timeline view, strong automations
@@ -57,7 +57,7 @@ Trello's Kanban boards are the easiest way to visualize task workflows. Drag-and
 - **Limitation:** Not suited for complex projects
 
 ### 7. Linear — Best for Engineering Teams
-Linear is blazing fast with a keyboard-first design built for software development. Cycles, roadmaps, and Git integration make sprint planning seamless.
+Linear is blazing fast with a keyboard-first design built for software development. Cycles, roadmaps, and Git integration [make](/tools/make/) sprint planning seamless.
 
 - **Price:** Free / $10/user/mo / $16/user/mo
 - **Standout:** Speed, keyboard shortcuts, Git integration
@@ -80,7 +80,7 @@ Monday.com's visual, no-code approach makes it accessible to HR, operations, and
 - **Limitation:** Expensive at scale, minimum 3 seats
 
 ### 10. Google Tasks — Best Free Minimalist Option
-Built into Gmail and Google Calendar, Google Tasks is the simplest option for people who just need a basic to-do list without another app to manage.
+Built into Gmail and [Google Calendar](/tools/google-calendar/), Google Tasks is the simplest option for people who just need a basic to-do list without another app to manage.
 
 - **Price:** Free
 - **Standout:** Zero friction if you use Google Workspace

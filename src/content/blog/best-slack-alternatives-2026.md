@@ -18,7 +18,7 @@ If your organization already uses Microsoft 365, Teams is the obvious choice. It
 
 **Why choose Teams over Slack:**
 - Included with Microsoft 365 subscriptions
-- Better video conferencing
+- Better [video conferencing](/category/video-conferencing/)
 - Native Office document collaboration
 - Larger meeting capacity (up to 10,000 participants)
 
@@ -44,12 +44,12 @@ Discord isn't just for gamers anymore. Many startups and open-source teams use i
 
 **Pricing:** Included with Google Workspace ($7/user/mo+)
 
-Google Chat is tightly integrated with Gmail, Google Drive, Docs, and Meet. If your team lives in Google Workspace, it's the natural communication layer.
+Google Chat is tightly integrated with Gmail, [Google Drive](/tools/google-drive/), Docs, and Meet. If your team lives in Google Workspace, it's the natural communication layer.
 
 **Why choose Google Chat over Slack:**
 - Included with Google Workspace
-- Native Google Drive integration
-- Seamless Google Meet video calls
+- Native [Google Drive](/tools/google-drive/) integration
+- Seamless [Google Meet](/tools/google-meet/) video calls
 - Spaces for topic-based discussions
 
 **Where Slack wins:** More integrations, better threading, richer app ecosystem.
@@ -72,7 +72,7 @@ For organizations that need full control over their data, Rocket.Chat offers a s
 
 **Pricing:** Free / Custom pricing for enterprise
 
-Lark (by ByteDance) bundles messaging, video meetings, docs, calendar, and project management into one platform — all for free for small teams.
+Lark (by ByteDance) bundles messaging, video meetings, docs, calendar, and [project management](/category/project-management/) into one platform — all for free for small teams.
 
 **Why choose Lark over Slack:**
 - Messaging + docs + calendar + video in one app
@@ -86,7 +86,7 @@ Lark (by ByteDance) bundles messaging, video meetings, docs, calendar, and proje
 
 **Pricing:** Free / $6/user/mo (Unlimited)
 
-Built by the Todoist team, Twist is designed for async-first teams. Instead of real-time chat that demands constant attention, Twist organizes conversations into threads.
+Built by the [Todoist](/tools/todoist/) team, Twist is designed for async-first teams. Instead of real-time chat that demands constant attention, Twist organizes conversations into threads.
 
 **Why choose Twist over Slack:**
 - Async-first design reduces interruptions

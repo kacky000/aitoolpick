@@ -16,13 +16,13 @@ This guide covers how to apply, what you get, and how nonprofits are using Canva
 Through Canva's nonprofit program, qualifying organizations receive **Canva for Teams** at no cost. This includes:
 
 - **Canva Pro features**: 100+ million stock photos, videos, and elements; AI-powered design tools; premium templates; background remover; resize and translation tools
-- **Brand Kit**: Upload your logo, set brand colors, and save approved fonts — so every team member designs on-brand automatically
+- **Brand [Kit](/tools/kit/)**: Upload your logo, set brand colors, and save approved fonts — so every team member designs on-brand automatically
 - **Team collaboration**: Multiple team members can access and edit designs
 - **100GB storage**: Store all your organization's visual assets in one place
 - **Social media scheduler**: Schedule posts directly from Canva to Facebook, Instagram, LinkedIn, and Pinterest
 - **Version history**: Recover previous versions of any design
 
-For resource-constrained nonprofits, this eliminates the need for expensive design software and freelance design fees for routine materials.
+For resource-constrained nonprofits, this eliminates the need for expensive design software and freelance design fees for [routine](/tools/routine/) materials.
 
 ## How to Apply for Canva for Nonprofits
 
@@ -53,19 +53,19 @@ Canva's annual report templates work well for impact reports — drop in your ph
 
 ### Social Media Content
 
-Nonprofits need a constant stream of content: campaign updates, volunteer spotlights, fundraising milestones, event announcements. Canva makes this manageable for small teams.
+Nonprofits need a constant stream of content: campaign updates, volunteer spotlights, fundraising milestones, event announcements. Canva makes this manageable for [small teams](/best-for/small-teams/).
 
-The Brand Kit ensures every post looks cohesive — consistent colors, fonts, and logo placement. Non-designers on staff can create on-brand posts without graphic design training.
+The Brand Kit ensures every post looks cohesive — consistent colors, fonts, and logo placement. Non-[designers](/best-for/designers/) on staff can create on-brand posts without graphic design training.
 
 Use Canva's social media scheduler to batch-create and schedule a week of content in one session, then post automatically throughout the week.
 
 ### Event Graphics
 
-Gala invitations, event programs, sponsor recognition slides, event banners — Canva has templates for all of them. For nonprofits running annual fundraising events, having all event materials in one platform (and archived for next year) is a meaningful time saver.
+Gala invitations, event programs, sponsor recognition [slides](/tools/slides-com/), event banners — Canva has templates for all of them. For nonprofits running annual fundraising events, having all event materials in one platform (and archived for next year) is a meaningful time saver.
 
 ### Grant Applications
 
-Some grant applications require visual attachments — org charts, program logic models, impact maps. Canva's presentation and diagram templates make these quick to produce.
+Some grant applications require visual attachments — org charts, program logic models, impact maps. Canva's presentation and diagram templates [make](/tools/make/) these quick to produce.
 
 Store finalized grant appendices in Canva so you can update and reuse them across multiple applications.
 
@@ -77,7 +77,7 @@ Job posting graphics, volunteer orientation guides, recognition certificates —
 
 ### Step 1: Upload Your Brand Kit
 
-Before your team starts creating anything, set up your Brand Kit:
+Before your team starts creating anything, set up your Brand [Kit](/tools/kit/):
 - Upload your logo in multiple formats (PNG with transparent background is most versatile)
 - Set your primary and secondary brand colors (hex codes)
 - Upload your approved fonts

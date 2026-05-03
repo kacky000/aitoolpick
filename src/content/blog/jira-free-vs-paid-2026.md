@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Jira Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-Jira's free plan looks generous on paper — unlimited projects, Scrum and Kanban boards, basic roadmaps, and Atlassian Intelligence. But the 10-user cap and support limitations make it a staging environment, not a production choice for most teams.
+Jira's free plan looks generous on paper — unlimited projects, Scrum and Kanban boards, basic roadmaps, and Atlassian Intelligence. But the 10-user cap and support limitations [make](/tools/make/) it a staging environment, not a production choice for most teams.
 
 Here is exactly where the line is between Jira Free and paid plans in 2026.
 
@@ -24,7 +24,7 @@ Here is exactly where the line is between Jira Free and paid plans in 2026.
 | Advanced Roadmaps | No | No | Yes |
 | Atlassian Intelligence | Limited | Limited | Full |
 | Data residency | No | Yes | Yes |
-| Support | Community | Business hours | 24/7 premium |
+| Support | Community | Business [hours](/tools/hours-tracker/) | 24/7 premium |
 | Price | $0 | $8.60/user/month | $17/user/month |
 
 ## Where Free Falls Short
@@ -33,7 +33,7 @@ Here is exactly where the line is between Jira Free and paid plans in 2026.
 Jira Free hard-caps at 10 users. There is no workaround — no read-only guests, no contractor exceptions. Once you hit 11 team members who need any kind of access, you upgrade or leave.
 
 ### Automation Limits That Actually Hurt
-100 automation runs per month sounds like a lot until you count: automated status transitions, Slack notifications, issue assignments, and sprint completion workflows. Active teams hit this within days.
+100 automation runs per month sounds like a lot until you count: automated status transitions, [Slack](/tools/slack/) notifications, issue assignments, and sprint completion workflows. Active teams hit this within days.
 
 ### Community Support Only
 No SLAs, no ticketing system, no phone support. When Jira goes down or something breaks badly, the only recourse is the Atlassian Community forums. For a production engineering tool, this is a significant risk.
@@ -48,7 +48,7 @@ Despite the limits, Jira Free is genuinely functional:
 - **Full Scrum and Kanban boards** — not stripped down versions
 - **Custom workflows** — you can model complex state machines even on Free
 - **Backlog management** — sprint planning, story points, epics
-- **Integration with GitHub/Bitbucket** — commit linking works on Free
+- **Integration with [GitHub](/tools/github/)/Bitbucket** — commit linking works on Free
 - **Basic Atlassian Intelligence** — issue summaries and description generation are partially available
 
 For a founding team of 5 engineers validating whether Jira fits their process, Free is a real evaluation environment.
@@ -71,7 +71,7 @@ Upgrade to Premium ($17/user/month) when:
 - Your Jira instance has grown and you need archiving to keep it clean
 - You want unlimited automations without tracking runs
 
-Premium becomes cost-effective around 20+ engineers because Advanced Roadmaps alone replaces external roadmap tools that cost $10-20/user/month.
+Premium becomes cost-effective [around](/tools/around/) 20+ engineers because Advanced Roadmaps alone replaces external roadmap tools that cost $10-20/user/month.
 
 ## The Hidden Upgrade Driver: Scale
 

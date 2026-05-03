@@ -12,10 +12,10 @@ For a deeper dive into what Google Meet itself offers, check our [Google Meet re
 
 ## What Makes Google Meet Worth Replacing?
 
-Google Meet works well for quick calls and integrates seamlessly with Gmail and Google Calendar. But it has real limitations:
+Google Meet works well for quick calls and integrates seamlessly with Gmail and [Google Calendar](/tools/google-calendar/). But it has real limitations:
 
 - **Free plan caps at 60 minutes** — fine for a standup, frustrating for a workshop
-- **Limited breakout room controls** — basic compared to Zoom or Webex
+- **Limited breakout room controls** — basic compared to [Zoom](/tools/zoom/) or Webex
 - **No persistent chat or channels** — the meeting ends and context disappears
 - **Ecosystem lock-in** — if you don't use Google Workspace, Meet adds friction instead of reducing it
 - **Recording only on paid plans** — free users cannot record meetings at all
@@ -48,7 +48,7 @@ For a head-to-head comparison with Microsoft's offering, see [Microsoft Teams vs
 Teams is not just a video calling app. It combines persistent chat, file sharing, collaborative documents, and video meetings into one workspace. If your company already pays for Microsoft 365, Teams is included at no extra cost — making it the most cost-effective Meet alternative for many organizations.
 
 **Why pick Teams over Google Meet:**
-- **Persistent channels** — conversations continue before and after meetings, with threaded replies and file sharing
+- **Persistent channels** — conversations [continue](/tools/continue/) before and after meetings, with threaded replies and file sharing
 - **Copilot AI** — meeting recaps, suggested action items, and intelligent search across chat history
 - **Deep Office integration** — co-edit Word, Excel, and PowerPoint files without leaving Teams
 - **Together Mode** — places participants in a shared virtual space, reducing "gallery view" fatigue
@@ -65,7 +65,7 @@ Teams is not just a video calling app. It combines persistent chat, file sharing
 Slack Huddles are the opposite of a scheduled meeting. Click a button in any Slack channel and start talking. No calendar invite, no meeting link, no waiting room. It is the digital equivalent of tapping someone on the shoulder.
 
 **Why pick Slack Huddles over Google Meet:**
-- **Zero scheduling friction** — start a huddle from any channel or DM instantly
+- **Zero scheduling friction** — start a huddle from any channel or DM [instantly](/tools/instantly/)
 - **Screen sharing with drawing** — annotate shared screens in real time
 - **Threaded context** — the huddle happens inside a Slack channel where all your project context already lives
 - **Multi-person huddles** — up to 50 participants on paid plans
@@ -115,7 +115,7 @@ Discord started as a gaming platform, but remote teams have adopted it for its a
 
 **Pricing:** Free | Pro $8.50/user/mo
 
-Around is built for teams that treat meetings as the exception, not the rule. Its floating video bubbles sit in the corner of your screen, keeping your face visible without dominating your workspace. Meetings start instantly — no links, no scheduling.
+Around is built for teams that treat meetings as the exception, not the rule. Its floating video bubbles sit in the corner of your screen, keeping your face visible without dominating your workspace. Meetings start [instantly](/tools/instantly/) — no links, no scheduling.
 
 **Why pick Around over Google Meet:**
 - **Non-intrusive video** — small floating bubbles instead of full-screen gallery view
@@ -136,7 +136,7 @@ Whereby lets you create permanent meeting rooms with custom URLs. Send someone `
 
 **Why pick Whereby over Google Meet:**
 - **Branded meeting rooms** — custom URLs and room backgrounds with your logo
-- **No downloads required** — guests join in any browser, instantly
+- **No downloads required** — guests join in any browser, [instantly](/tools/instantly/)
 - **Embeddable** — add video calls directly into your website or app with Whereby's API
 - **Persistent rooms** — the same URL works every time, no new links to share
 - **Simple pricing** — straightforward plans without per-user enterprise pricing
@@ -165,7 +165,7 @@ Whereby lets you create permanent meeting rooms with custom URLs. Send someone `
 - **Enterprise compliance required?** Webex has the certifications
 - **Budget is zero?** Discord gives unlimited free calls
 - **Hate formal meetings?** Around makes video calls feel lightweight
-- **Meeting external clients?** Whereby's branded rooms make a good impression
+- **Meeting external clients?** Whereby's branded rooms [make](/tools/make/) a good impression
 
 ## The Bottom Line
 

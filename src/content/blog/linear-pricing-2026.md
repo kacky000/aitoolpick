@@ -6,7 +6,7 @@ heroImage: "/thumbs/linear-pricing-2026.jpg"
 tags: ["linear", "pricing", "project-management"]
 lastModified: "2026-04-26"
 ---
-**Linear** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
+**[Linear](/tools/linear-app/)** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
 Linear has become the go-to issue tracking tool for modern engineering teams. But is it worth the price? Here's a complete breakdown of Linear's pricing in 2026, including what you get at each tier and who each plan is designed for.
 
@@ -23,14 +23,14 @@ Linear's free plan is surprisingly generous for an enterprise-quality tool:
 - Unlimited issues
 - Unlimited members
 - All core views (board, list, timeline)
-- Git integration (GitHub, GitLab)
+- Git integration ([GitHub](/tools/github/), GitLab)
 - Cycles and projects
 - API access
 - 250MB file storage
 
 The free plan works well for teams up to about 10 people. You get the full Linear experience — the speed, the keyboard shortcuts, the beautiful UI — without paying anything.
 
-**Best for**: Startups, open-source teams, and small engineering teams.
+**Best for**: [Startups](/best-for/startups/), open-source teams, and small engineering teams.
 
 ### Basic — $8/user/month
 
@@ -95,12 +95,12 @@ Enterprise pricing is negotiated based on team size and requirements. Expect sig
 | Tool | Free Plan | Starting Price | Per User (Mid-tier) |
 |------|-----------|---------------|---------------------|
 | Linear | ✅ (unlimited) | $8/user/mo | $14/user/mo |
-| Asana | ✅ (10 users) | $10.99/user/mo | $24.99/user/mo |
-| Monday.com | ✅ (2 seats) | $9/seat/mo | $12/seat/mo |
-| ClickUp | ✅ | $7/user/mo | $12/user/mo |
-| Jira | ✅ (10 users) | $7.75/user/mo | $15.25/user/mo |
+| [Asana](/tools/asana/) | ✅ (10 users) | $10.99/user/mo | $24.99/user/mo |
+| [Monday.com](/tools/monday/) | ✅ (2 seats) | $9/seat/mo | $12/seat/mo |
+| [ClickUp](/tools/clickup/) | ✅ | $7/user/mo | $12/user/mo |
+| [Jira](/tools/jira/) | ✅ (10 users) | $7.75/user/mo | $15.25/user/mo |
 
-Linear's pricing is competitive, especially considering its free plan has no user cap. Compared to Jira — the traditional choice for engineering teams — Linear is slightly more expensive at the Basic tier but offers a dramatically better user experience.
+Linear's pricing is competitive, especially considering its free plan has no user cap. Compared to [Jira](/tools/jira/) — the traditional choice for engineering teams — Linear is slightly more expensive at the Basic tier but offers a dramatically better user experience.
 
 Read more: [Linear vs Asana comparison](/blog/linear-vs-asana-2026)
 
@@ -109,7 +109,7 @@ Read more: [Linear vs Asana comparison](/blog/linear-vs-asana-2026)
 ### It's worth it if:
 
 - Your team values **speed and keyboard-driven workflows**
-- You're tired of Jira's complexity and slow performance
+- You're tired of [Jira](/tools/jira/)'s complexity and slow performance
 - You need **tight Git integration** without configuration headaches
 - You want a tool that **developers actually enjoy using**
 - Your team is growing and needs better issue tracking
@@ -118,12 +118,12 @@ Read more: [Linear vs Asana comparison](/blog/linear-vs-asana-2026)
 
 - You need features beyond issue tracking (docs, wikis, CRM)
 - Your team isn't primarily engineering-focused
-- You need extensive customization (Jira's flexibility is unmatched)
+- You need extensive customization ([Jira](/tools/jira/)'s flexibility is unmatched)
 - Budget is extremely tight (the free plan covers most needs)
 
 ## Tips to Save on Linear
 
-1. **Start with Free** — it's legitimately usable for most small teams
+1. **Start with Free** — it's legitimately usable for most [small teams](/best-for/small-teams/)
 2. **Pay annually** — save 20% on Basic ($8 vs $10) and 12.5% on Business ($14 vs $16)
 3. **Only upgrade for what you need** — if you don't need SSO or audit logs, Basic is enough
 4. **Startup program** — Linear offers discounts for early-stage startups (check their website)

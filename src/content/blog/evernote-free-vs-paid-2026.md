@@ -22,7 +22,7 @@ The free tier is now extremely limited:
 
 **What's missing:** Multi-device sync, search in documents/PDFs, offline access, larger uploads, and OCR in images.
 
-The 1-device and 50-note limits make the free plan essentially a trial, not a real tool.
+The 1-device and 50-note limits [make](/tools/make/) the free plan essentially a trial, not a real tool.
 
 ## Evernote Starter ($10.83/month)
 
@@ -49,7 +49,7 @@ Advanced is for power users:
 
 ## Who Should Stay Free?
 
-Honestly? Almost nobody. The 50-note limit and single-device restriction make the free plan viable only for:
+Honestly? Almost nobody. The 50-note limit and single-device restriction [make](/tools/make/) the free plan viable only for:
 
 - **Testing Evernote** before committing
 - **Light personal notes** on a single device
@@ -61,7 +61,7 @@ If you want to use Evernote at all, you need at minimum the **Starter plan**. Th
 
 ## The Real Question: Should You Use Evernote at All?
 
-At $10.83/month for basic functionality that competitors offer for free, Evernote is a tough sell in 2026. Notion, Obsidian, and Apple Notes all offer more on their free tiers.
+At $10.83/month for basic functionality that competitors offer for free, Evernote is a tough sell in 2026. Notion, [Obsidian](/tools/obsidian/), and Apple Notes all offer more on their free tiers.
 
 Explore your options: [Best Evernote alternatives](/alternatives/evernote/) or compare [Notion vs Evernote](/compare/evernote-vs-notion/) directly.
 

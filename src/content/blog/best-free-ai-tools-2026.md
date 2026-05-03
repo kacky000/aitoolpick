@@ -21,7 +21,7 @@ OpenAI's ChatGPT remains the most versatile free AI tool available. The free tie
 - File upload and analysis
 - Custom GPTs from the marketplace
 
-**Limitations:** Rate limits during peak hours, no advanced data analysis tools, limited GPT-4o usage before falling back to the lighter model.
+**Limitations:** Rate limits during peak [hours](/tools/hours-tracker/), no advanced data analysis tools, limited GPT-4o usage before falling back to the lighter model.
 
 **Best for:** Writers, students, developers, and anyone who needs a capable AI assistant for varied tasks.
 
@@ -29,10 +29,10 @@ If you're wondering how ChatGPT compares to its main competitor, read our [ChatG
 
 ## 2. Claude (Free Tier) — Best for Long Documents and Thoughtful Writing
 
-Anthropic's Claude has carved out a strong niche as the AI that writes more naturally and handles long documents better than anyone else. The free tier is surprisingly generous.
+Anthropic's [Claude](/tools/claude/) has carved out a strong niche as the AI that writes more naturally and handles long documents better than anyone else. The free tier is surprisingly generous.
 
 **What you get for free:**
-- Claude 3.5 Sonnet access
+- [Claude](/tools/claude/) 3.5 Sonnet access
 - 100K+ context window for long documents
 - Artifacts for code and documents
 - Project organization features
@@ -59,7 +59,7 @@ Perplexity AI has quietly become the best tool for research. Unlike traditional 
 
 ## 4. Canva (Free Tier with AI) — Best for AI-Powered Design
 
-Canva's free plan includes several AI-powered features that make professional design accessible to everyone. Magic Write helps with copy, while text-to-image generation and background removal handle visual tasks.
+Canva's free plan includes several AI-powered features that [make](/tools/make/) professional design accessible to everyone. Magic Write helps with copy, while text-to-image generation and background removal handle visual tasks.
 
 **What you get for free:**
 - Drag-and-drop editor with 250,000+ templates
@@ -68,7 +68,7 @@ Canva's free plan includes several AI-powered features that make professional de
 - Background remover (limited uses)
 - Social media scheduling
 
-**Limitations:** Limited AI credits, no Brand Kit on free plan, some templates are Pro-only.
+**Limitations:** Limited AI credits, no Brand [Kit](/tools/kit/) on free plan, some templates are Pro-only.
 
 **Best for:** Marketers, social media managers, small businesses, and non-designers who need professional-looking graphics quickly.
 
@@ -76,7 +76,7 @@ See how Canva stacks up against professional design tools in our [Canva vs Figma
 
 ## 5. Grammarly (Free Tier) — Best for AI Writing Improvement
 
-Grammarly's free tier catches grammar, spelling, and punctuation errors in real-time across virtually every platform you write on. The browser extension works in Gmail, Google Docs, social media, and more.
+Grammarly's free tier catches grammar, spelling, and punctuation errors in real-time across virtually every platform you write on. The browser extension works in Gmail, [Google Docs](/tools/google-docs/), social media, and more.
 
 **What you get for free:**
 - Grammar and spelling corrections
@@ -124,7 +124,7 @@ Zapier's free plan lets you automate repetitive tasks between 6,000+ apps. The r
 | Tool | Category | Free Tier Quality | Best For |
 |------|----------|------------------|----------|
 | ChatGPT | General AI | Excellent | Everything |
-| Claude | Writing/Research | Very Good | Long documents |
+| [Claude](/tools/claude/) | Writing/Research | Very Good | Long documents |
 | Perplexity | Research | Excellent | Cited research |
 | Canva | Design | Very Good | Visual content |
 | Grammarly | Writing | Good | Error-free writing |
@@ -135,7 +135,7 @@ Zapier's free plan lets you automate repetitive tasks between 6,000+ apps. The r
 
 The smartest approach in 2026 isn't to pick one AI tool — it's to use several free tiers strategically:
 
-1. **ChatGPT or Claude** for general writing, brainstorming, and coding
+1. **ChatGPT or [Claude](/tools/claude/)** for general writing, brainstorming, and coding
 2. **Perplexity** for research that needs source citations
 3. **Canva** for design work and social media graphics
 4. **Grammarly** for proofreading everything you publish

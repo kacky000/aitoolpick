@@ -25,7 +25,7 @@ Asana is built for project managers. Timeline view for Gantt-style planning, wor
 
 **Price:** Free (2 users) | Basic $9/seat/mo | Standard $12/seat/mo | Pro $19/seat/mo
 
-Monday.com's visual dashboards are its killer feature. Every status update, timeline shift, and workload change is visible at a glance. The automation and integration capabilities on Standard and Pro plans make it powerful for cross-functional teams.
+Monday.com's visual dashboards are its killer feature. Every status update, timeline shift, and workload change is visible at a glance. The automation and integration capabilities on Standard and Pro plans [make](/tools/make/) it powerful for cross-functional teams.
 
 **Best for:** PMs who want visual dashboards and automated reporting.
 
@@ -47,7 +47,7 @@ ClickUp packs more features per dollar than any competitor. Docs, whiteboards, g
 
 **Price:** Free (up to 250 issues) | Basic $8/user/mo | Business $16/user/mo
 
-Linear is the fastest issue tracker on the market. Purpose-built for software teams, it handles sprints, cycles, roadmaps, and bug tracking with a keyboard-first interface that engineers love. If you manage engineering projects, nothing else comes close.
+Linear is the fastest issue tracker on the market. Purpose-built for software teams, it handles sprints, cycles, roadmaps, and bug tracking with a keyboard-first interface that engineers love. If you manage engineering projects, nothing else comes [close](/tools/close/).
 
 **Best for:** Engineering PMs and technical program managers.
 
@@ -91,7 +91,7 @@ Airtable is a spreadsheet-database hybrid that lets PMs build custom project man
 
 **Price:** Free (3 boards) | Starter $8/user/mo | Business $16/user/mo
 
-Miro complements your PM tool rather than replacing it. Use it for sprint planning, retrospectives, brainstorming sessions, and stakeholder mapping. The infinite canvas and real-time collaboration make remote planning sessions feel natural.
+Miro complements your PM tool rather than replacing it. Use it for sprint planning, retrospectives, brainstorming sessions, and stakeholder mapping. The infinite canvas and real-time collaboration [make](/tools/make/) remote planning sessions feel natural.
 
 **Best for:** PMs who run frequent planning workshops and team sessions.
 

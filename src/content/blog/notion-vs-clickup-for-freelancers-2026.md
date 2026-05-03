@@ -54,13 +54,13 @@ For freelancers managing 3-5 active clients, the difference matters.
 
 **Notion** uses databases with views (Kanban, table, calendar) to track projects. It's flexible but requires setup time. You build your own system from scratch, which is powerful but can be overwhelming.
 
-**ClickUp** gives you a structured project management system out of the box. Tasks, subtasks, dependencies, and multiple views come ready to use. Less customization, but faster to get started.
+**ClickUp** gives you a structured [project management](/category/project-management/) system out of the box. Tasks, subtasks, dependencies, and multiple views come ready to use. Less customization, but faster to get started.
 
 ## Time Tracking
 
-This is where ClickUp has a clear advantage. **ClickUp includes native time tracking** on every task — start a timer, log hours, and generate reports. For freelancers billing hourly, this eliminates the need for a separate tool like Toggl or Harvest.
+This is where ClickUp has a clear advantage. **ClickUp includes native time tracking** on every task — start a timer, log hours, and generate reports. For freelancers billing hourly, this eliminates the need for a separate tool like Toggl or [Harvest](/tools/harvest/).
 
-**Notion has no built-in time tracking.** You'd need a third-party integration or manually log hours in a database.
+**Notion has no built-in time tracking.** You'd need a third-party integration or manually log [hours](/tools/hours-tracker/) in a database.
 
 ## Note-Taking and Knowledge Base
 
@@ -70,7 +70,7 @@ Notion wins decisively here. Its document editor is best-in-class for freelancer
 - Create SOPs and process docs
 - Store reference materials and inspiration
 
-ClickUp has Docs, but they feel secondary to the task management features.
+ClickUp has Docs, but they feel secondary to the [task management](/category/task-management/) features.
 
 ## Mobile Experience
 

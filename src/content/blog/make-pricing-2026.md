@@ -24,7 +24,7 @@ All paid plans are billed monthly. Annual billing options provide discounts.
 
 ## How Make Credits Work
 
-Make's pricing revolves around **credits** — but what counts as a credit?
+Make's pricing revolves [around](/tools/around/) **credits** — but what counts as a credit?
 
 - **1 operation = 1 credit** (usually). An operation is each module that processes data in your scenario.
 - A scenario with 5 modules that runs once = ~5 credits
@@ -37,8 +37,8 @@ Imagine a scenario that:
 1. Watches for new emails (1 credit)
 2. Filters by subject line (1 credit)
 3. Extracts attachments (1 credit)
-4. Uploads to Google Drive (1 credit)
-5. Sends a Slack notification (1 credit)
+4. Uploads to [Google Drive](/tools/google-drive/) (1 credit)
+5. Sends a [Slack](/tools/slack/) notification (1 credit)
 
 **Total: ~5 credits per run.** If this runs 100 times/month = 500 credits.
 
@@ -56,7 +56,7 @@ Best for trying out Make before committing.
 **Verdict:** Good for testing. Too limited for real production use.
 
 ### Core Plan ($10.59/month)
-The sweet spot for freelancers and small businesses.
+The sweet spot for [freelancers](/best-for/freelancers/) and small businesses.
 
 - 10,000 credits/month
 - Unlimited active scenarios

@@ -89,7 +89,7 @@ That depends heavily on your use case.
 
 **Evernote may not be worth it if:**
 - You're starting fresh — the onboarding experience and pricing are both harder to justify compared to newer tools
-- You primarily write long-form text — apps like Obsidian or Notion offer better writing environments
+- You primarily write long-form text — apps like [Obsidian](/tools/obsidian/) or Notion offer better writing environments
 - You're budget-conscious — similar features are available for free or at lower cost elsewhere
 
 ---
@@ -100,9 +100,9 @@ If Evernote's pricing feels steep, you're not alone. Here are the most common al
 
 **For free note-taking:** Notion's free plan is far more generous than Evernote's, offering unlimited pages and basic collaboration. [Best Note-Taking Apps 2026](/blog/best-note-taking-apps-2026) covers the full landscape.
 
-**For privacy and offline-first:** Obsidian stores everything as local Markdown files and is completely free for personal use. There's no subscription required for core functionality.
+**For privacy and offline-first:** [Obsidian](/tools/obsidian/) stores everything as local Markdown files and is completely free for personal use. There's no subscription required for core functionality.
 
-**For power users:** Notion's paid plans offer databases, linked views, and team features that go well beyond what Evernote provides.
+**For power users:** [Notion](/tools/notion/)'s paid plans offer databases, linked views, and team features that go well beyond what Evernote provides.
 
 A detailed comparison of every major Evernote competitor is available in [Evernote Alternatives 2026](/blog/evernote-alternatives-2026).
 

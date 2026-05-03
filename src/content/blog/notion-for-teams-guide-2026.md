@@ -13,7 +13,7 @@ This guide covers everything you need to know about using Notion for teams in 20
 
 ## Why Teams Choose Notion
 
-Most teams end up with a scattered tech stack: Confluence for documentation, Asana for tasks, Google Drive for files, Slack for communication. Notion can replace all of these with a single, flexible workspace.
+Most teams end up with a scattered tech stack: Confluence for documentation, Asana for tasks, [Google Drive](/tools/google-drive/) for files, Slack for communication. Notion can replace all of these with a single, flexible workspace.
 
 The result:
 - One place for team wikis, meeting notes, and SOPs
@@ -31,11 +31,11 @@ Notion's most powerful team use case is building a **company wiki**. You can cre
 - **Product specs** linked directly to project tasks
 - **Meeting notes** with action items that become tasks
 
-Unlike Confluence, Notion wikis are genuinely pleasant to read and easy to update. The drag-and-drop editor and slash command interface mean team members actually maintain documentation instead of letting it rot.
+Unlike [Confluence](/tools/confluence/), Notion wikis are genuinely pleasant to read and easy to update. The drag-and-drop editor and slash command interface mean team members actually maintain documentation instead of letting it rot.
 
 ### Databases for Project Management
 
-Notion databases let you build project management systems tailored to your workflow:
+Notion databases let you build [project management](/category/project-management/) systems tailored to your workflow:
 
 | View Type | Best For |
 |-----------|---------|
@@ -84,7 +84,7 @@ For most teams, the **Plus plan ($10/user/mo)** is the right starting point. Upg
 
 ## How to Structure Notion for a Team
 
-The biggest mistake teams make is building Notion like a file system—just replicating their Google Drive folder structure. Instead, think of Notion as a living, interconnected workspace.
+The biggest mistake teams [make](/tools/make/) is building Notion like a file system—just replicating their Google Drive folder structure. Instead, think of Notion as a living, interconnected workspace.
 
 ### Recommended Team Workspace Structure
 
@@ -116,7 +116,7 @@ Team Workspace
 
 ### The Home Dashboard
 
-Your team's Home page is the most-visited page in the workspace. Make it useful:
+Your team's Home page is the most-visited page in the workspace. [Make](/tools/make/) it useful:
 
 - **Team announcements** (simple bulletin board style)
 - **Quick links** to the 5–10 most-used pages
@@ -156,7 +156,7 @@ Use Notion's `/template` command to create page templates for common document ty
 
 ## Notion vs Alternatives for Teams
 
-| Use Case | Notion | Confluence | Coda |
+| Use Case | Notion | Confluence | [Coda](/tools/coda/) |
 |----------|--------|------------|------|
 | Documentation | ✅ Excellent | ✅ Excellent | ✅ Good |
 | Project management | ✅ Good | ❌ Poor | ✅ Good |
@@ -165,15 +165,15 @@ Use Notion's `/template` command to create page templates for common document ty
 | AI features | ✅ Notion AI | ⚠️ Basic | ✅ Good |
 | Price (per user) | $10–20 | $5–11 | $10–30 |
 
-For teams that want docs + databases + AI in one place, Notion is hard to beat. If your team is already deeply embedded in the Atlassian ecosystem (Jira, Bitbucket), Confluence might integrate more smoothly.
+For teams that want docs + databases + AI in one place, Notion is hard to beat. If your team is already deeply embedded in the Atlassian ecosystem ([Jira](/tools/jira/), Bitbucket), Confluence might integrate more smoothly.
 
 ## Common Mistakes Teams Make with Notion
 
 1. **Over-engineering the structure** — Start simple. Build more complexity only when you hit real friction.
 2. **No page ownership** — Assign every important page to a specific person.
 3. **Treating it like a file system** — Use databases and linked views instead of nested folders.
-4. **Skipping templates** — Build templates for recurring document types. It takes 30 minutes and saves hours every week.
-5. **Not using the search bar** — Notion's search is fast and powerful. Train your team to search before asking on Slack.
+4. **Skipping templates** — Build templates for recurring document types. It takes 30 minutes and saves [hours](/tools/hours-tracker/) every week.
+5. **Not using the search bar** — Notion's search is fast and powerful. Train your team to search before asking on [Slack](/tools/slack/).
 
 ## Getting Started with Notion for Your Team
 
@@ -186,6 +186,6 @@ For teams that want docs + databases + AI in one place, Notion is hard to beat. 
 
 Notion is the best all-in-one workspace for teams that want to consolidate documentation, project management, and knowledge management. Its flexibility is both its greatest strength and its biggest challenge—you'll need to invest time in setup.
 
-For remote teams, distributed organizations, and knowledge-work businesses, Notion delivers genuine productivity gains. For teams that need tight Jira integration or dedicated CRM features, you may need to supplement it with specialized tools.
+For remote teams, distributed organizations, and knowledge-work businesses, Notion delivers genuine productivity gains. For teams that need tight Jira integration or dedicated [CRM](/category/crm/) features, you may need to supplement it with specialized tools.
 
 **See how Notion compares to other team tools:** [Notion vs ClickUp →](/blog/notion-vs-clickup-which-is-better) | [Notion vs Confluence →](/blog/notion-vs-confluence-2026)

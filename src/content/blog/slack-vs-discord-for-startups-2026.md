@@ -33,7 +33,7 @@ Let's compare them honestly for startup use.
 
 **Discord Free:** Unlimited message history, voice channels, screen sharing, up to 500,000 members. The free plan is genuinely powerful.
 
-**Discord Nitro ($9.99/month per user):** Larger file uploads (500 MB), HD video, custom profiles. Most startups don't need this.
+**Discord Nitro ($9.99/month per user):** Larger file uploads (500 MB), HD video, custom profiles. Most [startups](/best-for/startups/) don't need this.
 
 **The math for startups:** A 10-person team pays $72.50/month for Slack Pro or $0 for Discord. That's $870/year in savings—meaningful for an early-stage startup.
 
@@ -51,11 +51,11 @@ Let's compare them honestly for startup use.
 
 ## Integrations & Workflow
 
-**Slack** dominates here with 2,600+ app integrations. Connect Jira, GitHub, Google Drive, Salesforce, Zapier, and virtually any business tool. Workflow Builder lets you create automated processes without code.
+**Slack** dominates here with 2,600+ app integrations. Connect Jira, GitHub, [Google Drive](/tools/google-drive/), Salesforce, Zapier, and virtually any business tool. Workflow Builder lets you create automated processes without code.
 
-**Discord** has a growing integration ecosystem but it's primarily developer-focused. Bots handle most automation, which requires some technical setup. GitHub, Trello, and a few productivity tools have native integrations, but it's a fraction of Slack's library.
+**Discord** has a growing integration ecosystem but it's primarily developer-focused. Bots handle most automation, which requires some technical setup. GitHub, [Trello](/tools/trello/), and a few productivity tools have native integrations, but it's a fraction of Slack's library.
 
-**For startups:** If your stack includes Salesforce, HubSpot, Asana, or enterprise tools, Slack's integrations save significant time. If your stack is mostly GitHub, Jira, and developer tools, Discord's bot ecosystem is sufficient.
+**For startups:** If your stack includes [Salesforce](/tools/salesforce/), HubSpot, Asana, or enterprise tools, Slack's integrations save significant time. If your stack is mostly GitHub, Jira, and developer tools, Discord's bot ecosystem is sufficient.
 
 **Winner: Slack.** The integration gap is significant for business workflows.
 
@@ -83,7 +83,7 @@ Let's compare them honestly for startup use.
 - **Budget-conscious**: Pre-revenue or bootstrapped startups that need $0/month communication
 - **Community building**: If you're building a product with a community (open-source, gaming, creator tools)
 - **Remote culture**: Teams that want always-on voice channels for virtual office presence
-- **Small teams (under 15)**: Where Slack's advanced features aren't needed yet
+- **[Small teams](/best-for/small-teams/) (under 15)**: Where Slack's advanced features aren't needed yet
 
 ## The Hybrid Approach
 

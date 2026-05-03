@@ -20,11 +20,11 @@ A five-person startup has very different needs than a 500-person company. Free t
 
 ### 2. Meeting Frequency & Duration
 
-If your team averages 2-3 meetings per day, Zoom's 40-minute free limit becomes real friction. Long strategy sessions need unlimited duration. Quick 15-minute standups? Free tiers work fine.
+If your team averages 2-3 meetings per day, [Zoom](/tools/zoom/)'s 40-minute free limit becomes real friction. Long strategy sessions need unlimited duration. Quick 15-minute standups? Free tiers work fine.
 
 ### 3. Recording & Async Needs
 
-Do you need to record meetings for compliance, training, or team members in other time zones? Cloud recording is typically a paid feature. And if your real need is asynchronous video — sending screen recordings instead of scheduling live calls — you're looking at a fundamentally different tool category (Loom, not Zoom).
+Do you need to record meetings for compliance, training, or team members in other time zones? Cloud recording is typically a paid feature. And if your real need is asynchronous video — sending screen recordings instead of scheduling live calls — you're looking at a fundamentally different tool category ([Loom](/tools/loom/), not Zoom).
 
 ### 4. Ecosystem & Integrations
 
@@ -38,7 +38,7 @@ Free tiers are surprisingly capable in 2026, but paid plans unlock meaningful fe
 
 ## Quick Comparison: Zoom vs Google Meet vs Microsoft Teams vs Loom
 
-| Feature | Zoom | Google Meet | Microsoft Teams | Loom |
+| Feature | [Zoom](/tools/zoom/) | Google Meet | Microsoft Teams | Loom |
 |---------|------|-------------|-----------------|------|
 | **Free tier** | 40-min limit, 100 participants | 60-min limit, 100 participants | Unlimited (60-min for group), 100 participants | 5-min recordings, 25 videos |
 | **Paid plan** | Pro $13.33/mo | Business Starter $6/mo (per user) | Essentials $4/mo (per user) | Business $12.50/mo |
@@ -46,7 +46,7 @@ Free tiers are surprisingly capable in 2026, but paid plans unlock meaningful fe
 | **Max participants (paid)** | 300-1,000 | 150-500 | 300-1,000 | N/A (async) |
 | **Cloud recording** | Pro and above | Business Starter and above | Essentials and above | All plans (core feature) |
 | **E2E encryption** | Available (optional) | Available | Available | N/A |
-| **Calendar integration** | Google, Outlook, others | Google Calendar (native) | Outlook (native) | Google, Outlook |
+| **Calendar integration** | Google, Outlook, others | [Google Calendar](/tools/google-calendar/) (native) | Outlook (native) | Google, Outlook |
 | **Breakout rooms** | Yes | Yes | Yes | No |
 | **Live transcription** | Yes (paid) | Yes (paid) | Yes (paid) | Yes (all plans) |
 
@@ -60,19 +60,19 @@ Work through these questions in order. Each one eliminates options.
 
 If your primary use case is replacing meetings — sending screen recordings, video updates, or walkthroughs that people watch on their own time — **Loom** is the right tool. It's not a video conferencing platform; it's an async video platform, and it's excellent at that specific job.
 
-If you need live, real-time meetings, continue to Question 2.
+If you need live, real-time meetings, [continue](/tools/continue/) to Question 2.
 
 ### Question 2: Which ecosystem does your team already use?
 
-- **Google Workspace** (Gmail, Google Docs, Google Calendar) → **Google Meet** is the path of least resistance. It's already in your calendar invites, already in your browser, and requires zero additional software.
+- **Google Workspace** (Gmail, [Google Docs](/tools/google-docs/), Google Calendar) → **Google Meet** is the path of least resistance. It's already in your calendar invites, already in your browser, and requires zero additional software.
 - **Microsoft 365** (Outlook, Word, Excel, SharePoint) → **Microsoft Teams** is pre-installed and deeply integrated. Calendar invites, file sharing, and chat all live in one place.
-- **Neither / Mixed** → Continue to Question 3.
+- **Neither / Mixed** → [Continue](/tools/continue/) to Question 3.
 
 ### Question 3: What's your primary meeting type?
 
-- **External meetings** (client calls, sales demos, interviews, webinars): **Zoom** remains the default. It has the highest brand recognition — "I'll send you a Zoom link" requires zero explanation. External participants don't need an account, the join flow is smooth, and the webinar features are best-in-class.
+- **External meetings** (client calls, sales demos, interviews, webinars): **[Zoom](/tools/zoom/)** remains the default. It has the highest brand recognition — "I'll send you a Zoom link" requires zero explanation. External participants don't need an account, the join flow is smooth, and the webinar features are best-in-class.
 - **Internal team meetings only**: **Microsoft Teams** at $4/user/month offers the best value for pure internal communication, especially with the integrated chat and file sharing.
-- **Mix of internal and external**: **Zoom** handles both well, though it's the most expensive option at scale.
+- **Mix of internal and external**: **[Zoom](/tools/zoom/)** handles both well, though it's the most expensive option at scale.
 
 ---
 
@@ -80,7 +80,7 @@ If you need live, real-time meetings, continue to Question 2.
 
 Video conferencing security is non-negotiable in 2026. Here are the key areas to evaluate:
 
-**End-to-end encryption (E2EE)**: All three live platforms offer E2EE, but implementation varies. Zoom's is opt-in and disables cloud recording. Google Meet's E2EE is available for Workspace users. Teams provides E2EE for 1:1 calls.
+**End-to-end encryption (E2EE)**: All three live platforms offer E2EE, but implementation varies. [Zoom](/tools/zoom-meetings/)'s is opt-in and disables cloud recording. Google Meet's E2EE is available for Workspace users. Teams provides E2EE for 1:1 calls.
 
 **Compliance**: If your industry requires HIPAA, SOC 2, or GDPR compliance, verify your chosen tool meets those standards — typically at the Business or Enterprise tier.
 
@@ -93,10 +93,10 @@ Video conferencing security is non-negotiable in 2026. Here are the key areas to
 Your video tool doesn't exist in isolation. Before committing, verify it integrates with your:
 
 - **Calendar** (Google Calendar or Outlook) for scheduling directly from events
-- **Chat tool** (Slack or Teams) for join links and notifications
-- **Project management tool** (Notion, Monday.com, Asana) for meeting notes
-- **CRM** (Salesforce, HubSpot) for sales call logging
-- **SSO provider** (Okta, Azure AD, Google) for single sign-on
+- **Chat tool** ([Slack](/tools/slack/) or Teams) for join links and notifications
+- **Project management tool** (Notion, [Monday.com](/tools/monday/), Asana) for meeting notes
+- **CRM** ([Salesforce](/tools/salesforce/), HubSpot) for sales call logging
+- **SSO provider** ([Okta](/tools/okta/), Azure AD, Google) for single sign-on
 
 > For a broader look at video tools, see our roundup of the [best video conferencing tools in 2026](/blog/best-video-conferencing-tools-2026).
 

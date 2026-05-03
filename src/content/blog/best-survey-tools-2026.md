@@ -16,13 +16,13 @@ Here's a breakdown of the best survey tools available in 2026, from free options
 
 | Tool | Best For | Starting Price |
 |------|----------|---------------|
-| Typeform | Engaging, conversational surveys | Free / $25/month |
+| [Typeform](/tools/typeform/) | Engaging, conversational surveys | Free / $25/month |
 | SurveyMonkey | Professional research | Free / $25/month |
 | Google Forms | Simple, free surveys | Free |
-| Tally | Clean forms with a generous free tier | Free / $29/month |
+| [Tally](/tools/tally/) | Clean forms with a generous free tier | Free / $29/month |
 | Jotform | Complex forms with integrations | Free / $34/month |
 | Qualtrics | Academic and enterprise research | Custom |
-| Tally | Developer-friendly free tier | Free |
+| [Tally](/tools/tally/) | Developer-friendly free tier | Free |
 | Pollfish | Market research with audience panel | Custom |
 
 ## 1. Typeform — Best for Engagement
@@ -37,7 +37,7 @@ Typeform pioneered the "one question at a time" conversational format, and it re
 
 **Key Features:**
 - Logic jumps for personalized question paths
-- Native integrations with HubSpot, Mailchimp, Notion, Slack
+- Native integrations with HubSpot, [Mailchimp](/tools/mailchimp/), Notion, Slack
 - Video welcome screens and embedded media
 - Typeform AI for auto-generating questions from a topic
 
@@ -71,7 +71,7 @@ SurveyMonkey is the most established name in online surveys, with over 20 millio
 
 ## 3. Google Forms — Best Free Option
 
-For straightforward surveys where budget is a constraint, Google Forms remains hard to beat. It's free, unlimited, collaborative, and integrates directly with Google Sheets for data analysis.
+For straightforward surveys where budget is a constraint, Google Forms remains hard to beat. It's free, unlimited, collaborative, and integrates directly with [Google Sheets](/tools/google-sheets/) for data analysis.
 
 **Pricing:** Free with a Google account
 
@@ -89,17 +89,17 @@ For straightforward surveys where budget is a constraint, Google Forms remains h
 
 ## 4. Tally — Best Free Tier for Builders
 
-Tally is a newer survey tool that has gained a strong following for its generous free tier and Notion-like editing interface. You build forms using a block editor, and the free plan includes unlimited forms and unlimited responses — with no branding forced on free users.
+Tally is a newer survey tool that has gained a strong following for its generous free tier and [Notion](/tools/notion/)-like editing interface. You build forms using a block editor, and the free plan includes unlimited forms and unlimited responses — with no branding forced on free users.
 
 **Pricing:**
 - Free: Unlimited forms, unlimited responses (Tally branding visible)
 - Pro: $29/month — remove branding, custom domains, file uploads, payments
 
 **Key Features:**
-- Block-based form builder similar to Notion
+- Block-based form builder similar to [Notion](/tools/notion/)
 - Logic, calculations, and hidden fields
 - Partial submissions capture
-- 500+ integrations via Zapier and native connectors
+- 500+ integrations via [Zapier](/tools/zapier/) and native connectors
 - Conversational mode similar to Typeform (at no extra cost)
 
 **Pros:** Extremely generous free tier, clean interface, great value, fast to build  
@@ -119,7 +119,7 @@ Jotform excels at complex forms that go beyond simple surveys — payment collec
 
 **Key Features:**
 - 10,000+ form templates
-- Payment integrations (Stripe, PayPal, Square, etc.)
+- Payment integrations ([Stripe](/tools/stripe/), PayPal, Square, etc.)
 - E-signature collection
 - HIPAA compliance available
 - 150+ widgets (maps, signatures, calculators, etc.)
@@ -139,7 +139,7 @@ Qualtrics is the gold standard for academic research, enterprise employee experi
 - Predictive analytics and NPS benchmarking
 - Employee lifecycle surveys with action planning
 - Multi-language support for global research
-- CRM and ERP integrations (Salesforce, SAP, Workday)
+- [CRM](/category/crm/) and ERP integrations (Salesforce, SAP, Workday)
 - Text analytics and sentiment analysis at scale
 
 **Pros:** Industry-leading analytics, academic credibility, enterprise-grade security  

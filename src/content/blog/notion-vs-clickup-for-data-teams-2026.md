@@ -6,9 +6,9 @@ tags: ["notion", "clickup", "comparison", "data-teams"]
 ---
 Looking for a comparison of Notion vs ClickUp for data teams? We tested both tools with real data team workflows — sprint management, documentation, pipeline tracking, and integrations — to help you decide.
 
-Data teams have a unique set of requirements that generic project management comparisons rarely address. You need somewhere to track dbt model changes, document data dictionaries, manage sprint tickets, and store runbooks that actually get read. Both Notion and ClickUp can handle this, but they approach it from fundamentally different directions.
+Data teams have a unique set of requirements that generic [project management](/category/project-management/) comparisons rarely address. You need somewhere to track dbt model changes, document data dictionaries, manage sprint tickets, and store runbooks that actually get read. Both Notion and ClickUp can handle this, but they approach it from fundamentally different directions.
 
-Notion starts from documentation and extends into project management. ClickUp starts from task management and extends into documentation. That distinction shapes everything about how each tool works for data teams.
+Notion starts from documentation and extends into project management. ClickUp starts from [task management](/category/task-management/) and extends into documentation. That distinction shapes everything about how each tool works for data teams.
 
 ## Data Pipeline Tracking and Sprint Management
 
@@ -22,7 +22,7 @@ ClickUp was built for this. Sprint management is a core feature, not an aftertho
 - **Multiple views** — switch between board, list, Gantt, and timeline views for the same set of tasks
 - **Automations** — automatically move a ticket to "In Review" when a PR is linked, or notify the team when a pipeline task has been stuck for more than two days
 
-For data teams running two-week sprints with a mix of pipeline work, ad-hoc requests, and technical debt, ClickUp's sprint features work out of the box.
+For data teams running two-week sprints with a mix of pipeline work, ad-hoc requests, and technical debt, ClickUp's sprint features work out of the [box](/tools/box/).
 
 ### Notion
 
@@ -41,12 +41,12 @@ It works, and some data teams prefer this flexibility. But there's no built-in v
 
 ### Notion
 
-This is where Notion dominates, and it's not close:
+This is where Notion dominates, and it's not [close](/tools/close/):
 
 - **Rich nested pages** — create a data dictionary with top-level categories that drill down into individual table and column definitions
 - **Database-backed docs** — a data dictionary can be both a readable document and a queryable database. Filter by schema, search by column name, or view by data owner
 - **Templates** — standardize runbook format so every pipeline has the same sections: overview, dependencies, failure modes, escalation path
-- **Notion AI** — ask questions about your documentation in natural language. "What's the SLA for the orders pipeline?" returns an answer pulled from your runbooks
+- **[Notion AI](/tools/notion-ai/)** — ask questions about your documentation in natural language. "What's the SLA for the orders pipeline?" returns an answer pulled from your runbooks
 - **Inline databases** — embed a table of recent incidents directly inside a runbook page, so context lives where it's needed
 
 Data teams that invest in Notion documentation tend to keep it maintained because the editing experience is genuinely good. The barrier to updating a doc is low enough that people actually do it.
@@ -97,21 +97,21 @@ Both platforms connect to the broader data stack, though the approaches differ.
 
 ### ClickUp Integrations
 
-- **GitHub/GitLab**: link PRs and commits to tasks, auto-update task status based on PR merges
-- **Slack**: notifications, task creation from messages, and status updates
-- **Zapier/Make**: connect to dbt Cloud, Snowflake alerts, Airflow, and other data tools via automation platforms
+- **[GitHub](/tools/github/)/GitLab**: link PRs and commits to tasks, auto-update task status based on PR merges
+- **[Slack](/tools/slack/)**: notifications, task creation from messages, and status updates
+- **[Zapier](/tools/zapier/)/Make**: connect to dbt Cloud, Snowflake alerts, Airflow, and other data tools via automation platforms
 - **API**: REST API for custom integrations — trigger task creation when a pipeline fails or a data quality check surfaces an issue
 
 ### Notion Integrations
 
-- **GitHub**: available through third-party integrations and the API
-- **Slack**: native integration for notifications and page sharing
-- **Zapier/Make**: similar breadth of connections as ClickUp
-- **API**: well-documented REST API. Many data teams build custom integrations that push pipeline metadata, freshness metrics, or dbt model documentation directly into Notion databases
+- **[GitHub](/tools/github/)**: available through third-party integrations and the API
+- **[Slack](/tools/slack/)**: native integration for notifications and page sharing
+- **[Zapier](/tools/zapier/)/Make**: similar breadth of connections as ClickUp
+- **API**: well-documented REST API. Many data teams build custom integrations that push pipeline metadata, freshness metrics, or [dbt](/tools/dbt/) model documentation directly into Notion databases
 
-Neither platform offers native, out-of-the-box connectors to dbt, Snowflake, or Airflow. Both rely on their APIs or Zapier/Make for those connections. ClickUp's native GitHub integration is slightly more polished than what's available for Notion.
+Neither platform offers native, out-of-the-box connectors to dbt, [Snowflake](/tools/snowflake/), or Airflow. Both rely on their APIs or Zapier/Make for those connections. ClickUp's native GitHub integration is slightly more polished than what's available for Notion.
 
-**Winner: Tie**. Both platforms integrate with data tools through APIs and automation platforms. ClickUp has a slight edge on native GitHub integration, Notion has a slight edge on API flexibility.
+**Winner: Tie**. Both platforms integrate with data tools through APIs and automation platforms. ClickUp has a slight edge on native [GitHub](/tools/github/) integration, Notion has a slight edge on API flexibility.
 
 ## Pricing for Data Teams (5-15 Members)
 
@@ -128,7 +128,7 @@ Here's what each platform actually costs for a typical data team:
 **5-person team**: $50-100/month
 **15-person team**: $150-300/month
 
-Notion AI is an add-on at $10/member/month. For a 15-person team, that's an extra $150/month.
+[Notion AI](/tools/notion-ai/) is an add-on at $10/member/month. For a 15-person team, that's an extra $150/month.
 
 ### ClickUp
 

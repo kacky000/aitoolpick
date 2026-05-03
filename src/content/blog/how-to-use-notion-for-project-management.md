@@ -10,9 +10,9 @@ Notion is not a dedicated project management tool, but with the right setup it h
 
 ## Why Use Notion for Project Management?
 
-Dedicated tools like Asana or Jira are purpose-built for project management. Notion's advantage is consolidation: your project tracker, documentation wiki, meeting notes, and team knowledge base can all live in one place, linked together.
+Dedicated tools like [Asana](/tools/asana/) or Jira are purpose-built for project management. Notion's advantage is consolidation: your project tracker, documentation wiki, meeting notes, and team knowledge base can all live in one place, linked together.
 
-The tradeoff is setup time. Unlike Asana (which is ready out of the box), Notion requires you to build your system. This guide makes that setup straightforward.
+The tradeoff is setup time. Unlike Asana (which is ready out of the [box](/tools/box/)), Notion requires you to build your system. This guide makes that setup straightforward.
 
 ## Step 1: Create a Projects Database
 
@@ -46,7 +46,7 @@ The **Relation** property is key — it links each task to its parent project, e
 
 ## Step 3: Set Up Multiple Views
 
-Notion databases support multiple views of the same data. Create these views for your task database:
+[Notion databases](/tools/notion-database/) support multiple views of the same data. Create these views for your task database:
 
 **Kanban Board View** — drag-and-drop task management by status. Best for daily standup visibility.
 
@@ -88,7 +88,7 @@ For team visibility, create a shared dashboard page:
 ## Step 6: Automate Recurring Workflows
 
 Notion has basic automation (under "…" in any database) for:
-- Sending Slack notifications when task status changes
+- Sending [Slack](/tools/slack/) notifications when task status changes
 - Creating sub-tasks automatically when a task is moved to "In Progress"
 - Emailing reminders before due dates (requires Notion Business plan)
 
@@ -107,10 +107,10 @@ Access templates from any new page by clicking "Templates" in the sidebar.
 
 ## Notion vs Dedicated PM Tools
 
-| Feature | Notion | Asana | Jira |
+| Feature | Notion | Asana | [Jira](/tools/jira/) |
 |---------|--------|-------|------|
 | Setup time | High | Low | Medium |
-| Documentation integration | Native | Requires add-ons | Confluence (extra cost) |
+| Documentation integration | Native | Requires add-ons | [Confluence](/tools/confluence/) (extra cost) |
 | Advanced reporting | Limited | Good | Excellent |
 | Price | Free–$20/user | Free–$25/user | Free–$17.60/user |
 | Best for | Small-medium teams, knowledge work | Any team size | Engineering teams |

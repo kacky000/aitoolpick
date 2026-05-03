@@ -15,7 +15,7 @@ Canva has evolved from a simple graphics editor into a full design platform used
 | Plan | Price | Storage | Best For |
 |------|-------|---------|----------|
 | Free | $0 | 5 GB | Individuals, students, casual use |
-| Pro | $15/user/mo ($120/yr) | 1 TB | Freelancers, creators, small businesses |
+| Pro | $15/user/mo ($120/yr) | 1 TB | [Freelancers](/best-for/freelancers/), creators, small businesses |
 | Teams | $10/user/mo ($100/yr, min 3) | 1 TB/user | Marketing teams, agencies, departments |
 | Enterprise | Custom | Unlimited | Large organizations with compliance needs |
 
@@ -39,11 +39,11 @@ Canva's free plan isn't a stripped-down trial — it's a genuinely useful design
 **What's missing from Free:**
 
 - No background remover (one-click removal is Pro only)
-- No Brand Kit (custom fonts, colors, logos)
+- No Brand [Kit](/tools/kit/) (custom fonts, colors, logos)
 - No Magic Resize for reformatting designs across platforms
 - Limited premium template and asset access
 - No scheduled social media publishing
-- Fewer AI credits (Magic Write, Magic Edit, Magic Eraser)
+- Fewer AI credits (Magic Write, Magic Edit, Magic [Eraser](/tools/eraser-io/))
 
 **Verdict:** For students, personal projects, and occasional social media graphics, the free plan delivers real value. You can produce professional-looking designs without spending a dollar.
 
@@ -59,23 +59,23 @@ Pro is where Canva becomes a serious creative tool. The jump from Free to Pro is
 
 - **100+ million premium stock photos, videos, audio, and graphics** — this library is massive and constantly growing
 - **Background Remover** — one click to remove backgrounds from any image
-- **Brand Kit** — store your brand colors, fonts, and logos for one-click consistency
-- **Magic Resize** — instantly reformat any design for Instagram, Facebook, LinkedIn, Twitter, print, and more
+- **Brand [Kit](/tools/kit/)** — store your brand colors, fonts, and logos for one-click consistency
+- **Magic Resize** — [instantly](/tools/instantly/) reformat any design for Instagram, Facebook, LinkedIn, Twitter, print, and more
 - **1 TB cloud storage** (200x the free plan)
 - **Content Planner** — schedule social media posts directly from Canva
 - **Expanded AI tools:**
   - Magic Write — AI copywriting for any text field
   - Magic Edit — describe changes and AI applies them
-  - Magic Eraser — remove unwanted objects from photos
+  - Magic [Eraser](/tools/eraser-io/) — remove unwanted objects from photos
   - Dream Lab — generate AI images from text prompts
 - **Unlimited folders** for organizing designs
 - **Premium animations and transitions** for video and presentations
 - **Transparent PNG export** (essential for logos and overlays)
 - **SVG export** for scalable graphics
 
-**Who it's for:** Freelancers, content creators, solopreneurs, and small business owners who produce visual content regularly. If you create more than a handful of designs per month, Pro pays for itself in time savings alone.
+**Who it's for:** Freelancers, [content creators](/best-for/content-creators/), solopreneurs, and small business owners who produce visual content regularly. If you create more than a handful of designs per month, Pro pays for itself in time savings alone.
 
-**Is the annual plan worth it?** At $120/year ($10/month effective), yes. That's a 33% discount over monthly billing. If you've used Canva for even a month and plan to continue, lock in the annual rate.
+**Is the annual plan worth it?** At $120/year ($10/month effective), yes. That's a 33% discount over monthly billing. If you've used Canva for even a month and plan to [continue](/tools/continue/), lock in the annual rate.
 
 ---
 
@@ -128,19 +128,19 @@ Canva offers **Canva for Education** (free for K-12 teachers and students) and *
 Several notable changes in the 2026 pricing structure:
 
 - **AI tools now included** — Magic Write, Magic Edit, and Dream Lab are bundled into Pro and Teams rather than charged separately. This is a significant shift from 2024 when AI features had stricter credit limits.
-- **Teams price drop** — Teams pricing has come down to $10/user/month (annual), making it more competitive against Figma and Adobe Express.
+- **Teams price drop** — Teams pricing has come down to $10/user/month (annual), making it more competitive against Figma and [Adobe Express](/tools/adobe-express/).
 - **Expanded video editing** — Pro now includes more video templates, stock video clips, and animation options, positioning Canva as a lightweight alternative to dedicated video editors.
 
 ---
 
 ## Canva vs Figma vs Adobe Express: Quick Pricing Comparison
 
-| Feature | Canva Pro | Figma Professional | Adobe Express Premium |
+| Feature | Canva Pro | [Figma](/tools/figma/) Professional | Adobe Express Premium |
 |---------|-----------|-------------------|----------------------|
 | Price | $15/mo | $15/editor/mo | $10/mo |
 | Free plan | Yes (generous) | Yes (3 files) | Yes (limited) |
 | Stock assets | 100M+ | None built-in | Adobe Stock (limited) |
-| AI tools | Included | FigJam AI | Firefly AI |
+| AI tools | Included | [FigJam](/tools/figjam/) AI | Firefly AI |
 | Background remover | Yes | No | Yes |
 | Video editing | Yes | No | Yes |
 | Prototyping | No | Yes (core feature) | No |
@@ -168,7 +168,7 @@ If you're exploring all your options, our [best free design tools guide](/blog/b
 
 Canva's free plan remains one of the most generous in the design tool space. For most individual creators and small businesses, **Canva Pro at $15/month** (or $10/month annual) is the sweet spot — you get the full AI toolkit, 100M+ premium assets, and brand management without team overhead.
 
-The Teams plan makes genuine sense for organizations with 3+ content creators. At $10/user/month (annual), it's priced competitively against both Figma and Adobe, while offering a much lower learning curve.
+The Teams plan makes genuine sense for organizations with 3+ content creators. At $10/user/month (annual), it's priced competitively against both [Figma](/tools/figma/) and Adobe, while offering a much lower learning curve.
 
 **Compare design tools side by side** → [Canva vs Figma: Which design tool is right for you?](/compare/canva-vs-figma)
 

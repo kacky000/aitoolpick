@@ -6,7 +6,7 @@ tags: ["monday", "clickup", "migration", "how-to"]
 heroImage: "/thumbs/how-to-switch-from-monday-to-clickup.jpg"
 lastModified: "2026-04-26"
 ---
-Thinking about switching from Monday.com to ClickUp? You're not alone. ClickUp's lower pricing and broader feature set make it an attractive alternative. Here's how to migrate without losing data or momentum.
+Thinking about switching from Monday.com to ClickUp? You're not alone. ClickUp's lower pricing and broader feature set [make](/tools/make/) it an attractive alternative. Here's how to migrate without losing data or momentum.
 
 ## Why Teams Switch
 
@@ -14,7 +14,7 @@ The most common reasons teams move from Monday.com to ClickUp:
 
 - **Cost:** ClickUp starts at $7/user/month vs Monday.com's $9/seat/month (with a 3-seat minimum)
 - **Free plan:** ClickUp's free plan supports unlimited users; Monday.com limits to 2
-- **Features:** ClickUp includes docs, whiteboards, goals, and time tracking at lower tiers
+- **Features:** ClickUp includes docs, whiteboards, goals, and [time tracking](/category/time-tracking/) at lower tiers
 - **Flexibility:** ClickUp offers more views and customization options
 
 ## Before You Start
@@ -78,10 +78,10 @@ ClickUp's automations work differently from Monday.com's. Common translations:
 
 Reconnect your tools in ClickUp:
 
-- **Slack:** ClickUp has native Slack integration
-- **Google Drive:** Native integration available
-- **GitHub/GitLab:** Built-in Git integration
-- **Zapier:** Use Zapier to connect tools without native ClickUp integration
+- **[Slack](/tools/slack/):** ClickUp has native Slack integration
+- **[Google Drive](/tools/google-drive/):** Native integration available
+- **[GitHub](/tools/github/)/GitLab:** Built-in Git integration
+- **[Zapier](/tools/zapier/):** Use Zapier to connect tools without native ClickUp integration
 
 ### Step 5: Recreate Views
 

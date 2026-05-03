@@ -8,13 +8,13 @@ lastModified: "2026-04-26"
 ---
 **Ticktick Free** and **Paid** are both popular tools in their category, but they serve different needs and audiences. This guide compares their features, pricing, and best use cases to help you choose the right one.
 
-TickTick is one of the most popular task management apps, and for good reason — it works beautifully across every platform. But the question many users face is: **is the free plan enough, or do you need Premium?**
+TickTick is one of the most popular [task management](/category/task-management/) apps, and for good reason — it works beautifully across every platform. But the question many users face is: **is the free plan enough, or do you need Premium?**
 
 After using both versions extensively, here's an honest breakdown.
 
 ## TickTick Free Plan: What You Get
 
-The free plan is genuinely useful and more generous than competitors like Todoist's free tier. Here's what's included:
+The free plan is genuinely useful and more generous than competitors like [Todoist](/tools/todoist/)'s free tier. Here's what's included:
 
 - **Up to 9 lists** (enough for most personal users)
 - **Up to 99 tasks per list**
@@ -52,11 +52,11 @@ Premium adds:
 
 **Custom Filters** are the biggest premium differentiator. Being able to save queries like "high priority + due this week + tagged #work" transforms how you use TickTick. Power users who manage multiple projects will feel this limitation hard on the free plan.
 
-**Calendar integration** — Premium lets you subscribe to Google Calendar, Outlook, or iCal inside TickTick. For people who live in their calendar, this alone justifies the upgrade.
+**Calendar integration** — Premium lets you subscribe to [Google Calendar](/tools/google-calendar/), Outlook, or iCal inside TickTick. For people who live in their calendar, this alone justifies the upgrade.
 
 **Habit tracking with heatmaps** is genuinely best-in-class for a task app. If you're working on building streaks (exercise, reading, writing), the visual heatmap is highly motivating.
 
-**Kanban view** surprises many users — TickTick isn't just a list app. The premium Kanban is perfect for small project management without switching to a heavier tool.
+**Kanban view** surprises many users — TickTick isn't just a list app. The premium Kanban is perfect for small [project management](/category/project-management/) without switching to a heavier tool.
 
 ## Who Should Upgrade?
 
@@ -78,8 +78,8 @@ Premium adds:
 
 At $35.99/year, TickTick Premium is cheaper than:
 - [Todoist Pro: $48/year](/blog/todoist-pricing-2026)
-- Notion Plus: $120/year
-- Asana Starter: $132/year
+- [Notion](/tools/notion/) Plus: $120/year
+- [Asana](/tools/asana/) Starter: $132/year
 
 For pure task management, TickTick delivers more features per dollar than almost anything else. See our full [TickTick vs Todoist comparison](/blog/todoist-vs-ticktick-2026) if you're deciding between the two.
 

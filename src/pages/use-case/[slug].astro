@@ -1,0 +1,311 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import tools from '../../data/tools.json';
+import useCases from '../../data/use-cases.json';
+
+export function getStaticPaths() {
+  return useCases.map((uc) => ({
+    params: { slug: uc.slug },
+    props: { useCase: uc },
+  }));
+}
+
+const { useCase } = Astro.props;
+
+// Filter tools belonging to this use case
+const useCaseTools = useCase.toolIds
+  .map((id: string) => tools.find((t) => t.id === id))
+  .filter(Boolean);
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(
+    ([key, val]) => key !== 'free' && val !== null && typeof val === 'number'
+  );
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+// Generate compare links between tools
+function getCompareLinks() {
+  const links: { label: string; url: string }[] = [];
+  for (let i = 0; i < useCaseTools.length; i++) {
+    for (let j = i + 1; j < useCaseTools.length; j++) {
+      const slugPair = [useCaseTools[i].slug, useCaseTools[j].slug].sort().join('-vs-');
+      links.push({
+        label: `${useCaseTools[i].name} vs ${useCaseTools[j].name}`,
+        url: `/compare/${slugPair}/`,
+      });
+    }
+  }
+  return links;
+}
+
+const compareLinks = getCompareLinks();
+
+const pageTitle = `Best AI Tools for ${useCase.name} in 2026`;
+const pageDescription = `Compare the ${useCaseTools.length} best AI tools for ${useCase.name.toLowerCase()} in 2026. Find pricing, features, pros & cons to pick the right one.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: pageTitle,
+  description: pageDescription,
+  numberOfItems: useCaseTools.length,
+  itemListElement: useCaseTools.map((tool: any, index: number) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: tool.name,
+    url: `https://aitoolpick.org/tools/${tool.slug}/`,
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} slot="head" />
+
+  <!-- Breadcrumb -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href="/use-case/">Use Cases</a>
+    <span class="breadcrumb-sep">/</span>
+    <span>{useCase.name}</span>
+  </nav>
+
+  <!-- Header -->
+  <div class="usecase-header">
+    <h1>Best AI Tools for {useCase.name}</h1>
+    <p class="usecase-header-subtitle">{useCase.description}</p>
+    <p class="usecase-tool-count">{useCaseTools.length} tools compared</p>
+  </div>
+
+  <!-- Tools Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="usecase-tools-grid">
+        {useCaseTools.map((tool: any) => (
+          <div class="card usecase-tool-card">
+            <div class="card-header">
+              {tool.icon && (
+                <img src={tool.icon} alt={`${tool.name} icon`} width="40" height="40" style="border-radius: 10px;" />
+              )}
+              <div>
+                <a href={`/tools/${tool.slug}/`} class="card-title-link">
+                  <h3 class="card-title">{tool.name}</h3>
+                </a>
+                <div class="card-rating">
+                  <span class="stars">{'★'.repeat(Math.round(tool.rating))}</span>
+                  <span class="rating-num">{tool.rating}</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="card-description">{tool.description}</p>
+
+            <div class="card-meta">
+              <span class="card-price">{formatPrice(tool.pricing)}</span>
+              {tool.pricing.free && <span class="card-tag">Free Plan</span>}
+            </div>
+
+            <div class="usecase-tool-actions">
+              <a href={`/tools/${tool.slug}/`} class="btn-primary" style="font-size: 0.85rem; padding: 0.5rem 1.25rem;">
+                View Details
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {useCaseTools.length === 0 && (
+        <div style="text-align: center; padding: 3rem; color: var(--gray-500);">
+          <p>No tools found for this use case yet. Check back soon!</p>
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- Compare Section -->
+  {compareLinks.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2 class="compare-heading">Compare These Tools</h2>
+        <p class="compare-subtitle">See head-to-head comparisons between tools for {useCase.name.toLowerCase()}.</p>
+        <div class="compare-links-grid">
+          {compareLinks.slice(0, 15).map((link) => (
+            <a href={link.url} class="compare-link-card">
+              {link.label}
+              <span class="compare-arrow">&rarr;</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Not sure which tool to pick for {useCase.name.toLowerCase()}?</h2>
+        <p>Take our quiz to find the best tool for your specific needs.</p>
+        <a href="/quiz/" class="btn-primary">Find My Tool &rarr;</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .breadcrumb {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 0;
+    font-size: 0.9rem;
+    color: var(--text-muted, #6b7280);
+  }
+  .breadcrumb a {
+    color: var(--primary, #6366f1);
+    text-decoration: none;
+  }
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  .breadcrumb-sep {
+    margin: 0 0.5rem;
+    color: var(--text-muted, #9ca3af);
+  }
+
+  .usecase-header {
+    text-align: center;
+    padding: 2.5rem 1.5rem 1.5rem;
+  }
+
+  .usecase-header h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .usecase-header-subtitle {
+    color: var(--gray-600);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 0.5rem;
+  }
+
+  .usecase-tool-count {
+    color: var(--text-muted, #6b7280);
+    font-size: 0.9rem;
+  }
+
+  .usecase-tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .usecase-tool-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .usecase-tool-card .card-description {
+    flex: 1;
+  }
+
+  .card-title-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-title-link:hover .card-title {
+    color: var(--primary);
+  }
+
+  .stars {
+    color: #f59e0b;
+  }
+
+  .rating-num {
+    font-size: 0.85rem;
+    color: var(--text-muted, #6b7280);
+    margin-left: 0.25rem;
+  }
+
+  .usecase-tool-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .compare-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .compare-subtitle {
+    color: var(--text-muted, #6b7280);
+    margin-bottom: 1.5rem;
+  }
+
+  .compare-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .compare-link-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    background: var(--bg-card, #f9fafb);
+    border: 1px solid var(--border, #e5e7eb);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text, #1f2937);
+    font-size: 0.9rem;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .compare-link-card:hover {
+    border-color: var(--primary, #6366f1);
+    background: var(--bg-hover, #eef2ff);
+  }
+
+  .compare-arrow {
+    color: var(--primary, #6366f1);
+    font-weight: 600;
+  }
+
+  .cta-section {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background: var(--bg-card, #f9fafb);
+    border-radius: 12px;
+    border: 1px solid var(--border, #e5e7eb);
+  }
+
+  .cta-section h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .cta-section p {
+    color: var(--text-muted, #6b7280);
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .usecase-tools-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .usecase-header h1 {
+      font-size: 1.75rem;
+    }
+
+    .compare-links-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

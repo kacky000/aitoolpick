@@ -16,7 +16,7 @@ Picking the wrong one means paying for features you don't use — or missing fea
 | **Free plan** | 25 videos, 5 min each | 1 video |
 | **Paid plans** | Business $12.50/user/mo | Pro $19/user/mo, Business $59/user/mo |
 | **Max recording length** | Unlimited (paid) | Unlimited (paid) |
-| **CRM integration** | Basic (Salesforce, HubSpot) | Deep (Salesforce, HubSpot, Outreach, SalesLoft) |
+| **[CRM](/category/crm/) integration** | Basic (Salesforce, HubSpot) | Deep (Salesforce, HubSpot, Outreach, SalesLoft) |
 | **Viewer analytics** | Views, watch %, comments | Views, watch %, re-watches, CRM sync |
 | **Desktop app** | ✅ | ✅ |
 | **Browser extension** | ✅ | ✅ |
@@ -29,7 +29,7 @@ Both tools cover the basics: screen-only, camera-only, or screen-plus-camera rec
 
 **Loom** pulls ahead on editing. You can trim, stitch clips together, add CTAs, and insert chapters. Loom's AI generates automatic titles, summaries, and chapter markers, which saves time when you're recording 5-10 videos a day.
 
-**Vidyard** keeps editing minimal. Trim the beginning and end, add a CTA — that's about it. Vidyard's philosophy is that sales videos should be quick and personal, not polished. The AI script generator helps you draft what to say before recording, which is useful for cold outreach videos.
+**Vidyard** keeps editing minimal. Trim the beginning and end, add a CTA — that's about it. Vidyard's philosophy is that sales videos should be quick and personal, not polished. The AI script generator helps you draft what to say before recording, which is useful for cold [outreach](/tools/outreach/) videos.
 
 **Winner: Loom** for editing and polish. **Vidyard** if you prefer speed over production value.
 
@@ -39,9 +39,9 @@ Both tools cover the basics: screen-only, camera-only, or screen-plus-camera rec
 
 **Vidyard** creates a video landing page that can be customized with your branding, prospect's name, and a CTA button. For sales, this personalization matters. Seeing "Hi Sarah, here's the demo you asked about" with a "Book a Call" button underneath converts better than a generic Loom link.
 
-Vidyard also integrates into email clients. You can record and embed videos directly in Gmail, Outlook, Outreach, and SalesLoft sequences without leaving your inbox.
+Vidyard also integrates into email clients. You can record and embed videos directly in Gmail, Outlook, Outreach, and [SalesLoft](/tools/salesloft/) sequences without leaving your inbox.
 
-**Winner: Vidyard** for sales outreach. **Loom** for internal team communication.
+**Winner: Vidyard** for sales [outreach](/tools/outreach/). **Loom** for internal team communication.
 
 ## Analytics
 
@@ -49,7 +49,7 @@ This is where the tools diverge most.
 
 **Loom** shows basic analytics: view count, watch percentage, and who viewed (if they're in your workspace). Enough to know whether your team watched the product update video, but not much more.
 
-**Vidyard** provides sales-grade analytics. You see who watched, how much they watched, how many times they re-watched, and which sections they rewound. This data syncs directly into your CRM — a Salesforce or HubSpot record shows every video a prospect has watched, with engagement scores.
+**Vidyard** provides sales-grade analytics. You see who watched, how much they watched, how many times they re-watched, and which sections they rewound. This data syncs directly into your CRM — a [Salesforce](/tools/salesforce/) or HubSpot record shows every video a prospect has watched, with engagement scores.
 
 For sales teams, this changes the workflow. Instead of guessing whether a prospect watched your demo, you see they watched 80% of it twice and replayed the pricing section — then you call them. Loom can't do this.
 
@@ -57,19 +57,19 @@ For sales teams, this changes the workflow. Instead of guessing whether a prospe
 
 ## CRM and Sales Tool Integrations
 
-**Loom** integrates with Salesforce and HubSpot at a basic level — you can share Loom links in CRM records. But there's no automatic activity logging, no engagement scoring, and no integration with sales engagement platforms.
+**Loom** integrates with Salesforce and [HubSpot](/tools/hubspot/) at a basic level — you can share Loom links in CRM records. But there's no automatic activity logging, no engagement scoring, and no integration with sales engagement platforms.
 
-**Vidyard** is built around CRM integration. It connects natively to:
+**Vidyard** is built [around](/tools/around/) CRM integration. It connects natively to:
 
-- **Salesforce**: Auto-logs video views as activities on contact/lead records
-- **HubSpot**: Tracks video engagement in the contact timeline
-- **Outreach**: Embeds video in sequences with tracking
-- **SalesLoft**: Same as Outreach
-- **Gong**: Links video engagement to deal intelligence
+- **[Salesforce](/tools/salesforce/)**: Auto-logs video views as activities on contact/lead records
+- **[HubSpot](/tools/hubspot/)**: Tracks video engagement in the contact timeline
+- **[Outreach](/tools/outreach/)**: Embeds video in sequences with tracking
+- **[SalesLoft](/tools/salesloft/)**: Same as Outreach
+- **[Gong](/tools/gong/)**: Links video engagement to deal intelligence
 
 This integration depth means sales managers can see video engagement alongside call data, email opens, and meeting history — all in one pipeline view.
 
-**Winner: Vidyard**. Not close.
+**Winner: Vidyard**. Not [close](/tools/close/).
 
 ## Pricing
 
@@ -106,7 +106,7 @@ Vidyard is the right choice if:
 
 - You're on a **sales or customer success team** that uses video for prospecting, demos, or follow-ups
 - You need to know **exactly who watched** your videos and **how they engaged** — and you need that data in your CRM
-- You use **Salesforce, HubSpot, Outreach, or SalesLoft** and want native integrations
+- You use **[Salesforce](/tools/salesforce/), HubSpot, Outreach, or SalesLoft** and want native integrations
 - **ROI tracking** matters more than per-seat cost
 
 ## Can You Use Both?

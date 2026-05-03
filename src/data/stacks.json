@@ -1,0 +1,480 @@
+[
+  {
+    "id": "startup-founder",
+    "title": "Startup Founder Stack",
+    "slug": "startup-founder",
+    "description": "Essential tools every startup founder needs to build, launch, and grow their business in 2026.",
+    "tools": [
+      "notion",
+      "slack",
+      "figma",
+      "vercel",
+      "stripe",
+      "linear",
+      "github-copilot",
+      "chatgpt"
+    ],
+    "categories": [
+      "Communication",
+      "Project Management",
+      "Design",
+      "Development",
+      "Payments",
+      "AI"
+    ]
+  },
+  {
+    "id": "freelance-designer",
+    "title": "Freelance Designer Stack",
+    "slug": "freelance-designer",
+    "description": "The complete toolkit for freelance designers managing clients, projects, and creative work.",
+    "tools": [
+      "figma",
+      "canva",
+      "notion",
+      "loom",
+      "stripe",
+      "calendly",
+      "grammarly",
+      "midjourney"
+    ],
+    "categories": [
+      "Design",
+      "Productivity",
+      "Communication",
+      "Payments",
+      "AI"
+    ]
+  },
+  {
+    "id": "content-creator",
+    "title": "Content Creator Stack",
+    "slug": "content-creator",
+    "description": "Tools for creating, editing, and distributing content across platforms.",
+    "tools": [
+      "canva",
+      "grammarly",
+      "chatgpt",
+      "loom",
+      "buffer",
+      "notion",
+      "descript",
+      "midjourney"
+    ],
+    "categories": [
+      "Design",
+      "Writing",
+      "Video",
+      "Social Media",
+      "AI",
+      "Organization"
+    ]
+  },
+  {
+    "id": "remote-team",
+    "title": "Remote Team Stack",
+    "slug": "remote-team",
+    "description": "Collaboration tools that keep distributed teams productive and connected.",
+    "tools": [
+      "slack",
+      "notion",
+      "loom",
+      "miro",
+      "zoom",
+      "linear",
+      "github",
+      "figma"
+    ],
+    "categories": [
+      "Communication",
+      "Documentation",
+      "Video",
+      "Whiteboard",
+      "Project Management"
+    ]
+  },
+  {
+    "id": "marketing-team",
+    "title": "Marketing Team Stack",
+    "slug": "marketing-team",
+    "description": "End-to-end marketing tools from research to execution and analytics.",
+    "tools": [
+      "ahrefs",
+      "canva",
+      "buffer",
+      "mailchimp",
+      "google-analytics",
+      "chatgpt",
+      "notion",
+      "zapier"
+    ],
+    "categories": [
+      "SEO",
+      "Design",
+      "Social Media",
+      "Email",
+      "Analytics",
+      "AI",
+      "Automation"
+    ]
+  },
+  {
+    "id": "developer",
+    "title": "Developer Stack",
+    "slug": "developer",
+    "description": "Modern development tools for building, testing, and deploying software.",
+    "tools": [
+      "github-copilot",
+      "cursor",
+      "vercel",
+      "linear",
+      "notion",
+      "slack",
+      "postman",
+      "docker"
+    ],
+    "categories": [
+      "AI Coding",
+      "Hosting",
+      "Issue Tracking",
+      "Documentation",
+      "API"
+    ]
+  },
+  {
+    "id": "solopreneur",
+    "title": "Solopreneur Stack",
+    "slug": "solopreneur",
+    "description": "All-in-one tools for solo entrepreneurs managing every aspect of their business.",
+    "tools": [
+      "notion",
+      "canva",
+      "chatgpt",
+      "zapier",
+      "stripe",
+      "calendly",
+      "mailchimp",
+      "buffer"
+    ],
+    "categories": [
+      "Productivity",
+      "Design",
+      "AI",
+      "Automation",
+      "Payments",
+      "Scheduling",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "student",
+    "title": "Student Stack",
+    "slug": "student",
+    "description": "Free and affordable tools for students to study, organize, and collaborate.",
+    "tools": [
+      "notion",
+      "obsidian",
+      "chatgpt",
+      "canva",
+      "grammarly",
+      "todoist",
+      "google-docs",
+      "perplexity"
+    ],
+    "categories": [
+      "Notes",
+      "AI",
+      "Writing",
+      "Design",
+      "Organization",
+      "Research"
+    ]
+  },
+  {
+    "id": "sales-team",
+    "title": "Sales Team Stack",
+    "slug": "sales-team",
+    "description": "CRM and sales enablement tools to close more deals and grow revenue.",
+    "tools": [
+      "hubspot",
+      "slack",
+      "loom",
+      "calendly",
+      "notion",
+      "chatgpt",
+      "zapier",
+      "zoom"
+    ],
+    "categories": [
+      "CRM",
+      "Communication",
+      "Video",
+      "Scheduling",
+      "AI",
+      "Automation"
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "title": "E-commerce Stack",
+    "slug": "ecommerce",
+    "description": "Tools for building and scaling online stores from inventory to customer support.",
+    "tools": [
+      "shopify",
+      "canva",
+      "mailchimp",
+      "zapier",
+      "chatgpt",
+      "google-analytics",
+      "stripe",
+      "zendesk"
+    ],
+    "categories": [
+      "Store",
+      "Design",
+      "Email",
+      "Automation",
+      "AI",
+      "Analytics",
+      "Payments",
+      "Support"
+    ]
+  },
+  {
+    "id": "data-science",
+    "title": "Data Science Stack",
+    "slug": "data-science",
+    "description": "Tools for data analysis, machine learning, and visualization workflows.",
+    "tools": [
+      "chatgpt",
+      "notion",
+      "github-copilot",
+      "airtable",
+      "google-analytics",
+      "slack",
+      "perplexity",
+      "zapier"
+    ],
+    "categories": [
+      "AI",
+      "Database",
+      "Analytics",
+      "Visualization",
+      "Communication"
+    ]
+  },
+  {
+    "id": "agency",
+    "title": "Creative Agency Stack",
+    "slug": "agency",
+    "description": "Manage clients, creative projects, and team collaboration at scale.",
+    "tools": [
+      "figma",
+      "clickup",
+      "slack",
+      "loom",
+      "canva",
+      "hubspot",
+      "zapier",
+      "notion"
+    ],
+    "categories": [
+      "Design",
+      "Project Management",
+      "Communication",
+      "CRM",
+      "Automation"
+    ]
+  },
+  {
+    "id": "devops-engineer",
+    "title": "DevOps Engineer Stack",
+    "slug": "devops-engineer",
+    "description": "CI/CD, monitoring, and infrastructure tools for DevOps professionals.",
+    "tools": [
+      "github",
+      "vercel",
+      "docker",
+      "linear",
+      "slack",
+      "notion",
+      "postman",
+      "cursor"
+    ],
+    "categories": [
+      "CI/CD",
+      "Hosting",
+      "Containers",
+      "Issue Tracking",
+      "Communication"
+    ]
+  },
+  {
+    "id": "product-manager",
+    "title": "Product Manager Stack",
+    "slug": "product-manager",
+    "description": "Tools for roadmapping, user research, analytics, and cross-functional alignment.",
+    "tools": [
+      "linear",
+      "notion",
+      "figma",
+      "loom",
+      "slack",
+      "miro",
+      "chatgpt",
+      "ahrefs"
+    ],
+    "categories": [
+      "Issue Tracking",
+      "Documentation",
+      "Design",
+      "Video",
+      "Collaboration",
+      "AI"
+    ]
+  },
+  {
+    "id": "podcast-creator",
+    "title": "Podcast Creator Stack",
+    "slug": "podcast-creator",
+    "description": "Everything you need to record, edit, publish, and grow a podcast.",
+    "tools": [
+      "descript",
+      "canva",
+      "notion",
+      "buffer",
+      "chatgpt",
+      "calendly",
+      "zapier",
+      "mailchimp"
+    ],
+    "categories": [
+      "Audio",
+      "Design",
+      "Organization",
+      "Social Media",
+      "AI",
+      "Email"
+    ]
+  },
+  {
+    "id": "hr-recruiter",
+    "title": "HR & Recruiter Stack",
+    "slug": "hr-recruiter",
+    "description": "Hiring, onboarding, and people management tools for HR professionals.",
+    "tools": [
+      "notion",
+      "slack",
+      "zoom",
+      "calendly",
+      "loom",
+      "airtable",
+      "chatgpt",
+      "canva"
+    ],
+    "categories": [
+      "HR",
+      "Communication",
+      "Video",
+      "Scheduling",
+      "AI",
+      "Documentation"
+    ]
+  },
+  {
+    "id": "youtuber",
+    "title": "YouTuber Stack",
+    "slug": "youtuber",
+    "description": "Video production, thumbnail design, and channel growth tools for creators.",
+    "tools": [
+      "canva",
+      "chatgpt",
+      "descript",
+      "notion",
+      "buffer",
+      "midjourney",
+      "loom",
+      "ahrefs"
+    ],
+    "categories": [
+      "Design",
+      "AI",
+      "Video",
+      "Organization",
+      "Social Media",
+      "SEO"
+    ]
+  },
+  {
+    "id": "nonprofit",
+    "title": "Nonprofit Stack",
+    "slug": "nonprofit",
+    "description": "Affordable tools for nonprofit teams to manage donors, volunteers, and programs.",
+    "tools": [
+      "notion",
+      "slack",
+      "canva",
+      "mailchimp",
+      "zoom",
+      "google-docs",
+      "airtable",
+      "zapier"
+    ],
+    "categories": [
+      "Organization",
+      "Communication",
+      "Design",
+      "Email",
+      "Video",
+      "Automation"
+    ]
+  },
+  {
+    "id": "writer-author",
+    "title": "Writer & Author Stack",
+    "slug": "writer-author",
+    "description": "Writing, editing, and publishing tools for authors and professional writers.",
+    "tools": [
+      "notion",
+      "grammarly",
+      "chatgpt",
+      "obsidian",
+      "canva",
+      "mailchimp",
+      "buffer",
+      "calendly"
+    ],
+    "categories": [
+      "Writing",
+      "AI",
+      "Notes",
+      "Design",
+      "Email",
+      "Social Media"
+    ]
+  },
+  {
+    "id": "customer-success",
+    "title": "Customer Success Stack",
+    "slug": "customer-success",
+    "description": "Tools for onboarding, retaining, and delighting customers at every touchpoint.",
+    "tools": [
+      "intercom",
+      "slack",
+      "loom",
+      "notion",
+      "zoom",
+      "calendly",
+      "hubspot",
+      "zapier"
+    ],
+    "categories": [
+      "Support",
+      "Communication",
+      "Video",
+      "Documentation",
+      "CRM",
+      "Automation"
+    ]
+  }
+]

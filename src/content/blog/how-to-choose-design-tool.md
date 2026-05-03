@@ -14,21 +14,21 @@ This is the most important question. Different design work requires fundamentall
 
 | Design Type | Best Tool | Why |
 |------------|-----------|-----|
-| UI/UX interfaces | Figma | Vector editing, prototyping, component systems |
-| Marketing graphics | Canva | Templates, Brand Kit, quick output |
-| Diagrams & workshops | Miro | Infinite canvas, collaboration features |
-| Print materials | Canva | Print-ready exports, template library |
-| Icon/illustration | Figma | Precise vector control |
+| UI/UX interfaces | [Figma](/tools/figma/) | Vector editing, prototyping, component systems |
+| Marketing graphics | [Canva](/tools/canva/) | Templates, Brand Kit, quick output |
+| Diagrams & workshops | [Miro](/tools/miro/) | Infinite canvas, collaboration features |
+| Print materials | [Canva](/tools/canva/) | Print-ready exports, template library |
+| Icon/illustration | [Figma](/tools/figma/) | Precise vector control |
 
-**If you're doing UI/UX design,** the answer is almost always Figma. Its prototyping, component system, and developer handoff features are unmatched.
+**If you're doing UI/UX design,** the answer is almost always [Figma](/tools/figma/). Its prototyping, component system, and developer handoff features are unmatched.
 
-**If you're doing marketing/social media design,** Canva wins on speed and template quality. You don't need Figma's power for Instagram posts.
+**If you're doing marketing/social media design,** [Canva](/tools/canva/) wins on speed and template quality. You don't need Figma's power for Instagram posts.
 
 ## Step 2: Consider Your Team
 
 ### Solo Designer
-- **Figma Free** handles most UI/UX work for individuals
-- **Canva Free** covers marketing needs
+- **[Figma](/tools/figma/) Free** handles most UI/UX work for individuals
+- **[Canva](/tools/canva/) Free** covers marketing needs
 - Cost: $0
 
 ### Small Team (2-5 people)
@@ -45,8 +45,8 @@ This is the most important question. Different design work requires fundamentall
 
 Your design tool doesn't exist in isolation. Consider what it needs to connect with:
 
-- **Project management** → Figma integrates deeply with Linear, Jira, and Asana
-- **Communication** → Both Figma and Canva have Slack integrations
+- **[Project management](/category/project-management/)** → Figma integrates deeply with Linear, Jira, and Asana
+- **Communication** → Both Figma and Canva have [Slack](/tools/slack/) integrations
 - **Development** → Figma's Dev Mode is built for developer handoff
 - **Content management** → Canva exports directly to social platforms
 
@@ -57,10 +57,10 @@ Be honest about your team's skill level:
 | Tool | Learning Curve | Time to Productivity |
 |------|---------------|---------------------|
 | Canva | Low | 30 minutes |
-| Miro | Low-Medium | 1 hour |
+| [Miro](/tools/miro/) | Low-Medium | 1 hour |
 | Figma | Medium-High | 1-2 weeks |
 
-If your team doesn't have design experience, forcing them into Figma will waste time. Canva's templates get non-designers producing quality work in minutes.
+If your team doesn't have design experience, forcing them into Figma will waste time. Canva's templates get non-[designers](/best-for/designers/) producing quality work in minutes.
 
 ## Step 5: Start Free, Then Upgrade
 
@@ -68,7 +68,7 @@ Every major design tool offers a free tier:
 
 - **Figma Free:** 3 projects, unlimited personal files
 - **Canva Free:** 250,000+ templates, 5GB storage
-- **Miro Free:** 3 editable boards
+- **[Miro](/tools/miro/) Free:** 3 editable boards
 
 Try them with your actual workflow before paying. A tool that looks perfect in a demo might not fit how your team actually works.
 
@@ -76,7 +76,7 @@ Try them with your actual workflow before paying. A tool that looks perfect in a
 
 1. **Are you designing user interfaces?** → Figma
 2. **Are you creating marketing content fast?** → Canva
-3. **Are you facilitating workshops or brainstorming?** → Miro
+3. **Are you facilitating workshops or brainstorming?** → [Miro](/tools/miro/)
 4. **Do you need all three?** → That's normal. Most teams use 2-3 design tools.
 
 ## Common Mistakes to Avoid
@@ -88,7 +88,7 @@ Try them with your actual workflow before paying. A tool that looks perfect in a
 
 ## Bottom Line
 
-Match the tool to the work, not the other way around. Most teams end up with Figma for product design and Canva for everything else — and that's perfectly fine.
+Match the tool to the work, not the other way [around](/tools/around/). Most teams end up with Figma for product design and Canva for everything else — and that's perfectly fine.
 
 Compare options side by side: [Canva vs Figma](/compare/canva-vs-figma/) or [Miro vs Figma](/compare/figma-vs-miro/).
 

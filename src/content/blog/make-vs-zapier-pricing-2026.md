@@ -40,7 +40,7 @@ This is where the comparison gets interesting.
 
 **Make counts operations**: Similarly, every module execution counts as one operation. But Make gives you significantly more operations per dollar.
 
-**Example scenario**: You have a workflow that triggers when a form is submitted, adds data to a spreadsheet, sends an email, and posts to Slack (4 steps).
+**Example scenario**: You have a workflow that triggers when a form is submitted, adds data to a spreadsheet, sends an email, and posts to [Slack](/tools/slack/) (4 steps).
 
 - **Zapier**: 4 tasks per run. On the Starter plan (750 tasks), you get ~187 runs/month = **$0.107/run**
 - **Make**: 4 operations per run. On the Core plan (10,000 ops), you get ~2,500 runs/month = **$0.004/run**
@@ -76,7 +76,7 @@ If the app you need is only on Zapier, the price premium is worth it.
 Make is the better choice when:
 
 - **High-volume workflows**: The per-operation cost is dramatically lower
-- **Complex logic**: Make's visual builder handles branching, loops, and error handling better
+- **Complex logic**: Make's visual builder handles branching, [loops](/tools/loops/), and error handling better
 - **Technical users**: If you're comfortable with a slightly steeper learning curve
 - **Budget-conscious teams**: Core plan gives 10,000 operations for $10.59/mo
 

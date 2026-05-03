@@ -29,7 +29,7 @@ Notion's Free plan is surprisingly capable:
 - **Share with up to 10 guests**
 - **7-day page history**
 - **10 MB file upload limit**
-- **Basic Notion AI** (limited queries per day)
+- **Basic [Notion AI](/tools/notion-ai/)** (limited queries per day)
 - **Synced databases and all page types**
 
 The Free plan is genuinely usable for personal note-taking, journaling, and light project management. The main limitations are guest sharing (10 people max), file upload size, and page history.
@@ -44,11 +44,11 @@ Everything in Free, plus:
 - **Unlimited guests**
 - **Unlimited file uploads** (no size limit)
 - **30-day page history**
-- **Notion AI included** (full access, no daily limits)
+- **[Notion AI](/tools/notion-ai/) included** (full access, no daily limits)
 - **Custom automations**
 - **Bulk export**
 
-The biggest upgrades over Free are unlimited file uploads and full Notion AI access. If you're using Notion seriously for work or study, the $10/month is well worth it.
+The biggest upgrades over Free are unlimited file uploads and full [Notion AI](/tools/notion-ai/) access. If you're using Notion seriously for work or study, the $10/month is well worth it.
 
 **Who it's for**: Individual power users, freelancers, and small teams (2-5 people) who want the full Notion experience.
 
@@ -62,7 +62,7 @@ Everything in Plus, plus:
 - **90-day page history**
 - **Bulk PDF export**
 - **Advanced permissions and roles**
-- **Notion AI included**
+- **[Notion AI](/tools/notion-ai/) included**
 - **Audit log (basic)**
 
 The jump from Plus to Business is primarily about access control and security. If you're a team of 5 or fewer without strict security requirements, Plus is usually sufficient.
@@ -83,7 +83,7 @@ Everything in Business, plus:
 - **Advanced security controls**
 - **Workspace analytics**
 
-You'll need to contact Notion's sales team for pricing, which typically starts around $25/user/month depending on team size and contract terms.
+You'll need to contact Notion's sales team for pricing, which typically starts [around](/tools/around/) $25/user/month depending on team size and contract terms.
 
 **Who it's for**: Organizations with 100+ users, strict compliance requirements, or need for dedicated support.
 
@@ -158,10 +158,10 @@ The credits typically cover 6-12 months of the Plus plan for small teams.
 | Tool | Free Plan | Paid Starting At | AI Included? |
 |------|-----------|-----------------|--------------|
 | Notion | ✅ Generous | $10/user/mo | ✅ (paid plans) |
-| ClickUp | ✅ | $7/user/mo | Add-on |
-| Monday.com | ✅ (2 users) | $9/seat/mo | Add-on |
-| Obsidian | ✅ | $4/mo (sync only) | No |
-| Evernote | ✅ (limited) | $14.99/mo | ✅ |
+| [ClickUp](/tools/clickup/) | ✅ | $7/user/mo | Add-on |
+| [Monday.com](/tools/monday/) | ✅ (2 users) | $9/seat/mo | Add-on |
+| [Obsidian](/tools/obsidian/) | ✅ | $4/mo (sync only) | No |
+| [Evernote](/tools/evernote/) | ✅ (limited) | $14.99/mo | ✅ |
 
 Notion offers strong value in the mid-range. It's pricier than ClickUp's base plan but includes AI, and it's significantly cheaper than Evernote for comparable features. For a deeper comparison, check out [Notion vs ClickUp](/blog/notion-vs-clickup-which-is-better) or our [best Notion alternatives guide](/blog/best-notion-alternatives-2026).
 
@@ -180,7 +180,7 @@ For individuals, the Free plan covers most needs. The Plus plan is worth it if y
 
 For teams, Notion is competitively priced and offers more flexibility than most alternatives. The ability to replace multiple tools (notes, wiki, project management, docs) with one subscription makes the per-user cost easier to justify.
 
-The real question is whether Notion fits your workflow. If it does, the pricing is fair. If you're only using it for basic notes, a free alternative like Obsidian or Apple Notes might serve you better.
+The real question is whether Notion fits your workflow. If it does, the pricing is fair. If you're only using it for basic notes, a free alternative like [Obsidian](/tools/obsidian/) or Apple Notes might serve you better.
 
 ---
 

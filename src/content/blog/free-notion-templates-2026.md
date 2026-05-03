@@ -12,7 +12,7 @@ Here are the best free Notion templates across the most common use cases — plu
 
 ## Why Templates Matter More in Notion Than Other Tools
 
-In tools like Trello or Asana, templates primarily copy task structures. In Notion, a good template can define your entire workflow: the database structure, the views, the formulas, the relationships between different parts of your work. A bad setup in Notion is genuinely painful to fix later, which is why starting with a quality template saves hours.
+In tools like [Trello](/tools/trello/) or Asana, templates primarily copy task structures. In Notion, a good template can define your entire workflow: the database structure, the views, the formulas, the relationships between different parts of your work. A bad setup in Notion is genuinely painful to fix later, which is why starting with a quality template saves hours.
 
 ## Productivity & Personal Organization
 
@@ -49,7 +49,7 @@ A good habit tracker in Notion uses a database with a date property and checkbox
 
 ### Simple Project Tracker
 
-For individuals and small teams, a simple project tracker needs:
+For individuals and [small teams](/best-for/small-teams/), a simple project tracker needs:
 - A database of projects with status, deadline, and priority properties
 - A kanban view (Board view) for visual status
 - A timeline view for project planning
@@ -159,6 +159,6 @@ Track recurring SaaS and subscription costs:
 
 ## The Bottom Line
 
-The right Notion template eliminates hours of setup and gives you a proven structure to start from. The categories above cover the most common use cases — pick the one closest to your problem, duplicate it into your workspace, and adapt it to fit.
+The right Notion template eliminates [hours](/tools/hours-tracker/) of setup and gives you a proven structure to start from. The categories above cover the most common use cases — pick the one closest to your problem, duplicate it into your workspace, and adapt it to fit.
 
 **Already using Notion and want to level up?** [See how Notion compares to other tools →](/tools/notion)

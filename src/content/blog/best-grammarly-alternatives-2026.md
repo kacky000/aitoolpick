@@ -20,15 +20,15 @@ For context, see our [Grammarly review](/blog/grammarly-review-2026) and [free v
 
 ProWritingAid goes deeper than grammar checking. It analyzes readability, sentence structure, overused words, pacing, and writing style. The detailed reports help you actually improve your writing over time, not just fix individual errors.
 
-Integrates with Word, Google Docs, Scrivener, and browsers.
+Integrates with Word, [Google Docs](/tools/google-docs/), Scrivener, and browsers.
 
-**Best for**: Authors, bloggers, and anyone who wants to improve their writing craft.
+**Best for**: Authors, bloggers, and anyone who wants to improve their writing [craft](/tools/craft/).
 
 ## 2. Hemingway Editor — Best for Clarity
 
 **Pricing**: Free (web), $19.99 (desktop app, one-time)
 
-Hemingway focuses on readability. It highlights complex sentences, passive voice, adverbs, and hard-to-read passages with color coding. It won't catch every grammar error, but it'll make your writing clearer and more direct.
+Hemingway focuses on readability. It highlights complex sentences, passive voice, adverbs, and hard-to-read passages with color coding. It won't catch every grammar error, but it'll [make](/tools/make/) your writing clearer and more direct.
 
 The one-time pricing for the desktop app is refreshing in a subscription-heavy market.
 
@@ -56,7 +56,7 @@ Grammar and style checking is solid, though not as deep as Grammarly or ProWriti
 
 **Pricing**: Free (10 rewrites/day), $9.99/month (Plus)
 
-Wordtune rewrites your sentences to make them clearer, more formal, or more casual. Unlike grammar checkers that fix errors, Wordtune improves already-correct text. The AI suggestions are often surprisingly good.
+Wordtune rewrites your sentences to [make](/tools/make/) them clearer, more formal, or more casual. Unlike grammar checkers that fix errors, Wordtune improves already-correct text. The AI suggestions are often surprisingly good.
 
 **Best for**: Non-native English speakers and anyone who wants better phrasing.
 

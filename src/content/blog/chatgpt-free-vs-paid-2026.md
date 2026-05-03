@@ -54,7 +54,7 @@ The limitations become apparent quickly for regular users:
 
 **Image generation is minimal.** Free users can generate a handful of DALL-E images per day at most. If you need images regularly for content creation or presentations, this limit is frustrating.
 
-**Peak-hour degradation.** During busy times (typically US business hours), free users experience slower responses and may temporarily lose GPT-4o access entirely.
+**Peak-hour degradation.** During busy times (typically US business [hours](/tools/hours-tracker/)), free users experience slower responses and may temporarily lose GPT-4o access entirely.
 
 ## What Plus Actually Adds
 
@@ -134,9 +134,9 @@ Before paying for any ChatGPT plan, these free options might cover your needs:
 
 **Perplexity Free** — If you mainly use ChatGPT for research, Perplexity offers AI-powered search with source citations. More focused, but exceptional at what it does. Check out our [Perplexity vs ChatGPT breakdown](/blog/perplexity-vs-chatgpt-2026/).
 
-**Google Gemini** — Free and deeply integrated with Google Workspace. Handles email drafting, document analysis, and search-related tasks well if you're in the Google ecosystem.
+**[Google Gemini](/tools/gemini/)** — Free and deeply integrated with Google Workspace. Handles email drafting, document analysis, and search-related tasks well if you're in the Google ecosystem.
 
-A strategic combination — ChatGPT Free for general tasks, Claude Free for writing, Perplexity Free for research — gives you premium-level AI capabilities at zero cost.
+A strategic combination — ChatGPT Free for general tasks, [Claude](/tools/claude/) Free for writing, Perplexity Free for research — gives you premium-level AI capabilities at zero cost.
 
 ## Tips for Maximizing the Free Plan
 

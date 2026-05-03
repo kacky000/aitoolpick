@@ -55,13 +55,13 @@ Workflow: Brief → ChatGPT draft → human edit → send
 
 **Escalation triage**: Train customer service reps to paste ambiguous tickets into ChatGPT to help categorize urgency and suggest response approaches.
 
-What ChatGPT can't do: handle live customer conversations reliably without significant customization and guardrails. The standard ChatGPT interface is not a customer service bot out of the box.
+What ChatGPT can't do: handle live customer conversations reliably without significant customization and guardrails. The standard ChatGPT interface is not a customer service bot out of the [box](/tools/box/).
 
 ## Sales: Speeding Up the Top and Middle of the Funnel
 
 **Prospect research summaries**: Paste a company's About page and ask ChatGPT to summarize their business model, likely pain points, and potential fit with your solution.
 
-**Cold outreach personalization**: Give ChatGPT a prospect's LinkedIn summary and your value proposition — it writes a personalized opening line for cold emails far faster than reps doing it manually.
+**Cold [outreach](/tools/outreach/) personalization**: Give ChatGPT a prospect's LinkedIn summary and your value proposition — it writes a personalized opening line for cold emails far faster than reps doing it manually.
 
 **Proposal drafts**: Describe the deal scope and ChatGPT generates a proposal structure and first draft. The numbers and specifics still need to come from humans.
 

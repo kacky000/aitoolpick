@@ -7,19 +7,19 @@ tags: ["linear", "product-management", "project-management", "roadmap"]
 lastModified: "2026-04-30"
 ---
 
-Linear was built for engineering teams. But as product managers increasingly embed themselves in development workflows, Linear has become a serious tool for PMs too—especially those who want to stay close to the code without drowning in Jira's complexity.
+Linear was built for engineering teams. But as product managers increasingly embed themselves in development workflows, Linear has become a serious tool for PMs too—especially those who want to stay [close](/tools/close/) to the code without drowning in Jira's complexity.
 
-This guide covers what Linear offers product managers in 2026, where it excels, and where you'll hit its limits.
+This guide covers what [Linear](/tools/linear-app/) offers product managers in 2026, where it excels, and where you'll hit its limits.
 
 ## What Makes Linear Different (for PMs)
 
-Linear was built with one obsession: speed. Every action—creating an issue, filtering a backlog, changing a status—happens in milliseconds. The keyboard-shortcut-first design means you can manage 50 issues faster in Linear than 10 issues in most other tools.
+Linear was built with one obsession: speed. Every action—creating an issue, filtering a backlog, changing a status—happens in milliseconds. The keyboard-[shortcut](/tools/shortcut/)-first design means you can manage 50 issues faster in Linear than 10 issues in most other tools.
 
 For product managers, this translates into:
 
-- **Backlog grooming in minutes, not hours**
+- **Backlog grooming in minutes, not [hours](/tools/hours-tracker/)**
 - **Real-time status visibility** without chasing engineers
-- **Clean roadmaps** that developers actually update themselves
+- **Clean roadmaps** that [developers](/best-for/developers/) actually update themselves
 - **Direct link from strategy to execution** via the Goals and Projects system
 
 ## Key Linear Features for Product Managers
@@ -45,7 +45,7 @@ Linear's Roadmap view is one of its best features for product managers. It shows
 - Milestone markers
 - Progress indicators
 
-Unlike Jira's roadmaps (which require a Premium plan), Linear's roadmap is available on all paid plans. It's simpler than a dedicated roadmap tool like Productboard, but for engineering-centric teams, it's often sufficient.
+Unlike [Jira](/tools/jira/)'s roadmaps (which require a Premium plan), Linear's roadmap is available on all paid plans. It's simpler than a dedicated roadmap tool like Productboard, but for engineering-centric teams, it's often sufficient.
 
 ### 3. Cycles (Sprints)
 
@@ -64,10 +64,10 @@ Prioritization is done with four levels: **Urgent, High, Medium, No priority**. 
 
 ### 5. Customer Requests (Views and Filtering)
 
-Linear doesn't have a customer-facing portal like Jira's Service Management or Productboard. But you can work around this:
+Linear doesn't have a customer-facing portal like Jira's Service Management or Productboard. But you can work [around](/tools/around/) this:
 
 - Create a shared "Customer Requests" team visible to relevant stakeholders
-- Use Linear's API to pipe feedback from Intercom, Zendesk, or Slack into Linear
+- Use Linear's API to pipe feedback from [Intercom](/tools/intercom/), Zendesk, or Slack into Linear
 - Tag issues with customer names or companies using labels
 
 ### 6. Linear for Customer Feedback via Integrations
@@ -76,12 +76,12 @@ Linear integrates with:
 
 | Integration | Use Case |
 |-------------|---------|
-| Slack | Post issue updates to channels; create issues from Slack |
-| GitHub/GitLab | Link issues to PRs; auto-close issues on merge |
-| Figma | Embed designs directly in issues |
-| Zendesk | Create Linear issues from support tickets |
-| Intercom | Link customer feedback to product issues |
-| Notion | Reference docs alongside technical tasks |
+| [Slack](/tools/slack/) | Post issue updates to channels; create issues from Slack |
+| [GitHub](/tools/github/)/GitLab | Link issues to PRs; auto-close issues on merge |
+| [Figma](/tools/figma/) | Embed designs directly in issues |
+| [Zendesk](/tools/zendesk/) | Create Linear issues from support tickets |
+| [Intercom](/tools/intercom/) | Link customer feedback to product issues |
+| [Notion](/tools/notion/) | Reference docs alongside technical tasks |
 
 ## Linear Pricing for Product Teams
 
@@ -96,7 +96,7 @@ Most product teams need the **Basic plan ($8/user/mo)** at minimum to access roa
 
 ## Linear vs Jira for Product Managers
 
-| Feature | Linear | Jira |
+| Feature | Linear | [Jira](/tools/jira/) |
 |---------|--------|------|
 | Setup time | 30 minutes | Days to weeks |
 | Interface | ✅ Clean, fast | ⚠️ Complex, slow |
@@ -116,7 +116,7 @@ Most product teams need the **Basic plan ($8/user/mo)** at minimum to access roa
 |---------|--------|-------|
 | Engineering focus | ✅ Built for dev teams | ⚠️ General purpose |
 | Non-technical PMs | ⚠️ Learning curve | ✅ More accessible |
-| GitHub integration | ✅ Native | ⚠️ Limited |
+| [GitHub](/tools/github/) integration | ✅ Native | ⚠️ Limited |
 | Roadmaps | ✅ Clean timeline | ✅ Timeline view |
 | Customer management | ❌ No | ⚠️ Basic |
 | Best for | Dev-adjacent PMs | Cross-functional PMs |
@@ -140,8 +140,8 @@ Linear is a poor fit if you:
 ## Tips for PMs Using Linear
 
 1. **Use Projects for features, Issues for tasks** — Don't create one giant "Q2 Roadmap" project. Break it into feature-level projects so each has a clear scope and status.
-2. **Set up a Triage view** — Make it a habit to review Triage daily. It takes 5 minutes and keeps the backlog clean.
-3. **Link to Figma early** — Attach Figma links to issues before they're in sprint. Engineers get context without Slack back-and-forth.
+2. **Set up a Triage view** — [Make](/tools/make/) it a habit to review Triage daily. It takes 5 minutes and keeps the backlog clean.
+3. **Link to [Figma](/tools/figma/) early** — Attach Figma links to issues before they're in sprint. Engineers get context without Slack back-and-forth.
 4. **Use views for stakeholder reporting** — Create a custom view filtered to "In Progress + High Priority" and share it with leadership as your weekly status update.
 5. **Embrace the keyboard shortcuts** — `C` to create an issue, `A` to assign, `P` for priority. After one week it becomes second nature.
 

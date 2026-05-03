@@ -17,10 +17,10 @@ Figma is a browser-based design tool used to create:
 - **Website and app designs** (UI/UX design)
 - **Wireframes and prototypes**
 - **Design systems and component libraries**
-- **Presentations** (via Figma Slides)
-- **Diagrams and brainstorming** (via FigJam)
+- **Presentations** (via Figma [Slides](/tools/slides-com/))
+- **Diagrams and brainstorming** (via [FigJam](/tools/figjam/))
 
-It's used by designers at companies like Airbnb, Uber, Google, and Spotify. But it's also free for individuals, making it accessible to students, freelancers, and hobbyists.
+It's used by designers at companies like Airbnb, Uber, Google, and Spotify. But it's also free for individuals, making it accessible to students, [freelancers](/best-for/freelancers/), and hobbyists.
 
 **What Figma is NOT**: It's not a photo editor (use Photoshop), an illustration tool (use Illustrator), or a drag-and-drop template tool (use [Canva](/blog/canva-review-2026)). Figma is for *designing interfaces from scratch*.
 
@@ -42,7 +42,7 @@ For unlimited files, the Professional plan is $15/editor/month. But 3 files is p
 
 ### The Canvas
 
-The large empty area is your canvas — an infinite 2D space. You can zoom in/out (Ctrl/Cmd + scroll) and pan around (Space + drag).
+The large empty area is your canvas — an infinite 2D space. You can zoom in/out (Ctrl/Cmd + scroll) and pan [around](/tools/around/) (Space + drag).
 
 ### Top Toolbar
 
@@ -64,7 +64,7 @@ From left to right:
 
 - **Design tab**: Properties of the selected object (size, color, effects, etc.)
 - **Prototype tab**: Add interactions and transitions
-- **Inspect tab (Dev Mode)**: Code output for developers
+- **Inspect tab (Dev Mode)**: Code output for [developers](/best-for/developers/)
 
 ## Core Concept #1: Frames
 
@@ -128,7 +128,7 @@ Instead of remembering hex codes, create named color styles:
 
 ### Text Styles
 Same concept for typography:
-1. Style your text (font, size, weight, line height)
+1. Style your text (font, size, weight, line [height](/tools/height/))
 2. Click the **4-dot icon** next to the text properties → "+" → name it (e.g., "Heading/H1")
 
 ### Variables (Advanced)
@@ -171,7 +171,7 @@ You've just designed a functional mobile screen with reusable components.
 
 ## Prototyping Basics
 
-Make your design interactive:
+[Make](/tools/make/) your design interactive:
 
 1. Switch to the **Prototype tab** in the right panel
 2. Select the "+" button on your design
@@ -183,7 +183,7 @@ Your prototype now feels like a real app. Share the prototype link with stakehol
 
 ## Essential Keyboard Shortcuts
 
-| Shortcut | Action |
+| [Shortcut](/tools/shortcut/) | Action |
 |----------|--------|
 | V | Move tool |
 | F | Frame tool |
@@ -201,7 +201,7 @@ Your prototype now feels like a real app. Share the prototype link with stakehol
 
 - **Figma Community**: Thousands of free templates, UI kits, and icons at [figma.com/community](https://figma.com/community)
 - **Figma YouTube channel**: Official tutorials for every feature
-- **UI kits**: Search the community for "iOS Design Kit" or "Material Design" for pre-built components
+- **UI kits**: Search the community for "iOS Design [Kit](/tools/kit/)" or "Material Design" for pre-built components
 
 ## What's Next?
 

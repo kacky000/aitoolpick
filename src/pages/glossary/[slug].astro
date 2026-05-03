@@ -1,0 +1,194 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import glossary from '../../data/glossary.json';
+import tools from '../../data/tools.json';
+
+export function getStaticPaths() {
+  return glossary.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+
+// Find related terms
+const relatedTerms = glossary.filter((g) =>
+  entry.related.includes(g.slug) || g.related.includes(entry.slug)
+).slice(0, 6);
+
+// Find tools related to this term
+const termLower = entry.term.toLowerCase();
+const relatedTools = tools.filter((t) =>
+  t.category.some((c: string) => c.includes(termLower)) ||
+  t.features.some((f: string) => f.toLowerCase().includes(termLower)) ||
+  t.description.toLowerCase().includes(termLower)
+).slice(0, 4);
+
+const pageTitle = `What is ${entry.term}? Definition & Guide | AIToolPick`;
+const pageDescription = `${entry.term} definition: ${entry.definition.slice(0, 140)}`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTerm',
+  name: entry.term,
+  description: entry.definition,
+  inDefinedTermSet: {
+    '@type': 'DefinedTermSet',
+    name: 'AIToolPick Glossary',
+    url: 'https://aitoolpick.org/glossary/',
+  },
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container glossary-page">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Glossary', href: '/glossary/' },
+        { label: entry.term },
+      ]} />
+
+      <article class="glossary-article">
+        <h1>What is {entry.term}?</h1>
+        <div class="glossary-definition">
+          <p>{entry.definition}</p>
+        </div>
+
+        {relatedTools.length > 0 && (
+          <div class="glossary-tools">
+            <h2>Related Tools</h2>
+            <div class="glossary-tools-grid">
+              {relatedTools.map((tool) => (
+                <a href={`/tools/${tool.slug}/`} class="glossary-tool-card">
+                  {tool.icon && <img src={tool.icon} alt={tool.name} width="28" height="28" style="border-radius: 6px;" />}
+                  <div>
+                    <strong>{tool.name}</strong>
+                    <span>{'★'.repeat(Math.round(tool.rating))} {tool.rating}</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {relatedTerms.length > 0 && (
+          <div class="glossary-related">
+            <h2>Related Terms</h2>
+            <div class="related-terms-grid">
+              {relatedTerms.map((rt) => (
+                <a href={`/glossary/${rt.slug}/`} class="related-term-chip">
+                  {rt.term}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </article>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .glossary-page {
+    max-width: 780px;
+  }
+
+  .glossary-article h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+
+  .glossary-definition {
+    background: var(--gray-50);
+    border-left: 4px solid var(--primary);
+    padding: 1.5rem;
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+    margin-bottom: 2.5rem;
+  }
+
+  .glossary-definition p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--gray-700);
+    margin: 0;
+  }
+
+  .glossary-tools {
+    margin-bottom: 2.5rem;
+  }
+
+  .glossary-tools h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .glossary-tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .glossary-tool-card {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.75rem 1rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: border-color 0.15s;
+  }
+
+  .glossary-tool-card:hover {
+    border-color: var(--primary);
+  }
+
+  .glossary-tool-card strong {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--dark);
+  }
+
+  .glossary-tool-card span {
+    font-size: 0.75rem;
+    color: var(--warning);
+  }
+
+  .glossary-related {
+    margin-bottom: 2rem;
+  }
+
+  .glossary-related h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .related-terms-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .related-term-chip {
+    padding: 0.4rem 0.9rem;
+    background: var(--gray-100);
+    color: var(--gray-700);
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .related-term-chip:hover {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+  }
+</style>

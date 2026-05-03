@@ -1,0 +1,210 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+// "Trending" = tools founded 2022+ with high ratings (new & hot)
+const trendingTools = tools
+  .filter((t) => t.yearFounded >= 2022 && t.rating >= 4.2)
+  .sort((a, b) => b.rating - a.rating || b.yearFounded - a.yearFounded)
+  .slice(0, 50);
+
+// Group by year
+const byYear = new Map<number, typeof tools>();
+for (const tool of trendingTools) {
+  const year = tool.yearFounded;
+  if (!byYear.has(year)) byYear.set(year, []);
+  byYear.get(year)!.push(tool);
+}
+const years = [...byYear.keys()].sort((a, b) => b - a);
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+function getCategoryName(catId: string): string {
+  const cat = categories.find((c) => c.id === catId);
+  return cat ? cat.name : catId.replace(/-/g, ' ');
+}
+
+const pageTitle = 'Trending AI & Productivity Tools in 2026 — New & Rising';
+const pageDescription = `Discover ${trendingTools.length} trending tools launched since 2022. The hottest new AI and productivity tools gaining traction right now.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Trending AI Tools 2026',
+  description: pageDescription,
+  numberOfItems: trendingTools.length,
+  itemListElement: trendingTools.slice(0, 20).map((tool, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'SoftwareApplication',
+      name: tool.name,
+      url: `https://aitoolpick.org/tools/${tool.slug}/`,
+    },
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Trending Tools' },
+      ]} />
+
+      <div class="trending-header">
+        <h1>Trending AI & Productivity Tools</h1>
+        <p>{trendingTools.length} new tools gaining traction in 2026. Launched 2022 or later, rated 4.2+.</p>
+      </div>
+
+      {years.map((year) => (
+        <div class="year-section">
+          <h2 class="year-heading">Launched in {year}</h2>
+          <div class="trending-grid">
+            {byYear.get(year)!.map((tool) => (
+              <a href={`/tools/${tool.slug}/`} class="trending-card">
+                <div class="trending-card-top">
+                  {tool.icon && <img src={tool.icon} alt={tool.name} width="36" height="36" style="border-radius: 8px;" loading="lazy" />}
+                  <div>
+                    <h3>{tool.name}</h3>
+                    <span class="trending-cat">{getCategoryName(tool.category[0])}</span>
+                  </div>
+                  <span class="trending-rating">★ {tool.rating}</span>
+                </div>
+                <p class="trending-desc">{tool.description.slice(0, 120)}{tool.description.length > 120 ? '...' : ''}</p>
+                <div class="trending-meta">
+                  <span class="trending-price">{formatPrice(tool.pricing)}</span>
+                  {tool.pricing.free && <span class="trending-free">Free Plan</span>}
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .trending-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .trending-header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .trending-header p {
+    color: var(--gray-600);
+    font-size: 1.05rem;
+  }
+
+  .year-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .year-heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-light);
+    color: var(--primary-dark);
+  }
+
+  .trending-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+
+  .trending-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.25rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.2s, transform 0.1s;
+  }
+
+  .trending-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+  }
+
+  .trending-card-top {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .trending-card-top h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--dark);
+  }
+
+  .trending-cat {
+    font-size: 0.72rem;
+    color: var(--gray-500);
+  }
+
+  .trending-rating {
+    margin-left: auto;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--warning);
+  }
+
+  .trending-desc {
+    font-size: 0.82rem;
+    color: var(--gray-600);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .trending-meta {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: auto;
+  }
+
+  .trending-price {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+  }
+
+  .trending-free {
+    font-size: 0.72rem;
+    padding: 0.15rem 0.5rem;
+    background: var(--success-light, #d1fae5);
+    color: var(--success, #059669);
+    border-radius: 10px;
+    font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    .trending-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

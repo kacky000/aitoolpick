@@ -17,11 +17,11 @@ Linear has quietly become the preferred issue tracker for fast-moving engineerin
 **Why developers prefer it:**
 - Blazing fast UI — no loading spinners, no page refreshes
 - Keyboard shortcuts for everything (press `C` to create an issue, `D` to set due date)
-- GitHub and GitLab integrations that automatically link PRs to issues and close them on merge
+- [GitHub](/tools/github/) and GitLab integrations that automatically link PRs to issues and close them on merge
 - Triage system that prevents your backlog from becoming a graveyard
 - Roadmap views for PMs that do not require developers to change their workflow
 
-**Pricing:** Free for small teams, $8/user/month for standard features.
+**Pricing:** Free for [small teams](/best-for/small-teams/), $8/user/month for standard features.
 
 Linear is not for everyone — if you need heavy customization or Gantt charts, you might prefer Jira or Asana. But for developer productivity, nothing comes close to Linear's speed. Read our full [Linear review](/blog/linear-review-2026) for a detailed breakdown.
 
@@ -40,13 +40,13 @@ The main drawback is performance — large workspaces with thousands of pages ca
 
 ## 3. Obsidian — Personal Knowledge Management
 
-While Notion excels at team collaboration, Obsidian is the developer's choice for personal note-taking. It stores everything as local Markdown files, works offline, and supports bidirectional linking between notes — creating a personal knowledge graph.
+While Notion excels at team collaboration, Obsidian is the developer's choice for personal [note-taking](/category/note-taking/). It stores everything as local Markdown files, works offline, and supports bidirectional linking between notes — creating a personal knowledge graph.
 
 **Why developers love it:**
 - Files stored locally as Markdown — no vendor lock-in, works with Git
 - Plugin ecosystem with 1,000+ community plugins (including Vim mode, Dataview queries, and Git sync)
 - Graph view visualizes connections between your notes
-- Fast and lightweight — opens instantly, no Electron bloat
+- Fast and lightweight — opens [instantly](/tools/instantly/), no Electron bloat
 - End-to-end encrypted sync available for $4/month
 
 Obsidian is ideal for maintaining a personal engineering journal, learning notes, architecture decision records, and anything you want to keep private and permanent.
@@ -70,7 +70,7 @@ Love it or hate it, Slack remains the communication backbone for most developmen
 
 **Productivity tips for developers:**
 - Use Slack Connect to collaborate with external partners without email chains
-- Set up automated notifications from GitHub, Linear, and CI/CD pipelines into dedicated channels
+- Set up automated notifications from [GitHub](/tools/github/), Linear, and CI/CD pipelines into dedicated channels
 - Use Huddles for quick pair programming sessions instead of scheduling formal meetings
 - Leverage Slack's Workflow Builder for automating repetitive requests (deploy approvals, access requests)
 - Set a "focus time" status that pauses notifications — and actually respect it
@@ -94,9 +94,9 @@ Claude excels at handling large codebases and long-context tasks. ChatGPT has br
 
 Developers often build custom scripts to automate repetitive tasks. But for connecting SaaS tools together, dedicated automation platforms save significant time.
 
-**Zapier** is the easier option — connect two or more apps with a trigger-action model. It supports 6,000+ apps and requires no code. Use it for straightforward automations like "when a GitHub issue is labeled 'urgent', send a Slack message to #incidents."
+**Zapier** is the easier option — connect two or more apps with a trigger-action model. It supports 6,000+ apps and requires no code. Use it for straightforward automations like "when a [GitHub](/tools/github/) issue is labeled 'urgent', send a Slack message to #incidents."
 
-**Make** (formerly Integromat) is more powerful. It offers visual workflow building with branching logic, loops, error handling, and data transformation. Developers tend to prefer Make because it feels more like programming and handles complex multi-step workflows better.
+**Make** (formerly Integromat) is more powerful. It offers visual workflow building with branching logic, [loops](/tools/loops/), error handling, and data transformation. Developers tend to prefer Make because it feels more like programming and handles complex multi-step workflows better.
 
 **When to use them vs custom code:**
 - Use Zapier/Make for connecting third-party SaaS tools
@@ -123,8 +123,8 @@ Total cost for a single developer: roughly $47-67/month depending on plan choice
 
 A few anti-patterns we see in developer tool stacks:
 
-- **Using Jira when your team is under 20 people.** The overhead is not worth it. Use Linear or GitHub Issues.
-- **Running Notion and Confluence simultaneously.** Pick one wiki. Two creates confusion.
+- **Using [Jira](/tools/jira/) when your team is under 20 people.** The overhead is not worth it. Use Linear or GitHub Issues.
+- **Running Notion and [Confluence](/tools/confluence/) simultaneously.** Pick one wiki. Two creates confusion.
 - **Paying for AI tools you do not use daily.** If you are not using ChatGPT or Claude every day, the free tiers are probably enough.
 - **Automating things that should be eliminated.** Before building a Zapier workflow, ask if the process should exist at all.
 

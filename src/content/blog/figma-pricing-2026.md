@@ -14,8 +14,8 @@ Figma has become the go-to design tool for teams worldwide, but understanding it
 
 | Plan | Price | Best For |
 |------|-------|----------|
-| Free (Starter) | $0 | Individual designers and students |
-| Professional | $15/editor/mo | Professional designers and small teams |
+| Free (Starter) | $0 | Individual [designers](/best-for/designers/) and students |
+| Professional | $15/editor/mo | Professional designers and [small teams](/best-for/small-teams/) |
 | Organization | $45/editor/mo | Design teams needing advanced management |
 | Enterprise | $90/editor/mo | Large organizations with security needs |
 
@@ -25,7 +25,7 @@ All paid plans are billed annually. Figma uses per-editor pricing, meaning viewe
 
 Figma's free plan is solid for individuals:
 
-- **3 Figma design files** and 3 FigJam files
+- **3 Figma design files** and 3 [FigJam](/tools/figjam/) files
 - **Unlimited personal drafts**
 - **Plugins and templates** access
 - **Mobile app** access
@@ -37,7 +37,7 @@ The main limitation is the 3-file cap on team projects. For students and solo de
 
 This is the most popular tier and unlocks the full Figma experience:
 
-- **Unlimited Figma and FigJam files**
+- **Unlimited Figma and [FigJam](/tools/figjam/) files**
 - **Unlimited projects**
 - **Shared and private projects**
 - **Team libraries** for components and styles
@@ -45,7 +45,7 @@ This is the most popular tier and unlocks the full Figma experience:
 - **Dev Mode** for developer handoff
 - **Audio conversations**
 
-At $15/editor/month, Figma Professional competes directly with Adobe XD and Sketch. The key advantage is real-time collaboration — multiple designers can work on the same file simultaneously.
+At $15/editor/month, Figma Professional competes directly with [Adobe XD](/tools/adobe-xd/) and Sketch. The key advantage is real-time collaboration — multiple designers can work on the same file simultaneously.
 
 ## Organization Plan ($45/editor/month)
 
@@ -98,8 +98,8 @@ AI features are included in Professional and above plans at no extra cost as of 
 |------|-----------|-------------------|
 | Figma | Yes (3 files) | $15/editor/mo |
 | [Canva](/blog/canva-vs-figma-which-design-tool) | Yes | $12.99/user/mo |
-| Adobe XD | No | $22.99/mo |
-| Sketch | No | $10/editor/mo |
+| [Adobe XD](/tools/adobe-xd/) | No | $22.99/mo |
+| [Sketch](/tools/sketch/) | No | $10/editor/mo |
 
 Figma's per-editor model means viewers cost nothing, which can significantly reduce your total bill compared to per-seat pricing.
 

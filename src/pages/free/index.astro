@@ -1,0 +1,147 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+const freeTools = tools.filter((t) => t.pricing.free === true);
+
+// Group free tools by category
+interface GroupedCategory {
+  id: string;
+  name: string;
+  slug: string;
+  icon: string;
+  tools: typeof freeTools;
+}
+
+const grouped: GroupedCategory[] = categories
+  .map((cat) => ({
+    id: cat.id,
+    name: cat.name,
+    slug: cat.slug,
+    icon: cat.icon,
+    tools: freeTools.filter((t) => t.category.includes(cat.id)),
+  }))
+  .filter((g) => g.tools.length > 0);
+---
+
+<BaseLayout
+  title="Free AI & Productivity Tools — Complete List 2026"
+  description="Browse all free AI and productivity tools organized by category. Find the best free tools for project management, design, writing, coding, and more."
+>
+  <section class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Free Tools</span>
+      </nav>
+
+      <h1 class="section-title">Free AI & Productivity Tools — Complete List 2026</h1>
+      <p class="section-subtitle">
+        {freeTools.length} tools with free plans, organized by category. No credit card required.
+      </p>
+
+      <div class="category-overview">
+        {grouped.map((group) => (
+          <a href={`/free/${group.slug}/`} class="category-chip">
+            <span>{group.icon}</span> {group.name} ({group.tools.length})
+          </a>
+        ))}
+      </div>
+
+      {grouped.map((group) => (
+        <section class="category-section" id={group.slug}>
+          <div class="category-header">
+            <h2>{group.icon} {group.name}</h2>
+            <a href={`/free/${group.slug}/`} class="see-all-link">
+              See all free {group.name.toLowerCase()} tools &rarr;
+            </a>
+          </div>
+          <div class="tool-grid">
+            {group.tools.map((tool) => (
+              <ToolCard tool={tool} />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .breadcrumb {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted, #6b7280);
+  }
+  .breadcrumb a {
+    color: var(--primary, #6366f1);
+    text-decoration: none;
+  }
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  .breadcrumb-sep {
+    margin: 0 0.5rem;
+    color: var(--text-muted, #9ca3af);
+  }
+  .section-subtitle {
+    color: var(--text-muted, #6b7280);
+    margin-bottom: 1.5rem;
+  }
+  .category-overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border, #e5e7eb);
+  }
+  .category-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    background: var(--bg-card, #f9fafb);
+    border: 1px solid var(--border, #e5e7eb);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--text, #1f2937);
+    text-decoration: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .category-chip:hover {
+    border-color: var(--primary, #6366f1);
+    background: var(--bg-hover, #eef2ff);
+  }
+  .category-section {
+    margin-bottom: 3rem;
+  }
+  .category-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .category-header h2 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  .see-all-link {
+    font-size: 0.9rem;
+    color: var(--primary, #6366f1);
+    text-decoration: none;
+  }
+  .see-all-link:hover {
+    text-decoration: underline;
+  }
+  .tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+</style>

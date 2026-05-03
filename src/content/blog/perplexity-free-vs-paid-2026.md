@@ -15,7 +15,7 @@ Perplexity AI has quietly become one of the most useful AI tools for anyone who 
 The free tier gives you access to Perplexity's core functionality:
 
 - **Unlimited standard searches** (Perplexity's default model)
-- **5 Pro searches per day** (limited access to GPT-4o, Claude, and Sonar)
+- **5 Pro searches per day** (limited access to GPT-4o, [Claude](/tools/claude/), and Sonar)
 - **Web sources cited inline** for every answer
 - **File uploads** — not available
 - **Image search** — basic access
@@ -33,22 +33,22 @@ The Pro plan is a significant step up:
 |---------|------|-----|
 | Standard searches | Unlimited | Unlimited |
 | Pro searches | 5/day | 600+/day |
-| Model access | Default only | GPT-4o, Claude 3.5, Sonar Large |
+| Model access | Default only | GPT-4o, [Claude](/tools/claude/) 3.5, Sonar Large |
 | File uploads | — | Yes (PDFs, docs, images) |
-| Image generation | — | Yes (DALL-E 3, SDXL) |
+| Image generation | — | Yes ([DALL-E 3](/tools/dall-e/), SDXL) |
 | Perplexity Spaces | — | Yes |
 | API credits | — | $5/month included |
 | Early feature access | — | Yes |
 
 ### Pro Searches
 
-Pro searches use more powerful reasoning models — specifically GPT-4o or Claude 3.5 Sonnet — to answer complex queries. The difference shows most on multi-step research questions, technical topics, and nuanced analysis. Standard searches are fast but shallow. Pro searches go deeper, synthesize better, and handle ambiguous questions more reliably.
+Pro searches use more powerful reasoning models — specifically GPT-4o or [Claude](/tools/claude/) 3.5 Sonnet — to answer complex queries. The difference shows most on multi-step research questions, technical topics, and nuanced analysis. Standard searches are fast but shallow. Pro searches go deeper, synthesize better, and handle ambiguous questions more reliably.
 
 600+ Pro searches per day is effectively unlimited for any normal user. Even heavy research workflows rarely exceed 100 Pro queries in a day.
 
 ### Model Selection
 
-Pro users can switch between models for each query. If you want Claude's careful reasoning for a legal question, GPT-4o's breadth for a technical question, or Perplexity's Sonar for a news-heavy query, you can choose. This flexibility is genuinely useful when different models perform differently on different tasks.
+Pro users can switch between models for each query. If you want [Claude](/tools/claude/)'s careful reasoning for a legal question, GPT-4o's breadth for a technical question, or Perplexity's Sonar for a news-heavy query, you can choose. This flexibility is genuinely useful when different models perform differently on different tasks.
 
 ### File Uploads
 
@@ -72,7 +72,7 @@ The free plan is right for you if:
 - You don't need to upload documents
 - 5 Pro searches per day is enough for your typical workflow
 - You're trying Perplexity before committing
-- You already have ChatGPT or Claude Plus for deep reasoning
+- You already have [ChatGPT](/tools/chatgpt/) or Claude Plus for deep reasoning
 
 The free tier is one of the best in AI search — most people who use Perplexity casually never hit its limits.
 
@@ -87,7 +87,7 @@ Consider upgrading if you:
 - Work in research, journalism, consulting, or any field requiring fast, sourced information
 - Want to generate images alongside research
 
-At $20/month, Perplexity Pro is cheaper than ChatGPT Plus ($20/month) and Claude Pro ($20/month). If you primarily use AI for research rather than writing or coding, Perplexity Pro often delivers more value per dollar than the alternatives.
+At $20/month, Perplexity Pro is cheaper than [ChatGPT](/tools/chatgpt/) Plus ($20/month) and Claude Pro ($20/month). If you primarily use AI for research rather than writing or coding, Perplexity Pro often delivers more value per dollar than the alternatives.
 
 ## Perplexity vs ChatGPT and Claude for Research
 

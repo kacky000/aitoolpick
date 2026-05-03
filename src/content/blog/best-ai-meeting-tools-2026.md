@@ -19,11 +19,11 @@ Before diving into specific tools, here's what matters:
 
 **Action item detection.** The best tools don't just transcribe — they identify commitments ("I'll send that by Friday") and surface them as action items.
 
-**Integration depth.** Does it push summaries to Slack, Notion, or your CRM automatically? The less manual work, the better.
+**Integration depth.** Does it push summaries to Slack, Notion, or your [CRM](/category/crm/) automatically? The less manual work, the better.
 
 **Privacy controls.** Participants should know they're being recorded. Enterprise-grade tools offer local processing options and data retention controls.
 
-**Multi-platform support.** Does it work with Zoom, Google Meet, and Microsoft Teams? Most teams use at least two of these.
+**Multi-platform support.** Does it work with Zoom, Google Meet, and [Microsoft Teams](/tools/microsoft-teams/)? Most teams use at least two of these.
 
 ## Best AI Meeting Tools in 2026
 
@@ -31,7 +31,7 @@ Before diving into specific tools, here's what matters:
 
 **Pricing:** Free tier available; paid plans from $19/month
 
-Fathom is the cleanest AI meeting assistant available in 2026. It joins Zoom, Google Meet, and Microsoft Teams calls, records the audio, generates a real-time transcript, and delivers a structured summary with action items within minutes of the call ending.
+Fathom is the cleanest AI meeting assistant available in 2026. It joins [Zoom](/tools/zoom/), Google Meet, and Microsoft Teams calls, records the audio, generates a real-time transcript, and delivers a structured summary with action items within minutes of the call ending.
 
 What separates Fathom is the quality of its summaries. Instead of a wall of text, you get a structured document: key topics, decisions made, and next steps. It identifies who said what and formats everything clearly.
 
@@ -43,7 +43,7 @@ The free tier is genuinely useful — unlimited recording and transcription, wit
 
 **Pricing:** Free tier available; Pro at $18/user/month, Business at $29/user/month
 
-Fireflies focuses on team-level meeting intelligence. It integrates with your CRM (Salesforce, HubSpot) to automatically log call notes, pushes summaries to Slack, and builds a searchable archive of every meeting your team has ever had.
+Fireflies focuses on team-level meeting intelligence. It integrates with your CRM ([Salesforce](/tools/salesforce/), HubSpot) to automatically log call notes, pushes summaries to Slack, and builds a searchable archive of every meeting your team has ever had.
 
 The search functionality is particularly powerful. "Find every meeting where we discussed the enterprise pricing change" works. For sales teams doing deal reviews or customer success teams revisiting past calls, this is invaluable.
 
@@ -57,7 +57,7 @@ Fireflies also surfaces "talk ratios" — how much each participant spoke — wh
 
 Otter.ai was one of the first AI transcription tools to achieve mainstream adoption, and it remains a strong option in 2026. The free tier is generous — 300 minutes of transcription per month with real-time transcription in meetings.
 
-The interface is built around the transcript itself. You can comment on specific sentences, assign action items inline, and highlight important passages. This works well for teams that want to collaborate on meeting notes rather than just receive a summary.
+The interface is built [around](/tools/around/) the transcript itself. You can comment on specific sentences, assign action items inline, and highlight important passages. This works well for teams that want to collaborate on meeting notes rather than just receive a summary.
 
 Otter's AI Chat feature lets you ask questions about your meeting after it ends: "What did Sarah say about the Q3 timeline?" The answers are extracted directly from the transcript.
 
@@ -65,15 +65,15 @@ Otter's AI Chat feature lets you ask questions about your meeting after it ends:
 
 ### 4. Zoom AI Companion — Best for Zoom-Heavy Teams
 
-**Pricing:** Included with Zoom paid plans (starting at $15.99/month)
+**Pricing:** Included with [Zoom](/tools/zoom/) paid plans (starting at $15.99/month)
 
-If your organization already pays for Zoom, the AI Companion is worth enabling immediately. It generates meeting summaries, captures action items, and can answer questions mid-meeting ("What did we decide about the rollout timeline?") — all without leaving Zoom.
+If your organization already pays for [Zoom](/tools/zoom/), the AI Companion is worth enabling immediately. It generates meeting summaries, captures action items, and can answer questions mid-meeting ("What did we decide about the rollout timeline?") — all without leaving Zoom.
 
-The quality has improved significantly since its 2024 launch. Summaries are accurate, action items are well-identified, and the integration with Zoom's chat and scheduling features is seamless.
+The quality has improved significantly since its 2024 launch. Summaries are accurate, action items are well-identified, and the integration with [Zoom](/tools/zoom/)'s chat and scheduling features is seamless.
 
-The limitation: it only works in Zoom. If your team uses Google Meet for external calls, you need a supplementary tool.
+The limitation: it only works in Zoom. If your team uses [Google Meet](/tools/google-meet/) for external calls, you need a supplementary tool.
 
-**Best for:** Organizations already deeply invested in Zoom's ecosystem.
+**Best for:** Organizations already deeply invested in [Zoom](/tools/zoom-meetings/)'s ecosystem.
 
 ### 5. Microsoft Copilot in Teams — Best for Enterprise Microsoft Users
 
@@ -101,7 +101,7 @@ The cost is significant ($30/user/month on top of existing Microsoft 365 license
 
 ## The Real ROI of AI Meeting Tools
 
-The time savings are meaningful. A 60-minute meeting with 5 attendees might require 30 minutes total of note-taking and distribution. AI meeting tools eliminate most of that. At 5 meetings per week, that's 150 minutes of reclaimed time across a team.
+The time savings are meaningful. A 60-minute meeting with 5 attendees might require 30 minutes total of [note-taking](/category/note-taking/) and distribution. AI meeting tools eliminate most of that. At 5 meetings per week, that's 150 minutes of reclaimed time across a team.
 
 But the larger value is what stops getting lost. Decisions made verbally in meetings frequently go undocumented. Action items assigned in passing get forgotten. AI meeting tools create a written record that teams can actually use.
 

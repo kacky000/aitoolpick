@@ -90,9 +90,9 @@ Both tools can edit existing text, but their approaches differ:
 
 ## Our Recommendation for Writers
 
-**For professional content writers and marketers**: Start with ChatGPT. The web browsing capability, faster output, and strong formatting make it ideal for high-volume content production.
+**For professional content writers and [marketers](/best-for/marketers/)**: Start with ChatGPT. The web browsing capability, faster output, and strong formatting make it ideal for high-volume content production.
 
-**For authors, essayists, and long-form writers**: Choose Claude. The natural voice, superior context handling, and thoughtful editing capabilities make it the better writing partner for longer, more nuanced work.
+**For authors, essayists, and long-form writers**: Choose Claude. The natural voice, superior context handling, and thoughtful editing capabilities [make](/tools/make/) it the better writing partner for longer, more nuanced work.
 
 **For the best results**: Use both. Draft with Claude for natural-sounding prose, then use ChatGPT for SEO optimization and quick variations. Many professional writers toggle between the two.
 

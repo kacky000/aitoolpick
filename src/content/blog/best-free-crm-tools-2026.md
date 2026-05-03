@@ -95,7 +95,7 @@ HubSpot's free CRM is the gold standard for small businesses getting started wit
 
 **Upgrade path:** Team at $20/seat/month for more records and features.
 
-**Best for:** Small teams comfortable with spreadsheets who need more structure than Google Sheets but less complexity than HubSpot.
+**Best for:** Small teams comfortable with spreadsheets who need more structure than [Google Sheets](/tools/google-sheets/) but less complexity than HubSpot.
 
 ## Comparison Table
 

@@ -16,7 +16,7 @@ This comparison is specifically for **communities** (creator communities, profes
 
 **Choose Discord** for most communities in 2026 — especially if your audience is under 35, your community involves real-time conversation or voice, and you want no per-seat costs.
 
-**Choose Slack** if your community has a professional/enterprise audience that already lives in Slack, or if you need deep integration with tools like GitHub, Jira, and Google Workspace.
+**Choose Slack** if your community has a professional/enterprise audience that already lives in Slack, or if you need deep integration with tools like [GitHub](/tools/github/), Jira, and Google Workspace.
 
 For teams in corporate environments, see our [Slack vs Discord for teams](/blog/slack-vs-discord-for-teams-2026/) comparison.
 
@@ -42,7 +42,7 @@ For free communities, Slack's per-seat pricing makes it effectively unusable at 
 
 ### Voice and Video
 
-**Discord dominates** here. Discord was built around voice from day one:
+**Discord dominates** here. Discord was built [around](/tools/around/) voice from day one:
 
 - Voice channels that members can hop in and out of — no scheduling, just "come hang out"
 - Stage channels for broadcasts and AMAs (up to 1,000 listeners on free)
@@ -79,7 +79,7 @@ Slack's moderation is enterprise-focused (designed for controlling employee beha
 
 ### Integrations
 
-**Slack wins** on work tool integrations. If your community is for developers, designers, or professionals who use tools like GitHub, Jira, Linear, or Google Workspace — Slack's native integrations are tighter and more polished.
+**Slack wins** on work tool integrations. If your community is for developers, designers, or professionals who use tools like GitHub, Jira, [Linear](/tools/linear/), or Google Workspace — Slack's native integrations are tighter and more polished.
 
 Discord has a bot ecosystem (MEE6, Carl-bot, etc.) that handles most community automation needs, but it requires more configuration.
 
@@ -102,7 +102,7 @@ Discord has a bot ecosystem (MEE6, Carl-bot, etc.) that handles most community a
 - **Server Subscriptions**: Charge members monthly for premium channel access
 - **Discord Shop**: Sell digital goods to community members
 
-**Slack** doesn't have native community monetization — you'd need to use an external tool (Memberful, Stripe) to gate a Slack community.
+**Slack** doesn't have native community monetization — you'd need to use an external tool (Memberful, [Stripe](/tools/stripe/)) to gate a Slack community.
 
 ## The Migration Question
 

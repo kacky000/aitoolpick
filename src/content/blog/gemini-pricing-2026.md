@@ -38,7 +38,7 @@ The free tier gives you access to Gemini's base model with daily usage limits. Y
 - No access to Gemini 3 or Gemini 3 Pro models
 - No AI credits for advanced features
 - No expanded Google Workspace integration
-- Stricter rate limits during peak hours
+- Stricter rate limits during peak [hours](/tools/hours-tracker/)
 
 The free plan handles casual use well but you'll hit walls fast if you try to use it as a daily productivity tool.
 
@@ -71,13 +71,13 @@ This is Google's answer to [ChatGPT Plus ($20)](/blog/chatgpt-vs-gemini-2026/) a
 - 1 million token context window
 - Advanced image generation
 - Voice conversation mode (Gemini Live)
-- Deep Google Workspace integration (Gmail, Docs, Sheets, Slides)
+- Deep Google Workspace integration (Gmail, Docs, Sheets, [Slides](/tools/slides-com/))
 - Web search with citations
 - Advanced file analysis and code execution
 
 **AI credits** are consumed by compute-intensive operations: long document analysis, complex code generation, image creation, and multi-step reasoning. Basic conversations don't consume credits. Most users won't burn through 1,000 in a month unless they're doing heavy image generation daily.
 
-This is the sweet spot for most users. The Workspace integration is the real differentiator — AI natively inside Gmail, Docs, and Sheets eliminates the copy-paste workflow that plagues ChatGPT and Claude users in Google's ecosystem.
+This is the sweet spot for most users. The Workspace integration is the real differentiator — AI natively inside Gmail, Docs, and Sheets eliminates the copy-paste workflow that plagues [ChatGPT](/tools/chatgpt/) and Claude users in Google's ecosystem.
 
 ## Google AI Ultra — ~$42/mo ($124.99 per 3 months)
 
@@ -95,7 +95,7 @@ The 25x credit jump over Pro targets developers and researchers who use AI inten
 
 ## Business ($20/user/mo) and Enterprise ($30/user/mo)
 
-Both Workspace plans add Gemini AI directly into Gmail, Docs, Sheets, Slides, and Meet. The difference is compliance.
+Both Workspace plans add Gemini AI directly into Gmail, Docs, Sheets, [Slides](/tools/slides-com/), and Meet. The difference is compliance.
 
 **Business** includes AI-assisted email drafting, document generation, formula writing in Sheets, presentation creation, meeting summaries, and admin controls. It's a per-user add-on to your existing Workspace subscription.
 
@@ -103,12 +103,12 @@ Both Workspace plans add Gemini AI directly into Gmail, Docs, Sheets, Slides, an
 
 ## How Gemini Pricing Compares
 
-| Feature | Gemini AI Pro | ChatGPT Plus | Claude Pro |
+| Feature | Gemini AI Pro | ChatGPT Plus | [Claude](/tools/claude/) Pro |
 |---------|-------------|-------------|-----------|
 | Price | $19.99/mo | $20/mo | $20/mo |
-| Top model | Gemini 3 | GPT-4o | Claude 3.5 Sonnet |
+| Top model | Gemini 3 | GPT-4o | [Claude](/tools/claude/) 3.5 Sonnet |
 | Context window | 1M tokens | 128K tokens | 200K tokens |
-| Image generation | Yes | Yes (DALL-E 3) | No |
+| Image generation | Yes | Yes ([DALL-E 3](/tools/dall-e/)) | No |
 | Web search | Yes (native) | Yes | Yes (limited) |
 | Voice mode | Yes (Gemini Live) | Yes (Advanced Voice) | No |
 | Workspace integration | Google native | Third-party plugins | No |
@@ -130,7 +130,7 @@ Gemini's 1M token context window is the standout — 8x ChatGPT's limit and 5x C
 
 ## Bottom Line
 
-Google's new Gemini pricing is competitive. The $7.99 AI Plus tier undercuts every major competitor, and the AI Pro plan matches ChatGPT Plus and Claude Pro on price while offering deeper integration with the Google ecosystem. The Ultra tier is expensive but generous with credits.
+Google's new Gemini pricing is competitive. The $7.99 AI Plus tier undercuts every major competitor, and the AI Pro plan matches [ChatGPT](/tools/chatgpt/) Plus and Claude Pro on price while offering deeper integration with the Google ecosystem. The Ultra tier is expensive but generous with credits.
 
 The biggest deciding factor isn't price — it's ecosystem. If you live in Google Workspace, Gemini is the obvious choice. If you don't, [ChatGPT](/blog/chatgpt-vs-gemini-2026/) and [Claude](/blog/claude-vs-gemini-2026/) may serve you better.
 

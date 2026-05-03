@@ -14,11 +14,11 @@ You don't need expensive software to create professional designs. These free des
 
 | Tool | Best For | Free Plan Limits | Paid From |
 |------|----------|-----------------|-----------|
-| **Canva** | Social media & marketing | 5 GB storage, 1M+ templates | $13/month |
-| **Figma** | UI/UX design | 3 projects, unlimited editors | $15/editor/month |
+| **[Canva](/tools/canva/)** | Social media & marketing | 5 GB storage, 1M+ templates | $13/month |
+| **[Figma](/tools/figma/)** | UI/UX design | 3 projects, unlimited editors | $15/editor/month |
 | **Photopea** | Photo editing | Full features, ad-supported | $5/month (ad-free) |
-| **Penpot** | Open-source design | Unlimited, self-hostable | Free forever |
-| **Pixlr** | Quick photo edits | Basic tools, watermark on exports | $5/month |
+| **[Penpot](/tools/penpot/)** | Open-source design | Unlimited, self-hostable | Free forever |
+| **[Pixlr](/tools/pixlr/)** | Quick photo edits | Basic tools, watermark on exports | $5/month |
 | **Lunacy** | Desktop design | Full features, built-in assets | Free forever |
 
 ## 1. Canva — Best for Non-Designers
@@ -29,10 +29,10 @@ Canva democratized design, and its free plan remains incredibly generous:
 - **Drag-and-drop editor** that anyone can use
 - **5 GB cloud storage** for your designs
 - **Thousands of free photos**, icons, and illustrations
-- **Brand Kit** (limited on free — 1 brand)
+- **Brand [Kit](/tools/kit/)** (limited on free — 1 brand)
 - **Real-time collaboration** with team members
 
-**Free plan limitations**: No background remover, no brand kit expansion, no Magic Resize, limited premium templates.
+**Free plan limitations**: No background remover, no brand [kit](/tools/kit/) expansion, no Magic Resize, limited premium templates.
 
 **Who it's for**: Content creators, marketers, small business owners who need quick, professional-looking graphics.
 
@@ -49,7 +49,7 @@ Figma's free plan is the industry standard for getting started with interface de
 
 **Free plan limitations**: 3 team projects max, limited version history (30 days), no team libraries.
 
-**Who it's for**: UI/UX designers, web developers, product teams starting out.
+**Who it's for**: UI/UX designers, web [developers](/best-for/developers/), product teams starting out.
 
 For a detailed comparison with alternatives, check our [Canva vs Figma analysis](/blog/canva-vs-figma-which-design-tool) or the [Figma pricing breakdown](/blog/figma-pricing-2026).
 
@@ -59,7 +59,7 @@ Photopea is a browser-based photo editor that closely mirrors Adobe Photoshop:
 
 - **Full PSD support** — open and edit Photoshop files
 - **Layer-based editing** with masks, blending modes, and effects
-- **Support for PSD, XCF, Sketch, XD**, and RAW formats
+- **Support for PSD, XCF, [Sketch](/tools/sketch/), XD**, and RAW formats
 - **All core Photoshop tools**: clone stamp, healing brush, pen tool, etc.
 - **No account required** — just open the website and start editing
 - **Works offline** as a PWA
@@ -104,20 +104,20 @@ Lunacy by Icons8 is a full-featured desktop design application:
 - **Completely free** — no limits, no watermarks
 - **Built-in assets**: photos, illustrations, icons (from Icons8)
 - **AI-powered tools**: text generation, image upscaling, background removal
-- **Sketch file compatibility**
+- **[Sketch](/tools/sketch/) file compatibility**
 - **Available on** Windows, macOS, and Linux
 - **Works offline** — no internet required
 
 **Free plan limitations**: Built-in Icons8 assets require attribution on the free tier.
 
-**Who it's for**: Designers who prefer desktop apps and want a full-featured tool without paying.
+**Who it's for**: [Designers](/best-for/designers/) who prefer desktop apps and want a full-featured tool without paying.
 
 ## Honorable Mentions
 
 - **GIMP** — Open-source image editor with professional capabilities (steep learning curve)
 - **Inkscape** — Vector graphics editor, free and open-source
-- **Blender** — 3D modeling and rendering (completely free)
-- **Excalidraw** — Whiteboard-style diagramming
+- **[Blender](/tools/blender/)** — 3D modeling and rendering (completely free)
+- **[Excalidraw](/tools/excalidraw/)** — Whiteboard-style diagramming
 
 ## How to Choose the Right Free Design Tool
 
@@ -131,7 +131,7 @@ For more tool recommendations, browse our [best free AI tools](/blog/best-free-a
 
 ## The Verdict
 
-**Canva** is the best all-around free design tool for most people. **Figma** is essential for UI/UX work. **Photopea** is the hidden gem that gives you Photoshop for free. And **Penpot** deserves attention as the open-source alternative that keeps getting better.
+**Canva** is the best all-[around](/tools/around/) free design tool for most people. **Figma** is essential for UI/UX work. **Photopea** is the hidden gem that gives you Photoshop for free. And **Penpot** deserves attention as the open-source alternative that keeps getting better.
 
 The best part? You can use all of these tools simultaneously since they're free. Start with Canva for marketing materials, Figma for product design, and Photopea for photo editing.
 

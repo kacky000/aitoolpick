@@ -35,7 +35,7 @@ Obsidian stores everything as local Markdown files. Its graph view visualizes co
 
 ### Notion — For the Visual Organizer
 
-Notion's databases, templates, and nested pages make it easy to build structured knowledge systems. It's more visually appealing and easier to start with.
+Notion's databases, templates, and nested pages [make](/tools/make/) it easy to build structured knowledge systems. It's more visually appealing and easier to start with.
 
 - **Price:** Free
 - **Best for:** Students, professionals, anyone who likes structured layouts
@@ -93,7 +93,7 @@ The most important habit: capture everything that resonates. Don't organize yet 
 | Meetings | Either | Quick note during/after |
 | Random ideas | Either | Mobile app quick note |
 
-**Rule of thumb:** If something makes you think "I might need this later," capture it. Your future self will thank you.
+**Rule of thumb:** If something makes you think "I might need this [later](/tools/later/)," capture it. Your future self will thank you.
 
 ## Step 4: Process with Progressive Summarization
 
@@ -118,7 +118,7 @@ Use `@mentions` and relation properties in databases to link related pages. Crea
 
 ## Step 6: Use AI to Supercharge Your Second Brain
 
-In 2026, AI tools make second brains dramatically more useful:
+In 2026, AI tools [make](/tools/make/) second brains dramatically more useful:
 
 ### Claude for Analysis
 Upload your notes or documents to Claude for synthesis, pattern recognition, and insight extraction. Claude's long context window handles large knowledge bases well.
@@ -137,7 +137,7 @@ When you need to expand on a topic in your second brain, Perplexity provides cit
 
 ## Common Mistakes to Avoid
 
-1. **Over-organizing too early** — Capture first, organize later. Don't spend hours building the perfect folder structure before you have any notes.
+1. **Over-organizing too early** — Capture first, organize [later](/tools/later/). Don't spend hours building the perfect folder structure before you have any notes.
 2. **Treating it like a filing cabinet** — A second brain is for active thinking, not archival storage. If you never revisit notes, they're not useful.
 3. **Using too many tools** — Pick one primary tool and stick with it. Tool-hopping kills consistency.
 4. **Not having a capture habit** — The system only works if you feed it regularly. Start with 5 minutes daily.
@@ -147,10 +147,10 @@ When you need to expand on a topic in your second brain, Perplexity provides cit
 | Purpose | Tool | Cost |
 |---------|------|------|
 | Primary second brain | Obsidian or Notion | Free |
-| Read-later & highlights | Readwise | $8/month |
+| Read-[later](/tools/later/) & highlights | Readwise | $8/month |
 | AI analysis | Claude or ChatGPT | $0–20/month |
 | Research expansion | Perplexity | $0–20/month |
-| Task management | Todoist | Free |
+| Task management | [Todoist](/tools/todoist/) | Free |
 
 **Total cost:** $0–$48/month (or completely free if you skip the premium tiers).
 

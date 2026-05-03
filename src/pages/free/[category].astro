@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ToolCard from '../../components/ToolCard.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  return categories.map((cat) => ({
+    params: { category: cat.slug },
+    props: { category: cat },
+  }));
+}
+
+interface Category {
+  id: string;
+  name: string;
+  slug: string;
+  icon: string;
+  group: string;
+}
+
+const { category } = Astro.props as { category: Category };
+
+const freeTools = tools.filter(
+  (t) => t.pricing.free === true && t.category.includes(category.id)
+);
+---
+
+<BaseLayout
+  title={`Best Free ${category.name} Tools in 2026`}
+  description={`Discover the best free ${category.name.toLowerCase()} tools available in 2026. Compare features, ratings, and find the perfect free tool for your needs.`}
+>
+  <section class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <a href="/free/">Free Tools</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>{category.name}</span>
+      </nav>
+
+      <h1 class="section-title">Best Free {category.name} Tools in 2026</h1>
+      <p class="section-subtitle">
+        {freeTools.length > 0
+          ? `${freeTools.length} free ${category.name.toLowerCase()} tool${freeTools.length > 1 ? 's' : ''} to boost your productivity without spending a dime.`
+          : `We're tracking ${category.name.toLowerCase()} tools and will add free options as they become available.`}
+      </p>
+
+      {freeTools.length > 0 ? (
+        <div class="tool-grid">
+          {freeTools.map((tool) => (
+            <ToolCard tool={tool} />
+          ))}
+        </div>
+      ) : (
+        <div class="empty-state">
+          <p>No free tools yet in this category. Check back soon!</p>
+          <a href="/free/" class="btn-primary">Browse all free tools</a>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .breadcrumb {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted, #6b7280);
+  }
+  .breadcrumb a {
+    color: var(--primary, #6366f1);
+    text-decoration: none;
+  }
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  .breadcrumb-sep {
+    margin: 0 0.5rem;
+    color: var(--text-muted, #9ca3af);
+  }
+  .tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: var(--bg-card, #f9fafb);
+    border-radius: 12px;
+    margin-top: 2rem;
+  }
+  .empty-state p {
+    font-size: 1.1rem;
+    color: var(--text-muted, #6b7280);
+    margin-bottom: 1rem;
+  }
+  .section-subtitle {
+    color: var(--text-muted, #6b7280);
+    margin-bottom: 1rem;
+  }
+</style>

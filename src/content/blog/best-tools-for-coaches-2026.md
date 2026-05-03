@@ -36,7 +36,7 @@ If you run group coaching programs or cohorts, Monday.com's board system helps y
 
 ### 3. Todoist — Best for Personal Productivity
 
-Coaches juggle sessions, content creation, marketing, and admin. Todoist's clean interface and natural language input make it the fastest way to capture and organize tasks.
+Coaches juggle sessions, content creation, marketing, and admin. Todoist's clean interface and natural language input [make](/tools/make/) it the fastest way to capture and organize tasks.
 
 - **Price:** Free, $4/user/month (Pro)
 - **Why coaches love it:** Quick capture, recurring tasks for session prep, cross-platform
@@ -51,7 +51,7 @@ Coaches juggle sessions, content creation, marketing, and admin. Todoist's clean
 Coaches need a constant stream of social media content — quotes, tips, carousel posts, and stories. Canva makes it possible without hiring a designer.
 
 - **Price:** Free, $15/user/month (Pro)
-- **Why coaches love it:** Templates for every platform, brand kit consistency, video creation
+- **Why coaches love it:** Templates for every platform, brand [kit](/tools/kit/) consistency, video creation
 - **Use case:** Create Instagram carousels, LinkedIn posts, and YouTube thumbnails
 
 [Read our full Canva review →](/blog/canva-review-2026)
@@ -137,7 +137,7 @@ Coaching income can be irregular — especially when starting out. YNAB's proact
 
 1. **Start free** — Every tool listed here has a free tier. Don't pay until you outgrow it.
 2. **Notion first** — Build your client portal in Notion. It replaces multiple tools and looks professional.
-3. **Add AI** — ChatGPT or Claude will save you hours on content creation and analysis.
+3. **Add AI** — ChatGPT or Claude will save you [hours](/tools/hours-tracker/) on content creation and analysis.
 4. **Automate later** — Once you have consistent clients, add Zapier to connect your tools. [Read our Zapier review →](/blog/zapier-review-2026)
 
 [Compare all tools side by side →](/compare)

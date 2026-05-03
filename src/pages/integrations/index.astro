@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+const sortedTools = [...tools].sort((a, b) => b.rating - a.rating);
+
+const pageTitle = `Tool Integrations — See What Works Together | AIToolPick`;
+const pageDescription = `Discover which tools integrate with each other. Browse integration guides for ${tools.length}+ popular tools and build your perfect stack.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Integrations' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Tool Integrations</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        See which tools work together. Browse integrations for {tools.length}+ tools.
+      </p>
+
+      <div class="int-grid">
+        {sortedTools.slice(0, 100).map((tool) => (
+          <a href={`/integrations/${tool.slug}/`} class="int-card">
+            {tool.icon && <img src={tool.icon} alt={tool.name} width="24" height="24" style="border-radius: 6px;" loading="lazy" />}
+            <span>{tool.name} Integrations</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .int-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.5rem; }
+  .int-card { display: flex; align-items: center; gap: 0.6rem; padding: 0.7rem 0.9rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); text-decoration: none; color: var(--dark); font-size: 0.85rem; font-weight: 500; transition: border-color 0.15s; }
+  .int-card:hover { border-color: var(--primary); }
+</style>

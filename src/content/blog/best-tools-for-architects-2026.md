@@ -7,11 +7,11 @@ tags: ["architects", "productivity", "project-management", "tools"]
 
 Architecture firms deal with a specific kind of complexity: multi-year projects, cross-discipline coordination, client visibility demands, and immovable regulatory deadlines. Generic productivity tool lists rarely address these realities. This guide focuses on tools that solve problems architects actually face, with concrete use cases for each.
 
-## Monday.com — Project Scheduling and Client Visibility
+## [Monday.com](/tools/monday/) — Project Scheduling and Client Visibility
 
 **What it does for architects:** Tracks project phases, milestones, deadlines, and resource allocation across multiple concurrent projects.
 
-**Why it fits:** Architecture projects have predictable phases — schematic design, design development, construction documents, bidding, construction administration. Monday.com's timeline and Gantt views map directly to this structure.
+**Why it fits:** Architecture projects have predictable phases — schematic design, design development, construction documents, bidding, construction administration. [Monday.com](/tools/monday/)'s timeline and Gantt views map directly to this structure.
 
 **Specific use cases:**
 
@@ -20,7 +20,7 @@ Architecture firms deal with a specific kind of complexity: multi-year projects,
 - **Client dashboards** — Share filtered views showing milestone progress without exposing internal notes or budget details.
 - **RFI tracking** — Dedicated board for Requests for Information during construction with submission dates, deadlines, and resolution status.
 
-**Pricing consideration:** Monday.com's Standard plan ($12/seat/month) covers most needs. The Pro plan ($19/seat/month) adds time tracking and formula columns, which matter for firms billing hourly.
+**Pricing consideration:** [Monday.com](/tools/monday/)'s Standard plan ($12/seat/month) covers most needs. The Pro plan ($19/seat/month) adds time tracking and formula columns, which matter for firms billing hourly.
 
 For a deeper look, see our [best project management tools](/blog/best-project-management-tools-2026) comparison.
 
@@ -35,7 +35,7 @@ For a deeper look, see our [best project management tools](/blog/best-project-ma
 - **Detail standards library** — Database of standard construction details tagged by building type, system, and jurisdiction. Filter instead of reinventing solutions on each project.
 - **Material specifications database** — Track preferred products with manufacturer contacts, lead times, and cost. Link to specification sections for CD production.
 - **Meeting notes with action items** — Templated notes with linked action items, filterable across projects by person.
-- **Onboarding documentation** — New hires get firm standards, BIM protocols, and procedures in one place. Updates propagate instantly.
+- **Onboarding documentation** — New hires get firm standards, BIM protocols, and procedures in one place. Updates propagate [instantly](/tools/instantly/).
 - **Code research notes** — Document code interpretations by jurisdiction. When a similar question comes up on a future project, the research is done.
 
 **Pricing consideration:** Notion's free plan supports up to 10 guests. The Plus plan ($10/seat/month) is sufficient for most firms. The Business plan ($18/seat/month) adds SAML SSO for firms with IT security requirements.
@@ -50,7 +50,7 @@ For a deeper look, see our [best project management tools](/blog/best-project-ma
 
 - **Programming workshops** — Facilitate space programming sessions with clients using sticky notes for room types and drag-and-drop adjacency diagrams.
 - **Site analysis boards** — Compile site photos, zoning overlays, and sun path diagrams on a single board for client or regulatory presentations.
-- **Design charrettes** — Multiple designers sketch simultaneously. Use frames to organize scheme options for side-by-side comparison.
+- **Design charrettes** — Multiple designers [sketch](/tools/sketch/) simultaneously. Use frames to organize scheme options for side-by-side comparison.
 - **Consultant coordination** — Share boards with structural and MEP consultants to mark up routing conflicts before they become expensive RFIs.
 
 **Pricing consideration:** Miro's free plan allows three editable boards. The Business plan ($8/member/month) is the sweet spot for small to mid-size firms.
@@ -65,7 +65,7 @@ For a full feature breakdown, see our [Miro review](/blog/miro-review-2026).
 
 **Specific use cases:**
 
-- **Client presentations** — Build decks with embedded renderings and diagrams. Multiple team members work on slides simultaneously with no version conflicts.
+- **Client presentations** — Build decks with embedded renderings and diagrams. Multiple team members work on [slides](/tools/slides-com/) simultaneously with no version conflicts.
 - **Concept diagrams** — Create parti diagrams, circulation studies, and massing diagrams with vector tools. Export as SVG for design documents.
 - **Competition boards** — Lay out panels with precise typography and image placement. Figma's auto-layout handles responsive arrangements.
 
@@ -86,11 +86,11 @@ For a full feature breakdown, see our [Miro review](/blog/miro-review-2026).
 
 **Pricing consideration:** Slack's free plan limits history to 90 days — not enough for multi-year architecture projects. The Pro plan ($8.75/user/month) provides unlimited history.
 
-## Airtable — Material Tracking, Project Databases, and Asset Management
+## [Airtable](/tools/airtable/) — Material Tracking, Project Databases, and Asset Management
 
 **What it does for architects:** Flexible database for materials, furniture selections, project portfolios, and equipment inventories.
 
-**Why it fits:** Architecture firms manage relational data that Excel handles poorly — materials linked to specifications linked to vendors linked to projects. Airtable's database structure handles these connections natively.
+**Why it fits:** Architecture firms manage relational data that Excel handles poorly — materials linked to specifications linked to vendors linked to projects. [Airtable](/tools/airtable/)'s database structure handles these connections natively.
 
 **Specific use cases:**
 
@@ -99,11 +99,11 @@ For a full feature breakdown, see our [Miro review](/blog/miro-review-2026).
 - **Project portfolio** — Track all firm projects with type, fee, status, and team. Generate reports for marketing and business development.
 - **Submittal log** — Track submittals with status, reviewer, deadline, and spec section. Filter by discipline for distribution.
 
-**Pricing consideration:** Airtable's free plan limits bases to 1,000 records — insufficient for serious use. The Team plan ($20/seat/month) provides 50,000 records per base and is the practical starting point for firms.
+**Pricing consideration:** [Airtable](/tools/airtable/)'s free plan limits bases to 1,000 records — insufficient for serious use. The Team plan ($20/seat/month) provides 50,000 records per base and is the practical starting point for firms.
 
 ## Putting It Together
 
-No single tool covers everything. The full stack (Monday.com + Notion + Miro + Figma + Slack + Airtable) runs roughly $60-90 per user per month — less than a single hour of most principals' billable time. Not every firm needs all six. A five-person studio might use Notion for both project management and knowledge management, skip Airtable, and stick with Figma's free tier. Start with the tool that addresses your most acute pain point and layer in additional tools as workflows stabilize.
+No single tool covers everything. The full stack ([Monday.com](/tools/monday/) + Notion + Miro + Figma + Slack + Airtable) runs roughly $60-90 per user per month — less than a single hour of most principals' billable time. Not every firm needs all six. A five-person studio might use Notion for both project management and knowledge management, skip Airtable, and stick with Figma's free tier. Start with the tool that addresses your most acute pain point and layer in additional tools as workflows stabilize.
 
 Explore how these tools compare in our full [best project management tools](/blog/best-project-management-tools-2026) roundup.
 

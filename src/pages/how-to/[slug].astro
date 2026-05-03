@@ -1,0 +1,464 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  return tools.map((tool) => ({
+    params: { slug: tool.slug },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+
+const toolCategories = categories.filter((c) => tool.category.includes(c.id));
+const alternatives = tools
+  .filter((t) => t.id !== tool.id && t.category.some((c: string) => tool.category.includes(c)))
+  .sort((a, b) => b.rating - a.rating)
+  .slice(0, 4);
+
+// Generate getting started steps from features
+function generateSteps(tool: typeof tools[0]): { title: string; desc: string }[] {
+  const steps = [
+    { title: `Create your ${tool.name} account`, desc: `Visit ${tool.name}'s website and sign up${tool.pricing.free ? ' for a free account' : ' for a trial'}. You'll need an email address to get started.` },
+    { title: 'Set up your workspace', desc: `Once signed in, configure your ${tool.name} workspace. Set your preferences, invite team members if needed, and customize the interface to match your workflow.` },
+  ];
+
+  // Add feature-based steps
+  const featureSteps = tool.features.slice(0, 3).map((f: string) => ({
+    title: `Explore ${f}`,
+    desc: `One of ${tool.name}'s key features is ${f}. Navigate to this feature and experiment with it to understand how it fits into your workflow.`,
+  }));
+  steps.push(...featureSteps);
+
+  steps.push({
+    title: 'Integrate with your existing tools',
+    desc: `Connect ${tool.name} with the other tools you use daily. Most integrations can be set up in the settings or integrations panel.`,
+  });
+
+  steps.push({
+    title: 'Start using it for real work',
+    desc: `Now that you're set up, start using ${tool.name} for actual tasks. The best way to learn is by doing — don't worry about getting everything perfect right away.`,
+  });
+
+  return steps;
+}
+
+// Tips based on bestFor
+function generateTips(tool: typeof tools[0]): string[] {
+  const tips = [
+    `Start with the free plan or trial to explore ${tool.name}'s capabilities before committing to a paid subscription.`,
+    `Use keyboard shortcuts to speed up your workflow — most tools have extensive shortcut systems.`,
+  ];
+
+  if (tool.bestFor.includes('teams') || tool.bestFor.includes('remote-teams') || tool.bestFor.includes('small-teams')) {
+    tips.push(`Set up team channels or spaces early to keep projects organized as your team grows.`);
+  }
+
+  if (tool.bestFor.includes('freelancers') || tool.bestFor.includes('solopreneurs')) {
+    tips.push(`Create templates for recurring tasks to save time on repetitive work.`);
+  }
+
+  tips.push(`Check ${tool.name}'s official documentation and community forums for advanced tips and best practices.`);
+  tips.push(`Review your workflow after 2 weeks of use and adjust your setup based on what's working and what isn't.`);
+
+  return tips.slice(0, 5);
+}
+
+const steps = generateSteps(tool);
+const tips = generateTips(tool);
+
+const pageTitle = `How to Use ${tool.name} — Getting Started Guide (2026) | AIToolPick`;
+const pageDescription = `Learn how to get started with ${tool.name}. Step-by-step guide covering setup, key features, tips, and best practices for ${tool.bestFor.slice(0, 2).join(' and ').replace(/-/g, ' ')}.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: `How to Use ${tool.name}`,
+  description: pageDescription,
+  step: steps.map((s, i) => ({
+    '@type': 'HowToStep',
+    position: i + 1,
+    name: s.title,
+    text: s.desc,
+  })),
+  tool: {
+    '@type': 'SoftwareApplication',
+    name: tool.name,
+    url: tool.website,
+  },
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container howto-page">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Tools', href: '/tools/' },
+        { label: tool.name, href: `/tools/${tool.slug}/` },
+        { label: 'How to Use' },
+      ]} />
+
+      <div class="howto-header">
+        <div class="howto-identity">
+          {tool.icon && <img src={tool.icon} alt={tool.name} width="48" height="48" style="border-radius: 12px;" />}
+          <div>
+            <h1>How to Use {tool.name}</h1>
+            <p class="howto-subtitle">A beginner-friendly guide to getting started with {tool.name} in 2026.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Info Box -->
+      <div class="quick-info">
+        <div class="quick-info-item">
+          <strong>Price</strong>
+          <span>{tool.pricing.free ? 'Free plan available' : 'Paid only'}</span>
+        </div>
+        <div class="quick-info-item">
+          <strong>Best For</strong>
+          <span>{tool.bestFor.slice(0, 3).map((b: string) => b.replace(/-/g, ' ')).join(', ')}</span>
+        </div>
+        <div class="quick-info-item">
+          <strong>Rating</strong>
+          <span>{'★'.repeat(Math.round(tool.rating))} {tool.rating}/5</span>
+        </div>
+        <div class="quick-info-item">
+          <a href={tool.website} target="_blank" rel="noopener noreferrer" class="btn-primary btn-sm">
+            Try {tool.name} →
+          </a>
+        </div>
+      </div>
+
+      <!-- Steps -->
+      <div class="howto-steps">
+        <h2>Getting Started: Step by Step</h2>
+        {steps.map((step, i) => (
+          <div class="step-card">
+            <div class="step-number">{i + 1}</div>
+            <div class="step-content">
+              <h3>{step.title}</h3>
+              <p>{step.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Tips -->
+      <div class="howto-tips">
+        <h2>Pro Tips</h2>
+        <ul>
+          {tips.map((tip) => (
+            <li>{tip}</li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Key Features -->
+      <div class="howto-features">
+        <h2>Key Features to Explore</h2>
+        <div class="features-grid">
+          {tool.features.map((f: string) => (
+            <div class="feature-item">{f}</div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Alternatives -->
+      {alternatives.length > 0 && (
+        <div class="howto-alternatives">
+          <h2>Alternatives to Consider</h2>
+          <p>If {tool.name} isn't the right fit, here are some similar tools:</p>
+          <div class="alt-list">
+            {alternatives.map((alt) => (
+              <a href={`/tools/${alt.slug}/`} class="alt-chip">
+                {alt.icon && <img src={alt.icon} alt="" width="20" height="20" style="border-radius: 4px;" />}
+                <span>{alt.name}</span>
+                <span class="alt-rating">★ {alt.rating}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- CTA -->
+      <div class="howto-cta">
+        <h2>Ready to Try {tool.name}?</h2>
+        <p>{tool.description}</p>
+        <div class="howto-cta-buttons">
+          <a href={tool.website} target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Get Started with {tool.name} →
+          </a>
+          <a href={`/reviews/${tool.slug}/`} class="btn-secondary">
+            Read Full Review
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .howto-page {
+    max-width: 800px;
+  }
+
+  .howto-header {
+    margin-bottom: 2rem;
+  }
+
+  .howto-identity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .howto-identity h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+  }
+
+  .howto-subtitle {
+    color: var(--gray-600);
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .quick-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    margin-bottom: 2.5rem;
+  }
+
+  .quick-info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .quick-info-item strong {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    color: var(--gray-500);
+    letter-spacing: 0.5px;
+  }
+
+  .quick-info-item span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  .btn-sm {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .howto-steps {
+    margin-bottom: 3rem;
+  }
+
+  .howto-steps h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .step-card {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    border-left: 3px solid var(--primary);
+    margin-bottom: 1rem;
+    background: var(--white);
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+    border: 1px solid var(--gray-200);
+    border-left: 3px solid var(--primary);
+  }
+
+  .step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: var(--primary);
+    color: white;
+    font-weight: 800;
+    font-size: 0.9rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .step-content h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+
+  .step-content p {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .howto-tips {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background: var(--accent-light);
+    border-radius: var(--radius-lg);
+  }
+
+  .howto-tips h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .howto-tips ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .howto-tips li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 0.9rem;
+    color: var(--gray-700);
+    line-height: 1.5;
+  }
+
+  .howto-tips li::before {
+    content: '💡';
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+  }
+
+  .howto-features {
+    margin-bottom: 3rem;
+  }
+
+  .howto-features h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .feature-item {
+    padding: 0.4rem 0.8rem;
+    background: var(--gray-100);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--gray-700);
+  }
+
+  .howto-alternatives {
+    margin-bottom: 3rem;
+  }
+
+  .howto-alternatives h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .howto-alternatives > p {
+    color: var(--gray-600);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .alt-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .alt-chip {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.9rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 0.88rem;
+    font-weight: 500;
+    transition: border-color 0.15s;
+  }
+
+  .alt-chip:hover {
+    border-color: var(--primary);
+  }
+
+  .alt-rating {
+    font-size: 0.75rem;
+    color: var(--warning);
+  }
+
+  .howto-cta {
+    text-align: center;
+    padding: 2.5rem;
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+  }
+
+  .howto-cta h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .howto-cta > p {
+    color: var(--gray-600);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .howto-cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 600px) {
+    .howto-identity {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .quick-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .step-card {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  }
+</style>

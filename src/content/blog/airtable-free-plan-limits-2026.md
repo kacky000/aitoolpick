@@ -33,7 +33,7 @@ What does 1,000 records actually look like in practice?
 
 - A simple task tracker for a small team: lasts months
 - A content calendar tracking articles, social posts, and campaigns: hits the limit in 4–6 weeks
-- A CRM with contacts, deals, and notes: hits the limit within 2–3 weeks of real use
+- A [CRM](/category/crm/) with contacts, deals, and notes: hits the limit within 2–3 weeks of real use
 - A product inventory with variants: often hits the limit immediately
 
 The 1,000 record limit applies **per base**, not per table. So if you have three tables in one base, the total across all three tables cannot exceed 1,000.
@@ -53,7 +53,7 @@ If your use case involves documents, media, or file management, the free plan st
 
 ## Automation Runs: 100 per Month
 
-Airtable automations let you trigger actions automatically — send an email when a record changes, create a new record when a form is submitted, or post to Slack when a status updates.
+Airtable automations let you trigger actions automatically — send an email when a record changes, create a new record when a form is submitted, or post to [Slack](/tools/slack/) when a status updates.
 
 The free plan allows **100 automation runs per month**. This resets on the first of each month.
 

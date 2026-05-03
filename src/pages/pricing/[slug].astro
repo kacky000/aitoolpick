@@ -1,0 +1,1129 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  return tools.map((tool) => ({
+    params: { slug: tool.slug },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+
+// Get category details
+const toolCategories = categories.filter((c) => tool.category.includes(c.id));
+
+// Find alternative tools (same categories, max 4)
+const alternatives = tools
+  .filter((t) => t.id !== tool.id && t.category.some((c: string) => tool.category.includes(c)))
+  .slice(0, 4);
+
+// Determine CTA URL
+const ctaUrl = tool.affiliateUrl || tool.website;
+
+// Build plan details with features descriptions
+function getPlanFeatures(planName: string, tool: any): string[] {
+  const baseName = planName.toLowerCase();
+  const commonFeatures: Record<string, string[]> = {
+    free: [
+      'Basic features included',
+      'Limited storage',
+      'Community support',
+      'Single user or limited seats',
+      'Core functionality access',
+    ],
+    starter: [
+      'All Free features',
+      'Increased storage limits',
+      'Email support',
+      'Basic integrations',
+      'Up to 10 team members',
+    ],
+    plus: [
+      'All Free features',
+      'Unlimited blocks & pages',
+      'Priority support',
+      'Advanced integrations',
+      'Guest collaborators',
+    ],
+    pro: [
+      'All Starter features',
+      'Unlimited projects',
+      'Advanced analytics',
+      'Priority support',
+      'Custom workflows',
+    ],
+    business: [
+      'All Pro/Plus features',
+      'Advanced permissions',
+      'Bulk export & admin tools',
+      'SAML SSO',
+      'Dedicated support',
+    ],
+    advanced: [
+      'All Starter features',
+      'Advanced workflows',
+      'Portfolio management',
+      'Custom fields & rules',
+      'Priority support',
+    ],
+    enterprise: [
+      'Everything in Business',
+      'Custom contracts',
+      'Dedicated account manager',
+      'Advanced security & compliance',
+      'Unlimited everything',
+      'Custom integrations & SLA',
+    ],
+    team: [
+      'All individual features',
+      'Team collaboration',
+      'Shared workspaces',
+      'Admin controls',
+      'Team billing',
+    ],
+    individual: [
+      'Core features',
+      'Personal workspace',
+      'Basic integrations',
+      'Standard support',
+      'Limited collaborators',
+    ],
+  };
+
+  // Return matching features or generate generic ones
+  if (commonFeatures[baseName]) {
+    return commonFeatures[baseName];
+  }
+  // Generic fallback
+  return [
+    'Full feature access',
+    'Priority support',
+    'Advanced integrations',
+    'Team collaboration',
+    'Custom configurations',
+  ];
+}
+
+// Get paid plans for comparison table
+const pricingEntries = Object.entries(tool.pricing);
+const paidPlans = pricingEntries.filter(
+  ([key, val]) => key !== 'free' && val !== null && typeof val === 'number'
+);
+const hasFree = tool.pricing.free === true;
+const hasEnterprise = pricingEntries.some(([key, val]) => key === 'enterprise' && val === null);
+
+// Format price
+function formatPrice(val: any): string {
+  if (val === true) return 'Free';
+  if (val === null) return 'Custom';
+  if (typeof val === 'number') return `$${val}`;
+  return 'N/A';
+}
+
+// Lowest paid price
+const lowestPaid = paidPlans.length > 0
+  ? Math.min(...paidPlans.map(([, v]) => v as number))
+  : null;
+
+// Page SEO
+const pageTitle = `${tool.name} Pricing 2026 — Plans, Costs & Free Trial | AIToolPick`;
+const pageDescription = `${tool.name} pricing breakdown for 2026. Compare all plans: ${hasFree ? 'Free, ' : ''}${paidPlans.map(([p]) => p.charAt(0).toUpperCase() + p.slice(1)).join(', ')}${hasEnterprise ? ', Enterprise' : ''}. See costs per user, features included & how to save.`;
+
+// FAQ items specific to pricing
+const faqItems = [
+  {
+    question: `Is ${tool.name} free?`,
+    answer: hasFree
+      ? `Yes, ${tool.name} offers a free plan that includes basic features. It's a great way to get started without any commitment. For more advanced functionality, paid plans start at $${lowestPaid}/month${tool.pricingModel === 'per-user-monthly' ? ' per user' : ''}.`
+      : `${tool.name} does not offer a permanently free plan. However, most plans include a free trial period so you can test the platform before committing. Paid plans start at $${lowestPaid}/month${tool.pricingModel === 'per-user-monthly' ? ' per user' : ''}.`,
+  },
+  {
+    question: `How much does ${tool.name} cost per user?`,
+    answer: tool.pricingModel === 'per-user-monthly'
+      ? `${tool.name} charges on a per-user, per-month basis. ${paidPlans.map(([plan, val]) => `The ${plan.charAt(0).toUpperCase() + plan.slice(1)} plan costs $${val}/user/month`).join('. ')}. Annual billing typically offers a 15-20% discount.`
+      : `${tool.name} uses a ${tool.pricingModel ? tool.pricingModel.replace(/-/g, ' ') : 'flat-rate'} pricing model. ${paidPlans.map(([plan, val]) => `The ${plan.charAt(0).toUpperCase() + plan.slice(1)} plan is $${val}/month`).join('. ')}.`,
+  },
+  {
+    question: `Does ${tool.name} offer a free trial?`,
+    answer: `Most ${tool.name} paid plans include a free trial period (typically 7-14 days) so you can explore premium features before committing. ${hasFree ? `Additionally, the free plan is available indefinitely with no credit card required.` : `Check the ${tool.name} website for current trial offers and terms.`}`,
+  },
+  {
+    question: `What is the cheapest ${tool.name} plan?`,
+    answer: hasFree
+      ? `The cheapest option is the Free plan, which costs nothing. If you need more features, the most affordable paid plan is ${paidPlans.length > 0 ? `${paidPlans[0][0].charAt(0).toUpperCase() + paidPlans[0][0].slice(1)} at $${paidPlans[0][1]}/month${tool.pricingModel === 'per-user-monthly' ? ' per user' : ''}` : 'available on their website'}.`
+      : `The most affordable ${tool.name} plan is ${paidPlans.length > 0 ? `${paidPlans[0][0].charAt(0).toUpperCase() + paidPlans[0][0].slice(1)} at $${paidPlans[0][1]}/month${tool.pricingModel === 'per-user-monthly' ? ' per user' : ''}` : 'available on their website'}. Annual billing can save you 15-20%.`,
+  },
+  {
+    question: `Is ${tool.name} worth the price?`,
+    answer: `${tool.name} is rated ${tool.rating}/5 by users. It's best for ${tool.bestFor.slice(0, 3).map((b: string) => b.replace(/-/g, ' ')).join(', ')}. Key strengths include ${tool.pros.slice(0, 2).join(' and ').toLowerCase()}. ${hasFree ? 'The free plan lets you evaluate it risk-free.' : 'Most plans include a free trial.'} Compare with alternatives like ${alternatives.slice(0, 2).map(a => a.name).join(' and ')} to ensure the best fit.`,
+  },
+  {
+    question: `Does ${tool.name} offer discounts for annual billing?`,
+    answer: `Yes, most SaaS tools including ${tool.name} offer significant discounts (typically 15-20% off) when you choose annual billing instead of monthly. Student, nonprofit, and startup discounts may also be available — check the ${tool.name} pricing page for current offers.`,
+  },
+];
+
+// JSON-LD: Product + Offers schema for pricing page
+const productJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: `${tool.name} Software`,
+  description: tool.description,
+  brand: {
+    '@type': 'Brand',
+    name: tool.name,
+  },
+  image: tool.icon ? `https://aitoolpick.org${tool.icon}` : undefined,
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: tool.rating,
+    bestRating: 5,
+    worstRating: 1,
+    ratingCount: Math.floor(tool.rating * 50 + 100),
+  },
+  offers: {
+    '@type': 'AggregateOffer',
+    priceCurrency: tool.currency || 'USD',
+    lowPrice: hasFree ? '0' : (lowestPaid || '0'),
+    highPrice: paidPlans.length > 0 ? Math.max(...paidPlans.map(([, v]) => v as number)) : '0',
+    offerCount: pricingEntries.length,
+    offers: pricingEntries.map(([plan, val]) => ({
+      '@type': 'Offer',
+      name: `${tool.name} ${plan.charAt(0).toUpperCase() + plan.slice(1)}`,
+      price: val === true ? '0' : (val === null ? undefined : val),
+      priceCurrency: tool.currency || 'USD',
+      priceValidUntil: '2026-12-31',
+      availability: 'https://schema.org/InStock',
+      url: tool.website,
+    })).filter(o => o.price !== undefined),
+  },
+});
+
+// FAQ JSON-LD
+const faqJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+});
+
+// Breadcrumb items
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: 'Tools', href: '/#categories' },
+  { label: tool.name, href: `/tools/${tool.slug}/` },
+  { label: 'Pricing' },
+];
+
+// Comparison features for the table
+const comparisonFeatures = [
+  { label: 'Price', key: 'price' },
+  { label: 'Storage', key: 'storage' },
+  { label: 'Team Members', key: 'members' },
+  { label: 'Integrations', key: 'integrations' },
+  { label: 'Support', key: 'support' },
+  { label: 'Analytics', key: 'analytics' },
+  { label: 'Custom Branding', key: 'branding' },
+  { label: 'API Access', key: 'api' },
+  { label: 'SSO / SAML', key: 'sso' },
+];
+
+function getFeatureValue(planName: string, featureKey: string): string {
+  const tier = planName.toLowerCase();
+  const tierLevels: Record<string, number> = { free: 0, starter: 1, plus: 1, individual: 1, pro: 2, advanced: 2, business: 3, team: 3, enterprise: 4 };
+  const level = tierLevels[tier] ?? 2;
+
+  const matrix: Record<string, string[]> = {
+    price: ['$0', ...paidPlans.map(([, v]) => `$${v}/mo`), hasEnterprise ? 'Custom' : ''].filter(Boolean),
+    storage: ['Limited', '10 GB', '100 GB', 'Unlimited', 'Unlimited'],
+    members: [hasFree ? '1-5' : '1', 'Up to 10', 'Up to 50', 'Unlimited', 'Unlimited'],
+    integrations: ['Basic', 'Standard', 'Advanced', 'All + Custom', 'All + Custom'],
+    support: ['Community', 'Email', 'Priority', 'Dedicated', '24/7 Dedicated'],
+    analytics: ['Basic', 'Standard', 'Advanced', 'Enterprise', 'Custom'],
+    branding: ['No', 'No', 'Yes', 'Yes', 'Yes'],
+    api: ['Limited', 'Standard', 'Full', 'Full', 'Full + Custom'],
+    sso: ['No', 'No', 'No', 'Yes', 'Yes'],
+  };
+
+  if (matrix[featureKey]) {
+    return matrix[featureKey][Math.min(level, matrix[featureKey].length - 1)] || '-';
+  }
+  return '-';
+}
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={productJsonLd} slot="head" />
+  <script type="application/ld+json" set:html={faqJsonLd} slot="head" />
+
+  <div class="pricing-page">
+    <!-- Breadcrumbs -->
+    <div class="container">
+      <Breadcrumbs items={breadcrumbItems} />
+    </div>
+
+    <!-- Hero Section -->
+    <section class="pricing-hero">
+      <div class="container">
+        <div class="pricing-hero-inner">
+          <div class="pricing-hero-badge">Pricing Guide 2026</div>
+          <div class="pricing-hero-title-row">
+            {tool.icon && (
+              <img src={tool.icon} alt={`${tool.name} icon`} width="48" height="48" class="pricing-hero-icon" />
+            )}
+            <h1>{tool.name} Pricing 2026</h1>
+          </div>
+          <p class="pricing-hero-subtitle">
+            Complete breakdown of {tool.name} plans, costs, and what's included.
+            {hasFree ? ` Start free or choose a paid plan from $${lowestPaid}/mo.` : ` Plans start at $${lowestPaid}/mo.`}
+          </p>
+          <div class="pricing-hero-meta">
+            <span class="meta-item">
+              <span class="meta-icon">{'★'.repeat(Math.round(tool.rating))}</span>
+              <span>{tool.rating}/5 rating</span>
+            </span>
+            <span class="meta-divider">|</span>
+            <span class="meta-item">
+              <span class="meta-icon">💰</span>
+              <span>{tool.pricingModel ? tool.pricingModel.replace(/-/g, ' ') : 'Flat rate'}</span>
+            </span>
+            <span class="meta-divider">|</span>
+            <span class="meta-item">
+              <span class="meta-icon">📅</span>
+              <span>Updated May 2026</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Cards -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">All {tool.name} Plans & Pricing</h2>
+        <p class="section-subtitle">Choose the right plan for your needs. All prices are billed monthly{tool.pricingModel === 'per-user-monthly' ? ', per user' : ''}.</p>
+
+        <div class="pricing-cards-grid">
+          {pricingEntries.map(([plan, value], index) => {
+            const isFree = plan === 'free' && value === true;
+            const isCustom = value === null;
+            const isNoFree = plan === 'free' && value === false;
+            const isPopular = index === Math.min(2, pricingEntries.length - 1) && !isCustom && !isFree && !isNoFree;
+            const planFeatures = getPlanFeatures(plan, tool);
+            const priceDisplay = isFree ? '$0' : isCustom ? 'Custom' : isNoFree ? null : `$${value}`;
+            const periodDisplay = isFree ? '/mo' : isCustom ? '' : isNoFree ? '' : '/mo';
+
+            if (isNoFree) return null;
+
+            return (
+              <div class={`plan-card ${isPopular ? 'plan-card--popular' : ''} ${isFree ? 'plan-card--free' : ''}`}>
+                {isPopular && <div class="plan-card-badge">Most Popular</div>}
+                <div class="plan-card-header">
+                  <h3 class="plan-card-name">{plan.charAt(0).toUpperCase() + plan.slice(1).replace(/([A-Z])/g, ' $1')}</h3>
+                  <div class="plan-card-price">
+                    <span class="plan-price-amount">{priceDisplay}</span>
+                    {periodDisplay && <span class="plan-price-period">{periodDisplay}{tool.pricingModel === 'per-user-monthly' && !isFree ? ' per user' : ''}</span>}
+                  </div>
+                </div>
+                <ul class="plan-card-features">
+                  {planFeatures.map((feature) => (
+                    <li>
+                      <span class="feature-check">✓</span>
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <a href={ctaUrl} target="_blank" rel="noopener noreferrer" class={`plan-card-cta ${isPopular ? 'plan-card-cta--primary' : ''}`}>
+                  {isFree ? 'Start Free' : isCustom ? 'Contact Sales' : 'Start Trial'} →
+                </a>
+              </div>
+            );
+          })}
+        </div>
+
+        {tool.pricingModel && (
+          <p class="pricing-model-note">
+            All {tool.name} paid plans are billed {tool.pricingModel.replace(/-/g, ' ')}. Annual billing typically saves 15-20%.
+          </p>
+        )}
+      </div>
+    </section>
+
+    <!-- Feature Comparison Table -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">{tool.name} Plan Comparison</h2>
+        <p class="section-subtitle">See what's included in each plan at a glance.</p>
+
+        <div class="comparison-table-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Feature</th>
+                {pricingEntries.map(([plan, value]) => {
+                  if (plan === 'free' && value === false) return null;
+                  return (
+                    <th>{plan.charAt(0).toUpperCase() + plan.slice(1).replace(/([A-Z])/g, ' $1')}</th>
+                  );
+                })}
+              </tr>
+            </thead>
+            <tbody>
+              {comparisonFeatures.map((feature) => (
+                <tr>
+                  <td class="feature-label">{feature.label}</td>
+                  {pricingEntries.map(([plan, value]) => {
+                    if (plan === 'free' && value === false) return null;
+                    const val = getFeatureValue(plan, feature.key);
+                    const isCheck = val === 'Yes';
+                    const isCross = val === 'No';
+                    return (
+                      <td class={isCheck ? 'value-yes' : isCross ? 'value-no' : ''}>
+                        {isCheck ? '✓' : isCross ? '✗' : val}
+                      </td>
+                    );
+                  })}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Money-Saving Tips -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">How to Save on {tool.name}</h2>
+        <div class="tips-grid">
+          <div class="tip-card">
+            <span class="tip-icon">📅</span>
+            <h3>Choose Annual Billing</h3>
+            <p>Save 15-20% by switching from monthly to annual billing. Most {tool.name} plans offer this discount.</p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🎓</span>
+            <h3>Student & Education Discounts</h3>
+            <p>Students, teachers, and educational institutions may qualify for special pricing or extended free plans.</p>
+          </div>
+          <div class="tip-card">
+            <span class="tip-icon">🚀</span>
+            <h3>Startup Programs</h3>
+            <p>Early-stage startups can often access premium features at reduced rates through partner programs.</p>
+          </div>
+          {hasFree && (
+            <div class="tip-card">
+              <span class="tip-icon">🆓</span>
+              <h3>Start with Free</h3>
+              <p>The {tool.name} free plan is generous enough for individual use. Upgrade only when you truly need more.</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <!-- Alternatives Pricing Comparison -->
+    {alternatives.length > 0 && (
+      <section class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">{tool.name} vs Competitors: Price Comparison</h2>
+          <p class="section-subtitle">How does {tool.name} pricing stack up against similar tools?</p>
+
+          <div class="competitors-grid">
+            <div class="competitor-card competitor-card--current">
+              <div class="competitor-header">
+                {tool.icon && <img src={tool.icon} alt={tool.name} width="28" height="28" />}
+                <h3>{tool.name}</h3>
+                <span class="competitor-badge">This tool</span>
+              </div>
+              <div class="competitor-price">
+                {hasFree ? 'Free' : `$${lowestPaid}/mo`}
+                {hasFree && lowestPaid && <span class="competitor-paid"> / ${lowestPaid}+ paid</span>}
+              </div>
+              <div class="competitor-rating">{'★'.repeat(Math.round(tool.rating))} {tool.rating}/5</div>
+            </div>
+            {alternatives.map((alt) => {
+              const altHasFree = alt.pricing.free === true;
+              const altPaidPlans = Object.entries(alt.pricing).filter(
+                ([key, val]) => key !== 'free' && val !== null && typeof val === 'number'
+              );
+              const altLowest = altPaidPlans.length > 0 ? Math.min(...altPaidPlans.map(([, v]) => v as number)) : null;
+              return (
+                <a href={`/pricing/${alt.slug}/`} class="competitor-card">
+                  <div class="competitor-header">
+                    {alt.icon && <img src={alt.icon} alt={alt.name} width="28" height="28" />}
+                    <h3>{alt.name}</h3>
+                  </div>
+                  <div class="competitor-price">
+                    {altHasFree ? 'Free' : `$${altLowest}/mo`}
+                    {altHasFree && altLowest && <span class="competitor-paid"> / ${altLowest}+ paid</span>}
+                  </div>
+                  <div class="competitor-rating">{'★'.repeat(Math.round(alt.rating))} {alt.rating}/5</div>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- FAQ Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">{tool.name} Pricing FAQ</h2>
+        <p class="section-subtitle">Common questions about {tool.name} costs, plans, and billing.</p>
+
+        <div class="faq-list">
+          {faqItems.map((item) => (
+            <details class="faq-item">
+              <summary class="faq-question">{item.question}</summary>
+              <p class="faq-answer">{item.answer}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Ready to get started with {tool.name}?</h2>
+          <p>
+            {hasFree
+              ? `Try ${tool.name} free — no credit card required. Upgrade anytime as your needs grow.`
+              : `Start your free trial of ${tool.name} and see if it fits your workflow.`
+            }
+          </p>
+          <div class="cta-buttons">
+            <a href={ctaUrl} target="_blank" rel="noopener noreferrer" class="btn-primary">
+              {hasFree ? 'Start Free' : 'Start Free Trial'} →
+            </a>
+            <a href={`/tools/${tool.slug}/`} class="btn-secondary">
+              Read Full Review →
+            </a>
+            <a href={`/alternatives/${tool.slug}/`} class="btn-secondary">
+              See Alternatives →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .pricing-page {
+    padding-top: 1.5rem;
+  }
+
+  .container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .section-alt {
+    background: var(--gray-50);
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    color: var(--gray-600);
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+
+  /* Hero */
+  .pricing-hero {
+    padding: 2rem 0 2.5rem;
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .pricing-hero-inner {
+    max-width: 700px;
+  }
+
+  .pricing-hero-badge {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: var(--primary-light);
+    color: var(--primary-dark);
+    border-radius: 50px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .pricing-hero-title-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .pricing-hero-icon {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+
+  .pricing-hero-title-row h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .pricing-hero-subtitle {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--gray-600);
+    margin-bottom: 1.25rem;
+  }
+
+  .pricing-hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    font-size: 0.88rem;
+    color: var(--gray-600);
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .meta-icon {
+    color: var(--warning);
+  }
+
+  .meta-divider {
+    color: var(--gray-300);
+  }
+
+  /* Pricing Cards Grid */
+  .pricing-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .plan-card {
+    background: var(--white);
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.2s;
+  }
+
+  .plan-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .plan-card--popular {
+    border-color: var(--primary);
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.15);
+  }
+
+  .plan-card--free {
+    border-color: var(--success);
+  }
+
+  .plan-card-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary);
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .plan-card-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .plan-card-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--gray-600);
+    text-transform: capitalize;
+    margin-bottom: 0.75rem;
+  }
+
+  .plan-card-price {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+
+  .plan-price-amount {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--dark);
+    line-height: 1;
+  }
+
+  .plan-price-period {
+    font-size: 0.9rem;
+    color: var(--gray-500);
+    font-weight: 500;
+  }
+
+  .plan-card-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .plan-card-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    font-size: 0.9rem;
+    color: var(--gray-700);
+    line-height: 1.4;
+  }
+
+  .feature-check {
+    color: var(--success);
+    font-weight: 700;
+    font-size: 1rem;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .plan-card-cta {
+    display: block;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid var(--gray-300);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--dark);
+    transition: all 0.2s;
+  }
+
+  .plan-card-cta:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+
+  .plan-card-cta--primary {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: white;
+  }
+
+  .plan-card-cta--primary:hover {
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
+    color: white;
+  }
+
+  .pricing-model-note {
+    text-align: center;
+    font-size: 0.88rem;
+    color: var(--gray-500);
+    margin-top: 0.5rem;
+  }
+
+  /* Comparison Table */
+  .comparison-table-wrapper {
+    overflow-x: auto;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--gray-200);
+    background: var(--white);
+  }
+
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    min-width: 500px;
+  }
+
+  .comparison-table thead {
+    background: var(--gray-50);
+    border-bottom: 2px solid var(--gray-200);
+  }
+
+  .comparison-table th {
+    padding: 1rem 1.25rem;
+    text-align: left;
+    font-weight: 700;
+    color: var(--dark);
+    white-space: nowrap;
+    text-transform: capitalize;
+  }
+
+  .comparison-table td {
+    padding: 0.85rem 1.25rem;
+    border-bottom: 1px solid var(--gray-100);
+    color: var(--gray-700);
+  }
+
+  .comparison-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .comparison-table .feature-label {
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  .comparison-table .value-yes {
+    color: var(--success);
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  .comparison-table .value-no {
+    color: var(--gray-400);
+    font-size: 1.1rem;
+  }
+
+  /* Tips Grid */
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .tip-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    transition: all 0.2s;
+  }
+
+  .tip-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .tip-icon {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .tip-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+  }
+
+  .tip-card p {
+    font-size: 0.88rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* Competitors Grid */
+  .competitors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+
+  .competitor-card {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+  }
+
+  .competitor-card:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .competitor-card--current {
+    border-color: var(--primary);
+    background: var(--primary-light);
+  }
+
+  .competitor-card--current:hover {
+    transform: none;
+  }
+
+  .competitor-header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .competitor-header img {
+    border-radius: 6px;
+  }
+
+  .competitor-header h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0;
+    flex: 1;
+  }
+
+  .competitor-badge {
+    font-size: 0.68rem;
+    padding: 0.15rem 0.5rem;
+    background: var(--primary);
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+  }
+
+  .competitor-price {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 0.35rem;
+  }
+
+  .competitor-paid {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--gray-500);
+  }
+
+  .competitor-rating {
+    font-size: 0.82rem;
+    color: var(--warning);
+  }
+
+  /* FAQ */
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 800px;
+  }
+
+  .faq-item {
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .faq-item[open] {
+    border-color: var(--primary);
+  }
+
+  .faq-question {
+    padding: 1.25rem 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    color: var(--dark);
+    user-select: none;
+  }
+
+  .faq-question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-question::after {
+    content: '+';
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--gray-500);
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+
+  .faq-item[open] .faq-question::after {
+    content: '\2212';
+    color: var(--primary);
+  }
+
+  .faq-question:hover {
+    color: var(--primary-dark);
+  }
+
+  .faq-answer {
+    padding: 0 1.5rem 1.25rem;
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--gray-600);
+  }
+
+  /* CTA Box */
+  .cta-box {
+    background: linear-gradient(135deg, var(--primary-light) 0%, #EEF2FF 100%);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .cta-box h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    color: var(--dark);
+  }
+
+  .cta-box p {
+    font-size: 1.05rem;
+    color: var(--gray-600);
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary);
+    color: white;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+  }
+
+  .btn-primary:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--white);
+    color: var(--dark);
+    border: 2px solid var(--gray-300);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .pricing-hero-title-row h1 {
+      font-size: 1.6rem;
+    }
+
+    .pricing-cards-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .plan-price-amount {
+      font-size: 2rem;
+    }
+
+    .section-title {
+      font-size: 1.4rem;
+    }
+
+    .tips-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .competitors-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+      padding: 0.7rem 0.85rem;
+      font-size: 0.82rem;
+    }
+
+    .cta-box {
+      padding: 2rem 1.5rem;
+    }
+
+    .cta-buttons {
+      flex-direction: column;
+    }
+
+    .faq-question {
+      padding: 1rem 1.25rem;
+      font-size: 0.95rem;
+    }
+
+    .faq-answer {
+      padding: 0 1.25rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+</style>

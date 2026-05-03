@@ -7,7 +7,7 @@ tags: ["logseq", "pricing", "free-vs-paid", "note-taking"]
 
 Logseq is one of the few knowledge management tools where the free version is genuinely full-featured. Unlike most SaaS apps that gate core functionality behind a subscription, Logseq's entire local experience — outlining, bidirectional linking, graph view, plugins — ships at no cost. The paid tiers exist for sync and for supporting the project's development.
 
-This breakdown covers what each tier offers, who should consider paying, and how the costs compare to the main alternative, Obsidian Sync.
+This breakdown covers what each tier offers, who should consider paying, and how the costs compare to the main alternative, [Obsidian](/tools/obsidian/) Sync.
 
 ## Logseq Free: What's Included
 
@@ -48,7 +48,7 @@ The $5/month price point is competitive. The sync uses end-to-end encryption, me
 
 ### When It Doesn't
 
-- You already sync your Logseq folder via iCloud, Dropbox, or Syncthing
+- You already sync your Logseq folder via iCloud, [Dropbox](/tools/dropbox/), or Syncthing
 - You only use Logseq on one machine
 - You're comfortable with Git-based versioning for backups
 
@@ -109,13 +109,13 @@ For a detailed [Logseq pricing](/blog/logseq-pricing-2026) breakdown including a
 
 Most individual users. If you work from one computer, Logseq Free gives you the full experience. Set up a simple backup system — even just copying your graph folder to a cloud drive weekly — and you're covered.
 
-Students, researchers, and solo developers who use Logseq as a local knowledge base have no practical reason to upgrade.
+Students, researchers, and solo [developers](/best-for/developers/) who use Logseq as a local knowledge base have no practical reason to upgrade.
 
 ## Who Should Pay for Sync
 
 Anyone who genuinely needs multi-device access. The $5/month is reasonable for what it provides, and the end-to-end encryption is a real differentiator compared to syncing through a generic cloud storage service.
 
-If you've been manually syncing your Logseq folder through Dropbox or iCloud and have experienced data corruption or merge conflicts, Logseq Sync solves that problem directly.
+If you've been manually syncing your Logseq folder through [Dropbox](/tools/dropbox/) or iCloud and have experienced data corruption or merge conflicts, Logseq Sync solves that problem directly.
 
 ## Who Should Consider the Sponsor Tier
 

@@ -14,7 +14,7 @@ But they're built for different users. Here's the definitive comparison.
 
 ## What Are They?
 
-**Google Gemini** is Google's flagship AI assistant, powered by the Gemini family of models. It's integrated into Gmail, Google Docs, Google Drive, and Android. The free tier runs Gemini 2.0, while Gemini Advanced ($19.99/month) unlocks the most powerful models.
+**Google Gemini** is Google's flagship AI assistant, powered by the Gemini family of models. It's integrated into Gmail, Google Docs, [Google Drive](/tools/google-drive/), and Android. The free tier runs Gemini 2.0, while Gemini Advanced ($19.99/month) unlocks the most powerful models.
 
 **Microsoft Copilot** is Microsoft's AI layer, originally powered by OpenAI's GPT models. It's baked into Windows 11, Microsoft 365 (Word, Excel, Outlook, Teams), and Bing. The free tier is available on the web; Microsoft 365 Copilot ($30/user/month) adds deep Office integration.
 
@@ -27,7 +27,7 @@ But they're built for different users. Here's the definitive comparison.
 | **Paid plan** | $19.99/month (Advanced) | $30/user/month (M365) |
 | **Google Workspace integration** | Deep | Via connectors |
 | **Microsoft 365 integration** | Via connectors | Deep |
-| **Image generation** | Imagen 3 | DALL-E 3 |
+| **Image generation** | Imagen 3 | [DALL-E 3](/tools/dall-e/) |
 | **Code assistance** | Strong | Strong |
 | **Real-time search** | Yes (Google Search) | Yes (Bing) |
 | **Mobile app** | Excellent | Good |
@@ -37,7 +37,7 @@ But they're built for different users. Here's the definitive comparison.
 
 Both models are strong writers, but with different styles:
 
-**Gemini** tends to produce more creative, flowing prose. It handles tone variation well and excels at drafting blog posts, emails, and social copy. Integration with Google Docs lets you refine documents directly in your editor.
+**Gemini** tends to produce more creative, flowing prose. It handles tone variation well and excels at drafting blog posts, emails, and social copy. Integration with [Google Docs](/tools/google-docs/) lets you refine documents directly in your editor.
 
 **Copilot in Word** shines for business writing. The ability to summarize a long document, rewrite paragraphs in a meeting context, or generate a report from bullet points inside Word itself is genuinely useful. The interface is more constrained but more targeted.
 
@@ -45,11 +45,11 @@ Both models are strong writers, but with different styles:
 
 ## Coding
 
-**Gemini** (especially via Google AI Studio) is strong for coding assistance. It handles Python, JavaScript, and TypeScript well, and can work with complex multi-file projects. Deep Gemini integration with Android Studio makes it the go-to for mobile developers.
+**Gemini** (especially via Google AI Studio) is strong for coding assistance. It handles Python, JavaScript, and TypeScript well, and can work with complex multi-file projects. Deep Gemini integration with Android Studio makes it the go-to for mobile [developers](/best-for/developers/).
 
-**Copilot** has GitHub Copilot (a separate product at $10/month) which remains the gold standard for inline code completion in VS Code. For coding *within* the Copilot chat interface, it's capable but GitHub Copilot is what developers actually use.
+**Copilot** has [GitHub Copilot](/tools/github-copilot/) (a separate product at $10/month) which remains the gold standard for inline code completion in VS Code. For coding *within* the Copilot chat interface, it's capable but GitHub Copilot is what developers actually use.
 
-**Winner: GitHub Copilot** for developers (which is technically separate). For general coding in a chat interface: roughly equal.
+**Winner: [GitHub](/tools/github/) Copilot** for developers (which is technically separate). For general coding in a chat interface: roughly equal.
 
 ## Research and Information Retrieval
 

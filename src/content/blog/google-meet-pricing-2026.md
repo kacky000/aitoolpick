@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Google Meet** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
-Google Meet is one of the most widely used video conferencing tools in the world — and for many people, it's already free. But understanding exactly what you get at each price point requires navigating Google's Workspace pricing, which can be confusing.
+Google Meet is one of the most widely used [video conferencing](/category/video-conferencing/) tools in the world — and for many people, it's already free. But understanding exactly what you get at each price point requires navigating Google's Workspace pricing, which can be confusing.
 
 Here's everything you need to know.
 
@@ -22,7 +22,7 @@ Here's everything you need to know.
 - Available on web, iOS, and Android
 - No time limit for 1:1 calls
 
-For casual use, personal calls, or small teams, the free plan covers most needs.
+For casual use, personal calls, or [small teams](/best-for/small-teams/), the free plan covers most needs.
 
 ## Google Meet Paid Plans (via Google Workspace)
 
@@ -31,7 +31,7 @@ Google Meet doesn't have standalone paid plans — it's bundled into **Google Wo
 | Plan | Price | Meet Limits | Key Features |
 |------|-------|-------------|--------------|
 | **Free (Google Account)** | $0 | 100 participants, 60 min groups | Basic Meet |
-| **Workspace Starter** | $6/user/month | 100 participants, 24 hours | 30 GB storage, Gmail custom domain |
+| **Workspace Starter** | $6/user/month | 100 participants, 24 [hours](/tools/hours-tracker/) | 30 GB storage, Gmail custom domain |
 | **Workspace Standard** | $12/user/month | 150 participants, 24 hours | 2 TB storage, noise cancellation, breakout rooms |
 | **Workspace Business Plus** | $18/user/month | 500 participants, 24 hours | Attendance tracking, polls |
 | **Workspace Enterprise** | Custom | 1,000 participants | Recording, streaming, advanced security |
@@ -74,7 +74,7 @@ One commonly misunderstood limitation: **recording requires a paid Workspace pla
 |------|-----------|------------|
 | Google Meet | 60 min / 100 people | $6/user/month |
 | Zoom | 40 min / 100 people | $13.33/user/month |
-| Microsoft Teams | Unlimited / 100 people | $6/user/month (M365 Business Basic) |
+| [Microsoft Teams](/tools/microsoft-teams/) | Unlimited / 100 people | $6/user/month (M365 Business Basic) |
 
 Google Meet's free tier beats Zoom's on meeting duration (60 vs 40 minutes). Teams free is actually more generous, but Microsoft 365 integration costs are similar to Workspace.
 
@@ -99,7 +99,7 @@ For a full head-to-head, see our [Zoom vs Google Meet 2026](/blog/zoom-vs-google
 
 ## The Bottom Line
 
-Google Meet is exceptional value — the free tier is better than most competitors' free plans. For businesses already using Gmail and Google Drive, upgrading to Workspace ($6-12/user/month) removes the meeting limits and adds essential business features.
+Google Meet is exceptional value — the free tier is better than most competitors' free plans. For businesses already using Gmail and [Google Drive](/tools/google-drive/), upgrading to Workspace ($6-12/user/month) removes the meeting limits and adds essential business features.
 
 If you're paying just for video conferencing and don't use other Google tools, compare the full-suite cost against dedicated tools.
 

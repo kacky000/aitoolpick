@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const tagCounts = new Map<string, number>();
+
+for (const post of allPosts) {
+  const tags = post.data.tags || [];
+  for (const tag of tags) {
+    tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+  }
+}
+
+const sortedTags = Array.from(tagCounts.entries()).sort((a, b) => b[1] - a[1]);
+
+function formatTag(t: string): string {
+  return t.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
+}
+---
+
+<BaseLayout
+  title="All Blog Topics — AIToolPick"
+  description={`Browse ${sortedTags.length} topics covered in our blog. Find guides, reviews, and comparisons.`}
+>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Blog', href: '/blog/' },
+        { label: 'Topics' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">All Blog Topics</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2rem;">{sortedTags.length} topics across {allPosts.length} articles</p>
+
+      <div class="tag-cloud">
+        {sortedTags.map(([tag, count]) => (
+          <a
+            href={`/blog/tag/${tag}/`}
+            class="tag-item"
+            style={`font-size: ${Math.min(0.8 + count * 0.03, 1.3)}rem;`}
+          >
+            {formatTag(tag)} <span class="tag-count">({count})</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+  }
+
+  .tag-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    background: var(--gray-100);
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--gray-700);
+    font-weight: 500;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .tag-item:hover {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+  }
+
+  .tag-count {
+    font-size: 0.72em;
+    color: var(--gray-500);
+  }
+</style>

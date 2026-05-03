@@ -36,7 +36,7 @@ You can save your preferred view per project, so your content team sees the cale
 
 ### 2. ClickUp Docs for Creative Briefs
 
-Instead of creating briefs in Google Docs and losing track of versions, ClickUp Docs lives directly inside your workspace. You can:
+Instead of creating briefs in [Google Docs](/tools/google-docs/) and losing track of versions, ClickUp Docs lives directly inside your workspace. You can:
 
 - Create a campaign brief template with required fields
 - Link the brief to the associated task or project
@@ -71,16 +71,16 @@ ClickUp connects with the tools your marketing team already uses:
 
 | Tool | Integration Type |
 |------|-----------------|
-| HubSpot | Two-way sync for campaigns |
-| Slack | Task notifications in channels |
-| Google Drive | Attach files directly to tasks |
-| Figma | Embed designs in tasks |
-| Zapier/Make | Automate anything |
+| [HubSpot](/tools/hubspot/) | Two-way sync for campaigns |
+| [Slack](/tools/slack/) | Task notifications in channels |
+| [Google Drive](/tools/google-drive/) | Attach files directly to tasks |
+| [Figma](/tools/figma/) | Embed designs in tasks |
+| [Zapier](/tools/zapier/)/Make | Automate anything |
 | Google Analytics | View metrics in Dashboards |
 
 ### 6. Time Tracking for Agency Teams
 
-If you're a marketing agency billing clients by the hour, ClickUp's built-in time tracking lets team members log hours directly on tasks. You can then generate time reports by project, client, or team member—without a separate tool like Harvest or Toggl.
+If you're a marketing agency billing clients by the hour, ClickUp's built-in [time tracking](/category/time-tracking/) lets team members log hours directly on tasks. You can then generate time reports by project, client, or team member—without a separate tool like Harvest or Toggl.
 
 ## ClickUp for Marketing: Pricing
 
@@ -130,14 +130,14 @@ Build a template for your most common campaign type. Include:
 - Standard due date offsets (e.g., brief due 3 weeks before launch)
 - Checklist items for quality control
 
-Once you save it as a template, spinning up a new campaign takes 2 minutes instead of 2 hours.
+Once you save it as a template, spinning up a new campaign takes 2 minutes instead of 2 [hours](/tools/hours-tracker/).
 
 ### Step 4: Set Up Automations
 
 Key automations for marketing teams:
 
 - **When task status = "In Review" → assign to Creative Director**
-- **When due date passes with status = "Draft" → send Slack alert**
+- **When due date passes with status = "Draft" → send [Slack](/tools/slack/) alert**
 - **When campaign status = "Live" → notify stakeholders**
 - **When content is published → move to "Archive" folder**
 
@@ -145,7 +145,7 @@ ClickUp's automation builder is visual and requires no coding.
 
 ## ClickUp vs Alternatives for Marketing Teams
 
-| Feature | ClickUp | Asana | Monday.com |
+| Feature | ClickUp | Asana | [Monday.com](/tools/monday/) |
 |---------|---------|-------|------------|
 | Free plan | ✅ Generous | ✅ 10 users | ✅ 2 seats |
 | Content calendar | ✅ Built-in calendar view | ⚠️ Via integration | ✅ Built-in |
@@ -167,11 +167,11 @@ For marketing teams that need docs + time tracking + content calendar in one too
 **ClickUp may not be the right fit if:**
 - Your team is just 1–2 people and needs something simpler (try [Todoist](/blog/todoist-review-2026) or Trello)
 - You need a dedicated social media scheduler (ClickUp doesn't post to social platforms)
-- Your company uses Jira company-wide and marketing needs to integrate tightly
+- Your company uses [Jira](/tools/jira/) company-wide and marketing needs to integrate tightly
 
 ## Verdict
 
-ClickUp is one of the best project management tools for marketing teams in 2026. Its combination of flexible views, built-in docs, custom workflows, and generous pricing makes it a strong choice for teams that are tired of juggling 4–5 different tools.
+ClickUp is one of the best [project management](/category/project-management/) tools for marketing teams in 2026. Its combination of flexible views, built-in docs, custom workflows, and generous pricing makes it a strong choice for teams that are tired of juggling 4–5 different tools.
 
 The learning curve is real—plan for 1–2 weeks before your team is fully comfortable. But once you're set up, the productivity gains are significant.
 

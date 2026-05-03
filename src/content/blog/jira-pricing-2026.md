@@ -8,7 +8,7 @@ lastModified: "2026-04-26"
 ---
 **Jira** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
-Jira's pricing is more complex than most project management tools. Beyond the core cloud plans, Atlassian layers on additional products — Confluence, Jira Product Discovery, Jira Service Management — that make the total cost significantly higher than the headline numbers suggest.
+Jira's pricing is more complex than most project management tools. Beyond the core cloud plans, Atlassian layers on additional products — Confluence, Jira Product Discovery, Jira Service Management — that [make](/tools/make/) the total cost significantly higher than the headline numbers suggest.
 
 Here is every number you need to know before committing to Jira in 2026.
 
@@ -53,7 +53,7 @@ Jira's headline price is only part of the story. Most organizations end up payin
 
 | Add-On | Price |
 |--------|-------|
-| Confluence (wiki/docs) | $5.16/user/month (Standard) |
+| [Confluence](/tools/confluence/) (wiki/docs) | $5.16/user/month (Standard) |
 | Jira Product Discovery | $10/creator/month |
 | Jira Service Management | $22.05/agent/month (Standard) |
 | Atlassian Access (SSO) | $4/user/month |
@@ -66,10 +66,10 @@ A typical 50-person engineering org on Jira Premium + Confluence Standard + Atla
 | Tool | Entry Paid | Mid-Tier |
 |------|-----------|---------|
 | Jira | $8.60/user | $17/user |
-| Linear | $8/user | $16/user |
-| ClickUp | $7/user | $12/user |
-| Asana | $10.99/user | $24.99/user |
-| Monday.com | $9/user | $12/user |
+| [Linear](/tools/linear/) | $8/user | $16/user |
+| [ClickUp](/tools/clickup/) | $7/user | $12/user |
+| [Asana](/tools/asana/) | $10.99/user | $24.99/user |
+| [Monday.com](/tools/monday/) | $9/user | $12/user |
 
 Jira is mid-range on headline pricing but premium when add-ons are included.
 
@@ -77,12 +77,12 @@ Jira is mid-range on headline pricing but premium when add-ons are included.
 
 **Yes, if:**
 - You have 50+ engineers with complex workflows
-- You are already using Confluence and Bitbucket (the integration value is real)
+- You are already using Confluence and [Bitbucket](/tools/bitbucket/) (the integration value is real)
 - You need Atlassian Intelligence or Advanced Roadmaps
 - Compliance and audit logs are required
 
 **No, if:**
-- Your team is under 30 people (Linear is faster and cheaper all-in)
+- Your team is under 30 people ([Linear](/tools/linear/) is faster and cheaper all-in)
 - You don't need the Atlassian ecosystem
 - Your engineers complain about Jira daily (a signal the ROI is negative)
 

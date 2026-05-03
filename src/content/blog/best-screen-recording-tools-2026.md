@@ -14,7 +14,7 @@ Screen recording has become essential for remote teams, content creators, and an
 
 | Tool | Best For | Price |
 |------|----------|-------|
-| Loom | Quick async video messages | Free / $12.50/month |
+| [Loom](/tools/loom/) | Quick async video messages | Free / $12.50/month |
 | OBS Studio | Live streaming and advanced recording | Free |
 | Cleanshot X | Mac screenshots and recordings | $29 one-time |
 | Camtasia | Professional tutorial creation | $299/year |
@@ -30,7 +30,7 @@ Loom is the screen recorder built for remote work communication. Record your scr
 - Instant link sharing (no file upload needed)
 - Viewer engagement analytics (see who watched and when)
 - AI-generated transcripts and summaries
-- Camera bubble for face recording alongside screen
+- Camera [bubble](/tools/bubble/) for face recording alongside screen
 - Comments at specific timestamps
 
 **Pricing:** Free plan allows unlimited videos up to 5 minutes. Business plan at $12.50/user/month removes limits and adds team features.
@@ -54,7 +54,7 @@ OBS (Open Broadcaster Software) is the gold standard for free screen recording a
 
 **Limitations:** OBS has a learning curve. Initial setup requires configuration, and it's not optimized for quick, casual screen sharing.
 
-**Best for:** Content creators, streamers, developers recording tutorials, anyone who needs powerful recording without paying.
+**Best for:** Content creators, streamers, [developers](/best-for/developers/) recording tutorials, anyone who needs powerful recording without paying.
 
 ## 3. Cleanshot X — Best for Mac Users
 
@@ -77,14 +77,14 @@ Cleanshot X is a Mac-native screenshot and screen recording app that replaces th
 
 ## 4. Camtasia — Best for Professional Tutorials
 
-Camtasia by TechSmith is the professional tool for creating polished tutorial videos and product demos. Its video editor handles callouts, annotations, zoom effects, and quiz elements that simple screen recorders don't support.
+Camtasia by TechSmith is the professional tool for creating polished tutorial videos and product demos. Its video editor handles callouts, annotations, [zoom](/tools/zoom/) effects, and quiz elements that simple screen recorders don't support.
 
 **Why it works:** Camtasia's output looks professional. Recording is step one — the real value is in its editing features that turn raw recordings into structured, engaging tutorials.
 
 **Key features:**
 - Screen recording + full video editing in one tool
 - Callouts, annotations, and spotlight effects built in
-- Zoom and pan animations to highlight specific areas
+- [Zoom](/tools/zoom/) and pan animations to highlight specific areas
 - Quiz and interaction elements
 - Export in multiple formats (MP4, GIF, web)
 
@@ -103,7 +103,7 @@ Scribe takes a different approach: instead of recording video, it automatically 
 **Key features:**
 - Auto-captures every click and generates a guide
 - Annotated screenshots with numbered steps
-- Share as link, PDF, or embed in Notion/Confluence
+- Share as link, PDF, or embed in [Notion](/tools/notion/)/Confluence
 - AI-generated titles for each step
 
 **Pricing:** Free plan for basic guides. Pro plan at $29/month adds advanced features and sharing options.
@@ -118,7 +118,7 @@ Scribe takes a different approach: instead of recording video, it automatically 
 - **Professional tutorial creation** → Camtasia
 - **Auto-generated process documentation** → Scribe
 
-For most remote workers and small teams, Loom's combination of ease of use, async sharing, and analytics makes it the obvious first choice.
+For most remote workers and [small teams](/best-for/small-teams/), Loom's combination of ease of use, async sharing, and analytics makes it the obvious first choice.
 
 ---
 

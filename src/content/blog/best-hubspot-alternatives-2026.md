@@ -51,7 +51,7 @@ Pipedrive is purpose-built for sales pipeline management. It's easier to use tha
 
 **Why choose Pipedrive:** If your primary need is sales pipeline management — not marketing automation — Pipedrive is cleaner, cheaper, and faster to adopt. The visual pipeline is one of the best in the industry.
 
-**Missing vs HubSpot:** No native landing pages, limited email marketing, no built-in SEO or social tools.
+**Missing vs HubSpot:** No native landing pages, limited [email marketing](/category/email-marketing/), no built-in SEO or social tools.
 
 ## 3. ActiveCampaign — Best for Email Marketing + CRM
 
@@ -74,7 +74,7 @@ ActiveCampaign combines powerful email marketing automation with a capable CRM. 
 
 **Best for:** Budget-conscious teams wanting comprehensive CRM features
 
-Zoho CRM is part of the broader Zoho suite, which includes email marketing, helpdesk, project management, and more — similar to HubSpot's hub model but significantly cheaper.
+Zoho CRM is part of the broader Zoho suite, which includes email marketing, helpdesk, [project management](/category/project-management/), and more — similar to HubSpot's hub model but significantly cheaper.
 
 | Plan | Price |
 |------|-------|
@@ -90,9 +90,9 @@ Zoho CRM is part of the broader Zoho suite, which includes email marketing, help
 
 ## 5. Monday CRM — Best for Visual Pipeline Management
 
-**Best for:** Teams already using Monday.com for project management
+**Best for:** Teams already using [Monday.com](/tools/monday/) for project management
 
-Monday CRM builds CRM functionality into Monday.com's familiar board-based interface. If your team already loves Monday.com's visual style, this is the most natural CRM upgrade.
+Monday CRM builds CRM functionality into [Monday.com](/tools/monday/)'s familiar board-based interface. If your team already loves Monday.com's visual style, this is the most natural CRM upgrade.
 
 | Plan | Price |
 |------|-------|
@@ -101,7 +101,7 @@ Monday CRM builds CRM functionality into Monday.com's familiar board-based inter
 | Pro | $28/user/month |
 | Enterprise | Custom |
 
-**Why choose Monday CRM:** The visual, customizable boards make it easy to see your pipeline at a glance. If you use Monday.com for projects, having CRM in the same tool reduces context switching.
+**Why choose Monday CRM:** The visual, customizable boards [make](/tools/make/) it easy to see your pipeline at a glance. If you use Monday.com for projects, having CRM in the same tool reduces context switching.
 
 **Missing vs HubSpot:** Limited email marketing, no landing pages, weaker automation than HubSpot Professional.
 
@@ -128,7 +128,7 @@ If HubSpot feels like overkill and you mainly need email marketing with basic CR
 
 Notion isn't a CRM, but many small teams use it as one by building custom databases for contacts, deals, and pipeline tracking. Combined with [Notion's free tier](/compare/notion-vs-hubspot), it costs nothing and adapts to exactly how your team works.
 
-**Why choose Notion:** Zero cost, ultimate flexibility, works well for teams with non-standard sales processes. Combine with a tool like Zapier for automation.
+**Why choose Notion:** Zero cost, ultimate flexibility, works well for teams with non-standard sales processes. Combine with a tool like [Zapier](/tools/zapier/) for automation.
 
 **Missing vs HubSpot:** No email tracking, no automation without integrations, no reporting, not built for sales workflows.
 
@@ -150,7 +150,7 @@ Notion isn't a CRM, but many small teams use it as one by building custom databa
 - **Email marketing is the priority →** ActiveCampaign
 - **Want everything HubSpot offers, at lower cost →** Zoho CRM
 - **Enterprise sales with complex requirements →** Salesforce
-- **Already use Monday.com →** Monday CRM
+- **Already use [Monday.com](/tools/monday/) →** Monday CRM
 - **Small business, just need email →** Mailchimp
 - **Tiny team, flexible workflow →** Notion
 

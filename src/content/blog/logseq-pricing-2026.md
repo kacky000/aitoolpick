@@ -5,7 +5,7 @@ pubDate: "2026-04-28"
 tags: ["logseq", "pricing", "note-taking", "open-source"]
 ---
 
-**Logseq** is one of the most generous note-taking tools on the market when it comes to pricing. The entire feature set is free for local use, with optional paid plans for cloud sync and supporting the project. But what exactly do you get at each tier, and how does it compare to Obsidian and Notion?
+**Logseq** is one of the most generous [note-taking](/category/note-taking/) tools on the market when it comes to pricing. The entire feature set is free for local use, with optional paid plans for cloud sync and supporting the project. But what exactly do you get at each tier, and how does it compare to Obsidian and Notion?
 
 This guide breaks down every Logseq pricing option in 2026, explains what you actually need to pay for, and helps you decide whether the paid plans are worth it.
 
@@ -52,7 +52,7 @@ Key details:
 - **Conflict resolution**: Handles simultaneous edits gracefully
 - **Storage included**: Sufficient for most knowledge bases (including images and assets)
 
-The encryption is the main selling point here. If you use iCloud or Dropbox for sync, your cloud provider can technically access your files. Logseq Sync ensures that only your devices can decrypt the data.
+The encryption is the main selling point here. If you use iCloud or [Dropbox](/tools/dropbox/) for sync, your cloud provider can technically access your files. Logseq Sync ensures that only your devices can decrypt the data.
 
 **Best for:** Users who work across multiple devices (laptop, phone, tablet) and want encrypted sync without technical setup.
 
@@ -74,7 +74,7 @@ This tier is not about getting more features long-term. Experimental features ev
 If you want cross-device access without paying for Logseq Sync, four options work well:
 
 - **iCloud (macOS/iOS):** Automatic sync between Apple devices. Does not work natively with Android or Windows, and occasional file conflicts can occur.
-- **Dropbox:** Cross-platform with 2 GB free storage, more than enough for text-based graphs. Risk of sync conflicts with simultaneous edits.
+- **[Dropbox](/tools/dropbox/):** Cross-platform with 2 GB free storage, more than enough for text-based graphs. Risk of sync conflicts with simultaneous edits.
 - **Git:** The most robust option for technical users. Full version history and conflict resolution, but not real-time and requires command-line comfort.
 - **Syncthing:** Free, open-source, peer-to-peer sync with no cloud server. Both devices must be online simultaneously.
 
@@ -82,13 +82,13 @@ If you want cross-device access without paying for Logseq Sync, four options wor
 
 ## Logseq vs Obsidian Pricing
 
-Obsidian is the most common comparison point for Logseq. Here is how pricing stacks up:
+[Obsidian](/tools/obsidian/) is the most common comparison point for Logseq. Here is how pricing stacks up:
 
-| Feature | Logseq | Obsidian |
+| Feature | Logseq | [Obsidian](/tools/obsidian/) |
 |---------|--------|----------|
 | Base app | Free | Free |
-| Cloud sync | ~$5/month | $4/month (Obsidian Sync) |
-| Publishing | Not available | $8/month (Obsidian Publish) |
+| Cloud sync | ~$5/month | $4/month ([Obsidian](/tools/obsidian/) Sync) |
+| Publishing | Not available | $8/month ([Obsidian](/tools/obsidian/) Publish) |
 | Commercial use | Free | $50/year per user |
 | Encryption | E2E (sync plan) | E2E (sync plan) |
 
@@ -96,16 +96,16 @@ Obsidian charges $50/user/year for commercial use (Logseq does not), and offers 
 
 ## Logseq vs Notion Pricing
 
-Notion takes a completely different approach to pricing:
+[Notion](/tools/notion/) takes a completely different approach to pricing:
 
-| Plan | Notion | Logseq Equivalent |
+| Plan | [Notion](/tools/notion/) | Logseq Equivalent |
 |------|--------|-------------------|
 | Free | $0 (limited blocks for guests) | $0 (unlimited, local) |
 | Plus | $10/month | ~$5/month (sync only) |
 | Business | $20/month | N/A |
 | Enterprise | Custom | N/A |
 
-Notion's free tier is limited for team use, while Logseq's is the full product. Notion is cloud-first with your data on their servers. At scale, Notion gets expensive fast (a 10-person team on Business pays $200/month), while Logseq has no per-seat pricing. If you prefer owning your data, Logseq is dramatically cheaper. If you need team collaboration features, Notion fills a gap Logseq does not cover.
+[Notion](/tools/notion/)'s free tier is limited for team use, while Logseq's is the full product. Notion is cloud-first with your data on their servers. At scale, Notion gets expensive fast (a 10-person team on Business pays $200/month), while Logseq has no per-seat pricing. If you prefer owning your data, Logseq is dramatically cheaper. If you need team collaboration features, Notion fills a gap Logseq does not cover.
 
 ## Who Should Pay for Logseq?
 
@@ -123,13 +123,13 @@ Notion's free tier is limited for team use, while Logseq's is the full product. 
 
 **Stay on Free if you:**
 - Use Logseq on a single device
-- Are comfortable with iCloud, Dropbox, Git, or Syncthing for sync
+- Are comfortable with iCloud, [Dropbox](/tools/dropbox/), Git, or Syncthing for sync
 - Are evaluating Logseq before committing
 - Prefer spending zero on note-taking tools
 
 ## The Bottom Line
 
-Logseq is one of the best deals in the note-taking space. The free tier is genuinely free with no feature restrictions, no usage caps, and no data lock-in. The $5/month sync plan is competitively priced against Obsidian Sync and far cheaper than Notion's paid tiers for individual use.
+Logseq is one of the best deals in the note-taking space. The free tier is genuinely free with no feature restrictions, no usage caps, and no data lock-in. The $5/month sync plan is competitively priced against Obsidian Sync and far cheaper than [Notion](/tools/notion/)'s paid tiers for individual use.
 
 The only scenario where Logseq pricing becomes a consideration is if you need cross-device sync and do not want to manage it yourself. Even then, $5/month for end-to-end encrypted sync is reasonable by any standard.
 

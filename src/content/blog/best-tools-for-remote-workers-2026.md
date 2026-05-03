@@ -16,7 +16,7 @@ Here are the best tools across every category remote workers need.
 
 ### Best Overall: [Slack](/tools/slack)
 **Price:** Free / $7.25/user/mo  
-Slack remains the gold standard for async team communication. Channels keep conversations organized, threads prevent noise, and Huddles let you jump into voice calls instantly.
+Slack remains the gold standard for async team communication. Channels keep conversations organized, threads prevent noise, and Huddles let you jump into voice calls [instantly](/tools/instantly/).
 
 ### Best for Microsoft Teams: [Microsoft Teams](/tools/microsoft-teams)
 **Price:** Free / $4/user/mo  
@@ -28,15 +28,15 @@ If your company uses Microsoft 365, Teams is the obvious choice. Video meetings 
 
 ### Best All-in-One: [Notion](/tools/notion)
 **Price:** Free / $10/user/mo  
-Notion combines tasks, docs, wikis, and databases in one workspace. Perfect for remote teams that want everything in one place instead of jumping between 5 tools.
+[Notion](/tools/notion/) combines tasks, docs, wikis, and databases in one workspace. Perfect for remote teams that want everything in one place instead of jumping between 5 tools.
 
 ### Best for Task Focus: [Asana](/tools/asana)
 **Price:** Free / $10.99/user/mo  
-Asana's clean interface and powerful automations make it ideal for teams that need structured workflows. Timeline view is excellent for project planning.
+[Asana](/tools/asana/)'s clean interface and powerful automations make it ideal for teams that need structured workflows. Timeline view is excellent for project planning.
 
 ### Best Budget Option: [ClickUp](/tools/clickup)
 **Price:** Free / $7/user/mo  
-ClickUp packs more features into its free and low-cost plans than any competitor. If budget matters, start here.
+[ClickUp](/tools/clickup/) packs more features into its free and low-cost plans than any competitor. If budget matters, start here.
 
 **Compare:** [Best Project Management Tools 2026](/blog/best-project-management-tools-2026)
 
@@ -54,7 +54,7 @@ No app download needed. 60-minute limit on free. If your team uses Google Worksp
 
 ### Best To-Do App: [Todoist](/tools/todoist)
 **Price:** Free / $4/user/mo  
-Natural language input ("Meeting prep every Monday at 9am") and cross-platform sync make Todoist the best standalone task manager for individuals.
+Natural language input ("Meeting prep every Monday at 9am") and cross-platform sync make [Todoist](/tools/todoist/) the best standalone task manager for individuals.
 
 ### Best Time Tracker: Toggl Track
 **Price:** Free / $9/user/mo  
@@ -68,11 +68,11 @@ The Pomodoro technique works. These apps gamify focused work sessions and help y
 
 ### Best for Teams: [Notion](/tools/notion)
 **Price:** Free / $10/user/mo  
-Team wikis, meeting notes, process docs — Notion handles it all. The template marketplace means you don't start from scratch.
+Team wikis, meeting notes, process docs — [Notion](/tools/notion/) handles it all. The template marketplace means you don't start from scratch.
 
 ### Best for Personal Notes: [Obsidian](/tools/obsidian)
 **Price:** Free  
-If you think in connections rather than folders, Obsidian's graph view and backlinks create a powerful personal knowledge base. Fully offline.
+If you think in connections rather than folders, [Obsidian](/tools/obsidian/)'s graph view and backlinks create a powerful personal knowledge base. Fully offline.
 
 **Compare:** [Notion vs Obsidian](/blog/notion-vs-obsidian-which-note-app)
 
@@ -90,7 +90,7 @@ Remote whiteboarding that actually works. Essential for brainstorming sessions, 
 
 ### Best for Beginners: [Zapier](/tools/zapier)
 **Price:** Free / $29.99/mo  
-Connect your apps without code. "When I get a Slack message with 📌, create a Todoist task" — that kind of magic.
+Connect your apps without code. "When I get a Slack message with 📌, create a [Todoist](/tools/todoist/) task" — that kind of magic.
 
 ### Best for Power Users: [Make](/tools/make)
 **Price:** Free / $10.59/mo  

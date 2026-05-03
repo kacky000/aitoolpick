@@ -1,0 +1,83 @@
+---
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.label,
+    ...(item.href ? { item: new URL(item.href, 'https://aitoolpick.org').toString() } : {}),
+  })),
+});
+---
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    {items.map((item, i) => (
+      <li>
+        {item.href && i < items.length - 1 ? (
+          <a href={item.href}>{item.label}</a>
+        ) : (
+          <span aria-current={i === items.length - 1 ? 'page' : undefined}>{item.label}</span>
+        )}
+        {i < items.length - 1 && <span class="separator">/</span>}
+      </li>
+    ))}
+  </ol>
+</nav>
+<script type="application/ld+json" set:html={jsonLd} />
+
+<style>
+  .breadcrumbs {
+    margin-bottom: 1.5rem;
+    font-size: 0.84rem;
+  }
+
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+
+  .breadcrumbs li {
+    display: flex;
+    align-items: center;
+    color: var(--gray-500);
+  }
+
+  .breadcrumbs a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--accent-dark);
+    text-decoration: underline;
+  }
+
+  .breadcrumbs span[aria-current="page"] {
+    color: var(--gray-700);
+    font-weight: 500;
+  }
+
+  .separator {
+    margin: 0 0.5rem;
+    color: var(--gray-400);
+  }
+</style>

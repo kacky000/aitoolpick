@@ -35,12 +35,12 @@ The free tier is surprisingly capable for basic team communication:
 - **300+ app integrations** from the marketplace
 - **5 GB cloud storage per user**
 
-For small teams that primarily need chat and occasional short video calls, the free plan works.
+For [small teams](/best-for/small-teams/) that primarily need chat and occasional short video calls, the free plan works.
 
 ## Where the Free Plan Falls Short
 
 ### Meeting Limitations
-The 60-minute meeting cap is the biggest restriction. Client calls, workshops, or team standups that run over an hour get cut off. Paid plans extend this to 30 hours — essentially unlimited.
+The 60-minute meeting cap is the biggest restriction. Client calls, workshops, or team standups that run over an hour get cut off. Paid plans extend this to 30 [hours](/tools/hours-tracker/) — essentially unlimited.
 
 ### No Meeting Recording
 You can't record meetings on the free plan. This is a dealbreaker for teams that need to share meeting notes or train new members with recorded sessions.

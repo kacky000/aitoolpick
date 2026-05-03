@@ -6,7 +6,7 @@ tags: ["linear", "startups", "project-management", "engineering", "how-to"]
 heroImage: "/thumbs/how-to-use-linear-for-startups-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Linear has become the go-to project management tool for startup engineering teams. It's fast, opinionated, and designed to get out of the way — which is exactly what a small team shipping quickly needs.
+[Linear](/tools/linear-app/) has become the go-to project management tool for startup engineering teams. It's fast, opinionated, and designed to get out of the way — which is exactly what a small team shipping quickly needs.
 
 This guide walks through setting up Linear from scratch and building a workflow that actually works.
 
@@ -14,7 +14,7 @@ This guide walks through setting up Linear from scratch and building a workflow 
 
 | Feature | Why It Matters for Startups |
 |---------|---------------------------|
-| **Speed** | Every action is near-instant — no Jira lag killing momentum |
+| **Speed** | Every action is near-instant — no [Jira](/tools/jira/) lag killing momentum |
 | **Keyboard shortcuts** | Power users live in the keyboard, not the mouse |
 | **Opinionated structure** | Less configuration = faster onboarding |
 | **Git integration** | Issues link to PRs and branches automatically |
@@ -30,7 +30,7 @@ When you first create a Linear workspace, you'll set up:
 Create one **Team** per product area or engineering function:
 - `Engineering` (or `Web`, `Mobile`, `Backend` if larger)
 - `Design` (if design tracks issues in Linear)
-- `Growth` or `Marketing` (optional — many prefer Notion or Linear separately)
+- `Growth` or `Marketing` (optional — many prefer [Notion](/tools/notion/) or Linear separately)
 
 For early-stage startups (< 10 engineers), **one team is usually enough**. Don't over-architect at the start.
 
@@ -67,7 +67,7 @@ A good Linear issue has:
 1. **Clear title** — what needs to be done, not vague ("Fix login bug" → "Fix 'Invalid token' error on Google OAuth login")
 2. **Context in description** — why this matters, what the expected behavior is
 3. **Acceptance criteria** — how do we know this is done? (use checkboxes)
-4. **Attachments** — screenshots, Loom videos, Figma links
+4. **Attachments** — screenshots, Loom videos, [Figma](/tools/figma/) links
 
 ### Use Templates
 
@@ -112,7 +112,7 @@ Linear's GitHub integration is one of its strongest features.
 
 1. Go to **Settings → Integrations → GitHub**
 2. Connect your GitHub organization
-3. Enable **auto-close issues** when PRs merge
+3. Enable **auto-[close](/tools/close/) issues** when PRs merge
 4. Enable **branch creation** from Linear issues
 
 Once connected:
@@ -121,7 +121,7 @@ Once connected:
 - When you open a PR, Linear links it to the issue and updates the status
 - When the PR merges, the issue moves to Done
 
-This eliminates the manual status updating that kills Jira workflows.
+This eliminates the manual status updating that kills [Jira](/tools/jira/) workflows.
 
 ## Step 5: Prioritization with Views
 
@@ -152,7 +152,7 @@ This gives founders and stakeholders a high-level view without exposing the spri
 
 ## Linear Keyboard Shortcuts Worth Memorizing
 
-| Shortcut | Action |
+| [Shortcut](/tools/shortcut/) | Action |
 |----------|--------|
 | `C` | Create new issue |
 | `G then I` | Go to My Issues |

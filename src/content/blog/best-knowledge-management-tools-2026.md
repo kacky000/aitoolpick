@@ -16,7 +16,7 @@ Here are the seven best knowledge management tools in 2026, with honest verdicts
 
 **Price:** Free (personal) / $10/user/mo (Plus) / $18/user/mo (Business)
 
-Notion combines docs, databases, wikis, and project management in a single workspace. Its database-driven approach means you can build a knowledge base where every article is a row in a database — filterable by team, status, topic, or any custom property. The AI features now summarize pages, answer questions about your workspace, and generate drafts.
+Notion combines docs, databases, wikis, and [project management](/category/project-management/) in a single workspace. Its database-driven approach means you can build a knowledge base where every article is a row in a database — filterable by team, status, topic, or any custom property. The AI features now summarize pages, answer questions about your workspace, and generate drafts.
 
 **Best for:** Teams that want their knowledge base, project management, and docs in one tool
 
@@ -44,11 +44,11 @@ See our [Obsidian review](/blog/obsidian-review-2026) for a detailed walkthrough
 
 **Price:** Free (up to 10 users) / $6.05/user/mo (Standard) / $11.55/user/mo (Premium)
 
-Confluence is the default wiki for companies using Atlassian products. Its tight integration with Jira means you can link documentation directly to tickets, sprints, and releases. The page tree structure is familiar to anyone who's used a traditional wiki, and spaces let you organize content by team or project.
+Confluence is the default wiki for companies using Atlassian products. Its tight integration with [Jira](/tools/jira/) means you can link documentation directly to tickets, sprints, and releases. The page tree structure is familiar to anyone who's used a traditional wiki, and spaces let you organize content by team or project.
 
-**Best for:** Enterprise teams already in the Atlassian ecosystem (Jira, Trello, Bitbucket)
+**Best for:** Enterprise teams already in the Atlassian ecosystem (Jira, [Trello](/tools/trello/), Bitbucket)
 
-**Key feature:** Jira integration embeds live issue data in documentation pages, keeping docs automatically up to date with development status.
+**Key feature:** [Jira](/tools/jira/) integration embeds live issue data in documentation pages, keeping docs automatically up to date with development status.
 
 **Pricing note:** The free plan supports up to 10 users with 2 GB storage — genuinely useful for small teams.
 
@@ -56,7 +56,7 @@ Confluence is the default wiki for companies using Atlassian products. Its tight
 
 **Price:** Free (up to 3 users) / $15/user/mo (Builder) / $25/user/mo (Enterprise)
 
-Guru is designed for one thing: making sure employees can find the right information at the right time. Its browser extension surfaces relevant knowledge cards while you work in Slack, email, or your CRM. Verification workflows ensure content stays accurate by prompting subject-matter experts to review cards on a schedule.
+Guru is designed for one thing: making sure employees can find the right information at the right time. Its browser extension surfaces relevant knowledge cards while you work in [Slack](/tools/slack/), email, or your CRM. Verification workflows ensure content stays accurate by prompting subject-matter experts to review cards on a schedule.
 
 **Best for:** Customer-facing teams (support, sales) that need instant access to accurate, up-to-date information
 
@@ -78,23 +78,23 @@ Slite strips away the complexity of Notion and Confluence. The editor is clean, 
 
 **Price:** Free (up to 10 users) / $8.33/user/mo (Scaling) / Custom (Professional)
 
-Tettra turns your team's frequently asked questions into a structured knowledge base. When someone asks a question in Slack, Tettra's bot suggests existing answers or routes unanswered questions to the right expert. Over time, this builds a Q&A-driven knowledge base organically.
+Tettra turns your team's frequently asked questions into a structured knowledge base. When someone asks a question in [Slack](/tools/slack/), Tettra's bot suggests existing answers or routes unanswered questions to the right expert. Over time, this builds a Q&A-driven knowledge base organically.
 
 **Best for:** Growing teams where the same questions keep getting asked across channels
 
-**Key feature:** Slack integration captures questions, suggests answers, and creates new knowledge base entries — all without leaving Slack.
+**Key feature:** [Slack](/tools/slack/) integration captures questions, suggests answers, and creates new knowledge base entries — all without leaving Slack.
 
-**Pricing note:** The free plan covers up to 10 users and includes Slack integration, making it a real option for small teams.
+**Pricing note:** The free plan covers up to 10 users and includes [Slack](/tools/slack/) integration, making it a real option for small teams.
 
 ## 7. GitBook — Best for Technical Documentation
 
 **Price:** Free (1 space, public only) / $8/user/mo (Plus) / $13.50/user/mo (Pro)
 
-GitBook is purpose-built for technical documentation. It syncs with GitHub repositories, supports Markdown and rich content, and publishes beautiful documentation sites. API reference pages, code blocks with syntax highlighting, and version control are first-class features.
+GitBook is purpose-built for technical documentation. It syncs with [GitHub](/tools/github/) repositories, supports Markdown and rich content, and publishes beautiful documentation sites. API reference pages, code blocks with syntax highlighting, and version control are first-class features.
 
 **Best for:** Developer teams that need to publish and maintain technical docs, API references, or developer portals
 
-**Key feature:** Git Sync keeps your docs in a GitHub repo, meaning documentation follows the same review and versioning workflow as your code.
+**Key feature:** Git Sync keeps your docs in a [GitHub](/tools/github/) repo, meaning documentation follows the same review and versioning workflow as your code.
 
 **Pricing note:** The free plan only allows public documentation. Private docs require the Plus plan.
 
@@ -116,13 +116,13 @@ If your team needs a shared knowledge base with collaboration features, **Notion
 
 ## Best for Personal Use
 
-**Obsidian** wins for personal knowledge management — no contest. Local files mean you own your data forever, the plugin ecosystem is unmatched, and the graph view rewards long-term note-taking. If you want something simpler, **Notion** personal (free) is a solid second choice.
+**Obsidian** wins for personal knowledge management — no contest. Local files mean you own your data forever, the plugin ecosystem is unmatched, and the graph view rewards long-term [note-taking](/category/note-taking/). If you want something simpler, **Notion** personal (free) is a solid second choice.
 
 Curious how these two compare head-to-head? Read our [Notion vs Obsidian comparison](/blog/notion-vs-obsidian-which-note-app) for a detailed breakdown.
 
 ## Best for Developers
 
-**GitBook** for external documentation (API docs, developer portals) and **Obsidian** for personal developer notes. If your team uses GitHub, GitBook's Git Sync is a game-changer — docs live alongside code.
+**GitBook** for external documentation (API docs, developer portals) and **Obsidian** for personal developer notes. If your team uses [GitHub](/tools/github/), GitBook's Git Sync is a game-changer — docs live alongside code.
 
 ## How to Choose
 

@@ -40,9 +40,9 @@ The entry-level paid plan removes the board limit and adds:
 - Visitor access (share boards with external people)
 - Custom templates
 - Voting and timer features
-- Basic integrations (Jira, Slack, etc.)
+- Basic integrations (Jira, [Slack](/tools/slack/), etc.)
 
-**Verdict:** Best value for small teams. If you run regular workshops or brainstorming sessions, the unlimited boards alone justify the cost.
+**Verdict:** Best value for [small teams](/best-for/small-teams/). If you run regular workshops or brainstorming sessions, the unlimited boards alone justify the cost.
 
 ### Business Plan ($16/user/mo annual)
 The Business plan is built for organizations that need governance:
@@ -92,16 +92,16 @@ At 100 users on Business, you're looking at nearly $20K/year — significant eno
 | Tool | Free Plan | Paid From | Best For |
 |------|-----------|-----------|----------|
 | Miro | 3 boards | $8/user/mo | Workshops & facilitation |
-| FigJam | 3 files | Free w/Figma | Design teams |
-| Whimsical | 3 boards | $10/user/mo | Wireframes & docs |
+| [FigJam](/tools/figjam/) | 3 files | Free w/Figma | Design teams |
+| [Whimsical](/tools/whimsical/) | 3 boards | $10/user/mo | Wireframes & docs |
 | Microsoft Whiteboard | Unlimited | Free w/M365 | Microsoft shops |
 | Lucidspark | 3 boards | $7.95/user/mo | Visual brainstorming |
 
 ## Is Miro Worth the Price?
 
-**Yes, if** your team regularly runs workshops, brainstorming sessions, or visual planning exercises. Miro's facilitation tools (voting, timers, templates) are unmatched and save hours of meeting time.
+**Yes, if** your team regularly runs workshops, brainstorming sessions, or visual planning exercises. Miro's facilitation tools (voting, timers, templates) are unmatched and save [hours](/tools/hours-tracker/) of meeting time.
 
-**Consider alternatives if** you only need occasional whiteboarding, your team already uses Figma (FigJam is included), or per-user pricing doesn't fit your budget.
+**Consider alternatives if** you only need occasional whiteboarding, your team already uses [Figma](/tools/figma/) (FigJam is included), or per-user pricing doesn't fit your budget.
 
 **Compare all whiteboard tools →** [Best whiteboard tools for teams in 2026](/blog/best-whiteboard-tools-2026)
 

@@ -11,28 +11,28 @@ Miro is the leading online whiteboard, but its free plan limits you to 3 boards,
 ## Top Miro Alternatives
 
 ### 1. FigJam — Best for Design Teams
-FigJam is Figma's whiteboard tool, built directly into the Figma ecosystem. If your team already uses Figma for design, FigJam provides seamless brainstorming alongside your design files.
+FigJam is [Figma](/tools/figma/)'s whiteboard tool, built directly into the Figma ecosystem. If your team already uses Figma for design, FigJam provides seamless brainstorming alongside your design files.
 
-- **Price:** Free (unlimited FigJam files) / Included with Figma ($15/editor/mo)
-- **Best for:** Design teams already using Figma
+- **Price:** Free (unlimited FigJam files) / Included with [Figma](/tools/figma/) ($15/editor/mo)
+- **Best for:** Design teams already using [Figma](/tools/figma/)
 - **vs Miro:** More focused, less feature-heavy, free for unlimited boards
 
 ### 2. Excalidraw — Best Free Open-Source Option
 Excalidraw is a free, open-source whiteboard with a hand-drawn aesthetic. No account required — just open the site and start drawing. Perfect for quick diagrams, architecture sketches, and informal brainstorming.
 
 - **Price:** Free (open source) / Excalidraw+ at $7/user/mo for teams
-- **Best for:** Developers, architects, quick sketches
+- **Best for:** [Developers](/best-for/developers/), architects, quick sketches
 - **vs Miro:** Simpler, faster, no learning curve, completely free
 
 ### 3. Canva Whiteboard — Best for Non-Designers
-Canva added a whiteboard feature that combines its massive template library with collaborative canvas functionality. It's easier to make things look polished without design skills.
+Canva added a whiteboard feature that combines its massive template library with collaborative canvas functionality. It's easier to [make](/tools/make/) things look polished without design skills.
 
 - **Price:** Free / $15/user/mo (Canva Pro)
 - **Best for:** Marketing teams, presentations, polished outputs
 - **vs Miro:** Better templates, easier to create presentation-ready boards
 
 ### 4. ClickUp Whiteboards — Best Built-in Option
-If you already use ClickUp for project management, its built-in Whiteboards connect directly to tasks, docs, and goals. No extra subscription needed.
+If you already use ClickUp for [project management](/category/project-management/), its built-in Whiteboards connect directly to tasks, docs, and goals. No extra subscription needed.
 
 - **Price:** Included with ClickUp ($7/user/mo Unlimited)
 - **Best for:** ClickUp users who need occasional whiteboarding
@@ -49,7 +49,7 @@ Lucidchart is more structured than Miro — it's built for flowcharts, org chart
 Microsoft Whiteboard is included with Microsoft 365 and integrates directly into Teams meetings. It's basic but functional, and the price (free with your existing subscription) is hard to beat.
 
 - **Price:** Free (standalone) / Included with Microsoft 365
-- **Best for:** Organizations already using Microsoft Teams
+- **Best for:** Organizations already using [Microsoft Teams](/tools/microsoft-teams/)
 - **vs Miro:** Much simpler, fewer features, but free for M365 subscribers
 
 ### 7. tldraw — Best for Developers
@@ -73,7 +73,7 @@ tldraw is an open-source, developer-friendly whiteboard that can be embedded in 
 
 ## How to Choose
 
-- **Design team using Figma?** FigJam is the natural choice
+- **Design team using [Figma](/tools/figma/)?** FigJam is the natural choice
 - **Just need quick sketches?** Excalidraw — free, no signup, instant
 - **Want polished outputs?** Canva Whiteboard has the best templates
 - **Already on ClickUp?** Use the built-in Whiteboards

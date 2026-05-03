@@ -16,7 +16,7 @@ Whether you need a cheaper option, more technical flexibility, or self-hosted co
 
 **Price:** Free / Core $10.59/mo / Pro $18.82/mo
 
-Make is the most direct Zapier competitor and often the first tool people switch to. Its visual scenario builder lets you design complex automations with branching logic, loops, and error handling — capabilities that require workarounds in Zapier.
+Make is the most direct Zapier competitor and often the first tool people switch to. Its visual scenario builder lets you design complex automations with branching logic, [loops](/tools/loops/), and error handling — capabilities that require workarounds in Zapier.
 
 **Best for:** Teams that need complex, multi-step automations at a lower cost
 
@@ -41,7 +41,7 @@ Make is the most direct Zapier competitor and often the first tool people switch
 
 n8n is an open-source workflow automation tool that you can host on your own servers — a massive advantage for teams with strict data privacy requirements. The visual editor is similar to Make, with a node-based workflow builder.
 
-**Best for:** Developers and privacy-conscious teams who want full control
+**Best for:** [Developers](/best-for/developers/) and privacy-conscious teams who want full control
 
 **Pros:**
 - Free forever when self-hosted
@@ -71,7 +71,7 @@ Pipedream is a code-first automation platform designed for developers. You can w
 - Generous free tier with 100 daily credits
 - Built-in key-value store and SQL database
 - Event-driven architecture with real-time webhooks
-- Excellent GitHub and developer tool integrations
+- Excellent [GitHub](/tools/github/) and developer tool integrations
 
 **Cons:**
 - Not suitable for non-technical users

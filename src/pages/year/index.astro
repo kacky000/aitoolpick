@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+const yearMap = new Map<number, number>();
+for (const tool of tools) {
+  if (tool.yearFounded && tool.yearFounded >= 2000) {
+    yearMap.set(tool.yearFounded, (yearMap.get(tool.yearFounded) || 0) + 1);
+  }
+}
+
+const years = Array.from(yearMap.entries())
+  .filter(([, count]) => count >= 2)
+  .sort((a, b) => b[0] - a[0]);
+
+const pageTitle = `Tools by Year Founded — Browse ${tools.length} Tools by Launch Year | AIToolPick`;
+const pageDescription = `Explore software tools by the year they were founded. From industry veterans to cutting-edge startups, find the perfect tool for your needs.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'By Year' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Tools by Year Founded</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        Browse {tools.length} tools organized by launch year. See how the software landscape has evolved.
+      </p>
+
+      <div class="year-timeline">
+        {years.map(([year, count]) => (
+          <a href={`/year/${year}/`} class="year-block">
+            <span class="year-num">{year}</span>
+            <div class="year-bar" style={`width: ${Math.min(100, (count / Math.max(...years.map(y => y[1]))) * 100)}%`}></div>
+            <span class="year-count">{count} tools</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .year-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .year-block {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s;
+  }
+
+  .year-block:hover {
+    border-color: var(--primary);
+  }
+
+  .year-num {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--primary-dark);
+    min-width: 50px;
+  }
+
+  .year-bar {
+    height: 8px;
+    background: var(--primary);
+    border-radius: 4px;
+    min-width: 10px;
+    flex: 1;
+    max-width: 300px;
+  }
+
+  .year-count {
+    font-size: 0.82rem;
+    color: var(--gray-500);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+</style>

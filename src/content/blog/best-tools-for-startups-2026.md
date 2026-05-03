@@ -18,7 +18,7 @@ This guide covers the essential startup toolkit — from day-one project managem
 
 ### 1. Linear — Best for Engineering-Heavy Startups
 
-Linear has become the default project management tool for serious software startups. It's fast, opinionated, and built specifically for engineering teams. Issues sync automatically with GitHub pull requests, sprints are built in, and the keyboard-first interface means developers rarely need to leave their workflow to update a ticket.
+Linear has become the default project management tool for serious software startups. It's fast, opinionated, and built specifically for engineering teams. Issues sync automatically with [GitHub](/tools/github/) pull requests, sprints are built in, and the keyboard-first interface means developers rarely need to leave their workflow to update a ticket.
 
 **Why it suits startups**: Linear is free for up to 250 issues, which is plenty for an early-stage team. The UX is clean enough that engineers actually update it — which is half the battle.
 
@@ -32,7 +32,7 @@ Linear has become the default project management tool for serious software start
 
 ### 2. ClickUp — Best for Non-Technical Startup Teams
 
-ClickUp is a flexible all-in-one workspace that handles tasks, docs, goals, and time tracking in one platform. It's more powerful than Trello and more accessible than Linear for teams without a strong engineering focus. The free tier is exceptionally generous — unlimited tasks and 100MB storage.
+ClickUp is a flexible all-in-one workspace that handles tasks, docs, goals, and time tracking in one platform. It's more powerful than [Trello](/tools/trello/) and more accessible than Linear for teams without a strong engineering focus. The free tier is exceptionally generous — unlimited tasks and 100MB storage.
 
 **Why it suits startups**: The flexibility means you can configure ClickUp to match your process rather than fitting your process to the tool. Marketing, sales, and ops teams find it easier to adopt than Linear.
 
@@ -50,7 +50,7 @@ ClickUp is a flexible all-in-one workspace that handles tasks, docs, goals, and 
 
 Slack remains the communication backbone for most startups in 2026. Channels keep conversations organized by topic, the search is powerful, and the integration library connects Slack to virtually every other tool in your stack. The free tier is functional for small teams, though message history is limited to 90 days.
 
-**Why it suits startups**: Slack's async-friendly format reduces the need for status update meetings. You can integrate it with Linear, Notion, GitHub, and Zapier — so your tools talk to each other through Slack channels.
+**Why it suits startups**: Slack's async-friendly format reduces the need for status update meetings. You can integrate it with Linear, [Notion](/tools/notion/), GitHub, and Zapier — so your tools talk to each other through Slack channels.
 
 **Free tier**: 90-day message history, 10 integrations
 
@@ -74,7 +74,7 @@ Every startup needs a shared brain — a place where processes, meeting notes, p
 
 **Pricing**: Free / $10/user/month for Plus / $15/user/month for Business
 
-**Standout feature**: Notion AI can generate first drafts of SOPs, meeting summaries, and product specs — cutting the time it takes to keep your wiki up to date.
+**Standout feature**: [Notion AI](/tools/notion-ai/) can generate first drafts of SOPs, meeting summaries, and product specs — cutting the time it takes to keep your wiki up to date.
 
 ---
 
@@ -86,7 +86,7 @@ Figma is non-negotiable if you're building a digital product. It's where your de
 
 **Why it suits startups**: The Starter plan is free for up to 3 projects and unlimited collaborators (in view/comment mode). Most seed-stage startups can run entirely on the free plan.
 
-**Free tier**: 3 Figma files, 3 FigJam files, unlimited collaborators
+**Free tier**: 3 Figma files, 3 [FigJam](/tools/figjam/) files, unlimited collaborators
 
 **Pricing**: Free / $15/editor/month for Professional / $45/editor/month for Organization
 
@@ -96,11 +96,11 @@ Figma is non-negotiable if you're building a digital product. It's where your de
 
 ### 6. Canva — Best for Marketing and Brand Assets
 
-Figma is for product design; Canva is for everything else. Pitch decks, social media graphics, blog header images, email banners — Canva's drag-and-drop interface lets non-designers produce professional-looking assets in minutes. The Brand Kit feature keeps your colors, fonts, and logos consistent across everything.
+Figma is for product design; Canva is for everything else. [Pitch](/tools/pitch/) decks, social media graphics, blog header images, email banners — Canva's drag-and-drop interface lets non-designers produce professional-looking assets in minutes. The Brand Kit feature keeps your colors, fonts, and logos consistent across everything.
 
-**Why it suits startups**: The free tier is surprisingly capable. Upgrade to Pro ($15/month) when you need the Brand Kit, background removal, and Magic Resize for resizing designs across platforms.
+**Why it suits startups**: The free tier is surprisingly capable. Upgrade to Pro ($15/month) when you need the Brand [Kit](/tools/kit/), background removal, and Magic Resize for resizing designs across platforms.
 
-**Free tier**: 1 Brand Kit (limited), 5GB cloud storage, access to thousands of templates
+**Free tier**: 1 Brand [Kit](/tools/kit/) (limited), 5GB cloud storage, access to thousands of templates
 
 **Pricing**: Free / $15/month for Canva Pro (up to 5 people)
 
@@ -110,9 +110,9 @@ Figma is for product design; Canva is for everything else. Pitch decks, social m
 
 ### 7. Zapier — Best for Connecting Your Tool Stack
 
-Every hour your team spends on repetitive data entry is an hour not spent building. Zapier connects your tools so information flows automatically — a new Stripe payment creates a Notion record, a Slack message triggers a Linear ticket, a form submission adds a row to Google Sheets. The AI-assisted workflow builder makes it faster than ever to set up these automations without code.
+Every hour your team spends on repetitive data entry is an hour not spent building. [Zapier](/tools/zapier/) connects your tools so information flows automatically — a new Stripe payment creates a Notion record, a Slack message triggers a Linear ticket, a form submission adds a row to Google Sheets. The AI-assisted workflow builder makes it faster than ever to set up these automations without code.
 
-**Why it suits startups**: Early-stage startups are building process from scratch. Zapier lets you automate before you have the engineering bandwidth to build internal tools.
+**Why it suits startups**: Early-stage startups are building process from scratch. [Zapier](/tools/zapier/) lets you automate before you have the engineering bandwidth to build internal tools.
 
 **Free tier**: 100 tasks/month, 5 Zaps, single-step automations
 
@@ -124,9 +124,9 @@ Every hour your team spends on repetitive data entry is an hour not spent buildi
 
 ### 8. Make — Best for Complex Automation at Lower Cost
 
-Make (formerly Integromat) handles more complex automation logic than Zapier at a significantly lower price point. Where Zapier excels at simple linear automations, Make lets you build branching workflows with conditional logic, data transformation, and API calls — all in a visual canvas.
+[Make](/tools/make/) (formerly Integromat) handles more complex automation logic than Zapier at a significantly lower price point. Where Zapier excels at simple linear automations, Make lets you build branching workflows with conditional logic, data transformation, and API calls — all in a visual canvas.
 
-**Why it suits startups**: If you need sophisticated automation and have a technical co-founder, Make can replace workflows that would otherwise require custom code. The free tier gives you 1,000 operations per month.
+**Why it suits startups**: If you need sophisticated automation and have a technical co-founder, [Make](/tools/make/) can replace workflows that would otherwise require custom code. The free tier gives you 1,000 operations per month.
 
 **Free tier**: 1,000 operations/month, unlimited scenarios (inactive), 2 active scenarios
 
@@ -150,7 +150,7 @@ ChatGPT is the Swiss Army knife of AI tools. In 2026, GPT-4o handles writing, co
 
 ### 10. Claude — Best for Long Documents and Complex Analysis
 
-Claude complements ChatGPT rather than replacing it. Its 200K token context window lets you upload entire codebases, legal documents, or research reports and get intelligent analysis in return. For tasks that require careful reasoning and nuanced output — fundraising memos, technical specs, investor updates — Claude often outperforms ChatGPT.
+Claude complements ChatGPT rather than replacing it. Its 200K token context window lets you upload entire codebases, legal documents, or research reports and get intelligent analysis in return. For tasks that require careful reasoning and nuanced output — fundraising [memos](/tools/memos/), technical specs, investor updates — Claude often outperforms ChatGPT.
 
 **Why it suits startups**: Investor communications, technical documentation, and compliance-related writing require careful, precise output. Claude's reasoning capabilities are particularly strong here.
 
@@ -166,7 +166,7 @@ Claude complements ChatGPT rather than replacing it. Its 200K token context wind
 |-------|----------------|------------------------------|
 | Pre-seed | Linear (free), Notion (free), Slack (free), Figma (free), ChatGPT (free) | $0 |
 | Seed | Linear Standard + Notion Plus + Slack Pro + Figma Pro + ChatGPT Plus | ~$350/month |
-| Series A | Add Zapier Starter + Make Core + Canva Pro | ~$400/month |
+| Series A | Add [Zapier](/tools/zapier/) Starter + Make Core + Canva Pro | ~$400/month |
 
 Start with the free tiers. They're not crippled versions — they're genuinely useful for teams under 10. Upgrade when you hit specific pain points, not because you think you should.
 

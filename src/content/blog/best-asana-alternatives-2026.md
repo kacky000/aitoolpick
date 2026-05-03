@@ -35,7 +35,7 @@ Monday.com shines with its colorful, visual interface and powerful automations. 
 **Why choose Monday over Asana:**
 - More intuitive visual interface
 - Built-in CRM capabilities
-- Better automations out of the box
+- Better automations out of the [box](/tools/box/)
 
 **Where Asana wins:** Better portfolio management and goals tracking.
 

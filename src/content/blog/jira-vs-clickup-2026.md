@@ -22,16 +22,16 @@ If you're choosing between them, this guide breaks down exactly when each one wi
 | **Paid from** | $7.75/user/month | $7/user/month |
 | **Agile support** | Excellent (native) | Good (with setup) |
 | **Non-technical users** | Difficult | Manageable |
-| **Docs feature** | Confluence (separate) | Built-in |
+| **Docs feature** | [Confluence](/tools/confluence/) (separate) | Built-in |
 | **Customization** | Deep but complex | Deep and accessible |
 
 ## What Is Jira?
 
-Jira is Atlassian's purpose-built issue tracking and project management tool for software teams. It's the industry standard for Scrum and Kanban workflows, with native support for sprints, backlog grooming, burndown charts, and JQL queries.
+Jira is Atlassian's purpose-built issue tracking and [project management](/category/project-management/) tool for software teams. It's the industry standard for Scrum and Kanban workflows, with native support for sprints, backlog grooming, burndown charts, and JQL queries.
 
 **Jira is ideal for:**
 - Engineering and QA teams running Agile sprints
-- Organizations using Atlassian's ecosystem (Confluence, Bitbucket, PagerDuty)
+- Organizations using Atlassian's ecosystem (Confluence, [Bitbucket](/tools/bitbucket/), PagerDuty)
 - Teams that need detailed velocity and burndown reporting
 - DevOps pipelines with CI/CD integrations
 
@@ -81,8 +81,8 @@ Jira's power comes with steep complexity. Custom issue types, workflow schemes, 
 
 | Category | Jira | ClickUp |
 |----------|------|---------|
-| Dev tools | GitHub, GitLab, Bitbucket, Sentry, PagerDuty | GitHub, GitLab, Sentry |
-| Communication | Slack, Microsoft Teams | Slack, Teams, Email |
+| Dev tools | [GitHub](/tools/github/), GitLab, Bitbucket, Sentry, PagerDuty | GitHub, GitLab, Sentry |
+| Communication | Slack, [Microsoft Teams](/tools/microsoft-teams/) | Slack, Teams, Email |
 | AI features | Atlassian Intelligence | ClickUp AI |
 | Automation | Advanced (JQL-based) | Built-in, no-code |
 
@@ -105,7 +105,7 @@ Pick Jira if your team:
 - Is primarily engineers practicing Scrum or Kanban
 - Needs native sprint planning, velocity tracking, and burndown reports
 - Already uses Confluence, Bitbucket, or Atlassian ecosystem tools
-- Requires deep integration with GitHub/GitLab for issue-to-commit linking
+- Requires deep integration with [GitHub](/tools/github/)/GitLab for issue-to-commit linking
 - Values compliance and enterprise-grade security controls
 
 ## Who Should Choose ClickUp?
@@ -115,7 +115,7 @@ Pick ClickUp if your team:
 - Wants docs, tasks, and whiteboards without paying for separate tools
 - Needs extensive view types beyond Agile (Gantt, Workload, Mind Map)
 - Is a startup or small business optimizing for value
-- Wants AI features built into task management
+- Wants AI features built into [task management](/category/task-management/)
 
 ## Alternatives Worth Considering
 
@@ -129,9 +129,9 @@ Pick ClickUp if your team:
 |----------------|------------|
 | Pure software engineering team | **Jira** |
 | Startup wearing many hats | **ClickUp** |
-| Agile dev team that hates Jira's UI | **Linear** |
-| Mixed team, minimal setup | **Asana or Monday.com** |
-| Need docs + tasks in one place | **ClickUp or Notion** |
+| Agile dev team that hates Jira's UI | **[Linear](/tools/linear/)** |
+| Mixed team, minimal setup | **Asana or [Monday.com](/tools/monday/)** |
+| Need docs + tasks in one place | **ClickUp or [Notion](/tools/notion/)** |
 
 Jira wins for engineering discipline. ClickUp wins for versatility. Choose based on whether your team lives in sprints or needs a workspace that covers every type of work.
 

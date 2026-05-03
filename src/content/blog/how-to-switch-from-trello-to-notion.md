@@ -10,18 +10,18 @@ Switching from Trello to Notion is one of the most common tool migrations in 202
 
 ## Why People Switch from Trello to Notion
 
-Before diving into the how, here's why teams make the move:
+Before diving into the how, here's why teams [make](/tools/make/) the move:
 
-- **All-in-one workspace** — Notion replaces Trello, Google Docs, and wikis
+- **All-in-one workspace** — Notion replaces Trello, [Google Docs](/tools/google-docs/), and wikis
 - **Database power** — views, filters, rollups, and relations go far beyond Trello cards
 - **Better documentation** — rich pages with nested content vs. Trello's limited card descriptions
-- **Cost** — Notion's free plan is more generous for small teams
+- **Cost** — Notion's free plan is more generous for [small teams](/best-for/small-teams/)
 - **Custom views** — switch between board, table, list, calendar, gallery, and timeline
 
 ## Before You Start: Preparation Checklist
 
 - [ ] **Audit your Trello boards** — which ones are active vs. archived?
-- [ ] **Identify your workflow** — are you using Trello for task management, CRM, content planning, or something else?
+- [ ] **Identify your workflow** — are you using Trello for [task management](/category/task-management/), CRM, content planning, or something else?
 - [ ] **Map your labels and tags** — list all Trello labels you want to preserve
 - [ ] **Export attachments** — download any critical files attached to cards
 - [ ] **Notify your team** — set a migration date and communicate the plan
@@ -115,7 +115,7 @@ For teams with fewer than 100 active cards, manual migration produces cleaner re
 Trello's Butler automations need to be recreated in Notion:
 
 - **Due date reminders** → Use Notion's built-in reminders (@mentions with dates)
-- **Card moving rules** → Use Notion's database automations or Zapier
+- **Card moving rules** → Use Notion's database automations or [Zapier](/tools/zapier/)
 - **Recurring tasks** → Use Notion's recurring templates or database templates
 
 ### Templates
@@ -156,20 +156,20 @@ The biggest migration risk isn't technical — it's adoption. Help your team adj
 | Due dates | Date property |
 | Card descriptions | Page content |
 | Power-Ups | Integrations + native features |
-| Butler automations | Database automations + Zapier |
+| Butler automations | Database automations + [Zapier](/tools/zapier/) |
 
 For more on Notion's capabilities, read our [Notion vs ClickUp comparison](/blog/notion-vs-clickup-which-is-better) or check out [Notion pricing in 2026](/blog/notion-pricing-2026).
 
 ## The Verdict
 
-Migrating from Trello to Notion takes 1-3 hours for a single board and up to a week for a full team migration. The investment pays off with a more flexible, powerful workspace that grows with your needs.
+Migrating from Trello to Notion takes 1-3 [hours](/tools/hours-tracker/) for a single board and up to a week for a full team migration. The investment pays off with a more flexible, powerful workspace that grows with your needs.
 
 Start with one board, prove the workflow, then expand. Most teams never look back.
 
 ## FAQ
 
 ### Can I use Trello and Notion together?
-Yes. Many teams use Trello for simple task boards and Notion for documentation. Zapier can sync data between them.
+Yes. Many teams use Trello for simple task boards and Notion for documentation. [Zapier](/tools/zapier/) can sync data between them.
 
 ### Will I lose any data during migration?
 Trello comments and attachments may not import perfectly. Export important attachments before migrating.

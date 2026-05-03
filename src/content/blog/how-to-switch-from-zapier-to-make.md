@@ -18,7 +18,7 @@ For a direct comparison, see our [Zapier vs Make pricing breakdown](/blog/make-v
 
 ### Visual Workflow Builder
 
-Zapier uses a linear, step-by-step editor. Make uses a **visual canvas** where modules connect visually, making it easier to understand complex workflows, debug issues, and build branching logic. For anyone who thinks visually, this is a significant quality-of-life improvement.
+Zapier uses a [linear](/tools/linear/), step-by-step editor. Make uses a **visual canvas** where modules connect visually, making it easier to understand complex workflows, debug issues, and build branching logic. For anyone who thinks visually, this is a significant quality-of-life improvement.
 
 ### Flexibility and Advanced Features
 
@@ -132,7 +132,7 @@ For a detailed pricing breakdown, see our [Zapier pricing guide](/blog/zapier-pr
 
 ## Is the Migration Worth It?
 
-For teams running more than a handful of automations, the migration is typically worth the 4–8 hours of setup time. The combination of lower costs, a more powerful workflow engine, and better error handling makes Make the stronger long-term platform for complex automation needs.
+For teams running more than a handful of automations, the migration is typically worth the 4–8 [hours](/tools/hours-tracker/) of setup time. The combination of lower costs, a more powerful workflow engine, and better error handling makes Make the stronger long-term platform for complex automation needs.
 
 If your needs are simple (a few low-volume Zaps), the friction of migration may not be worth it. But if automation is core to your operations, Make offers meaningfully more capability per dollar.
 

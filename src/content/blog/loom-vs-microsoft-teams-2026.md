@@ -32,7 +32,7 @@ They occupy different communication modes. Teams is for real-time; Loom is for e
 ## Loom: What It Covers
 
 - **Screen + webcam recording** — no meeting required, no scheduling
-- **Instant sharing** via link — works across any platform (Teams, Slack, email, Notion)
+- **Instant sharing** via link — works across any platform (Teams, Slack, email, [Notion](/tools/notion/))
 - **Viewer reactions and comments** at specific timestamps
 - **Auto-transcription** and search across your video library
 - **Custom CTAs** — embed buttons inside videos to drive actions
@@ -58,7 +58,7 @@ The main case for Loom inside a Teams-heavy organization is **reducing synchrono
 - A manager needs to give feedback on a presentation → Loom comments vs scheduling a feedback session
 - A customer success rep needs to walk a client through new features → Loom video vs screen-share meeting
 
-Research consistently shows that knowledge workers spend 40-60% of their week in meetings. Async video tools like Loom can reclaim meaningful hours by replacing meetings that do not require real-time interaction.
+Research consistently shows that knowledge workers spend 40-60% of their week in meetings. Async video tools like Loom can reclaim meaningful [hours](/tools/hours-tracker/) by replacing meetings that do not require real-time interaction.
 
 ## Where Teams Wins
 
@@ -86,7 +86,7 @@ Loom videos can be shared directly in Teams chat, embedded in SharePoint pages, 
 |----------|---------------|
 | Enterprise on Microsoft 365 | Teams (already have it) |
 | Reducing meeting count | Add Loom |
-| Remote-first startup | Loom + Slack (lighter stack) |
+| Remote-first startup | Loom + [Slack](/tools/slack/) (lighter stack) |
 | Government or regulated industry | Teams only |
 | Customer-facing async communication | Loom |
 | Live training for 500+ people | Teams |

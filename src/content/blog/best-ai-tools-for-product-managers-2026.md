@@ -20,7 +20,7 @@ Writing product requirements documents is one of the most time-consuming parts o
 
 First, Claude's writing is cleaner and less "AI-sounding" than most alternatives. PRDs written with Claude assistance require less editing.
 
-Second, Claude can hold an entire product context in memory during a conversation — upload your existing specs, user research notes, and competitive analysis, then write a new PRD that's informed by all of it. For complex products, this saves hours.
+Second, Claude can hold an entire product context in memory during a conversation — upload your existing specs, user research notes, and competitive analysis, then write a new PRD that's informed by all of it. For complex products, this saves [hours](/tools/hours-tracker/).
 
 **Specific PM use cases:**
 - Write first drafts of PRDs from bullet-point outlines
@@ -35,7 +35,7 @@ Second, Claude can hold an entire product context in memory during a conversatio
 
 **Price**: Free / $20/month (Plus)
 
-ChatGPT's breadth of training data makes it useful for market research and competitive analysis. PMs use it for:
+[ChatGPT](/tools/chatgpt/)'s breadth of training data makes it useful for market research and competitive analysis. PMs use it for:
 
 - Getting a quick overview of a competitor's product and positioning
 - Understanding industry trends before strategy sessions
@@ -43,7 +43,7 @@ ChatGPT's breadth of training data makes it useful for market research and compe
 - Creating interview guides and survey questions
 - Analyzing App Store reviews in bulk (paste reviews, ask for theme summaries)
 
-ChatGPT with web browsing (Plus) can pull recent product announcements, reviews, and news — useful for competitive intelligence ahead of planning cycles.
+[ChatGPT](/tools/chatgpt/) with web browsing (Plus) can pull recent product announcements, reviews, and news — useful for competitive intelligence ahead of planning cycles.
 
 → [ChatGPT review 2026](/blog/chatgpt-review-2026/) | [Best ChatGPT alternatives](/blog/best-chatgpt-alternatives-2026/)
 
@@ -88,7 +88,7 @@ Linear isn't an AI product primarily, but it's the best issue tracker for produc
 - Suggest similar existing issues to avoid duplicates
 - Generate cycle summaries for standups and stakeholder updates
 
-More importantly, Linear's speed and clean interface reduces the friction of PM-engineering collaboration. PMs who use it report fewer "where are we on this?" Slack messages.
+More importantly, Linear's speed and clean interface reduces the friction of PM-engineering collaboration. PMs who use it report fewer "where are we on this?" [Slack](/tools/slack/) messages.
 
 → [Linear review](/blog/best-linear-alternatives-2026/) | [ClickUp vs Linear](/blog/clickup-vs-jira-2026/)
 
@@ -96,7 +96,7 @@ More importantly, Linear's speed and clean interface reduces the friction of PM-
 
 **Price**: Free / $12/month (Pro)
 
-PMs write constantly — stakeholder emails, executive summaries, Slack messages to engineering, support escalations. Grammarly catches the small errors that undermine credibility:
+PMs write constantly — stakeholder emails, executive summaries, [Slack](/tools/slack/) messages to engineering, support escalations. Grammarly catches the small errors that undermine credibility:
 
 - Tone suggestions (this sounds too aggressive for an exec email)
 - Clarity rewrites (this sentence is too long/complex)
@@ -116,8 +116,8 @@ You don't need all six of these. A practical starting PM AI stack:
 - Notion AI if already in Notion — included
 
 **PM at a larger company**:
-- Claude or ChatGPT for writing
-- Notion AI or Confluence AI (if using Atlassian)
+- Claude or [ChatGPT](/tools/chatgpt/) for writing
+- Notion AI or [Confluence](/tools/confluence/) AI (if using Atlassian)
 - Linear for engineering handoff
 - Grammarly for stakeholder communication
 

@@ -19,7 +19,7 @@ The most common reasons teams move from Monday.com to Notion:
 - **Cost**: Monday.com requires a minimum of 3 seats and gets expensive quickly. Notion's free plan is generous for small teams.
 - **Documentation**: Monday.com lacks built-in docs and wikis. Notion combines project management with knowledge management.
 - **Flexibility**: Monday.com's board structure is powerful but rigid. Notion's databases can model almost any workflow.
-- **All-in-one**: Instead of Monday.com + Google Docs + Confluence, teams use Notion for everything.
+- **All-in-one**: Instead of Monday.com + [Google Docs](/tools/google-docs/) + Confluence, teams use Notion for everything.
 
 ### What You'll Lose
 
@@ -49,7 +49,7 @@ Before exporting anything, document what you're working with:
 3. Select "Export board to Excel"
 4. Repeat for each board you need to migrate
 
-Save all exports in a folder — you'll reference them when building Notion databases.
+Save all exports in a folder — you'll reference them when building [Notion databases](/tools/notion-database/).
 
 ## Step 2: Design Your Notion Workspace
 
@@ -79,7 +79,7 @@ Don't try to recreate Monday.com in Notion. Instead, design a structure that lev
 | Column | Database property |
 | Update | Comment or page content |
 | Dashboard | Linked database views on a page |
-| Automation | Notion automations (limited) or Zapier |
+| Automation | Notion automations (limited) or [Zapier](/tools/zapier/) |
 
 ## Step 3: Build Your Databases
 
@@ -127,7 +127,7 @@ After your team is comfortable (usually 2-4 weeks):
 1. Archive or cancel your Monday.com subscription
 2. Download a final export for records
 3. Remove any integrations pointing to Monday.com
-4. Update your Zapier/Make automations to use Notion
+4. Update your [Zapier](/tools/zapier/)/Make automations to use Notion
 
 ## Common Mistakes to Avoid
 

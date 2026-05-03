@@ -6,14 +6,14 @@ tags: ["jira", "linear", "migration", "project-management"]
 heroImage: "/thumbs/how-to-switch-from-jira-to-linear.jpg"
 lastModified: "2026-04-26"
 ---
-Jira is the enterprise standard, but more and more engineering teams are switching to Linear for its speed, clean UI, and opinionated workflow design. If your team has decided to make the move, here's how to do it without losing data or momentum.
+Jira is the enterprise standard, but more and more engineering teams are switching to Linear for its speed, clean UI, and opinionated workflow design. If your team has decided to [make](/tools/make/) the move, here's how to do it without losing data or momentum.
 
 ## Why Teams Switch from Jira to Linear
 
 The most common reasons engineering teams migrate:
 
-- **Speed**: Linear is built for keyboard-first navigation. Everything loads instantly. Jira's page loads and JQL queries feel sluggish by comparison.
-- **Simplicity**: Linear ships with sensible defaults. Jira requires extensive configuration before it's useful.
+- **Speed**: Linear is built for keyboard-first navigation. Everything loads [instantly](/tools/instantly/). Jira's page loads and JQL queries feel sluggish by comparison.
+- **Simplicity**: [Linear](/tools/linear-app/) ships with sensible defaults. Jira requires extensive configuration before it's useful.
 - **Modern UX**: Linear's interface feels like a product built in 2024, not 2004.
 - **Focus on engineering**: Linear is purpose-built for software teams, while Jira tries to serve everyone from marketing to IT support.
 
@@ -28,7 +28,7 @@ Before touching any export buttons, map out your current Jira setup:
 - **Projects**: How many active projects do you have?
 - **Custom fields**: Which custom fields are actively used vs. legacy cruft?
 - **Workflows**: Document your current workflow statuses and transitions
-- **Integrations**: List every tool connected to Jira (GitHub, Slack, CI/CD, etc.)
+- **Integrations**: List every tool connected to Jira ([GitHub](/tools/github/), Slack, CI/CD, etc.)
 - **Automations**: Export or screenshot any Jira automation rules you want to replicate
 
 ### 2. Map Jira Concepts to Linear
@@ -103,9 +103,9 @@ After import, configure your Linear workspace:
 **Labels**: Import or create labels for bug/feature/improvement categorization. Linear's built-in label groups work well here.
 
 **Integrations**: Connect your essential tools:
-- GitHub/GitLab for PR linking and auto-close
-- Slack for notifications and issue creation
-- Figma for design references
+- GitHub/GitLab for PR linking and auto-[close](/tools/close/)
+- [Slack](/tools/slack/) for notifications and issue creation
+- [Figma](/tools/figma/) for design references
 
 ### Step 4: Recreate Critical Workflows
 
@@ -119,7 +119,7 @@ That's it. If your Jira workflow had 12 statuses, condense them. The simplicity 
 **Automations to set up:**
 - Auto-assign issues from Triage based on team
 - Auto-move issues to "In Review" when a PR is opened
-- Auto-close issues when PRs are merged
+- Auto-[close](/tools/close/) issues when PRs are merged
 - Cycle auto-scheduling for backlog grooming
 
 ### Step 5: Team Onboarding

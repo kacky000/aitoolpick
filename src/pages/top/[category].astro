@@ -1,0 +1,346 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+import categories from '../../data/categories.json';
+
+export function getStaticPaths() {
+  return categories
+    .filter((cat) => tools.filter((t) => t.category.includes(cat.id)).length >= 3)
+    .map((cat) => ({
+      params: { category: cat.slug },
+      props: {
+        category: cat,
+        categoryTools: tools
+          .filter((t) => t.category.includes(cat.id))
+          .sort((a, b) => b.rating - a.rating)
+          .slice(0, 10),
+      },
+    }));
+}
+
+const { category, categoryTools } = Astro.props;
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+const pageTitle = `Top ${Math.min(10, categoryTools.length)} Best ${category.name} Tools in 2026 | AIToolPick`;
+const pageDescription = `The ${Math.min(10, categoryTools.length)} best ${category.name.toLowerCase()} tools ranked by rating, features, and value. Updated for 2026.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: pageTitle,
+  description: pageDescription,
+  numberOfItems: categoryTools.length,
+  itemListElement: categoryTools.map((tool, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'SoftwareApplication',
+      name: tool.name,
+      url: tool.website,
+      aggregateRating: { '@type': 'AggregateRating', ratingValue: tool.rating, bestRating: 5 },
+    },
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container top-page">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Top Tools', href: '/top/' },
+        { label: category.name },
+      ]} />
+
+      <div class="top-header">
+        <span class="top-icon">{category.icon}</span>
+        <h1>Top {Math.min(10, categoryTools.length)} Best {category.name} Tools</h1>
+        <p>Ranked by rating, features, and user satisfaction. Last updated: May 2026.</p>
+      </div>
+
+      <!-- Quick comparison table -->
+      <div class="quick-table-wrapper">
+        <table class="quick-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Tool</th>
+              <th>Rating</th>
+              <th>Free Plan</th>
+              <th>Starting Price</th>
+              <th>Best For</th>
+            </tr>
+          </thead>
+          <tbody>
+            {categoryTools.map((tool, i) => (
+              <tr>
+                <td class="rank-cell">{i + 1}</td>
+                <td class="tool-cell">
+                  <a href={`/tools/${tool.slug}/`}>{tool.name}</a>
+                </td>
+                <td class="rating-cell">★ {tool.rating}</td>
+                <td class={tool.pricing.free ? 'yes-cell' : 'no-cell'}>{tool.pricing.free ? '✓' : '✗'}</td>
+                <td>{formatPrice(tool.pricing)}</td>
+                <td class="bestfor-cell">{tool.bestFor.slice(0, 2).map((b: string) => b.replace(/-/g, ' ')).join(', ')}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Detailed cards -->
+      <div class="top-list">
+        {categoryTools.map((tool, i) => (
+          <div class="top-card" id={`tool-${i + 1}`}>
+            <div class="top-card-rank">
+              {i === 0 && <span class="medal gold">🥇</span>}
+              {i === 1 && <span class="medal silver">🥈</span>}
+              {i === 2 && <span class="medal bronze">🥉</span>}
+              {i > 2 && <span class="rank-num">#{i + 1}</span>}
+            </div>
+            <div class="top-card-content">
+              <div class="top-card-header">
+                {tool.icon && <img src={tool.icon} alt={tool.name} width="44" height="44" style="border-radius: 10px;" loading="lazy" />}
+                <div>
+                  <h2><a href={`/tools/${tool.slug}/`}>{tool.name}</a></h2>
+                  <div class="top-card-meta">
+                    <span class="top-rating">{'★'.repeat(Math.round(tool.rating))} {tool.rating}</span>
+                    <span class="top-price">{formatPrice(tool.pricing)}</span>
+                  </div>
+                </div>
+              </div>
+              <p class="top-card-desc">{tool.description}</p>
+              <div class="top-card-grid">
+                <div class="pros-col">
+                  <strong>Pros</strong>
+                  <ul>
+                    {tool.pros.slice(0, 3).map((p: string) => <li>✓ {p}</li>)}
+                  </ul>
+                </div>
+                <div class="cons-col">
+                  <strong>Cons</strong>
+                  <ul>
+                    {tool.cons.slice(0, 2).map((c: string) => <li>✗ {c}</li>)}
+                  </ul>
+                </div>
+              </div>
+              <div class="top-card-actions">
+                <a href={`/tools/${tool.slug}/`} class="btn-secondary btn-sm">Full Review</a>
+                <a href={`/pricing/${tool.slug}/`} class="btn-link">Pricing Details →</a>
+                <a href={`/how-to/${tool.slug}/`} class="btn-link">Getting Started →</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .top-page {
+    max-width: 900px;
+  }
+
+  .top-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .top-icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .top-header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .top-header p {
+    color: var(--gray-600);
+    font-size: 1rem;
+  }
+
+  .quick-table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 3rem;
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-lg);
+  }
+
+  .quick-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+  }
+
+  .quick-table th {
+    background: var(--gray-50);
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    color: var(--gray-600);
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .quick-table td {
+    padding: 0.65rem 0.75rem;
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  .rank-cell {
+    font-weight: 700;
+    color: var(--primary-dark);
+    width: 40px;
+  }
+
+  .tool-cell a {
+    font-weight: 600;
+    color: var(--dark);
+    text-decoration: none;
+  }
+
+  .tool-cell a:hover {
+    color: var(--primary-dark);
+  }
+
+  .rating-cell {
+    color: var(--warning);
+    font-weight: 600;
+  }
+
+  .yes-cell { color: var(--success); font-weight: 600; }
+  .no-cell { color: var(--gray-400); }
+  .bestfor-cell { font-size: 0.8rem; color: var(--gray-600); text-transform: capitalize; }
+
+  .top-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .top-card {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.75rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    transition: box-shadow 0.2s;
+  }
+
+  .top-card:hover {
+    box-shadow: var(--shadow-md);
+  }
+
+  .top-card-rank {
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 0.5rem;
+  }
+
+  .medal { font-size: 1.5rem; }
+  .rank-num {
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--gray-400);
+  }
+
+  .top-card-content { flex: 1; min-width: 0; }
+
+  .top-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .top-card-header h2 {
+    font-size: 1.15rem;
+    margin: 0 0 0.2rem;
+  }
+
+  .top-card-header h2 a {
+    color: var(--dark);
+    text-decoration: none;
+  }
+
+  .top-card-header h2 a:hover {
+    color: var(--primary-dark);
+  }
+
+  .top-card-meta {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .top-rating { font-size: 0.82rem; color: var(--warning); font-weight: 600; }
+  .top-price { font-size: 0.82rem; color: var(--primary-dark); font-weight: 600; }
+
+  .top-card-desc {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    line-height: 1.55;
+    margin-bottom: 1rem;
+  }
+
+  .top-card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .pros-col strong, .cons-col strong {
+    display: block;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    color: var(--gray-500);
+    margin-bottom: 0.4rem;
+  }
+
+  .pros-col ul, .cons-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pros-col li, .cons-col li {
+    font-size: 0.84rem;
+    padding: 0.2rem 0;
+    color: var(--gray-700);
+  }
+
+  .top-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-sm { font-size: 0.82rem; padding: 0.4rem 0.9rem; }
+  .btn-link { font-size: 0.82rem; color: var(--accent); text-decoration: none; font-weight: 500; }
+  .btn-link:hover { text-decoration: underline; }
+
+  @media (max-width: 600px) {
+    .top-card { flex-direction: column; }
+    .top-card-grid { grid-template-columns: 1fr; }
+    .quick-table { font-size: 0.8rem; }
+  }
+</style>

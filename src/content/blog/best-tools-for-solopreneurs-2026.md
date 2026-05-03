@@ -86,10 +86,10 @@ You don't need to spend hundreds. Here's a complete business stack under $50/mon
 | Canva | Free | $0 |
 | Todoist | Pro | $4 |
 | Zapier | Free | $0 |
-| Grammarly | Free | $0 |
+| [Grammarly](/tools/grammarly/) | Free | $0 |
 | **Total** | | **$24/mo** |
 
-Add ChatGPT Plus ($20/mo) if you need image generation, bringing the total to $44/month.
+Add [ChatGPT](/tools/chatgpt/) Plus ($20/mo) if you need image generation, bringing the total to $44/month.
 
 ## The $0/Month Starter Stack
 
@@ -100,7 +100,7 @@ Just starting out? Everything below is free:
 - **Canva** (free tier) — Design
 - **Todoist** (free tier) — Tasks
 - **Zapier** (free tier) — 5 basic automations
-- **Grammarly** (free tier) — Grammar checking
+- **[Grammarly](/tools/grammarly/)** (free tier) — Grammar checking
 
 This gives you a genuinely functional business toolkit for zero dollars.
 
@@ -109,7 +109,7 @@ This gives you a genuinely functional business toolkit for zero dollars.
 When revenue justifies spending:
 
 1. **Claude Pro ($20/mo)** — The biggest productivity multiplier. Unlimited AI assistance.
-2. **Canva Pro ($15/mo)** — Brand kit, background remover, premium templates.
+2. **Canva Pro ($15/mo)** — Brand [kit](/tools/kit/), background remover, premium templates.
 3. **Zapier Professional ($29.99/mo)** — More zaps, multi-step automations.
 4. **Notion Plus ($10/mo)** — Unlimited file uploads, better version history.
 

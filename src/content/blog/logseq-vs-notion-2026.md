@@ -41,7 +41,7 @@ If data ownership and privacy are non-negotiable for you, Logseq wins before you
 
 Logseq is dramatically cheaper. For individual users, the core app is completely free. Even with Logseq Sync ($5/month), you're paying half what Notion Plus costs.
 
-For teams, the cost difference narrows — Notion's free plan is workable for small teams, and its pricing scales with users.
+For teams, the cost difference narrows — Notion's free plan is [workable](/tools/workable/) for small teams, and its pricing scales with users.
 
 ## Features Comparison
 
@@ -58,7 +58,7 @@ For teams, the cost difference narrows — Notion's free plan is workable for sm
 | Offline Access | ✅ 100% | Partial (cached pages) |
 | Mobile App | ✅ (less polished) | ✅ Polished |
 | Web Clipper | ❌ | ✅ |
-| AI Assistant | Limited plugin | ✅ Notion AI |
+| AI Assistant | Limited plugin | ✅ [Notion AI](/tools/notion-ai/) |
 | Open Source | ✅ | ❌ |
 
 ## Where Logseq Wins
@@ -99,7 +99,7 @@ Notion's mobile app is polished and full-featured. Logseq's mobile app works but
 
 ### AI Features
 
-Notion AI is deeply integrated, offering writing assistance, summaries, and Q&A across your workspace. Logseq AI features exist via plugins but aren't as seamless.
+[Notion AI](/tools/notion-ai/) is deeply integrated, offering writing assistance, summaries, and Q&A across your workspace. Logseq AI features exist via plugins but aren't as seamless.
 
 ## Which Should You Choose?
 

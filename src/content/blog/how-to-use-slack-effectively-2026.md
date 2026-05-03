@@ -6,9 +6,9 @@ heroImage: "/thumbs/how-to-use-slack-effectively-2026.jpg"
 tags: ["slack", "productivity", "remote-work", "communication", "team"]
 lastModified: "2026-04-26"
 ---
-Slack is where most remote teams communicate. It's also where productivity goes to die when implemented poorly.
+Slack is where most [remote teams](/best-for/remote-teams/) communicate. It's also where productivity goes to die when implemented poorly.
 
-The difference between a Slack workspace that accelerates teamwork and one that creates constant interruptions comes down to configuration, norms, and habits — not features. Here's what actually works in 2026.
+The difference between a Slack workspace that accelerates [teamwork](/tools/teamwork/) and one that creates constant interruptions comes down to configuration, norms, and habits — not features. Here's what actually works in 2026.
 
 ## Channel Architecture: The Foundation
 
@@ -20,7 +20,7 @@ The most common Slack mistake is creating too many channels. More channels = mor
 - **#team-[name]** — Per-team discussion (#team-engineering, #team-marketing)
 - **#project-[name]** — Active projects with a clear end date (archive when done)
 - **#random** — Off-topic, fun, culture
-- **#help-[tool]** — Support channels (#help-salesforce, #help-notion)
+- **#help-[tool]** — Support channels (#help-[salesforce](/tools/salesforce/), #help-notion)
 
 **Avoid:**
 - Channels for every sub-topic (#marketing-linkedin-ads, #marketing-twitter, #marketing-seo)
@@ -103,7 +103,7 @@ Most teams ignore Workflow Builder entirely. Setting up one standup automation s
 
 ## Saved Items and Reminders
 
-When a message requires action later but you can't deal with it now:
+When a message requires action [later](/tools/later/) but you can't deal with it now:
 
 - **Save the message** (bookmark icon) — creates a reference list
 - **Set a reminder** (three-dot menu → Remind me) — Slack reminds you at your chosen time
@@ -113,7 +113,7 @@ This eliminates the "I'll come back to this" problem where you lose track of mes
 ## The Slash Commands Most People Don't Use
 
 - `/remind @channel [message] in [time]` — Schedule a reminder for the whole channel
-- `/dnd [time]` — Enable Do Not Disturb for X hours from the command line
+- `/dnd [time]` — Enable Do Not Disturb for X [hours](/tools/hours-tracker/) from the command line
 - `/status [emoji] [message]` — Set status quickly
 - `/shrug` — Inserts ¯\_(ツ)_/¯ (useful more often than expected)
 - `/collapse` — Collapses all inline images (useful in image-heavy channels)

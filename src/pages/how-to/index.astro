@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+const sortedTools = [...tools].sort((a, b) => a.name.localeCompare(b.name));
+
+const pageTitle = `Getting Started Guides — ${tools.length} Tool Tutorials | AIToolPick`;
+const pageDescription = `Step-by-step getting started guides for ${tools.length}+ tools. Learn how to set up and use each tool effectively from day one.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'How-To Guides' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Getting Started Guides</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        Step-by-step tutorials for {tools.length}+ tools. Pick a tool to learn how to get started.
+      </p>
+
+      <div class="howto-grid">
+        {sortedTools.slice(0, 120).map((tool) => (
+          <a href={`/how-to/${tool.slug}/`} class="howto-card">
+            {tool.icon && <img src={tool.icon} alt={tool.name} width="24" height="24" style="border-radius: 6px;" loading="lazy" />}
+            <span>How to Get Started with {tool.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .howto-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.5rem; }
+  .howto-card { display: flex; align-items: center; gap: 0.6rem; padding: 0.7rem 0.9rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); text-decoration: none; color: var(--dark); font-size: 0.85rem; font-weight: 500; transition: border-color 0.15s; }
+  .howto-card:hover { border-color: var(--primary); }
+</style>

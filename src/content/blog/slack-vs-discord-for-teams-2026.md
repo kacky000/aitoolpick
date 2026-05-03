@@ -28,7 +28,7 @@ Slack and Discord both let teams communicate in real time via channels, threads,
 
 Slack launched in 2013 and quickly became the standard for workplace communication. It's built from the ground up for professional teams: structured channels, threaded conversations, a massive integration ecosystem, and admin controls that IT departments actually want.
 
-Salesforce acquired Slack in 2021, and the product has grown more enterprise-focused since then — with better compliance tools, deeper Salesforce integration, and improved security features.
+[Salesforce](/tools/salesforce/) acquired Slack in 2021, and the product has grown more enterprise-focused since then — with better compliance tools, deeper Salesforce integration, and improved security features.
 
 ### Slack Pricing
 - **Free**: 90 days of searchable message history, 10 integrations, 1:1 audio/video calls
@@ -38,7 +38,7 @@ Salesforce acquired Slack in 2021, and the product has grown more enterprise-foc
 
 ## About Discord
 
-Discord launched in 2015 primarily for gamers but has evolved significantly. Today it's used by developer communities, creator fandoms, web3 projects, online courses, and — increasingly — small businesses and startups.
+Discord launched in 2015 primarily for gamers but has evolved significantly. Today it's used by developer communities, creator fandoms, web3 projects, online courses, and — increasingly — small businesses and [startups](/best-for/startups/).
 
 Discord's free tier is genuinely generous: unlimited message history, unlimited members, voice channels, and basic bots. Discord Nitro ($9.99/month per user) adds file size limits, server boosts, and profile customization — but these are largely personal perks rather than team productivity features.
 
@@ -58,16 +58,16 @@ This matters more than people admit. When you invite a client, partner, or new h
 For external-facing communication, Slack wins on first impression every time.
 
 ### Message History and Search
-Slack's free plan limits search to the last 90 days of messages. If your team discusses something important and you need to find it three months later, you'll hit the paywall. This has pushed many small teams to either pay for Slack Pro or move to Discord.
+Slack's free plan limits search to the last 90 days of messages. If your team discusses something important and you need to find it three months later, you'll hit the paywall. This has pushed many [small teams](/best-for/small-teams/) to either pay for Slack Pro or move to Discord.
 
 Discord has unlimited message history on its free tier. For teams that can't afford Slack Pro but need searchable history, this is a real advantage.
 
 ### Integrations
-Slack integrates with over 2,600 apps — Google Workspace, Jira, GitHub, Salesforce, Zoom, Notion, HubSpot, and virtually every SaaS product your team uses. Automating workflows through Slack is genuinely powerful.
+Slack integrates with over 2,600 apps — Google Workspace, Jira, GitHub, Salesforce, Zoom, Notion, [HubSpot](/tools/hubspot/), and virtually every SaaS product your team uses. Automating workflows through Slack is genuinely powerful.
 
-Discord integrations are primarily community bots (MEE6, Carl-bot, etc.) focused on moderation, games, and engagement. Zapier and Make can connect Discord to business tools, but it requires setup effort. Native business integrations are minimal.
+Discord integrations are primarily community bots (MEE6, Carl-bot, etc.) focused on moderation, games, and engagement. [Zapier](/tools/zapier/) and Make can connect Discord to business tools, but it requires setup effort. Native business integrations are minimal.
 
-If your team lives in Google Workspace, Jira, or Salesforce, Slack is dramatically better integrated.
+If your team lives in Google Workspace, [Jira](/tools/jira/), or Salesforce, Slack is dramatically better integrated.
 
 ### Voice and Video Communication
 Both tools handle voice well, but differently. Slack Huddles let you start a quick voice call from any channel — it's lightweight and feels like tapping someone on the shoulder. Full video calls support up to 50 participants on Pro.
@@ -101,7 +101,7 @@ Discord makes sense for professional teams when:
 
 Slack is the better choice when:
 - **You have clients, partners, or contractors in your workspace**: Professional appearance matters
-- **You rely on integrations** with tools like Jira, Salesforce, GitHub, or Google Workspace
+- **You rely on integrations** with tools like Jira, Salesforce, [GitHub](/tools/github/), or Google Workspace
 - **Your industry requires compliance** (healthcare, finance, legal)
 - **You need reliable async communication** with threaded conversations
 - **You're scaling beyond 20-30 people**: Admin controls become essential

@@ -6,7 +6,7 @@ tags: ["trello", "clickup", "migration", "how-to"]
 heroImage: "/thumbs/how-to-switch-from-trello-to-clickup.jpg"
 lastModified: "2026-04-26"
 ---
-Switching from Trello to ClickUp gives you more views, built-in docs, time tracking, and goals — without needing Power-Ups for basic features. Here's how to migrate smoothly without losing your data or your team's momentum.
+Switching from Trello to ClickUp gives you more views, built-in docs, [time tracking](/category/time-tracking/), and goals — without needing Power-Ups for basic features. Here's how to migrate smoothly without losing your data or your team's momentum.
 
 ## Before You Start
 
@@ -14,7 +14,7 @@ Switching from Trello to ClickUp gives you more views, built-in docs, time track
 - Trello's Power-Up dependency for features ClickUp includes free
 - Need for Timeline, Gantt, and Dashboard views
 - Want built-in docs, goals, and time tracking
-- Outgrowing Trello's project management capabilities
+- Outgrowing Trello's [project management](/category/project-management/) capabilities
 
 ### What Transfers
 - ✅ Boards → Spaces/Lists

@@ -6,7 +6,7 @@ tags: ["notion", "obsidian", "comparison", "students", "note-taking"]
 heroImage: "/thumbs/notion-vs-obsidian-for-students-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Both Notion and Obsidian are popular with students, but they take fundamentally different approaches to note-taking. Notion is a cloud-first all-in-one workspace. Obsidian is a local-first Markdown editor with powerful linking. Which one should you use for school?
+Both Notion and Obsidian are popular with students, but they take fundamentally different approaches to [note-taking](/category/note-taking/). Notion is a cloud-first all-in-one workspace. Obsidian is a local-first Markdown editor with powerful linking. Which one should you use for school?
 
 ## Quick Verdict
 
@@ -58,7 +58,7 @@ This core difference drives every other comparison point.
 
 **Notion**: Good for outlining and drafting. Collect sources in databases. Collaborate with group project members. Export to Markdown for formatting elsewhere.
 
-**Obsidian**: Excellent for research with the Zotero plugin. Link sources to notes, build argument chains, and use the canvas feature for visual planning. Write in Markdown and export to any format via Pandoc.
+**Obsidian**: Excellent for research with the [Zotero](/tools/zotero/) plugin. Link sources to notes, build argument chains, and use the canvas feature for visual planning. Write in Markdown and export to any format via Pandoc.
 
 **Winner**: Obsidian for solo research. Notion for group projects.
 
@@ -66,7 +66,7 @@ This core difference drives every other comparison point.
 
 **Notion**: Built-in databases with due dates, status, priority. Create a semester dashboard tracking all courses and assignments. Calendar and Kanban views included.
 
-**Obsidian**: Possible with the Tasks plugin but requires setup. Not as intuitive as Notion's database approach. Most students use a separate tool for task management.
+**Obsidian**: Possible with the Tasks plugin but requires setup. Not as intuitive as Notion's database approach. Most students use a separate tool for [task management](/category/task-management/).
 
 **Winner**: Notion — task management is a core feature, not a plugin.
 
@@ -89,7 +89,7 @@ This core difference drives every other comparison point.
 - **Personal use**: Free forever
 - **Sync** (optional): $4/month for cross-device sync
 - **Publish** (optional): $8/month for publishing notes online
-- Most students only need the free version + manual sync (Google Drive, iCloud, etc.)
+- Most students only need the free version + manual sync ([Google Drive](/tools/google-drive/), iCloud, etc.)
 
 **Both are free for students** — cost isn't a deciding factor.
 

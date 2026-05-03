@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+const sortedTools = [...tools].sort((a, b) => b.rating - a.rating);
+
+const pageTitle = `Tool Reviews — ${tools.length} In-Depth Reviews | AIToolPick`;
+const pageDescription = `Read honest, in-depth reviews of ${tools.length}+ AI and productivity tools. Ratings, pros & cons, pricing analysis, and expert verdicts.`;
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Reviews' },
+      ]} />
+
+      <h1 style="margin-bottom: 0.5rem;">Tool Reviews</h1>
+      <p style="color: var(--gray-600); margin-bottom: 2.5rem;">
+        {tools.length} in-depth reviews with ratings, pros & cons, and honest verdicts.
+      </p>
+
+      <div class="rev-grid">
+        {sortedTools.slice(0, 120).map((tool) => (
+          <a href={`/reviews/${tool.slug}/`} class="rev-card">
+            {tool.icon && <img src={tool.icon} alt={tool.name} width="28" height="28" style="border-radius: 6px;" loading="lazy" />}
+            <div class="rev-card-info">
+              <strong>{tool.name}</strong>
+              <span class="rev-card-desc">{tool.description.slice(0, 60)}...</span>
+            </div>
+            <span class="rev-card-rating">★ {tool.rating}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .rev-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.6rem; }
+  .rev-card { display: flex; align-items: center; gap: 0.7rem; padding: 0.8rem 1rem; background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius); text-decoration: none; color: inherit; transition: border-color 0.15s; }
+  .rev-card:hover { border-color: var(--primary); }
+  .rev-card-info { flex: 1; display: flex; flex-direction: column; }
+  .rev-card-info strong { font-size: 0.88rem; }
+  .rev-card-desc { font-size: 0.72rem; color: var(--gray-500); }
+  .rev-card-rating { font-size: 0.78rem; color: var(--warning); font-weight: 600; }
+</style>

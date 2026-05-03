@@ -23,7 +23,7 @@ Slack remains one of the most popular workplace communication tools, but its pri
 
 ## Free Plan: What You Actually Get
 
-Slack's free plan is generous enough for small teams and side projects:
+Slack's free plan is generous enough for [small teams](/best-for/small-teams/) and side projects:
 
 - **90-day message history** (increased from the old 10K message limit)
 - **5 GB total file storage** for the entire workspace
@@ -83,7 +83,7 @@ Enterprise Grid is Slack's offering for large, complex organizations:
 ## Hidden Costs to Consider
 
 ### 1. App Add-ons
-Some Slack apps charge separately (e.g., Salesforce integration, Polly surveys).
+Some Slack apps charge separately (e.g., [Salesforce](/tools/salesforce/) integration, Polly surveys).
 
 ### 2. Slack AI
 Slack AI is an add-on at $10/user/month that adds AI-powered search summaries, channel recaps, and thread summaries. It's not included in any standard plan.
@@ -96,8 +96,8 @@ File storage overages aren't charged automatically — Slack will prompt you to 
 | Tool | Free Plan | Paid Starting Price | Best Value |
 |------|-----------|-------------------|-----------|
 | **Slack** | 90-day history | $8.75/user/month | Pro plan |
-| **Microsoft Teams** | Unlimited history | $4/user/month (M365) | Bundled with Office |
-| **Discord** | Unlimited history | $2.99/user/month (Nitro) | Budget teams |
+| **[Microsoft Teams](/tools/microsoft-teams/)** | Unlimited history | $4/user/month (M365) | Bundled with Office |
+| **[Discord](/tools/discord/)** | Unlimited history | $2.99/user/month (Nitro) | Budget teams |
 | **Google Chat** | With Workspace | $6/user/month (Workspace) | Google shops |
 
 Microsoft Teams remains Slack's biggest competitor. If your organization already pays for Microsoft 365, Teams is essentially free. Read our [detailed Slack vs Teams comparison](/blog/slack-vs-microsoft-teams-2026) for the full breakdown.
@@ -123,7 +123,7 @@ For more team communication tool comparisons, check out our [best collaboration 
 ## FAQ
 
 ### Is Slack free plan enough for a startup?
-For early-stage startups with under 10 people, yes. Upgrade to Pro when you hit the integration limit or need message history beyond 90 days.
+For early-stage [startups](/best-for/startups/) with under 10 people, yes. Upgrade to Pro when you hit the integration limit or need message history beyond 90 days.
 
 ### Does Slack offer nonprofit pricing?
 Yes. Eligible nonprofits get 85% off the Pro plan. Apply through Slack's nonprofit program.
@@ -132,4 +132,4 @@ Yes. Eligible nonprofits get 85% off the Pro plan. Apply through Slack's nonprof
 Yes. Upgrades are prorated. Downgrades take effect at the next billing cycle.
 
 ### Is Slack AI worth the extra $10/user/month?
-For teams that spend significant time searching through Slack history, the AI summaries can save hours weekly. Try the free trial before committing.
+For teams that spend significant time searching through Slack history, the AI summaries can save [hours](/tools/hours-tracker/) weekly. Try the free trial before committing.

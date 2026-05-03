@@ -18,7 +18,7 @@ Be honest about the trade-offs before investing time in migration.
 
 ### What You Gain With Notion
 
-- **Databases**: Tasks become rows in a database with custom properties, views, and relations. You can build exactly the system you want.
+- **Databases**: Tasks become [rows](/tools/rows/) in a database with custom properties, views, and relations. You can build exactly the system you want.
 - **Documentation**: Notes, meeting minutes, project briefs, and SOPs live alongside your tasks. No more switching between apps.
 - **Wikis**: Create team knowledge bases, process documentation, and reference libraries.
 - **Relations & Rollups**: Connect tasks to projects, projects to goals, and goals to quarterly reviews. Build a complete productivity system.
@@ -27,8 +27,8 @@ Be honest about the trade-offs before investing time in migration.
 ### What You Lose Leaving Todoist
 
 - **Natural Language Input**: Todoist's ability to parse "Submit report Friday 3pm #Work p1" has no equivalent in Notion. Task creation is slower.
-- **Speed**: Todoist opens instantly and adding a task takes 2 seconds. Notion is heavier and requires more clicks.
-- **Dedicated Mobile Experience**: Todoist's mobile app is purpose-built for task management. Notion's mobile app is functional but not optimized for rapid task capture.
+- **Speed**: Todoist opens [instantly](/tools/instantly/) and adding a task takes 2 seconds. Notion is heavier and requires more clicks.
+- **Dedicated Mobile Experience**: Todoist's mobile app is purpose-built for [task management](/category/task-management/). Notion's mobile app is functional but not optimized for rapid task capture.
 - **Karma & Streaks**: Todoist's gamification features do not exist in Notion. If these motivate you, you will miss them.
 - **Email-to-Task**: Todoist's email forwarding feature for creating tasks does not have a direct Notion equivalent.
 
@@ -57,7 +57,7 @@ Do not try to replicate Todoist's exact structure in Notion. Instead, design a s
 |---------|-------------------|
 | Projects | Database with "Project" property (Select or Relation) |
 | Sections | Database views filtered by group, or a separate "Section" property |
-| Tasks | Database rows |
+| Tasks | Database [rows](/tools/rows/) |
 | Sub-tasks | Sub-items in a database, or toggle blocks within a page |
 | Labels | Multi-select property called "Tags" |
 | Priorities (P1-P4) | Select property with 4 options |
@@ -119,7 +119,7 @@ Create a view grouped by Tags. This replaces Todoist's label filter.
 
 ## Step 5: Handle Recurring Tasks
 
-Todoist handles recurring tasks natively. In Notion, use recurring database templates that auto-create pages on a schedule, or set up a Zapier automation to create Notion pages at regular intervals. For infrequent recurring tasks, simply duplicate the task page and update the due date.
+Todoist handles recurring tasks natively. In Notion, use recurring database templates that auto-create pages on a schedule, or set up a [Zapier](/tools/zapier/) automation to create Notion pages at regular intervals. For infrequent recurring tasks, simply duplicate the task page and update the due date.
 
 ## Tips for a Smooth Transition
 

@@ -73,7 +73,7 @@ Both platforms explicitly exclude Team/Enterprise data from model training.
 
 ## Integrations & Ecosystem
 
-**ChatGPT** has the larger ecosystem. Custom GPTs can be shared across your team, and the GPT Store offers thousands of pre-built assistants. The Zapier integration connects ChatGPT to 6,000+ apps. Web browsing and DALL-E add capabilities Claude doesn't have.
+**ChatGPT** has the larger ecosystem. Custom GPTs can be shared across your team, and the GPT Store offers thousands of pre-built assistants. The [Zapier](/tools/zapier/) integration connects ChatGPT to 6,000+ apps. Web browsing and DALL-E add capabilities Claude doesn't have.
 
 **Claude** has a leaner ecosystem but is growing. The API is popular among developers, and Claude's Projects feature lets teams create persistent workspaces with shared documents and instructions. The MCP (Model Context Protocol) open standard enables tool integrations.
 

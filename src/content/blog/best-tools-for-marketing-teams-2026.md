@@ -59,7 +59,7 @@ The trade-off is complexity. ClickUp has a steeper learning curve than Asana or 
 
 **Pricing**: Free | Pro $15/user/mo
 
-Every marketing team needs Canva. It lets anyone on the team create social media graphics, presentations, short videos, and brand-consistent templates without design training. Brand Kit on the Pro plan locks in your colors, fonts, and logos so every asset stays on brand.
+Every marketing team needs Canva. It lets anyone on the team create social media graphics, presentations, short videos, and brand-consistent templates without design training. Brand [Kit](/tools/kit/) on the Pro plan locks in your colors, fonts, and logos so every asset stays on brand.
 
 For marketing teams without a dedicated designer, Canva Pro is essential. See our [Canva review](/blog/canva-review-2026/) for details.
 
@@ -85,13 +85,13 @@ Slack remains the default for marketing teams. Channels organized by campaign or
 
 Zapier connects over 6,000 apps without code. For marketing teams, the most valuable automations include: pushing new blog subscribers from your form tool to your email platform, syncing CRM updates to Slack channels, auto-posting social media content from a spreadsheet schedule, and routing lead form submissions to the right sales rep.
 
-The learning curve is gentle and the template library covers most common marketing automations out of the box.
+The learning curve is gentle and the template library covers most common marketing automations out of the [box](/tools/box/).
 
 ### Make (formerly Integromat) — Best for Complex Workflows
 
 **Pricing**: Free (1,000 ops/mo) | Core $9/mo | Pro $16/mo | Teams $29/mo
 
-Make handles more complex automation scenarios than Zapier at a lower price point. If you need multi-step workflows with conditional logic and data transformation, Make gives you more control. For simple automations, stick with Zapier. For advanced workflows with loops and API calls, choose Make.
+Make handles more complex automation scenarios than Zapier at a lower price point. If you need multi-step workflows with conditional logic and data transformation, Make gives you more control. For simple automations, stick with Zapier. For advanced workflows with [loops](/tools/loops/) and API calls, choose Make.
 
 ## AI Writing & Editing
 
@@ -99,7 +99,7 @@ Make handles more complex automation scenarios than Zapier at a lower price poin
 
 **Pricing**: Free | Premium $12/user/mo | Business $15/user/mo
 
-Grammarly catches grammatical errors, but its real value for marketing teams is tone consistency. Set your brand voice guidelines and Grammarly will flag content that does not match. The browser extension works across email, CMS platforms, social media, and Google Docs.
+Grammarly catches grammatical errors, but its real value for marketing teams is tone consistency. Set your brand voice guidelines and Grammarly will flag content that does not match. The browser extension works across email, CMS platforms, social media, and [Google Docs](/tools/google-docs/).
 
 The Business plan adds a style guide, analytics dashboard, and admin controls that let marketing managers maintain quality standards across the entire team.
 

@@ -20,7 +20,7 @@ Canva is purpose-built for the social media content creation workflow. It unders
 
 **Built-in asset library**: Canva includes millions of stock photos, videos, illustrations, and audio tracks in the paid tier. For most social media posts, you don't need to source external assets.
 
-**Brand Kit**: In Canva Pro ($15/month), you upload your brand fonts, colors, and logos once. Every template then auto-applies your brand. This is the highest-leverage feature for anyone managing consistent brand presence across channels.
+**Brand [Kit](/tools/kit/)**: In Canva Pro ($15/month), you upload your brand fonts, colors, and logos once. Every template then auto-applies your brand. This is the highest-leverage feature for anyone managing consistent brand presence across channels.
 
 **One-click resizing**: Design one post, then use "Magic Resize" to generate Instagram, Facebook, Twitter, and LinkedIn versions automatically. Not perfect, but gets you 80% there in seconds.
 
@@ -42,7 +42,7 @@ Figma is exceptional at what it was designed for: interface design, prototyping,
 
 **Pricing complexity**: Figma Professional at $15/month is competitive, but the features you're paying for (components, auto layout, version history, developer handoff) are irrelevant to social media work.
 
-**Learning curve**: Figma's interface is designed around design system concepts — frames, constraints, auto layout, variants. These are powerful but take real time to learn.
+**Learning curve**: Figma's interface is designed [around](/tools/around/) design system concepts — frames, constraints, auto layout, variants. These are powerful but take real time to learn.
 
 ## When Figma Makes Sense for Social Media
 
@@ -65,7 +65,7 @@ There are specific scenarios where Figma is worth using for social media:
 | Social media templates | Extensive library | None built-in |
 | Stock photos/videos | Included (Pro) | Must source externally |
 | Direct publishing | Yes (built-in scheduler) | No |
-| Brand Kit | Yes (Pro) | Via design systems |
+| Brand [Kit](/tools/kit/) | Yes (Pro) | Via design systems |
 | Learning curve | Very low | Moderate to high |
 | Mobile app | Yes | Limited |
 | Price | Free / $15/month | Free / $15/month |

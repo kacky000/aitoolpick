@@ -1,0 +1,376 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import tools from '../../data/tools.json';
+
+export function getStaticPaths() {
+  const audienceMap = new Map<string, typeof tools>();
+
+  for (const tool of tools) {
+    for (const bf of tool.bestFor) {
+      if (!audienceMap.has(bf)) audienceMap.set(bf, []);
+      audienceMap.get(bf)!.push(tool);
+    }
+  }
+
+  return Array.from(audienceMap.entries())
+    .filter(([, toolList]) => toolList.length >= 2)
+    .map(([audience, toolList]) => ({
+      params: { audience },
+      props: {
+        audience,
+        matchedTools: toolList.sort((a, b) => b.rating - a.rating),
+      },
+    }));
+}
+
+const { audience, matchedTools } = Astro.props;
+
+function formatAudience(slug: string): string {
+  return slug.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
+}
+
+function formatPrice(pricing: Record<string, number | boolean | null>): string {
+  const entries = Object.entries(pricing).filter(([key, val]) => key !== 'free' && val !== null && typeof val === 'number');
+  if (entries.length === 0) return pricing.free ? 'Free' : 'Contact sales';
+  const lowest = Math.min(...entries.map(([, v]) => v as number));
+  return pricing.free ? `Free / $${lowest}+` : `$${lowest}+`;
+}
+
+const audienceFormatted = formatAudience(audience);
+
+// Compute related audiences
+const relatedAudiencesSet = new Set<string>();
+for (const tool of matchedTools.slice(0, 5)) {
+  for (const bf of tool.bestFor) {
+    if (bf !== audience) relatedAudiencesSet.add(bf);
+  }
+}
+const relatedAudiences = [...relatedAudiencesSet].slice(0, 12);
+const pageTitle = `Best Tools for ${audienceFormatted} in 2026 | AIToolPick`;
+const pageDescription = `Discover the ${matchedTools.length} best tools for ${audienceFormatted.toLowerCase()}. Compare features, pricing, and ratings to find your perfect match.`;
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Best Tools for ${audienceFormatted}`,
+  description: pageDescription,
+  numberOfItems: matchedTools.length,
+  itemListElement: matchedTools.slice(0, 10).map((tool, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'SoftwareApplication',
+      name: tool.name,
+      url: tool.website,
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: tool.rating,
+        bestRating: 5,
+      },
+    },
+  })),
+});
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <script type="application/ld+json" set:html={jsonLd} />
+
+  <section class="section">
+    <div class="container">
+      <Breadcrumbs items={[
+        { label: 'Home', href: '/' },
+        { label: 'Best For', href: '/best-for/' },
+        { label: audienceFormatted },
+      ]} />
+
+      <div class="page-header">
+        <h1>Best Tools for {audienceFormatted}</h1>
+        <p>{matchedTools.length} tools ranked by rating and features</p>
+      </div>
+
+      <div class="tools-list">
+        {matchedTools.map((tool, index) => (
+          <div class="tool-rank-card">
+            <div class="rank-badge">#{index + 1}</div>
+            <div class="rank-card-main">
+              <div class="rank-card-header">
+                <div class="rank-identity">
+                  {tool.icon && <img src={tool.icon} alt={tool.name} width="40" height="40" class="rank-icon" />}
+                  <div>
+                    <h2 class="rank-tool-name">
+                      <a href={`/tools/${tool.slug}/`}>{tool.name}</a>
+                    </h2>
+                    <div class="rank-meta">
+                      <span class="rank-rating">{'★'.repeat(Math.round(tool.rating))} {tool.rating}</span>
+                      <span class="rank-price">{formatPrice(tool.pricing)}</span>
+                      {tool.pricing.free && <span class="rank-free-badge">Free plan</span>}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="rank-desc">{tool.description}</p>
+              <div class="rank-features">
+                {tool.features.slice(0, 4).map((f: string) => (
+                  <span class="feature-badge">{f}</span>
+                ))}
+              </div>
+              <div class="rank-pros">
+                {tool.pros.slice(0, 3).map((pro: string) => (
+                  <span class="pro-item">✓ {pro}</span>
+                ))}
+              </div>
+              <div class="rank-actions">
+                <a href={`/tools/${tool.slug}/`} class="btn-secondary btn-sm">Full Review</a>
+                <a href={`/alternatives/${tool.slug}/`} class="btn-link">See Alternatives →</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Related Audiences -->
+      <div class="related-audiences">
+        <h2>Related Audiences</h2>
+        <div class="audience-links">
+          {relatedAudiences.map((aud) => (
+            <a href={`/best-for/${aud}/`} class="audience-chip">{formatAudience(aud)}</a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .page-header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+  }
+
+  .page-header p {
+    color: var(--gray-600);
+    font-size: 1.05rem;
+  }
+
+  .tools-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .tool-rank-card {
+    display: flex;
+    gap: 1.25rem;
+    background: var(--white);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius-xl);
+    padding: 1.5rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+
+  .tool-rank-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+  }
+
+  .rank-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--primary-light);
+    color: var(--primary-dark);
+    font-weight: 800;
+    font-size: 0.85rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .tool-rank-card:nth-child(1) .rank-badge {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: white;
+  }
+
+  .tool-rank-card:nth-child(2) .rank-badge {
+    background: linear-gradient(135deg, #94a3b8, #64748b);
+    color: white;
+  }
+
+  .tool-rank-card:nth-child(3) .rank-badge {
+    background: linear-gradient(135deg, #d97706, #92400e);
+    color: white;
+  }
+
+  .rank-card-main {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .rank-card-header {
+    margin-bottom: 0.75rem;
+  }
+
+  .rank-identity {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .rank-icon {
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+
+  .rank-tool-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem;
+  }
+
+  .rank-tool-name a {
+    color: var(--dark);
+    text-decoration: none;
+  }
+
+  .rank-tool-name a:hover {
+    color: var(--primary-dark);
+  }
+
+  .rank-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .rank-rating {
+    color: var(--warning);
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+
+  .rank-price {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--primary-dark);
+  }
+
+  .rank-free-badge {
+    font-size: 0.72rem;
+    font-weight: 600;
+    background: var(--primary-light);
+    color: var(--primary-dark);
+    padding: 0.15rem 0.5rem;
+    border-radius: 20px;
+  }
+
+  .rank-desc {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    line-height: 1.55;
+    margin-bottom: 0.75rem;
+  }
+
+  .rank-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .feature-badge {
+    font-size: 0.75rem;
+    background: var(--gray-100);
+    color: var(--gray-700);
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .rank-pros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .pro-item {
+    font-size: 0.82rem;
+    color: var(--success);
+    font-weight: 500;
+  }
+
+  .rank-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .btn-sm {
+    font-size: 0.82rem;
+    padding: 0.4rem 0.9rem;
+  }
+
+  .btn-link {
+    font-size: 0.82rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+
+  .related-audiences {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--gray-200);
+  }
+
+  .related-audiences h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .audience-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .audience-chip {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.9rem;
+    background: var(--gray-100);
+    color: var(--gray-700);
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .audience-chip:hover {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+  }
+
+  @media (max-width: 600px) {
+    .tool-rank-card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .rank-badge {
+      width: 32px;
+      height: 32px;
+      font-size: 0.75rem;
+    }
+  }
+</style>

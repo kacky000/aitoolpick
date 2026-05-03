@@ -36,15 +36,15 @@ Go to **Templates** in Miro and search by activity type:
 
 ### 2. Set Up Sections
 
-Organize your board into named sections — one per exercise or time block. Use Miro's **Frame** tool (F) to create clearly bounded areas for each activity. Frames also make it easy to present sections in sequence.
+Organize your board into named sections — one per exercise or time block. Use Miro's **Frame** tool (F) to create clearly bounded areas for each activity. Frames also [make](/tools/make/) it easy to present sections in sequence.
 
 ### 3. Pre-populate Stickies and Instructions
 
-Write clear instructions inside each frame before participants join. Use colored sticky notes to differentiate instructions (blue) from participant inputs (yellow/green). Don't make people read a wall of text during the session.
+Write clear instructions inside each frame before participants join. Use colored sticky notes to differentiate instructions (blue) from participant inputs (yellow/green). Don't [make](/tools/make/) people read a wall of text during the session.
 
 ### 4. Share Access Before the Session
 
-Send the board link 24 hours before. Ask participants to:
+Send the board link 24 [hours](/tools/hours-tracker/) before. Ask participants to:
 1. Create a free Miro account if they don't have one
 2. Add their name to the "Who's here?" sticky in the welcome frame
 3. Try the sticky note and drawing tools
@@ -76,12 +76,12 @@ This prevents the loudest voice from dominating and ensures introverts contribut
 Miro has a built-in timer (press T or go to More tools). Display it prominently during each activity phase. Time pressure focuses thinking.
 
 **Use Voting:**
-For any prioritization exercise, use Miro's **Voting** feature (Right-click → Voting session). Each participant gets a set of votes to place on stickies or cards. Results appear instantly.
+For any prioritization exercise, use Miro's **Voting** feature (Right-click → Voting session). Each participant gets a set of votes to place on stickies or cards. Results appear [instantly](/tools/instantly/).
 
 ### Keep Energy Up
 
 - Change the pace every 20–30 minutes: alternate between individual writing, group discussion, and voting
-- Use the **Cursor chat** (press C) for quick questions without breaking flow
+- Use the **[Cursor](/tools/cursor/) chat** (press C) for quick questions without breaking flow
 - Call on specific participants by name if the group goes quiet
 - If using video alongside Miro, ask everyone to go camera-on for discussions
 
@@ -100,7 +100,7 @@ This closes the loop and helps you improve your facilitation.
 
 1. **Export the board as PDF** (File → Export → PDF by frames) — one page per frame/section
 2. **Share a view-only link** with all participants immediately after
-3. Create a **summary document** (Notion, Confluence, or Google Doc) that captures decisions and action items in written form — the board is a great artifact but not a substitute for clear next steps
+3. Create a **summary document** ([Notion](/tools/notion/), Confluence, or Google Doc) that captures decisions and action items in written form — the board is a great artifact but not a substitute for clear next steps
 
 ### Assign Owners and Deadlines
 
@@ -114,8 +114,8 @@ The most common workshop failure: great ideas, zero accountability. Before endin
 |-----|-----|
 | Lock background elements | Right-click → Lock — prevents accidental moves |
 | Bring everyone to same view | Click your avatar → "Focus on me" |
-| Zoom in on a frame | Double-click the frame border |
-| Add reactions | Keyboard shortcut E |
+| [Zoom](/tools/zoom/) in on a frame | Double-click the frame border |
+| Add reactions | Keyboard [shortcut](/tools/shortcut/) E |
 | Presentation mode | Press P — presents frames in sequence |
 | Guest mode | Share a link without requiring sign-in (free boards only) |
 

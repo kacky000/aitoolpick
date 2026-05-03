@@ -16,7 +16,7 @@ Here's an honest breakdown for agency owners and operations managers.
 
 **Choose Notion** if your agency is documentation-heavy — lots of client wikis, SOPs, content briefs, and knowledge management. Notion is the better *workspace*.
 
-**Choose ClickUp** if your agency runs tight project timelines, tracks billable hours, and needs multiple project views for different client types. ClickUp is the better *project management tool*.
+**Choose ClickUp** if your agency runs tight project timelines, tracks billable [hours](/tools/hours-tracker/), and needs multiple project views for different client types. ClickUp is the better *project management tool*.
 
 For a detailed feature comparison, see our [Notion vs ClickUp comparison](/compare/clickup-vs-notion/).
 
@@ -35,11 +35,11 @@ Before diving into tool specifics, let's define what agencies genuinely need fro
 
 ### Strengths
 
-**Client wikis are Notion's superpower.** You can create a dedicated workspace per client that contains their brand guidelines, project briefs, past work, notes, and files — all in one organized space. The flexibility of Notion databases means you can build exactly the structure your agency needs.
+**Client wikis are Notion's superpower.** You can create a dedicated workspace per client that contains their brand guidelines, project briefs, past work, notes, and files — all in one organized space. The flexibility of [Notion databases](/tools/notion-database/) means you can build exactly the structure your agency needs.
 
 The **template system** is also a significant advantage. Agencies that run the same type of engagement repeatedly (SEO audits, brand identity projects, monthly retainers) can templatize entire project structures and spin them up in minutes.
 
-**Notion AI** (included in paid plans) helps with drafting client reports, summarizing meeting notes, and generating first drafts of content — useful for content agencies.
+**[Notion AI](/tools/notion-ai/)** (included in paid plans) helps with drafting client reports, summarizing meeting notes, and generating first drafts of content — useful for content agencies.
 
 ### Weaknesses
 
@@ -100,7 +100,7 @@ Documentation and knowledge management are secondary features in ClickUp. You ca
 
 ## Can You Use Both?
 
-Some agencies do. A common setup: Notion for the client wiki, brand guides, and internal SOPs; ClickUp for day-to-day task management and project timelines. They integrate via Zapier or the Notion-ClickUp integration.
+Some agencies do. A common setup: Notion for the client wiki, brand guides, and internal SOPs; ClickUp for day-to-day task management and project timelines. They integrate via [Zapier](/tools/zapier/) or the Notion-ClickUp integration.
 
 This works, but adds tool complexity. If your team is already struggling with tool sprawl, consolidate to one.
 

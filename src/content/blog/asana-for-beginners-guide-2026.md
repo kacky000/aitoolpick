@@ -6,7 +6,7 @@ tags: ["asana", "beginners", "project-management", "task-management", "guide"]
 heroImage: "/thumbs/asana-for-beginners-guide-2026.jpg"
 lastModified: "2026-04-26"
 ---
-Asana has more features than most people ever use, which can make it feel overwhelming when you first start. The good news: you can get genuine value from Asana by learning just a handful of core concepts.
+Asana has more features than most people ever use, which can [make](/tools/make/) it feel overwhelming when you first start. The good news: you can get genuine value from Asana by learning just a handful of core concepts.
 
 Here's how to get started without getting lost.
 
@@ -14,7 +14,7 @@ Here's how to get started without getting lost.
 
 Asana is a work management platform designed to help teams (or individuals) track projects and tasks. Unlike a simple to-do app, Asana is built for collaborative work: assigning tasks to people, tracking dependencies, and reporting on progress.
 
-For solo users, Asana's free plan is usable but it's somewhat overbuilt — Todoist or Notion may be simpler choices for personal task management. Asana really shines for teams of 3-20 people running multiple projects simultaneously.
+For solo users, Asana's free plan is usable but it's somewhat overbuilt — [Todoist](/tools/todoist/) or Notion may be simpler choices for personal task management. Asana really shines for teams of 3-20 people running multiple projects simultaneously.
 
 ## Core Concepts
 
@@ -33,7 +33,7 @@ For solo users, Asana's free plan is usable but it's somewhat overbuilt — Todo
 - Comments
 - Custom fields (statuses, priority, etc.)
 
-**Sections**: Dividers inside projects to organize tasks by phase, category, or status. Sections are what make your project readable.
+**Sections**: Dividers inside projects to organize tasks by phase, category, or status. Sections are what [make](/tools/make/) your project readable.
 
 ## Setting Up Your First Project
 
@@ -92,7 +92,7 @@ You can switch between views at the top of any project. All views show the same 
 By default, My Tasks has three sections:
 - **Today**: What you're doing today
 - **Upcoming**: What's coming up in the next week
-- **Later**: Everything else
+- **[Later](/tools/later/)**: Everything else
 
 Move tasks between sections as priorities shift. This is your daily command center.
 
@@ -123,7 +123,7 @@ The **free plan** covers:
 - Unlimited tasks and projects (up to 10 users)
 - List, Board, and Calendar views
 - Basic automations
-- Integrations with Slack, Google Drive, etc.
+- Integrations with Slack, [Google Drive](/tools/google-drive/), etc.
 
 The **Starter plan ($10.99/user/month)** adds:
 - Timeline (Gantt) view
@@ -139,15 +139,15 @@ Most individuals and small teams get significant value from the free plan before
 
 **Creating too many projects**: Every initiative becomes a project, and you end up with 40 projects nobody maintains. Consolidate: use sections within a project instead of separate projects for related work.
 
-**Not using due dates**: Asana without due dates is just a list. Due dates trigger the notification system, keep timelines visible, and make the Calendar and Timeline views useful.
+**Not using due dates**: Asana without due dates is just a list. Due dates trigger the notification system, keep timelines visible, and [make](/tools/make/) the Calendar and Timeline views useful.
 
 **Using Asana for personal task management on a team tool**: The overhead of formal projects and tasks doesn't make sense for quick personal to-dos. Keep Asana for collaborative, project-based work; use a lighter tool for personal quick captures.
 
 ## Alternatives If Asana Isn't Right
 
-- **Notion**: Better for teams that need a combination of project management and documentation/wikis
-- **Trello**: Simpler Kanban-only interface, better for small teams just getting started
-- **Linear**: Better for software engineering teams that need tight Git integration
+- **[Notion](/tools/notion/)**: Better for teams that need a combination of project management and documentation/wikis
+- **[Trello](/tools/trello/)**: Simpler Kanban-only interface, better for small teams just getting started
+- **[Linear](/tools/linear/)**: Better for software engineering teams that need tight Git integration
 
 → [Best Asana alternatives 2026](/blog/best-asana-alternatives-2026/) | [Asana vs Trello 2026](/blog/asana-vs-trello-2026/)
 

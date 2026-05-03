@@ -14,7 +14,7 @@ Choosing between Trello and Todoist comes down to how you think about tasks. Tre
 |---------|--------|---------|
 | **Starting Price** | $5/user/mo | $4/user/mo |
 | **Free Plan** | Yes (unlimited cards) | Yes (5 projects) |
-| **Best For** | Visual project tracking | Personal task management |
+| **Best For** | Visual project tracking | Personal [task management](/category/task-management/) |
 | **Views** | Board, Timeline, Calendar | List, Board, Calendar |
 | **Collaboration** | Strong (teams) | Basic (sharing) |
 | **Mobile App** | Good | Excellent |
@@ -25,11 +25,11 @@ Choosing between Trello and Todoist comes down to how you think about tasks. Tre
 
 Trello's Kanban boards give you a drag-and-drop view of every task's status. You can see at a glance what's in progress, what's blocked, and what's done. This makes Trello ideal for team workflows and project tracking.
 
-Todoist prioritizes speed. Natural language input lets you type "Submit report every Friday at 3pm p1" and it creates a recurring, high-priority task instantly. If you need to capture and organize tasks fast, Todoist wins.
+Todoist prioritizes speed. Natural language input lets you type "Submit report every Friday at 3pm p1" and it creates a recurring, high-priority task [instantly](/tools/instantly/). If you need to capture and organize tasks fast, Todoist wins.
 
 ### Collaboration
 
-Trello is built for teams. Assign members to cards, add checklists, attach files, and leave comments — all on a single card. Power-Ups extend functionality with integrations like Slack, GitHub, and Google Drive.
+Trello is built for teams. Assign members to cards, add checklists, attach files, and leave comments — all on a single card. Power-Ups extend functionality with integrations like Slack, GitHub, and [Google Drive](/tools/google-drive/).
 
 Todoist's collaboration features are more limited. You can share projects and assign tasks, but it lacks the rich card-based discussions that Trello offers. Todoist is better as a personal productivity tool than a team hub.
 
@@ -41,7 +41,7 @@ For solo users, Todoist's free plan is more restrictive (5 active projects) but 
 
 ### Project Management Depth
 
-Trello offers Timeline, Table, Dashboard, and Map views on Premium plans. These make it capable of handling moderately complex projects.
+Trello offers Timeline, Table, Dashboard, and Map views on Premium plans. These [make](/tools/make/) it capable of handling moderately complex projects.
 
 Todoist keeps things simple with lists, boards, and a calendar view. It has filters and labels for organization, but no Gantt charts or advanced reporting.
 
@@ -59,7 +59,7 @@ Todoist keeps things simple with lists, boards, and a calendar view. It has filt
 
 ## The Verdict
 
-Trello and Todoist aren't direct competitors — they solve different problems. Use Trello for team project management with visual boards. Use Todoist for personal productivity with speed and simplicity.
+Trello and Todoist aren't direct competitors — they solve different problems. Use Trello for team [project management](/category/project-management/) with visual boards. Use Todoist for personal productivity with speed and simplicity.
 
 Many power users actually use both: Todoist for personal daily tasks and Trello for collaborative projects.
 

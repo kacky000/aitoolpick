@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import tools from '../../data/tools.json';
+import useCases from '../../data/use-cases.json';
+
+// Count tools per use case
+function getToolCount(toolIds: string[]): number {
+  return toolIds.filter((id) => tools.find((t) => t.id === id)).length;
+}
+
+const pageTitle = 'AI Tools by Use Case — Find the Right Tool for Any Task';
+const pageDescription = 'Browse AI and productivity tools organized by use case. Whether you need to write emails, generate images, manage projects, or automate workflows — find the best tool here.';
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <section class="section">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Use Cases</span>
+      </nav>
+
+      <h1 class="section-title">AI Tools by Use Case</h1>
+      <p class="section-subtitle">
+        Find the best AI and productivity tools for any task. Browse {useCases.length} use cases below.
+      </p>
+
+      <div class="usecase-grid">
+        {useCases.map((uc) => {
+          const toolCount = getToolCount(uc.toolIds);
+          return (
+            <a href={`/use-case/${uc.slug}/`} class="usecase-card">
+              <h2 class="usecase-card-title">{uc.name}</h2>
+              <p class="usecase-card-desc">{uc.description}</p>
+              <div class="usecase-card-footer">
+                <span class="usecase-card-count">{toolCount} tools</span>
+                <span class="usecase-card-arrow">&rarr;</span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .breadcrumb {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted, #6b7280);
+  }
+  .breadcrumb a {
+    color: var(--primary, #6366f1);
+    text-decoration: none;
+  }
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  .breadcrumb-sep {
+    margin: 0 0.5rem;
+    color: var(--text-muted, #9ca3af);
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .section-subtitle {
+    color: var(--text-muted, #6b7280);
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .usecase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .usecase-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: var(--bg-card, #ffffff);
+    border: 1px solid var(--border, #e5e7eb);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text, #1f2937);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+
+  .usecase-card:hover {
+    border-color: var(--primary, #6366f1);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .usecase-card-title {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem;
+    color: var(--text, #1f2937);
+  }
+
+  .usecase-card:hover .usecase-card-title {
+    color: var(--primary, #6366f1);
+  }
+
+  .usecase-card-desc {
+    flex: 1;
+    font-size: 0.9rem;
+    color: var(--text-muted, #6b7280);
+    line-height: 1.5;
+    margin: 0 0 1rem;
+  }
+
+  .usecase-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .usecase-card-count {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--primary, #6366f1);
+    background: var(--bg-hover, #eef2ff);
+    padding: 0.25rem 0.6rem;
+    border-radius: 12px;
+  }
+
+  .usecase-card-arrow {
+    font-size: 1.2rem;
+    color: var(--primary, #6366f1);
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .usecase-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .section-title {
+      font-size: 1.75rem;
+    }
+  }
+</style>

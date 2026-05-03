@@ -13,7 +13,7 @@ Whether you want something simpler, more polished, or with better cloud support,
 ## Why Look for an n8n Alternative?
 
 n8n is excellent, but it has real limitations:
-- **Technical barrier**: Self-hosted setup requires server management, Docker knowledge, and maintenance
+- **Technical barrier**: Self-hosted setup requires server management, [Docker](/tools/docker/) knowledge, and maintenance
 - **Learning curve**: The node-based interface takes time to master
 - **Cloud pricing**: n8n's cloud plan starts at $20/month, which isn't cheap for light users
 - **Support**: Community-driven support; enterprise support costs extra

@@ -12,10 +12,10 @@ If you're evaluating alternatives, here are seven platforms worth considering in
 
 | Tool | Best For | Free Plan | Starting Price |
 |------|----------|-----------|----------------|
-| Zapier | Beginners, app breadth | ✅ (100 tasks/mo) | $19.99/mo |
-| n8n | Developers, self-hosting | ✅ (self-hosted) | $20/mo (cloud) |
-| Pipedream | Developers, code-first | ✅ (generous) | $19/mo |
-| Activepieces | Open-source simplicity | ✅ (self-hosted) | $10/mo (cloud) |
+| [Zapier](/tools/zapier/) | Beginners, app breadth | ✅ (100 tasks/mo) | $19.99/mo |
+| [n8n](/tools/n8n/) | Developers, self-hosting | ✅ (self-hosted) | $20/mo (cloud) |
+| [Pipedream](/tools/pipedream/) | Developers, code-first | ✅ (generous) | $19/mo |
+| [Activepieces](/tools/activepieces/) | Open-source simplicity | ✅ (self-hosted) | $10/mo (cloud) |
 | Tray.io | Enterprise automation | ❌ | Custom pricing |
 | Workato | Enterprise iPaaS | ❌ | Custom pricing |
 | Power Automate | Microsoft ecosystem | ❌ | $15/user/mo |
@@ -26,7 +26,7 @@ If you're evaluating alternatives, here are seven platforms worth considering in
 
 Zapier is the most widely known automation platform, and its biggest advantage is app coverage. With over 7,000 integrations, Zapier connects to more tools than any competitor — including Make.
 
-The trade-off is flexibility. Zapier's linear "trigger → action" model is simpler to learn than Make's branching scenarios, but it's also less powerful for complex workflows. Multi-step Zaps with conditional logic are possible but feel clunky compared to Make's visual canvas.
+The trade-off is flexibility. Zapier's [linear](/tools/linear/) "trigger → action" model is simpler to learn than Make's branching scenarios, but it's also less powerful for complex workflows. Multi-step Zaps with conditional logic are possible but feel clunky compared to Make's visual canvas.
 
 Pricing is another consideration. Zapier charges by task (each action counts), and costs scale quickly. A workflow that costs $10/month on Make might cost $40+ on Zapier depending on volume.
 
@@ -68,9 +68,9 @@ The trade-off: non-technical users will find Pipedream intimidating. There's no 
 
 **Price:** Free (self-hosted, unlimited) / $10/mo (cloud) / $25/mo (cloud Pro)
 
-Activepieces is a newer open-source automation platform that positions itself as a simpler alternative to both Make and n8n. The interface is clean, the learning curve is low, and self-hosting is straightforward with Docker.
+Activepieces is a newer open-source automation platform that positions itself as a simpler alternative to both Make and n8n. The interface is clean, the learning curve is low, and self-hosting is straightforward with [Docker](/tools/docker/).
 
-The piece library (Activepieces' term for integrations) is growing but still smaller than Make's — around 200 pieces compared to Make's 1,500+ apps. For common tools like Slack, Google Sheets, and Notion, coverage is solid. For niche SaaS tools, you may need to build custom pieces.
+The piece library (Activepieces' term for integrations) is growing but still smaller than Make's — around 200 pieces compared to Make's 1,500+ apps. For common tools like Slack, Google Sheets, and [Notion](/tools/notion/), coverage is solid. For niche SaaS tools, you may need to build custom pieces.
 
 Cloud pricing starts at $10/month, which undercuts Make's paid plans. Self-hosted is completely free with no execution limits.
 
@@ -82,7 +82,7 @@ Cloud pricing starts at $10/month, which undercuts Make's paid plans. Self-hoste
 
 **Price:** Custom (typically $600+/month)
 
-Tray.io targets enterprise teams that have outgrown tools like Make and Zapier. It handles complex, multi-branch workflows with conditional logic, loops, and error handling that enterprise IT teams expect.
+Tray.io targets enterprise teams that have outgrown tools like Make and Zapier. It handles complex, multi-branch workflows with conditional logic, [loops](/tools/loops/), and error handling that enterprise IT teams expect.
 
 The platform includes features Make lacks: a built-in data mapper for transforming complex JSON, role-based access control, SOC 2 compliance documentation, and dedicated customer success managers.
 
@@ -98,11 +98,11 @@ The cost reflects the audience. Tray.io is not for freelancers or small teams �
 
 Workato is an integration platform as a service (iPaaS) used by large organizations to connect ERP, CRM, HRIS, and other enterprise systems. Where Make focuses on SaaS-to-SaaS automation, Workato handles on-premise databases, SAP, and legacy systems.
 
-Key differentiators: AI-assisted recipe building, a community library of pre-built recipes, and "Workbot" — a conversational bot that lets employees trigger automations from Slack or Teams.
+Key differentiators: AI-assisted recipe building, a community library of pre-built recipes, and "Workbot" — a conversational bot that lets employees trigger automations from [Slack](/tools/slack/) or Teams.
 
 Like Tray.io, Workato is priced for enterprise budgets. Small businesses and solopreneurs should look elsewhere.
 
-**Switch to Workato if:** You need to integrate enterprise systems (SAP, Oracle, Workday) with modern SaaS tools.
+**Switch to Workato if:** You need to integrate enterprise systems (SAP, Oracle, [Workday](/tools/workday/)) with modern SaaS tools.
 
 **Stay on Make if:** You're automating between cloud-based SaaS products and don't need on-premise connectivity.
 
