@@ -1317,5 +1317,261 @@
     "rating": 4.6,
     "yearFounded": 2019,
     "icon": "/icons/n8n.png"
+  },
+  {
+    "id": "hubspot",
+    "name": "HubSpot",
+    "slug": "hubspot",
+    "category": [
+      "crm",
+      "marketing",
+      "sales",
+      "customer-success"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 18,
+      "professional": 800,
+      "enterprise": 3600
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "All-in-one CRM platform covering marketing, sales, service, and operations hubs.",
+    "pros": [
+      "Powerful free CRM forever",
+      "Unified marketing + sales + service",
+      "Excellent reporting dashboards",
+      "Huge integration ecosystem"
+    ],
+    "cons": [
+      "Professional/Enterprise tiers are very expensive",
+      "Can be overwhelming for small teams",
+      "Feature lock-in by hub",
+      "Contact limits on free plan"
+    ],
+    "bestFor": [
+      "sales-teams",
+      "marketing-teams",
+      "agencies",
+      "growing-businesses",
+      "inbound-marketers"
+    ],
+    "features": [
+      "crm",
+      "email-marketing",
+      "landing-pages",
+      "automation",
+      "reporting",
+      "live-chat",
+      "sequences"
+    ],
+    "website": "https://hubspot.com",
+    "affiliateUrl": "https://www.hubspot.com/partners/affiliates",
+    "rating": 4.4,
+    "yearFounded": 2006,
+    "icon": "/icons/hubspot.png"
+  },
+  {
+    "id": "calendly",
+    "name": "Calendly",
+    "slug": "calendly",
+    "category": [
+      "scheduling",
+      "productivity",
+      "sales"
+    ],
+    "pricing": {
+      "free": true,
+      "standard": 10,
+      "teams": 16,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Online scheduling tool that eliminates back-and-forth emails for meeting booking.",
+    "pros": [
+      "Dead-simple booking experience",
+      "Powerful workflow automations",
+      "CRM integrations (HubSpot, Salesforce)",
+      "Round-robin and routing forms on Teams"
+    ],
+    "cons": [
+      "Free plan limited to 1 event type",
+      "Teams features require $16+/user/mo",
+      "Limited customization on free"
+    ],
+    "bestFor": [
+      "sales-reps",
+      "consultants",
+      "coaches",
+      "customer-success",
+      "recruiters"
+    ],
+    "features": [
+      "booking-pages",
+      "event-types",
+      "workflows",
+      "routing",
+      "round-robin",
+      "payments",
+      "integrations"
+    ],
+    "website": "https://calendly.com",
+    "affiliateUrl": "",
+    "rating": 4.5,
+    "yearFounded": 2013,
+    "icon": "/icons/calendly.png"
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "slug": "gamma",
+    "category": [
+      "ai",
+      "presentations",
+      "design"
+    ],
+    "pricing": {
+      "free": true,
+      "plus": 10,
+      "pro": 20
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "AI-powered presentation and document builder that creates slides from a prompt in seconds.",
+    "pros": [
+      "Create full slide decks from a prompt",
+      "Modern, beautiful default designs",
+      "One-click restyle entire deck",
+      "Embeds, analytics, and sharing links"
+    ],
+    "cons": [
+      "Less control than PowerPoint/Keynote",
+      "AI credits limit on free plan",
+      "Niche use case (presentations only)"
+    ],
+    "bestFor": [
+      "marketers",
+      "sales-teams",
+      "startups",
+      "educators",
+      "content-creators"
+    ],
+    "features": [
+      "ai-generation",
+      "slide-decks",
+      "documents",
+      "webpages",
+      "templates",
+      "analytics",
+      "embeds"
+    ],
+    "website": "https://gamma.app",
+    "affiliateUrl": "",
+    "rating": 4.4,
+    "yearFounded": 2020,
+    "icon": "/icons/gamma.png"
+  },
+  {
+    "id": "acuity",
+    "name": "Acuity Scheduling",
+    "slug": "acuity",
+    "category": [
+      "scheduling",
+      "productivity",
+      "service-business"
+    ],
+    "pricing": {
+      "free": false,
+      "emerging": 16,
+      "growing": 27,
+      "powerhouse": 49
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Online appointment scheduling software built for service businesses, coaches, and wellness professionals.",
+    "pros": [
+      "Client intake forms on booking",
+      "Package and subscription selling",
+      "Multiple staff calendars",
+      "Squarespace integration"
+    ],
+    "cons": [
+      "No free plan (only 7-day trial)",
+      "UI feels dated vs Calendly",
+      "Less polished mobile experience"
+    ],
+    "bestFor": [
+      "coaches",
+      "wellness-professionals",
+      "service-businesses",
+      "photographers",
+      "personal-trainers"
+    ],
+    "features": [
+      "appointment-booking",
+      "intake-forms",
+      "packages",
+      "subscriptions",
+      "payments",
+      "multiple-staff",
+      "client-portal"
+    ],
+    "website": "https://acuityscheduling.com",
+    "affiliateUrl": "",
+    "rating": 4.3,
+    "yearFounded": 2006,
+    "icon": "/icons/acuity.png"
+  },
+  {
+    "id": "cal-com",
+    "name": "Cal.com",
+    "slug": "cal-com",
+    "category": [
+      "scheduling",
+      "productivity",
+      "open-source"
+    ],
+    "pricing": {
+      "free": true,
+      "teams": 12,
+      "organizations": 37,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Open-source scheduling infrastructure — the self-hostable Calendly alternative.",
+    "pros": [
+      "100% open-source and self-hostable",
+      "Generous free plan (unlimited event types)",
+      "No Calendly branding",
+      "Active development community"
+    ],
+    "cons": [
+      "Self-hosting requires technical setup",
+      "Fewer native integrations than Calendly",
+      "Less polished than Calendly on cloud"
+    ],
+    "bestFor": [
+      "developers",
+      "startups",
+      "privacy-conscious-users",
+      "self-hosters",
+      "agencies"
+    ],
+    "features": [
+      "booking-pages",
+      "event-types",
+      "routing-forms",
+      "round-robin",
+      "self-hosting",
+      "api",
+      "webhooks"
+    ],
+    "website": "https://cal.com",
+    "affiliateUrl": "",
+    "rating": 4.4,
+    "yearFounded": 2021,
+    "icon": "/icons/cal-com.png"
   }
 ]
