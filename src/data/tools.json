@@ -693,7 +693,8 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 20
+      "pro": 20,
+      "max": 200
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
@@ -1076,7 +1077,9 @@
     ],
     "pricing": {
       "free": true,
-      "advanced": 19.99,
+      "plus": 7.99,
+      "pro": 19.99,
+      "ultra": 249.99,
       "business": 20,
       "enterprise": 30
     },
@@ -1374,6 +1377,7 @@
     "pricing": {
       "free": true,
       "pro": 10,
+      "pro_plus": 39,
       "business": 19,
       "enterprise": 39
     },
