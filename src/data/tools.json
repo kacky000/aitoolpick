@@ -38835,5 +38835,57 @@
     "rating": 4.3,
     "yearFounded": 2021,
     "icon": null
+  },
+  {
+    "id": "kling-ai",
+    "name": "Kling AI",
+    "slug": "kling-ai",
+    "category": [
+      "video-generation",
+      "ai-video",
+      "image-generation"
+    ],
+    "pricing": {
+      "free": true,
+      "standard": 10,
+      "pro": 35,
+      "premier": 55
+    },
+    "currency": "USD",
+    "pricingModel": "monthly-credits",
+    "description": "AI video generation tool by Kuaishou that creates high-quality videos from text prompts and images, with industry-leading motion realism.",
+    "pros": [
+      "Highly realistic motion",
+      "Generous free tier (66 credits/day)",
+      "Strong text-to-video quality",
+      "Image-to-video support",
+      "Affordable pricing"
+    ],
+    "cons": [
+      "Newer platform with fewer integrations",
+      "Credit system can be limiting",
+      "Occasional generation queue times",
+      "Limited editing features post-generation"
+    ],
+    "bestFor": [
+      "content-creators",
+      "marketers",
+      "filmmakers",
+      "social-media-managers",
+      "small-businesses"
+    ],
+    "features": [
+      "text-to-video",
+      "image-to-video",
+      "video-extension",
+      "lip-sync",
+      "motion-brush",
+      "high-definition-output"
+    ],
+    "website": "https://klingai.com",
+    "affiliateUrl": "",
+    "rating": 4.5,
+    "yearFounded": 2024,
+    "icon": null
   }
 ]
