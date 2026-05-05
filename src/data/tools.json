@@ -38891,5 +38891,59 @@
     "rating": 4.5,
     "yearFounded": 2024,
     "icon": null
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "slug": "deepseek",
+    "category": [
+      "ai-chatbot",
+      "ai-coding",
+      "research"
+    ],
+    "pricing": {
+      "free": true,
+      "api_v4_flash_input": 0.14,
+      "api_v4_flash_output": 0.28,
+      "api_v4_pro_input": 1.74,
+      "api_v4_pro_output": 3.48
+    },
+    "currency": "USD",
+    "pricingModel": "pay-per-use",
+    "description": "Chinese AI lab's open-weight large language model with free web chat, ultra-low-cost API, and strong reasoning and coding capabilities rivaling GPT-4 and Claude.",
+    "pros": [
+      "Free web chat with no subscription required",
+      "Extremely cheap API pricing (up to 50x cheaper than competitors)",
+      "Strong reasoning and coding performance",
+      "Open-weight models available for self-hosting"
+    ],
+    "cons": [
+      "Data privacy concerns due to Chinese jurisdiction",
+      "Less polished chat interface than ChatGPT or Claude",
+      "Smaller plugin and integration ecosystem",
+      "Content moderation on sensitive political topics"
+    ],
+    "bestFor": [
+      "developers",
+      "researchers",
+      "startups",
+      "cost-conscious-teams",
+      "ai-builders"
+    ],
+    "features": [
+      "chat",
+      "code-generation",
+      "reasoning",
+      "api",
+      "open-weights",
+      "1m-context",
+      "tool-calls",
+      "json-output"
+    ],
+    "website": "https://www.deepseek.com",
+    "affiliateUrl": "",
+    "rating": 4.3,
+    "yearFounded": 2023,
+    "icon": null
   }
 ]
