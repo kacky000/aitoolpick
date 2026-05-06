@@ -4,7 +4,7 @@ description: "Full breakdown of Slack's 2026 pricing plans. Compare Free, Pro, B
 pubDate: "2026-03-21"
 heroImage: "/thumbs/slack-pricing-2026.jpg"
 tags: ["slack", "pricing", "team-communication", "comparison"]
-lastModified: "2026-04-26"
+lastModified: "2026-05-07"
 ---
 **Slack** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
@@ -16,7 +16,7 @@ Slack remains one of the most popular workplace communication tools, but its pri
 |------|-------|----------------|--------------|-------------|
 | **Free** | $0 | 90 days | 5 GB total | 1:1 huddles, 10 integrations |
 | **Pro** | $8.75/user/month | Unlimited | 10 GB/user | Group huddles, unlimited integrations |
-| **Business+** | $12.50/user/month | Unlimited | 20 GB/user | SAML SSO, data exports, 24/7 support |
+| **Business+** | $15/user/month | Unlimited | 20 GB/user | SAML SSO, data exports, 24/7 support |
 | **Enterprise Grid** | Custom pricing | Unlimited | 1 TB/user | Unlimited workspaces, HIPAA compliance |
 
 *Prices shown are annual billing. Monthly billing is approximately 25% higher.*
@@ -50,7 +50,7 @@ The Pro plan removes the most painful free plan limitations:
 
 **Cost example**: A 25-person team pays $218.75/month ($2,625/year) on annual billing.
 
-## Business+ Plan ($12.50/user/month): Compliance and Control
+## Business+ Plan ($15/user/month): Compliance and Control
 
 Business+ adds the features that IT and compliance teams require:
 
@@ -63,7 +63,7 @@ Business+ adds the features that IT and compliance teams require:
 
 **Best for**: Companies with 100-500 employees, especially those in regulated industries needing SSO and compliance features.
 
-**Cost example**: A 100-person team pays $1,250/month ($15,000/year) on annual billing.
+**Cost example**: A 100-person team pays $1,500/month ($18,000/year) on annual billing.
 
 ## Enterprise Grid: For Large Organizations
 

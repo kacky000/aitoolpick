@@ -740,7 +740,7 @@
     "pricing": {
       "free": true,
       "pro": 7.25,
-      "business": 12.5,
+      "business": 15,
       "enterprise": null
     },
     "currency": "USD",
@@ -834,7 +834,7 @@
     ],
     "pricing": {
       "free": true,
-      "premium": 12,
+      "pro": 12,
       "business": 15
     },
     "currency": "USD",
