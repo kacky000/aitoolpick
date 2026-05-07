@@ -2069,7 +2069,7 @@
       "starter": 5,
       "creator": 22,
       "pro": 99,
-      "scale": 299
+      "scale": 330
     },
     "currency": "USD",
     "pricingModel": "monthly",
@@ -8169,7 +8169,7 @@
     ],
     "website": "https://www.rocketlawyer.com",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2008,
     "icon": "/icons/rocket-lawyer.svg"
   },
@@ -9914,7 +9914,7 @@
     ],
     "website": "https://www.adalo.com",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2018,
     "icon": "/icons/adalo.svg"
   },
@@ -10601,7 +10601,7 @@
     ],
     "website": "https://www.tiktok.com/business",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2019,
     "icon": "/icons/tiktok-ads.svg"
   },
@@ -13137,7 +13137,7 @@
     ],
     "website": "https://www.heroku.com",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2007,
     "icon": "/icons/heroku.svg"
   },
@@ -13329,7 +13329,7 @@
     ],
     "website": "https://www.prestashop.com",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2007,
     "icon": "/icons/prestashop.svg"
   },
@@ -14436,7 +14436,7 @@
     ],
     "website": "https://www.adobe.com/products/xd.html",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2016,
     "icon": "/icons/adobe-xd.svg"
   },
@@ -15314,7 +15314,7 @@
     ],
     "website": "https://devin.ai",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2024,
     "icon": "/icons/devin.svg"
   },
@@ -16480,7 +16480,7 @@
     ],
     "website": "https://www.notion.so/product/sites",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2024,
     "icon": "/icons/notion-sites.svg"
   },
@@ -17265,7 +17265,7 @@
     "pricing": {
       "free": true,
       "team": 8.5,
-      "business": 12.0,
+      "business": 12,
       "enterprise": null
     },
     "currency": "USD",
@@ -17313,7 +17313,7 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 7.0,
+      "pro": 7,
       "enterprise": null
     },
     "currency": "USD",
@@ -17360,7 +17360,7 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 59.0,
+      "pro": 59,
       "enterprise": null
     },
     "currency": "USD",
@@ -17407,8 +17407,8 @@
     ],
     "pricing": {
       "free": true,
-      "starter": 15.0,
-      "business": 29.0,
+      "starter": 15,
+      "business": 29,
       "enterprise": null
     },
     "currency": "USD",
@@ -17455,9 +17455,9 @@
     ],
     "pricing": {
       "free": false,
-      "starter": 5.0,
-      "professional": 10.0,
-      "ultimate": 25.0
+      "starter": 5,
+      "professional": 10,
+      "ultimate": 25
     },
     "currency": "USD",
     "pricingModel": "subscription",
@@ -17551,7 +17551,7 @@
     ],
     "pricing": {
       "free": true,
-      "team": 22.0,
+      "team": 22,
       "enterprise": null
     },
     "currency": "USD",
@@ -17598,7 +17598,7 @@
     ],
     "pricing": {
       "free": true,
-      "builder": 10.0,
+      "builder": 10,
       "enterprise": null
     },
     "currency": "USD",
@@ -17872,7 +17872,7 @@
     ],
     "website": "https://www.ragic.com",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2008,
     "icon": null
   },
@@ -18034,7 +18034,7 @@
       "free": false,
       "starter": 4.99,
       "grow": 7.5,
-      "team": 10.0
+      "team": 10
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
@@ -18081,7 +18081,7 @@
     "pricing": {
       "free": false,
       "lite": 6.5,
-      "premium": 12.0
+      "premium": 12
     },
     "currency": "USD",
     "pricingModel": "subscription",
@@ -18304,7 +18304,7 @@
     ],
     "website": "https://prezi.com",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2009,
     "icon": null
   },
@@ -20918,7 +20918,7 @@
     ],
     "website": "https://studio.polotno.com",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2021,
     "icon": null
   },
@@ -22339,7 +22339,7 @@
     ],
     "website": "https://www.focalboard.com",
     "affiliateUrl": null,
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2021,
     "icon": null
   },
@@ -24614,7 +24614,7 @@
     ],
     "website": "https://neilpatel.com/ubersuggest",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2012,
     "icon": "/icons/ubersuggest.png"
   },
@@ -25176,7 +25176,7 @@
     ],
     "website": "https://www.adroll.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2007,
     "icon": "/icons/adroll.png"
   },
@@ -25311,7 +25311,7 @@
     ],
     "website": "https://www.oracle.com/health",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 1979,
     "icon": "/icons/cerner.png"
   },
@@ -25685,7 +25685,7 @@
     ],
     "website": "https://www.realtor.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 1996,
     "icon": "/icons/realtor-com.png"
   },
@@ -25965,7 +25965,7 @@
     ],
     "website": "https://www.mendeley.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2008,
     "icon": "/icons/mendeley.png"
   },
@@ -26296,7 +26296,7 @@
     ],
     "website": "https://www.goto.com/meeting",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2004,
     "icon": "/icons/gotomeeting.png"
   },
@@ -27478,7 +27478,7 @@
     ],
     "website": "https://www.dropbox.com/paper",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2015,
     "icon": "/icons/dropbox-paper.png"
   },
@@ -28083,7 +28083,7 @@
     ],
     "website": "https://shotcut.org",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2011,
     "icon": "/icons/shotcut.png"
   },
@@ -28128,7 +28128,7 @@
     ],
     "website": "https://kdenlive.org",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2002,
     "icon": "/icons/kdenlive.png"
   },
@@ -29151,7 +29151,7 @@
     ],
     "website": "https://moodle.org",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2002,
     "icon": "/icons/moodle.png"
   },
@@ -30662,7 +30662,7 @@
     ],
     "website": "https://www.abstract.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2015,
     "icon": "/icons/abstract-design.png"
   },
@@ -32432,7 +32432,7 @@
     ],
     "website": "https://osticket.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2003,
     "icon": null
   },
@@ -33008,7 +33008,7 @@
     ],
     "website": "https://www.vonage.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2001,
     "icon": null
   },
@@ -33152,7 +33152,7 @@
     ],
     "website": "https://www.8x8.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 1987,
     "icon": null
   },
@@ -34033,7 +34033,7 @@
     ],
     "website": "https://www.criteo.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2005,
     "icon": null
   },
@@ -34314,7 +34314,7 @@
     ],
     "website": "https://www.liondesk.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2014,
     "icon": null
   },
@@ -34504,7 +34504,7 @@
     ],
     "website": "https://www.showingtime.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 1999,
     "icon": null
   },
@@ -35623,7 +35623,7 @@
     ],
     "website": "https://spideroak.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2007,
     "icon": null
   },
@@ -35671,7 +35671,7 @@
     ],
     "website": "https://www.insightly.com",
     "affiliateUrl": "",
-    "rating": 4.0,
+    "rating": 4,
     "yearFounded": 2009,
     "icon": null
   },

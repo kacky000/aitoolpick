@@ -17,7 +17,7 @@ ElevenLabs has become the gold standard for AI voice generation — but its cred
 | **Starter** | $5/mo | $4.16/mo | 30,000 |
 | **Creator** | $22/mo | $18.33/mo | 100,000 |
 | **Pro** | $99/mo | $82.50/mo | 500,000 |
-| **Scale** | $299/mo | $249/mo | 2,000,000 |
+| **Scale** | $330/mo | $275/mo | 2,000,000 |
 | **Business** | Custom | Custom | Custom |
 
 *Annual billing saves approximately 17% across all paid plans.*
@@ -84,7 +84,7 @@ At 500,000 characters, the Pro plan is built for volume. Publishers, agencies, a
 - Usage analytics dashboard
 - 44kHz audio output (studio quality)
 
-### Scale Plan — $299/month
+### Scale Plan — $330/month
 
 The Scale plan targets businesses running voice generation at scale — SaaS products with TTS features, enterprise e-learning platforms, or media companies producing hundreds of hours of content monthly.
 
