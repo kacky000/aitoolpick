@@ -3609,10 +3609,11 @@
     ],
     "pricing": {
       "free": false,
+      "starter": 29,
       "lite": 129,
       "standard": 249,
       "advanced": 449,
-      "enterprise": 14990
+      "enterprise": 1499
     },
     "currency": "USD",
     "pricingModel": "monthly",
