@@ -4,7 +4,7 @@ description: "Detailed guide to Figma pricing in 2026. Compare Free, Professiona
 pubDate: "2026-03-21"
 heroImage: "/thumbs/figma-pricing-2026.jpg"
 tags: ["figma", "pricing", "design", "comparison"]
-lastModified: "2026-04-26"
+lastModified: "2026-05-10"
 ---
 **Figma** offers multiple pricing tiers ranging from a free plan to enterprise options. This guide breaks down every plan, what's included, and which one offers the best value for your needs.
 
@@ -17,7 +17,7 @@ Figma has become the go-to design tool for teams worldwide, but understanding it
 | Free (Starter) | $0 | Individual [designers](/best-for/designers/) and students |
 | Professional | $15/editor/mo | Professional designers and [small teams](/best-for/small-teams/) |
 | Organization | $45/editor/mo | Design teams needing advanced management |
-| Enterprise | $90/editor/mo | Large organizations with security needs |
+| Enterprise | $75/editor/mo | Large organizations with security needs |
 
 All paid plans are billed annually. Figma uses per-editor pricing, meaning viewers are always free.
 
@@ -61,7 +61,7 @@ Built for scaling design teams, this plan adds:
 
 If you're running a design system across multiple teams, the Organization plan pays for itself through consistency and efficiency. The design system analytics alone help you track component adoption across your org.
 
-## Enterprise Plan ($90/editor/month)
+## Enterprise Plan ($75/editor/month)
 
 For companies with strict compliance needs:
 
