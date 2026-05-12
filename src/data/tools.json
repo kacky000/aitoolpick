@@ -544,7 +544,7 @@
       "free": true,
       "professional": 15,
       "organization": 45,
-      "enterprise": 75
+      "enterprise": 90
     },
     "currency": "USD",
     "pricingModel": "per-editor-monthly",
