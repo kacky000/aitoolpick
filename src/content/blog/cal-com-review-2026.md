@@ -4,6 +4,7 @@ description: "A complete Cal.com review for 2026 — self-hosting, pricing, feat
 pubDate: "2026-04-19"
 tags: ["cal-com", "calendar", "automation", "review", "open-source"]
 lastModified: "2026-04-19"
+heroImage: "/thumbs/cal-com-review-2026.jpg"
 ---
 
 [Cal.com](/tools/cal-com/) offers something unique in the scheduling space: an open-source platform with all the features of Calendly, plus the ability to self-host for complete control over your data. In 2026, it's become the go-to choice for privacy-conscious teams and developers who want scheduling without vendor lock-in.

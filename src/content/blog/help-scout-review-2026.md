@@ -3,6 +3,7 @@ title: "Help Scout Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Help Scout review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["help-scout", "customer-support", "review", "tools"]
+heroImage: "/thumbs/help-scout-review-2026.jpg"
 ---
 
 # Help Scout Review 2026: Is It Worth It?

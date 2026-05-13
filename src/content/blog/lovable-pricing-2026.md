@@ -3,6 +3,7 @@ title: "Lovable Pricing 2026: Free, Starter, Pro, and Scale Plans Compared"
 description: "Lovable.dev pricing explained — free plan limits, Starter at $25/mo, Pro at $50/mo, credits system, and which plan fits your project."
 pubDate: "2026-05-03"
 tags: ["lovable", "ai-app-builder", "pricing"]
+heroImage: "/thumbs/lovable-pricing-2026.jpg"
 ---
 
 Lovable (formerly GPT Engineer) lets you describe an app in plain language and get a working prototype in minutes. The tool has matured quickly, and its pricing now reflects a product aimed at serious builders — not just people experimenting with AI. Here's what each plan costs and what you actually get.

@@ -3,6 +3,7 @@ title: "Sora vs Runway 2026: OpenAI's Video Tool vs the Industry Standard"
 description: "Sora vs Runway Gen-3 comparison in 2026. Video quality, pricing, availability, and which AI video generator is worth using for your workflow."
 pubDate: "2026-05-05"
 tags: ["sora", "runway", "comparison", "ai-video", "video-generation", "openai"]
+heroImage: "/thumbs/sora-vs-runway-2026.jpg"
 ---
 
 OpenAI's Sora was the most anticipated AI video release in years. Runway has been the industry workhorse for AI video professionals. Two years after Sora's debut, how do they actually stack up?
@@ -30,6 +31,7 @@ Sora is OpenAI's text-to-video model, released in late 2024. It generates videos
 
 Sora is accessible via the ChatGPT interface and the dedicated sora.com website. There is no API available for developers (as of 2026), limiting its use to direct consumers.
 
+heroImage: "/thumbs/sora-vs-runway-2026.jpg"
 ---
 
 ## Video Quality
@@ -72,6 +74,7 @@ If you already pay for ChatGPT Plus, Sora is essentially "free" in addition to C
 
 **Bottom line:** If you don't use ChatGPT, subscribing to Plus just for Sora is odd. Runway at $12/mo is the more direct AI video investment.
 
+heroImage: "/thumbs/sora-vs-runway-2026.jpg"
 ---
 
 ## Availability
@@ -99,6 +102,7 @@ If you already pay for ChatGPT Plus, Sora is essentially "free" in addition to C
 
 **Runway wins significantly on features.** Sora's main advantage is generation quality, not workflow tools.
 
+heroImage: "/thumbs/sora-vs-runway-2026.jpg"
 ---
 
 ## The Developer Perspective
@@ -127,6 +131,7 @@ For enterprise users, Runway's API is mature and well-documented, with SDKs and 
 **Use both if:**
 - Use Sora for final-quality hero shots and Runway for everything else
 
+heroImage: "/thumbs/sora-vs-runway-2026.jpg"
 ---
 
 ## Alternatives Worth Testing

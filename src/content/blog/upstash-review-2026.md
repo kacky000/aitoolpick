@@ -3,6 +3,7 @@ title: "Upstash Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Upstash review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["upstash", "database", "review", "tools"]
+heroImage: "/thumbs/upstash-review-2026.jpg"
 ---
 
 # Upstash Review 2026: Is It Worth It?

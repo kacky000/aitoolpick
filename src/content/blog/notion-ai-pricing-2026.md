@@ -3,6 +3,7 @@ title: "Notion AI Pricing 2026: What You Pay For and Whether It's Worth It"
 description: "Notion AI pricing explained for 2026. Free tier, Plus add-on, Business bundle — plus how it compares to ChatGPT Plus and Claude Pro at the same price."
 pubDate: "2026-05-08"
 tags: ["notion", "ai", "pricing", "productivity"]
+heroImage: "/thumbs/notion-ai-pricing-2026.jpg"
 ---
 
 Notion bundled AI into its Business and Enterprise plans in early 2026 — but there are still ways to get Notion AI cheaply. Here's the full breakdown.

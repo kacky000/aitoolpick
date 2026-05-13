@@ -3,6 +3,7 @@ title: "Rippling Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Rippling review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["rippling", "hr", "review", "tools"]
+heroImage: "/thumbs/rippling-review-2026.jpg"
 ---
 
 # Rippling Review 2026: Is It Worth It?

@@ -3,6 +3,7 @@ title: "Sketch Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Sketch review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["sketch", "design", "review", "tools"]
+heroImage: "/thumbs/sketch-review-2026.jpg"
 ---
 
 # Sketch Review 2026: Is It Worth It?

@@ -3,6 +3,7 @@ title: "Grafana Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Grafana review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["grafana", "devops", "review", "tools"]
+heroImage: "/thumbs/grafana-review-2026.jpg"
 ---
 
 # Grafana Review 2026: Is It Worth It?

@@ -4,6 +4,7 @@ description: "A comprehensive Guru review for 2026 — knowledge cards, verifica
 pubDate: "2026-04-26"
 tags: ["guru", "knowledge-management", "collaboration", "review"]
 lastModified: "2026-04-26"
+heroImage: "/thumbs/guru-review-2026.jpg"
 ---
 
 [Guru](/tools/guru/) takes a different approach to company wikis: instead of a static knowledge base you have to remember to check, Guru surfaces verified information where you're already working — in Slack, your browser, your CRM, or your support tool. Here's our complete review for 2026.

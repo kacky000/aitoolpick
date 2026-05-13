@@ -3,6 +3,7 @@ title: "Datadog Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Datadog review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["datadog", "devops", "review", "tools"]
+heroImage: "/thumbs/datadog-review-2026.jpg"
 ---
 
 # Datadog Review 2026: Is It Worth It?

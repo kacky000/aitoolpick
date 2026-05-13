@@ -3,6 +3,7 @@ title: "Midjourney Pricing 2026: Complete Plan Breakdown"
 description: "Full breakdown of Midjourney pricing in 2026. Compare Basic, Standard, Pro, and Mega plans — GPU time, concurrent jobs, stealth mode, and annual discounts."
 pubDate: "2026-05-07"
 tags: ["midjourney", "ai-image-generators", "pricing"]
+heroImage: "/thumbs/midjourney-pricing-2026.jpg"
 ---
 
 Midjourney's pricing has stayed relatively stable since its launch, but the feature differences between plans have grown. If you're deciding which tier makes sense for your usage, here's everything you need to know about Midjourney's four plans in 2026.

@@ -3,6 +3,7 @@ title: "Otter.ai Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Otter.ai review covering features, pricing plans, pros and cons, and top alternatives. Find out if Otter.ai is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["otter-ai", "ai-transcription", "review", "productivity"]
+heroImage: "/thumbs/otter-ai-review-2026.jpg"
 ---
 
 # Otter.ai Review 2026: Is It Worth It?

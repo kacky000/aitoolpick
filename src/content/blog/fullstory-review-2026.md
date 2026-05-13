@@ -3,6 +3,7 @@ title: "FullStory Review 2026: Is It Worth the Price?"
 description: "FullStory review 2026 — session replay, DX data, pricing, and how it compares to Microsoft Clarity and Hotjar for understanding digital experience."
 pubDate: "2026-05-07"
 tags: ["fullstory", "session-replay", "analytics", "ux", "review"]
+heroImage: "/thumbs/fullstory-review-2026.jpg"
 ---
 
 # FullStory Review 2026: Is It Worth the Price?

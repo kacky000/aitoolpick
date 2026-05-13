@@ -3,6 +3,7 @@ title: "v0 by Vercel Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive v0 by Vercel review covering features, pricing plans, pros and cons, and top alternatives. Find out if v0 by Vercel is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["v0", "ai-coding", "review", "productivity"]
+heroImage: "/thumbs/v0-review-2026.jpg"
 ---
 
 # v0 by Vercel Review 2026: Is It Worth It?

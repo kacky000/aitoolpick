@@ -3,6 +3,7 @@ title: "Microsoft Clarity Review 2026: The Best Free Heatmap Tool?"
 description: "Microsoft Clarity is a free website analytics and heatmap tool. Our 2026 review covers features, limitations, privacy compliance, and how it compares to Hotjar."
 pubDate: "2026-05-07"
 tags: ["microsoft-clarity", "heatmaps", "analytics", "free-tools", "review"]
+heroImage: "/thumbs/microsoft-clarity-review-2026.jpg"
 ---
 
 # Microsoft Clarity Review 2026: The Best Free Heatmap Tool?

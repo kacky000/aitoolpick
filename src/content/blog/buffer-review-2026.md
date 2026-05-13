@@ -3,6 +3,7 @@ title: "Buffer Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Buffer review covering features, pricing plans, pros and cons, and top alternatives. Find out if Buffer is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["buffer", "social-media", "review", "productivity"]
+heroImage: "/thumbs/buffer-review-2026.jpg"
 ---
 
 # Buffer Review 2026: Is It Worth It?

@@ -3,6 +3,7 @@ title: "Perplexity Max Review 2026: Is the $200/Month Plan Worth It?"
 description: "Perplexity Max costs $200/month. We review what you get, compare it to Pro, and help you decide if it's worth the premium."
 pubDate: "2026-05-05"
 tags: ["perplexity", "review", "pricing", "ai-search"]
+heroImage: "/thumbs/perplexity-max-review-2026.jpg"
 ---
 
 Perplexity launched its Max tier in early 2026, sitting above the existing Pro plan at ten times the price. At $200 per month — or $2,000 per year — Max targets heavy users who rely on Perplexity as a core work tool rather than an occasional search assistant.

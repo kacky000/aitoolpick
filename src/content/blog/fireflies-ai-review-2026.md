@@ -3,6 +3,7 @@ title: "Fireflies.ai Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Fireflies.ai review covering features, pricing plans, pros and cons, and top alternatives. Find out if Fireflies.ai is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["fireflies-ai", "ai-transcription", "review", "productivity"]
+heroImage: "/thumbs/fireflies-ai-review-2026.jpg"
 ---
 
 # Fireflies.ai Review 2026: Is It Worth It?

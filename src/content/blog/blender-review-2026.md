@@ -3,6 +3,7 @@ title: "Blender Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Blender review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["blender", "design", "review", "tools"]
+heroImage: "/thumbs/blender-review-2026.jpg"
 ---
 
 # Blender Review 2026: Is It Worth It?

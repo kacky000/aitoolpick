@@ -3,6 +3,7 @@ title: "LawDepot Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth LawDepot review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["lawdepot", "legal", "review", "tools"]
+heroImage: "/thumbs/lawdepot-review-2026.jpg"
 ---
 
 # LawDepot Review 2026: Is It Worth It?

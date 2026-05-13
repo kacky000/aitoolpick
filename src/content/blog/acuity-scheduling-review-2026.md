@@ -3,6 +3,7 @@ title: "Acuity Scheduling Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Acuity Scheduling review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["acuity-scheduling", "calendar", "review", "tools"]
+heroImage: "/thumbs/acuity-scheduling-review-2026.jpg"
 ---
 
 # Acuity Scheduling Review 2026: Is It Worth It?

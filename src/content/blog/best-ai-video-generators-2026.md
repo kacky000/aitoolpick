@@ -3,6 +3,7 @@ title: "Best AI Video Generators in 2026: Top Tools Compared"
 description: "The best AI video generators of 2026 ranked and compared. Includes Runway, Kling, Luma Dream Machine, Pika, Sora, and HeyGen. Find the right AI video tool."
 pubDate: "2026-05-04"
 tags: ["ai-video", "video-generation", "content-creation", "comparison"]
+heroImage: "/thumbs/best-ai-video-generators-2026.jpg"
 ---
 
 # Best AI Video Generators in 2026

@@ -3,6 +3,7 @@ title: "Best AI Meeting Tools in 2026: Transcription, Summaries & Action Items"
 description: "The best AI meeting tools for 2026 — from real-time transcription to automated action items. Compare Otter.ai, Fireflies, Fathom, and more."
 pubDate: "2026-04-27"
 tags: ["ai-tools", "meeting-tools", "productivity", "transcription"]
+heroImage: "/thumbs/best-ai-meeting-tools-2026.jpg"
 ---
 
 # Best AI Meeting Tools in 2026: Transcription, Summaries & Action Items

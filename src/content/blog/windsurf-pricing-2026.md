@@ -3,6 +3,7 @@ title: "Windsurf Pricing 2026: Plans, Quotas, and What You Actually Pay"
 description: "Windsurf AI IDE pricing explained — Free, Pro, Max, Teams, and Enterprise plans compared with daily quotas, features, and real costs."
 pubDate: "2026-05-03"
 tags: ["windsurf", "ai-coding", "pricing"]
+heroImage: "/thumbs/windsurf-pricing-2026.jpg"
 ---
 
 Windsurf's pricing has changed significantly in 2026. The old credit system is gone, replaced by daily quotas that reset every 24 hours. If you're trying to figure out which plan is worth your money, here's the full breakdown.

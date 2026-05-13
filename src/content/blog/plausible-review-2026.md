@@ -3,6 +3,7 @@ title: "Plausible Analytics Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Plausible Analytics review covering features, pricing plans, pros and cons, and top alternatives. Find out if Plausible Analytics is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["plausible", "analytics", "review", "productivity"]
+heroImage: "/thumbs/plausible-review-2026.jpg"
 ---
 
 # Plausible Analytics Review 2026: Is It Worth It?

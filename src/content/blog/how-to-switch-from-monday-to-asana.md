@@ -3,6 +3,7 @@ title: "How to Switch from Monday.com to Asana: Complete Migration Guide"
 description: "Step-by-step guide to migrating from Monday.com to Asana. Covers data export, field mapping, common pitfalls, and how to get your team up to speed."
 pubDate: "2026-04-29"
 tags: ["monday", "asana", "migration", "project-management"]
+heroImage: "/thumbs/how-to-switch-from-monday-to-asana.jpg"
 ---
 
 Migrating from one [project management](/category/project-management/) tool to another is never painless, but it doesn't have to be chaotic either. This guide covers the full process of moving from Monday.com to Asana — from exporting your data to rebuilding your workflows in the new environment.

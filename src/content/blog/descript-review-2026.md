@@ -3,6 +3,7 @@ title: "Descript Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Descript review covering features, pricing plans, pros and cons, and top alternatives. Find out if Descript is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["descript", "video-editing", "review", "productivity"]
+heroImage: "/thumbs/descript-review-2026.jpg"
 ---
 
 # Descript Review 2026: Is It Worth It?

@@ -3,6 +3,7 @@ title: "Canva vs Google Slides 2026: Which Presentation Tool Should You Use?"
 description: "Canva vs Google Slides compared for presentations in 2026. Templates, collaboration, AI features, and which tool wins for students, teams, and businesses."
 pubDate: "2026-05-06"
 tags: ["canva", "google-slides", "presentations", "comparison", "design"]
+heroImage: "/thumbs/canva-vs-google-slides-2026.jpg"
 ---
 
 Canva and Google Slides are both free presentation tools — but they serve very different needs. This comparison breaks down which one wins for your specific situation.
@@ -46,6 +47,7 @@ Google Slides is the free presentation tool inside Google Workspace. Strengths i
 
 Google Slides exports to PPTX, PDF, or PNG — compatible with PowerPoint.
 
+heroImage: "/thumbs/canva-vs-google-slides-2026.jpg"
 ---
 
 ## Template Quality
@@ -73,6 +75,7 @@ Google Slides was built for collaboration from day one:
 
 Canva's free tier allows collaboration but with limitations. Full real-time team features require a Canva for Teams subscription ($10/user/month with a minimum of 3 users).
 
+heroImage: "/thumbs/canva-vs-google-slides-2026.jpg"
 ---
 
 ## AI Features
@@ -100,6 +103,7 @@ Google's Duet AI for Slides requires a Google Workspace Business or Enterprise p
 - Workspace Business Starter: $6/user/month (adds 30GB pooled storage, Meet features)
 - Workspace Business Plus: $18/user/month (adds Duet AI features)
 
+heroImage: "/thumbs/canva-vs-google-slides-2026.jpg"
 ---
 
 ## When to Choose Canva
@@ -129,6 +133,7 @@ Google's Duet AI for Slides requires a Google Workspace Business or Enterprise p
 | Social media repurposing | **Canva** |
 | Budget-constrained teams | **Google Slides** |
 
+heroImage: "/thumbs/canva-vs-google-slides-2026.jpg"
 ---
 
 ## Final Recommendation

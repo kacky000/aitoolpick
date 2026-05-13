@@ -3,6 +3,7 @@ title: "Grammarly for Business: Is It Worth It in 2026?"
 description: "An honest look at Grammarly for Business — what it offers teams, how it compares to the free plan, and whether the cost is justified for your organization."
 pubDate: "2026-04-27"
 tags: ["grammarly", "writing", "business-tools", "ai-writing"]
+heroImage: "/thumbs/grammarly-for-business-2026.jpg"
 ---
 
 # Grammarly for Business: Is It Worth It in 2026?

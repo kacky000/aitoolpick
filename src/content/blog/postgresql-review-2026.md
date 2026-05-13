@@ -3,6 +3,7 @@ title: "PostgreSQL Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth PostgreSQL review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["postgresql", "database", "review", "tools"]
+heroImage: "/thumbs/postgresql-review-2026.jpg"
 ---
 
 # PostgreSQL Review 2026: Is It Worth It?

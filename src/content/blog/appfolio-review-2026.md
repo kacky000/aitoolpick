@@ -3,6 +3,7 @@ title: "AppFolio Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth AppFolio review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["appfolio", "real-estate", "review", "tools"]
+heroImage: "/thumbs/appfolio-review-2026.jpg"
 ---
 
 # AppFolio Review 2026: Is It Worth It?

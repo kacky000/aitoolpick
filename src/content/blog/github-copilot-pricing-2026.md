@@ -3,6 +3,7 @@ title: "GitHub Copilot Pricing 2026: Plans, AI Credits, and What Changed"
 description: "GitHub Copilot pricing explained — Free, Pro, Pro+, Business plans with the new usage-based billing system launching June 2026."
 pubDate: "2026-05-02"
 tags: ["github-copilot", "ai-coding", "pricing"]
+heroImage: "/thumbs/github-copilot-pricing-2026.jpg"
 ---
 
 GitHub Copilot is the most widely used [AI coding](/category/ai-coding/) assistant, and its pricing is about to change significantly. Starting June 1, 2026, Copilot moves from request-based billing to a usage-based credit system. Here's what you need to know.

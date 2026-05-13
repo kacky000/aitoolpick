@@ -3,6 +3,7 @@ title: "Logseq Pricing 2026: Complete Breakdown of Free, Sync & Sponsor Plans"
 description: "Logseq pricing explained — free local use, $5/mo sync, and $15/mo sponsor tier. See how it compares to Obsidian and Notion."
 pubDate: "2026-04-28"
 tags: ["logseq", "pricing", "note-taking", "open-source"]
+heroImage: "/thumbs/logseq-pricing-2026.jpg"
 ---
 
 **Logseq** is one of the most generous [note-taking](/category/note-taking/) tools on the market when it comes to pricing. The entire feature set is free for local use, with optional paid plans for cloud sync and supporting the project. But what exactly do you get at each tier, and how does it compare to Obsidian and Notion?

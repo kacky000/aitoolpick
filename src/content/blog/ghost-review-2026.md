@@ -3,6 +3,7 @@ title: "Ghost Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Ghost review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["ghost", "email-marketing", "review", "tools"]
+heroImage: "/thumbs/ghost-review-2026.jpg"
 ---
 
 # Ghost Review 2026: Is It Worth It?

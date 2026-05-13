@@ -4,6 +4,7 @@ description: "Our honest Kagi review for 2026 — ad-free search quality, AI sum
 pubDate: "2026-04-16"
 tags: ["kagi", "ai-search", "productivity", "review"]
 lastModified: "2026-04-16"
+heroImage: "/thumbs/kagi-review-2026.jpg"
 ---
 
 [Kagi](/tools/kagi/) asks a provocative question: would you pay $10/month for a search engine? In a world where Google is free, that's a tough sell. But after months of daily use, we can say definitively — for certain people, Kagi is worth every penny. Here's why.

@@ -22166,9 +22166,9 @@
     ],
     "pricing": {
       "free": true,
-      "starter": 27,
-      "individual-pro": 45,
-      "team": 89
+      "starter": 29,
+      "pro": 49,
+      "team": 69
     },
     "currency": "USD",
     "pricingModel": "subscription",
@@ -34974,9 +34974,9 @@
     ],
     "pricing": {
       "free": true,
-      "plus": 5,
-      "pro": 8,
-      "business": 20
+      "plus": 10,
+      "pro": 20,
+      "business": 29
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",

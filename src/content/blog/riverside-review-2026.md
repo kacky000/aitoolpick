@@ -4,6 +4,7 @@ description: "A full Riverside review for 2026 — local recording quality, AI e
 pubDate: "2026-04-21"
 tags: ["riverside", "video-conferencing", "audio-music", "review"]
 lastModified: "2026-04-21"
+heroImage: "/thumbs/riverside-review-2026.jpg"
 ---
 
 [Riverside](/tools/riverside/) solves the biggest problem in remote content creation: quality. While Zoom and Google Meet compress audio and video for real-time communication, Riverside records locally on each participant's device, producing uncompressed studio-quality files regardless of internet stability. For podcasters and video producers, this changes everything.

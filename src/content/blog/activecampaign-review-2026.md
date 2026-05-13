@@ -3,6 +3,7 @@ title: "ActiveCampaign Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth ActiveCampaign review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["activecampaign", "email-marketing", "review", "tools"]
+heroImage: "/thumbs/activecampaign-review-2026.jpg"
 ---
 
 # ActiveCampaign Review 2026: Is It Worth It?

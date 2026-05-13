@@ -4,6 +4,7 @@ description: "A full Pitch review for 2026 — real-time collaboration, template
 pubDate: "2026-04-16"
 tags: ["pitch", "presentation", "collaboration", "review"]
 lastModified: "2026-04-16"
+heroImage: "/thumbs/pitch-review-2026.jpg"
 ---
 
 [Pitch](/tools/pitch/) set out to build the presentation tool that Google Slides should have been — combining real-time collaboration with genuinely beautiful design. Five years after launch, it's the strongest challenger to the Google Slides / PowerPoint duopoly for team-first presentation creation. Here's our full review.

@@ -3,6 +3,7 @@ title: "Ahrefs Pricing 2026: Every Plan Explained (Including the New $29 Starter
 description: "Complete Ahrefs pricing breakdown for 2026. Starter $29, Lite $129, Standard $249, Advanced $449, Enterprise $1,499 — which plan is actually worth it?"
 pubDate: "2026-05-08"
 tags: ["ahrefs", "seo", "pricing", "review"]
+heroImage: "/thumbs/ahrefs-pricing-2026.jpg"
 ---
 
 Ahrefs introduced a game-changing $29 Starter plan in January 2026, cutting the entry price by nearly 80%. Here's everything you need to know before choosing a plan.

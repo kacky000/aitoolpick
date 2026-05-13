@@ -4,6 +4,7 @@ description: "A complete Plane review for 2026 — open-source project tracking 
 pubDate: "2026-04-17"
 tags: ["plane", "issue-tracking", "project-management", "open-source", "review"]
 lastModified: "2026-04-17"
+heroImage: "/thumbs/plane-review-2026.jpg"
 ---
 
 [Plane](/tools/plane/) launched in 2022 with an ambitious mission: create an open-source project tracking tool with the polish of Linear and the power of Jira. In 2026, it's delivered on much of that promise — offering a modern, clean interface with self-hosting capability and zero licensing cost. Here's our complete review.

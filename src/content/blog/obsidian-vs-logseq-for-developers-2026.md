@@ -3,6 +3,7 @@ title: "Obsidian vs Logseq for Developers: Which Fits Your Workflow?"
 description: "A developer-focused comparison of Obsidian and Logseq in 2026. Git integration, Markdown support, plugin APIs, and real workflow differences."
 pubDate: "2026-04-29"
 tags: ["obsidian", "logseq", "developers", "note-taking", "comparison"]
+heroImage: "/thumbs/obsidian-vs-logseq-for-developers-2026.jpg"
 ---
 
 Developers have specific requirements for [note-taking](/category/note-taking/) tools that general-purpose reviews tend to gloss over. Git compatibility matters. Markdown portability matters. The ability to extend functionality through code matters. Obsidian and Logseq both target this audience, but they approach the problem from fundamentally different angles.

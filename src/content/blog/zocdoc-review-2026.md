@@ -3,6 +3,7 @@ title: "Zocdoc Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Zocdoc review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["zocdoc", "healthcare", "review", "tools"]
+heroImage: "/thumbs/zocdoc-review-2026.jpg"
 ---
 
 # Zocdoc Review 2026: Is It Worth It?

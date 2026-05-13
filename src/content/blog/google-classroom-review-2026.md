@@ -3,6 +3,7 @@ title: "Google Classroom Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Google Classroom review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["google-classroom", "education", "review", "tools"]
+heroImage: "/thumbs/google-classroom-review-2026.jpg"
 ---
 
 # Google Classroom Review 2026: Is It Worth It?

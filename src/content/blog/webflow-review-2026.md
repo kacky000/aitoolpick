@@ -3,6 +3,7 @@ title: "Webflow Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Webflow review covering features, pricing plans, pros and cons, and top alternatives. Find out if Webflow is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["webflow", "website-builder", "review", "productivity"]
+heroImage: "/thumbs/webflow-review-2026.jpg"
 ---
 
 # Webflow Review 2026: Is It Worth It?

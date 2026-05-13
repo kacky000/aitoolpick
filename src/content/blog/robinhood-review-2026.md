@@ -3,6 +3,7 @@ title: "Robinhood Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Robinhood review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["robinhood", "personal-finance", "review", "tools"]
+heroImage: "/thumbs/robinhood-review-2026.jpg"
 ---
 
 # Robinhood Review 2026: Is It Worth It?

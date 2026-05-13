@@ -3,6 +3,7 @@ title: "Bolt.new Pricing 2026: Free, Pro, and Teams Plans Explained"
 description: "Bolt.new pricing breakdown — free plan with 1M tokens, Pro at $25/mo with 10M tokens, Teams at $30/user/mo, and what each plan includes."
 pubDate: "2026-05-03"
 tags: ["bolt", "ai-app-builder", "pricing"]
+heroImage: "/thumbs/bolt-pricing-2026.jpg"
 ---
 # Bolt.new Pricing 2026: Free, Pro, and Teams Plans Explained
 

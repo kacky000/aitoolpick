@@ -3,6 +3,7 @@ title: "Kit (ConvertKit) Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Kit (ConvertKit) review covering features, pricing plans, pros and cons, and top alternatives. Find out if Kit (ConvertKit) is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["convertkit", "email-marketing", "review", "productivity"]
+heroImage: "/thumbs/convertkit-review-2026.jpg"
 ---
 
 # Kit (ConvertKit) Review 2026: Is It Worth It?

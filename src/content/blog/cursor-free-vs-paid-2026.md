@@ -3,6 +3,7 @@ title: "Cursor Free vs Paid: What Do You Actually Get?"
 description: "Cursor's free Hobby plan vs Pro, Pro+, and Ultra — what's included, what's limited, and when it's worth upgrading."
 pubDate: "2026-05-03"
 tags: ["cursor", "ai-coding", "free-vs-paid"]
+heroImage: "/thumbs/cursor-free-vs-paid-2026.jpg"
 ---
 
 Cursor offers a free Hobby plan that lets you try AI-assisted coding without a credit card. But the limits hit fast. If you're wondering whether Pro at $20/month is worth it — or whether you need Pro+ or Ultra — here's what each tier actually includes.

@@ -4,6 +4,7 @@ description: "Our in-depth Motion review for 2026 — AI auto-scheduling, pricin
 pubDate: "2026-04-22"
 tags: ["motion", "calendar", "task-management", "review", "project-management"]
 lastModified: "2026-04-22"
+heroImage: "/thumbs/motion-review-2026.jpg"
 ---
 
 [Motion](/tools/motion/) takes a radically different approach to productivity: instead of you deciding when to work on what, AI plans your entire day. It automatically schedules tasks, meetings, and projects into your calendar based on priorities, deadlines, and available time. The promise is eliminating decision fatigue — but at $19/month with no free plan, is it worth the investment?
