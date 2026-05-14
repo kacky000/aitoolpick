@@ -1667,7 +1667,7 @@
       "website-builder"
     ],
     "pricing": {
-      "free": false,
+      "free": true,
       "starter": 20,
       "launch": 50,
       "scale": 100
