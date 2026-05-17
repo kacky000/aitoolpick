@@ -3,6 +3,7 @@ title: "Ideogram Pricing 2026: Free vs Plus vs Pro Plans Compared"
 description: "Complete Ideogram pricing breakdown for 2026. Compare Free, Basic, Plus, Pro, and Team plans — credits, features, and which tier is worth it."
 pubDate: "2026-05-09"
 tags: ["ideogram", "pricing", "image-generation", "design"]
+heroImage: "/thumbs/ideogram-pricing-2026.jpg"
 ---
 
 Ideogram has quietly become one of the most capable AI image generators available, especially for anyone who needs legible text in generated images. But with five tiers — Free, Basic, Plus, Pro, and Team — the pricing structure is not immediately obvious. Here is exactly what each plan costs and includes in 2026.

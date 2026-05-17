@@ -3,6 +3,7 @@ title: "OpenAI Codex vs Claude Code 2026: Which AI Coding Agent Wins?"
 description: "Head-to-head comparison of OpenAI Codex and Claude Code — features, pricing, performance, and which is better for different workflows."
 pubDate: "2026-05-13"
 tags: ["openai", "codex", "claude-code", "comparison", "ai-coding"]
+heroImage: "/thumbs/openai-codex-vs-claude-code-2026.jpg"
 ---
 
 # OpenAI Codex vs Claude Code 2026: Which AI Coding Agent Wins?

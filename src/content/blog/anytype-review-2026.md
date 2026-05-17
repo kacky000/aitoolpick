@@ -3,6 +3,7 @@ title: "Anytype Review 2026: The Privacy-First Notion Alternative"
 description: "An in-depth review of Anytype in 2026. Local-first, end-to-end encrypted, and open-source — is this Notion alternative worth switching to?"
 pubDate: "2026-05-12"
 tags: ["anytype", "note-taking", "knowledge-management", "productivity"]
+heroImage: "/thumbs/anytype-review-2026.jpg"
 ---
 
 Most productivity apps store your data on their servers. Anytype takes the opposite approach: your notes, databases, and pages live locally on your device, encrypted end-to-end. The company can't read your data — and neither can anyone else without your key.

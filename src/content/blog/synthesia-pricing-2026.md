@@ -3,6 +3,7 @@ title: "Synthesia Pricing 2026: Plans, Costs, and What You Actually Get"
 description: "Complete Synthesia pricing breakdown for 2026. Compare Free, Starter, Creator, and Enterprise plans with minute limits, avatar access, and hidden costs."
 pubDate: "2026-05-08"
 tags: ["synthesia", "pricing", "ai-video"]
+heroImage: "/thumbs/synthesia-pricing-2026.jpg"
 ---
 
 Synthesia is the leading AI video generation platform, letting you create professional videos with AI avatars—no camera, mic, or editing skills needed. But the pricing can be confusing once you dig into minute limits, avatar tiers, and locked features.

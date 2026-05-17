@@ -3,6 +3,7 @@ title: "Shortcut Review 2026: Is It the Best Agile Tool for Software Teams?"
 description: "An honest review of Shortcut (formerly Clubhouse) in 2026. Features, pricing, pros and cons, and how it compares to Jira and Linear for agile development."
 pubDate: "2026-05-12"
 tags: ["shortcut", "project-management", "agile", "engineering"]
+heroImage: "/thumbs/shortcut-review-2026.jpg"
 ---
 
 Shortcut (formerly Clubhouse) has been quietly popular among software development teams who find Jira too complex and Trello too simple. In 2026, it occupies a specific niche: agile project management that feels like it was designed by people who actually write code.

@@ -3,6 +3,7 @@ title: "Figma vs Framer in 2026: Design Tool or Website Builder?"
 description: "Figma vs Framer compared side by side. Pricing, features, prototyping, and web publishing — find out which tool fits your design workflow in 2026."
 pubDate: "2026-05-10"
 tags: ["figma", "framer", "design", "comparison"]
+heroImage: "/thumbs/figma-vs-framer-2026.jpg"
 ---
 
 Figma and Framer get mentioned in the same breath constantly, but they solve fundamentally different problems. Figma is a design tool. Framer is a website builder that happens to have a design interface. The overlap is real, but the distinction matters more than most comparisons acknowledge.

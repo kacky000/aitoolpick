@@ -3,6 +3,7 @@ title: "How to Switch from Trello to Linear in 2026: Step-by-Step Guide"
 description: "Ready to move from Trello to Linear? This step-by-step guide covers migrating your boards, workflows, and team without losing progress."
 pubDate: "2026-05-12"
 tags: ["linear", "trello", "project-management", "migration"]
+heroImage: "/thumbs/how-to-switch-from-trello-to-linear-2026.jpg"
 ---
 
 Trello's Kanban boards are great for simple task tracking, but growing engineering and product teams often outgrow them. Linear is purpose-built for software development workflows — it's faster, has better issue tracking, and integrates directly with GitHub, GitLab, and Slack.
