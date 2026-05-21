@@ -4898,10 +4898,10 @@
     ],
     "pricing": {
       "free": false,
-      "personal": 16,
-      "business": 33,
-      "commerce_basic": 36,
-      "commerce_advanced": 65
+      "basic": 16,
+      "core": 23,
+      "plus": 39,
+      "advanced": 99
     },
     "currency": "USD",
     "pricingModel": "monthly",
@@ -29727,10 +29727,10 @@
     ],
     "pricing": {
       "free": false,
-      "personal": 16,
-      "business": 23,
-      "commerce-basic": 27,
-      "commerce-advanced": 49
+      "basic": 16,
+      "core": 23,
+      "plus": 39,
+      "advanced": 99
     },
     "currency": "USD",
     "pricingModel": "monthly",
