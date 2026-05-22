@@ -4404,10 +4404,11 @@
     ],
     "pricing": {
       "free": false,
-      "simple_start": 30,
-      "essentials": 60,
-      "plus": 90,
-      "advanced": 200
+      "solopreneur": 20,
+      "simple_start": 38,
+      "essentials": 75,
+      "plus": 115,
+      "advanced": 275
     },
     "currency": "USD",
     "pricingModel": "monthly",
@@ -4454,9 +4455,9 @@
     ],
     "pricing": {
       "free": false,
-      "starter": 15,
-      "standard": 42,
-      "premium": 78
+      "early": 25,
+      "growing": 55,
+      "established": 90
     },
     "currency": "USD",
     "pricingModel": "monthly",
@@ -7260,8 +7261,8 @@
     "pricing": {
       "free": false,
       "lite": 19,
-      "plus": 33,
-      "premium": 60,
+      "plus": 38,
+      "premium": 65,
       "select": null
     },
     "currency": "USD",
@@ -7454,7 +7455,7 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 25,
+      "pro": 29,
       "business": 59,
       "enterprise": null
     },
@@ -27207,7 +27208,7 @@
     "pricing": {
       "free": false,
       "ai": 0.25,
-      "human": 1.5
+      "human": 1.99
     },
     "currency": "USD",
     "pricingModel": "per-minute",
@@ -38475,10 +38476,11 @@
     ],
     "pricing": {
       "free": false,
-      "simple-start": 30,
-      "essentials": 60,
-      "plus": 90,
-      "advanced": 200
+      "solopreneur": 20,
+      "simple-start": 38,
+      "essentials": 75,
+      "plus": 115,
+      "advanced": 275
     },
     "currency": "USD",
     "pricingModel": "subscription",
