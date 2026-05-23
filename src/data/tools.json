@@ -31011,8 +31011,8 @@
     ],
     "pricing": {
       "free": true,
-      "standard": 8,
-      "plus": 14,
+      "basic": 10,
+      "business": 16,
       "enterprise": null
     },
     "currency": "USD",
