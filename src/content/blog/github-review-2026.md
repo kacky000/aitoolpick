@@ -3,6 +3,7 @@ title: "GitHub Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive GitHub review covering features, pricing plans, pros and cons, and top alternatives. Find out if GitHub is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["github", "devops", "review", "productivity"]
+heroImage: "/thumbs/github-review-2026.jpg"
 ---
 
 # GitHub Review 2026: Is It Worth It?

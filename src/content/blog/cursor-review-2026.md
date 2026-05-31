@@ -3,6 +3,7 @@ title: "Cursor Review 2026: Is the AI Code Editor Worth It?"
 description: "An honest Cursor review covering Agent mode, Tab completions, multi-file editing, pricing, and whether it's worth switching from VS Code or Copilot."
 pubDate: "2026-05-02"
 tags: ["cursor", "ai-coding", "review"]
+heroImage: "/thumbs/cursor-review-2026.jpg"
 ---
 
 Cursor is a VS Code fork that embeds AI directly into the editing experience — Tab completions, multi-file editing, and an Agent that can run terminal commands and modify your entire codebase. After months of daily use, here's what works, what doesn't, and who should actually switch.

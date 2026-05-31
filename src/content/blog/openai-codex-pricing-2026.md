@@ -3,6 +3,7 @@ title: "OpenAI Codex Pricing 2026: Credits, Plans, and What You'll Actually Pay"
 description: "Complete breakdown of OpenAI Codex pricing in 2026 — ChatGPT plan tiers, token-based credits, Codex-only seats, and real-world cost estimates."
 pubDate: "2026-05-13"
 tags: ["openai", "codex", "pricing", "ai-coding"]
+heroImage: "/thumbs/openai-codex-pricing-2026.jpg"
 ---
 
 # OpenAI Codex Pricing 2026: Credits, Plans, and What You'll Actually Pay

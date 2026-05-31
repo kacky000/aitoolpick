@@ -3,6 +3,7 @@ title: "Sora Review 2026: Is OpenAI's Video Generator Worth It?"
 description: "An honest Sora review covering features, pricing, pros, cons, and the March 2026 shutdown announcement. What happened and where to go next."
 pubDate: "2026-05-09"
 tags: ["sora", "ai-video", "openai", "review"]
+heroImage: "/thumbs/sora-review-2026.jpg"
 ---
 
 **OpenAI's Sora** launched as the most hyped AI video generator in history. Sora 2 followed in late 2025 with native audio, improved physics, and a dedicated mobile app. Then, on March 24, 2026, OpenAI pulled the plug. The app shut down on April 26, and the API is scheduled to follow on September 24, 2026.

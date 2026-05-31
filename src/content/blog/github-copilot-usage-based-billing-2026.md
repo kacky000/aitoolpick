@@ -3,6 +3,7 @@ title: "GitHub Copilot Usage-Based Billing: Everything You Need to Know (June 20
 description: "GitHub Copilot is moving to AI Credits in June 2026. Here's what changes, what stays free, and how it affects your bill."
 pubDate: "2026-05-05"
 tags: ["github-copilot", "pricing", "ai-coding", "news"]
+heroImage: "/thumbs/github-copilot-usage-based-billing-2026.jpg"
 ---
 
 GitHub just announced the biggest pricing change since Copilot launched: starting June 1, 2026, every plan moves to usage-based billing powered by AI Credits. The flat-rate "unlimited premium requests" model is gone. Here's exactly what's changing, what it means for your workflow, and whether you should start looking at alternatives.

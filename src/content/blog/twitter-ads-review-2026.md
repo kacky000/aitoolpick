@@ -3,6 +3,7 @@ title: "X Ads (Twitter) Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth X Ads (Twitter) review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["twitter-ads", "advertising", "review", "tools"]
+heroImage: "/thumbs/twitter-ads-review-2026.jpg"
 ---
 
 # X Ads (Twitter) Review 2026: Is It Worth It?

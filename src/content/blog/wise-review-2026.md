@@ -3,6 +3,7 @@ title: "Wise Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Wise review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["wise", "personal-finance", "review", "tools"]
+heroImage: "/thumbs/wise-review-2026.jpg"
 ---
 
 # Wise Review 2026: Is It Worth It?

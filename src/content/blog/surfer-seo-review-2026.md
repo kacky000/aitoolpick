@@ -3,6 +3,7 @@ title: "Surfer SEO Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Surfer SEO review covering features, pricing plans, pros and cons, and top alternatives. Find out if Surfer SEO is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["surfer-seo", "seo", "review", "productivity"]
+heroImage: "/thumbs/surfer-seo-review-2026.jpg"
 ---
 
 # Surfer SEO Review 2026: Is It Worth It?

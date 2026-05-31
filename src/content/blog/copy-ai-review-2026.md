@@ -3,6 +3,7 @@ title: "Copy.ai Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Copy.ai review covering features, pricing plans, pros and cons, and top alternatives. Find out if Copy.ai is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["copy-ai", "ai-writing", "review", "productivity"]
+heroImage: "/thumbs/copy-ai-review-2026.jpg"
 ---
 
 # Copy.ai Review 2026: Is It Worth It?

@@ -3,6 +3,7 @@ title: "Lovable Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Lovable review covering features, pricing plans, pros and cons, and top alternatives. Find out if Lovable is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["lovable", "ai-coding", "review", "productivity"]
+heroImage: "/thumbs/lovable-review-2026.jpg"
 ---
 
 # Lovable Review 2026: Is It Worth It?

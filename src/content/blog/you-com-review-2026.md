@@ -3,6 +3,7 @@ title: "You.com Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive You.com review covering features, pricing plans, pros and cons, and top alternatives. Find out if You.com is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["you-com", "ai-search", "review", "productivity"]
+heroImage: "/thumbs/you-com-review-2026.jpg"
 ---
 
 # You.com Review 2026: Is It Worth It?

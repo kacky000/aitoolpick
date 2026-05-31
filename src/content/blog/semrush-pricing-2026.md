@@ -3,6 +3,7 @@ title: "Semrush Pricing 2026: All Plans Compared (Is It Worth $140/Month?)"
 description: "Semrush pricing breakdown for 2026. Pro $140, Guru $250, Business $500 — plus hidden costs, free trial details, and when to choose Ahrefs instead."
 pubDate: "2026-05-08"
 tags: ["semrush", "seo", "pricing", "review"]
+heroImage: "/thumbs/semrush-pricing-2026.jpg"
 ---
 
 Semrush starts at $140/month — nearly 5x Ahrefs' Starter plan. Here's exactly what you're paying for and whether it's worth it.

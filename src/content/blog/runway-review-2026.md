@@ -3,6 +3,7 @@ title: "Runway Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Runway review covering features, pricing plans, pros and cons, and top alternatives. Find out if Runway is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["runway", "video-generation", "review", "productivity"]
+heroImage: "/thumbs/runway-review-2026.jpg"
 ---
 
 # Runway Review 2026: Is It Worth It?

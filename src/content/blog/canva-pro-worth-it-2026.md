@@ -3,6 +3,7 @@ title: "Is Canva Pro Worth It in 2026? Honest Review After 1 Year"
 description: "Is Canva Pro worth $15/month in 2026? We break down exactly what you get, what's still free, and who should upgrade vs. stick with the free plan."
 pubDate: "2026-05-08"
 tags: ["canva", "design", "review", "pricing"]
+heroImage: "/thumbs/canva-pro-worth-it-2026.jpg"
 ---
 
 Canva Pro costs $15/month (or $120/year). Is it worth it? The honest answer depends entirely on how you use Canva.

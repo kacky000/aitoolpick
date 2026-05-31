@@ -3,6 +3,7 @@ title: "Replit Pricing 2026: Every Plan Explained (Starter, Core, Pro, Enterpris
 description: "Replit pricing breakdown — free Starter, $20/mo Core, $100/mo Pro for teams, and Enterprise. Credits, limits, and hidden costs explained."
 pubDate: "2026-05-03"
 tags: ["replit", "ai-coding", "pricing"]
+heroImage: "/thumbs/replit-pricing-2026.jpg"
 ---
 
 Replit has grown from a browser-based code editor into a full AI development platform. With Replit Agent handling multi-step builds and deployments, pricing now matters more than ever — because the AI features that make Replit useful are also what drive up costs. Here's how each plan works in 2026.

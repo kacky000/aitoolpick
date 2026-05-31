@@ -3,6 +3,7 @@ title: "How to Switch from Zapier to n8n: Complete Migration Guide (2026)"
 description: "Step-by-step guide to migrating your Zaps to n8n workflows — concept mapping, migration process, cost savings, and common gotchas."
 pubDate: "2026-04-28"
 tags: ["zapier", "n8n", "automation", "migration"]
+heroImage: "/thumbs/how-to-switch-from-zapier-to-n8n.jpg"
 ---
 
 Zapier is the gateway drug of automation. It gets you hooked on connecting apps without code, then hits you with per-task pricing that scales faster than your business. If you've been eyeing n8n as an alternative, you're not alone — the open-source platform has grown rapidly among teams that want more control, lower costs, and the ability to write real code inside their workflows.

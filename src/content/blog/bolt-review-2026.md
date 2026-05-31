@@ -3,6 +3,7 @@ title: "Bolt.new Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Bolt.new review covering features, pricing plans, pros and cons, and top alternatives. Find out if Bolt.new is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["bolt", "ai-coding", "review", "productivity"]
+heroImage: "/thumbs/bolt-review-2026.jpg"
 ---
 
 # Bolt.new Review 2026: Is It Worth It?

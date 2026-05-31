@@ -3,6 +3,7 @@ title: "Jasper AI Pricing 2026: Creator vs Pro vs Business Plans Compared"
 description: "Complete breakdown of Jasper AI pricing in 2026. Compare Creator ($49/mo), Pro ($69/mo), and Business plans to find the best fit for your content needs."
 pubDate: "2026-05-10"
 tags: ["jasper", "pricing", "ai-writing"]
+heroImage: "/thumbs/jasper-pricing-2026.jpg"
 ---
 
 Jasper AI has settled into a three-tier pricing structure for 2026, with plans ranging from $39/month to custom enterprise pricing. Here's a full breakdown of what each plan includes and which one makes sense for your situation.

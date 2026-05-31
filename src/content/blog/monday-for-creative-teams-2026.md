@@ -3,6 +3,7 @@ title: "Monday.com for Creative Teams: Setup, Workflows & Tips (2026)"
 description: "How creative agencies and in-house design teams use Monday.com to manage campaigns, track assets, and hit deadlines in 2026. Templates and real workflows inside."
 pubDate: "2026-04-27"
 tags: ["monday", "project-management", "creative-teams", "design"]
+heroImage: "/thumbs/monday-for-creative-teams-2026.jpg"
 ---
 
 # Monday.com for Creative Teams: Setup, Workflows & Tips (2026)
@@ -118,6 +119,7 @@ Creative teams typically use Monday alongside:
 
 **Monday solution:** Use the Workload view (available on Pro plans and above) to visualize each designer's capacity. This surfaces overloaded team members before they become a bottleneck.
 
+heroImage: "/thumbs/monday-for-creative-teams-2026.jpg"
 ---
 
 **Challenge: Missing assets at launch.**

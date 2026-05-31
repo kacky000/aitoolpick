@@ -3,6 +3,7 @@ title: "OpenAI Codex Review 2026: The AI Coding Agent That Does the Work for You
 description: "A comprehensive review of OpenAI Codex in 2026 — features, pricing, performance, and whether it's worth the cost for developers and teams."
 pubDate: "2026-05-13"
 tags: ["openai", "codex", "ai-coding", "review"]
+heroImage: "/thumbs/openai-codex-review-2026.jpg"
 ---
 
 # OpenAI Codex Review 2026: The AI Coding Agent That Does the Work for You

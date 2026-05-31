@@ -3,6 +3,7 @@ title: "Retool Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Retool review covering features, pricing plans, pros and cons, and top alternatives. Find out if Retool is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["retool", "no-code", "review", "productivity"]
+heroImage: "/thumbs/retool-review-2026.jpg"
 ---
 
 # Retool Review 2026: Is It Worth It?

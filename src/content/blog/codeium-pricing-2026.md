@@ -3,6 +3,7 @@ title: "Codeium Pricing 2026: Is the Free Plan Really Free?"
 description: "Codeium pricing explained: Free vs Teams ($12/user) vs Enterprise. What you actually get for free and whether paid plans are worth it."
 pubDate: "2026-05-11"
 tags: ["ai-coding", "codeium", "pricing", "developer-tools"]
+heroImage: "/thumbs/codeium-pricing-2026.jpg"
 ---
 
 Codeium is one of the best free AI coding tools available — with unlimited autocomplete at no cost. But how does it compare to GitHub Copilot's paid plans, and when does upgrading to Teams make sense?

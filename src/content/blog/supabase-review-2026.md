@@ -4,6 +4,7 @@ description: "Our complete Supabase review for 2026 — Postgres database, authe
 pubDate: "2026-04-24"
 tags: ["supabase", "database", "api", "review", "open-source"]
 lastModified: "2026-04-24"
+heroImage: "/thumbs/supabase-review-2026.jpg"
 ---
 
 [Supabase](/tools/supabase/) has emerged as the leading open-source alternative to Firebase, offering a full backend-as-a-service built on PostgreSQL instead of NoSQL. In 2026, it powers everything from weekend side projects to production apps serving millions. Here's our comprehensive review.

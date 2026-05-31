@@ -3,6 +3,7 @@ title: "Podia Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Podia review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["podia", "education", "review", "tools"]
+heroImage: "/thumbs/podia-review-2026.jpg"
 ---
 
 # Podia Review 2026: Is It Worth It?

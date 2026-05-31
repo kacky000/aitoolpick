@@ -3,6 +3,7 @@ title: "Empower (Personal Capital) Review 2026: Features, Pricing & Honest Verdi
 description: "In-depth Empower (Personal Capital) review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["personal-capital", "personal-finance", "review", "tools"]
+heroImage: "/thumbs/personal-capital-review-2026.jpg"
 ---
 
 # Empower (Personal Capital) Review 2026: Is It Worth It?

@@ -3,6 +3,7 @@ title: "Canva Docs Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Canva Docs review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["canva-docs", "documents", "review", "tools"]
+heroImage: "/thumbs/canva-docs-review-2026.jpg"
 ---
 
 # Canva Docs Review 2026: Is It Worth It?

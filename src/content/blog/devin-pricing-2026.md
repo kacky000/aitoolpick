@@ -3,6 +3,7 @@ title: "Devin AI Pricing 2026: Complete Breakdown of Plans and ACU Costs"
 description: "Full breakdown of Devin AI pricing in 2026 including Core, Team, and Enterprise plans plus how ACU (Agent Compute Unit) costs work in practice."
 pubDate: "2026-05-04"
 tags: ["devin", "pricing", "ai-coding", "ai-agents"]
+heroImage: "/thumbs/devin-pricing-2026.jpg"
 ---
 
 # Devin AI Pricing 2026: Complete Breakdown of Plans and ACU Costs

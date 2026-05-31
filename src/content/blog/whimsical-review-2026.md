@@ -3,6 +3,7 @@ title: "Whimsical Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Whimsical review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["whimsical", "whiteboard", "review", "tools"]
+heroImage: "/thumbs/whimsical-review-2026.jpg"
 ---
 
 # Whimsical Review 2026: Is It Worth It?

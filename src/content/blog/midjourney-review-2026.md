@@ -3,6 +3,7 @@ title: "Midjourney Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Midjourney review covering features, pricing plans, pros and cons, and top alternatives. Find out if Midjourney is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["midjourney", "image-generation", "review", "productivity"]
+heroImage: "/thumbs/midjourney-review-2026.jpg"
 ---
 
 # Midjourney Review 2026: Is It Worth It?

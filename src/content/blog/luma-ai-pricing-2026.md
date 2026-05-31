@@ -3,6 +3,7 @@ title: "Luma AI Pricing 2026: Dream Machine Plans, Credits, and What You Get"
 description: "Complete Luma AI Dream Machine pricing breakdown for 2026. Free, Standard, Pro, and Premier plans compared with credit costs and video quality details."
 pubDate: "2026-05-06"
 tags: ["luma-ai", "ai-video", "pricing", "dream-machine", "video-generation"]
+heroImage: "/thumbs/luma-ai-pricing-2026.jpg"
 ---
 
 Luma AI's Dream Machine is one of the top AI video generators in 2026. Here's a complete breakdown of every plan, what you actually get, and whether it's worth the price.
@@ -32,6 +33,7 @@ The free tier lets you test Luma AI before committing:
 
 The free plan is enough to evaluate video quality but not enough for regular content creation.
 
+heroImage: "/thumbs/luma-ai-pricing-2026.jpg"
 ---
 
 ## What Does 1 Credit Cost?
@@ -61,6 +63,7 @@ Best for: Creators who need regular video output without watermarks.
 
 At $23.99/month with 24 standard videos, you're paying roughly **$1 per video clip** — competitive in the AI video market.
 
+heroImage: "/thumbs/luma-ai-pricing-2026.jpg"
 ---
 
 ## Pro Plan ($79.99/month)
@@ -88,6 +91,7 @@ Best for: Studios, agencies, and high-volume producers.
 
 At $400/month, this is enterprise territory. Most individual creators won't need it.
 
+heroImage: "/thumbs/luma-ai-pricing-2026.jpg"
 ---
 
 ## Luma AI vs Competitors on Pricing
@@ -111,6 +115,7 @@ At $400/month, this is enterprise territory. Most individual creators won't need
 
 **For testing:** The free plan with 30 credits is enough to evaluate whether Luma's quality matches your needs before spending.
 
+heroImage: "/thumbs/luma-ai-pricing-2026.jpg"
 ---
 
 ## When Luma AI Is the Right Choice

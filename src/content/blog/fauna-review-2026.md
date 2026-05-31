@@ -3,6 +3,7 @@ title: "Fauna Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Fauna review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["fauna", "database", "review", "tools"]
+heroImage: "/thumbs/fauna-review-2026.jpg"
 ---
 
 # Fauna Review 2026: Is It Worth It?

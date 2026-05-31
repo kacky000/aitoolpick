@@ -4,6 +4,7 @@ description: "A full Warp terminal review for 2026 — AI command suggestions, c
 pubDate: "2026-05-02"
 tags: ["warp", "ai-coding", "productivity", "review"]
 lastModified: "2026-05-02"
+heroImage: "/thumbs/warp-review-2026.jpg"
 ---
 
 [Warp](/tools/warp/) reimagines the terminal from scratch — replacing the decades-old text-buffer paradigm with a modern IDE-like experience. Built with Rust for performance and infused with AI for command suggestions, it's the most ambitious terminal project in years. Here's whether it lives up to the hype in 2026.

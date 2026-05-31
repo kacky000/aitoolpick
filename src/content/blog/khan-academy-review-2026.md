@@ -3,6 +3,7 @@ title: "Khan Academy Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Khan Academy review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["khan-academy", "education", "review", "tools"]
+heroImage: "/thumbs/khan-academy-review-2026.jpg"
 ---
 
 # Khan Academy Review 2026: Is It Worth It?

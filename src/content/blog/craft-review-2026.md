@@ -3,6 +3,7 @@ title: "Craft Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Craft review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["craft", "documents", "review", "tools"]
+heroImage: "/thumbs/craft-review-2026.jpg"
 ---
 
 # Craft Review 2026: Is It Worth It?

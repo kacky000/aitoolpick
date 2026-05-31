@@ -4,6 +4,7 @@ description: "Our complete Excalidraw review for 2026 — features, pricing, col
 pubDate: "2026-04-20"
 tags: ["excalidraw", "whiteboard", "open-source", "review", "collaboration"]
 lastModified: "2026-04-20"
+heroImage: "/thumbs/excalidraw-review-2026.jpg"
 ---
 
 [Excalidraw](/tools/excalidraw/) has become the go-to whiteboard tool for developers and product teams who value simplicity over feature complexity. Its hand-drawn aesthetic makes diagrams feel approachable rather than intimidating, and its open-source core means you can self-host it for complete privacy. Here's our full review for 2026.

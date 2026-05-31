@@ -4,6 +4,7 @@ description: "A detailed breakdown of Toggl Track's pricing plans for 2026 — F
 pubDate: "2026-05-01"
 tags: ["toggl-track", "time-tracking", "pricing"]
 lastModified: "2026-05-01"
+heroImage: "/thumbs/toggl-track-pricing-2026.jpg"
 ---
 
 [Toggl Track](/tools/toggl-track/) is one of the most popular time tracking tools available, known for its polished interface and powerful reporting. But understanding which plan you actually need can be confusing. This guide breaks down every tier so you can make an informed decision without overpaying.

@@ -3,6 +3,7 @@ title: "How to Use YNAB for Beginners: A Step-by-Step 2026 Guide"
 description: "New to YNAB? This beginner's guide walks you through setting up your first budget, assigning dollars, and building habits that actually stick in 2026."
 pubDate: "2026-04-27"
 tags: ["ynab", "budgeting", "personal-finance", "money-management"]
+heroImage: "/thumbs/how-to-use-ynab-for-beginners-2026.jpg"
 ---
 
 # How to Use YNAB for Beginners: A Step-by-Step 2026 Guide

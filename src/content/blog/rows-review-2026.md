@@ -4,6 +4,7 @@ description: "A complete Rows review for 2026 — built-in API connections, AI f
 pubDate: "2026-04-30"
 tags: ["rows", "spreadsheet", "analytics", "review"]
 lastModified: "2026-04-30"
+heroImage: "/thumbs/rows-review-2026.jpg"
 ---
 
 [Rows](/tools/rows/) reimagines what a spreadsheet can do by building data integrations directly into the cells. Instead of manually importing data or writing scripts, Rows connects to 50+ data sources — databases, APIs, SaaS tools — and pulls live data into a familiar spreadsheet interface. Here's our full review for 2026.

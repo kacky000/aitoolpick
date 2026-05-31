@@ -3,6 +3,7 @@ title: "Claude Code Review 2026: Anthropic's Terminal-Based Coding Agent"
 description: "A detailed review of Claude Code in 2026 covering its terminal-first approach, agentic capabilities, pricing through Claude Pro/Max, and real-world performance."
 pubDate: "2026-05-04"
 tags: ["claude", "ai-coding", "review", "ai-agents"]
+heroImage: "/thumbs/claude-code-review-2026.jpg"
 ---
 
 # Claude Code Review 2026: Anthropic's Terminal-Based Coding Agent

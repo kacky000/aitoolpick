@@ -3,6 +3,7 @@ title: "Perplexity AI Review 2026: Is It Worth the $20/Month?"
 description: "An honest review of Perplexity AI in 2026 — covering Free vs Pro, source citations, Focus modes, and how it compares to ChatGPT and Google Search."
 pubDate: "2026-04-29"
 tags: ["perplexity", "ai", "review", "search", "research"]
+heroImage: "/thumbs/perplexity-review-2026.jpg"
 ---
 Perplexity AI has carved out a distinct niche: an AI-powered search engine that answers questions with cited sources. Unlike [ChatGPT](/tools/chatgpt/), which generates answers from training data, Perplexity searches the web in real time and links you to the pages it pulled information from.
 

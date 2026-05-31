@@ -3,6 +3,7 @@ title: "Mixpanel Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive Mixpanel review covering features, pricing plans, pros and cons, and top alternatives. Find out if Mixpanel is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["mixpanel", "analytics", "review", "productivity"]
+heroImage: "/thumbs/mixpanel-review-2026.jpg"
 ---
 
 # Mixpanel Review 2026: Is It Worth It?

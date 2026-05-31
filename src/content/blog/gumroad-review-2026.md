@@ -3,6 +3,7 @@ title: "Gumroad Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Gumroad review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["gumroad", "ecommerce", "review", "tools"]
+heroImage: "/thumbs/gumroad-review-2026.jpg"
 ---
 
 # Gumroad Review 2026: Is It Worth It?

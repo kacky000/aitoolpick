@@ -3,6 +3,7 @@ title: "Canva for Teams 2026: Is the Team Plan Worth It?"
 description: "Everything you need to know about Canva for Teams in 2026 — features, pricing, collaboration tools, and whether it's worth upgrading from Canva Pro."
 pubDate: "2026-05-07"
 tags: ["canva", "design", "team-collaboration", "pricing"]
+heroImage: "/thumbs/canva-for-teams-2026.jpg"
 ---
 
 # Canva for Teams 2026: Is the Team Plan Worth It?

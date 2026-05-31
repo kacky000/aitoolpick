@@ -3,6 +3,7 @@ title: "Canva for Nonprofits: Free Access, Templates & Best Practices (2026)"
 description: "Nonprofits can access Canva Pro for free. Learn how to apply, what's included, and how to use Canva to create donor materials, social media posts, and event graphics."
 pubDate: "2026-04-27"
 tags: ["canva", "nonprofits", "design", "free-tools"]
+heroImage: "/thumbs/canva-for-nonprofits-2026.jpg"
 ---
 
 # Canva for Nonprofits: Free Access, Templates & Best Practices (2026)

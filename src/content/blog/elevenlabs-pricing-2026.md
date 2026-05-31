@@ -3,6 +3,7 @@ title: "ElevenLabs Pricing 2026: Plans, Costs & What You Actually Get"
 description: "Complete breakdown of ElevenLabs pricing in 2026. Compare Free, Starter, Creator, Pro, and Scale plans. Find out which plan fits your voice generation needs."
 pubDate: "2026-05-04"
 tags: ["elevenlabs", "ai-voice", "pricing", "productivity"]
+heroImage: "/thumbs/elevenlabs-pricing-2026.jpg"
 ---
 
 # ElevenLabs Pricing 2026: Complete Breakdown

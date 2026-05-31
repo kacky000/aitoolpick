@@ -3,6 +3,7 @@ title: "Linear for Engineering Teams: The Complete 2026 Guide"
 description: "Learn how engineering teams use Linear to manage sprints, track bugs, and ship faster. Setup tips, best practices, and workflow examples inside."
 pubDate: "2026-04-27"
 tags: ["linear", "project-management", "engineering", "software-development"]
+heroImage: "/thumbs/linear-for-engineering-teams-2026.jpg"
 ---
 
 # Linear for Engineering Teams: The Complete 2026 Guide

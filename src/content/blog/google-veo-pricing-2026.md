@@ -3,6 +3,7 @@ title: "Google Veo 3 Pricing 2026: Free Tier, AI Ultra, and API Costs Explained"
 description: "Complete pricing guide for Google Veo 3 in 2026 — free access, Google AI Ultra subscription, AI Studio costs, and Vertex AI API rates."
 pubDate: "2026-05-13"
 tags: ["google", "veo", "pricing", "ai-video"]
+heroImage: "/thumbs/google-veo-pricing-2026.jpg"
 ---
 
 Google Veo 3 is one of the few AI video generators that offers genuinely free access alongside premium tiers. But the pricing structure spans four distinct access paths — free, subscription, pay-as-you-go, and API — and the costs vary dramatically depending on which one you use. This guide breaks down every tier so you can figure out what Veo actually costs for your use case.

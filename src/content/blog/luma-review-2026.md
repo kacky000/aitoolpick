@@ -3,6 +3,7 @@ title: "Luma Dream Machine Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Luma Dream Machine review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["luma", "video-generation", "review", "tools"]
+heroImage: "/thumbs/luma-review-2026.jpg"
 ---
 
 # Luma Dream Machine Review 2026: Is It Worth It?

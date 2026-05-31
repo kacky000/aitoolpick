@@ -3,6 +3,7 @@ title: "Murf AI Pricing 2026: Is It Worth It? (Complete Breakdown)"
 description: "Murf AI pricing explained: Free vs Creator ($23/month) vs Business ($79/month) vs Enterprise. What you actually get at each tier and whether it's worth the cost."
 pubDate: "2026-05-11"
 tags: ["ai-voice", "murf-ai", "pricing", "text-to-speech"]
+heroImage: "/thumbs/murf-pricing-2026.jpg"
 ---
 
 Murf AI is one of the most popular AI voice generators for professional voiceovers — but is it priced fairly? This guide breaks down every Murf AI plan in 2026, what you actually get, and how it compares to alternatives.

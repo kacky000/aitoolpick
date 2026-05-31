@@ -4,6 +4,7 @@ description: "Our in-depth Todoist review for 2026 covers pricing, features, pro
 pubDate: "2026-04-18"
 tags: ["todoist", "task-management", "review", "productivity"]
 lastModified: "2026-04-18"
+heroImage: "/thumbs/todoist-review-2026.jpg"
 ---
 
 **Todoist** has been a staple in the productivity space since 2007, and in 2026 it remains one of the most popular task managers available. But with competitors like [TickTick](/tools/ticktick/), [Notion](/tools/notion/), and [Motion](/tools/motion/) evolving rapidly, does Todoist still hold up? We put it through its paces to find out.

@@ -3,6 +3,7 @@ title: "Kong Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Kong review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["kong", "api", "review", "tools"]
+heroImage: "/thumbs/kong-review-2026.jpg"
 ---
 
 # Kong Review 2026: Is It Worth It?

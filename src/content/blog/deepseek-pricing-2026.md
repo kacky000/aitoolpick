@@ -3,6 +3,7 @@ title: "DeepSeek Pricing 2026: API Costs, Free Tier, and How It Compares"
 description: "Complete guide to DeepSeek pricing in 2026. V4 Flash and V4 Pro API costs, cache-hit discounts, free tier details, and comparison with OpenAI and Claude."
 pubDate: "2026-05-08"
 tags: ["deepseek", "pricing", "ai", "llm"]
+heroImage: "/thumbs/deepseek-pricing-2026.jpg"
 ---
 
 DeepSeek has established itself as the most cost-competitive frontier AI model in 2026. With the release of V4 Flash and V4 Pro, the Chinese AI lab offers performance that rivals GPT-4o and Claude at a fraction of the cost.

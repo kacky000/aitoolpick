@@ -4,6 +4,7 @@ description: "A complete breakdown of HeyGen's pricing plans in 2026 — Free, C
 pubDate: "2026-04-30"
 tags: ["heygen", "video-generation", "pricing", "ai-voice"]
 lastModified: "2026-04-30"
+heroImage: "/thumbs/heygen-pricing-2026.jpg"
 ---
 
 [HeyGen](/tools/heygen/) is an AI video creation platform known for its exceptional video translation and personalization capabilities. But understanding its credit-based pricing system can be confusing. This guide breaks down exactly what you get at each tier and which plan makes financial sense for your needs.

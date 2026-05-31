@@ -3,6 +3,7 @@ title: "Claude Code Pricing 2026: Complete Cost Breakdown"
 description: "Claude Code pricing explained for 2026. Pro, Max, API, and Team plans compared — what each tier includes, usage limits, and how to pick the right plan."
 pubDate: "2026-05-12"
 tags: ["claude-code", "pricing", "ai-coding"]
+heroImage: "/thumbs/claude-code-pricing-2026.jpg"
 ---
 
 Claude Code is Anthropic's terminal-based AI coding agent. Unlike traditional IDE extensions, it runs in your command line, reads your codebase, edits files, executes commands, and handles multi-step engineering tasks autonomously. But how much does it actually cost? Here's the full pricing breakdown for 2026.

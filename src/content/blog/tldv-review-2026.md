@@ -3,6 +3,7 @@ title: "tl;dv Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth tl;dv review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["tldv", "ai-transcription", "review", "tools"]
+heroImage: "/thumbs/tldv-review-2026.jpg"
 ---
 
 # tl;dv Review 2026: Is It Worth It?

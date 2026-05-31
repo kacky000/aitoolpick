@@ -3,6 +3,7 @@ title: "DALL-E 3 Review 2026: Features, Pricing & Alternatives"
 description: "Comprehensive DALL-E 3 review covering features, pricing plans, pros and cons, and top alternatives. Find out if DALL-E 3 is the right tool for you."
 pubDate: "2026-05-02"
 tags: ["dall-e", "image-generation", "review", "productivity"]
+heroImage: "/thumbs/dall-e-review-2026.jpg"
 ---
 
 # DALL-E 3 Review 2026: Is It Worth It?

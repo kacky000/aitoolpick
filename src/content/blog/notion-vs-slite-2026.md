@@ -3,6 +3,7 @@ title: "Notion vs Slite 2026: Which Knowledge Base Tool Is Better?"
 description: "Detailed comparison of Notion and Slite in 2026. Pricing, features, AI capabilities, and which tool fits your team's knowledge management needs."
 pubDate: "2026-05-08"
 tags: ["notion", "slite", "comparison", "knowledge-management"]
+heroImage: "/thumbs/notion-vs-slite-2026.jpg"
 ---
 
 Notion and Slite both want to be your team's knowledge hub, but they take very different approaches. Notion is the Swiss Army knife—databases, wikis, projects, docs. Slite is the focused knowledge base—search-first, minimal setup, built for teams that need answers fast.

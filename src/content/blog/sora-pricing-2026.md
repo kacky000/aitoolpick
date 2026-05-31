@@ -3,6 +3,7 @@ title: "Sora Pricing 2026: Complete Breakdown of OpenAI's Video Plans"
 description: "Full breakdown of Sora pricing in 2026. Compare ChatGPT Plus, Pro, and API costs with credit rates, resolution limits, and real per-video costs."
 pubDate: "2026-05-09"
 tags: ["sora", "openai", "pricing", "ai-video", "video-generation"]
+heroImage: "/thumbs/sora-pricing-2026.jpg"
 ---
 
 OpenAI's Sora is no longer a research preview. It shipped inside ChatGPT, and as of January 2026 it requires a paid subscription. The pricing is not straightforward — credits, resolution multipliers, and API tiers all affect what you actually pay. This guide lays out every cost so you can decide whether Sora fits your budget.

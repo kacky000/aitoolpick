@@ -3,6 +3,7 @@ title: "Luma AI vs Runway 2026: Which AI Video Tool Is Worth Paying For?"
 description: "Luma AI Dream Machine vs Runway Gen-3 comparison. Video quality, pricing, use cases, and which AI video generator wins in 2026."
 pubDate: "2026-05-05"
 tags: ["luma-ai", "runway", "comparison", "ai-video", "video-generation"]
+heroImage: "/thumbs/luma-ai-vs-runway-2026.jpg"
 ---
 
 Luma AI's Dream Machine and Runway Gen-3 are both serious AI video generators, but they serve subtly different needs. One excels at cinematic beauty; the other at workflow flexibility. Here's the full breakdown.
@@ -33,6 +34,7 @@ Luma AI Dream Machine is a video generation model that produces cinematic-qualit
 
 Dream Machine operates via the Luma AI web app and API. It's part of Luma's broader suite (also known for 3D capture technology).
 
+heroImage: "/thumbs/luma-ai-vs-runway-2026.jpg"
 ---
 
 ## Video Quality Comparison
@@ -79,6 +81,7 @@ Runway produces equally impressive output but with a different character — sli
 
 **Important note:** Runway's Unlimited plan ($76/mo) is unique in the market — no credit limits. For high-volume users, this is often more economical than any credit-based plan.
 
+heroImage: "/thumbs/luma-ai-vs-runway-2026.jpg"
 ---
 
 ## Feature Comparison
@@ -119,6 +122,7 @@ Runway produces equally impressive output but with a different character — sli
 - Use Luma for client-facing hero shots (maximum visual impact)
 - Use Runway for iterative production work
 
+heroImage: "/thumbs/luma-ai-vs-runway-2026.jpg"
 ---
 
 ## The Verdict

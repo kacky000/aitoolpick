@@ -3,6 +3,7 @@ title: "Microsoft Agent 365 Review 2026: The Enterprise AI Agent Control Plane"
 description: "Review of Microsoft Agent 365 — the new platform for managing, governing, and securing AI agents across your organization. Features, pricing, and enterprise value."
 pubDate: "2026-05-13"
 tags: ["microsoft", "agent-365", "enterprise", "ai-agents", "review"]
+heroImage: "/thumbs/microsoft-agent-365-review-2026.jpg"
 ---
 
 Microsoft Agent 365 is not another AI agent builder. It is a control plane — a centralized dashboard for observing, governing, and securing every AI agent operating within your organization, regardless of which platform built them. It reached general availability in May 2026, and it fills a gap that enterprises have been struggling with since the agent explosion began: how do you manage dozens or hundreds of autonomous AI agents without losing visibility or control?

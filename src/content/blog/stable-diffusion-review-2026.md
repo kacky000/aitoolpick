@@ -3,6 +3,7 @@ title: "Stable Diffusion Review 2026: Features, Pricing & Honest Verdict"
 description: "In-depth Stable Diffusion review for 2026. We cover features, pricing plans, pros & cons, and alternatives to help you decide if it's right for you."
 pubDate: "2026-05-02"
 tags: ["stable-diffusion", "image-generation", "review", "tools"]
+heroImage: "/thumbs/stable-diffusion-review-2026.jpg"
 ---
 
 # Stable Diffusion Review 2026: Is It Worth It?

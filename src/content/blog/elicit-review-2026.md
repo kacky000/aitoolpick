@@ -4,6 +4,7 @@ description: "Our complete Elicit review for 2026 — paper search, data extract
 pubDate: "2026-04-18"
 tags: ["elicit", "research", "ai-search", "review", "education"]
 lastModified: "2026-04-18"
+heroImage: "/thumbs/elicit-review-2026.jpg"
 ---
 
 [Elicit](/tools/elicit/) is an AI research assistant that searches, summarizes, and extracts data from academic papers. For researchers drowning in literature, it promises to cut review time from weeks to hours. After testing it across multiple research domains, here's whether it delivers on that promise.

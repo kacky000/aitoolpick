@@ -3,6 +3,7 @@ title: "Logseq Free vs Paid: What Do You Actually Get?"
 description: "Logseq Free vs Sync vs Sponsor plans compared for 2026. Find out when paying makes sense and how it stacks up against Obsidian Sync."
 pubDate: "2026-04-29"
 tags: ["logseq", "pricing", "free-vs-paid", "note-taking"]
+heroImage: "/thumbs/logseq-free-vs-paid-2026.jpg"
 ---
 
 Logseq is one of the few knowledge management tools where the free version is genuinely full-featured. Unlike most SaaS apps that gate core functionality behind a subscription, Logseq's entire local experience — outlining, bidirectional linking, graph view, plugins — ships at no cost. The paid tiers exist for sync and for supporting the project's development.

@@ -3,6 +3,7 @@ title: "Canva for Education 2026: Is It Really Free? (Full Guide)"
 description: "Is Canva for Education actually free in 2026? Who qualifies, how to apply, what's included, and how it compares to Canva Pro."
 pubDate: "2026-05-05"
 tags: ["canva", "canva-for-education", "pricing", "education", "teachers", "students"]
+heroImage: "/thumbs/canva-for-education-pricing-2026.jpg"
 ---
 
 Canva for Education is genuinely free for eligible teachers and K-12 students — but there are conditions. This guide covers who qualifies, how to apply, what you get, and when you might still need a paid plan.
@@ -35,6 +36,7 @@ Canva for Education gives verified educators full access to Canva Pro features, 
 
 Everything a teacher needs for creating classroom materials, assignments, and presentations is included.
 
+heroImage: "/thumbs/canva-for-education-pricing-2026.jpg"
 ---
 
 ## Who Qualifies?
@@ -72,6 +74,7 @@ Everything a teacher needs for creating classroom materials, assignments, and pr
 **Students — Step-by-step:**
 Students don't apply directly. Teachers create a Canva class, then invite students via class code or link. Students join the class with their own accounts (or via school login). Enrolled students get Pro features automatically through the class.
 
+heroImage: "/thumbs/canva-for-education-pricing-2026.jpg"
 ---
 
 ## Canva for Education vs Canva Pro: Differences
@@ -111,6 +114,7 @@ Yes — full access through the Canva mobile app.
 **Can university professors get Canva for Education?**
 No. Universities should apply for [Canva for Campus](https://www.canva.com/campus) instead, which covers higher education institutions.
 
+heroImage: "/thumbs/canva-for-education-pricing-2026.jpg"
 ---
 
 ## Alternatives for Non-Qualifying Educators
@@ -131,6 +135,7 @@ If you're a K-12 teacher, applying for Canva for Education is a no-brainer — i
 
 For everyone else: Canva Pro at $15/mo is worth it if you design regularly. The free tier handles occasional needs, but Canva Pro's AI tools and expanded templates make a real difference.
 
+heroImage: "/thumbs/canva-for-education-pricing-2026.jpg"
 ---
 
 ## More Canva Resources

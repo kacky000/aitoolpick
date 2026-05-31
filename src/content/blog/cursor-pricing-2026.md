@@ -3,6 +3,7 @@ title: "Cursor Pricing 2026: Complete Breakdown of All Plans and Costs"
 description: "Cursor AI IDE pricing explained — Hobby, Pro, Pro+, Ultra, Teams, and Enterprise plans compared with features, credits, and real costs."
 pubDate: "2026-05-02"
 tags: ["cursor", "ai-coding", "pricing"]
+heroImage: "/thumbs/cursor-pricing-2026.jpg"
 ---
 
 Cursor has quickly become one of the most popular AI-powered code editors, but its pricing structure can be confusing — especially after the June 2025 switch from request-based to credit-based billing. Here's everything you need to know about Cursor's pricing in 2026.

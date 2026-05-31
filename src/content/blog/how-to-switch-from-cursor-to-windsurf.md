@@ -3,6 +3,7 @@ title: "How to Switch from Cursor to Windsurf: Complete Migration Guide"
 description: "Step-by-step guide to switch from Cursor to Windsurf. Covers settings migration, extension compatibility, AI feature differences, and setup tips."
 pubDate: "2026-05-11"
 tags: ["cursor", "windsurf", "ai-coding", "migration", "how-to"]
+heroImage: "/thumbs/how-to-switch-from-cursor-to-windsurf.jpg"
 ---
 
 Switching from Cursor to Windsurf is straightforward — both editors are built on VS Code, so your extensions, themes, and muscle memory mostly carry over. The differences that matter are in AI behavior, pricing structure, and workflow patterns that take a few days to adjust to.

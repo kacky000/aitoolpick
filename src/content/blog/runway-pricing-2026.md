@@ -3,6 +3,7 @@ title: "Runway Pricing 2026: Complete Plan Breakdown"
 description: "Runway ML pricing explained for 2026. Free, Standard, Pro, Unlimited, and Enterprise plans compared with credit costs and Gen-3 Alpha usage details."
 pubDate: "2026-05-07"
 tags: ["runway", "ai-video", "pricing"]
+heroImage: "/thumbs/runway-pricing-2026.jpg"
 ---
 
 Runway is one of the most capable AI video generation platforms available, but its credit-based pricing can be hard to predict. How many credits does a 10-second Gen-3 Alpha clip actually cost? How fast do you burn through a monthly allocation? This guide breaks down every Runway plan and the real cost of using it in 2026.
