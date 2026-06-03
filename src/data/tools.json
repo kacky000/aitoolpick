@@ -787,7 +787,8 @@
     ],
     "pricing": {
       "free": false,
-      "annual": 99
+      "monthly": 14.99,
+      "annual": 109
     },
     "currency": "USD",
     "pricingModel": "annual",
@@ -37200,7 +37201,8 @@
     ],
     "pricing": {
       "free": false,
-      "annual": 9.99
+      "monthly": 14.99,
+      "annual": 99.99
     },
     "currency": "USD",
     "pricingModel": "subscription",
