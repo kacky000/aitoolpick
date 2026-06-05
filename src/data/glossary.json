@@ -642,5 +642,113 @@
       "wysiwyg",
       "headless-cms"
     ]
+  },
+  {
+    "term": "RBAC",
+    "slug": "rbac",
+    "definition": "Role-Based Access Control - restricts system access based on user roles within an organization.",
+    "related": [
+      "sso",
+      "security"
+    ]
+  },
+  {
+    "term": "Sprint",
+    "slug": "sprint",
+    "definition": "A fixed time period in Scrum methodology during which a team completes planned tasks.",
+    "related": [
+      "scrum",
+      "agile"
+    ]
+  },
+  {
+    "term": "Funnel",
+    "slug": "funnel",
+    "definition": "A model representing customer journey stages from awareness to purchase.",
+    "related": [
+      "conversion-rate",
+      "analytics"
+    ]
+  },
+  {
+    "term": "Zero-Knowledge Encryption",
+    "slug": "zero-knowledge-encryption",
+    "definition": "Encryption where only the user holds decryption keys - the provider cannot access data.",
+    "related": [
+      "encryption",
+      "privacy"
+    ]
+  },
+  {
+    "term": "2FA",
+    "slug": "two-factor-authentication",
+    "definition": "Two-Factor Authentication - requires two forms of identification to access an account.",
+    "related": [
+      "sso",
+      "oauth"
+    ]
+  },
+  {
+    "term": "Workflow Automation",
+    "slug": "workflow-automation",
+    "definition": "Using software to automate repetitive processes by connecting tools and triggering actions on events.",
+    "related": [
+      "automation",
+      "webhook"
+    ]
+  },
+  {
+    "term": "Product Analytics",
+    "slug": "product-analytics",
+    "definition": "Collecting and analyzing user behavior data to understand usage patterns and drive growth.",
+    "related": [
+      "analytics",
+      "funnel"
+    ]
+  },
+  {
+    "term": "Feature Flag",
+    "slug": "feature-flag",
+    "definition": "Enabling or disabling features in production without new deployments, for gradual rollouts.",
+    "related": [
+      "ci-cd",
+      "ab-testing"
+    ]
+  },
+  {
+    "term": "Technical Debt",
+    "slug": "technical-debt",
+    "definition": "The implied cost of future rework from choosing quick solutions over better long-term approaches.",
+    "related": [
+      "agile",
+      "refactoring"
+    ]
+  },
+  {
+    "term": "Retention",
+    "slug": "retention",
+    "definition": "The ability to keep users engaged over time, measured as percentage continuing after signup.",
+    "related": [
+      "churn-rate",
+      "dau-mau"
+    ]
+  },
+  {
+    "term": "White Label",
+    "slug": "white-label",
+    "definition": "A product produced by one company that another can rebrand and resell as their own.",
+    "related": [
+      "saas",
+      "branding"
+    ]
+  },
+  {
+    "term": "Multi-Tenant",
+    "slug": "multi-tenant",
+    "definition": "Architecture where one application instance serves multiple customers with isolated data.",
+    "related": [
+      "saas",
+      "cloud-computing"
+    ]
   }
 ]
