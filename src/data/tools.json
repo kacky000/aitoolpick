@@ -5573,13 +5573,14 @@
     ],
     "pricing": {
       "free": true,
-      "individual": 16,
-      "standard": 79,
+      "starter": 79,
+      "basic": 199,
+      "growth": 399,
       "enterprise": null
     },
     "currency": "USD",
     "pricingModel": "monthly",
-    "description": "AI writing platform with SEO-optimized article generation, brand voice, and integrated Chatsonic AI chatbot.",
+    "description": "AI search visibility and content platform with GEO/AEO tracking, SEO-optimized article generation, and brand voice.",
     "pros": [
       "SEO-optimized long-form article writer",
       "Chatsonic chatbot with real-time web access",
