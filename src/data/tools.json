@@ -11,7 +11,7 @@
     "pricing": {
       "free": true,
       "plus": 10,
-      "business": 20,
+      "business": 18,
       "enterprise": null
     },
     "currency": "USD",
