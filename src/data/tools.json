@@ -37105,8 +37105,8 @@
     ],
     "pricing": {
       "free": true,
-      "essentials": 35,
-      "business": 65,
+      "essentials": 19,
+      "business": 49,
       "enterprise": null
     },
     "currency": "USD",
