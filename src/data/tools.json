@@ -882,8 +882,9 @@
     ],
     "pricing": {
       "free": true,
-      "professional": 19.99,
-      "team": 69,
+      "starter": 29.99,
+      "professional": 73.5,
+      "team": 103.5,
       "enterprise": null
     },
     "currency": "USD",
