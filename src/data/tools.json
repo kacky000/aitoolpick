@@ -38952,5 +38952,244 @@
     "rating": 4.3,
     "yearFounded": 2023,
     "icon": null
+  },
+  {
+    "id": "honeydue",
+    "name": "Honeydue",
+    "slug": "honeydue",
+    "category": [
+      "budgeting",
+      "personal-finance"
+    ],
+    "pricing": {
+      "free": true
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Free budgeting app designed for couples to share finances, track spending, and communicate about money together.",
+    "pros": [
+      "Completely free with all features",
+      "Best-in-class privacy controls for couples",
+      "In-app chat and transaction commenting",
+      "Supports 20,000+ financial institutions"
+    ],
+    "cons": [
+      "Bank sync frequently breaks",
+      "No new features since 2022",
+      "Mobile-only, no web access"
+    ],
+    "bestFor": [
+      "couples",
+      "shared-budgeting",
+      "beginners",
+      "free-users"
+    ],
+    "features": [
+      "shared-budgets",
+      "bill-tracking",
+      "bank-sync",
+      "privacy-controls",
+      "in-app-messaging",
+      "spending-limits"
+    ],
+    "website": "https://www.honeydue.com",
+    "affiliateUrl": "",
+    "rating": 3.8,
+    "yearFounded": 2016,
+    "icon": null
+  },
+  {
+    "id": "simplifi",
+    "name": "Simplifi by Quicken",
+    "slug": "simplifi",
+    "category": [
+      "budgeting",
+      "personal-finance"
+    ],
+    "pricing": {
+      "free": false,
+      "annual": 71.88
+    },
+    "currency": "USD",
+    "pricingModel": "annual",
+    "description": "Streamlined personal finance app with a smart Spending Plan that shows how much you can safely spend after bills, subscriptions, and savings.",
+    "pros": [
+      "Affordable at roughly half the price of YNAB",
+      "Spending Plan feature is uniquely intuitive",
+      "Investment tracking and net worth included",
+      "Clean interface with low learning curve"
+    ],
+    "cons": [
+      "No monthly billing option",
+      "No separate user profiles for families",
+      "US-only availability"
+    ],
+    "bestFor": [
+      "beginners",
+      "solo-budgeters",
+      "former-mint-users",
+      "investors"
+    ],
+    "features": [
+      "spending-plan",
+      "bank-sync",
+      "investment-tracking",
+      "net-worth",
+      "subscription-tracking",
+      "savings-goals",
+      "reports"
+    ],
+    "website": "https://www.quicken.com/products/simplifi",
+    "affiliateUrl": "",
+    "rating": 4.1,
+    "yearFounded": 2020,
+    "icon": null
+  },
+  {
+    "id": "tiller-money",
+    "name": "Tiller Money",
+    "slug": "tiller-money",
+    "category": [
+      "budgeting",
+      "personal-finance",
+      "spreadsheets"
+    ],
+    "pricing": {
+      "free": false,
+      "annual": 79
+    },
+    "currency": "USD",
+    "pricingModel": "annual",
+    "description": "Automatically feeds daily bank transactions into Google Sheets or Excel, giving spreadsheet users full control over budgeting and financial tracking.",
+    "pros": [
+      "Unmatched customization via spreadsheets",
+      "Cheaper than YNAB and Monarch Money",
+      "Supports both Google Sheets and Excel",
+      "Strong security with 256-bit encryption"
+    ],
+    "cons": [
+      "No mobile app",
+      "Steeper onboarding than typical budget apps",
+      "Requires spreadsheet literacy"
+    ],
+    "bestFor": [
+      "spreadsheet-users",
+      "power-users",
+      "freelancers",
+      "accountants"
+    ],
+    "features": [
+      "bank-sync",
+      "google-sheets",
+      "excel",
+      "auto-categorization",
+      "templates",
+      "reports",
+      "daily-email-digest"
+    ],
+    "website": "https://tiller.com",
+    "affiliateUrl": "",
+    "rating": 4.3,
+    "yearFounded": 2016,
+    "icon": null
+  },
+  {
+    "id": "flowise",
+    "name": "Flowise",
+    "slug": "flowise",
+    "category": [
+      "ai-development",
+      "automation",
+      "no-code"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 19,
+      "pro": 49,
+      "enterprise": 149
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Open-source low-code platform for building AI agents, chatbots, and LLM-powered workflows through a visual drag-and-drop interface.",
+    "pros": [
+      "Visual drag-and-drop for rapid prototyping",
+      "Flexible model choice across LLM providers",
+      "Self-hosting for full data control",
+      "100+ built-in nodes and connectors"
+    ],
+    "cons": [
+      "Complex flows hard to debug at scale",
+      "Enterprise features locked behind paid tiers",
+      "Documentation quality inconsistent"
+    ],
+    "bestFor": [
+      "developers",
+      "startups",
+      "non-technical-users",
+      "ai-teams"
+    ],
+    "features": [
+      "visual-builder",
+      "llm-chains",
+      "ai-agents",
+      "rag",
+      "self-hosted",
+      "open-source",
+      "multi-agent"
+    ],
+    "website": "https://flowiseai.com",
+    "affiliateUrl": "",
+    "rating": 4.2,
+    "yearFounded": 2023,
+    "icon": null
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "slug": "llamaindex",
+    "category": [
+      "ai-development",
+      "developer-tools"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 50,
+      "pro": 500,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Open-source data orchestration framework connecting LLMs with external data sources for building RAG pipelines, document Q&A, and AI agents.",
+    "pros": [
+      "Best-in-class RAG components",
+      "Largest connector ecosystem (200+ via LlamaHub)",
+      "Production-ready prepackaged agents",
+      "MIT license, no vendor lock-in"
+    ],
+    "cons": [
+      "Agent capabilities less mature than LangGraph",
+      "Advanced parsing needs paid LlamaCloud",
+      "TypeScript lags behind Python"
+    ],
+    "bestFor": [
+      "developers",
+      "enterprises",
+      "data-engineers",
+      "ai-teams"
+    ],
+    "features": [
+      "rag",
+      "document-parsing",
+      "data-connectors",
+      "ai-agents",
+      "open-source",
+      "python",
+      "typescript"
+    ],
+    "website": "https://www.llamaindex.ai",
+    "affiliateUrl": "",
+    "rating": 4.4,
+    "yearFounded": 2022,
+    "icon": null
   }
 ]
