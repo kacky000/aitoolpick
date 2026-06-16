@@ -37202,8 +37202,9 @@
     ],
     "pricing": {
       "free": false,
-      "monthly": 14.99,
-      "annual": 99.99
+      "core_monthly": 14.99,
+      "core_annual": 99.99,
+      "plus_annual": 199
     },
     "currency": "USD",
     "pricingModel": "subscription",
@@ -38858,8 +38859,9 @@
     "pricing": {
       "free": true,
       "standard": 10,
-      "pro": 35,
-      "premier": 55
+      "pro": 37,
+      "premier": 92,
+      "ultra": 180
     },
     "currency": "USD",
     "pricingModel": "monthly-credits",
@@ -38911,8 +38913,8 @@
       "free": true,
       "api_v4_flash_input": 0.14,
       "api_v4_flash_output": 0.28,
-      "api_v4_pro_input": 1.74,
-      "api_v4_pro_output": 3.48
+      "api_v4_pro_input": 0.435,
+      "api_v4_pro_output": 0.87
     },
     "currency": "USD",
     "pricingModel": "pay-per-use",
