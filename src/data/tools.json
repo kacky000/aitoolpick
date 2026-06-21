@@ -39192,5 +39192,153 @@
     "rating": 4.4,
     "yearFounded": 2022,
     "icon": null
+  },
+  {
+    "id": "jotform",
+    "name": "Jotform",
+    "slug": "jotform",
+    "category": [
+      "no-code",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "bronze": 34,
+      "silver": 39,
+      "gold": 99,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Online form builder with drag-and-drop creation, payment integrations, HIPAA compliance, and 10,000+ templates for surveys, registrations, and lead capture.",
+    "pros": [
+      "10,000+ ready-made templates",
+      "HIPAA compliance on Gold plan",
+      "Drag-and-drop builder with conditional logic",
+      "Generous free plan (5 forms, 100 submissions)"
+    ],
+    "cons": [
+      "Single-user on all plans except Enterprise",
+      "Submission limits can be restrictive",
+      "Interface feels dated compared to Typeform"
+    ],
+    "bestFor": [
+      "small-businesses",
+      "healthcare",
+      "nonprofits",
+      "educators"
+    ],
+    "features": [
+      "drag-and-drop-builder",
+      "conditional-logic",
+      "payment-collection",
+      "hipaa-compliance",
+      "templates",
+      "integrations",
+      "pdf-generation"
+    ],
+    "website": "https://www.jotform.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2006,
+    "icon": null
+  },
+  {
+    "id": "fillout",
+    "name": "Fillout",
+    "slug": "fillout",
+    "category": [
+      "no-code",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 15,
+      "pro": 40,
+      "business": 75
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Modern form builder with native Notion, Airtable, and Smartsheet integrations, offering unlimited forms and seats on every plan including free.",
+    "pros": [
+      "Unlimited forms and seats on free plan",
+      "1,000 free responses per month",
+      "Native Notion and Airtable integration",
+      "Clean modern interface"
+    ],
+    "cons": [
+      "Smaller template library than Jotform",
+      "Newer product with smaller community",
+      "Advanced features require Pro plan"
+    ],
+    "bestFor": [
+      "startups",
+      "notion-users",
+      "small-teams",
+      "freelancers"
+    ],
+    "features": [
+      "form-builder",
+      "notion-integration",
+      "airtable-integration",
+      "conditional-logic",
+      "payments",
+      "scheduling",
+      "custom-domains"
+    ],
+    "website": "https://www.fillout.com",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2022,
+    "icon": null
+  },
+  {
+    "id": "sunsama",
+    "name": "Sunsama",
+    "slug": "sunsama",
+    "category": [
+      "productivity",
+      "task-management"
+    ],
+    "pricing": {
+      "free": false,
+      "pro": 20,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Calm daily planner that combines tasks from Asana, Trello, Jira, GitHub, and email into a single daily view with timeboxing and focus mode.",
+    "pros": [
+      "Beautiful minimal interface reduces overwhelm",
+      "Pulls tasks from multiple tools into one view",
+      "Built-in timeboxing and daily planning ritual",
+      "Integrates with calendar natively"
+    ],
+    "cons": [
+      "No free plan",
+      "Expensive at $20-25/month for a planner",
+      "Limited project management features",
+      "No mobile offline mode"
+    ],
+    "bestFor": [
+      "professionals",
+      "managers",
+      "remote-workers",
+      "knowledge-workers"
+    ],
+    "features": [
+      "daily-planning",
+      "timeboxing",
+      "calendar-integration",
+      "task-aggregation",
+      "focus-mode",
+      "weekly-review",
+      "team-visibility"
+    ],
+    "website": "https://www.sunsama.com",
+    "affiliateUrl": null,
+    "rating": 4.5,
+    "yearFounded": 2016,
+    "icon": null
   }
 ]
