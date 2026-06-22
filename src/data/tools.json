@@ -14453,7 +14453,8 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 29
+      "pro": 29,
+      "business": 89
     },
     "currency": "USD",
     "pricingModel": "monthly",
@@ -18231,7 +18232,7 @@
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
-    "description": "AI-powered calendar management tool that optimizes team schedules by automatically moving flexible meetings to create Focus Time blocks for deep work.",
+    "description": "AI-powered calendar management tool that optimizes team schedules by automatically moving flexible meetings to create Focus Time blocks for deep work. Note: Clockwise shut down on March 27, 2026.",
     "pros": [
       "Creates Focus Time automatically",
       "AI resolves scheduling conflicts",
@@ -18241,7 +18242,8 @@
     "cons": [
       "Requires team adoption for best results",
       "Can over-optimize meeting moves",
-      "Limited value for individuals alone"
+      "Limited value for individuals alone",
+      "Shut down on March 27, 2026"
     ],
     "bestFor": [
       "engineering-teams",
@@ -37156,7 +37158,7 @@
       "free": true,
       "starter": 10,
       "business": 15,
-      "enterprise": null
+      "enterprise": 22
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
@@ -39339,6 +39341,103 @@
     "affiliateUrl": null,
     "rating": 4.5,
     "yearFounded": 2016,
+    "icon": null
+  },
+  {
+    "id": "reclaim-ai",
+    "name": "Reclaim.ai",
+    "slug": "reclaim-ai",
+    "category": [
+      "productivity",
+      "calendar",
+      "time-tracking"
+    ],
+    "pricing": {
+      "free": true,
+      "starter": 8,
+      "business": 12,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "AI-powered time management app that auto-schedules tasks, habits, meetings, and breaks around your existing calendar events.",
+    "pros": [
+      "Generous free plan with core AI scheduling",
+      "Smart time blocking for tasks and habits",
+      "Integrates with Todoist, Asana, ClickUp, Jira, Linear",
+      "Automatic buffer time between meetings"
+    ],
+    "cons": [
+      "Google Calendar only (no Outlook on free plan)",
+      "Can feel aggressive with auto-scheduling",
+      "Limited team features on free/starter plans",
+      "Learning curve to set up properly"
+    ],
+    "bestFor": [
+      "professionals",
+      "remote-workers",
+      "managers",
+      "teams"
+    ],
+    "features": [
+      "ai-scheduling",
+      "time-blocking",
+      "habit-tracking",
+      "meeting-scheduling",
+      "calendar-sync",
+      "task-integration",
+      "team-analytics"
+    ],
+    "website": "https://reclaim.ai",
+    "affiliateUrl": null,
+    "rating": 4.6,
+    "yearFounded": 2019,
+    "icon": null
+  },
+  {
+    "id": "google-forms",
+    "name": "Google Forms",
+    "slug": "google-forms",
+    "category": [
+      "productivity",
+      "no-code"
+    ],
+    "pricing": {
+      "free": true
+    },
+    "currency": "USD",
+    "pricingModel": "free",
+    "description": "Free form and survey builder from Google that integrates with Google Sheets, Drive, and the rest of the Google Workspace ecosystem.",
+    "pros": [
+      "Completely free with no submission limits",
+      "Seamless Google Sheets integration",
+      "Simple and intuitive interface",
+      "Real-time collaboration"
+    ],
+    "cons": [
+      "Very limited design customization",
+      "No payment integration",
+      "Basic conditional logic only",
+      "No file upload limits on free (but storage counts against Google Drive)"
+    ],
+    "bestFor": [
+      "students",
+      "teachers",
+      "small-teams",
+      "individuals"
+    ],
+    "features": [
+      "form-builder",
+      "surveys",
+      "quizzes",
+      "google-sheets-integration",
+      "collaboration",
+      "templates"
+    ],
+    "website": "https://docs.google.com/forms",
+    "affiliateUrl": null,
+    "rating": 4.3,
+    "yearFounded": 2008,
     "icon": null
   }
 ]
