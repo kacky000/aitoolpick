@@ -39439,5 +39439,157 @@
     "rating": 4.3,
     "yearFounded": 2008,
     "icon": null
+  },
+  {
+    "id": "surveymonkey",
+    "name": "SurveyMonkey",
+    "slug": "surveymonkey",
+    "category": [
+      "survey",
+      "forms"
+    ],
+    "pricing": {
+      "free": true,
+      "standard": 39,
+      "advantage": 39,
+      "teamAdvantage": 30,
+      "teamPremier": 92,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Online survey platform for creating surveys, polls, and questionnaires with advanced analytics and reporting.",
+    "pros": [
+      "Easy to use survey builder",
+      "Advanced analytics and reporting",
+      "Large template library",
+      "Strong integrations ecosystem"
+    ],
+    "cons": [
+      "Expensive for individuals",
+      "Response limits on all plans",
+      "Free plan very limited (10 questions, 40 responses)",
+      "Annual billing required on most plans"
+    ],
+    "bestFor": [
+      "market-researchers",
+      "hr-teams",
+      "enterprise",
+      "educators"
+    ],
+    "features": [
+      "survey-builder",
+      "analytics",
+      "templates",
+      "logic-branching",
+      "integrations",
+      "reporting",
+      "api"
+    ],
+    "website": "https://www.surveymonkey.com",
+    "affiliateUrl": "",
+    "rating": 4.4,
+    "yearFounded": 1999,
+    "icon": null
+  },
+  {
+    "id": "dashlane",
+    "name": "Dashlane",
+    "slug": "dashlane",
+    "category": [
+      "cybersecurity"
+    ],
+    "pricing": {
+      "free": false,
+      "premium": 4.99,
+      "friendsFamily": 7.49,
+      "starter": 4,
+      "business": 8,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Password manager and digital wallet with VPN, dark web monitoring, and credential autofill across all devices.",
+    "pros": [
+      "Built-in VPN included",
+      "Dark web monitoring",
+      "Clean and intuitive UI",
+      "Automatic password changer"
+    ],
+    "cons": [
+      "No free plan anymore",
+      "More expensive than competitors",
+      "VPN is basic compared to dedicated providers",
+      "Limited storage on lower tiers"
+    ],
+    "bestFor": [
+      "individuals",
+      "families",
+      "small-teams",
+      "enterprise"
+    ],
+    "features": [
+      "password-manager",
+      "vpn",
+      "dark-web-monitoring",
+      "autofill",
+      "secure-sharing",
+      "two-factor-auth",
+      "sso"
+    ],
+    "website": "https://www.dashlane.com",
+    "affiliateUrl": "",
+    "rating": 4.5,
+    "yearFounded": 2012,
+    "icon": null
+  },
+  {
+    "id": "expressvpn",
+    "name": "ExpressVPN",
+    "slug": "expressvpn",
+    "category": [
+      "cybersecurity"
+    ],
+    "pricing": {
+      "free": false,
+      "monthly": 12.95,
+      "sixMonth": 9.99,
+      "annual": 6.67
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Premium VPN service with servers in 105 countries, known for fast speeds, strong encryption, and reliable streaming unblocking.",
+    "pros": [
+      "Consistently fast speeds",
+      "Works with Netflix and streaming services",
+      "Strong privacy (no-logs policy audited)",
+      "Easy-to-use apps on all platforms"
+    ],
+    "cons": [
+      "Most expensive major VPN",
+      "Only 8 simultaneous connections",
+      "No ad blocker included",
+      "Limited advanced configuration"
+    ],
+    "bestFor": [
+      "streamers",
+      "travelers",
+      "privacy-focused-users",
+      "remote-workers"
+    ],
+    "features": [
+      "vpn",
+      "encryption",
+      "kill-switch",
+      "split-tunneling",
+      "streaming-unblock",
+      "no-logs",
+      "cross-platform"
+    ],
+    "website": "https://www.expressvpn.com",
+    "affiliateUrl": "",
+    "rating": 4.6,
+    "yearFounded": 2009,
+    "icon": null
   }
 ]
