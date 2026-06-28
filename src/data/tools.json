@@ -8957,7 +8957,7 @@
     ],
     "pricing": {
       "free": false,
-      "basic": 3.59,
+      "basic": 3.49,
       "plus": 4.59,
       "complete": 5.59
     },
@@ -39591,5 +39591,100 @@
     "rating": 4.6,
     "yearFounded": 2009,
     "icon": null
+  },
+  {
+    "id": "protonvpn",
+    "name": "Proton VPN",
+    "slug": "protonvpn",
+    "category": [
+      "cybersecurity"
+    ],
+    "pricing": {
+      "free": true,
+      "plus": 2.99,
+      "unlimited": 7.99
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Privacy-focused VPN from the makers of Proton Mail with a generous free tier and open-source apps.",
+    "pros": [
+      "Free plan with no data limits",
+      "Open-source and audited",
+      "Based in Switzerland (strong privacy laws)",
+      "No-logs policy"
+    ],
+    "cons": [
+      "Free plan limited to 5 countries",
+      "Slower than some competitors",
+      "No dedicated IP option"
+    ],
+    "bestFor": [
+      "privacy-conscious-users",
+      "free-vpn-seekers",
+      "journalists",
+      "remote-workers"
+    ],
+    "features": [
+      "vpn-encryption",
+      "no-logs",
+      "kill-switch",
+      "split-tunneling",
+      "secure-core",
+      "ad-blocker",
+      "cross-platform"
+    ],
+    "website": "https://protonvpn.com",
+    "affiliateUrl": "",
+    "rating": 4.5,
+    "yearFounded": 2017,
+    "icon": "/icons/protonvpn.png"
+  },
+  {
+    "id": "surfshark",
+    "name": "Surfshark",
+    "slug": "surfshark",
+    "category": [
+      "cybersecurity"
+    ],
+    "pricing": {
+      "free": false,
+      "starter": 2.49,
+      "one": 2.79,
+      "onePlus": 4.49
+    },
+    "currency": "USD",
+    "pricingModel": "monthly",
+    "description": "Affordable VPN with unlimited device connections, ad-blocking, and antivirus features.",
+    "pros": [
+      "Unlimited simultaneous connections",
+      "Very affordable 2-year plans",
+      "Built-in ad blocker",
+      "CleanWeb malware protection"
+    ],
+    "cons": [
+      "Inconsistent speeds on some servers",
+      "Based in the Netherlands (14 Eyes)",
+      "Monthly plan is expensive"
+    ],
+    "bestFor": [
+      "budget-conscious-users",
+      "families",
+      "multi-device-users",
+      "streamers"
+    ],
+    "features": [
+      "vpn-encryption",
+      "unlimited-devices",
+      "ad-blocker",
+      "antivirus",
+      "kill-switch",
+      "split-tunneling",
+      "no-logs"
+    ],
+    "website": "https://surfshark.com",
+    "affiliateUrl": "",
+    "rating": 4.4,
+    "yearFounded": 2018,
+    "icon": "/icons/surfshark.png"
   }
 ]
