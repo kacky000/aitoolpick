@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ComparisonTable from '../../components/ComparisonTable.astro';
 import tools from '../../data/tools.json';
+import { shouldGenerate } from '../../data/comparePairs.js';
 import { getCollection } from 'astro:content';
 
 export function getStaticPaths() {
@@ -13,9 +14,7 @@ export function getStaticPaths() {
       const toolA = tools[i];
       const toolB = tools[j];
 
-      // 同じカテゴリを共有するペアのみ生成
-      const hasCommonCategory = toolA.category.some(c => toolB.category.includes(c));
-      if (!hasCommonCategory) continue;
+      if (!shouldGenerate(toolA, toolB)) continue;
 
       const [first, second] = toolA.id < toolB.id ? [toolA, toolB] : [toolB, toolA];
       const key = `${first.slug}-vs-${second.slug}`;
@@ -34,10 +33,9 @@ export function getStaticPaths() {
 
 const { toolA, toolB } = Astro.props;
 
-// Find related comparisons (tools that share a category with either toolA or toolB)
-const allCategories = [...new Set([...toolA.category, ...toolB.category])];
+// Related comparisons: only link to pages that are actually generated
 const relatedTools = tools.filter(
-  (t) => t.id !== toolA.id && t.id !== toolB.id && t.category.some((c) => allCategories.includes(c))
+  (t) => t.id !== toolA.id && t.id !== toolB.id && shouldGenerate(toolA, t)
 ).slice(0, 6);
 
 const relatedComparisons = relatedTools.map((t) => {
