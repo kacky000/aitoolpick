@@ -4161,7 +4161,7 @@
     },
     "currency": "USD",
     "pricingModel": "monthly",
-    "description": "All-in-one CRM platform with marketing, sales, service, and CMS hubs for growing businesses.",
+    "description": "All-in-one CRM platform with marketing, sales, service, and CMS hubs. Includes Breeze AI suite (Breeze Assistant, Breeze Agents, Breeze Intelligence) for AI-powered automation.",
     "pros": [
       "CRM is completely free forever",
       "All-in-one marketing + sales + service",
@@ -4186,7 +4186,8 @@
       "live-chat",
       "landing-pages",
       "automation",
-      "reporting"
+      "reporting",
+      "ai-assistant"
     ],
     "website": "https://www.hubspot.com",
     "affiliateUrl": "",
