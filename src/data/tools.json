@@ -495,8 +495,8 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 15,
-      "business": 20,
+      "pro": 18,
+      "business": 25,
       "enterprise": null
     },
     "currency": "USD",
