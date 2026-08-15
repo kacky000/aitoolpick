@@ -39687,5 +39687,195 @@
     "rating": 4.4,
     "yearFounded": 2018,
     "icon": "/icons/surfshark.png"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "slug": "openrouter",
+    "category": [
+      "ai-tools",
+      "developer-tools",
+      "llm-infrastructure"
+    ],
+    "pricing": {
+      "free": true,
+      "payPerUse": null
+    },
+    "currency": "USD",
+    "pricingModel": "pay-per-token",
+    "description": "Unified API gateway for accessing 200+ LLMs from a single endpoint with automatic fallbacks and cost optimization.",
+    "pros": [
+      "Access 200+ models via one API",
+      "Automatic model fallbacks",
+      "Competitive pricing vs direct APIs",
+      "No monthly subscription required"
+    ],
+    "cons": [
+      "Additional latency vs direct API",
+      "Rate limits on free tier",
+      "No fine-tuning support"
+    ],
+    "bestFor": [
+      "developers",
+      "ai-builders",
+      "startups",
+      "researchers"
+    ],
+    "features": [
+      "multi-model-access",
+      "automatic-fallbacks",
+      "cost-optimization",
+      "streaming",
+      "openai-compatible-api",
+      "usage-analytics"
+    ],
+    "website": "https://openrouter.ai",
+    "affiliateUrl": "",
+    "rating": 4.5,
+    "yearFounded": 2023,
+    "icon": "/icons/openrouter.png"
+  },
+  {
+    "id": "portkey",
+    "name": "Portkey",
+    "slug": "portkey",
+    "category": [
+      "ai-tools",
+      "developer-tools",
+      "llm-infrastructure"
+    ],
+    "pricing": {
+      "free": true,
+      "growth": 49,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-month",
+    "description": "AI gateway for production LLM apps with observability, caching, fallbacks, and guardrails.",
+    "pros": [
+      "Full observability and tracing",
+      "Semantic caching cuts costs",
+      "Automatic retries and fallbacks",
+      "Guardrails for safety"
+    ],
+    "cons": [
+      "Can add latency",
+      "Growth plan may be expensive for small teams",
+      "Setup requires code changes"
+    ],
+    "bestFor": [
+      "enterprise-ai-teams",
+      "developers",
+      "ai-startups"
+    ],
+    "features": [
+      "llm-observability",
+      "semantic-caching",
+      "automatic-fallbacks",
+      "guardrails",
+      "cost-tracking",
+      "multi-model-routing",
+      "load-balancing"
+    ],
+    "website": "https://portkey.ai",
+    "affiliateUrl": "",
+    "rating": 4.4,
+    "yearFounded": 2023,
+    "icon": "/icons/portkey.png"
+  },
+  {
+    "id": "helicone",
+    "name": "Helicone",
+    "slug": "helicone",
+    "category": [
+      "ai-tools",
+      "developer-tools",
+      "llm-infrastructure"
+    ],
+    "pricing": {
+      "free": true,
+      "pro": 80,
+      "enterprise": null
+    },
+    "currency": "USD",
+    "pricingModel": "per-month",
+    "description": "Open-source LLM observability platform for logging, monitoring, and analyzing your AI application's requests.",
+    "pros": [
+      "One-line integration",
+      "Open-source and self-hostable",
+      "Detailed request logging",
+      "Prompt versioning"
+    ],
+    "cons": [
+      "Pro plan is pricey",
+      "Limited alerting on free tier",
+      "UI can be slow with large datasets"
+    ],
+    "bestFor": [
+      "developers",
+      "ai-teams",
+      "open-source-advocates"
+    ],
+    "features": [
+      "request-logging",
+      "prompt-versioning",
+      "cost-tracking",
+      "rate-limiting",
+      "caching",
+      "evaluations",
+      "self-hostable"
+    ],
+    "website": "https://helicone.ai",
+    "affiliateUrl": "",
+    "rating": 4.4,
+    "yearFounded": 2022,
+    "icon": "/icons/helicone.png"
+  },
+  {
+    "id": "langflow",
+    "name": "Langflow",
+    "slug": "langflow",
+    "category": [
+      "ai-tools",
+      "developer-tools",
+      "no-code-ai"
+    ],
+    "pricing": {
+      "free": true,
+      "cloud": null
+    },
+    "currency": "USD",
+    "pricingModel": "open-source",
+    "description": "Open-source visual UI for building and prototyping LangChain-based AI workflows with a drag-and-drop interface.",
+    "pros": [
+      "Fully open-source",
+      "No-code visual builder",
+      "LangChain component ecosystem",
+      "Active community"
+    ],
+    "cons": [
+      "Enterprise hosting costs extra",
+      "Complex flows can be hard to debug",
+      "Limited production-ready features vs Flowise"
+    ],
+    "bestFor": [
+      "developers",
+      "ai-experimenters",
+      "teams-prototyping-ai-apps"
+    ],
+    "features": [
+      "visual-workflow-builder",
+      "langchain-components",
+      "api-export",
+      "vector-store-integration",
+      "agent-building",
+      "prompt-engineering",
+      "self-hostable"
+    ],
+    "website": "https://langflow.org",
+    "affiliateUrl": "",
+    "rating": 4.3,
+    "yearFounded": 2023,
+    "icon": "/icons/langflow.png"
   }
 ]
