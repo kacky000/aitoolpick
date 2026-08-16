@@ -1,7 +1,7 @@
 ---
 title: "Cursor Pricing 2026: Complete Breakdown of All Plans and Costs"
 description: "Cursor AI IDE pricing explained — Hobby, Pro, Pro+, Ultra, Teams, and Enterprise plans compared with features, credits, and real costs."
-pubDate: "2026-05-02"
+pubDate: "2026-08-16"
 tags: ["cursor", "ai-coding", "pricing"]
 heroImage: "/thumbs/cursor-pricing-2026.jpg"
 ---
