@@ -39877,5 +39877,55 @@
     "rating": 4.3,
     "yearFounded": 2023,
     "icon": "/icons/langflow.png"
+  },
+  {
+    "id": "langfuse",
+    "name": "Langfuse",
+    "slug": "langfuse",
+    "category": [
+      "ai-tools",
+      "developer-tools",
+      "llm-infrastructure"
+    ],
+    "pricing": {
+      "free": true,
+      "cloud": 29
+    },
+    "currency": "USD",
+    "pricingModel": "freemium",
+    "description": "Open-source LLM engineering platform (observability, evals, prompt management) acquired by ClickHouse in 2026. Self-hostable under MIT license.",
+    "pros": [
+      "MIT-licensed open source",
+      "Comprehensive tracing + evals + prompt management",
+      "Self-hostable with no seat/usage caps",
+      "Active community with 24k+ GitHub stars"
+    ],
+    "cons": [
+      "Self-hosting requires ClickHouse (ops overhead)",
+      "Cloud pricing can scale up fast at high volume",
+      "Steeper learning curve than Helicone proxy"
+    ],
+    "bestFor": [
+      "developers",
+      "ai-teams",
+      "teams-self-hosting",
+      "llm-evaluation"
+    ],
+    "features": [
+      "llm-tracing",
+      "prompt-management",
+      "evaluation-pipelines",
+      "dataset-management",
+      "cost-tracking",
+      "self-hostable",
+      "open-source",
+      "langchain-integration",
+      "openai-integration"
+    ],
+    "website": "https://langfuse.com",
+    "affiliateUrl": "",
+    "rating": 4.6,
+    "yearFounded": 2023,
+    "icon": "/icons/langfuse.png"
   }
 ]
