@@ -39927,5 +39927,57 @@
     "rating": 4.6,
     "yearFounded": 2023,
     "icon": "/icons/langfuse.png"
+  },
+  {
+    "id": "genspark",
+    "name": "Genspark",
+    "slug": "genspark",
+    "category": [
+      "ai-search",
+      "ai-agents",
+      "productivity"
+    ],
+    "pricing": {
+      "free": true,
+      "plus": 24.99,
+      "pro": 249.99,
+      "team": 30
+    },
+    "currency": "USD",
+    "pricingModel": "per-user-monthly",
+    "description": "Agentic AI search engine that executes multi-step tasks, generates Sparkpages, and makes AI phone calls.",
+    "pros": [
+      "Generous free tier (100 credits/day)",
+      "Agentic multi-step task execution",
+      "Sparkpage auto-generation",
+      "AI phone call feature",
+      "No credit card required for free"
+    ],
+    "cons": [
+      "Credit system can burn fast on heavy tasks",
+      "Pro plan is very expensive",
+      "Newer product, less proven track record",
+      "Current pricing promotional (until Dec 2026)"
+    ],
+    "bestFor": [
+      "researchers",
+      "marketers",
+      "business-analysts",
+      "power-users"
+    ],
+    "features": [
+      "ai-search",
+      "sparkpages",
+      "ai-phone-calls",
+      "multi-step-agents",
+      "image-generation",
+      "research-reports",
+      "team-collaboration"
+    ],
+    "website": "https://www.genspark.ai",
+    "affiliateUrl": "",
+    "rating": 4.3,
+    "yearFounded": 2024,
+    "icon": "/icons/genspark.png"
   }
 ]
