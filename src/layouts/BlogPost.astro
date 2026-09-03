@@ -153,8 +153,32 @@ const formattedModified = modifiedDate.toLocaleDateString('en-US', { year: 'nume
       <img class="article-hero" src={heroImage} alt={title} />
     )}
 
+    <!-- AdSense: article top（収益化テスト 2026-09-03〜。スロットはexpo2025と共用、専用ユニット発行後に差し替え） -->
+    <div class="ad-unit ad-unit-top">
+      <span class="ad-label">Advertisement</span>
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4052959814764437"
+        data-ad-slot="7388501974"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
     <div class="article-content">
       <slot />
+    </div>
+
+    <!-- AdSense: article bottom -->
+    <div class="ad-unit ad-unit-bottom">
+      <span class="ad-label">Advertisement</span>
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4052959814764437"
+        data-ad-slot="2555862179"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
 
     <!-- Source & update info -->
@@ -186,3 +210,12 @@ const formattedModified = modifiedDate.toLocaleDateString('en-US', { year: 'nume
     </div>
   </article>
 </BaseLayout>
+
+<style is:global>
+  /* AdSense枠（CLS対策のmin-height＋未配信時は白い空箱を残さず畳む） */
+  .ad-unit { margin: 1.75rem 0; }
+  .ad-label { display: block; font-size: 0.7rem; letter-spacing: 0.05em; color: #999; margin-bottom: 0.25rem; }
+  .ad-unit ins.adsbygoogle { display: block; width: 100%; min-height: 280px; }
+  @media (min-width: 769px) { .ad-unit ins.adsbygoogle { min-height: 250px; } }
+  .ad-unit:has(ins.adsbygoogle[data-ad-status="unfilled"]) { display: none; }
+</style>
