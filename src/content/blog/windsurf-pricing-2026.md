@@ -1,7 +1,8 @@
 ---
 title: "Windsurf Pricing 2026: Plans, Quotas, and What You Actually Pay"
 description: "Windsurf AI IDE pricing explained — Free, Pro, Max, Teams, and Enterprise plans compared with daily quotas, features, and real costs."
-pubDate: "2026-05-03"
+pubDate: "2026-09-14"
+updatedDate: "2026-09-14"
 tags: ["windsurf", "ai-coding", "pricing"]
 heroImage: "/thumbs/windsurf-pricing-2026.jpg"
 ---
@@ -21,8 +22,9 @@ Note: some older Windsurf documentation and blog posts may still reference the p
 | Plan | Price | Daily Quota | Best For |
 |------|-------|-------------|----------|
 | **Free** | $0 | Light quota | Trying Windsurf out |
-| **Pro** | $15/mo | 50 premium interactions/day | Individual developers |
-| **Teams** | $30/user/mo | 50+ interactions/day | Development teams |
+| **Pro** | $20/mo | 50 premium interactions/day | Individual developers |
+| **Max** | $200/mo | Highest quota | Power users & agent-heavy workflows |
+| **Teams** | $40/user/mo | 50+ interactions/day | Development teams |
 | **Enterprise** | Custom | Custom | Large organizations |
 
 ## Free ($0)
@@ -38,9 +40,9 @@ The free tier gives you a light daily quota of AI interactions plus unlimited Ta
 
 The free tier is genuinely usable for light coding sessions, but you'll hit the quota ceiling fast if you rely on Cascade for anything beyond quick questions.
 
-## Pro ($15/month)
+## Pro ($20/month)
 
-This is Windsurf's core paid plan and where most individual developers land.
+This is Windsurf's core paid plan and where most individual developers land. Note: Pro increased from $15 to $20 in March 2026 when Windsurf switched from credits to quotas.
 
 **What you get:**
 - 50 premium AI interactions per day (refreshes daily)
@@ -53,9 +55,21 @@ This is Windsurf's core paid plan and where most individual developers land.
 
 The daily refresh is the key selling point. On Windsurf's old system (and on [Cursor's](/tools/cursor/) current credit model), heavy usage early in the month could leave you rationed for the rest. With 50 daily interactions, you get a consistent experience every day.
 
-At $15/month, Pro undercuts [Cursor's $20/month Pro plan](/blog/cursor-pricing-2026/) while offering access to the same tier of frontier models.
+At $20/month, Pro now matches [Cursor's $20/month Pro plan](/blog/cursor-pricing-2026/) — making the choice more about workflow preferences than price alone.
 
-## Teams ($30/user/month)
+## Max ($200/month)
+
+For power users who need significantly higher daily quotas and priority access to the latest models.
+
+**What you get:**
+- Highest daily quota for AI interactions
+- Priority access to the newest models as they launch
+- Everything in Pro
+- Best for developers running Cascade throughout the workday or teams using Windsurf as a primary agent runtime
+
+The Max plan competes directly with [Cursor's Ultra tier at $200/month](/blog/cursor-pricing-2026/) — both targeting developers who treat AI coding agents as core infrastructure rather than an occasional assistant.
+
+## Teams ($40/user/month)
 
 Built for organizations that need centralized management on top of Pro features.
 
@@ -114,15 +128,17 @@ Windsurf offers annual billing at a discount. Expect roughly 15-20% savings when
 ## Which Plan Should You Pick?
 
 - **Exploring AI-assisted coding for the first time?** Start with Free
-- **Solo developer, daily coding?** Pro at $15/month is the sweet spot
-- **Team of 3+?** Teams for centralized billing and admin controls
+- **Solo developer, daily coding?** Pro at $20/month is the sweet spot
+- **Heavy agent user or building on top of Windsurf?** Max at $200/month for highest quotas
+- **Team of 3+?** Teams at $40/user/month for centralized billing and admin controls
 - **Enterprise compliance needs?** Contact sales for custom pricing
 
 ## How Windsurf Compares on Price
 
 | Tool | Individual Plan | Billing Model |
 |------|----------------|---------------|
-| **Windsurf Pro** | $15/mo | Daily quota |
+| **Windsurf Pro** | $20/mo | Daily quota |
+| **Windsurf Max** | $200/mo | Daily quota (highest) |
 | **[Cursor](/tools/cursor/) Pro** | $20/mo | Monthly credit pool |
 | **[GitHub Copilot](/tools/github-copilot/) Individual** | $10/mo | Unlimited (with fair use) |
 

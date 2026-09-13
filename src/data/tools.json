@@ -1427,8 +1427,9 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 15,
-      "team": 30
+      "pro": 20,
+      "max": 200,
+      "team": 40
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
@@ -39979,5 +39980,52 @@
     "rating": 4.3,
     "yearFounded": 2024,
     "icon": "/icons/genspark.png"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "slug": "opencode",
+    "category": [
+      "ai-coding"
+    ],
+    "pricing": {
+      "free": true,
+      "zen": 20
+    },
+    "currency": "USD",
+    "pricingModel": "pay-as-you-go",
+    "description": "Open-source terminal-native AI coding agent supporting multiple LLM providers including Claude, GPT-4, Gemini, and local models.",
+    "pros": [
+      "Fully open-source and free with BYOK",
+      "Supports any LLM provider",
+      "Runs in terminal, desktop, IDE, or browser",
+      "No data storage by default",
+      "GitHub Actions integration"
+    ],
+    "cons": [
+      "Requires API keys for most models",
+      "Terminal-native UX has learning curve",
+      "Less polished UI than Cursor or Windsurf"
+    ],
+    "bestFor": [
+      "developers",
+      "open-source-enthusiasts",
+      "power-users",
+      "privacy-conscious-developers"
+    ],
+    "features": [
+      "multi-llm-support",
+      "terminal-native",
+      "file-editing",
+      "command-execution",
+      "github-actions",
+      "codebase-exploration",
+      "byok"
+    ],
+    "website": "https://opencode.ai",
+    "affiliateUrl": "",
+    "rating": 4.3,
+    "yearFounded": 2025,
+    "icon": "/icons/opencode.png"
   }
 ]
