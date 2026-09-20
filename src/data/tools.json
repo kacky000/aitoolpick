@@ -1379,6 +1379,7 @@
       "free": true,
       "pro": 10,
       "pro_plus": 39,
+      "max": 100,
       "business": 19,
       "enterprise": 39
     },
