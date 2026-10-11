@@ -3215,9 +3215,9 @@
     ],
     "pricing": {
       "free": true,
-      "starter": 32,
-      "growth": 89,
-      "team": 159,
+      "starter": 29,
+      "growth": 119,
+      "team": 349,
       "enterprise": null
     },
     "currency": "USD",
@@ -3318,9 +3318,8 @@
     ],
     "pricing": {
       "free": true,
-      "basic": 14,
-      "cms": 23,
-      "business": 39,
+      "basic": 15,
+      "premium": 25,
       "enterprise": null
     },
     "currency": "USD",
