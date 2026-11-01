@@ -1327,23 +1327,24 @@
     ],
     "pricing": {
       "free": true,
-      "pro": 20,
-      "pro_plus": 60,
+      "plus": 8,
+      "premium": 30,
+      "super": 100,
       "ultra": 200,
-      "business": 40
+      "teams": 30
     },
     "currency": "USD",
     "pricingModel": "per-user-monthly",
-    "description": "AI-first code editor built on VS Code with deep codebase understanding and multi-file editing.",
+    "description": "AI-first code editor acquired by SpaceX in August 2026 and now bundled with Grok and X via the unified X Subscription.",
     "pros": [
       "Understands entire codebase context",
       "Multi-file editing with Composer",
       "Tab autocomplete is fast and accurate",
-      "Built on familiar VS Code interface"
+      "Plus plan starts at just $8/month"
     ],
     "cons": [
-      "Expensive for power users (Ultra $200/mo)",
-      "Can feel complex for simple editing",
+      "Third-party models (Claude, GPT) cost extra on top of plan price",
+      "SpaceX acquisition adds uncertainty for enterprise buyers",
       "Requires good internet connection"
     ],
     "bestFor": [
